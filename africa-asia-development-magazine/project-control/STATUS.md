@@ -10,32 +10,34 @@
 | ID | Task | Suggested owner | State | Output |
 |---|---|---|---|---|
 | CTRL-001 | Install and reconcile project controls | Roadmap Controller | DONE | Control files and sector logs |
-| SRC-001 | Verify Ghana/South Korea sources and create APA 7 records | Sources & APA Agent | READY | Updated `SOURCES.md` and registries |
-| DATA-001 | Close or explicitly retain Ghana/South Korea data gaps | Country Data Agent | READY | Updated `data/ghana.md` and `data/south_korea.md` |
-| DATA-002 | Research Botswana with the common template | Country Data Agent | READY | `data/botswana.md` |
-| DATA-003 | Research Mauritius with the common template | Country Data Agent | READY | `data/mauritius.md` |
-| DATA-004 | Research Malaysia with the common template | Country Data Agent | READY | `data/malaysia.md` |
-| DATA-005 | Research Philippines with the common template | Country Data Agent | READY | `data/philippines.md` |
+| SRC-001 | Verify Ghana/South Korea sources and create APA 7 records | Sources & APA Agent | DONE | Registries and `research/ghana_korea_source_audit.md` |
+| DATA-001 | Close or explicitly retain Ghana/South Korea data gaps | Country Data Agent | IN PROGRESS | Updated `data/ghana.md` and `data/south_korea.md` |
+| DATA-002 | Research Botswana with the common template | Country Data Agent | DONE | `data/botswana.md` |
+| DATA-003 | Research Mauritius with the common template | Country Data Agent | DONE | `data/mauritius.md` |
+| DATA-004 | Research Malaysia with the common template | Country Data Agent | IN PROGRESS | `data/malaysia.md` |
+| DATA-005 | Research Philippines with the common template | Country Data Agent | IN PROGRESS | `data/philippines.md` |
 | RES-001 | Verify colonialism, borders, infrastructure, and independence claims | History & Theory Agent | READY | Page-mapped evidence pack |
 | RES-002 | Verify Hofstede, critiques, and trust literature | History & Theory Agent | READY | Page-mapped evidence pack |
 | THEORY-001 | Complete the theory evidence matrix | History & Theory Agent | BLOCKED | `research/THEORY_EVIDENCE_MATRIX.md` |
 | VIS-001 | Define graph system and build one verified proof chart | Charts & Maps Agent | READY | Chart specification, data, figure, APA note |
 | WRITE-001 | Draft pages 24–26 | Editorial & Design Agent | BLOCKED | Page-ready Ghana/Korea copy |
+| DESIGN-001 | Create a 45-page rhythm map and visual-variety plan | Editorial & Design Agent | BLOCKED | Approved comparison system and page evidence priorities |
 
-## Recommended parallel batch
+## Active parallel batch
 
-Ready-to-copy prompts are in `project-control/NEXT_AGENT_PROMPTS.md`.
+Dispatched with mutually exclusive output files on 2026-10-04:
 
-1. `SRC-001`
-2. `DATA-002`
-3. `DATA-003`
-4. `VIS-001`
+1. `DATA-001`
+2. `DATA-004`
+3. `DATA-005`
+
+`VIS-001` remains `READY` and should start after `DATA-001` returns, so the proof chart reads stable Ghana/South Korea inputs.
 
 ## Known risks
 
-- Four country evidence files are missing.
-- Existing bibliography entries are mostly not complete APA citations.
-- No claim registry or frozen chart dataset exists.
+- Two country evidence files are missing: Malaysia and the Philippines.
+- Ghana and South Korea still contain claims and cells that SRC-001 marked revision-required, unresolved, or rejected.
+- The claim registry covers Ghana and South Korea only; no project-wide frozen chart dataset exists.
 - The rough PDF contains placeholders and an obsolete palette.
 - No final deliverable exists.
 - The folder has no usable Git history.

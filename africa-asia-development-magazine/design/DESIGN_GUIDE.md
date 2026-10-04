@@ -6,6 +6,17 @@ Create a contemporary editorial magazine that feels investigative, visual and th
 
 The design should help readers compare evidence, notice uncertainty and follow the argument.
 
+The professor responds strongly to visuals and engaging presentation. The final magazine must therefore feel deliberately art-directed rather than academically formatted. Research quality and visual pleasure are equal production requirements: the design should make the evidence easier to understand and remember.
+
+## Reader experience target
+
+Each spread should work at two speeds:
+
+1. **Five-second read:** the reader immediately understands the question, contrast, or surprising finding.
+2. **Thirty-second read:** the reader can inspect the values, annotation, qualification, and source without confusion.
+
+Use one dominant visual or typographic move per spread. Supporting elements should clarify that move rather than compete with it.
+
 ## Final colour palette
 
 The dedicated palette guide is newer than the rough PDF and is the current design authority.
@@ -69,6 +80,10 @@ Do not choose typography only because it appears "African" or "Asian." Avoid dec
 - Use generous white space.
 - Keep source notes visible but secondary.
 - Use repeated motifs for the three theories.
+- Vary page rhythm across the magazine. Do not repeat the same title-plus-three-cards layout from page to page.
+- Alternate visual modes intentionally: full-bleed image, paired chart, small multiples, map, timeline, process diagram, reader question, annotated quotation, and concise text-led spread.
+- Give important statistics room to breathe, but avoid the generic “giant number plus decorative cards” template.
+- Design spreads as pairs where useful: one page creates a question or visual tension; the facing page explains or tests it.
 
 ## Comparison rules
 
@@ -108,6 +123,25 @@ Do not choose typography only because it appears "African" or "Asian." Avoid dec
 - Use small multiples for country variation.
 - Use annotation to explain major changes.
 - Mark placeholder charts clearly during drafting.
+- A chart must pass a five-second comprehension test: a new reader can identify the compared cases, direction of difference, unit, and main takeaway without reading body text.
+- Use colour logically and consistently. Country colours remain stable across the magazine; sequential values use light-to-dark scales; positive/negative or gain/loss colours are reserved for genuine directional meaning.
+- Do not use unrelated rainbow palettes. When colour does not encode information, use charcoal or grey.
+- Keep the focus series saturated and context series quieter. Preserve readable contrast on cream backgrounds and classroom projection.
+- Prefer direct labels at endpoints or beside marks. Use legends only when direct labelling is genuinely impractical.
+- Avoid smoothing three anchor-year observations into a continuous-looking curve. Show the observed points and straight connections or use dots/slopes.
+- Remove visual noise: unnecessary grid lines, borders, icons, shadows, and decimal precision.
+- Use annotations to explain one or two decisive changes, not every fluctuation.
+
+## Writing for a visual magazine
+
+- Lead with a question, contrast, or finding rather than background exposition.
+- Keep paragraphs short and give each one a job.
+- Prefer concrete verbs and specific cases over abstract development jargon.
+- Turn evidence into captions and annotations when the visual already carries the story.
+- Use pull quotes, myth/fact prompts, choices, mini-scenarios, and “what changed?” questions to sustain attention.
+- Avoid “In this section we will discuss,” repetitive summaries, inflated academic phrasing, and headings that merely name a topic.
+- A headline should express the page's point or tension, not just `Manufacturing` or `Colonialism`.
+- Non-boring does not mean casual or sensational. Keep causal claims qualified and sources visible.
 
 ## Pull quotes and questions
 
@@ -180,4 +214,3 @@ The final back matter should include:
 - Comparison pages are truly comparable
 - Interactions add analytical value
 - Build notes removed from final export
-

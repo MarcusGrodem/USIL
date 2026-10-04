@@ -13,7 +13,7 @@ Status key:
 
 **Last checked:** 2026-10-04  
 **Current stage:** Research foundation and comparison prototyping  
-**Estimated total progress:** 28%  
+**Estimated total progress:** 32%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -30,8 +30,8 @@ Status key:
 
 - [-] Ghana evidence file — substantial research exists; data gaps and APA records remain.
 - [-] South Korea evidence file — substantial research exists; data gaps and APA records remain.
-- [ ] Botswana evidence file — missing.
-- [ ] Mauritius evidence file — missing.
+- [x] Botswana evidence file — controller-checked; unresolved historical/comparability gaps are explicitly retained.
+- [x] Mauritius evidence file — controller-checked; unresolved historical/comparability gaps are explicitly retained.
 - [ ] Malaysia evidence file — missing.
 - [ ] Philippines evidence file — missing.
 - [ ] Six-country comparability review — missing.
@@ -93,11 +93,11 @@ Each theory must contain:
 
 ## 5. Sources and APA 7
 
-- [-] Working source register — exists but contains incomplete citations and discovery links.
+- [-] Working source register — Ghana/South Korea audit now has 17 checked APA records; project-wide coverage remains incomplete.
 - [ ] Full APA 7 bibliography — missing.
 - [ ] In-text APA citations throughout page copy — missing.
-- [ ] Claim-to-source register — missing.
-- [ ] Dataset citations and query details — missing.
+- [-] Claim-to-source register — 89 Ghana/South Korea claims are registered; other countries and final copy remain uncovered.
+- [-] Dataset citations and query details — recorded for the audited Ghana/South Korea claims and new Botswana/Mauritius files; project-wide freeze remains missing.
 - [ ] Image-credit and rights register — missing.
 - [ ] Map-source register — missing.
 - [ ] Independent citation audit — missing.
@@ -141,6 +141,9 @@ Every graph must have:
 - [ ] Underlying data file.
 - [ ] APA figure note and full reference.
 - [ ] “What this cannot prove” note where causality may be overread.
+- [ ] Logical colour roles that remain consistent across the magazine.
+- [ ] Five-second comprehension test passed by someone other than the graph maker.
+- [ ] No unnecessary legend hunting, decoration, precision, or visual noise.
 
 ## 7. Magazine pages
 
@@ -165,6 +168,21 @@ Every page must have:
 - [ ] Visible source note or in-text citation.
 - [ ] Image/map credit and rights status where applicable.
 - [ ] Accessibility and stereotype check.
+- [ ] A clear five-second entry point: question, contrast, image, or finding.
+- [ ] Concise, active copy rather than essay-like text blocks.
+- [ ] A composition that contributes to varied magazine rhythm rather than repeating the previous spread.
+
+## 7A. Visual engagement and editorial energy
+
+- [x] Visual quality is defined as a graded project requirement.
+- [ ] Magazine-wide country colour and marker system approved.
+- [ ] Typography hierarchy tested at A4 print size.
+- [ ] Page-rhythm map showing deliberate variation across all 45 pages.
+- [ ] No three consecutive spreads use the same composition or visual device.
+- [ ] Every section contains at least one memorable visual centerpiece.
+- [ ] Headlines communicate findings or tensions rather than generic topics.
+- [ ] Longest text blocks reviewed and shortened, visualised, or split.
+- [ ] Professor-facing visual review completed before final export.
 
 ## 8. Interactive elements
 
@@ -207,9 +225,9 @@ Every page must have:
 
 Copy-ready versions are in `project-control/NEXT_AGENT_PROMPTS.md`.
 
-- [ ] `SRC-001`: Verify Ghana/South Korea sources and convert them to APA 7 with claim links.
-- [ ] `DATA-002`: Create the Botswana evidence file using the common template.
-- [ ] `DATA-003`: Create the Mauritius evidence file using the common template.
+- [x] `SRC-001`: Ghana/South Korea source and claim audit accepted; disputed and unsupported evidence remains flagged for DATA-001 repair.
+- [x] `DATA-002`: Botswana evidence file accepted with visible data gaps.
+- [x] `DATA-003`: Mauritius evidence file accepted with visible data gaps.
 - [ ] `VIS-001`: Define the fixed comparison-chart system and build one verified proof chart.
 
 After one task finishes, assign Malaysia, then the Philippines. Final page writing should not start before the relevant evidence and figure data are reviewed.

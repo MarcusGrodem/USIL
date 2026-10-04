@@ -103,12 +103,14 @@ Required deliverable: a reusable six-country chart standard plus one editable, p
 Acceptance criteria:
 
 - Lock a distinct colour and marker for all six countries using the existing palette and colour-independent identification.
+- Explain the logical role of each colour and keep the mapping stable throughout the magazine.
 - Define when to use paired trajectories, dot/slope charts, small multiples, 100% composition charts, mirrored dashboards, and maps.
 - The proof graph uses identical axes and the exact values recorded in the current country files; show only observed anchor points and do not imply unobserved smooth annual data.
 - Use a message title, factual subtitle, direct labels, visible endpoint values, unit, years, and a “what this cannot prove” note.
 - Include an APA-style data note. Mark citation verification as pending `SRC-001` if the registry audit has not finished.
 - The CSV includes country, year, value, unit, indicator code, source ID placeholder/reference, and notes.
 - The SVG is legible at A4 magazine size and does not rely on colour alone.
+- The graph passes the five-second test in `project-control/SOURCE_APA_AND_CHART_RULES.md`: measure, countries, years, units, and main difference are clear without body copy.
 
 Before stopping, write `project-control/logs/VIS-001.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
 

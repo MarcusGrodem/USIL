@@ -54,6 +54,28 @@ The user-provided examples are inspiration for direct labels, matched panels, lo
 - Give graphs a message title, factual subtitle, unit, years, visible missing-data/proxy notes, and APA source note.
 - Put “What this comparison cannot prove” beside major causal comparisons.
 
+### Logical colour rules
+
+- Fix one colour and one marker for each country, then reuse them in every figure.
+- Use Africa- and Asia-palette families for navigation, but always label countries directly so region colour never implies internal uniformity.
+- Use sequential light-to-dark colour only for ordered magnitude.
+- Use diverging colour only when a meaningful midpoint exists, such as zero or no change.
+- Reserve red/green or success/failure associations for genuine direction and always add labels or symbols for colour-blind readers.
+- Use charcoal or grey for context and non-focus series. Saturation should signal analytical focus, not decoration.
+- Do not create a new palette for each chart and do not use a rainbow palette for unordered countries.
+
+### Five-second graph test
+
+Before review, show or inspect the graph without body copy and answer:
+
+1. What is being measured?
+2. Which countries or groups are compared?
+3. What years and units are used?
+4. What is the main difference or direction?
+5. Can each series be identified without hunting through a legend?
+
+If any answer is unclear, the graph is not ready for publication.
+
 Each final graph package contains:
 
 1. editable source;
@@ -74,3 +96,4 @@ Graph acceptance check:
 - saved data and APA note;
 - legible on A4 and classroom projection;
 - independent numeric check.
+- five-second comprehension check passed by someone other than the graph maker.

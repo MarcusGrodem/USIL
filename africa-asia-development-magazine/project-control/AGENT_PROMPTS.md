@@ -44,13 +44,13 @@ Output: one file under `research/evidence_packs/` plus `project-control/logs/his
 
 ## Charts & Maps Agent requirements
 
-Assign one figure or matched figure family and provide approved data inputs. Require editable source, export, underlying data, graph specification, identical comparison scales/units/years, accessible encoding, APA note, and verification record.
+Assign one figure or matched figure family and provide approved data inputs. Require editable source, export, underlying data, graph specification, identical comparison scales/units/years, logical and stable colour roles, direct labels, accessible encoding, APA note, five-second comprehension test, and verification record.
 
 Output: files under `data/charts/` and `design/figures/` plus `project-control/logs/charts_maps.md`.
 
 ## Editorial & Design Agent requirements
 
-Assign a small page range only after its evidence and figures are approved. Require headline, concise copy, captions, APA citations, figure references, and a “what this cannot prove” note for major comparisons. Do not introduce new unsourced claims.
+Assign a small page range only after its evidence and figures are approved. Require one dominant idea per spread, a point-of-view headline, concise copy, captions, APA citations, figure references, varied page rhythm, and a “what this cannot prove” note for major comparisons. Do not introduce new unsourced claims or repeat the same card-based composition across pages.
 
 Output: files under `content/page_copy/` plus `project-control/logs/editorial_design.md`.
 

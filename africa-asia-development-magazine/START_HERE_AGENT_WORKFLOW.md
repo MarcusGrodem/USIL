@@ -116,6 +116,8 @@ Use the quick-start prompt above for normal sessions. Use this full prompt if a 
 >
 > Enforce APA 7, claim-level traceability, identical definitions/units/years/scales for comparisons, saved graph data, visible proxy notes, image/map credits, and explicit limitations. Never accept the rough storyboard as evidence, a bare URL as a finished citation, or a file's existence as proof of completion.
 >
+> Treat visual quality as a graded requirement. Require five-second graph comprehension, stable logical colours, direct labels, one dominant idea per spread, varied page rhythm, and concise non-essay writing. Return work that is factually correct but visually dull, repetitive, or difficult to understand.
+>
 > After each batch, inspect the deliverables, accept or reject the work, update the checklist and status board, append to `project-control/logs/controller.md`, and prepare the next prompts. Report current phase, evidence-based progress, checklist changes, accepted/rejected work, blockers, next assignments, and files changed.
 
 ## Universal specialist-agent prompt
@@ -154,11 +156,11 @@ Assign one theme and exact magazine pages. Require claims, counterevidence, exce
 
 ### Charts & Maps Agent
 
-Assign one figure or matched figure family and provide the approved data inputs. Require an editable source, publication export, tidy underlying data, figure specification, identical scales/units/years, direct labels, colour-independent identification, APA figure note, missing-data treatment, “what this cannot prove” note where relevant, and verifier/date.
+Assign one figure or matched figure family and provide the approved data inputs. Require an editable source, publication export, tidy underlying data, figure specification, identical scales/units/years, stable logical colours, direct labels, colour-independent identification, APA figure note, missing-data treatment, “what this cannot prove” note where relevant, a five-second comprehension test, and verifier/date.
 
 ### Editorial & Design Agent
 
-Assign a small page range only after evidence and figures are approved. Require a headline, concise body copy, captions, in-text APA citations, figure references, visible qualifications, image/map credits, and accessibility review. The agent may condense approved evidence but may not introduce new unsourced claims.
+Assign a small page range only after evidence and figures are approved. Require one dominant idea per spread, a finding- or tension-led headline, concise body copy, captions, in-text APA citations, figure references, visible qualifications, image/map credits, varied page rhythm, and accessibility review. The agent may condense approved evidence but may not introduce new unsourced claims or fall back to long essay-like paragraphs.
 
 ### Interactions & Presentation Agent
 
