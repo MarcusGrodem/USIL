@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ghana spread — draft</title>
+<style>
+  :root {
+    --terracotta: #B95332;
+    --ochre: #D6A23A;
+    --green: #3F684E;
+    --cream: #F4F0E7;
+    --charcoal: #252525;
+    --grey: #B7B0A4;
+    --cream-deep: #ECE5D3;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #2a2a28;
+    padding: 40px 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--charcoal);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .spread {
+    display: flex;
+    gap: 2px;
+    background: #000;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+  }
+
+  .page {
+    width: 420px;
+    height: 594px; /* A4 ratio */
+    background: var(--cream);
+    padding: 32px 30px;
+    position: relative;
+    overflow: hidden;
+    font-size: 10px;
+    line-height: 1.4;
+  }
+
+  /* ---------- PAGE 1 ---------- */
+
+  .kicker {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 8px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--terracotta);
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .kicker::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--terracotta);
+    opacity: 0.4;
+  }
+
+  .headline {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 46px;
+    line-height: 0.95;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--charcoal);
+    margin-bottom: 14px;
+  }
+
+  .headline em {
+    color: var(--terracotta);
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .deck {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 26px;
+    max-width: 90%;
+  }
+
+  .question-block {
+    background: transparent;
+    border-left: 3px solid var(--ochre);
+    padding: 4px 0 4px 14px;
+    margin: 20px 0 24px;
+  }
+
+  .question-block .q {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.35;
+    color: var(--charcoal);
+    font-style: italic;
+  }
+
+  .question-block .q strong { color: var(--terracotta); font-style: normal; font-weight: 700; }
+
+  .chart-caption {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .chart-title {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: var(--charcoal);
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+
+  .chart-note {
+    font-size: 8px;
+    color: #777;
+    margin-top: 6px;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.4;
+  }
+
+  /* Stats strip at bottom */
+  .stats-strip {
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+    right: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding-top: 14px;
+    border-top: 1px solid var(--grey);
+  }
+
+  .stat {
+    text-align: left;
+  }
+  .stat .label {
+    font-size: 7px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .stat .val-row {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+  }
+  .stat .val {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--charcoal);
+  }
+  .stat .arrow {
+    font-size: 10px;
+    color: var(--green);
+  }
+  .stat .then {
+    font-size: 9px;
+    color: #999;
+    text-decoration: line-through;
+  }
+
+  /* Folio */
+  .folio {
+    position: absolute;
+    bottom: 8px;
+    font-size: 7px;
+    letter-spacing: 2px;
+    color: #999;
+    text-transform: uppercase;
+  }
+  .folio.left { left: 30px; }
+  .folio.right { right: 30px; text-align: right; }
+
+  /* ---------- PAGE 2 ---------- */
+
+  .page.right { }
+
+  .p2-topline {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 22px;
+  }
+
+  .p2-topline .continued {
+    font-size: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999;
+  }
+
+  .p2-headline {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+  }
+
+  .p2-headline em {
+    color: var(--ochre);
+    font-style: italic;
+  }
+
+  .p2-sub {
+    font-family: Georgia, serif;
+    font-size: 10px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 22px;
+    line-height: 1.5;
+  }
+
+  /* Timeline */
+  .timeline {
+    position: relative;
+    height: 60px;
+    margin: 12px 0 22px;
+  }
+  .timeline-line {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--grey);
+  }
+  .tl-event {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 60px;
+    text-align: center;
+  }
+  .tl-event .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--terracotta);
+    margin: 22px auto 6px;
+    border: 2px solid var(--cream);
+    box-shadow: 0 0 0 1px var(--terracotta);
+  }
+  .tl-event.pos .dot { background: var(--green); box-shadow: 0 0 0 1px var(--green); }
+  .tl-event.neu .dot { background: var(--ochre); box-shadow: 0 0 0 1px var(--ochre); }
+  .tl-event .year {
+    font-size: 8px;
+    font-weight: 700;
+    color: var(--charcoal);
+  }
+  .tl-event .label {
+    font-size: 6.5px;
+    color: #666;
+    line-height: 1.15;
+    margin-top: 1px;
+    letter-spacing: 0.3px;
+  }
+
+  /* Export composition */
+  .comp-block {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  .comp-col .comp-year {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: var(--charcoal);
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .comp-col .comp-label {
+    font-size: 7px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  .comp-bar {
+    display: flex;
+    height: 34px;
+    width: 100%;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  .comp-seg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .comp-legend {
+    font-size: 8px;
+    line-height: 1.6;
+    color: #555;
+  }
+  .comp-legend .sw {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 1px;
+    margin-right: 4px;
+    vertical-align: -1px;
+  }
+
+  /* Cliffhanger footer */
+  .cliff {
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+    right: 30px;
+    padding: 12px 14px;
+    background: var(--charcoal);
+    color: var(--cream);
+    border-radius: 2px;
+  }
+  .cliff .next-label {
+    font-size: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--ochre);
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .cliff .next-q {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.3;
+    font-style: italic;
+  }
+
+  /* Utility */
+  .drop-cap::first-letter {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    float: left;
+    line-height: 0.9;
+    padding: 4px 6px 0 0;
+    color: var(--terracotta);
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<div class="spread">
+
+  <!-- =============== PAGE 1 (LEFT) =============== -->
+  <div class="page left">
+    <div class="kicker">Case one · Ghana</div>
+
+    <h1 class="headline">The lost <em>three decades</em>.</h1>
+
+    <p class="deck">In 1960 Ghana was one of the richest new nations in Africa. Thirty years later its people were poorer than at independence. What happened between the flag and the graph?</p>
+
+    <!-- GDP chart -->
+    <div class="chart-caption">GDP per capita · constant 2015 USD</div>
+
+    <svg viewBox="0 0 360 200" width="100%" height="200" style="display:block">
+      <defs>
+        <linearGradient id="gdpFill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#B95332" stop-opacity="0.28"/>
+          <stop offset="100%" stop-color="#B95332" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Grid -->
+      <line x1="30" y1="30" x2="350" y2="30" stroke="#B7B0A4" stroke-width="0.4" stroke-dasharray="2,3"/>
+      <line x1="30" y1="90" x2="350" y2="90" stroke="#B7B0A4" stroke-width="0.4" stroke-dasharray="2,3"/>
+      <line x1="30" y1="150" x2="350" y2="150" stroke="#B7B0A4" stroke-width="0.4" stroke-dasharray="2,3"/>
+      <line x1="30" y1="170" x2="350" y2="170" stroke="#252525" stroke-width="1"/>
+
+      <!-- Y labels -->
+      <text x="26" y="34" text-anchor="end" font-size="7" fill="#666">$2,000</text>
+      <text x="26" y="94" text-anchor="end" font-size="7" fill="#666">$1,400</text>
+      <text x="26" y="154" text-anchor="end" font-size="7" fill="#666">$800</text>
+
+      <!-- Reference line at 1960 level -->
+      <line x1="30" y1="79" x2="350" y2="79" stroke="#3F684E" stroke-width="0.6" stroke-dasharray="4,3"/>
+      <text x="350" y="76" text-anchor="end" font-size="6.5" fill="#3F684E" font-weight="700" letter-spacing="1">1960 LEVEL</text>
+
+      <!-- GDP path: 1960→1990→2020, approximate curve  -->
+      <!-- x: 1960=30, 1970=83, 1980=137, 1990=190, 2000=243, 2010=297, 2020=350 -->
+      <!-- y baseline 170 = 0, 30 = $2000 -->
+
+      <!-- Fill under the curve -->
+      <path d="M30,80 C60,72 70,60 83,55 C100,50 120,105 137,130 C155,152 175,158 190,152 C210,145 225,120 243,110 C265,98 285,80 297,65 C315,45 340,32 350,30 L350,170 L30,170 Z" fill="url(#gdpFill)"/>
+
+      <!-- Line -->
+      <path d="M30,80 C60,72 70,60 83,55 C100,50 120,105 137,130 C155,152 175,158 190,152 C210,145 225,120 243,110 C265,98 285,80 297,65 C315,45 340,32 350,30"
+        stroke="#B95332" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Anchor points -->
+      <!-- 1960 -->
+      <circle cx="30" cy="80" r="4.5" fill="#B95332" stroke="#F4F0E7" stroke-width="1.5"/>
+      <text x="30" y="20" text-anchor="middle" font-size="8" font-weight="700" fill="#252525">$1,101</text>
+      <!-- 1990 -->
+      <circle cx="190" cy="152" r="4.5" fill="#B95332" stroke="#F4F0E7" stroke-width="1.5"/>
+      <text x="190" y="167" text-anchor="middle" font-size="8" font-weight="700" fill="#B95332">$856</text>
+      <!-- 2020 -->
+      <circle cx="350" cy="30" r="4.5" fill="#B95332" stroke="#F4F0E7" stroke-width="1.5"/>
+      <text x="350" y="22" text-anchor="end" font-size="8" font-weight="700" fill="#252525">$1,970</text>
+
+      <!-- X axis labels -->
+      <text x="30" y="185" text-anchor="middle" font-size="7.5" fill="#666" font-weight="600">1960</text>
+      <text x="190" y="185" text-anchor="middle" font-size="7.5" fill="#666" font-weight="600">1990</text>
+      <text x="350" y="185" text-anchor="middle" font-size="7.5" fill="#666" font-weight="600">2020</text>
+
+      <!-- The "gap" annotation -->
+      <line x1="30" y1="80" x2="190" y2="80" stroke="#B95332" stroke-width="0.5" stroke-dasharray="1,2"/>
+      <line x1="190" y1="80" x2="190" y2="152" stroke="#B95332" stroke-width="0.5" stroke-dasharray="1,2"/>
+    </svg>
+
+    <p class="chart-note">Ghana's income per person in 1990 was <strong>22% lower</strong> than in 1960. Recovery began in the mid-1990s. The 2020 level is only marginally above 1960's — six decades later.<br>Source: World Bank WDI (NY.GDP.PCAP.KD), pulled 2026-09-22.</p>
+
+    <div class="question-block">
+      <div class="q"><strong>Before you read on —</strong> what would you guess caused the collapse? Colonial legacy? Coups? Cocoa prices? Culture?</div>
+    </div>
+
+    <!-- Stats strip -->
+    <div class="stats-strip">
+      <div class="stat">
+        <div class="label">Urban</div>
+        <div class="val-row"><span class="then">23%</span><span class="arrow">→</span><span class="val" style="color:var(--terracotta)">56%</span></div>
+      </div>
+      <div class="stat">
+        <div class="label">Electricity</div>
+        <div class="val-row"><span class="then">n/a</span><span class="arrow">→</span><span class="val" style="color:var(--green)">85%</span></div>
+      </div>
+      <div class="stat">
+        <div class="label">Literacy</div>
+        <div class="val-row"><span class="then">~25%</span><span class="arrow">→</span><span class="val" style="color:var(--green)">77%</span></div>
+      </div>
+    </div>
+
+    <div class="folio left">Ghana · 01 of 04</div>
+  </div>
+
+  <!-- =============== PAGE 2 (RIGHT) =============== -->
+  <div class="page right">
+    <div class="p2-topline">
+      <div class="kicker" style="margin-bottom:0">The aborted <span style="color:var(--charcoal)">industrialisation</span></div>
+      <div class="continued">continued</div>
+    </div>
+
+    <h2 class="p2-headline">A factory that <em>never opened</em>.</h2>
+    <p class="p2-sub">If GDP is the symptom, structural change is the story. Ghana tried to industrialise. For a while it worked. Then it didn't.</p>
+
+    <!-- Manufacturing share chart -->
+    <div class="chart-caption">Manufacturing share of GDP · %</div>
+
+    <svg viewBox="0 0 360 140" width="100%" height="140" style="display:block; margin-bottom: 4px;">
+      <!-- Grid -->
+      <line x1="30" y1="20" x2="350" y2="20" stroke="#B7B0A4" stroke-width="0.4" stroke-dasharray="2,3"/>
+      <line x1="30" y1="60" x2="350" y2="60" stroke="#B7B0A4" stroke-width="0.4" stroke-dasharray="2,3"/>
+      <line x1="30" y1="100" x2="350" y2="100" stroke="#B7B0A4" stroke-width="0.4" stroke-dasharray="2,3"/>
+      <line x1="30" y1="120" x2="350" y2="120" stroke="#252525" stroke-width="1"/>
+
+      <!-- Y labels 0 / 7 / 14 -->
+      <text x="26" y="24" text-anchor="end" font-size="7" fill="#666">14%</text>
+      <text x="26" y="64" text-anchor="end" font-size="7" fill="#666">7%</text>
+      <text x="26" y="120" text-anchor="end" font-size="7" fill="#666">0%</text>
+
+      <!-- Manufacturing curve: 1965=9.8, 1968=12.6, 1975=13.95 peak, 1983 trough ~5, 1990=9.8, 2020=11 -->
+      <!-- x: 1960=30, 1965=57, 1968=73, 1975=110, 1983=153, 1990=190, 2000=243, 2010=297, 2020=350 -->
+      <!-- y: 0=120, 14=20; each 1% = 7.14px; 9.8=50.0, 12.6=30.0, 13.95=20.4, 5=84, 11=41.4 -->
+
+      <path d="M30,50 L57,50 L73,30 L110,20 L130,45 L153,84 L172,72 L190,50 L243,53 L297,44 L350,41"
+        stroke="#D6A23A" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Peak annotation -->
+      <circle cx="110" cy="20" r="4" fill="#D6A23A" stroke="#F4F0E7" stroke-width="1.5"/>
+      <text x="110" y="13" text-anchor="middle" font-size="8" font-weight="700" fill="#252525">1975 · 14%</text>
+
+      <!-- Collapse annotation -->
+      <circle cx="153" cy="84" r="4" fill="#B95332" stroke="#F4F0E7" stroke-width="1.5"/>
+      <text x="153" y="99" text-anchor="middle" font-size="8" font-weight="700" fill="#B95332">1983 crisis</text>
+
+      <!-- End point -->
+      <circle cx="350" cy="41" r="4" fill="#3F684E" stroke="#F4F0E7" stroke-width="1.5"/>
+      <text x="350" y="35" text-anchor="end" font-size="8" font-weight="700" fill="#3F684E">2020 · 11%</text>
+
+      <!-- X labels -->
+      <text x="30" y="134" text-anchor="middle" font-size="7" fill="#666" font-weight="600">1960</text>
+      <text x="190" y="134" text-anchor="middle" font-size="7" fill="#666" font-weight="600">1990</text>
+      <text x="350" y="134" text-anchor="middle" font-size="7" fill="#666" font-weight="600">2020</text>
+    </svg>
+
+    <!-- Timeline strip -->
+    <div class="timeline">
+      <div class="timeline-line"></div>
+      <div class="tl-event pos" style="left:5%"><div class="dot"></div><div class="year">1957</div><div class="label">Independence</div></div>
+      <div class="tl-event" style="left:26%"><div class="dot"></div><div class="year">1966</div><div class="label">Nkrumah coup</div></div>
+      <div class="tl-event neu" style="left:46%"><div class="dot"></div><div class="year">1975</div><div class="label">Mfg peak 14%</div></div>
+      <div class="tl-event" style="left:66%"><div class="dot"></div><div class="year">1983</div><div class="label">IMF reforms</div></div>
+      <div class="tl-event pos" style="left:88%"><div class="dot"></div><div class="year">2007</div><div class="label">Oil discovery</div></div>
+    </div>
+
+    <!-- Export composition comparison -->
+    <div class="chart-caption" style="margin-top:6px">What Ghana sold to the world</div>
+
+    <div class="comp-block">
+      <div class="comp-col">
+        <div class="comp-year">1960</div>
+        <div class="comp-label">Cocoa Republic</div>
+        <div class="comp-bar">
+          <div class="comp-seg" style="width:60%; background:#6b4a2b">Cocoa 60%</div>
+          <div class="comp-seg" style="width:22%; background:#D6A23A">Gold 22</div>
+          <div class="comp-seg" style="width:18%; background:#8a6a4a; font-size:7px">Timber</div>
+        </div>
+      </div>
+      <div class="comp-col">
+        <div class="comp-year">2020</div>
+        <div class="comp-label">Same story, new commodities</div>
+        <div class="comp-bar">
+          <div class="comp-seg" style="width:45%; background:#D6A23A">Gold 45%</div>
+          <div class="comp-seg" style="width:33%; background:#252525">Oil 33%</div>
+          <div class="comp-seg" style="width:22%; background:#6b4a2b">Cocoa 22</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="chart-note" style="margin-top:10px">Sixty years apart. The names on the label changed. The structure did not — Ghana still exports what it digs up and grows. Manufactures remain a footnote.<br>
+    <em style="color:var(--terracotta)">Note: 2020 individual shares are placeholder — awaiting OEC/GSS CSV pull.</em></p>
+
+    <!-- Cliffhanger -->
+    <div class="cliff">
+      <div class="next-label">Next spread · South Korea, 1960</div>
+      <div class="next-q">Same starting income. Same cocoa-and-gold economy? Not exactly.</div>
+    </div>
+
+    <div class="folio right">Ghana · 02 of 04</div>
+  </div>
+
+</div>
+
+</body>
+</html>
