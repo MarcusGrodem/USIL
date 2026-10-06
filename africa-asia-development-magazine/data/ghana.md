@@ -1,159 +1,112 @@
-# Ghana — worked example
+# Ghana — audited country evidence
 
-Data pulled 2026-09-22. This is the template every other country file should follow. Each cell is either a primary-source value or explicitly marked as a gap / proxy. No silent interpolation.
+**Task:** DATA-001 · **Checked:** 2026-10-04 · **Anchors:** 1960, 1990, 2020
 
-Anchor years: **1960 · 1990 · 2020**.
+Values appear only with a source and locator. Proxies retain their actual year; `gap` means no comparable observation was verified. Confidence: **H** high, **M** medium, **L** gap/unresolved.
 
-Legend: **H** = high confidence · **M** = medium · **L** = low · **n/a** = no comparable measure for that period.
+## Starting position and inheritance
 
----
+Ghana's verified 1960 baseline is GDP per capita **US$1,100.76 (constant 2015 US$)** and urban population **23.29%** (World Bank, 2026a; [G1], [G7]). Manufacturing WDI data begin in 1965 at **9.75% of GDP**—a five-year historical proxy, not a 1960 observation ([G4]). A government plan reported that cocoa and cocoa products supplied roughly **60% of export income**, based on 1959–1962 evidence (Government of Ghana, 1964, PDF p. 224). This supports commodity concentration, not the rejected “45% in 1960” claim.
 
-## 1. GDP per capita (constant 2015 USD)
+## Audited indicator table
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | US$ 1,101 | Direct WDI pull |
-| 1990 | US$ 856 | Reflects the 1975–83 collapse (Acheampong / SAP era) |
-| 2020 | US$ 1,970 | COVID year; 2019 was US$ 2,000 |
-
-- Source: World Bank WDI series `NY.GDP.PCAP.KD` — `https://api.worldbank.org/v2/country/GHA/indicator/NY.GDP.PCAP.KD?date=1960:2020&format=json`
-- Confidence: **H**
-- To upgrade: pull Maddison Project 2023 (`mpd2023_web.xlsx`) for 2011 int$ series. Absolute magnitudes differ, pattern should match.
-
-## 2. Labour productivity (GDP per person employed, constant 2021 PPP $)
-
-| Year | Value | Note |
-|---|---|---|
-| 1960 | n/a | Series `SL.GDP.PCAP.EM.KD` starts 1991 |
-| 1990 → **1991** | US$ 7,400 | Closest available (within ±3 yr) |
-| 2020 | US$ 17,124 | |
-
-- Source: World Bank WDI — `https://api.worldbank.org/v2/country/GHA/indicator/SL.GDP.PCAP.EM.KD?date=1990:2022&format=json`
-- Confidence: **H** for 1991 / 2020 · **L** for 1960 (gap)
-- Note: WDI now uses constant 2021 PPP $, not 2017 PPP.
-
-## 3. Employment by sector (%)
-
-| Year | Agriculture | Industry | Services | Note |
+| Indicator | 1960 anchor | 1990 anchor | 2020 anchor | Source, definition, and limitation |
 |---|---|---|---|---|
-| 1960 | n/a | n/a | n/a | ILO modelled estimates start 1991 |
-| 1990 → **1991** | 71.8 | 9.0 | 19.3 | ILO modelled |
-| 2020 | 37.4 | 15.2 | 47.4 | |
+| GDP per capita, constant 2015 US$ | 1,101 | 856 | 1,970 | **H**. [G1]. Exact: 1100.76305218242; 855.85250708181; 1970.19411460398. 2020 is the COVID year. |
+| Labour productivity, constant 2021 PPP$ per person employed | gap | **1991 proxy:** 7,400 | 17,124 | **H**. [G2]. Exact: 7399.52922177477; 17123.6101345562. Series begins 1991. |
+| Employment: agriculture / industry / services, % total | gap | **1991 proxy:** 71.8 / 9.0 / 19.3 | 37.4 / 15.2 / 47.4 | **M**. ILO-modelled WDI, [G3]. The unlocated 1960 “60–65% agriculture” claim is removed. |
+| Manufacturing value added, % GDP | **1965 context:** 9.8 | 9.8 | 11.0 | 1965 proxy **M**, anchors **H**. [G4]. Exact: 9.75443383356071; 9.76285290799468; 10.9530558483938. |
+| Export composition, % merchandise exports | gap | gap | gap | See export audit below; no exact, reproducible same-year product splits. |
+| Adult literacy, % ages 15+ | gap | gap; 2000 context: 57.9 | **2021 proxy:** 76.5 | **H** for 2000/2021, [G5]. Exact 57.9000015258789; 76.4899978637695. Former 1960 ~25% and 1970 ~30% estimates lack tables/definitions. |
+| Urban population, % | 23.3 | 35.7 | 56.2 | **H**. [G7]. Exact: 23.2863556454639; 35.7432148671435; 56.2171613974837. |
+| Electricity access, % population | gap | gap; first obs. 1993: 30.6 | 85.4 | **H** for observations, [G8]. 2000 context: 43.7. 1993 is outside ±3 years from 1990. |
+| Informality / firm-size proxy | gap | gap | gap | See informality audit; 2013/2015 context is not a 2020 proxy. |
+| WGI Rule of Law estimate | gap | gap | **0.09**, 90% CI −0.14 to 0.33 | **H**. [G10], exact 0.0930935 (−0.144174 to 0.330361). WGI begins 1996 and is governance, not trust. |
 
-- Sources: WDI `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, `SL.SRV.EMPL.ZS`
-- Confidence: **M** — modelled, not direct census counts
-- Note: 1960 Ghana Census reports ~60–65% in agriculture but definitional differences — do not merge without caveat.
+The 1991 employment exact shares are 71.7798539769875, 8.97060315413509, and 19.2495592579111; 2020 shares are 37.4159627643187, 15.2083269307954, and 47.3757103048859 ([G3]).
 
-## 4. Manufacturing share of GDP (%)
+## Manufacturing trajectory
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | n/a | Series `NV.IND.MANF.ZS` starts 1965 for Ghana |
-| 1965 (proxy) | 9.8 | Nearest; rose to 12.6% by 1968 |
-| 1990 | 9.8 | |
-| 2020 | 11.0 | |
+Manufacturing rose from 9.75% in 1965 to **12.59% in 1968** and peaked at **13.95% in 1975**, then fell in the 1980s and stood at 10.95% in 2020 ([G4]). This supports “rise, collapse, incomplete recovery.” Calling it premature deindustrialisation requires separate literature (World Bank, 2026a).
 
-- Source: WDI — `https://api.worldbank.org/v2/country/GHA/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json`
-- Confidence: **H** for 1990 / 2020 · **M** for 1965 proxy
-- **Headline finding for the magazine:** manufacturing share started near 10% at independence, peaked at ~14% in 1975, collapsed during the 1980s crisis, and has recovered only to ~11% by 2020. Not "flat" — a rise, a collapse, and an incomplete recovery. This is the "premature deindustrialisation" story with real dynamics behind it.
-- Intermediate values that matter: 1968 = 12.6%, **1975 = 13.95% (peak)**, 1980s trough substantially lower.
+## Export-composition audit
 
-## 5. Export composition — top 3 (% of merchandise exports)
+- **1960:** gap. Government of Ghana (1964, PDF p. 224) says cocoa/products supplied roughly 60% of export income and discusses 1959–1962. It does not supply the former 45/30 split for 1960.
+- **1990:** gap. IMF (2000), export-sector discussion, says cocoa exceeded one-third at the start of the 1990s, gold reached 35% only in 1994, and four traditional exports were near 90% before the early 1990s. It does not support the former 40/30/75 row.
+- **2020:** gap. WITS query: reporter GHA; 2020; exports; partner WLD; product All-Groups (World Bank, n.d.). No saved HS-code aggregation and denominator were obtainable. The public preview returned no usable Ghana rows in this pass.
+- **Rejected:** 83.4% belongs to **2024**: gold 55.3%, mineral fuels/oils 18.4%, cocoa beans/products 9.7% (Ghana Statistical Service, 2025, executive summary and §3.1). The unsupported 2019 37/32/15 split is removed.
 
-| Year | Composition | Note |
-|---|---|---|
-| 1960 | Cocoa ~45% · Gold + Timber ~30% combined | Narrative sources, not single primary dataset |
-| 1990 | Cocoa ~40% · Gold/minerals ~30% · Timber #3 · combined ~75% | Ghana narrative sources |
-| 2020 | Gold · Crude petroleum · Cocoa (beans + paste) · combined ~83% (GSS) | **Individual 2020 shares NOT YET SET.** 2019 shares were Gold ~37%, Fuels ~32%, Cocoa ~15% — do not carry these forward as 2020 without verification. Pending OEC / GSS 2020 CSV pull. |
+Thus the broad commodity-transformation headline is not approved as a quantified 1960–2020 comparison.
 
-- Sources: OEC `https://oec.world/en/profile/country/gha` · WITS `https://wits.worldbank.org/CountryProfile/en/Country/GHA/Year/2020/Summarytext` · Ghana Statistical Service via GNA `https://gna.org.gh/2025/03/gold-cocoa-and-oil-constitute-83-4-per-cent-of-ghanas-export-gss/`
-- Confidence: **L–M**
-- To upgrade: pull UN Comtrade or OEC CSV directly for 2020. Verify 1960 cocoa share against UN Yearbook of International Trade Statistics 1961.
+## Literacy audit
 
-## 6. Adult literacy rate (%, ages 15+)
+The Ghana Census Office (1960) catalog, ID `GHA_1960_PHC_v01_M`, confirms the census but exposes no adult-literacy table. Therefore ~25% (1960), ~30% (1970), and the Korea/Ghana 2.8-fold ratio remain unsupported. The 2000 value is too late for 1990; 2021 is an explicit 2020 proxy ([G5]).
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | ~25% (estimate) | Secondary sources on 1960 census; not in WDI |
-| 1990 | n/a | UNESCO UIS has no observation 1970–2000 |
-| 2000 (proxy) | 57.9 | **Outside ±3-yr window** — treat 1990 as gap |
-| 2020 → **2021** | 76.5 | |
+## Urbanisation interpretation
 
-- Source: `https://api.worldbank.org/v2/country/GHA/indicator/SE.ADT.LITR.ZS?date=1960:2022&format=json` (feeds UNESCO UIS)
-- Confidence: **L** for 1960 / 1990 · **H** for 2021
-- To upgrade: UNESCO *Statistical Yearbook* print archive; Ghana 1960 & 1970 census reports. Ghana 1970 census reported ~30% — could bracket the 1960 figure.
+Urban population rose 23.3%→56.2%. Manufacturing was 9.8% in the nearby **1965 proxy** and 11.0% in 2020 ([G4], [G7]). The trends show urbanisation without proportional manufacturing-share growth; they do not establish causality or the composition of urban jobs (World Bank, 2026a).
 
-## 7. Urbanisation rate (% urban)
+## Informality audit
 
-| Year | Value |
-|---|---|
-| 1960 | 23.3 |
-| 1990 | 35.7 |
-| 2020 | 56.2 |
+- **2013 context:** 92.1% of all employed people were informal; men 88.8%, women 95.2%. Youth total was 94.2%; youth men 93.4%, youth women 95.1% (O'Higgins et al., 2023, PDF p. 4). The inherited claim mislabeled all-worker sex rates as youth rates and is corrected.
+- **2015 context:** **90.0%** of currently employed people aged 15+ were in the informal sector, 8,345,636 people (Ghana Statistical Service, 2016, Table 7.1, printed p. 84). This replaces the inherited 78.1% value, which the located original table does not support.
+- **1987/88 and 2020:** gaps. No exact GLSS locator or 2020 observation. Never infer 2020 from 2013/2015. Definitions and universes require harmonisation.
 
-- Source: WDI `SP.URB.TOTL.IN.ZS`
-- Confidence: **H** — full series, no gaps
-- Note: Ghana crossed the 50% urban threshold ~2010. Cleanest indicator we have.
+## Governance audit
 
-## 8. Electricity access (% of population)
+Official 2026 WGI gives Rule of Law −0.2399138 in 2000 (90% CI −0.5822425 to 0.1024149) and 0.0930935 in 2020 ([G10]). The old +0.11 mirror value is replaced. The old average/minimum claim is removed; the recalculated release gives 1998 −0.5966588, but no average was recomputed. WGI is perception-based and not direct trust (World Bank, 2026b).
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | n/a | WDI series `EG.ELC.ACCS.ZS` starts 1993 |
-| 1990 | n/a | First observation is 1993 (30.6%) — still outside ±3-yr window, so treat 1990 as gap |
-| 1993 | 30.6 | Earliest available WDI observation |
-| 2000 (proxy) | 43.7 | |
-| 2020 | 85.4 | |
+## Exact dataset locators
 
-- Source: WDI — `https://api.worldbank.org/v2/country/GHA/indicator/EG.ELC.ACCS.ZS?date=1990:2022&format=json`
-- Confidence: **H** for 2020 · **L** for 1990
-- To upgrade: IEA *World Energy Outlook* historical tables for 1990.
+- **[G1]** WDI API v2 `GHA/NY.GDP.PCAP.KD?date=1960:2020`.
+- **[G2]** WDI API v2 `GHA/SL.GDP.PCAP.EM.KD?date=1990:2022`.
+- **[G3]** WDI API v2, GHA, 1991/2020: `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, `SL.SRV.EMPL.ZS`.
+- **[G4]** WDI API v2 `GHA/NV.IND.MANF.ZS?date=1960:2020`.
+- **[G5]** WDI API v2 `GHA/SE.ADT.LITR.ZS?date=1960:2022`.
+- **[G7]** WDI API v2 `GHA/SP.URB.TOTL.IN.ZS?date=1960:2020`.
+- **[G8]** WDI API v2 `GHA/EG.ELC.ACCS.ZS?date=1990:2020`.
+- **[G10]** `wgidataset_with_sourcedata-2026.xlsx`, sheet `rl`, economy GHA, 2000/2020, estimate and 90% bounds.
 
-## 9. Firm size / informality proxy
+All were independently checked 2026-10-04. Freeze dynamic returns before charting.
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | n/a | |
-| 1990 | n/a | Ghana Living Standards Survey R1 (1987/88) noted informal ~80% of non-ag employment |
-| 2015 (proxy for 2020) | 78.1% informal employment | ILO data |
-| 2020 narrative | ~80%+ informal | ILO Youth Country Brief 2023: 88.8% (men) / 95.2% (women) youth informal |
+## Current gaps
 
-- Sources: ILOSTAT `https://ilostat.ilo.org/data/country-profiles/gha/` · ILO Ghana youth brief `https://www.ilo.org/media/362181/download`
-- Confidence: **L–M**
-- Note: Definitions of "informal" vary (non-ag vs total; ICLS 1993 vs 2003). For publication, request ILOSTAT informality microdata; GSS Labour Force Report is the local anchor.
+1. Exact 1960 census employment table and definitions.
+2. Product-code export aggregations for 1960, 1990, and 2020. The 2020 blocker is no saved full UN Comtrade/WITS HS extraction with code mapping, FOB denominator, and total.
+3. Comparable adult-literacy evidence for 1960 and 1990.
+4. Electricity access for 1960/1990; 2020 informality; a harmonised Ghana–Korea informality construct.
+5. Direct trust evidence; WGI is not trust.
 
-## 10. Institutional trust / governance (WGI Rule of Law, −2.5 to +2.5)
+## Evidence-backed findings
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | n/a | WGI series starts 1996 |
-| 1990 | n/a | |
-| 2000 | −0.2 | WGI DataBank |
-| 2020 | +0.11 | Confirmed via TheGlobalEconomy scrape |
+1. GDP per capita was lower in 1990 than in 1960 on the matched WDI series ([G1]).
+2. Manufacturing rose to 13.95% in 1975, fell, and reached 10.95% in 2020 ([G4]).
+3. Agriculture's employment share fell from 71.8% in the **1991 proxy** to 37.4% in 2020; services rose to 47.4% ([G3]).
+4. Urbanisation rose 23.3%→56.2%, with 1965 explicitly used as the early manufacturing proxy ([G4], [G7]).
+5. Electricity access rose 43.7%→85.4% from 2000 to 2020; its rank among all six cases remains untested ([G8]).
 
-- Source: WGI download page — `https://www.worldbank.org/en/publication/worldwide-governance-indicators`. Note: `RL.EST` no longer resolves via the WDI API path; use the WGI CSV directly.
-- Confidence: **H** for 2000 / 2020 · **n/a** for 1960 / 1990 (correctly flagged)
-- Historical average = 0.04; series minimum was −0.50 in 1998.
-- Supplement: Afrobarometer Ghana starts Round 1, 1999 — usable for 2020 trust-in-institutions detail.
+## What the case supports, challenges, and cannot prove
 
----
+- **Supports:** prolonged income weakness followed by recovery; incomplete industrial deepening; major employment, urban, and electricity transitions; historically concentrated commodity exports.
+- **Challenges:** “nothing changed”—the indicators moved, at different rates and with reversals.
+- **Cannot prove:** that culture caused divergence; that urbanisation caused weak industrialisation; a particular Ghana 2020 export share; the unresolved literacy contrast; or that WGI measures trust.
 
-## Data-gap punch list (to close before publication)
+## References
 
-- Maddison Project 2023 — download `mpd2023_web.xlsx` and record 2011 int$ series alongside WDI 2015 USD.
-- 2020 export shares — pull OEC or UN Comtrade CSV directly.
-- 1960 / 1990 adult literacy — UNESCO print archive; Ghana 1960 & 1970 census reports.
-- 1990 electricity access — IEA WEO historical tables.
-- 1996 WGI Rule of Law — full WGI CSV from govindicators.org.
-- Informality 2020 — reconcile ILO 2015 (78%) with GSS 2015 Labour Force Report.
+Ghana Census Office. (1960). *Population census 1960* [Data set]. Ghana Statistical Service. https://www2.statsghana.gov.gh/nada/index.php/catalog/34
 
-## Headlines to carry into the magazine
+Ghana Statistical Service. (2016). *2015 labour force report*. https://www2.statsghana.gov.gh/docfiles/publications/Labour_Force/LFS%20REPORT_fianl_21-3-17.pdf
 
-1. GDP per capita in 1990 was **lower** than in 1960 — Ghana lost 30 years.
-2. Manufacturing share climbed from ~10% at independence to a **1975 peak of ~14%**, then collapsed in the 1980s crisis and recovered only to ~11% by 2020 — an aborted industrialisation, not a stagnation.
-3. Ghana urbanised from 23% to 56% while its industrial base did not grow proportionally — the classic African "urbanisation without industrialisation" pattern.
-4. Electricity access jumped from ~44% (2000) to 85% (2020) — one of the sharpest gains in the sample.
+Ghana Statistical Service. (2025). *2024 trade report*. https://statsghana.gov.gh/gssmain/fileUpload/Trade/2024_Trade_Full_Year_Report-_25-02-2025_Final_Print.pdf
 
-## Verification log
+Government of Ghana. (1964). *Seven-year development plan 1963/64 to 1969/70*. https://ndpc.gov.gh/media/Ghana_7_Year_Development_Plan_1963-4_1969-70_1964.pdf
 
-- 2026-09-22 — dual-agent verification pass. 9 of 10 numeric values matched to exact precision on independent re-pull. Fixes applied: (a) 2019 GDP per-capita note corrected to US$2,000; (b) manufacturing narrative rewritten to reflect real 1968/1975/1980s dynamics; (c) electricity note corrected — series starts 1993, not 2000; (d) WGI source updated to the WGI download page (RL.EST no longer resolves via WDI API); (e) 2020 export shares explicitly flagged as unresolved rather than approximate — pending OEC/GSS 2020 CSV.
+International Monetary Fund. (2000). *Ghana: Selected issues* (IMF Staff Country Report No. 00/2). https://www.elibrary.imf.org/view/journals/002/2000/002/article-A001-en.xml
+
+O'Higgins, N., Karkee, V., Levina, K., Cuautle Segovia, M., & Barford, A. (2023). *ILO youth country briefs: Ghana*. International Labour Organization. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40ed_emp/documents/publication/wcms_886402.pdf
+
+World Bank. (n.d.). *Ghana product exports 2020* [Data set]. World Integrated Trade Solution. Retrieved October 4, 2026, from https://wits.worldbank.org/CountryProfile/en/Country/GHA/Year/2020/TradeFlow/Export/Partner/WLD/Product/All-Groups/Show/RCA%3BWRLD-GRWTH%3BCNTRY-GRWTH%3B/Sort/Product%20Group
+
+World Bank. (2026a). *World Development Indicators* [Data set]. Retrieved October 4, 2026, from https://databank.worldbank.org/source/world-development-indicators
+
+World Bank. (2026b). *Worldwide Governance Indicators: 2026 update* [Data set]. Retrieved October 4, 2026, from https://www.worldbank.org/en/publication/worldwide-governance-indicators

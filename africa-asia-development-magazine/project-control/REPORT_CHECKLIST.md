@@ -11,9 +11,9 @@ Status key:
 - `[ ]` MISSING — not started or only an idea/placeholder exists
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
-**Last checked:** 2026-10-04  
-**Current stage:** Research foundation and comparison prototyping  
-**Estimated total progress:** 32%
+**Last checked:** 2026-10-05
+**Current stage:** Six-country evidence assembled; comparability freeze and thematic research next
+**Estimated total progress:** 38%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -28,30 +28,30 @@ Status key:
 
 ## 2. Required country evidence
 
-- [-] Ghana evidence file — substantial research exists; data gaps and APA records remain.
-- [-] South Korea evidence file — substantial research exists; data gaps and APA records remain.
+- [x] Ghana evidence file — controller-checked after SRC-001 repair; unresolved historical and trade gaps are explicit.
+- [x] South Korea evidence file — controller-checked after SRC-001 repair; unresolved historical and trade gaps are explicit.
 - [x] Botswana evidence file — controller-checked; unresolved historical/comparability gaps are explicitly retained.
 - [x] Mauritius evidence file — controller-checked; unresolved historical/comparability gaps are explicitly retained.
-- [ ] Malaysia evidence file — missing.
-- [ ] Philippines evidence file — missing.
+- [x] Malaysia evidence file — controller-checked; territorial, proxy, classification, and historical gaps are explicit.
+- [x] Philippines evidence file — controller-checked; vintage, proxy, classification, and historical gaps are explicit.
 - [ ] Six-country comparability review — missing.
 - [ ] Clean master dataset behind all charts — missing.
 
 Each country must include:
 
-- [ ] Starting position and historical inheritance.
-- [ ] GDP per capita with matched definition.
-- [ ] Labour productivity.
-- [ ] Employment by sector.
-- [ ] Manufacturing share.
-- [ ] Export composition.
-- [ ] Literacy/education.
-- [ ] Urbanisation.
-- [ ] Electricity/infrastructure.
-- [ ] Firm size/informality where comparable.
-- [ ] Institutional/trust measure where credible.
-- [ ] What the case supports, challenges, and cannot prove.
-- [ ] APA citations and exact source locators for every value and claim.
+- [-] Starting position and historical inheritance — covered in all six evidence files; cross-case historical review pending.
+- [-] GDP per capita with matched definition — country values exist; common retrieval vintage and master-table freeze pending.
+- [-] Labour productivity — covered with explicit gaps/proxies; six-country comparability decision pending.
+- [-] Employment by sector — covered with explicit gaps/proxies; harmonised chart inclusion pending.
+- [-] Manufacturing share — covered; Philippines national-account vintages and other proxy issues require review.
+- [-] Export composition — covered narratively; classifications and several anchors remain unsuitable for one common chart.
+- [-] Literacy/education — covered with explicit gaps/proxies; historical definition matching remains incomplete.
+- [-] Urbanisation — covered; common master-table freeze pending.
+- [-] Electricity/infrastructure — covered with explicit gaps and denominator warnings; common chart inclusion pending.
+- [-] Firm size/informality where comparable — evidence exists, but constructs remain too inconsistent for a six-country comparison.
+- [-] Institutional/trust measure where credible — WGI/direct-trust evidence is distinguished, but releases and constructs require harmonisation.
+- [x] What the case supports, challenges, and cannot prove — present in all six evidence files.
+- [-] APA citations and exact source locators for every value and claim — present within country files; four countries are not yet in the shared registries.
 
 ## 3. Economic and historical research
 
@@ -97,7 +97,7 @@ Each theory must contain:
 - [ ] Full APA 7 bibliography — missing.
 - [ ] In-text APA citations throughout page copy — missing.
 - [-] Claim-to-source register — 89 Ghana/South Korea claims are registered; other countries and final copy remain uncovered.
-- [-] Dataset citations and query details — recorded for the audited Ghana/South Korea claims and new Botswana/Mauritius files; project-wide freeze remains missing.
+- [-] Dataset citations and query details — recorded within all six country files; shared-registry integration and project-wide data freeze remain missing.
 - [ ] Image-credit and rights register — missing.
 - [ ] Map-source register — missing.
 - [ ] Independent citation audit — missing.
@@ -223,11 +223,17 @@ Every page must have:
 
 ## Next four agent assignments
 
-Copy-ready versions are in `project-control/NEXT_AGENT_PROMPTS.md`.
+The root agent should generate the next copy-ready versions in `project-control/NEXT_AGENT_PROMPTS.md` from the reconciled task order below.
 
 - [x] `SRC-001`: Ghana/South Korea source and claim audit accepted; disputed and unsupported evidence remains flagged for DATA-001 repair.
 - [x] `DATA-002`: Botswana evidence file accepted with visible data gaps.
 - [x] `DATA-003`: Mauritius evidence file accepted with visible data gaps.
-- [ ] `VIS-001`: Define the fixed comparison-chart system and build one verified proof chart.
+- [x] `DATA-001`: Ghana/South Korea repair accepted; rejected claims removed or visibly retained only as audit notes and unresolved gaps remain explicit.
+- [x] `DATA-004`: Malaysia evidence file accepted with visible territorial, classification, proxy, and historical limitations.
+- [x] `DATA-005`: Philippines evidence file accepted with visible source-vintage, classification, proxy, and historical limitations.
+- [ ] `VIS-001`: Define the fixed comparison-chart system and build one verified Ghana/South Korea GDP proof chart.
+- [ ] `DATA-006`: Complete the six-country comparability review and freeze approved chart inputs.
+- [ ] `SRC-002`: Add Botswana, Mauritius, Malaysia, and Philippines sources/claims to the shared APA registries.
+- [ ] `RES-001`: Build the colonialism, borders, infrastructure, and independence evidence pack.
 
-After one task finishes, assign Malaysia, then the Philippines. Final page writing should not start before the relevant evidence and figure data are reviewed.
+Run `RES-002` when a slot opens. Final page writing must wait for the relevant evidence, registry coverage, and figure data to pass review.

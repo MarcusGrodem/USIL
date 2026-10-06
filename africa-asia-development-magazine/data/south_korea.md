@@ -1,156 +1,120 @@
-# South Korea — anchor case
+# South Korea — audited anchor-case evidence
 
-Data pulled 2026-09-22. Follows the same 10-indicator template as `ghana.md`. Paired case with Ghana on the flagship spread.
+**Task:** DATA-001 · **Checked:** 2026-10-04 · **Anchors:** 1960, 1990, 2020
 
-Anchor years: **1960 · 1990 · 2020**.
+Values appear only with a source and locator. Proxies retain their actual year; `gap` means no comparable observation was verified. Confidence: **H** high, **M** medium, **L** gap/unresolved.
 
-Legend: **H** = high confidence · **M** = medium · **L** = low · **n/a** = no comparable measure for that period.
+## Starting position and inheritance
 
-**Headline check:** GDP per capita in 1960 was **US$1,038** (Korea) vs **US$1,101** (Ghana). The magazine's founding claim — same starting income, different destinies — is verified.
+In 1960 Korea's GDP per capita was **US$1,037.73 (constant 2015 US$)**, 5.7% below Ghana's US$1,100.76 on the same WDI series (World Bank, 2026a; [K1]). Similar income did not mean identical starting conditions. Other verified baselines are manufacturing **11.40% of GDP**, urban population **27.69%**, adult literacy **71%**, and commodity exports **86.3% primary / 13.7% manufactured** (World Bank, 1980, Table 23, p. 154; World Bank, 2026a; Kim, 1971, Table 1, pp. 16–17). These are descriptive conditions, not a single-cause explanation.
 
----
+## Audited indicator table
 
-## 1. GDP per capita (constant 2015 USD)
-
-| Year | Value | Note |
-|---|---|---|
-| 1960 | US$ 1,038 | ~5% below Ghana in the same year |
-| 1990 | US$ 9,673 | 11× Ghana's 1990 value |
-| 2020 | US$ 33,216 | 17× Ghana's 2020 value |
-
-- Source: World Bank WDI `NY.GDP.PCAP.KD` — `https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.PCAP.KD?date=1960:2022&format=json`
-- Cross-check: Maddison Project 2023 (2011 int$) gives Korea $1,548 / $13,874 / $38,607. **Notable:** on the PPP frame Maddison shows Korea 1960 *below* Ghana ($1,548 vs Ghana's $2,197) — the "same starting income" story survives either way; PPP framing makes the paradox even sharper.
-- Confidence: **H**
-- **Publish rule:** use the WB constant 2015 USD series for the paired dashboard so Ghana and Korea are on the same yardstick. Maddison stays as a footnote cross-check.
-
-## 2. Labour productivity (GDP per person employed, constant 2021 PPP $)
-
-| Year | Value | Note |
-|---|---|---|
-| 1960 | n/a | Series `SL.GDP.PCAP.EM.KD` starts 1991 |
-| 1990 → **1991** | US$ 35,978 | Closest available (within ±3 yr) |
-| 2020 | US$ 93,906 | ~5.5× Ghana's 2020 value |
-
-- Source: World Bank WDI — `https://api.worldbank.org/v2/country/KOR/indicator/SL.GDP.PCAP.EM.KD?date=1990:2022&format=json`
-- Confidence: **H** for 1991 / 2020 · **L** for 1960 (gap)
-- Note: Bank of Korea historical accounts suggest 1960 labour productivity was roughly one-quarter of the 1991 level — not directly comparable, use as narrative only.
-
-## 3. Employment by sector (%)
-
-| Year | Agriculture | Industry | Services | Note |
+| Indicator | 1960 anchor | 1990 anchor | 2020 anchor | Source, definition, and limitation |
 |---|---|---|---|---|
-| 1960 (~1963) | 61 | 9 | 30 | From Bank of Korea / NBER historical accounts |
-| 1990 → **1991** | 15.5 | 37.2 | 47.4 | ILO modelled |
-| 2020 | 5.4 | 24.6 | 70.0 | |
+| GDP per capita, constant 2015 US$ | 1,038 | 9,673 | 33,216 | **H**. [K1]. Exact: 1037.72899231615; 9672.57845182894; 33215.9298928108. Korea/Ghana ratios: 11.3017 (1990), 16.859 (2020). |
+| Labour productivity, constant 2021 PPP$ per person employed | gap | **1991 proxy:** 35,978 | 93,906 | **H**. [K2]. Exact: 35977.9382182175; 93905.8652726407. Unsupported 1960 backcast removed. |
+| Employment: agriculture / industry / services, % total | **1963 context:** 63.1 / 8.7 / 28.2 | **1991 proxy:** 15.5 / 37.2 / 47.4 | 5.4 / 24.6 / 70.0 | 1963 **M**, Economic Planning Board (1982), Table 3-5; middle category is mining/quarrying/manufacturing. Later rows **M**, ILO-modelled WDI [K3]. |
+| Manufacturing value added, % GDP | 11.4 | 25.2 | 25.7 | **H**. [K4]. Exact 11.4035087719298; 25.2385195677477; 25.7002433607737. |
+| Export composition | Primary 86.3%; manufactured 13.7% | gap | gap for HS2 shares | Kim (1971), Table 1, pp. 16–17; see export audit. |
+| Adult literacy, % ages 15+ | 71 | gap; 1975 context: 93 | gap; 2008 context: 98.0 | 1960 **M**, World Bank (1980), Table 23, p. 154 and definition p. 158. 2008 **H**, [K6], exact 97.9700012207031. |
+| Urban population, % | 27.7 | 74.0 | 81.2 | **H**. [K7]. Exact 27.6858239622977; 73.9851161168568; 81.1759595622913. |
+| Electricity access, % population | gap | 99.88 | 100 | **H**. [K8]. Rural-programme history is separate context below. |
+| Informality / firm-size proxy | gap | gap | gap | Rejected 22.5%-of-GDP claim removed; see audit. |
+| WGI Rule of Law / Government Effectiveness | gap | gap | **1.16 / 1.54** | **H**. [K10]. 90% CIs: RL 0.90–1.42; GE 1.16–1.92. Governance, not trust. |
 
-- Sources: WDI `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, `SL.SRV.EMPL.ZS`; NBER Hong chapter for 1960s
-- Confidence: **H** for 1991 / 2020 · **M** for 1963 (single historical source)
-- **The killer stat:** agriculture went from **61% → 15% → 5%**. Ghana went from ~65% → 72% → 37%. Korea's workforce moved *out* of agriculture into industry then services in a coordinated wave. Ghana's *stayed in agriculture* through 1991 before drifting into services.
+Exact WDI employment values are 15.4803368403517, 37.1597644608214, 47.359888440688 in 1991 and 5.37120678440121, 24.6462264496937, 69.9825667659051 in 2020 ([K3]). The former 61/9/30 historical row is corrected; its definitions must not be spliced into WDI without a note.
 
-## 4. Manufacturing share of GDP (%)
+## Income and manufacturing cross-checks
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | 11.4 | Nearly identical to Ghana's ~10% |
-| 1990 | 25.2 | Ghana was still at 9.8 |
-| 2020 | 25.7 | Ghana at 11.0 |
+Maddison Project 2023 gives Korea GDP per capita 1,547.69 (1960), 13,874 (1990), and 38,606.98 (2020), and Ghana 2,197 (1960), in 2011 international dollars (Bolt & van Zanden, 2024, `mpd2023_web.xlsx`, `Full data`, `countrycode` KOR/GHA, `gdppc`). **Limitation:** for a chart with fewer than 12 countries, the dataset requires original country-paper citations; those remain missing.
 
-- Source: WDI — `https://api.worldbank.org/v2/country/KOR/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json`
-- Confidence: **H** — direct observations at all three anchors
-- **Headline finding:** Both countries started near 10% manufacturing share. Korea more than doubled to 25% and *stayed there*. Ghana peaked at ~14% in 1975 and collapsed back to ~10%. Same starting point, one country built a manufacturing base, the other did not.
-- Peaked at **29.0% in 2011** and held 27–29% through 2018. Korea is one of the few advanced economies that has *not* de-industrialised.
+Manufacturing peaked at **29.00% in 2011** and remained 27–29% through 2018 ([K4]). A paired headline must state that Ghana's early value is a **1965 proxy**, not 1960. The unsupported superlative “one of the few advanced economies not to deindustrialise” is removed.
 
-## 5. Export composition — top 3 (% of merchandise exports)
+## Export-composition audit
 
-| Year | Composition | Note |
-|---|---|---|
-| 1960 | Primary products **>70%** (marine products, tungsten ore, raw silk) · Manufactures <30% | IMF F&D historical review (precise split unavailable) |
-| 1990 (via 1995 clean HS-2 snapshot) | Electrical machinery / electronics ~29% · Machinery ~12% · Cars & parts ~7% (+ships, textiles) | OEC / WITS — 1995 proxy, mark with asterisk |
-| 2020 | Electrical machinery / electronics 33.7% · Machinery 13.3% · Cars & parts 9.8% | OEC BACI **HS-2 chapter aggregates** — different taxonomy from OEC's public HS-4 product view |
+- **1960:** primary products US$28.3m (**86.3%**) and manufactured goods US$4.5m (**13.7%**) of US$32.8m commodity exports (Kim, 1971, Table 1, pp. 16–17).
+- **1990:** gap. The former 1995 29/12/7 proxy is removed; it had no saved query, code mapping, or denominator.
+- **2020:** gap for shares. WITS query: KOR; 2020; exports; world; HS 1988/92; total US$512,419m (World Bank, n.d.). The summary confirms leading HS6 identities, including integrated circuits and cars, but not the inherited 33.7/13.3/9.8 HS2 shares. The public endpoint was rate-limited or returned no usable rows.
 
-- Sources: OEC `https://oec.world/en/profile/country/kor?yearSelector1=2020` · WITS `https://wits.worldbank.org/CountryProfile/en/Country/KOR/Year/1990/TradeFlow/Export` · IMF F&D `https://www.elibrary.imf.org/view/journals/022/0008/001/article-A003-en.xml`
-- Confidence: **H** for 2020 · **M** for 1960 (categorical, not HS-6) and 1990 (1995 proxy)
-- **The strongest single narrative in the whole dataset:** Korea's exports went from tungsten ore and dried seaweed to integrated circuits and Hyundai cars in one lifetime. Ghana's went from cocoa and gold to gold and oil — different commodities, same structure.
+The defensible narrative is categorical: exports shifted from marine products, tungsten, and raw silk to leading products including integrated circuits and cars. It does not use one unchanged taxonomy. A percentage chart is blocked until a saved full extraction records HS revision, chapter mapping, FOB denominator, and total.
 
-## 6. Adult literacy rate (%, ages 15+)
+## Literacy audit
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | ~71 | UNESCO EFA / Kim (2005) national estimates; not in WDI |
-| 1990 | ~93–96 | UNESCO / national estimates — no clean WDI observation |
-| 2020 (last obs 2008) | ~98 | Effectively universal; Korea stopped reporting once literacy saturated |
+World Bank (1980) Table 23, printed p. 154, gives Korea 71% (1960) and 93% (1975). Technical notes to Table 1, p. 158, define adult literacy as people aged 15+ able to read and write, primarily from UNESCO plus World Bank data, and warn that estimates can be up to two years from the label. The 1960 claim is now exactly located. The former 1990 93–96% range is removed, and 2008 cannot proxy 2020. Ghana's 1960 value remains unresolved, so the 2.8-fold ratio and “strongest explanatory variable” claim are removed.
 
-- Source: WDI `SE.ADT.LITR.ZS`; UNESCO EFA `https://unesdoc.unesco.org/ark:/48223/pf0000229721`
-- Confidence: **M** (Korea stopped submitting once universal, so anchor values rely on secondary sources)
-- **The human-capital contrast that anchors the whole magazine:** Korea 1960 ≈ **71% literate**. Ghana 1960 ≈ **25% literate**. Same income, ~2.8× the literacy stock. This is the strongest data point in the three-theory arc.
+## Urbanisation interpretation
 
-## 7. Urbanisation rate (% urban)
+Urbanisation rose 27.7%→81.2%, alongside manufacturing growth and a falling agricultural employment share ([K3], [K4], [K7]). These series establish co-movement, not that Korea urbanised “around industrial jobs” or that manufacturing caused urbanisation (World Bank, 2026a).
 
-| Year | Value |
-|---|---|
-| 1960 | 27.7 |
-| 1990 | 74.0 |
-| 2020 | 81.2 |
+## Electricity history
 
-- Source: WDI `SP.URB.TOTL.IN.ZS`
-- Confidence: **H** — full series, no gaps
-- **Cross-continent comparison:** Korea and Ghana were nearly equally urbanised in 1960 (28% vs 23%). By 1990 Korea was at 74%, Ghana at 36%. Korea urbanised **around industrial jobs**. Ghana urbanised **without them** — the "urbanisation without industrialisation" pattern.
+KEPCO (n.d.), history, dates completion of the Rural Electrification Promotion Project to **1979**. The National Archives of Korea (2007), rural-electrification subject entry, reports rural supply rates 12% at end-1964, 74% at end-1975, **99.3% at end-1980**, and 99.9% at end-1988. This resolves the historical locator, but the universe is rural programme supply, not WDI national population access. WDI gives 99.8828430175781% in 1990 and 100% in 2020 ([K8]).
 
-## 8. Electricity access (% of population)
+## Informality audit
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | n/a | Series `EG.ELC.ACCS.ZS` starts 1990. Korean sources indicate rural electrification programme reached ~100% by late 1970s |
-| 1990 | 99.88 | Effectively universal at the start of the series |
-| 2020 | 100 | |
+No numeric value is retained. OECD (2020) contains no 22.5% claim; Medina and Schneider (2018) provide model-based shadow-economy series, with 22.5 associated with about 2014 rather than 2020. Shadow-economy share of GDP is not comparable with Ghana's survey share of workers. Publication needs one construct, comparable years, and matched units.
 
-- Source: WDI — `https://api.worldbank.org/v2/country/KOR/indicator/EG.ELC.ACCS.ZS?date=1990:2022&format=json`
-- Confidence: **H** for 1990 / 2020 · **L** for 1960 (gap)
-- Ghana at 1990 = data gap · Korea at 1990 = 100%. The gap by 1990 is the story.
+## Governance audit
 
-## 9. Firm size / informality proxy
+Official WGI 2026 gives 2020 Rule of Law **1.1612116** (90% CI 0.9043354–1.4180878) and Government Effectiveness **1.5408948** (1.15916–1.9226296), [K10]. This replaces the old GE 1.13. Old-release percentile claims are removed because the recalculated release publishes absolute 0–100 scores instead. Korea–Ghana Rule of Law difference is 1.068 estimate points, with uncertainty. WGI is perception-based governance, not trust (World Bank, 2026b).
 
-| Year | Value | Note |
-|---|---|---|
-| 1960 | n/a | |
-| 1990 | n/a | ILO harmonised informal-employment series starts ~2000s |
-| 2020 | Informal economy ~22.5% of GDP (DGE method, Medina & Schneider / IMF) | Closest apples-to-apples comparable measure for Ghana |
+## Exact dataset locators
 
-- Sources: OECD Economic Survey Korea 2020 `https://www.oecd.org/content/dam/oecd/en/publications/reports/2020/08/oecd-economic-surveys-korea-2020_59a25235/2dde9480-en.pdf` · TheGlobalEconomy DGE mirror
-- Confidence: **M** — model-based, not survey-based
-- **Definitional watch-out:** Korea's *informal employment share of workers* is not directly comparable to Ghana's ~78–85% figure (which uses the non-agricultural informal definition). The DGE size-of-informal-economy measure is the fairest paired stat.
+- **[K1]** WDI API v2 `KOR/NY.GDP.PCAP.KD?date=1960:2020`; paired 1960 also country GHA.
+- **[K2]** WDI API v2 `KOR/SL.GDP.PCAP.EM.KD?date=1990:2022`.
+- **[K3]** WDI API v2, KOR, 1991/2020: `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, `SL.SRV.EMPL.ZS`.
+- **[K4]** WDI API v2 `KOR/NV.IND.MANF.ZS?date=1960:2020`.
+- **[K6]** WDI API v2 `KOR/SE.ADT.LITR.ZS?date=2008:2008`.
+- **[K7]** WDI API v2 `KOR/SP.URB.TOTL.IN.ZS?date=1960:2020`.
+- **[K8]** WDI API v2 `KOR/EG.ELC.ACCS.ZS?date=1990:2020`.
+- **[K10]** `wgidataset_with_sourcedata-2026.xlsx`, sheets `rl`/`ge`, economy KOR, 2020, estimate and 90% bounds.
 
-## 10. Institutional trust / governance (WGI, −2.5 to +2.5)
+All were independently checked 2026-10-04. Freeze dynamic returns before charting.
 
-| Year | Rule of Law | Govt Effectiveness | Note |
-|---|---|---|---|
-| 1960 | n/a | n/a | WGI series starts 1996 |
-| 1990 | n/a | n/a | |
-| 2020 | ~1.15 | ~1.13 | ~87–90th percentile globally on both dimensions |
+## Current gaps
 
-- Source: WGI download page — `https://www.worldbank.org/en/publication/worldwide-governance-indicators`. Note: `RL.EST` no longer resolves via WDI API path.
-- Confidence: **M** for 2020 (verified via mirror, not raw WGI CSV pull) · **n/a** for 1960 / 1990
-- Ghana 2020 = +0.11 · Korea 2020 = +1.15. A one-point gap on the −2.5 to +2.5 scale.
+1. Comparable 1960 labour productivity; unsupported backcast removed.
+2. True 1990 export split and reproducible 2020 HS2 aggregation; blocker is no saved full UN Comtrade extraction with HS revision, mapping, and denominator.
+3. Adult literacy near 1990/2020; 1975 and 2008 are outside the proxy window.
+4. Comparable 1960 national electricity access; rural programme data use another universe.
+5. Comparable informality and direct trust measures.
+6. Original Maddison country-paper citations for a two-country publication chart.
 
----
+## Evidence-backed findings
 
-## Data-gap punch list (to close before publication)
+1. Korea and Ghana had similar 1960 GDP per capita on matched WDI terms, not identical starting conditions ([K1]).
+2. Korea rose from US$1,038 in 1960 to US$33,216 in 2020; its matched ratio to Ghana widened to 16.86 ([K1]).
+3. Manufacturing rose 11.4%→25.2%→25.7% at the three anchors ([K4]).
+4. Agriculture fell from 63.1% in a differently classified **1963** table to 15.5% in the **1991 proxy** and 5.4% in 2020 (Economic Planning Board, 1982; [K3]).
+5. Exports shifted from 86.3% primary in 1960 to leading products including integrated circuits/cars in 2020, but endpoints lack one comparable percentage taxonomy (Kim, 1971; World Bank, n.d.).
 
-- Labour productivity 1960 — no fix; acknowledge as unmeasurable and move on.
-- Adult literacy 1990 and 2020 — pull Korean national statistics office (KOSTAT) rather than UNESCO/WDI.
-- WGI 2020 — pull the actual WGI CSV rather than the TheGlobalEconomy mirror.
-- Export composition 1990 — replace the 1995 HS-2 proxy with a true 1990 HS-6 pull from UN Comtrade.
-- Informality — pick one method (DGE) and use the same method for Ghana's 2020 anchor. Currently mixed.
+## What the case supports, challenges, and cannot prove
 
-## Headlines to carry into the magazine
+- **Supports:** descriptive structural transformation—income growth, manufacturing deepening, movement out of agriculture, export upgrading, urbanisation, and near-universal electricity.
+- **Challenges:** a starting-income-only explanation; similar income coexisted with different verified literacy, export, and manufacturing conditions.
+- **Cannot prove:** that literacy, culture, policy, institutions, or aid singly caused divergence; that industry caused urbanisation; specific 1990/2020 HS2 shares; that rural electrification equals national access; or that WGI measures trust.
 
-1. **1960 GDP per capita: Korea $1,038 · Ghana $1,101.** Same start. This is the founding paradox of the whole magazine.
-2. **1960 literacy: Korea ~71% · Ghana ~25%.** Same income, radically different human capital. The strongest single explanatory variable in the paired dataset.
-3. **Manufacturing share: Korea doubled to 25% and held. Ghana peaked, collapsed, recovered to 10%.** The industrialisation arc that worked vs the one that didn't.
-4. **Employment structure: Korea moved workers out of agriculture into industry then services. Ghana's workforce stayed in agriculture through 1991.** Structural transformation in action.
-5. **Export composition: Korea sold tungsten ore in 1960 and integrated circuits in 2020. Ghana sold cocoa in 1960 and gold in 2020.** Different commodities, same structure — for Ghana. For Korea, a complete transformation.
+## References
 
-## Verification log
+Bolt, J., & van Zanden, J. L. (2024). *Maddison Project Database 2023* [Data set]. DataverseNL. https://doi.org/10.34894/INZBF2
 
-- 2026-09-22 — researcher agent pulled data.
-- 2026-09-23 — dual-agent verification pass. 8 of 10 numeric cells matched to exact precision on independent WDI re-pull. Fixes applied: (a) Maddison cross-check numbers corrected ($1,548 / $13,874 / $38,607 in 2011 int$; noted that PPP framing shows Korea *below* Ghana in 1960 — paradox holds either way); (b) manufacturing peak updated to 29.0% in 2011, held 27–29% through 2018; (c) 1960 export split softened to >70% primary / <30% manufactures (source doesn't support false precision); (d) 2020 export composition footnoted as HS-2 chapter aggregates, distinct from OEC's HS-4 view; (e) literacy contrast corrected from "3×" to "~2.8×".
+Kim, H. C. (1971). Korea's export success, 1960–69. *Finance & Development, 8*(1), 14–21. https://doi.org/10.5089/9781616353025.022.A003
+
+Korea Electric Power Corporation. (n.d.). *History*. Retrieved October 4, 2026, from https://www.kepco.co.kr/eng/about-us/company/history.do
+
+Medina, L., & Schneider, F. (2018). *Shadow economies around the world: What did we learn over the last 20 years?* (IMF Working Paper No. 18/17). International Monetary Fund. https://doi.org/10.5089/9781484338636.001
+
+National Archives of Korea. (2007, December 1). *Rural electrification project* [Subject description, Korean]. https://www.archives.go.kr/next/newsearch/listSubjectDescription.do?id=006606&pageFlag=&sitePage=
+
+Organisation for Economic Co-operation and Development. (2020). *OECD economic surveys: Korea 2020*. OECD Publishing. https://doi.org/10.1787/2dde9480-en
+
+Republic of Korea Economic Planning Board. (1982). Employment by sectors, 1963–81. In *Handbook of Korean economy 1982*. Government of the Republic of Korea. https://archive.unu.edu/unupress/unupbooks/uu04te/uu04te0e.htm
+
+World Bank. (n.d.). *Korea, Republic: Trade summary 2020* [Data set]. World Integrated Trade Solution. Retrieved October 4, 2026, from https://wits.worldbank.org/CountryProfile/en/Country/KOR/Year/2020/Summarytext
+
+World Bank. (1980). *World Development Report 1980*. Oxford University Press. https://documents1.worldbank.org/curated/en/430051469672162445/pdf/108800REPLACEMENT0WDR01980.pdf
+
+World Bank. (2026a). *World Development Indicators* [Data set]. Retrieved October 4, 2026, from https://databank.worldbank.org/source/world-development-indicators
+
+World Bank. (2026b). *Worldwide Governance Indicators: 2026 update* [Data set]. Retrieved October 4, 2026, from https://www.worldbank.org/en/publication/worldwide-governance-indicators
