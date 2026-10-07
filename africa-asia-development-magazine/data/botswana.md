@@ -1,6 +1,6 @@
 # Botswana — counterexample evidence file
 
-Data verified **2026-10-04**. This file follows the Ghana/South Korea 10-indicator structure and the locked anchor years **1960 · 1990 · 2020**. It does not interpolate. A substituted observation is printed with its actual year; `n/a` means that no sufficiently comparable observation was verified.
+Data verified **2026-10-06**. This file follows the Ghana/South Korea 10-indicator structure and the locked anchor years **1960 · 1990 · 2020**. It does not interpolate. A substituted observation is printed with its actual year; `n/a` means that no sufficiently comparable observation was verified.
 
 Legend: **H** = high confidence · **M** = medium confidence · **L** = low confidence · **n/a** = unavailable or not comparable.
 
@@ -26,7 +26,7 @@ Diamonds were discovered in 1967. The post-independence state centralized minera
 | 1990 | 1990 | US$4,039.47 | Same query; observation `date=1990` | **H** | Direct anchor-year observation. |
 | 2020 | 2020 | US$6,254.25 | Same query; observation `date=2020` | **H** | COVID-19 outcome year; 2019 was US$6,951.73, so the anchor captures a major temporary contraction. |
 
-Source: World Bank (2026), *World Development Indicators* (WDI). Direct reproducible query: <https://api.worldbank.org/v2/country/BWA/indicator/NY.GDP.PCAP.KD?date=1960:2020&format=json&per_page=100>.
+Source: World Bank (2026a), *World Development Indicators* (WDI). Direct reproducible query: <https://api.worldbank.org/v2/country/BWA/indicator/NY.GDP.PCAP.KD?date=1960:2020&format=json&per_page=100>.
 
 **Interpretation:** Real GDP per person was about 15.9 times its 1960 level by 2020, but the 2020 value was 10.0% below 2019. The long-run transformation is real; the endpoint also exposes sensitivity to shocks.
 
@@ -40,7 +40,7 @@ Source: World Bank (2026), *World Development Indicators* (WDI). Direct reproduc
 | 1990 | **1991** | Int$37,038.69 | WDI `SL.GDP.PCAP.EM.KD`, `date=1960:2022`; observation `date=1991`; 1990 is null | **H** | One-year proxy, printed as 1991. Modelled employment denominator. |
 | 2020 | 2020 | Int$50,122.87 | Same query; observation `date=2020` | **H** | COVID-19 affected both output and employment; this is not a normal-cycle endpoint. |
 
-Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA/indicator/SL.GDP.PCAP.EM.KD?date=1960:2022&format=json&per_page=100>.
+Source: World Bank (2026a), WDI. Query: <https://api.worldbank.org/v2/country/BWA/indicator/SL.GDP.PCAP.EM.KD?date=1960:2022&format=json&per_page=100>.
 
 **Interpretation:** Measured output per worker rose about 35% from 1991 to 2020, much more slowly than the earlier surge in GDP per person. The aggregate is also lifted by capital-intensive mining and does not show how gains were distributed across workers.
 
@@ -54,7 +54,7 @@ Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA
 | 1990 | **1991** | 12.58% | 21.27% | 66.15% | Three WDI queries, country `BWA`, observations `date=1991`; 1990 is null | **M** | One-year proxy; modelled shares. The low agriculture share can be affected by definitions of subsistence activity and should not be equated with rural livelihood dependence. |
 | 2020 | 2020 | 19.44% | 15.04% | 65.52% | Same indicators; observations `date=2020` | **M** | Modelled estimates and COVID-affected labour market. Sector shares sum to 100% subject to rounding. |
 
-Sources: World Bank (2026), WDI indicators `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, and `SL.SRV.EMPL.ZS`, using `https://api.worldbank.org/v2/country/BWA/indicator/{indicator}?date=1960:2022&format=json&per_page=100`.
+Sources: World Bank (2026a), WDI indicators `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, and `SL.SRV.EMPL.ZS`, using `https://api.worldbank.org/v2/country/BWA/indicator/{indicator}?date=1960:2022&format=json&per_page=100`.
 
 **Interpretation:** Services dominated employment at both measured endpoints, while industry’s share fell. The 2023 diagnostic describes the shift as largely toward low-productivity, non-tradable services rather than a broad industrial transformation (World Bank, 2023, pp. 6–7).
 
@@ -68,7 +68,7 @@ Sources: World Bank (2026), WDI indicators `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, a
 | 1990 | 1990 | 4.77% | Same query; observation `date=1990` | **H** | Direct anchor observation. Current-price share can move with diamond prices and relative prices, not only manufacturing volume. |
 | 2020 | 2020 | 5.66% | Same query; observation `date=2020` | **H** | Direct anchor observation; COVID-19 changed sectoral relative weights. |
 
-Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json&per_page=100>.
+Source: World Bank (2026a), WDI. Query: <https://api.worldbank.org/v2/country/BWA/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json&per_page=100>.
 
 **Interpretation:** Botswana’s income growth did not produce a Korea-like manufacturing transformation. The manufacturing share in 2020 remained only modestly above its 1990 level and far below the 1965 proxy.
 
@@ -82,7 +82,9 @@ Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA
 | 1990 | 1990 | Diamonds **78.8%** · copper-nickel **8.2%** · textiles **3.4%** | IMF (1998), Table 4: diamonds US$1,405.1m; nondiamond US$379.3m; copper-nickel US$145.8m; textiles US$60.1m; total US$1,784.4m. Shares recomputed from table values. | **H** | IMF table uses principal groups and US-dollar values; shares may differ from later HS-based national tables. |
 | 2020 | 2020 | Diamonds **88.2%** · machinery/electrical equipment **3.4%** · salt/soda ash **1.5%** | Statistics Botswana (2021), Table 2.2, p. 14, row `Total_2020` and `% Distribution`: total exports P48,180.3m | **H** | National principal-group classification. “Other goods” was 3.0% but is not a single product group. Diamond imports/re-exports and aggregation complicate interpretation as domestic value added. |
 
-**Interpretation:** Export concentration worsened between the two measured anchors. Even after decades of diversification policy, diamonds were 88.2% of merchandise exports in 2020 (Statistics Botswana, 2021, p. 14). The World Bank (2023, pp. 28–31) concludes that diversification has yet to gain traction, citing limited non-extractive investment, infrastructure and skills gaps, and policy distortions. This is diversification into services without comparable export diversification.
+**SRC-002/DATA-006 disposition:** These two source-specific observations are **NARRATIVE_ONLY**, not a comparable time series or chart. The 1990 IMF and 2020 national tables use different principal-group classifications, and diamond imports/re-exports further limit domestic-value-added inference.
+
+**Interpretation:** The higher diamond share in the 2020 source is consistent with continued concentration, but the classification break means it cannot by itself establish a like-for-like increase from 1990. Independently, the World Bank (2023, pp. 28–31) concludes that diversification has yet to gain traction, citing limited non-extractive investment, infrastructure and skills gaps, and policy distortions.
 
 ## 6. Literacy/education
 
@@ -94,7 +96,7 @@ Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA
 | 1990 | **1991** | 67.3% (ages 15–65) | Statistics Botswana (2016), Table 35, p. 69, row 1991, total ages 15–65 | **H** | One-year proxy; upper age cap differs from WDI’s ages-15+ definition. WDI/UIS gives 68.58% for ages 15+ in 1991. |
 | 2020 | **2014** | 90.0% (ages 15–65) | Statistics Botswana (2016), Table 35, p. 69, row 2014, total ages 15–65 | **M** | Six-year proxy, outside a ±3-year window; context only, not a 2020 anchor value. No interpolation. |
 
-Sources: Statistics Botswana (2016), Table 35; World Bank (2026), WDI/UNESCO UIS indicator `SE.ADT.LITR.ZS`, <https://api.worldbank.org/v2/country/BWA/indicator/SE.ADT.LITR.ZS?date=1960:2022&format=json&per_page=100>.
+Sources: Statistics Botswana (2016), Table 35; World Bank (2026a), WDI/UNESCO UIS indicator `SE.ADT.LITR.ZS`, <https://api.worldbank.org/v2/country/BWA/indicator/SE.ADT.LITR.ZS?date=1960:2022&format=json&per_page=100>.
 
 **Interpretation:** The verified series shows a major expansion of literacy, but the absence of a near-2020 adult-literacy observation means the 2014 value must not be plotted at 2020.
 
@@ -108,7 +110,7 @@ Sources: Statistics Botswana (2016), Table 35; World Bank (2026), WDI/UNESCO UIS
 | 1990 | 1990 | 43.65% | Same query; observation `date=1990` | **H** | Direct anchor observation. |
 | 2020 | 2020 | 66.45% | Same query; observation `date=2020` | **H** | Direct anchor observation. |
 
-Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA/indicator/SP.URB.TOTL.IN.ZS?date=1960:2020&format=json&per_page=100>.
+Source: World Bank (2026a), WDI. Query: <https://api.worldbank.org/v2/country/BWA/indicator/SP.URB.TOTL.IN.ZS?date=1960:2020&format=json&per_page=100>.
 
 **Interpretation:** Botswana shifted from an overwhelmingly rural society to a two-thirds urban one. Urbanisation alone did not guarantee manufacturing depth: the 2023 diagnostic reports small, low-density cities and a shift toward low-productivity non-tradable services (World Bank, 2023, p. 6).
 
@@ -122,7 +124,7 @@ Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA
 | 1990 | **1991** | 10.1% | WDI `EG.ELC.ACCS.ZS`, `date=1960:2022`; 1990 null, observation `date=1991` | **M** | One-year proxy. Historical estimates combine survey and modelled information. |
 | 2020 | 2020 | 71.8% | Same query; observation `date=2020` | **H** | National average hides rural/urban disparities and does not measure reliability or affordability. |
 
-Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA/indicator/EG.ELC.ACCS.ZS?date=1960:2022&format=json&per_page=100>. The World Bank (2023, p. xi) independently reports the 2020 72% rounded value and notes expansion from under 10% in the 1980s.
+Source: World Bank (2026a), WDI. Query: <https://api.worldbank.org/v2/country/BWA/indicator/EG.ELC.ACCS.ZS?date=1960:2022&format=json&per_page=100>. The World Bank (2023, p. xi) independently reports the 2020 72% rounded value and notes expansion from under 10% in the 1980s.
 
 **Interpretation:** Infrastructure access expanded dramatically. Yet access is not productive transformation by itself; electricity reliability, cost, firm capabilities, and market scale affect whether infrastructure supports tradable industry.
 
@@ -134,13 +136,27 @@ Source: World Bank (2026), WDI. Query: <https://api.worldbank.org/v2/country/BWA
 |---|---:|---:|---|---|---|
 | 1960 | — | n/a | No comparable survey | **n/a** | Not estimated. |
 | 1990 | — | n/a | No comparable harmonised observation verified | **n/a** | Not estimated. |
-| 2020 | **2019 Q4** | 485,524 formal-sector jobs; **65.4%** of 742,378 employed | Statistics Botswana (2020), Table 1.0, p. 4 (PDF p. 8): formal-sector employment and employed population; share calculated | **M** | One-quarter proxy. Report later gives 373,644 under a narrower “formal employment/jobs” concept (pp. 33–35); do not infer a 34.6% informal-employment rate without reconciling definitions. |
+| 2020 | **2019 Q4 context** | Two unreconciled formal-employment counts: **485,524** in Table 1.0 and **373,644** under a narrower concept on pp. 33–35 | Statistics Botswana (2020), Table 1.0, p. 4 (PDF p. 8), and pp. 33–35 | **M** | **NARRATIVE_ONLY.** The conflicting concepts prevent an approved formal share or an informal residual. The previously calculated 65.4% formal share and 34.6% informal residual are rejected as current evidence. |
 
 Source: Statistics Botswana (2020), *Quarterly multi-topic survey: Labour force module report, quarter 4: 2019*. The report defines informal establishments using non-registration, fewer than five employees, informal/no accounts, inseparable household expenditure, or casual hiring (p. 64; PDF p. 68), but it does not provide a single directly comparable headline informal-employment share.
 
-**Interpretation:** A substantial formal sector coexists with many micro- and small firms. The World Bank (2023, pp. 6, 30–31) describes much recent structural change as entry into low-productivity non-tradable micro and small services, limiting the inference that formality or firm scale alone explains growth.
+**Interpretation:** The labour report establishes that formal-employment concepts differ within the source; it does not supply a harmonised worker-informality rate. The World Bank (2023, pp. 6, 30–31) separately describes much recent structural change as entry into low-productivity non-tradable micro and small services. No cross-country informality comparison is approved.
 
-## 10. Institutional/trust measure
+## 10. Governance and institutional trust
+
+### 10a. Worldwide Governance Indicators
+
+**Definitions:** Rule of Law is a perception-based governance composite covering contract enforcement, property rights, police, courts, crime, and violence. Government Effectiveness covers public services, civil-service quality, policy formulation/implementation, and government credibility. **Unit:** standard-normal governance estimate, approximately −2.5 to +2.5; higher is better. **WGI is governance, not interpersonal or institutional trust.**
+
+| Anchor | Actual year | Rule of Law | Government Effectiveness | Exact source locator | Confidence | Limitation/comparability warning |
+|---|---:|---:|---:|---|---|---|
+| 1960 | — | n/a | n/a | WGI begins in 1996 | **n/a** | No retrospective or backward-substituted score. |
+| 1990 | — | n/a | n/a | WGI begins in 1996 | **n/a** | No retrospective or backward-substituted score. |
+| 2020 | 2020 | **+0.361** (90% CI **+0.099 to +0.624**) | **+0.391** (90% CI **+0.041 to +0.740**) | World Bank (2026b), official workbook `wgidataset_with_sourcedata-2026.xlsx`, sheets `rl` and `ge`, economy `BWA`, year 2020 | **H** | Perception-based governance estimates with uncertainty; not a trust score and not evidence about 1960/1990. |
+
+Frozen full-precision values: Rule of Law `0.3614259` (`0.0985383` to `0.6243135`); Government Effectiveness `0.3907372` (`0.0413355` to `0.7401389`). The 2026 workbook supersedes older WGI releases; releases must not be mixed.
+
+### 10b. Direct institutional trust
 
 **Definition/unit:** Weighted share of adults reporting that they trust courts of law “somewhat” or “a lot” in Afrobarometer Round 8. Nationally representative face-to-face sample of 1,200 adults; fieldwork 26 July–10 August 2019; country-level margin of error ±3 percentage points at 95% confidence.
 
@@ -160,7 +176,7 @@ Source: Afrobarometer (2021), *Botswana Round 8: Summary of results*.
 
 Botswana converted diamond rents into public goods unusually effectively. GDP per person, literacy, urbanisation, and electricity access all rose, and the state avoided the macroeconomic collapse associated with many resource booms. These outcomes are consistent with capable fiscal management and institutional continuity (Maipose, 2008, pp. 8–11; World Bank, 2023, pp. 2–3).
 
-But the production and export structure remained narrow. Diamonds rose from 78.8% of exports in 1990 to 88.2% in 2020, while manufacturing was only 5.7% of GDP in 2020. The World Bank (2023, pp. 28–31) finds limited progress on an export-oriented private sector and points to state-owned-enterprise dominance, weak competition, infrastructure and skills gaps, and fragmented inward-oriented policies. Diamond mining is capital intensive, and the wider economy has not generated enough productive jobs. Consumption inequality remained exceptionally high, with an official Gini of 54.9 in 2016 (World Bank, 2023, p. 13).
+But the production and export structure remained narrow. Source-specific tables report diamonds at 78.8% of exports in 1990 and 88.2% in 2020, but their classifications differ, so DATA-006 permits the pair only as narrative context rather than a connected chart. Manufacturing was 5.7% of GDP in 2020. The World Bank (2023, pp. 28–31) finds limited progress on an export-oriented private sector and points to state-owned-enterprise dominance, weak competition, infrastructure and skills gaps, and fragmented inward-oriented policies. Diamond mining is capital intensive, and the wider economy has not generated enough productive jobs. Consumption inequality remained exceptionally high, with an official Gini of 54.9 in 2016 (World Bank, 2023, p. 13).
 
 ## Governance and institutional explanations: what survives scrutiny
 
@@ -187,10 +203,10 @@ The defensible conclusion is conditional: institutions helped Botswana capture a
 
 ## Evidence-backed findings
 
-1. **Botswana achieved a real income transformation:** constant-2015-US-dollar GDP per person rose from **US$394 in 1960 to US$6,254 in 2020**, even with a COVID-related fall from 2019 (World Bank, 2026).
-2. **The transformation did not become broad export diversification:** diamonds accounted for **78.8% of exports in 1990 and 88.2% in 2020** (International Monetary Fund, 1998, Table 4; Statistics Botswana, 2021, Table 2.2).
-3. **Manufacturing remained shallow:** its GDP share was **4.77% in 1990 and 5.66% in 2020**, while services held about two-thirds of employment (World Bank, 2026).
-4. **Public-goods expansion was substantial:** electricity access rose from **10.1% in 1991 to 71.8% in 2020**, and literacy reached **90.0% by 2014** for ages 15–65 (Statistics Botswana, 2016, Table 35; World Bank, 2026).
+1. **Botswana achieved a real income transformation:** constant-2015-US-dollar GDP per person rose from **US$394 in 1960 to US$6,254 in 2020**, even with a COVID-related fall from 2019 (World Bank, 2026a).
+2. **The transformation did not become broad export diversification:** source-specific tables put diamonds at **78.8% in 1990 and 88.2% in 2020**, while the World Bank independently diagnoses limited diversification; the two shares are narrative-only because classifications differ (International Monetary Fund, 1998, Table 4; Statistics Botswana, 2021, Table 2.2; World Bank, 2023, pp. 28–31).
+3. **Manufacturing remained shallow:** its GDP share was **4.77% in 1990 and 5.66% in 2020**, while services held about two-thirds of employment (World Bank, 2026a).
+4. **Public-goods expansion was substantial:** electricity access rose from **10.1% in 1991 to 71.8% in 2020**, and literacy reached **90.0% by 2014** for ages 15–65 (Statistics Botswana, 2016, Table 35; World Bank, 2026a).
 5. **Governance is an explanation to test, not a halo:** **65%** trusted courts somewhat or a lot in 2019, but **49%** said officials often or always go unpunished (Afrobarometer, 2021, pp. 40, 50).
 
 ## What Botswana supports
@@ -251,11 +267,19 @@ World Bank. (2023). *Botswana systematic country diagnostic update: At a crossro
 
 - In text: World Bank (2023); (World Bank, 2023).
 
-World Bank. (2026). *World Development Indicators* [Data set]. Retrieved October 4, 2026, from <https://databank.worldbank.org/source/world-development-indicators>
+World Bank. (2026a). *World Development Indicators* [Data set]. Release updated July 13, 2026; retrieved October 6, 2026, from <https://databank.worldbank.org/source/world-development-indicators>
 
-- In text: World Bank (2026); (World Bank, 2026). Exact indicator codes and reproducible API queries appear under each observation above.
+- In text: World Bank (2026a); (World Bank, 2026a). Exact indicator codes and reproducible API queries appear under each observation above.
+
+World Bank. (2026b). *Worldwide Governance Indicators: 2026 update* [Data set]. Retrieved October 6, 2026, from <https://www.worldbank.org/en/publication/worldwide-governance-indicators>
+
+- In text: World Bank (2026b); (World Bank, 2026b). Exact workbook sheets, economy code, year, estimates, and 90% bounds appear above.
 
 ## Verification record
+
+- 2026-10-06 — Applied accepted SRC-002 and DATA-006 dispositions: retained export observations as source-specific narrative only, removed the disputed formal-share/residual inference, and preserved every missing/proxy year.
+- 2026-10-06 — Added the frozen 2026 WGI workbook estimates and 90% intervals; checked that they are labelled governance, not trust, and that no 1960/1990 score is implied.
+- 2026-10-06 — Searched for superseded WGI values, wrong-year exports, informal-employment residuals, unweighted-population claims, and causal overstatements; no stale superseded value remains as current evidence.
 
 - 2026-10-04 — Re-pulled all WDI series from the World Bank API and recorded direct anchor/proxy observations and nulls.
 - 2026-10-04 — Opened Statistics Botswana’s 1966–2016 indicators, Q4 2019 labour report, and December 2020 trade digest; checked the cited tables and page locators.

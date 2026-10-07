@@ -174,14 +174,14 @@ Assign one independent audit area: evidence/APA, data/graphs, editorial/causalit
 
 The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPTS.md`; this runbook records the current task IDs so stale full prompts cannot survive here.
 
-**Current batch after the 2026-10-06 controller reconciliation:**
+**Current batch after the latest 2026-10-06 controller reconciliation:**
 
-1. `QA-001` — independent audit of the DATA-006 freeze and VIS-001 proof chart.
-2. `RES-002` — Hofstede, critical limitations, and trust evidence pack.
-3. `DATA-007` — accepted SRC-002/DATA-006 repairs to the four newer country files.
-4. `DESIGN-001` — design showroom, palette trials, and draft 45-page rhythm plan for user selection.
+1. `DATA-008` — repair the QA-001 source-ID, unit, and employment display-rounding defects in the frozen data package.
+2. `ECON-001` — structural transformation, East Asian industrialisation, manufactured exports, and within-region variation evidence pack.
+3. `DESIGN-001` — design showroom, palette trials, and draft 45-page rhythm plan for user selection.
+4. `SRC-003` — after DATA-008 releases the shared source registry, register RES-001 claims and verify map/image rights.
 
-`SRC-003` follows when a slot opens. Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work.
+Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work. Present DESIGN-001 alternatives to the user before authorising a magazine-wide visual-system lock.
 
 ## How an agent finishes correctly
 

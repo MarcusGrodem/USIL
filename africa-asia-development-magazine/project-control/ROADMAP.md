@@ -23,11 +23,11 @@ Completion gate: a new agent can see what is done, missing, active, and blocked 
 
 Completion gate: every Ghana/South Korea headline claim traces to an exact value or passage and a complete APA reference.
 
-Current position: all six country files now have shared-registry coverage, and the core comparison table is frozen. The gate remains open for the 25 newer-country revision-required claims, historical-pack registry/rights work, and project-wide image/map registers.
+Current position: all six country files have shared-registry coverage, and DATA-007 has corrected or visibly qualified the 25 revision-required and four rejected newer-country claims in those files. QA independently confirmed the core values and WDI/WGI metadata but failed the frozen package on registry joins, canonical units, and employment display rounding. DATA-008 must repair that gate; historical/culture registry integration and project-wide image/map registers remain open.
 
 ## Phase 2 — Complete all six countries
 
-**State: IN PROGRESS**
+**State: DONE for bounded country evidence; later publication verification remains visible**
 
 - Finish Ghana and South Korea gaps.
 - Research Botswana, Mauritius, Malaysia, and the Philippines with the identical template.
@@ -35,7 +35,7 @@ Current position: all six country files now have shared-registry coverage, and t
 
 Completion gate: every required country item in the checklist is done or explicitly unavailable with a documented reason.
 
-Current position: the six-country comparability review is accepted. `DATA-007` must now apply the accepted WGI, Malaysia manufacturing, and wording/definition corrections to the four newer country files; excluded and narrative-only families remain visible rather than being forced into charts.
+Current position: the six country evidence files and cross-country comparability decisions have passed controller review. DATA-007 applied the accepted WGI, Malaysia manufacturing, and wording/definition corrections; excluded and narrative-only families remain visible rather than being forced into charts. Unresolved sources remain publication limitations, not hidden substitutions.
 
 ## Phase 3 — Complete historical, economic, and cultural research
 
@@ -46,7 +46,7 @@ Current position: the six-country comparability review is accepted. `DATA-007` m
 
 Completion gate: every planned evidence page has approved claims, APA citations, limitations, and a visual candidate.
 
-Current position: the colonialism/borders/infrastructure/independence evidence pack is accepted. Its map rights and shared-registry integration remain separate work. Hofstede/critique/trust and the focused structural-transformation/East Asia evidence packs are still missing.
+Current position: the colonialism/borders/infrastructure/independence pack and the Hofstede/critique/trust pack are accepted. The culture pack defines all six dimensions, rejects unsupported regional/personality readings, separates five trust constructs, and narrows the dimensions eligible for theory testing. Historical map rights/shared-registry integration and the focused structural-transformation/East Asia/manufactured-exports pack remain missing.
 
 ## Phase 4 — Test the three theories
 
@@ -68,7 +68,7 @@ Completion gate: the theory matrix is evidence-backed and does not present origi
 
 Completion gate: all graph items in the report checklist pass independent numeric and visual-comparability checks.
 
-Current position: one Ghana–South Korea GDP proof chart and a candidate six-country identity system exist. They are not final: independent numeric/five-second checks and the required side-by-side palette showroom plus explicit user selection are pending.
+Current position: the Ghana–South Korea GDP proof chart passed independent numeric, APA, A4, grayscale, contrast, direct-label, and non-creator AI five-second checks. The wider system is not final: DATA-008 must repair the frozen-data package, `COMPARISON_SYSTEM.md` must stop calling the candidate palette locked, a human classroom/back-row check remains advisable, and the side-by-side palette showroom plus explicit user selection are still required.
 
 ## Phase 6 — Write and assemble the magazine
 

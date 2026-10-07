@@ -1,6 +1,6 @@
 # Mauritius — second African case
 
-Data verified 2026-10-04. This file follows the Ghana/South Korea ten-indicator structure while recording definitions, units, actual years, exact locators, confidence, and limitations at observation level. No value is interpolated.
+Data verified 2026-10-06. This file follows the Ghana/South Korea ten-indicator structure while recording definitions, units, actual years, exact locators, confidence, and limitations at observation level. No value is interpolated.
 
 Anchor years: **1960 · 1990 · 2020**.
 
@@ -26,7 +26,7 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 | 1990 | 1990 | US$3,846.41 | Same query; row `date=1990` | H | Same definition and price basis as the other two anchors. |
 | 2020 | 2020 | US$9,533.60 | Same query; row `date=2020` | H | COVID-19 outcome year; 2019 was US$11,111.34, so 2020 understates the pre-pandemic level. |
 
-- Source and reproducible query: World Bank (2026), `https://api.worldbank.org/v2/country/MUS/indicator/NY.GDP.PCAP.KD?date=1960:2022&format=json&per_page=100`.
+- Source and reproducible query: World Bank (2026a), `https://api.worldbank.org/v2/country/MUS/indicator/NY.GDP.PCAP.KD?date=1960:2022&format=json&per_page=100`.
 - Interpretation: real GDP per person was about **6.7 times** its 1960 level by 2020, despite the pandemic-year fall. This is descriptive, not causal.
 
 ## 2. Labour productivity
@@ -39,7 +39,7 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 | 1990 | **1991 proxy** | Intl$24,152.36 | WDI `SL.GDP.PCAP.EM.KD`; Mauritius API row `date=1991` | H | Nearest observation, one year late. It is PPP-based and must not be plotted on the GDP-per-capita dollar scale. |
 | 2020 | 2020 | Intl$52,304.87 | Same query; row `date=2020` | H | Modelled from GDP, PPP, and employment inputs; COVID-19 affected both output and employment. |
 
-- Source and reproducible query: World Bank (2026), `https://api.worldbank.org/v2/country/MUS/indicator/SL.GDP.PCAP.EM.KD?date=1960:2022&format=json&per_page=100`.
+- Source and reproducible query: World Bank (2026a), `https://api.worldbank.org/v2/country/MUS/indicator/SL.GDP.PCAP.EM.KD?date=1960:2022&format=json&per_page=100`.
 - Interpretation: the matched series more than doubled from 1991 to 2020, but it cannot establish which policy or sector caused the gain.
 
 ## 3. Employment by sector
@@ -52,7 +52,7 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 | 1990 | **1991 proxy** | 19.65% | 34.99% | 45.36% | WDI rows `date=1991` for `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, `SL.SRV.EMPL.ZS` | M | One-year proxy; modelled rather than a direct census tabulation. Rounded components sum to 100%. |
 | 2020 | 2020 | 5.32% | 23.40% | 71.28% | Same indicators; rows `date=2020` | M | COVID-19 changed sector activity and labour-force attachment; modelled estimates. |
 
-- Reproducible queries: replace `{IND}` in `https://api.worldbank.org/v2/country/MUS/indicator/{IND}?date=1960:2022&format=json&per_page=100` with the three indicator codes above (World Bank, 2026).
+- Reproducible queries: replace `{IND}` in `https://api.worldbank.org/v2/country/MUS/indicator/{IND}?date=1960:2022&format=json&per_page=100` with the three indicator codes above (World Bank, 2026a).
 - Interpretation: between 1991 and 2020, employment shifted strongly out of agriculture and toward services; industry’s share also declined. “Services” combines activities with very different productivity levels.
 
 ## 4. Manufacturing share of GDP
@@ -66,7 +66,7 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 | 1990 | 1990 | 20.37% | Same query; row `date=1990` | H | Direct anchor observation. |
 | 2020 | 2020 | 10.67% | Same query; row `date=2020` | H | COVID-19 disturbed sector shares; value-added share is not manufacturing employment. |
 
-- Source and reproducible query: World Bank (2026), `https://api.worldbank.org/v2/country/MUS/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json&per_page=100`.
+- Source and reproducible query: World Bank (2026a), `https://api.worldbank.org/v2/country/MUS/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json&per_page=100`.
 - Interpretation: manufacturing’s GDP share was about twice as high in 1990 as in 2020. This is consistent with a textile-led industrial phase followed by a service shift, but the endpoints alone cannot date or explain the transition.
 
 ## 5. Export composition
@@ -76,12 +76,12 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 | Anchor | Actual year / period | Composition | Exact source locator | Confidence | Limitation / comparability warning |
 |---|---|---|---|:---:|---|
 | 1960 | **1970 distant proxy** | Sugar 86% of total exports | World Bank (1997), “Economic Transformation 1970–1996,” Executive Summary, p. 1 | M | Ten years late; not a 1960 observation. Contemporary evidence says sugar and by-products were about 95% of export revenue around independence (Xenos, 1970, p. 1). |
-| 1990 | **Jan–Jun 1990 period proxy** | Miscellaneous manufactured articles 64.3%; food/live animals 25.7%; manufactured goods by material 6.5% | Central Statistical Office (1990), Table 6, p. 5: first-two-quarter values divided by total exports (Rs7,529m) | M | Half-year, not annual. SITC sections; includes domestic exports, re-exports, and ships’ stores/bunkers. Do not compare as if HS categories. |
-| 2020 | 2020 | Food/live animals 38.4%; miscellaneous manufactured articles 34.1%; manufactured goods by material 14.2% | Statistics Mauritius (2022), Table 3, pp. 10–11: Rs23,175m, Rs20,589m, Rs8,603m divided by Rs60,427m | H | SITC sections; denominator excludes ships’ stores/bunkers. Apparel alone was Rs15,417m. Merchandise data omit tourism and financial/business-service exports. |
+| 1990 | **Jan–Jun 1990 period proxy** | Miscellaneous manufactured articles 64.3%; food/live animals 25.7%; manufactured goods by material 6.5% | Central Statistical Office (1990), Table 6, p. 5: first-two-quarter values divided by total exports (Rs7,529m) | M | **NARRATIVE_ONLY.** Half-year, not annual. The official PDF timed out during SRC-002 independent reopening; retain pending manual verification. SITC sections include domestic exports, re-exports, and ships’ stores/bunkers. |
+| 2020 | 2020 | Food/live animals 38.4%; miscellaneous manufactured articles 34.1%; manufactured goods by material 14.2% | Statistics Mauritius (2022), Table 3, pp. 10–11: Rs23,175m, Rs20,589m, Rs8,603m divided by Rs60,427m | M | **NARRATIVE_ONLY.** The official PDF timed out during SRC-002 independent reopening; retain pending manual verification. Denominator excludes ships’ stores/bunkers; merchandise omits services. |
 
-- Calculations are transparent reproductions from the named tables; displayed percentages are rounded to one decimal.
-- The 1990 table is a period proxy because an opened full-year 1990 table was not located. A discovery result for an IMF statistical annex reported an annual sugar share, but the original table could not be opened reliably and is therefore not used as verified evidence.
-- Interpretation: Mauritius moved from near-monocrop dependence to a 1990 merchandise basket dominated by manufactured articles, then to a 2020 basket split mainly among food/fish/sugar and manufactured/apparel categories. This table does **not** measure the later importance of tourism or finance because those are services.
+- Calculations are transparent reproductions recorded by DATA-003, with displayed percentages rounded to one decimal. SRC-002 could not independently reopen either official PDF; therefore these rows are retained only as traceable narrative context, not approved current chart evidence.
+- The 1990 table is explicitly a January–June period proxy. Treating it as a full-year statistic is rejected. A discovery result for an IMF statistical annex reported an annual sugar share, but the original table could not be opened reliably and is therefore not used as verified evidence.
+- Interpretation: the source-specific observations are consistent with movement from near-monocrop dependence toward manufactures and later a mixed merchandise basket. Different periods, coverage, and classifications prevent a connected time series or direct cross-country chart. The table also omits tourism and finance because those are services.
 
 ## 6. Literacy / education
 
@@ -93,7 +93,7 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 | 1990 | 1990 | 79.87% | WDI/UNESCO UIS `SE.ADT.LITR.ZS`; Mauritius API row `date=1990` | H | Direct adult-literacy anchor; census/survey self-report can differ from tested functional literacy. |
 | 2020 | **2021 proxy** | 92.98% | Same indicator; row `date=2021` | H | One year late; no 2020 value. |
 
-- Source and reproducible query for comparable observations: UNESCO Institute for Statistics (2026), as distributed through World Bank (2026), `https://api.worldbank.org/v2/country/MUS/indicator/SE.ADT.LITR.ZS?date=1960:2022&format=json&per_page=100`.
+- Source and reproducible query for comparable observations: UNESCO Institute for Statistics (2026), as distributed through World Bank (2026a), `https://api.worldbank.org/v2/country/MUS/indicator/SE.ADT.LITR.ZS?date=1960:2022&format=json&per_page=100`.
 - Interpretation: literacy was already substantial near independence and became near-universal by the 2021 proxy, but the 1962 age base is incompatible with the later adult series.
 
 ## 7. Urbanisation
@@ -106,7 +106,7 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 | 1990 | 1990 | 43.90% | Same query; row `date=1990` | H | Smoothed UN series; not a direct measure of infrastructure quality. |
 | 2020 | 2020 | 39.16% | Same query; row `date=2020` | H | A declining share partly reflects classification and settlement patterns; it does not imply people physically “de-urbanised.” |
 
-- Source and reproducible query: World Bank (2026), `https://api.worldbank.org/v2/country/MUS/indicator/SP.URB.TOTL.IN.ZS?date=1960:2022&format=json&per_page=100`.
+- Source and reproducible query: World Bank (2026a), `https://api.worldbank.org/v2/country/MUS/indicator/SP.URB.TOTL.IN.ZS?date=1960:2022&format=json&per_page=100`.
 - Interpretation: unlike many comparison cases, Mauritius does not show a simple rising urban-share story; this makes urbanisation a weak stand-alone explanation of its transformation.
 
 ## 8. Electricity / infrastructure
@@ -119,7 +119,7 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 | 1990 | 1990 | 99.04% | Same query; row `date=1990` | M | WDI value is unusually precise and may combine reported/modelled inputs; round to 99.0% in prose. |
 | 2020 | 2020 | 99.50% | Same query; row `date=2020` | H | Access says nothing about cost, reliability, or industrial power quality. |
 
-- Source and reproducible query: World Bank (2026), `https://api.worldbank.org/v2/country/MUS/indicator/EG.ELC.ACCS.ZS?date=1960:2022&format=json&per_page=100`.
+- Source and reproducible query: World Bank (2026a), `https://api.worldbank.org/v2/country/MUS/indicator/EG.ELC.ACCS.ZS?date=1960:2022&format=json&per_page=100`.
 - Interpretation: near-universal electricity was already present by 1990. The indicator can support a capability/connectivity argument after 1990 but cannot establish the 1960 baseline or prove electricity caused diversification.
 
 ## 9. Firm size / informality
@@ -139,15 +139,15 @@ The later transformation should not be narrated as a clean break. Sugar rents, s
 
 ### 10a. Worldwide Governance Indicators
 
-**Definitions:** Rule of Law captures perceptions of contract enforcement, property rights, police, courts, crime, and violence. Government Effectiveness captures perceptions of public services, civil service, policy formulation/implementation, and credibility. **Unit:** standard-normal governance estimate, approximately −2.5 to +2.5; higher is better.
+**Definitions:** Rule of Law captures perceptions of contract enforcement, property rights, police, courts, crime, and violence. Government Effectiveness captures perceptions of public services, civil service, policy formulation/implementation, and credibility. **Unit:** standard-normal governance estimate, approximately −2.5 to +2.5; higher is better. **WGI is perception-based governance, not interpersonal or institutional trust.**
 
 | Anchor | Actual year | Rule of Law | Government Effectiveness | Exact source locator | Confidence | Limitation / comparability warning |
 |---|---:|---:|---:|---|:---:|---|
 | 1960 | n/a | n/a | n/a | WGI begins in 1996 | n/a | Cannot measure the independence-era institutional baseline. |
 | 1990 | n/a | n/a | n/a | WGI begins in 1996 | n/a | No backward substitution. |
-| 2020 | 2020 | +0.955 | +0.832 | World Bank API `GOV_WGI_RL_EST` and `GOV_WGI_GE_EST`; Mauritius rows `date=2020` | H | Composite perception estimates with uncertainty; small changes require confidence-interval checks. Revised methodology may change historical values. |
+| 2020 | 2020 | **+0.949** (90% CI **+0.615 to +1.282**) | **+0.956** (90% CI **+0.584 to +1.329**) | World Bank (2026b), official workbook `wgidataset_with_sourcedata-2026.xlsx`, sheets `rl` and `ge`, economy `MUS`, year 2020 | H | Composite perception-based governance estimates with uncertainty; not trust and not evidence about 1960/1990. |
 
-- Reproducible queries: `https://api.worldbank.org/v2/country/MUS/indicator/GOV_WGI_RL_EST?date=1990:2022&format=json&per_page=100` and the same URL with `GOV_WGI_GE_EST` (World Bank, 2025).
+- Frozen full-precision values: Rule of Law `0.9487347` (`0.6154222` to `1.2820472`); Government Effectiveness `0.9564112` (`0.5836877` to `1.3291347`). The official 2026 workbook supersedes the 2025/API labels and values; releases must not be mixed (World Bank, 2026b).
 
 ### 10b. Direct institutional trust
 
@@ -162,7 +162,7 @@ This is a direct trust measure but only for named political institutions. It is 
 The evidence supports a staged, path-dependent account:
 
 1. **Sugar inheritance and rents.** Colonial land, labour, and export structures produced extreme dependence; preferential access later generated rents that could be saved, invested, and recycled (National Archives Department, n.d.; Svirydzenka & Petri, 2014, pp. 5–7).
-2. **EPZ textiles and clothing.** The EPZ used duty exemptions, tax incentives, imported inputs, domestic and foreign networks, and a labour-intensive model. Manufacturing reached 20.37% of GDP in 1990, while first-half 1990 export data were dominated by miscellaneous manufactured articles (Central Statistical Office, 1990, Table 6, p. 5; World Bank, 2026).
+2. **EPZ textiles and clothing.** The EPZ used duty exemptions, tax incentives, imported inputs, domestic and foreign networks, and a labour-intensive model. Manufacturing reached 20.37% of GDP in 1990. A source-specific first-half 1990 trade table, retained as narrative-only pending manual reopening, reports miscellaneous manufactured articles as the leading group (Central Statistical Office, 1990, Table 6, p. 5; World Bank, 2026a).
 3. **Tourism and higher-value services.** Tourism grew alongside EPZ manufacturing; offshore finance/freeport activities and other services were later promoted. The 1997 World Bank assessment already warned that low-wage textile competitiveness and unrestrained tourism growth could not be sustained and called for skills, infrastructure, and service-sector upgrading (World Bank, 1997, Executive Summary, pp. 1–2).
 4. **Not a finished success story.** By 2020, services employed 71.28% of workers, but manufacturing’s GDP share was 10.67%. COVID-19 exposed tourism dependence; informal firms remained numerous in the latest establishment evidence; and direct political trust was low. Diversification reduced monocrop risk without eliminating external dependence, uneven productivity, or institutional strain.
 
@@ -170,7 +170,7 @@ The evidence supports a staged, path-dependent account:
 
 ### Evidence consistent with the mechanism
 
-- Mauritius maintained relatively strong rule-of-law and government-effectiveness estimates in 2020, which could allow contracts and administration to substitute for purely personal trust (World Bank, 2025).
+- Mauritius had positive 2020 rule-of-law and government-effectiveness governance estimates, which are consistent with—but do not prove—contracts and administration substituting for purely personal trust (World Bank, 2026b).
 - The country scaled formal export manufacturing, tourism, and financial/business activities beyond household production. IMF research argues that power-sharing, vigorous opposition/media, property-rights protection, and cross-group business/social networks helped policy adoption and investment (Svirydzenka & Petri, 2014, pp. 7–8).
 
 ### Evidence that challenges or narrows it
@@ -218,11 +218,11 @@ The evidence supports a staged, path-dependent account:
 
 ## Evidence-backed findings
 
-1. **Income rose substantially:** real GDP per capita increased from US$1,419 in 1960 to US$9,534 in pandemic-hit 2020 on one constant-price series (World Bank, 2026).
-2. **Structural transformation was staged, not instantaneous:** 1991 employment was already 35.0% industry and 45.4% services; by 2020 services were 71.3% and agriculture 5.3% (World Bank, 2026).
-3. **The industrial phase was real but not permanent:** manufacturing was 20.37% of GDP in 1990 and 10.67% in 2020 (World Bank, 2026).
-4. **Export dependence changed form:** sugar dominated near independence; manufactured articles dominated the first half of 1990; by 2020 merchandise exports were split mainly between food/fish/sugar and manufactured/apparel groups (World Bank, 1997; Central Statistical Office, 1990; Statistics Mauritius, 2022).
-5. **Strong aggregate institutions did not mean uniformly high trust or universal formality:** 2020 WGI estimates were positive, yet direct trust in major political institutions was minority-level and 2013 evidence showed many informal microfirms (World Bank, 2025; Stuurman & Peeraullee, 2021; World Bank, 2019).
+1. **Income rose substantially:** real GDP per capita increased from US$1,419 in 1960 to US$9,534 in pandemic-hit 2020 on one constant-price series (World Bank, 2026a).
+2. **Structural transformation was staged, not instantaneous:** 1991 employment was already 35.0% industry and 45.4% services; by 2020 services were 71.3% and agriculture 5.3% (World Bank, 2026a).
+3. **The industrial phase was real but not permanent:** manufacturing was 20.37% of GDP in 1990 and 10.67% in 2020 (World Bank, 2026a).
+4. **Export dependence changed form:** sugar dominated near independence; source-specific trade tables suggest a first-half-1990 manufacturing-heavy basket and a mixed 2020 basket. Those two rows are narrative-only pending manual source reopening and cannot form a common chart (World Bank, 1997; Central Statistical Office, 1990; Statistics Mauritius, 2022).
+5. **Strong aggregate governance did not mean uniformly high trust or universal formality:** 2020 WGI governance estimates were positive, yet direct trust in major political institutions was minority-level and 2013 evidence showed many informal microfirms (World Bank, 2026b; Stuurman & Peeraullee, 2021; World Bank, 2019).
 
 ## What Mauritius supports
 
@@ -273,9 +273,9 @@ World Bank. (1997). *Mauritius country assistance strategy* (Report No. 16426-MA
 
 World Bank. (2019). *Job creation and labor productivity in Mauritius*. https://documents1.worldbank.org/curated/en/181521561655338668/pdf/Job-Creation-and-Labor-Productivity-in-Mauritius.pdf
 
-World Bank. (2025). *Worldwide Governance Indicators: 2025 revision* [Data set]. https://www.worldbank.org/en/publication/worldwide-governance-indicators
+World Bank. (2026a). *World Development Indicators* [Data set]. Release updated July 13, 2026; retrieved October 6, 2026, from https://api.worldbank.org/v2/country/MUS
 
-World Bank. (2026). *World Development Indicators* [Data set]. Retrieved October 4, 2026, from https://api.worldbank.org/v2/country/MUS
+World Bank. (2026b). *Worldwide Governance Indicators: 2026 update* [Data set]. Retrieved October 6, 2026, from https://www.worldbank.org/en/publication/worldwide-governance-indicators
 
 Xenos, C. (1970, September). *Country profiles: Mauritius*. Population Council & International Institute for the Study of Human Reproduction, Columbia University. https://files.eric.ed.gov/fulltext/ED088665.pdf
 
@@ -291,10 +291,14 @@ Xenos, C. (1970, September). *Country profiles: Mauritius*. Population Council &
 | Svirydzenka and Petri (2014) | (Svirydzenka & Petri, 2014) | Svirydzenka and Petri (2014) |
 | UNESCO Institute for Statistics (2026) | (UNESCO Institute for Statistics, 2026) | UNESCO Institute for Statistics (2026) |
 | UNESCO World Heritage Centre (2006) | (UNESCO World Heritage Centre, 2006) | UNESCO World Heritage Centre (2006) |
-| World Bank (1997, 2019, 2025, 2026) | (World Bank, year) | World Bank (year) |
+| World Bank (1997, 2019, 2026a, 2026b) | (World Bank, year) | World Bank (year) |
 | Xenos (1970) | (Xenos, 1970) | Xenos (1970) |
 
 ## Verification log
+
+- 2026-10-06 — Applied accepted SRC-002 and DATA-006 dispositions: kept the 1970 and Jan–Jun 1990 periods explicit; classified all export observations as narrative-only; retained the unresolved 2020 worker-informality and historical generalized-trust gaps.
+- 2026-10-06 — Replaced the superseded WGI release with frozen 2026 workbook estimates and 90% intervals and stated that WGI measures governance, not trust.
+- 2026-10-06 — Searched for stale WGI values, wrong-period exports, informal-employment substitutions, population claims from unweighted cases, and causal overstatements; no superseded value remains as current evidence.
 
 - 2026-10-04 — opened and re-pulled all listed WDI and WGI API series; checked exact non-null start years and anchor rows.
 - 2026-10-04 — opened Statistics Mauritius 2020/2021 trade report and recalculated 2020 SITC shares from Table 3 totals.

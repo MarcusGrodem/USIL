@@ -1,6 +1,6 @@
 # Malaysia — middle-development-path evidence file
 
-Data verified **2026-10-04**. This file follows the common ten-indicator structure and the locked anchor years **1960 · 1990 · 2020**. It does not interpolate. When an anchor is unavailable, the actual proxy year is printed; `n/a` means no sufficiently comparable observation was verified.
+Data verified **2026-10-06**. This file follows the common ten-indicator structure and the locked anchor years **1960 · 1990 · 2020**. It does not interpolate. When an anchor is unavailable, the actual proxy year is printed; `n/a` means no sufficiently comparable observation was verified.
 
 Legend: **H** = high confidence · **M** = medium confidence · **L** = low confidence · **n/a** = unavailable or not comparable.
 
@@ -14,7 +14,7 @@ The outcome is also incomplete. Electronics production remained strongly multina
 
 The 1960 anchor is statistically awkward. The Federation of Malaya became independent in 1957, but Malaysia was formed in 1963 when Malaya federated with Sabah, Sarawak, and Singapore; Singapore left in 1965. WDI’s 1960 Malaysia series is a retrospective territorial/national-accounts construction and should not be described as a contemporaneous census of the post-1963 federation.
 
-British rule developed an externally oriented plantation-and-mining economy. In 1960, rubber supplied **55.2%** and tin **14.0%** of merchandise-export value; manufactures supplied only **16.3%** (International Monetary Fund [IMF], 1999, Table IV.3). Colonial labour migration and occupational segmentation linked ethnicity to economic function: plantation and extractive activities relied heavily on migrant labour, commerce was disproportionately Chinese, and many Bumiputera remained in low-productivity agriculture (Asadullah et al., 2024, pp. 13–15). These are institutional and distributive inheritances, not evidence of fixed cultural traits.
+British rule developed an externally oriented plantation-and-mining economy. An authority-supplied historical table reports that in 1960 rubber supplied **55.2%** and tin **14.0%** of merchandise-export value, while manufactures supplied **16.3%** (International Monetary Fund [IMF], 1999, Table IV.3). SRC-002 could not reopen the publisher page, so these shares remain source-specific narrative context pending manual verification, not chart evidence. Colonial labour migration and occupational segmentation linked ethnicity to economic function: plantation and extractive activities relied heavily on migrant labour, commerce was disproportionately Chinese, and many Bumiputera remained in low-productivity agriculture (Asadullah et al., 2024, pp. 13–15). These are institutional and distributive inheritances, not evidence of fixed cultural traits.
 
 After violence in May 1969, the government launched the New Economic Policy (NEP, 1971–1990), with stated aims of eradicating poverty irrespective of ethnicity and restructuring society so ethnicity would no longer determine economic function. It used land development, education, employment and ownership interventions and Bumiputera preferences. The NEP coincided with large poverty reduction and greater educational/professional representation, but it cannot be credited in isolation from rapid manufacturing growth, FDI, commodity income, demographic change, and world demand; later evidence also records persistent inequality and discontent (Asadullah et al., 2024, pp. 9–16).
 
@@ -65,10 +65,10 @@ After violence in May 1969, the government launched the New Economic Policy (NEP
 |---|---:|---:|---|:---:|---|
 | 1960 | 1960 | 10.26% | WDI `NV.IND.MANF.ZS`; Malaysia row `1960` | H | Early national accounts are retrospective; post-1963 territory warning applies. |
 | 1990 | 1990 | 24.22% | Same series; row `1990` | H | Current-price share, not a volume-growth measure. |
-| 2020 | 2020 | 22.28% | Same series; row `2020` | H | Pandemic composition effect; below the series peak of 30.94% in 1999. |
+| 2020 | 2020 | **22.23%** | Same series; row `2020`; frozen value `22.2320858423886` | H | Pandemic composition effect; below the series peak of 30.94% in 1999. Display rounded to two decimals; retain full precision for calculations. |
 
-- Source and reproducible query: World Bank (2026a), `https://api.worldbank.org/v2/country/MYS/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json&per_page=100`.
-- Interpretation: manufacturing more than doubled its GDP share by 1990, then retreated from its late-1990s peak. Malaysia industrialised substantially, but the fall to 22.28% is counterevidence to a simple uninterrupted-upgrading story.
+- Source and reproducible query: World Bank (2026a), `https://api.worldbank.org/v2/country/MYS/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json&per_page=100`. DATA-006 freezes the 2026-07-13 WDI release, retrieved 2026-10-06; the exact 2020 value is `22.2320858423886`.
+- Interpretation: manufacturing more than doubled its GDP share by 1990, then retreated from its late-1990s peak. Malaysia industrialised substantially, but the fall to 22.23% is counterevidence to a simple uninterrupted-upgrading story.
 
 ## 5. Export composition
 
@@ -76,12 +76,12 @@ After violence in May 1969, the government launched the New Economic Policy (NEP
 
 | Anchor | Actual year | Composition / value | Exact source locator | Confidence | Limitation / comparability warning |
 |---|---:|---|---|:---:|---|
-| 1960 | 1960 | Rubber 55.2%; tin 14.0%; manufactures 16.3%; palm oil 1.7% | IMF (1999), Table IV.3, “Composition of Exports, 1960–97” | H | Authorities’ historical categories, not modern HS/SITC product codes. |
-| 1990 | 1990 | Manufactured goods 58.8%; crude petroleum 13.4%; palm oil 5.5%; rubber 3.8%; tin 1.1% | IMF (1999), Table IV.3 | H | Broad manufactured-goods aggregate; cannot show electronics alone. |
-| 2020 | 2020 | Thermionic valves/tubes 24.4%; refined petroleum 5.5%; fixed vegetable fats/oils 4.6%; telecommunications equipment 3.5%; measuring instruments 3.0% | DOSM (2021), Table 2, pp. 4–5; total exports RM980,988 million | H | SITC 3-digit groups; components and re-exports included. Top five sum to 41.0%, not all exports. |
+| 1960 | 1960 | Rubber 55.2%; tin 14.0%; manufactures 16.3%; palm oil 1.7% | IMF (1999), Table IV.3, “Composition of Exports, 1960–97” | M | **NARRATIVE_ONLY.** Authorities’ historical categories, not modern HS/SITC codes; publisher page blocked SRC-002 independent reopening. |
+| 1990 | 1990 | Manufactured goods 58.8%; crude petroleum 13.4%; palm oil 5.5%; rubber 3.8%; tin 1.1% | IMF (1999), Table IV.3 | M | **NARRATIVE_ONLY.** Broad authority-defined aggregate; publisher page blocked SRC-002 independent reopening. |
+| 2020 | 2020 | Thermionic valves/tubes 24.4%; refined petroleum 5.5%; fixed vegetable fats/oils 4.6%; telecommunications equipment 3.5%; measuring instruments 3.0% | DOSM (2021), Table 2, pp. 4–5; total exports RM980,988 million | M | **NARRATIVE_ONLY.** SITC 3-digit groups with components/re-exports; the registered legacy PDF URL returned 404 during SRC-002. Pending an archival copy. |
 
-- The IMF table reports data supplied by Malaysian authorities. The 2020 values are independently traceable to DOSM’s *Malaysia External Trade Statistics Bulletin, December 2020*, Table 2.
-- Interpretation: rubber and tin supplied 69.2% of exports in 1960; manufactures were the majority by 1990; electronics/components dominated the 2020 product ranking. This is strong evidence of structural change. It is not proof of domestic ownership or high local value capture: in 1992 almost 90% of electronic products were manufactured by transnational-corporation affiliates (World Bank, 2020, p. 46).
+- SRC-002 registered exact locators but could not independently reopen the IMF publisher page or the legacy DOSM PDF. DATA-006 therefore classifies all three rows as source-specific **NARRATIVE_ONLY** observations. They must not be turned into a connected or cross-country chart until one common saved classification is built.
+- Interpretation: the registered tables are consistent with a shift from rubber/tin dependence toward manufactures and electronics. Classification levels differ, and gross exports do not establish domestic ownership or local value capture: in 1992 almost 90% of electronic products were manufactured by transnational-corporation affiliates (World Bank, 2020, p. 46).
 
 ## 6. Literacy / education
 
@@ -121,7 +121,8 @@ After violence in May 1969, the government launched the New Economic Policy (NEP
 | 2020 | 2020 | 100.0% | WDI `EG.ELC.ACCS.ZS`; Malaysia row `2020` | H | Access does not measure price, outages, grid quality, or industrial reliability. |
 
 - Source and query: World Bank (2026a), `https://api.worldbank.org/v2/country/MYS/indicator/EG.ELC.ACCS.ZS?date=1960:2022&format=json&per_page=100`. A World Bank infrastructure volume separately reports that 80% of rural households had electricity in 1990 and 92% by 1995, while noting early-1990s peak-hour supply constraints (Mody, 1997, Malaysia chapter, electricity subsection).
-- Interpretation: broad electrification was largely achieved by 1990, consistent with connected production and urban growth, but access endpoints cannot identify whether grid expansion caused industrialisation.
+- **Rejected substitution:** the 80% rural-household figure is not national total-population access and must never fill the 1990 WDI anchor.
+- Interpretation: the rural-household context suggests substantial electrification by 1990, but no harmonised total-population anchor was verified. Access endpoints cannot identify whether grid expansion caused industrialisation.
 
 ## 9. Firm size / informality
 
@@ -141,15 +142,15 @@ After violence in May 1969, the government launched the New Economic Policy (NEP
 
 ### 10a. Worldwide Governance Indicators
 
-**Definitions:** Rule of Law covers perceptions of contract enforcement, property rights, police, courts, crime, and violence. Government Effectiveness covers perceptions of public services, civil service quality, policy formulation/implementation, and credibility. **Unit:** standard-normal estimate, approximately −2.5 to +2.5; higher is better.
+**Definitions:** Rule of Law covers perceptions of contract enforcement, property rights, police, courts, crime, and violence. Government Effectiveness covers perceptions of public services, civil service quality, policy formulation/implementation, and credibility. **Unit:** standard-normal estimate, approximately −2.5 to +2.5; higher is better. **WGI is perception-based governance, not interpersonal or institutional trust.**
 
 | Anchor | Actual year | Rule of Law | Government Effectiveness | Exact source locator | Confidence | Limitation / comparability warning |
 |---|---:|---:|---:|---|:---:|---|
 | 1960 | n/a | n/a | n/a | WGI starts in 1996 | n/a | Cannot measure the independence-era baseline. |
 | 1990 | n/a | n/a | n/a | WGI starts in 1996 | n/a | No backward substitution. |
-| 2020 | 2020 | +0.379 | +0.935 | World Bank `WB_WGI_WIDEF.csv`; Malaysia 2020 row, `RL.EST` and `GE.EST` | H | Composite perception estimates with uncertainty; the 2025 methodology revision changes historical estimates. |
+| 2020 | 2020 | **+0.379** (90% CI **+0.122 to +0.637**) | **+0.935** (90% CI **+0.549 to +1.321**) | World Bank (2026b), official workbook `wgidataset_with_sourcedata-2026.xlsx`, sheets `rl` and `ge`, economy `MYS`, year 2020 | H | Composite perception-based governance estimates with uncertainty; not trust and not evidence about 1960/1990. |
 
-- Dataset locator: World Bank (2025), original wide file linked from `https://www.worldbank.org/en/publication/worldwide-governance-indicators`. The opened 2020 table reproduces Malaysia’s exact World Bank values and links the publisher file.
+- Frozen full-precision values: Rule of Law `0.3791556` (`0.1216666` to `0.6366446`); Government Effectiveness `0.9351625` (`0.5494299` to `1.3208951`). The 2026 workbook supersedes the file’s incorrect 2025 release label; releases must not be mixed (World Bank, 2026b).
 
 ### 10b. Direct trust evidence
 
@@ -159,9 +160,9 @@ A 2020 commercial trust survey found variation by institution rather than one na
 
 ## Industrial and political-economic trajectory
 
-1. **Colonial commodity platform.** Rubber and tin supplied 69.2% of 1960 exports. Infrastructure and institutions connected plantations and mines to external markets, while occupational segmentation created distributive tensions (IMF, 1999, Table IV.3; Asadullah et al., 2024, pp. 13–15).
+1. **Colonial commodity platform.** A source-specific historical table reports rubber and tin at 69.2% of 1960 exports; the row is narrative-only pending manual reopening. Infrastructure and institutions connected plantations and mines to external markets, while occupational segmentation created distributive tensions (IMF, 1999, Table IV.3; Asadullah et al., 2024, pp. 13–15).
 2. **Post-1969 redistribution and state building.** The NEP paired poverty reduction and restructuring objectives with education, land, employment, ownership, and Bumiputera preference policies. Poverty fell sharply across ethnic groups, but this temporal association does not isolate NEP effects from growth, FDI, commodity revenues, and structural transformation (Asadullah et al., 2024, pp. 9–16).
-3. **Export-oriented industrialisation.** Import-substitution electronics began in the mid-1960s; export orientation accelerated after 1971. Export-processing zones, MIDA investment promotion, fiscal incentives, training/R&D subsidies, technology-transfer agreements, infrastructure, and an English-speaking literate workforce drew semiconductor assembly firms to Penang. By 1990, manufactures were 58.8% of exports; by 1992, multinational affiliates made almost 90% of electronic products (World Bank, 2020, pp. 44–47; IMF, 1999, Table IV.3).
+3. **Export-oriented industrialisation.** Import-substitution electronics began in the mid-1960s; export orientation accelerated after 1971. Export-processing zones, MIDA investment promotion, fiscal incentives, training/R&D subsidies, technology-transfer agreements, infrastructure, and an English-speaking literate workforce drew semiconductor assembly firms to Penang. A source-specific historical table reports manufactures at 58.8% of exports in 1990, while an opened World Bank source reports that by 1992 multinational affiliates made almost 90% of electronic products (World Bank, 2020, pp. 44–47; IMF, 1999, Table IV.3).
 4. **Middle-income path and upgrading constraint.** GDP per capita and labour productivity rose markedly, urbanisation and electrification spread, and electronics remained the leading export group. Yet the manufacturing share peaked in 1999, productivity growth later slowed, skills mismatch persisted, and domestic value capture/upgrading remained a policy challenge (World Bank, 2016, pp. 28–69).
 5. **Social and distributive counterevidence.** Strong aggregate growth and poverty reduction coexisted with household cost pressures, indebtedness, inequality, and ethnic/regional polarization. This prevents the case from being presented as a costless or culturally predetermined success (Asadullah et al., 2024, pp. 1–3, 13–16).
 
@@ -233,9 +234,9 @@ A 2020 commercial trust survey found variation by institution rather than one na
 
 ## Evidence-backed findings
 
-1. **A real structural break in exports:** rubber and tin supplied 69.2% of export value in 1960; manufactured goods supplied 58.8% by 1990; electronics components led the 2020 product table (IMF, 1999, Table IV.3; Department of Statistics Malaysia, 2021, Table 2).
+1. **A likely structural break in exports, retained as narrative only:** registered source-specific tables report rubber and tin at 69.2% in 1960, manufactures at 58.8% in 1990, and electronics components leading the 2020 product ranking. Publisher access and classification differences block one common chart (IMF, 1999, Table IV.3; Department of Statistics Malaysia, 2021, Table 2).
 2. **Income and productivity rose substantially:** real GDP per capita increased from US$1,266 in 1960 to US$10,171 in 2020, and PPP output per worker rose from about US$37,394 in 1991 to US$61,442 in 2020 (World Bank, 2026a; World Bank et al., 2026).
-3. **Industrialisation was large but not linear:** manufacturing rose from 10.26% of GDP in 1960 to 24.22% in 1990, peaked at 30.94% in 1999, and was 22.28% in 2020 (World Bank, 2026a).
+3. **Industrialisation was large but not linear:** manufacturing rose from 10.26% of GDP in 1960 to 24.22% in 1990, peaked at 30.94% in 1999, and was 22.23% in 2020 (World Bank, 2026a).
 4. **Capabilities and connection expanded together:** literacy reached 82.92% by 1991, urbanisation 75.05% by 2020, and electricity access 100% by 2020 (Department of Statistics Malaysia, 2024; World Bank, 2026a).
 5. **The middle path remains incomplete:** multinational-led electronics, slowing productivity, skills mismatch, unequal outcomes, and social strain qualify the headline success (Asadullah et al., 2024; World Bank, 2016).
 
@@ -290,9 +291,9 @@ World Bank. (2020). *Structural transformation and labor market performance in G
 
 World Bank. (2022). *Malaysian SME program efficiency review*. https://documents1.worldbank.org/curated/en/099255003152238688/pdf/P17014606709a70f50856d0799328fb7040.pdf
 
-World Bank. (2025). *Worldwide Governance Indicators: 2025 revision* [Data set]. https://www.worldbank.org/en/publication/worldwide-governance-indicators
+World Bank. (2026a). *World Development Indicators* [Data set]. Release updated July 13, 2026; retrieved October 6, 2026, from https://api.worldbank.org/v2/country/MYS
 
-World Bank. (2026a). *World Development Indicators* [Data set]. Retrieved October 4, 2026, from https://api.worldbank.org/v2/country/MYS
+World Bank. (2026b). *Worldwide Governance Indicators: 2026 update* [Data set]. Retrieved October 6, 2026, from https://www.worldbank.org/en/publication/worldwide-governance-indicators
 
 World Bank, International Labour Organization, United Nations Population Division, Eurostat, & Organisation for Economic Co-operation and Development. (2026). *GDP per employed person* [Data set; World Development Indicators, indicator SL.GDP.PCAP.EM.KD]. World Bank; processed by Our World in Data. https://ourworldindata.org/grapher/gdp-per-person-employed-constant-ppp
 
@@ -307,10 +308,14 @@ World Bank, International Labour Organization, United Nations Population Divisio
 | Ipsos (2020) | (Ipsos, 2020) | Ipsos (2020) |
 | Mody (1997) | (Mody, 1997) | Mody (1997) |
 | UNESCO Institute for Statistics (2026) | (UNESCO Institute for Statistics, 2026) | UNESCO Institute for Statistics (2026) |
-| World Bank (2016, 2020, 2022, 2025, 2026a) | (World Bank, year) | World Bank (year) |
+| World Bank (2016, 2020, 2022, 2026a, 2026b) | (World Bank, year) | World Bank (year) |
 | World Bank et al. (2026) | (World Bank et al., 2026) | World Bank et al. (2026) |
 
 ## Verification record
+
+- 2026-10-06 — Applied accepted SRC-002 and DATA-006 dispositions: corrected 2020 manufacturing to the frozen WDI value `22.2320858423886` (22.23% displayed), classified all export rows as narrative-only, and preserved the territorial, proxy, classification, and missing-data caveats.
+- 2026-10-06 — Replaced the incorrect 2025 WGI label with frozen 2026 workbook estimates and 90% intervals and stated that WGI measures governance, not trust.
+- 2026-10-06 — Confirmed the 80% electricity figure remains rural-household context only; searched for stale WGI/manufacturing values, wrong-year exports, informal residuals, unweighted-population claims, and causal overstatements.
 
 - 2026-10-04 — opened all listed World Bank, DOSM, IMF, UNESCO/WDI, FRED, and Ipsos source pages/documents; did not use search-result snippets as the sole evidence for any retained claim.
 - 2026-10-04 — checked each of the ten required indicators for definition, unit/price basis, actual year, value, source locator, confidence, and limitation.

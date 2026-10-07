@@ -2,7 +2,7 @@
 
 **Owner:** Roadmap Controller Agent  
 **Last reconciled:** 2026-10-06
-**Current stage:** Six-country core data frozen and registered; historical pack accepted; culture, design-showroom, and independent data/chart review next
+**Current stage:** Country-file repair and culture pack accepted; proof chart passed QA; core-data gate repair, economic evidence, rights registration, and design showroom next
 **Checklist:** `project-control/REPORT_CHECKLIST.md`
 
 ## Task queue
@@ -16,40 +16,42 @@
 | DATA-003 | Research Mauritius with the common template | Country Data Agent | DONE | `data/mauritius.md` |
 | DATA-004 | Research Malaysia with the common template | Country Data Agent | DONE | `data/malaysia.md` |
 | DATA-005 | Research Philippines with the common template | Country Data Agent | DONE | `data/philippines.md` |
-| DATA-006 | Run six-country comparability review and freeze approved chart inputs | Country Data Agent | DONE | Comparability report, indicator dictionary, frozen master table |
-| DATA-007 | Apply accepted SRC-002/DATA-006 corrections to four country files | Country Data Agent | READY | Corrected Botswana, Mauritius, Malaysia, and Philippines evidence files |
+| DATA-006 | Run six-country comparability review and freeze approved chart inputs | Country Data Agent | REVIEW | Comparability report accepted; frozen table failed QA traceability/unit/rounding gate and needs DATA-008 repair |
+| DATA-007 | Apply accepted SRC-002/DATA-006 corrections to four country files | Country Data Agent | DONE | Corrected Botswana, Mauritius, Malaysia, and Philippines evidence files |
+| DATA-008 | Repair the QA-001 frozen-data gate defects | Data/source integration agent | READY | Registry-ready source IDs, canonical units, deterministic employment display rule, and clean validation |
 | SRC-002 | Register and audit Botswana/Mauritius/Malaysia/Philippines sources and claims | Sources & APA Agent | DONE | Expanded source and claim registries plus audit |
 | SRC-003 | Register RES-001 claims and verify proposed map/image rights | Sources & APA Agent | READY | Historical claim/source rows plus rights audit |
 | RES-001 | Verify colonialism, borders, infrastructure, and independence claims | History & Theory Agent | DONE | Page-mapped evidence pack |
-| RES-002 | Verify Hofstede, critiques, and trust literature | History & Theory Agent | READY | Page-mapped evidence pack |
+| RES-002 | Verify Hofstede, critiques, and trust literature | History & Theory Agent | DONE | Page-mapped evidence pack |
+| ECON-001 | Verify structural transformation, East Asian industrialisation, exports, and within-region variation | Economic Research Agent | READY | Page-mapped economic evidence pack |
 | THEORY-001 | Complete the theory evidence matrix | History & Theory Agent | BLOCKED | `research/THEORY_EVIDENCE_MATRIX.md` |
-| VIS-001 | Define graph system and build one verified proof chart | Charts & Maps Agent | REVIEW | Candidate chart system, data, figure, APA note; independent check and user palette choice pending |
-| QA-001 | Independently audit the DATA-006 freeze and VIS-001 proof chart | QA Agent | READY | Numeric, citation, accessibility, and five-second-test report |
+| VIS-001 | Define graph system and build one verified proof chart | Charts & Maps Agent | REVIEW | Proof chart passed QA; system document must remove lock language and user palette choice remains pending |
+| QA-001 | Independently audit the DATA-006 freeze and VIS-001 proof chart | QA Agent | DONE | Audit accepted: DATA-006 failed narrow gate; proof chart passed; palette lock rejected |
 | WRITE-001 | Draft pages 24–26 | Editorial & Design Agent | BLOCKED | Page-ready Ghana/Korea copy |
 | DESIGN-001 | Create the design showroom, palette tests, and 45-page rhythm plan | Editorial & Design Agent | READY | Preserved alternatives for user choice; no final system lock |
 | AI-PROMPT-001 | Design the research-gated Development Evidence Lab scaffold | Editorial & Interaction Agent | DONE | Master prompt, research-pack template, and acceptance checklist |
 | AI-PROMPT-002 | Fill, test, and approve the factual AI activity | Editorial & Interaction Agent | BLOCKED | Completed research pack, tested prompt, and offline alternative |
 | GAME-001 | Define and prototype the companion game | Interaction Agent | MISSING | Evidence-linked game concept, prototype, rules, and static/offline form |
 
-## Recommended next parallel batch
+## Recommended next batch
 
-The 2026-10-06 evidence batch has returned. `DATA-006`, `SRC-002`, and `RES-001` passed controller review. `VIS-001` remains in review because its independent test is pending and its proposed locked palette predates the required showroom/user-selection gate. The next non-overlapping order is:
+The 2026-10-06 QA/culture/country-repair batch has returned. `QA-001`, `RES-002`, and `DATA-007` passed controller review. QA passed the VIS-001 proof chart but found two P1 and two P2 defects around the frozen-data package and candidate-system wording. The next order is:
 
-1. `QA-001` — independently audit the frozen data and proof chart, including a real five-second test.
-2. `RES-002` — build the Hofstede, critique, and trust evidence pack.
-3. `DATA-007` — apply only the accepted SRC-002/DATA-006 corrections to the four newer country files.
-4. `DESIGN-001` — create materially different showroom and palette trials plus a draft 45-page rhythm plan; do not lock a final system before user selection.
+1. `DATA-008` — repair the frozen-data source IDs, canonical units, employment display-rounding rule, and related registry locators; this task temporarily owns the shared registries.
+2. `ECON-001` — build the structural-transformation, East Asian industrialisation, manufactured-exports, and within-region-variation evidence pack.
+3. `DESIGN-001` — create materially different showroom and palette trials plus a draft 45-page rhythm plan; do not lock a final system before user selection.
+4. `SRC-003` — run after `DATA-008` releases the shared registries; register RES-001 claims and verify proposed map/image rights.
 
-`SRC-003` should follow when a slot opens. `THEORY-001`, `WRITE-001`, and `AI-PROMPT-002` remain dependency-blocked.
+After DESIGN-001 review, present the alternatives to the user. `VIS-002` may then apply the selected direction and remove remaining candidate-lock wording. `THEORY-001`, `WRITE-001`, and `AI-PROMPT-002` remain dependency-blocked.
 
 ## Known risks
 
-- The core six-country chart inputs are frozen, but an independent numeric/citation audit has not yet passed.
+- The core six-country values and coverage passed independent numeric checks, but DATA-006 failed the traceability/unit/rounding gate: all 131 master `source_id` cells use non-registry extraction labels, 36 unit cells differ from the dictionary, and four employment panels need a deterministic display-rounding rule.
 - Ghana and South Korea explicitly retain unresolved historical, export, literacy, informality, and trust gaps; rejected claims are preserved only as rejection/correction notes.
-- The shared registries now contain 63 sources and 262 six-country claims, but 25 newer-country claims require revision and 10 remain unresolved; the four country files still need the accepted narrow corrections.
+- The shared registries contain 63 sources and 262 six-country claims. DATA-007 corrected or qualified all 25 revision-required and four rejected newer-country claims in the country files, but registry-status reconciliation and 10 unresolved claims remain.
 - Export composition, firm size/informality, direct trust, several historical anchors, and a seamless Philippines manufacturing trajectory remain excluded from common charts.
 - RES-001 is accepted as an evidence pack, not as finished maps or pages; historical claims and asset rights still need shared-registry/rights review.
-- VIS-001 is a strong candidate, not an approved magazine-wide visual system. Independent testing and the required user showroom/palette decision are pending.
+- VIS-001's proof chart passed numeric, APA, A4, grayscale, contrast, direct-label, and non-creator AI five-second checks. It is still not an approved magazine-wide system: `COMPARISON_SYSTEM.md` contains premature lock language, a human classroom/back-row check remains advisable, and the required user showroom/palette decision is pending.
 - The rough PDF contains placeholders and an obsolete palette.
 - The AI teaching scaffold is accepted as a research-gated interaction design, but its factual pack, platform, tests, and offline release remain blocked by research. The companion game is not yet defined.
 - No final deliverable exists.

@@ -12,8 +12,8 @@ Status key:
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
 **Last checked:** 2026-10-06
-**Current stage:** Six-country core data frozen and registered; historical pack accepted; culture, design-showroom, and independent data/chart review next
-**Estimated total progress:** 45%
+**Current stage:** Country-file repair and culture pack accepted; proof chart passed QA; core-data repair, economic evidence, rights registration, and design showroom next
+**Estimated total progress:** 49%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -35,7 +35,7 @@ Status key:
 - [x] Malaysia evidence file — controller-checked; territorial, proxy, classification, and historical gaps are explicit.
 - [x] Philippines evidence file — controller-checked; vintage, proxy, classification, and historical gaps are explicit.
 - [x] Six-country comparability review — accepted; each candidate family is classified as direct, caveated, narrative-only, or excluded.
-- [-] Clean master dataset behind all charts — 131 approved/caveated core observations are frozen with a 16-row dictionary; thematic/map data and independent audit remain pending.
+- [-] Clean master dataset behind all charts — all 131 values/coverage decisions passed numeric QA, but source IDs, 36 unit strings, and the employment display-rounding rule must pass DATA-008 before the core freeze is gate-approved; thematic/map data also remain pending.
 
 Each country must include:
 
@@ -51,7 +51,7 @@ Each country must include:
 - [x] Firm size/informality where comparable — comparability review found no defensible common chart and records the construct requirements needed to unblock one.
 - [x] Institutional/trust measure where credible — 2020 WGI is harmonised from one 2026 workbook with intervals; direct-trust measures are correctly retained as non-comparable narrative evidence.
 - [x] What the case supports, challenges, and cannot prove — present in all six evidence files.
-- [-] APA citations and exact source locators for every value and claim — shared registries now cover all six countries (63 sources, 262 claims), but 25 newer-country claims require revision and 10 remain unresolved.
+- [-] APA citations and exact source locators for every value and claim — shared registries cover all six countries (63 sources, 262 claims); DATA-007 corrected or visibly qualified all 25 revision-required and four rejected newer-country claims in the evidence files, while registry-status reconciliation and 10 unresolved claims remain.
 
 ## 3. Economic and historical research
 
@@ -70,15 +70,15 @@ Each country must include:
 
 ## 4. Culture and theory
 
-- [-] Hofstede overview concept — planned; authoritative definitions and APA citations missing.
-- [ ] Critical academic source on Hofstede limitations — missing.
-- [ ] Trust evidence distinguishing personal and institutional trust — missing.
-- [ ] Individualism/collectivism evidence and counterargument — missing.
-- [ ] Power-distance evidence and counterargument — missing.
-- [ ] Long-term-orientation evidence and counterargument — missing.
-- [ ] Relevance review for uncertainty avoidance, masculinity/femininity, and indulgence/restraint — missing.
+- [x] Hofstede overview evidence concept — all six dimensions have authoritative definitions, exact locators, critical-use rules, and a missing-score coverage audit; final page design remains later work.
+- [x] Critical academic sources on Hofstede limitations — accepted sources cover ecological fallacy, within-country variation, measurement/time stability, and causal overreach.
+- [x] Trust evidence distinguishing personal, network, named-institution, governance, and survey-response constructs — accepted with an explicit no-common-scale rule.
+- [x] Individualism/collectivism evidence and counterargument — accepted only as a conditional in-group/out-group mechanism, not a trust or personality score.
+- [x] Power-distance evidence and counterargument — accepted only as a conditional voice/feedback mechanism requiring direct institutional evidence.
+- [x] Long-term-orientation evidence and counterargument — accepted only as a provisional investment/learning question requiring direct policy evidence.
+- [x] Relevance review for uncertainty avoidance, masculinity/femininity, and indulgence/restraint — all three are excluded from THEORY-001 on current evidence, with reopening conditions recorded.
 - [!] Connected Development evidence test — blocked by six-country and historical research.
-- [!] Radius of Trust evidence test — blocked by country and trust research.
+- [-] Radius of Trust evidence test — RES-002 supplies a revised mechanism using generalized trust, institutions, or organisational substitutes; final six-case test remains to be written.
 - [!] Continuity + Adaptation evidence test — blocked by country and policy research.
 - [!] Final theory matrix — blocked by all three theory tests.
 
@@ -97,7 +97,7 @@ Each theory must contain:
 - [ ] Full APA 7 bibliography — missing.
 - [ ] In-text APA citations throughout page copy — missing.
 - [-] Claim-to-source register — 262 six-country claims are registered; RES-001 and final page copy remain uncovered.
-- [-] Dataset citations and query details — six-country core queries and releases are frozen; thematic/map datasets and independent audit remain pending.
+- [-] Dataset citations and query details — WDI/WGI values and release metadata passed independent QA, but the master-to-registry source-ID join and two registry locators require DATA-008 repair; thematic/map datasets remain pending.
 - [ ] Image-credit and rights register — missing.
 - [ ] Map-source register — missing.
 - [ ] Independent citation audit — missing.
@@ -114,7 +114,7 @@ Every final source must have:
 
 ## 6. Comparable graphs and maps
 
-- [-] Ghana–South Korea spread prototypes — exist but need formal data, APA, accessibility, and print review.
+- [-] Ghana–South Korea spread prototypes — the GDP proof chart passed numeric, APA, A4, grayscale, contrast, direct-label, and non-creator AI five-second checks; palette selection, system wording repair, a human classroom check, and final spread production remain.
 - [-] Fixed six-country colour and marker system — VIS-001 candidate exists, but showroom/palette tests and explicit user selection are required before lock.
 - [ ] 1960 mirrored baseline dashboard — missing.
 - [ ] 1990 comparison snapshot — missing.
@@ -242,13 +242,13 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [x] `DATA-001`: Ghana/South Korea repair accepted; rejected claims removed or visibly retained only as audit notes and unresolved gaps remain explicit.
 - [x] `DATA-004`: Malaysia evidence file accepted with visible territorial, classification, proxy, and historical limitations.
 - [x] `DATA-005`: Philippines evidence file accepted with visible source-vintage, classification, proxy, and historical limitations.
-- [-] `VIS-001`: Candidate comparison system and Ghana/South Korea GDP proof chart exist; independent audit and user palette decision pending.
-- [x] `DATA-006`: Six-country comparability review and frozen core chart inputs accepted.
+- [-] `VIS-001`: Ghana/South Korea GDP proof chart passed QA; candidate-system lock language, human classroom testing, and user palette decision remain.
+- [-] `DATA-006`: Comparability decisions and numeric values accepted, but the frozen package failed QA traceability/unit/rounding checks and needs DATA-008.
 - [x] `SRC-002`: Botswana, Mauritius, Malaysia, and Philippines sources/claims integrated and audited.
 - [x] `RES-001`: Colonialism, borders, infrastructure, and independence evidence pack accepted; final rights/artwork work remains separate.
-- [ ] `QA-001`: Independently audit DATA-006 and VIS-001, including a real five-second test.
-- [ ] `RES-002`: Build the Hofstede, critique, and trust evidence pack.
-- [ ] `DATA-007`: Apply accepted SRC-002/DATA-006 corrections to the four newer country files.
+- [x] `QA-001`: Independent gate audit accepted; DATA-006 failed narrow repairs while the VIS-001 proof chart passed.
+- [x] `RES-002`: Hofstede, critique, and trust evidence pack accepted with conditional/rejected-dimension decisions.
+- [x] `DATA-007`: Four newer country files corrected against SRC-002/DATA-006; unresolved evidence remains visibly limited.
 - [ ] `DESIGN-001`: Build the labelled showroom, palette trials, and draft 45-page rhythm plan for user selection.
 
-Run `SRC-003` when a slot opens. Final page writing must wait for the relevant evidence, registry coverage, figure data, and visual-system choice to pass review.
+Next: run `DATA-008`, `ECON-001`, and `DESIGN-001`; then run `SRC-003` after DATA-008 releases the shared registries. Final page writing must wait for the relevant evidence, registry coverage, figure data, and visual-system choice to pass review.

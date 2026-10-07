@@ -1,12 +1,12 @@
 # Philippines — slower Asian development path evidence file
 
-Data verified **2026-10-04**. This file follows the common ten-indicator structure and the locked anchor years **1960 · 1990 · 2020**. It does not interpolate. A substituted observation is printed with its actual year; `n/a` means that no sufficiently comparable observation was verified.
+Data verified **2026-10-06**. This file follows the common ten-indicator structure and the locked anchor years **1960 · 1990 · 2020**. It does not interpolate. A substituted observation is printed with its actual year; `n/a` means that no sufficiently comparable observation was verified.
 
 Legend: **H** = high confidence · **M** = medium confidence · **L** = low confidence · **n/a** = unavailable or not comparable.
 
 ## Reading the case
 
-The Philippines is the project's slower Asian path, not evidence that a national culture determines development. It began the 1960s with relatively high literacy, an established manufacturing sector, access to the US market, and English-language education. Yet real GDP per person rose much more slowly than in the fast East Asian cases. The record points to interacting causes: unequal land and political power inherited from Spanish and US rule; protected, import-dependent industrialisation; policy instability and the 1980s debt crisis; weak and uneven infrastructure; external shocks; and later growth centred on electronics assembly, services, business-process outsourcing (BPO), and overseas-worker remittances (Asian Development Bank [ADB], 2007, pp. v, 5–15, 24–27; Dolan, 1993, pp. 3–6, 28–31, 108–109, 146–147; World Bank, 1987, Vol. II, pp. 1–10).
+The Philippines is the project's slower Asian path, not evidence that a national culture determines development. It began the 1960s with an established manufacturing sector, access to the US market, and an extensive English-language education system, while the later comparable literacy series is strong but does not provide a 1960 anchor. Yet real GDP per person rose much more slowly than in the fast East Asian cases. Opened ADB and World Bank sources point to interacting causes: protected, import-dependent industrialisation; policy instability and the 1980s debt crisis; weak and uneven infrastructure; external shocks; and later growth centred on electronics assembly, services, business-process outsourcing (BPO), and overseas-worker remittances (Asian Development Bank [ADB], 2007, pp. v, 5–15, 24–27; World Bank, 1987, Vol. II, pp. 1–10). The more detailed Spanish/US inheritance claims below remain pending a clean archival copy of Dolan (1993).
 
 ## Starting position and historical inheritance
 
@@ -15,6 +15,8 @@ Spanish rule joined church and state, governed indirectly through local leaders,
 US rule added representative institutions, a civil service, mass public education, English, and improved communication. More than 1,000 American teachers arrived in 1901–1902; elementary enrolment rose from about 150,000 in 1900–1901 to nearly one million two decades later (Dolan, 1993, pp. 28–31, 76–77, 108–109). But US administrators also incorporated established landed elites into elections and patronage networks, while preferential US market access made sugar and coconut processing unusually dependent on one external market (Dolan, 1993, pp. 29–31; World Bank, 1987, Vol. II, pp. 3–4).
 
 After independence in 1946, exchange and import controls fostered rapid import-substituting manufacturing in the 1950s, but much production depended on imported capital/intermediate goods, protection, tax privileges, and US or state finance. Manufacturing value added rose from roughly 12.5% of GDP in 1950 to 17.5% in 1960, then the easy phase slowed (World Bank, 1987, Vol. II, pp. 5–10). Martial law, debt-financed investment, the 1983 debt moratorium, political shocks, and the 1984–1985 recession contributed to a lost decade; reform then crossed several administrations rather than following one continuously corrected industrial strategy (ADB, 2007, pp. 5–15; Hill, 2013, pp. 108–130, section III.C).
+
+**SRC-002 historical-source status:** The three Dolan-dependent claims above—Spanish land/elite inheritance, the institutional mix under US rule, and the teacher/enrolment quantities—remain **pending, not approved current evidence**, because SRC-002 received a malformed Library of Congress PDF and could not independently reopen the cited pages. They may remain as traceable context but require a clean archival copy before publication.
 
 ## 1. GDP per capita
 
@@ -26,7 +28,7 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 | 1990 | 1990 | US$1,704.08 | Same query; row `date=1990` | H | Endpoint follows the 1980s debt crisis and is not a normal growth year. |
 | 2020 | 2020 | US$3,198.67 | Same query; row `date=2020` | H | COVID-19 year; 2019 was US$3,575.88, so the anchor understates the pre-pandemic level. |
 
-- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/NY.GDP.PCAP.KD?date=1960:2022&format=json&per_page=100` (World Bank, 2026).
+- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/NY.GDP.PCAP.KD?date=1960:2022&format=json&per_page=100` (World Bank, 2026a).
 - Interpretation: real output per person was only about 2.85 times its 1960 value by 2020. The endpoints establish slower income growth; they do not identify one cause.
 
 ## 2. Labour productivity
@@ -39,7 +41,7 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 | 1990 | **1991 proxy** | Int$12,711.81 | Same query; row `date=1991` | H | One year late and includes modelled employment; label 1991 in any visual. |
 | 2020 | 2020 | Int$22,857.17 | Same query; row `date=2020` | H | Pandemic affected both output and employment; not a normal productivity observation. |
 
-- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/SL.GDP.PCAP.EM.KD?date=1960:2022&format=json&per_page=100` (World Bank, 2026).
+- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/SL.GDP.PCAP.EM.KD?date=1960:2022&format=json&per_page=100` (World Bank, 2026a).
 - Interpretation: productivity rose about 80% from the 1991 proxy to 2020, but this does not reveal within-sector productivity or hours worked.
 
 ## 3. Employment by sector
@@ -52,7 +54,7 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 | 1990 | **1991 proxy** | 44.08% | 16.61% | 39.31% | WDI `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, `SL.SRV.EMPL.ZS`; rows `date=1991` | M | Modelled and one year late. |
 | 2020 | 2020 | 24.51% | 18.71% | 56.78% | Same three queries; rows `date=2020` | M | Pandemic changed sector employment; PSA's annual LFS reports similar broad shares but uses survey estimates. |
 
-- Reproducible queries replace the indicator code in `https://api.worldbank.org/v2/country/PHL/indicator/INDICATOR?date=1960:2022&format=json&per_page=100` (International Labour Organization estimates distributed by World Bank, 2026).
+- Reproducible queries replace the indicator code in `https://api.worldbank.org/v2/country/PHL/indicator/INDICATOR?date=1960:2022&format=json&per_page=100` (International Labour Organization estimates distributed by World Bank, 2026a).
 - Historical context only: in 1955, agriculture was 59.0% and manufacturing 12.5% of employment in the World Bank's historical table; these are **not 1960 anchors** (World Bank, 1987, Vol. II, Table 1.1, p. 2).
 - Interpretation: labour moved mainly from agriculture into services, while industry's employment share rose only modestly. This differs from a classic agriculture-to-manufacturing-to-services sequence.
 
@@ -62,12 +64,13 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 
 | Anchor | Actual year | Value | Exact source locator | Confidence | Limitation / comparability warning |
 |---|---:|---:|---|:---:|---|
-| 1960 | 1960 | about 18.9% | World Bank (1980), Part II, para. 1.11, p. 4; source NEDA National Income Accounts | M | Alternative historical vintages give roughly 16%–20%; rebasing/method changes prevent false precision. |
-| 1990 | 1990 | 24.8% | Yusuf and Nabeshima (2010), Figure 4.16, p. 141 | M | Secondary compilation from older national accounts; not the current WDI vintage. |
+| 1960 | 1960 | about 18.9% | World Bank (1980), Part II, para. 1.11, p. 4; source NEDA National Income Accounts | M | **NARRATIVE_ONLY.** Alternative historical vintages give roughly 16%–20%; rebasing/method changes prevent false precision. |
+| 1990 | 1990 | 24.8% | Yusuf and Nabeshima (2010), Figure 4.16, p. 141 | M | **NARRATIVE_ONLY.** Secondary compilation from older national accounts; not the current WDI vintage. |
 | 2020 | 2020 | 17.66% | WDI `NV.IND.MANF.ZS`; Philippines API row `date=2020` | H | Current-price share; pandemic composition effect. |
 
-- Reproducible current query: `https://api.worldbank.org/v2/country/PHL/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json&per_page=100` (World Bank, 2026).
-- Interpretation: manufacturing was established early and remained sizeable, but its share did not deepen and hold as in the fastest industrialisers. The apparent 1990-to-2020 decline should be described, not plotted as a harmonised series, until national-account vintages are reconciled.
+- Reproducible current query: `https://api.worldbank.org/v2/country/PHL/indicator/NV.IND.MANF.ZS?date=1960:2022&format=json&per_page=100` (World Bank, 2026a).
+- **DATA-006 disposition:** 1960 and 1990 are narrative-only historical observations; only the 2020 current-WDI row is approved for direct comparison. The national-account vintages are incompatible and must not be connected as one series.
+- Interpretation: manufacturing was established early and remained sizeable, but the available incompatible-vintage observations cannot establish a seamless rise or decline. Reconcile the national accounts before making a trend claim.
 
 ## 5. Export composition
 
@@ -75,11 +78,12 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 
 | Anchor | Actual year | Composition/value | Exact source locator | Confidence | Limitation / comparability warning |
 |---|---:|---|---|:---:|---|
-| 1960 | 1960 | Coconut products US$177m / US$532m = **33.3%**; sugar products US$135m = **25.4%**; forest products US$95m = **17.9%** | Lim (1990), Table 1, pp. 74–75; source National Statistics Office | H | Historical national commodity groups; the three groups total 76.5%. |
+| 1960 | 1960 | Coconut products US$177m / US$532m = **33.3%**; sugar products US$135m = **25.4%**; forest products US$95m = **17.9%** | Lim (1990), Table 1, pp. 74–75; source National Statistics Office | M | **NARRATIVE_ONLY.** Historical national groups; original scan was not reopened during SRC-002 independent review. |
 | 1990 | 1990 | Electronics/electrical/telecom **24.0%**; garments/textile yarns/fabrics **22.8%**; agriculture **17.0%** | Nasution (2000), Table 9, p. 20 | H | Mixed levels of aggregation but mutually exclusive in the table; electronics and garments are subgroups of total manufactures. |
-| 2020 | 2020 | Electronic products **58.2%**; other manufactured goods **5.5%**; machinery and transport equipment **3.4%** | Philippine Statistics Authority (PSA, 2021), Figure 3 and Table 2 | H | 2015 PSCC national groupings; not directly identical to 1960/1990 categories. |
+| 2020 | 2020 | Electronic products **58.2%**; other manufactured goods **5.5%**; machinery and transport equipment **3.4%** | Philippine Statistics Authority (PSA, 2021), Figure 3 and Table 2 | M | **NARRATIVE_ONLY.** 2015 PSCC national groups; PSA blocked SRC-002 independent reopening. Pending manual verification. |
 
-- Interpretation: exports changed from coconut, sugar, and forest products to garments/electronics and then electronics-dominated manufactures. This is real structural change, but electronics often relies on imported inputs and assembly stages; high gross exports do not equal high domestic value added (Nasution, 2000, pp. 19–20).
+- **DATA-006 disposition:** all export rows are source-specific narrative observations, not an approved common chart. The 1960 and 2020 sources also remain pending independent reopening; the 1990 row is verified but uses a mixed aggregation.
+- Interpretation: the registered observations are consistent with a shift from primary products toward garments/electronics and later electronics dominance, but changing taxonomies block a connected series. Electronics often relies on imported inputs and assembly stages; high gross exports do not equal high domestic value added (Nasution, 2000, pp. 19–20).
 
 ## 6. Literacy / education
 
@@ -91,8 +95,8 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 | 1990 | 1990 | 93.57% | WDI/UIS `SE.ADT.LITR.ZS`; Philippines API row `date=1990` | H | Survey/census reporting; functional literacy and school quality are different constructs. |
 | 2020 | 2020 | 98.47% | Same query; row `date=2020` | H | A high basic-literacy rate does not measure learning quality or advanced skills. |
 
-- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/SE.ADT.LITR.ZS?date=1960:2022&format=json&per_page=100` (UNESCO Institute for Statistics data distributed by World Bank, 2026).
-- Historical context: Spanish authorities initiated free compulsory primary education in 1863, and US rule expanded a mass English-language public-school system; independent governments extended schools to remote areas in the 1950s–1960s (Dolan, 1993, pp. 108–109). This helps explain the strong later literacy stock, but schooling quality and unequal access remained constraints.
+- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/SE.ADT.LITR.ZS?date=1960:2022&format=json&per_page=100` (UNESCO Institute for Statistics data distributed by World Bank, 2026a).
+- Pending historical context: Dolan (1993, pp. 108–109) describes Spanish primary-education policy, US expansion of a mass English-language public-school system, and later extension to remote areas. SRC-002 could not independently reopen the archival pages, so this context requires a clean copy before publication and cannot substitute for the missing 1960 literacy rate.
 
 ## 7. Urbanisation
 
@@ -104,7 +108,7 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 | 1990 | 1990 | 36.00% | Same query; row `date=1990` | H | Administrative reclassification can affect the level. |
 | 2020 | 2020 | 54.11% | Same query; row `date=2020` | H | Does not measure congestion, housing quality, or productive agglomeration. |
 
-- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/SP.URB.TOTL.IN.ZS?date=1960:2022&format=json&per_page=100` (World Bank, 2026).
+- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/SP.URB.TOTL.IN.ZS?date=1960:2022&format=json&per_page=100` (World Bank, 2026a).
 - Interpretation: urbanisation was steady but did not by itself generate a manufacturing-employment surge; endpoint association cannot establish causality.
 
 ## 8. Electricity / infrastructure
@@ -117,7 +121,7 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 | 1990 | **1993 proxy** | 65.4% | Same query; earliest non-null Philippines row `date=1993` | M | Three years late; print 1993 in any figure. Access does not measure reliability or price. |
 | 2020 | 2020 | 96.4% | Same query; row `date=2020` | H | National access masks island/regional disparities and outages. |
 
-- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/EG.ELC.ACCS.ZS?date=1960:2022&format=json&per_page=100` (World Bank, 2026).
+- Reproducible query: `https://api.worldbank.org/v2/country/PHL/indicator/EG.ELC.ACCS.ZS?date=1960:2022&format=json&per_page=100` (World Bank, 2026a).
 - Context: the severe early-1990s power crisis was resolved by 1994, but later infrastructure investment and quality lagged regional comparators and raised business costs (ADB, 2007, pp. 5–6, 24–27). This is consistent with Connected Development, but access alone cannot measure inter-island logistics or industrial-network quality.
 
 ## 9. Firm size / informality
@@ -128,33 +132,35 @@ After independence in 1946, exchange and import controls fostered rapid import-s
 |---|---:|---|---|:---:|---|
 | 1960 | 1960 | 1–4 worker manufacturing units: **76.0% of employment** but **17.7% of value added** | World Bank (1980), Part II, Table I-1, p. 4; residual estimates from NCSO/NEDA | M | Manufacturing only; 1–4 worker rows are residual estimates and “unorganised” is not today's informal-employment definition. |
 | 1990 | n/a | n/a | No harmonised firm-size/informality anchor verified | n/a | Gap retained; do not mix self-employment, informal employment, and establishment size. |
-| 2020 | 2020 | Formal sector: micro firms **64.3% of establishments** and **10.2% of employment**; large firms **1.7%** and **49.6%**, respectively | PSA (2023), Tables A, 1, and 2 | H | ASPBI formal establishments only; it excludes much informal/home-based activity and is pandemic-affected. |
+| 2020 | 2020 | Formal sector: micro firms **64.3% of establishments** and **10.2% of employment**; large firms **1.7%** and **49.6%**, respectively | PSA (2023), Tables A, 1, and 2 | M | **NARRATIVE_ONLY, pending manual verification.** PSA blocked SRC-002 independent reopening. ASPBI covers formal establishments only and is pandemic-affected. |
 
-- Interpretation: both endpoints show a dual structure—many tiny units but a disproportionate employment/value-added role for large establishments. The definitions are not identical, so this is not a trend statistic.
+- Interpretation: the two source-specific observations suggest a dual structure, but the definitions, universes, and outcomes are incompatible, and the 2020 row remains pending independent reopening. This is not a trend statistic or approved cross-country firm/informality evidence.
 
 ## 10. Institutional / trust measures
 
 ### 10a. Worldwide Governance Indicators
 
-**Definitions:** Rule of Law is a perception-based composite covering contract enforcement, property rights, police, courts, crime, and violence. Government Effectiveness covers public-service quality, civil service, policy implementation, and credibility. **Unit:** standard-normal estimate, approximately −2.5 to +2.5; higher is better.
+**Definitions:** Rule of Law is a perception-based governance composite covering contract enforcement, property rights, police, courts, crime, and violence. Government Effectiveness covers public-service quality, civil service, policy implementation, and credibility. **Unit:** standard-normal governance estimate, approximately −2.5 to +2.5; higher is better. **WGI is governance, not interpersonal or institutional trust.**
 
 | Anchor | Actual year | Rule of Law | Government Effectiveness | Exact source locator | Confidence | Limitation / comparability warning |
 |---|---:|---:|---:|---|:---:|---|
 | 1960 | n/a | n/a | n/a | WGI begins in 1996 | n/a | Cannot score colonial inheritance or early independence. |
 | 1990 | n/a | n/a | n/a | WGI begins in 1996 | n/a | No backward substitution. |
-| 2020 | 2020 | −0.633 | +0.182 | World Bank API `GOV_WGI_RL_EST` and `GOV_WGI_GE_EST`; rows `date=2020` | H | Composite perceptions have uncertainty; small differences and causal claims are unsafe without intervals/design. |
+| 2020 | 2020 | **−0.623** (90% CI **−0.883 to −0.363**) | **+0.134** (90% CI **−0.232 to +0.500**) | World Bank (2026b), official workbook `wgidataset_with_sourcedata-2026.xlsx`, sheets `rl` and `ge`, economy `PHL`, year 2020 | H | Composite perception-based governance estimates with uncertainty; not trust and not evidence about 1960/1990. |
 
-- Reproducible queries: `https://api.worldbank.org/v2/country/PHL/indicator/GOV_WGI_RL_EST?date=1990:2022&format=json&per_page=100` and the same URL with `GOV_WGI_GE_EST` (World Bank, 2025).
+- Frozen full-precision values: Rule of Law `-0.6230015` (`-0.8827409` to `-0.3632621`); Government Effectiveness `0.1340562` (`-0.2320513` to `0.5001637`). The official 2026 workbook supersedes the 2025/API values; releases must not be mixed (World Bank, 2026b).
 
 ### 10b. Generalised trust
 
 In the 2019 Philippines World Values Survey, 64 of 1,200 respondents (**5.3% unweighted cases**) chose “most people can be trusted,” 1,133 (94.4%) chose “need to be very careful,” and three did not answer (World Values Survey Association, 2024, variable Q57). The catalogue explicitly warns that displayed case counts are not population estimates. This is a direct but question-sensitive measure of generalised trust, not trust in courts, banks, managers, or contracts.
 
+**Rejected inference:** “5.3% of the Philippine population trusts most people” is not supported. Only the unweighted displayed case share may be reported, and it cannot be compared directly with the other countries’ institution-specific trust surveys.
+
 ## Services, overseas work, and remittances
 
 The later growth model is not “no upgrading.” Electronics replaced primary commodities in merchandise exports; services reached 56.78% of employment in 2020; English-language education and telecommunications supported a globally competitive BPO sector. The central bank's 2010 survey reported IT-BPO revenue of US$10.1 billion and described voice-based support as the main driver (Bangko Sentral ng Pilipinas, 2011, pp. 1–3).
 
-Personal remittances received were **2.90% of GDP in 1990** and **9.64% in 2020** under WDI `BX.TRF.PWKR.DT.GD.ZS` (World Bank, 2026). Remittances support household income, foreign exchange, and demand, but heavy overseas deployment can also reflect limited domestic job creation. They are transfers, not domestic production, and must not be added to GDP as if they were sector value added.
+Personal remittances received were **2.90% of GDP in 1990** and **9.64% in 2020** under WDI `BX.TRF.PWKR.DT.GD.ZS` (World Bank, 2026a). Remittances support household income, foreign exchange, and demand, but heavy overseas deployment can also reflect limited domestic job creation. They are transfers, not domestic production, and must not be added to GDP as if they were sector value added.
 
 ## Why the path was slower: evidence and alternatives
 
@@ -166,8 +172,8 @@ Counterevidence matters. Literacy became nearly universal; electricity access re
 
 **Evidence consistent with the mechanism**
 
-- US-era schools, transport, communications, and English helped connect a linguistically diverse archipelago and later enabled service exports (Dolan, 1993, pp. 76–77, 108–109).
-- Electricity access and urbanisation rose substantially, while electronics and BPO connected firms and workers to global markets (World Bank, 2026; Bangko Sentral ng Pilipinas, 2011).
+- Pending archival verification, Dolan (1993, pp. 76–77, 108–109) links US-era schools, communications, and English to national connection; this is not approved current evidence until a clean copy is opened.
+- Electricity access and urbanisation rose substantially, while electronics and BPO connected firms and workers to global markets (World Bank, 2026a; Bangko Sentral ng Pilipinas, 2011).
 - ADB diagnosed inadequate infrastructure and high business costs as constraints, consistent with the theory's prediction that weak connections reduce investment and productive clustering (ADB, 2007, pp. 24–27).
 
 **Counterevidence and alternatives**
@@ -182,8 +188,8 @@ Counterevidence matters. Literacy became nearly universal; electricity access re
 
 **Evidence consistent with the mechanism**
 
-- The 2019 WVS case count for generalised trust was very low, while the formal economy remained highly dualistic and rule-of-law perceptions were negative (World Values Survey Association, 2024; World Bank, 2025).
-- Historical elite/patronage networks and unequal landholding are compatible with cooperation organised through close or political networks rather than impersonal rules (Dolan, 1993, pp. 29–31, 146–147).
+- The 2019 WVS catalogue shows a low unweighted case share choosing generalised trust, while source-specific firm evidence suggests a dual structure and 2020 rule-of-law governance perceptions were negative. These distinct measures cannot establish causality or a common trust scale (World Values Survey Association, 2024; World Bank, 2026b).
+- Pending archival verification, Dolan (1993, pp. 29–31, 146–147) describes elite/patronage networks and unequal landholding; even if verified, compatibility with close-network cooperation would not establish causation.
 
 **Counterevidence and alternatives**
 
@@ -223,11 +229,11 @@ Counterevidence matters. Literacy became nearly universal; electricity access re
 
 ## Evidence-backed findings
 
-1. **Income growth was real but slow:** real GDP per person rose from US$1,123.78 in 1960 to US$3,198.67 in pandemic-hit 2020 (World Bank, 2026).
-2. **Transformation bypassed a large manufacturing-employment phase:** from the 1991 proxy to 2020, agriculture employment fell from 44.08% to 24.51%, services rose from 39.31% to 56.78%, and industry moved only from 16.61% to 18.71% (World Bank, 2026).
-3. **Exports transformed more than domestic manufacturing depth:** primary products dominated 1960 exports; electronics were 24.0% in 1990 and 58.2% in 2020, but high import content limits the inference about domestic value added (Lim, 1990, pp. 74–75; Nasution, 2000, pp. 19–20; PSA, 2021).
-4. **Human and infrastructure capabilities improved:** adult literacy reached 93.57% in 1990 and 98.47% in 2020; electricity access rose from a 65.4% 1993 proxy to 96.4% in 2020 (World Bank, 2026).
-5. **A service/remittance model became central:** services employed 56.78% of workers and personal remittances equalled 9.64% of GDP in 2020, while BPO became a major export activity (Bangko Sentral ng Pilipinas, 2011; World Bank, 2026).
+1. **Income growth was real but slow:** real GDP per person rose from US$1,123.78 in 1960 to US$3,198.67 in pandemic-hit 2020 (World Bank, 2026a).
+2. **Transformation bypassed a large manufacturing-employment phase:** from the 1991 proxy to 2020, agriculture employment fell from 44.08% to 24.51%, services rose from 39.31% to 56.78%, and industry moved only from 16.61% to 18.71% (World Bank, 2026a).
+3. **Exports changed, but only as narrative evidence:** the registered source-specific observations move from primary products toward electronics; the 1960 and 2020 rows remain pending reopening, taxonomies differ, and high import content limits domestic-value-added inference (Lim, 1990, pp. 74–75; Nasution, 2000, pp. 19–20; PSA, 2021).
+4. **Human and infrastructure capabilities improved:** adult literacy reached 93.57% in 1990 and 98.47% in 2020; electricity access rose from a 65.4% 1993 proxy to 96.4% in 2020 (World Bank, 2026a).
+5. **A service/remittance model became central:** services employed 56.78% of workers and personal remittances equalled 9.64% of GDP in 2020, while BPO became a major export activity (Bangko Sentral ng Pilipinas, 2011; World Bank, 2026a).
 
 ## What the Philippines supports
 
@@ -274,9 +280,9 @@ World Bank. (1980). *Philippines: Industrial development strategy and policies* 
 
 World Bank. (1987). *The Philippines: Issues and policies in the industrial sector: Volume II, policy annexes* (Report No. 6706-PH). https://documents1.worldbank.org/curated/en/259831468095970280/pdf/multi0page.pdf
 
-World Bank. (2025). *Worldwide Governance Indicators: 2025 revision* [Data set]. https://www.worldbank.org/en/publication/worldwide-governance-indicators
+World Bank. (2026a). *World Development Indicators* [Data set]. Release updated July 13, 2026; retrieved October 6, 2026, from https://api.worldbank.org/v2/country/PHL
 
-World Bank. (2026). *World Development Indicators* [Data set]. Retrieved October 4, 2026, from https://api.worldbank.org/v2/country/PHL
+World Bank. (2026b). *Worldwide Governance Indicators: 2026 update* [Data set]. Retrieved October 6, 2026, from https://www.worldbank.org/en/publication/worldwide-governance-indicators
 
 World Values Survey Association. (2024). *Philippines—World Values Survey Wave 7, 2019* [Data set and metadata]. International Household Survey Network. https://catalog.ihsn.org/catalog/12297
 
@@ -293,11 +299,15 @@ Yusuf, S., & Nabeshima, K. (2010). *Changing the industrial geography in Asia: T
 | Lim (1990) | (Lim, 1990) | Lim (1990) |
 | Nasution (2000) | (Nasution, 2000) | Nasution (2000) |
 | Philippine Statistics Authority (2021, 2023) | (PSA, year) | PSA (year) |
-| World Bank (1980, 1987, 2025, 2026) | (World Bank, year) | World Bank (year) |
+| World Bank (1980, 1987, 2026a, 2026b) | (World Bank, year) | World Bank (year) |
 | World Values Survey Association (2024) | (World Values Survey Association, 2024) | World Values Survey Association (2024) |
 | Yusuf and Nabeshima (2010) | (Yusuf & Nabeshima, 2010) | Yusuf and Nabeshima (2010) |
 
 ## Verification log
+
+- 2026-10-06 — Applied accepted SRC-002 and DATA-006 dispositions: made the Dolan-dependent history claims explicitly pending; kept 1960/1990 manufacturing as narrative-only beside the current 2020 WDI row; and retained all export and firm-size classification/universe breaks.
+- 2026-10-06 — Replaced superseded WGI values with frozen 2026 workbook estimates and 90% intervals and stated that WGI measures governance, not trust.
+- 2026-10-06 — Confirmed 5.3% is an unweighted WVS case share, not a population estimate; searched for stale WGI values, wrong-year exports, informal residuals, population claims, and causal overstatements.
 
 - 2026-10-04 — opened and re-pulled all listed WDI and WGI API series; checked anchor values and first non-null years.
 - 2026-10-04 — opened the original scanned Lim article and read Table 1, pp. 74–75; recalculated the 1960 export shares from FOB values.
