@@ -1,6 +1,17 @@
 # Editorial and Design Log
 
-The 45-page structure and design direction exist, but no page range has passed the evidence gate for final copy and layout.
+The current structure targets approximately 25 pages, condensed from the legacy 45-page storyboard; no page range has passed the evidence gate for final copy and layout.
+
+## 2026-10-07 — Codex — PHOTO-POLICY-001
+
+- **Status:** DONE
+- **Objective:** Record the user's requirement that the magazine use real photographs from Africa and Asia while preserving contextual accuracy, dignity, traceability, and a practical reuse workflow.
+- **Inputs read:** User instruction; `AGENTS.md`; `PRODUCT.md`; `SCOPE_LOCK.md`; `project-control/REPORT_CHECKLIST.md`; `project-control/STATUS.md`; `project-control/ROADMAP.md`; `project-control/SOURCE_APA_AND_CHART_RULES.md`; `project-control/NEXT_AGENT_PROMPTS.md`; and `project-control/logs/editorial_design.md`.
+- **Files created or changed:** Updated `PRODUCT.md`, `AGENTS.md`, and `project-control/SOURCE_APA_AND_CHART_RULES.md`; appended this handoff entry.
+- **Sources added or rejected:** No magazine photograph was selected. Creative Commons licence guidance was checked to confirm that non-commercial licences still require compliance with attribution and any adaptation restrictions. Rejected the proposed assumption that non-commercial purpose alone makes copyright review unnecessary.
+- **Verification performed:** Confirmed that the policy requires real, country-specific photography across the six locked cases; forbids generic continent-level stand-ins; requires known place/date/creator/source where available; separates photographic context from causal evidence; and adds creator, licence, attribution, modification, and verification fields for later asset review.
+- **Limitations and blockers:** The requirement is now recorded, but actual photographs remain unselected. Each candidate must still pass relevance, stereotype, resolution, caption, and rights checks. `DESIGN-001` should show how authentic photography works in the showroom, and the later image-rights register must clear final assets.
+- **Exact next action:** During `DESIGN-001`, use labelled real-photo placeholders or cleared sample photographs in the showroom and specify intended photo roles by spread; during the rights task, build the candidate register and clear final images before page assembly.
 
 ## 2026-10-06 — Codex — AI-PROMPT-001 revision
 

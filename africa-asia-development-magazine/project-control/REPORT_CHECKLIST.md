@@ -11,7 +11,7 @@ Status key:
 - `[ ]` MISSING — not started or only an idea/placeholder exists
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
-**Last checked:** 2026-10-06
+**Last checked:** 2026-10-07
 **Current stage:** Country-file repair and culture pack accepted; proof chart passed QA; core-data repair, economic evidence, rights registration, and design showroom next
 **Estimated total progress:** 49%
 **Final report ready:** No
@@ -147,17 +147,17 @@ Every graph must have:
 
 ## 7. Magazine pages
 
-- [-] 45-page structure/storyboard — complete as a plan, not as final pages.
-- [ ] Pages 1–10: opening and divergence — final copy/visuals missing.
-- [ ] Pages 11–20: colonial inheritance — final copy/visuals missing.
-- [ ] Pages 21–26: Asian turn and Ghana/Korea — research partially ready; final pages missing.
-- [ ] Pages 27–33: culture in context — final copy/visuals missing.
-- [ ] Pages 34–39: theory tests and counterexamples — blocked by research.
-- [ ] Pages 40–45: synthesis, conclusion, references — blocked by earlier sections.
+- [-] Approximately 25-page structure — condensed from the legacy 45-page storyboard; final pages remain unbuilt.
+- [ ] Pages 1–4: opening and divergence — final copy/visuals missing.
+- [ ] Pages 5–9: colonial inheritance — final copy/visuals missing.
+- [ ] Pages 10–13: Asian turn and Ghana/Korea — research partially ready; final pages missing.
+- [ ] Pages 14–17: culture in context — final copy/visuals missing.
+- [ ] Pages 18–22: theory tests and counterexamples — blocked by research.
+- [ ] Pages 23–25: synthesis, conclusion, references/credits, and back cover — blocked by earlier sections.
 - [ ] Final typography selected and documented — missing.
 - [ ] Final Canva magazine assembled — missing.
 - [ ] All internal build notes removed — missing.
-- [ ] Minimum 40-page final PDF exported — missing.
+- [ ] Approximately 25-page final PDF exported; any slight variation is explained by references, credits, or front/back matter — missing.
 
 Every page must have:
 
@@ -177,7 +177,7 @@ Every page must have:
 - [x] Visual quality is defined as a graded project requirement.
 - [!] Magazine-wide country colour and marker system approved — blocked until DESIGN-001 showroom/palette trials, user selection, and VIS-001 independent review.
 - [ ] Typography hierarchy tested at A4 print size.
-- [ ] Page-rhythm map showing deliberate variation across all 45 pages.
+- [ ] Page-rhythm map showing deliberate variation across the approximately 25-page plan.
 - [ ] No three consecutive spreads use the same composition or visual device.
 - [ ] Every section contains at least one memorable visual centerpiece.
 - [ ] Headlines communicate findings or tensions rather than generic topics.
@@ -249,6 +249,6 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [x] `QA-001`: Independent gate audit accepted; DATA-006 failed narrow repairs while the VIS-001 proof chart passed.
 - [x] `RES-002`: Hofstede, critique, and trust evidence pack accepted with conditional/rejected-dimension decisions.
 - [x] `DATA-007`: Four newer country files corrected against SRC-002/DATA-006; unresolved evidence remains visibly limited.
-- [ ] `DESIGN-001`: Build the labelled showroom, palette trials, and draft 45-page rhythm plan for user selection.
+- [ ] `DESIGN-001`: Build the labelled showroom, palette trials, and draft approximately 25-page rhythm plan for user selection.
 
 Next: run `DATA-008`, `ECON-001`, and `DESIGN-001`; then run `SRC-003` after DATA-008 releases the shared registries. Final page writing must wait for the relevant evidence, registry coverage, figure data, and visual-system choice to pass review.

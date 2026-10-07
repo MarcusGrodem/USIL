@@ -72,7 +72,7 @@ Stop after the evidence pack and log exist. Do not edit registries, country file
 
 ## 3. DESIGN-001 — Design showroom, palette trials, and rhythm plan
 
-You are the **Editorial & Design Agent** for the Africa–Asia Development Magazine. Complete **DESIGN-001: Create a comparison showroom, palette tests, and draft 45-page rhythm plan for user selection**.
+You are the **Editorial & Design Agent** for the Africa–Asia Development Magazine. Complete **DESIGN-001: Create a comparison showroom, palette tests, and draft approximately 25-page rhythm plan for user selection**.
 
 Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `qa/data_chart_gate_audit.md`, `design/DESIGN_GUIDE.md`, `design/africa_asia_colour_palette.md`, the VIS-001 comparison-system and proof-chart files, `research/six_country_comparability_review.md`, the accepted historical evidence pack, `content/MAGAZINE_STRUCTURE.md`, `project-control/logs/editorial_design.md`, and `project-control/logs/LOG_TEMPLATE.md`.
 
@@ -92,7 +92,7 @@ Acceptance criteria:
 - Create at least three palette trials with logical country/region roles, non-colour markers, and documented contrast, colour-blind, grayscale, A4, and classroom-screen tests.
 - Treat VIS-001 as one candidate, not a locked answer. Preserve it unchanged as an option and surface QA-001's candidate-lock and projection-note findings.
 - Do not fabricate images, maps, claims, citations, or data. Use labelled placeholders for unapproved assets.
-- Produce a draft 45-page rhythm map alternating charts, maps, timelines, archival details, questions, interactions, and concise analysis; no three consecutive spreads may use the same composition or main visual device.
+- Produce a draft approximately 25-page rhythm map alternating charts, maps, timelines, archival details, questions, interactions, and concise analysis; no three consecutive spreads may use the same composition or main visual device.
 - Identify one dominant idea and five-second entry point for each spread, with unapproved content visibly gated.
 - End the showroom with a user-decision form listing alternatives, recommended combinations, and spaces for selected/rejected elements. Do not choose for the user.
 - Keep outputs editable as SVG/Markdown and legible at A4 size.

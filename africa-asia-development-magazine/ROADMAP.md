@@ -20,7 +20,8 @@ This roadmap reflects the actual work completed and the remaining work identifie
 - [x] Reframe the theories as questions rather than settled answers.
 - [x] Design a theory-checkpoint page with predictions and challenges.
 - [x] Develop interactive concepts and class experiments.
-- [x] Create a 45-page rough PDF storyboard.
+- [x] Create a 45-page rough PDF storyboard (now retained as a legacy idea bank).
+- [x] Condense the current production target to approximately 25 pages.
 - [x] Add build notes and infographic/interaction tips to the working pages.
 - [x] Create a dedicated colour palette and visual palette guide.
 - [x] Create this repository structure and project memory.
@@ -140,6 +141,6 @@ Before submission:
 - [ ] The group theories are clearly labelled as original working theories.
 - [ ] Supporting and challenging evidence is included.
 - [ ] Country comparisons use consistent indicators and years where possible.
-- [ ] The magazine has at least 40 pages.
+- [ ] The magazine is approximately 25 pages, with any variation explained by references, credits, or front/back matter.
 - [ ] Links and interactive elements work.
 - [ ] Any team member can present the core argument.

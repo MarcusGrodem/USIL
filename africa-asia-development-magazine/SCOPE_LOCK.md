@@ -28,6 +28,12 @@ Every chart, dashboard and indicator uses these three anchor years unless a spec
 - **1990** — mid-industrialisation snapshot
 - **2020** — outcome snapshot
 
+## Magazine length
+
+- **Target:** approximately 25 pages.
+- Final pagination may vary slightly when references, image credits, or front/back matter require it.
+- The former 40-page minimum and 45-page production target are superseded. The existing 45-page storyboard is a legacy idea bank, not the current page plan.
+
 ## Section ownership
 
 | # | Section | Owner |

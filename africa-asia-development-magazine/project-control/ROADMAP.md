@@ -75,7 +75,7 @@ Current position: the Ghana–South Korea GDP proof chart passed independent num
 **State: MISSING**
 
 - Write final copy only from approved evidence.
-- Assemble all 45 pages using the final design system.
+- Assemble approximately 25 pages using the final design system; allow slight pagination variation for references, credits, and front/back matter.
 - Add citations, captions, credits, and comparison limitations.
 
 Completion gate: each page passes the per-page checklist and no placeholder/build note remains.

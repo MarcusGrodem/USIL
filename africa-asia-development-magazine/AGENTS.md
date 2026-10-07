@@ -79,6 +79,8 @@ Treat these five dimensions as explicit qualification criteria for every relevan
 - Avoid repetitive page templates. Alternate charts, maps, timelines, archival imagery, diagrams, quotes, questions, and short analytical text while preserving a coherent grid and type system.
 - Body text must be concise and purposeful. Break long explanations into headlines, decks, captions, evidence callouts, or short paragraphs. Do not turn the magazine into an essay with pictures.
 - Visual interest must never hide uncertainty, missing data, definitions, APA sources, or comparison limitations.
+- Use real, context-specific photographs from the six locked African and Asian country cases throughout the magazine. Prefer images with a known country, place, date or period, creator, source, and subject; do not use generic “Africa” or “Asia” stock imagery or substitute one country for another. Captions must explain what the image contributes to the argument rather than treating people or places as decoration.
+- Non-commercial classroom use does not by itself establish permission to reproduce a photograph. Prefer public-domain, Creative Commons, institutional open-access, team-owned, or explicitly permitted images; follow the exact licence terms and record attribution, allowed modifications, and rights status before publication.
 
 ## Design showroom and testing
 

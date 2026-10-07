@@ -1,5 +1,17 @@
 # Roadmap Controller Log
 
+## 2026-10-07 — Codex — CTRL-010 — Approximately 25-page rescope
+
+- **Status:** DONE
+- **Objective:** Apply the user's decision to replace the 45-page production criterion with an approximately 25-page magazine target while preserving the full evidence, cultural-analysis, counterexample, citation, rights, and accessibility standards.
+- **Inputs read:** `AGENTS.md`; `PRODUCT.md`; `SCOPE_LOCK.md`; `project-control/REPORT_CHECKLIST.md`; `project-control/STATUS.md`; `project-control/ROADMAP.md`; `project-control/SOURCE_APA_AND_CHART_RULES.md`; `content/MAGAZINE_STRUCTURE.md`; project memory and decision files; current design/runbook/task-prompt files; and this controller log.
+- **Files created or changed:** Updated `PRODUCT.md`, `SCOPE_LOCK.md`, `DECISIONS.md`, `README.md`, `AI_CONTEXT.md`, `PROJECT_CONTEXT.md`, `ROADMAP.md`, `content/MAGAZINE_STRUCTURE.md`, `design/DESIGN_GUIDE.md`, `tools/README.md`, `START_HERE_AGENT_WORKFLOW.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/ROADMAP.md`, `project-control/NEXT_AGENT_PROMPTS.md`, `project-control/logs/editorial_design.md`, and this log.
+- **Sources added or rejected:** No evidence sources were added or rejected; this was a production-scope decision.
+- **Verification performed:** Rebuilt the live structure as a 25-page plan; remapped the checklist's six page sections; changed `DESIGN-001` to an approximately 25-page rhythm plan and `WRITE-001` to page 13; preserved every required country case, all six Hofstede dimensions, the three theory tests, counterexamples, synthesis, sources/credits, and interactions; searched the repository for obsolete 40/45-page criteria. Remaining 45-page references are explicitly marked as legacy or occur in the dated 2026-10-06 progress snapshot and legacy storyboard generator.
+- **Decisions and limitations:** “Around 25” is operationalised as an approximately 25-page target rather than a hard minimum. Slight variation is allowed only where references, credits, or front/back matter require it. The old 45-page PDF and generator remain available as historical idea sources and were not regenerated.
+- **Blockers:** None for the rescope. Final page production remains blocked by the same research, theory, rights, and design-selection gates already recorded in the status board.
+- **Exact next action:** Run `DESIGN-001` against the new approximately 25-page structure, then present the showroom and palette alternatives to the user before locking the visual system.
+
 ## 2026-10-04 — CTRL-001 — Initial setup
 
 - **Status:** DONE

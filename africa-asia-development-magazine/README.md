@@ -34,7 +34,7 @@ A recurring secondary question guides the magazine:
 
 ## Main deliverable
 
-The final deliverable is a minimum 40-page magazine with:
+The final deliverable is a magazine of approximately 25 pages, with slight variation allowed for references, credits, and front or back matter. It includes:
 
 - sourced research and analysis;
 - maps, charts, timelines and comparisons;
@@ -45,7 +45,7 @@ The final deliverable is a minimum 40-page magazine with:
 - full references and image credits;
 - material that can support a class presentation by any team member.
 
-The current structural draft contains 45 A4 pages.
+The current page plan targets approximately 25 A4 pages. The existing 45-page PDF is a legacy storyboard and idea bank, not the current pagination target.
 
 ## Current status
 
@@ -53,7 +53,7 @@ The project has a complete rough structure and visual storyboard. The following 
 
 - the central question and scope are defined;
 - the magazine narrative is divided into six sections;
-- a 45-page rough PDF exists;
+- a legacy 45-page rough PDF exists, while the current structure has been condensed to approximately 25 pages;
 - three working theories have been developed;
 - the six Hofstede dimensions have been incorporated;
 - colonialism is positioned as a central bridge between history, culture and economic development;

@@ -1,7 +1,7 @@
 # Agent Status Board
 
 **Owner:** Roadmap Controller Agent  
-**Last reconciled:** 2026-10-06
+**Last reconciled:** 2026-10-07
 **Current stage:** Country-file repair and culture pack accepted; proof chart passed QA; core-data gate repair, economic evidence, rights registration, and design showroom next
 **Checklist:** `project-control/REPORT_CHECKLIST.md`
 
@@ -10,6 +10,7 @@
 | ID | Task | Suggested owner | State | Output |
 |---|---|---|---|---|
 | CTRL-001 | Install and reconcile project controls | Roadmap Controller | DONE | Control files and sector logs |
+| CTRL-010 | Rescope the magazine from 45 pages to approximately 25 | Roadmap Controller | DONE | Updated scope, page plan, controls, prompts, and project memory |
 | SRC-001 | Verify Ghana/South Korea sources and create APA 7 records | Sources & APA Agent | DONE | Registries and `research/ghana_korea_source_audit.md` |
 | DATA-001 | Close or explicitly retain Ghana/South Korea data gaps | Country Data Agent | DONE | Updated `data/ghana.md` and `data/south_korea.md` |
 | DATA-002 | Research Botswana with the common template | Country Data Agent | DONE | `data/botswana.md` |
@@ -27,8 +28,8 @@
 | THEORY-001 | Complete the theory evidence matrix | History & Theory Agent | BLOCKED | `research/THEORY_EVIDENCE_MATRIX.md` |
 | VIS-001 | Define graph system and build one verified proof chart | Charts & Maps Agent | REVIEW | Proof chart passed QA; system document must remove lock language and user palette choice remains pending |
 | QA-001 | Independently audit the DATA-006 freeze and VIS-001 proof chart | QA Agent | DONE | Audit accepted: DATA-006 failed narrow gate; proof chart passed; palette lock rejected |
-| WRITE-001 | Draft pages 24–26 | Editorial & Design Agent | BLOCKED | Page-ready Ghana/Korea copy |
-| DESIGN-001 | Create the design showroom, palette tests, and 45-page rhythm plan | Editorial & Design Agent | READY | Preserved alternatives for user choice; no final system lock |
+| WRITE-001 | Draft page 13 | Editorial & Design Agent | BLOCKED | Page-ready Ghana/Korea comparison copy |
+| DESIGN-001 | Create the design showroom, palette tests, and approximately 25-page rhythm plan | Editorial & Design Agent | READY | Preserved alternatives for user choice; no final system lock |
 | AI-PROMPT-001 | Design the research-gated Development Evidence Lab scaffold | Editorial & Interaction Agent | DONE | Master prompt, research-pack template, and acceptance checklist |
 | AI-PROMPT-002 | Fill, test, and approve the factual AI activity | Editorial & Interaction Agent | BLOCKED | Completed research pack, tested prompt, and offline alternative |
 | GAME-001 | Define and prototype the companion game | Interaction Agent | MISSING | Evidence-linked game concept, prototype, rules, and static/offline form |
@@ -39,7 +40,7 @@ The 2026-10-06 QA/culture/country-repair batch has returned. `QA-001`, `RES-002`
 
 1. `DATA-008` — repair the frozen-data source IDs, canonical units, employment display-rounding rule, and related registry locators; this task temporarily owns the shared registries.
 2. `ECON-001` — build the structural-transformation, East Asian industrialisation, manufactured-exports, and within-region-variation evidence pack.
-3. `DESIGN-001` — create materially different showroom and palette trials plus a draft 45-page rhythm plan; do not lock a final system before user selection.
+3. `DESIGN-001` — create materially different showroom and palette trials plus a draft approximately 25-page rhythm plan; do not lock a final system before user selection.
 4. `SRC-003` — run after `DATA-008` releases the shared registries; register RES-001 claims and verify proposed map/image rights.
 
 After DESIGN-001 review, present the alternatives to the user. `VIS-002` may then apply the selected direction and remove remaining candidate-lock wording. `THEORY-001`, `WRITE-001`, and `AI-PROMPT-002` remain dependency-blocked.

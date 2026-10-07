@@ -1,310 +1,240 @@
 # Magazine Structure
 
-The current storyboard contains 45 A4 pages. This structure is a working plan, not a locked final layout.
+The current production target is approximately 25 A4 pages. Final pagination may vary slightly when references, image credits, or front/back matter require it. The former 45-page storyboard remains a legacy idea bank, not the current page plan.
 
-Each page entry below states its role and the main visual or interaction direction. Final copy, data, images and sources remain to be produced.
+Each page below has one dominant job. Several ideas that previously occupied separate pages are now combined into comparative spreads so the shorter magazine retains the full argument without becoming text-heavy.
 
 ## Section map
 
 | Section | Pages | Purpose |
 |---|---:|---|
-| Front of book and the gap | 1-10 | Introduce the question, establish the economic divergence and present the three reader questions |
-| Colonial inheritance | 11-20 | Show what colonial systems changed and what states inherited at independence |
-| The Asian turn | 21-26 | Explain industrialisation, exports, learning and the South Korea/Ghana comparison |
-| Culture in context | 27-33 | Apply Hofstede and trust carefully |
-| Test the theories | 34-39 | Challenge the three theories with evidence, survey data and counterexamples |
-| Synthesis and transfer | 40-45 | Combine the argument, discuss lessons and limits, conclude and list sources |
+| Front of book and the gap | 1–4 | Introduce the question, method, economic divergence, and within-region variation |
+| Colonial inheritance | 5–9 | Show what colonial systems changed and what states inherited at independence |
+| The Asian turn | 10–13 | Explain industrialisation, exports, learning, and the South Korea/Ghana comparison |
+| Culture in context | 14–17 | Apply Hofstede and trust carefully without treating culture as destiny |
+| Test the theories | 18–22 | Test the three working theories against all six country cases and counterexamples |
+| Synthesis and close | 23–25 | Combine the argument, state transferable lessons and limits, document sources, and close with a question |
 
 ## Page-by-page plan
 
-### Page 1 - Cover
+### Page 1 — Cover
 
-**Working title:** Africa & Asia: Why Did Their Economic Paths Diverge?  
-**Purpose:** Establish an investigative tone.  
-**Visual direction:** Strong continent forms or paired imagery with minimal text.  
-**Status:** Rough layout exists. Final cover art needed.
+**Working title:** Africa & Asia: Why Did Their Economic Paths Diverge?
 
-### Page 2 - Guiding question
+**Purpose:** Establish an investigative tone.
 
-**Headline:** Was slower growth caused by culture, or was culture itself shaped by history and institutions?  
-**Purpose:** Introduce the central tension.  
-**Visual direction:** Large pull quote and historical collage. Repeat this question at section breaks.  
-**Status:** Structure complete.
+**Visual direction:** One strong paired image or evidence-led visual with minimal text.
 
-### Page 3 - Contents
+**Status:** Final cover art and cleared image rights needed.
 
-**Purpose:** Show the six-part journey.  
-**Visual direction:** Coloured section tabs and navigation icons.  
-**Status:** Structure complete. Team names and roles still needed.
+### Page 2 — The question and the route
 
-### Page 4 - 1960: Two regions at a crossroads
+**Headline:** Was slower growth caused by culture, or was culture itself shaped by history and institutions?
 
-**Purpose:** Create the opening puzzle.  
-**Visual direction:** Split-screen archival photographs with a shared timeline. Use images with equal dignity and avoid stereotypes.  
-**Status:** Images and sources needed.
+**Purpose:** Combine the guiding question, concise contents, and the group's observe–predict–test–revise method.
 
-### Page 5 - Africa and Asia in 1960
+**Visual direction:** Large question plus a six-stop route through the magazine.
 
-**Purpose:** Establish comparable starting conditions.  
-**Visual direction:** Mirrored dashboard using identical indicators, scales and years.  
-**Data needed:** Income, agriculture, literacy, urbanisation, industry or other agreed measures.  
-**Status:** Placeholder only.
+**Status:** Structure ready; final team names and navigation needed.
 
-### Page 6 - The same indicators today
+### Page 3 — 1960: Different countries at a crossroads
 
-**Purpose:** Reveal divergence and variation.  
-**Visual direction:** Small-multiple or line charts; animation for the presentation.  
-**Status:** Placeholder only.
+**Purpose:** Establish comparable starting positions without implying that either continent was uniform.
 
-### Page 7 - What actually diverged?
+**Visual direction:** Matched Ghana–South Korea baseline with small six-country context markers; identical indicators, definitions, scales, and visible gaps.
 
-**Purpose:** Define development through productivity, structure, exports and capability rather than one GDP number.  
-**Visual direction:** Sankey-style movement from agriculture into manufacturing or services.  
-**Status:** Economic copy and data needed.
+**Status:** Use only approved baseline data and licensed, place-specific photographs.
 
-### Page 8 - Neither region is one story
+### Page 4 — What diverged—and what did not?
 
-**Purpose:** Prevent continental stereotypes before deeper analysis.  
-**Visual direction:** Country mosaic inside each continent shape.  
-**Status:** Country examples needed.
+**Purpose:** Show change through income, productivity, employment structure, manufacturing, and infrastructure while revealing variation within both regions.
 
-### Page 9 - How we build our own theory
+**Visual direction:** Direct-labelled small multiples from the baseline to 2020, plus a concise definition of structural transformation.
 
-**Purpose:** Explain the group's theory process: observe, connect, predict, test and revise.  
-**Visual direction:** Circular or stepped research cycle.  
-**Status:** Structure complete.
+**Status:** Economic evidence and final figure family needed.
 
-### Page 10 - Three ideas, not three answers
+### Page 5 — Colonialism changed the starting line
 
-**Purpose:** Introduce the three theories as open questions.  
-**Visual direction:** Three large question cards and a before/after class vote.  
-**Theories:** Connected Development; Radius of Trust; Continuity + Adaptation.  
-**Status:** Current theory wording exists; evidence needed.
+**Purpose:** Open the historical bridge and show who controlled the six cases and when political transitions occurred.
 
-### Page 11 - Colonialism changed the starting line
+**Visual direction:** Accurate dated map paired with a compact independence/occupation timeline.
 
-**Purpose:** Open the colonial inheritance section.  
-**Visual direction:** Dark section opener with extraction route or map motif.  
-**Status:** Structure complete.
+**Status:** Evidence pack exists; final map geometry, rights, and citations remain.
 
-### Page 12 - Who colonised whom?
+### Page 6 — Different systems of rule
 
-**Purpose:** Show colonial control and the timing of independence.  
-**Visual direction:** Accurate dated map and independence timeline.  
-**Status:** Final map and citations needed.
+**Purpose:** Compare British indirect-rule and French centralising tendencies while showing exceptions and other colonial models.
 
-### Page 13 - British rule
+**Visual direction:** Matched authority chains with one supported case and one caution each; a narrow rail for Belgian, Portuguese, German, Italian, and Japanese cases where analytically relevant.
 
-**Purpose:** Explain indirect-rule tendencies and local intermediaries.  
-**Visual direction:** Authority chain with one supporting example and one exception.  
-**Status:** Academic research needed.
+**Status:** Final page must use accepted claims rather than universal templates.
 
-### Page 14 - French rule
+### Page 7 — What did infrastructure connect?
 
-**Purpose:** Explain centralised administration, language and assimilation tendencies.  
-**Visual direction:** Mirror page 13 so the models can be compared directly.  
-**Status:** Academic research needed.
+**Purpose:** Connect extractive corridors, borders, and domestic market integration to the Connected Development question.
 
-### Page 15 - Other colonial models
+**Visual direction:** Ghana railway/network case and Ghana–Togo border case as two matched evidence panels.
 
-**Purpose:** Prevent a British/French binary.  
-**Visual direction:** Belgian, Portuguese, German and Italian archive cards, each with one verified fact and one caution.  
-**Status:** Research needed.
+**Status:** Accepted specifications exist; final artwork and rights review remain.
 
-### Page 16 - The railway problem
+### Page 8 — Independence inventory
 
-**Purpose:** Ask whether infrastructure connected domestic markets or extracted resources.  
-**Visual direction:** Before/after network map: mine-to-port corridor versus connected cities and suppliers.  
-**Theory link:** Connected Development.  
-**Status:** Real examples needed.
+**Purpose:** Compare what the six countries inherited: export structure, industrial depth, skills, bureaucracy, borders, and infrastructure.
 
-### Page 17 - Lines drawn from outside
+**Visual direction:** Six compact inventory cards with explicit unknowns and non-comparable items.
 
-**Purpose:** Explain partitioned groups and combined political communities.  
-**Visual direction:** Transparent layers showing ethnic territories and state borders.  
-**Status:** Accurate case and map needed.
+**Status:** Historical inventories accepted; final registry integration and page copy remain.
 
-### Page 18 - You are designing a country
+### Page 9 — You are president in 1960
 
-**Purpose:** Make border trade-offs interactive.  
-**Visual direction:** Drag-a-border activity that reveals effects on identity, trade and political competition.  
-**Status:** Genially prototype needed.
+**Purpose:** Make readers confront development trade-offs without implying one perfect answer.
 
-### Page 19 - Independence: What was inherited?
+**Visual direction:** Allocate 100 points among schools, factories, roads, health, security, and state capacity; show country constraints and an offline alternative.
 
-**Purpose:** Summarise the starting position of a newly independent state.  
-**Visual direction:** Suitcase or inventory infographic: export corridor, commodity risk, thin industry, borders, bureaucracy and skill gaps.  
-**Status:** Claims need case-specific evidence.
+**Status:** Rules, evidence basis, limitations, and prototype needed.
 
-### Page 20 - You are president in 1960
+### Page 10 — How industrial capability compounds
 
-**Purpose:** Force development trade-offs.  
-**Visual direction:** Allocate 100 points among schools, factories, roads, health, military and government capacity.  
-**Status:** Rules and outcome logic needed.
+**Purpose:** Explain why parts of Asia industrialised faster while rejecting a single “Asian model.”
 
-### Page 21 - Why did parts of Asia industrialise faster?
+**Visual direction:** Evidence-led loop linking education, infrastructure, firms, exports, learning, reinvestment, and upgrading.
 
-**Purpose:** Open the industrialisation section.  
-**Visual direction:** Factory, port or urban production imagery.  
-**Status:** Structure complete.
+**Status:** ECON-001 evidence needed.
 
-### Page 22 - The East Asian growth engine
+### Page 11 — Manufactured exports versus commodity dependence
 
-**Purpose:** Show a reinforcing loop of education, firms, exports, learning, reinvestment and upgrading.  
-**Visual direction:** Circular capability loop.  
-**Status:** Research and case variation needed.
+**Purpose:** Explain value addition, learning, volatility, and the limits of a simple product-category comparison.
 
-### Page 23 - Manufactured exports versus raw commodities
+**Visual direction:** One product journey plus matched evidence that uses compatible classifications only.
 
-**Purpose:** Explain where value and learning occur.  
-**Visual direction:** One product journey, such as raw cotton to fabric to garment to brand.  
-**Status:** Data and product example needed.
+**Status:** Common six-country export series remains blocked; use approved narrative or compatible evidence only.
 
-### Page 24 - South Korea case
+### Page 12 — South Korea: capability built over time
 
-**Purpose:** Show recovery, export push, upgrading and high-tech production.  
-**Visual direction:** Four-frame timeline with one policy, number and image per era.  
-**Status:** Full research needed.
+**Purpose:** Show recovery, export push, policy coordination, firm learning, and technological upgrading without turning the case into a cultural success story.
 
-### Page 25 - Ghana case
+**Visual direction:** Four-frame timeline with one policy, number, image, and qualification per era.
 
-**Purpose:** Show independence, state projects, commodity exposure, reforms and later change.  
-**Visual direction:** Use the same four-frame structure as page 24.  
-**Status:** Full research needed.
+**Status:** Economic evidence and final rights-cleared images needed.
 
-### Page 26 - South Korea versus Ghana
+### Page 13 — Ghana and South Korea: a comparison, not an experiment
 
-**Purpose:** Compare mechanisms while stating the comparison's limits.  
-**Visual direction:** Matched table with two warning labels explaining what the comparison cannot prove.  
-**Status:** Data and source alignment needed.
+**Purpose:** Pair Ghana's path with South Korea's using matched indicators and explicitly state what the comparison cannot prove.
 
-### Page 27 - Hofstede's six dimensions
+**Visual direction:** Mirrored trajectory panels and concise historical annotations; include Ghana's commodity exposure, state projects, political changes, and reforms.
 
-**Purpose:** Introduce the teacher-required framework and its limits.  
-**Visual direction:** Six-part wheel with a caution about national averages.  
-**Status:** Definitions and original citation needed.
+**Status:** Proof-chart system exists; final evidence, copy, and visual-system decision needed.
 
-### Page 28 - Trust: Personal or institutional?
+### Page 14 — Hofstede's six dimensions—and the warning label
 
-**Purpose:** Introduce trust as a mechanism beyond Hofstede.  
-**Visual direction:** Network expanding from family to firms, banks, courts and strangers.  
-**Theory link:** Radius of Trust.  
-**Status:** Evidence needed.
+**Purpose:** Meet the six-dimension requirement while explaining national averages, within-country variation, time limits, and causal overreach.
 
-### Page 29 - Who would you trust with the money?
+**Visual direction:** Six-part overview with dimensions eligible for deeper testing visually separated from those retained only as context.
 
-**Purpose:** Make readers reveal their own assumptions before the concept is explained.  
-**Visual direction:** Anonymous live poll.  
-**Status:** Poll and response logic needed.
+**Status:** RES-002 evidence accepted; final page design remains.
 
-### Page 30 - Individualism versus collectivism
+### Page 15 — How far can trust travel?
 
-**Purpose:** Show both the support and possible constraints created by close networks.  
-**Visual direction:** Balance graphic: strength on one side, cost on the other.  
-**Status:** Examples and sources needed.
+**Purpose:** Distinguish personal, network, institutional, governance, and survey-response constructs.
 
-### Page 31 - Power distance
+**Visual direction:** Network expanding from close ties to firms, banks, courts, and strangers, with a “not one common scale” warning.
 
-**Purpose:** Explore authority, coordination, challenge and accountability.  
-**Visual direction:** Manager-employee comic showing challenge versus silence.  
-**Status:** Examples and sources needed.
+**Theory link:** Radius of Trust.
 
-### Page 32 - Long-term orientation
+**Status:** Evidence pack accepted; six-case test remains.
 
-**Purpose:** Connect time horizons to skills, saving and investment while avoiding simple causality.  
-**Visual direction:** Timeline choice between present consumption and future investment.  
-**Status:** Examples and sources needed.
+### Page 16 — Close networks: strength, boundary, or both?
 
-### Page 33 - The other three Hofstede dimensions
+**Purpose:** Test individualism/collectivism without equating collectivism with trust or economic performance.
 
-**Purpose:** Include uncertainty avoidance, masculinity/femininity and indulgence/restraint without forcing weak claims.  
-**Visual direction:** Three smaller cards with lighter visual weight.  
-**Status:** Relevance review and sources needed.
+**Visual direction:** Anonymous “who would you trust with the money?” choice feeding into a support-versus-constraint balance.
 
-### Page 34 - Can our three ideas survive the evidence?
+**Status:** Poll design, static alternative, and sample-size warning needed.
 
-**Purpose:** Make the theories testable.  
-**Visual direction:** Theory matrix with prediction, supporting case, challenge and revision.  
-**Status:** Matrix content still needed.
+### Page 17 — Authority, time horizons, and the dimensions we cannot force
 
-### Page 35 - Our class has a culture too
+**Purpose:** Examine power distance and long-term orientation as conditional mechanisms, then briefly explain why uncertainty avoidance, masculinity/femininity, and indulgence/restraint do not currently support strong causal claims.
 
-**Purpose:** Personalise the concepts through an anonymous class survey.  
-**Visual direction:** Horizontal result bars with sample size and limitations box.  
-**Status:** Survey design and data needed.
+**Visual direction:** Two matched mechanism panels plus three lighter “evidence insufficient” cards.
 
-### Page 36 - Botswana counterexample
+**Status:** Use only RES-002's critical-use rules and reopening conditions.
 
-**Purpose:** Challenge a simple culture-first explanation.  
-**Visual direction:** "Our first explanation fails here - why?" stamp and evidence panel.  
-**Status:** Exact claim and indicators needed.
+### Page 18 — Can our three ideas survive the evidence?
 
-### Page 37 - Second African case
+**Purpose:** Introduce the test standard: mechanism, prediction, support, challenge, alternative, limitation, and revision condition.
 
-**Purpose:** Add a different pathway that tests the theories.  
-**Locked case:** Mauritius.  
-**Visual direction:** Match the case to the theory it most strongly tests.  
-**Status:** Country selected; research missing.
+**Visual direction:** One compact theory matrix that readers revisit on pages 19–21.
 
-### Page 38 - Asia is not one success story either
+**Status:** THEORY-001 remains blocked by economic evidence.
 
-**Purpose:** Show fast, middle and slower paths within Asia.  
-**Locked cases:** South Korea, Malaysia and the Philippines.  
-**Visual direction:** Three country trajectories with identical definitions, units, years and axes; use small multiples if a combined chart becomes crowded.  
-**Status:** Countries selected; Malaysia and Philippines data missing.
+### Page 19 — Test 1: Connected Development
 
-### Page 39 - Myth or fact?
+**Question:** What if the decisive difference was not how much infrastructure existed, but whom it connected?
 
-**Purpose:** Challenge oversimplified conclusions.  
-**Visual direction:** Clickable flip cards; each answer includes one sentence and one source.  
-**Status:** Genially build needed.
+**Visual direction:** Prediction-versus-cases panel using the approved network and market evidence.
 
-### Page 40 - What if development needs all three?
+**Status:** Final six-country test needed.
 
-**Purpose:** Present the group's combined working theory for debate.  
-**Visual direction:** Three overlapping circles: connected markets, wider trust, continuity + adaptation; industrial capability in the centre.  
-**Status:** Final wording depends on evidence.
+### Page 20 — Test 2: Radius of Trust
 
-### Page 41 - What could African countries learn from Asia?
+**Question:** How far beyond family and close networks can economic trust travel?
 
-**Purpose:** Discuss transferable capabilities rather than copying cultures.  
-**Visual direction:** Capability ladder from basic production through quality, design, technology and brand.  
-**Status:** African examples needed.
+**Visual direction:** Evidence ladder distinguishing direct trust evidence from institutional substitutes and non-comparable measures.
 
-### Page 42 - What cannot simply be copied?
+**Status:** Revised mechanism exists; final six-country test needed.
 
-**Purpose:** Show limits created by history, geography, politics, resources and markets.  
-**Visual direction:** Adapt-versus-copy split screen with a real example on each side.  
-**Status:** Examples needed.
+### Page 21 — Test 3: Continuity + Adaptation
 
-### Page 43 - Five things the reader should remember
+**Question:** Can a country learn industrially if direction changes every few years—and can continuity correct failure?
 
-**Purpose:** Summarise the argument and supply the presenter's final speaking points.  
-**Visual direction:** Five numbered statements.  
-**Status:** Final statements depend on research.
+**Visual direction:** Policy timeline with feedback loops and counterexamples to continuity alone.
 
-### Page 44 - Sources and working bibliography
+**Status:** Policy and economic evidence needed.
 
-**Purpose:** Make the research traceable.  
-**Visual direction:** Numbered endnotes, short URLs where needed and image credits.  
-**Status:** Current page is only a source plan.
+### Page 22 — The counterexamples change the answer
 
-### Page 45 - Back cover
+**Purpose:** Stress-test all three theories with Botswana, Mauritius, Malaysia, and the Philippines, showing variation within Africa and Asia.
 
-**Question:** If culture matters, can culture change?  
-**Purpose:** End with an open question rather than a fixed verdict.  
-**Visual direction:** Minimal design and optional QR link to interactive content.  
-**Status:** Final link and design needed.
+**Visual direction:** Four-country small multiples or case cards linked directly to the theory predictions they support, challenge, or cannot test; include a concise myth-or-fact checkpoint.
 
-## Text-density target
+**Status:** Country evidence exists; synthesis awaits ECON-001 and THEORY-001.
 
-The project discussion suggested that only about 15-18 pages need substantial prose. Other pages should use visual evidence, interactions, cases, charts, maps and concise conclusions.
+### Page 23 — What the combined evidence says
+
+**Purpose:** Present a conditional synthesis: culture may shape implementation, but history, institutions, policy, markets, and international conditions interact with it.
+
+**Visual direction:** Three working theories around industrial capability, with confidence and limitation labels rather than a decorative Venn diagram.
+
+**Status:** Final thesis depends on the completed theory matrix.
+
+### Page 24 — What can travel, what must adapt, and what to remember
+
+**Purpose:** Separate transferable capabilities from context-specific copying and provide the presentation's final takeaways.
+
+**Visual direction:** Adapt-versus-copy split with five concise evidence-based conclusions and one revision question.
+
+**Status:** Final claims and examples depend on approved synthesis.
+
+### Page 25 — Sources, credits, and closing question
+
+**Question:** If culture matters, can culture change?
+
+**Purpose:** Close openly while making the research and visual assets traceable.
+
+**Visual direction:** Clean bibliography/credits entry point, compact essential references, and QR/link to a complete accessible source appendix if used.
+
+**Status:** Full bibliography, image credits, final links, and back-cover design needed. Extra reference or credit pages may be added when necessary and documented as the allowed slight pagination variation.
+
+## Density target
+
+Substantial prose should remain a minority treatment. Prefer comparative spreads, direct labels, concise captions, evidence callouts, and visible limitations. Combining former pages does not permit smaller unreadable type or hidden methodology.
 
 ## Non-negotiable content checks
 
 - Every figure has a source.
-- Every image has a credit.
+- Every image has a credit and cleared rights status.
 - Every country comparison states its years and definitions.
 - Every theory includes challenging evidence.
 - Every cultural claim avoids stereotyping.
-- Every interaction contributes to the analysis.
+- Every interaction contributes to the analysis and has a static alternative.
+- The shorter page target does not remove essential uncertainty, citations, counterexamples, or accessibility requirements.

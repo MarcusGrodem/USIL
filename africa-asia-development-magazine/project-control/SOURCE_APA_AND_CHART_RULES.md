@@ -30,6 +30,15 @@ Common reference patterns:
 - Web page: Organisation. (Year, Month Day). *Page title*. Site if different. URL
 - Image: Creator. (Year). *Title or description* [Photograph/Illustration/Map]. Collection. URL
 
+## Photography sourcing and credit rules
+
+- Use real photographs tied to the six locked country cases; do not use a photograph from one country as a generic stand-in for another country or continent.
+- Prefer public-domain, Creative Commons, institutional open-access, team-owned, or explicitly permitted photographs. Non-commercial or educational intent alone is not a recorded reuse permission.
+- For every candidate photograph, record creator, date or period, title/description, depicted country and place, depicted subject, source page and direct asset URL where available, licence/rights statement URL, required attribution, allowed crop/edit treatment, verification date, and planned page.
+- Confirm that the chosen licence permits the intended reproduction and any crop, colour treatment, or adaptation. Preserve required attribution and indicate modifications when the licence requires it.
+- If creator, provenance, location, licence, or allowed use cannot be verified, mark the image `UNRESOLVED` and keep it out of final publication until the rights review clears it.
+- Captions must identify the image accurately and state its analytical role or limitation. Photographs provide context and human scale; they do not by themselves prove a causal claim.
+
 Each chart needs a concise note plus a full bibliography entry. Example structure:
 
 > *Note.* GDP per capita in constant 2015 US dollars. Data from *World Development Indicators* (indicator NY.GDP.PCAP.KD), by World Bank (year), URL. Values shown for 1960, 1990, and 2020.

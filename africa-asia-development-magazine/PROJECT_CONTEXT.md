@@ -17,7 +17,7 @@ The teacher requires:
 - a chosen topic;
 - an analytical report;
 - magazine style;
-- at least 40 pages;
+- approximately 25 pages, with slight variation allowed for references, credits, and front or back matter;
 - sources;
 - preparation for a presentation;
 - readiness for any team member to present, because the teacher will choose the representative;
@@ -31,7 +31,7 @@ The work will be assessed on:
 - creativity in the magazine design;
 - innovation in the report.
 
-The teacher clarified that the page count does not mean 40 pages of dense writing. Pages may use images, graphics, videos, games, interactive activities and other magazine devices.
+The project later changed from the former 40/45-page criteria to an approximately 25-page target. Pages may use images, graphics, videos, games, interactive activities and other magazine devices rather than dense writing.
 
 Later teacher feedback added two requirements:
 
@@ -265,7 +265,7 @@ The current interactive concepts include:
 - flip myth-or-fact cards;
 - vote for the strongest theory before and after the magazine.
 
-The rough PDF now includes a build note and a specific infographic or interaction suggestion for 40 working pages.
+The legacy rough PDF includes build notes and infographic or interaction suggestions that can be selectively reused in the approximately 25-page plan.
 
 ## Design direction
 
@@ -291,7 +291,7 @@ The final colour palette was developed after the rough PDF and should guide the 
 - Charcoal text: `#252525`
 - Secondary grey: `#B7B0A4`
 
-The 45-page rough PDF uses an earlier palette and is therefore a structural reference, not the final visual authority.
+The 45-page rough PDF uses an earlier palette and superseded pagination. It is a legacy idea bank, not the current page plan or final visual authority.
 
 ## Content and layout direction
 
@@ -310,7 +310,7 @@ The magazine should use:
 - visible source notes;
 - QR codes only when the linked content adds genuine value.
 
-Pages should not be filled with text simply to reach the page count. Approximately 15-18 pages may contain substantial written analysis, while other pages can carry visuals, interactions, maps, cases and summaries.
+Pages should not be filled with text simply to reach the page count. In the approximately 25-page plan, substantial written analysis should remain a minority treatment; other pages should carry visuals, interactions, maps, cases and concise summaries.
 
 ## Important reasoning principles
 
@@ -353,7 +353,7 @@ A dedicated colour-palette guide was created after the PDF. Its colours are the 
 
 ## Existing artifacts
 
-- `drafts/Africa_Asia_Magazine_Rough_Structure.pdf` - 45-page A4 storyboard.
+- `drafts/Africa_Asia_Magazine_Rough_Structure.pdf` - legacy 45-page A4 storyboard and idea bank.
 - `tools/make_magazine_draft.py` - script used to generate the storyboard.
 - `design/africa_asia_colour_palette.md` - colour values for the final design.
 - `references/Africa_Asia_Colour_Palette_Guide.png` - visual palette guide.
@@ -361,7 +361,7 @@ A dedicated colour-palette guide was created after the PDF. Its colours are the 
 
 ## Current assumptions
 
-- The final magazine will contain at least 40 pages.
+- The final magazine will target approximately 25 pages, with slight variation allowed for references, credits, and front or back matter.
 - The final product will probably be designed in Canva.
 - Interactions will probably be built in Genially and linked by QR code.
 - The exact presentation length has not been provided in the chat.

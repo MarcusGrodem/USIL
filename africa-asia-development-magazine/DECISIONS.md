@@ -5,16 +5,16 @@ This file records decisions that were actually made during the project conversat
 ## Decision: Use a visual magazine rather than a conventional report
 
 **Decision:**  
-Build a minimum 40-page editorial magazine using short analysis, images, maps, charts, cases, interactive exercises and QR-linked material.
+Build an editorial magazine of approximately 25 pages using short analysis, images, maps, charts, cases, interactive exercises and QR-linked material. Final pagination may vary slightly for references, credits, and front or back matter.
 
 **Reason:**  
 The assignment rewards creativity and innovation, and the teacher clarified that the pages do not need to be dense written pages.
 
 **Alternatives considered:**  
-A traditional Word report with 40 text-heavy pages.
+The earlier minimum-40-page requirement and 45-page production plan; a traditional text-heavy report.
 
 **Status:**  
-Current.
+Current as of 2026-10-07; supersedes the earlier 40/45-page criteria.
 
 ## Decision: Reframe the continental comparison
 
@@ -229,7 +229,7 @@ Current. The PDF palette is superseded for final design, although the PDF remain
 ## Decision: Treat the rough PDF as a storyboard, not evidence
 
 **Decision:**  
-Use the 45-page PDF to guide page order, hierarchy, interactions and visual density. Replace its placeholder data, images, maps and QR codes.
+Use the legacy 45-page PDF only as an idea bank for hierarchy, interactions and visual density. Follow the current approximately 25-page plan for page order and pagination. Replace all placeholder data, images, maps and QR codes.
 
 **Reason:**  
 The PDF was created to estimate structure and illustration needs, not to provide final research.

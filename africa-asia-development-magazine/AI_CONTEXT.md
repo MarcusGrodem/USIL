@@ -2,7 +2,7 @@
 
 ## What this project is
 
-This repository supports a student team creating a minimum 40-page magazine and presentation about why many African economies did not follow the same development path as several Asian economies. The assignment specifically requires cultural analysis, multiple cultural dimensions, research quality, examples, creativity and innovation.
+This repository supports a student team creating an approximately 25-page magazine and presentation about why many African economies did not follow the same development path as several Asian economies. Final pagination may vary slightly for references, credits, and front or back matter. The assignment specifically requires cultural analysis, multiple cultural dimensions, research quality, examples, creativity and innovation.
 
 The current project is an investigation, not a simple continent ranking. It combines economic development, colonial history, institutions, industrialisation, culture and original group theories.
 
@@ -24,7 +24,7 @@ The current project is an investigation, not a simple continent ranking. It comb
   - Continuity + Adaptation Theory
 - The theories should be introduced through questions and challenged with evidence.
 - The final design should use the dedicated palette in `design/africa_asia_colour_palette.md`.
-- The 45-page PDF is a structural draft, not final evidence or final visual design.
+- The 45-page PDF is a legacy structural draft and idea bank, not the current page plan, final evidence, or final visual design.
 - Build notes and infographic/interaction tips are useful working elements.
 - Canva and Genially are the preferred production tools.
 
@@ -52,7 +52,7 @@ The current project is an investigation, not a simple continent ranking. It comb
 
 ## Important constraints
 
-- Minimum 40 pages.
+- Approximately 25 pages, with slight variation allowed for references, credits, and front or back matter.
 - Magazine style.
 - Sources required.
 - Creative and innovative presentation.
@@ -95,7 +95,7 @@ The current project is an investigation, not a simple continent ranking. It comb
 - `research/THEORIES.md` - definitions and tests for the three original theories.
 - `research/RESEARCH_QUESTIONS.md` - question hierarchy.
 - `research/RESEARCH_PLAN.md` - evidence, data and case workflow.
-- `content/MAGAZINE_STRUCTURE.md` - current 45-page plan.
+- `content/MAGAZINE_STRUCTURE.md` - current approximately 25-page plan.
 - `content/PRESENTATION_PLAN.md` - presentation and weekly-review guidance.
 - `design/DESIGN_GUIDE.md` - visual rules and palette.
 - `design/INFOGRAPHICS_AND_INTERACTIONS.md` - visual and interactive concepts.

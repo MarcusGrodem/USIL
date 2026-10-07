@@ -178,7 +178,7 @@ The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPT
 
 1. `DATA-008` — repair the QA-001 source-ID, unit, and employment display-rounding defects in the frozen data package.
 2. `ECON-001` — structural transformation, East Asian industrialisation, manufactured exports, and within-region variation evidence pack.
-3. `DESIGN-001` — design showroom, palette trials, and draft 45-page rhythm plan for user selection.
+3. `DESIGN-001` — design showroom, palette trials, and draft approximately 25-page rhythm plan for user selection.
 4. `SRC-003` — after DATA-008 releases the shared source registry, register RES-001 claims and verify map/image rights.
 
 Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work. Present DESIGN-001 alternatives to the user before authorising a magazine-wide visual-system lock.

@@ -16,7 +16,7 @@ This is the teacher-assigned topic and the central question connecting the magaz
 
 ## Product Purpose
 
-Create a connected project that explains why selected African and Asian economies followed different development paths and how much culture can explain. The minimum 40-page evidence-led magazine is one major component, supported by a presentation and two planned companion experiences: an AI prompt and a game. The AI prompt will act as a Socratic teacher that quizzes a student group one question at a time, uses progressive clues, and evaluates evidence-based reasoning; its factual content must wait for approved research. Its platform is not yet locked. The game must address the same topic and argument, but its mechanics and format are not yet locked.
+Create a connected project that explains why selected African and Asian economies followed different development paths and how much culture can explain. The evidence-led magazine should target approximately 25 pages; final pagination may vary slightly to accommodate references, credits, and front or back matter. It is one major component, supported by a presentation and two planned companion experiences: an AI prompt and a game. The AI prompt will act as a Socratic teacher that quizzes a student group one question at a time, uses progressive clues, and evaluates evidence-based reasoning; its factual content must wait for approved research. Its platform is not yet locked. The game must address the same topic and argument, but its mechanics and format are not yet locked.
 
 Success means the audience understands the comparisons, remembers the main argument, trusts the sources, and remains engaged without design or innovation oversimplifying the evidence.
 
@@ -63,7 +63,10 @@ Investigative, vivid, and intelligent. The magazine should feel like a carefully
 7. Use examples as analytical evidence: every featured case should clarify, test, challenge, or complicate the argument.
 8. Treat creativity and innovation as assessed outcomes while keeping research quality and analytical clarity in control.
 9. Make the research easy to understand. Select, organise, and explain evidence instead of overwhelming the reader with everything discovered.
+10. Use real, place-specific photography from the six selected African and Asian countries as part of the evidence and atmosphere. Prefer identifiable people, work, infrastructure, streets, landscapes, and historical moments over generic regional stock imagery; caption the place, date or period, subject, and analytical relevance whenever known.
 
 ## Accessibility & Inclusion
 
 Use strong contrast, readable body text, colour-independent chart labels or markers, visible units and source notes, and non-interactive alternatives for QR-linked content. Avoid cultural stereotypes, deficit framing, and decorative maps that imply false precision. Every essential visual must remain understandable in print and on a classroom screen.
+
+Photography must give both regions equal dignity and show everyday life as well as economic change. Do not use an image from one country as a visual stand-in for another country or for an entire continent. Crops, captions, and sequencing must not turn poverty, tradition, industry, or modernity into a regional stereotype.

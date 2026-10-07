@@ -2,7 +2,7 @@
 
 ## Design goal
 
-Create a contemporary editorial magazine that feels investigative, visual and thoughtful. It should not look like a 40-page classroom essay placed into a template.
+Create a contemporary editorial magazine that feels investigative, visual and thoughtful. It should not look like a classroom essay placed into a template.
 
 The design should help readers compare evidence, notice uncertainty and follow the argument.
 
@@ -47,7 +47,7 @@ The dedicated palette guide is newer than the rough PDF and is the current desig
 
 ## Relationship to the rough PDF
 
-The rough PDF uses an earlier navy, bright orange, teal and gold palette. Its structure, hierarchy and page ideas remain useful. Its colours should not be copied automatically into the final design.
+The legacy 45-page rough PDF uses an earlier navy, bright orange, teal and gold palette. Its hierarchy and page ideas remain useful, but its pagination is superseded by the approximately 25-page plan. Its colours should not be copied automatically into the final design.
 
 ## Typography
 
