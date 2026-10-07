@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 2970" role="img" aria-labelledby="title desc">
+  <title id="title">Three six-country palette and marker trials</title>
+  <desc id="desc">A4-proportioned design showroom with three candidate palettes. Each trial assigns one colour and one unique marker to Ghana, Botswana, Mauritius, South Korea, Malaysia, and the Philippines. Contrast ratios, grayscale, colour-blind safeguards, A4, and classroom-screen findings are documented. No palette is selected.</desc>
+  <defs>
+    <style><![CDATA[
+      .sans { font-family: "Arial", "Helvetica Neue", sans-serif; fill: #252525; }
+      .title { font-size: 56px; font-weight: 800; letter-spacing: -1px; }
+      .deck { font-size: 28px; font-weight: 500; fill: #4A4742; }
+      .trial { font-size: 34px; font-weight: 800; letter-spacing: 2px; }
+      .question { font-size: 27px; font-weight: 650; fill: #4A4742; }
+      .country { font-size: 26px; font-weight: 800; }
+      .meta { font-size: 23px; font-weight: 600; fill: #4A4742; }
+      .test-head { font-size: 25px; font-weight: 800; letter-spacing: 1px; }
+      .test { font-size: 23px; font-weight: 500; fill: #3F3C37; }
+      .micro { font-size: 21px; font-weight: 550; fill: #4A4742; }
+      .panel { stroke: #252525; stroke-width: 3; }
+      .rule { stroke: #AAA297; stroke-width: 2; }
+      .key { stroke: #252525; stroke-width: 3; }
+      .grayscale { filter: url(#gray); }
+    ]]></style>
+    <filter id="gray" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0 0 0 1 0"/>
+    </filter>
+  </defs>
+
+  <rect width="2100" height="2970" fill="#EAE5DA"/>
+  <text x="100" y="90" class="sans title">Colour is a label, never the argument.</text>
+  <text x="100" y="138" class="sans deck">DESIGN-001 · three editable candidates · direct labels + unique markers + patterns · no palette selected</text>
+
+  <!-- PALETTE A -->
+  <g id="palette-a" transform="translate(80 190)">
+    <rect width="1940" height="820" rx="8" fill="#F4F0E7" class="panel"/>
+    <text x="35" y="52" class="sans trial">A · INHERITED EDITORIAL</text>
+    <text x="35" y="94" class="sans question">Question: keep the VIS-001 candidate family, including its required Mauritius contrast repair?</text>
+
+    <g transform="translate(40 135)">
+      <g transform="translate(0 0)">
+        <circle cx="38" cy="38" r="24" fill="#B95332" class="key"/>
+        <text x="78" y="31" class="sans country">Ghana</text><text x="78" y="62" class="sans meta">#B95332 · 4.25:1</text>
+      </g>
+      <g transform="translate(315 0)">
+        <rect x="14" y="14" width="48" height="48" fill="#3F684E" class="key"/>
+        <text x="78" y="31" class="sans country">Botswana</text><text x="78" y="62" class="sans meta">#3F684E · 5.59:1</text>
+      </g>
+      <g transform="translate(650 0)">
+        <path d="M38,10 L66,62 L10,62 Z" fill="#D6A23A" class="key" stroke-linejoin="round"/>
+        <text x="78" y="31" class="sans country">Mauritius</text><text x="78" y="62" class="sans meta">#D6A23A · 2.03:1*</text>
+      </g>
+      <g transform="translate(995 0)">
+        <path d="M38,8 L68,38 L38,68 L8,38 Z" fill="#315A78" class="key" stroke-linejoin="round"/>
+        <text x="78" y="31" class="sans country">S. Korea</text><text x="78" y="62" class="sans meta">#315A78 · 6.45:1</text>
+      </g>
+      <g transform="translate(1260 0)">
+        <path d="M15,20 L38,7 L61,20 L61,56 L38,69 L15,56 Z" fill="#3E7568" class="key"/>
+        <text x="78" y="31" class="sans country">Malaysia</text><text x="78" y="62" class="sans meta">#3E7568 · 4.68:1</text>
+      </g>
+      <g transform="translate(1585 0)">
+        <path d="M14,14 L62,62 M62,14 L14,62" stroke="#252525" stroke-width="12"/>
+        <path d="M14,14 L62,62 M62,14 L14,62" stroke="#A63A3A" stroke-width="7"/>
+        <text x="78" y="31" class="sans country">Philippines</text><text x="78" y="62" class="sans meta">#A63A3A · 5.62:1</text>
+      </g>
+    </g>
+
+    <line x1="40" y1="255" x2="1900" y2="255" class="rule"/>
+    <g transform="translate(40 295)">
+      <text x="0" y="0" class="sans test-head">GRAYSCALE + MARKER CHECK</text>
+      <g class="grayscale" transform="translate(0 28)">
+        <circle cx="35" cy="35" r="24" fill="#B95332" class="key"/>
+        <rect x="92" y="11" width="48" height="48" fill="#3F684E" class="key"/>
+        <path d="M195,8 L223,60 L167,60 Z" fill="#D6A23A" class="key"/>
+        <path d="M285,5 L315,35 L285,65 L255,35 Z" fill="#315A78" class="key"/>
+        <path d="M350,17 L373,4 L396,17 L396,53 L373,66 L350,53 Z" fill="#3E7568" class="key"/>
+        <path d="M445,11 L493,59 M493,11 L445,59" stroke="#A63A3A" stroke-width="9"/>
+      </g>
+      <text x="540" y="54" class="sans test">PASS at information level: six shapes and direct names survive complete hue loss.</text>
+      <text x="540" y="86" class="sans test">FLAG: Ghana and Philippines values are close in gray. Never remove labels or shapes.</text>
+
+      <text x="0" y="145" class="sans test-head">TEST RECORD</text>
+      <text x="0" y="184" class="sans test">Contrast: CONDITIONAL PASS. Five colours exceed 3:1; Mauritius needs charcoal keyline or under-stroke.</text>
+      <text x="0" y="219" class="sans test">Colour-blind stress: PASS structurally. Red/green confusion cannot erase unique shapes, names, or line patterns.</text>
+      <text x="0" y="254" class="sans test">A4: PASS for marks and labels. Classroom: CONDITIONAL, method notes need a dedicated 16:9 export.</text>
+      <text x="0" y="289" class="sans test">Print: digital check only. Physical paper proof and human colour-vision review remain required.</text>
+      <text x="0" y="340" class="sans micro">* Mauritius ochre is never permitted as an unoutlined essential edge or text colour on cream.</text>
+    </g>
+  </g>
+
+  <!-- PALETTE B -->
+  <g id="palette-b" transform="translate(80 1075)">
+    <rect width="1940" height="820" rx="8" fill="#F2F1ED" class="panel"/>
+    <text x="35" y="52" class="sans trial">B · DEEP EARTH / DEEP WATER</text>
+    <text x="35" y="94" class="sans question">Question: retain regional families while every country colour independently clears strong contrast?</text>
+
+    <g transform="translate(40 135)">
+      <g><circle cx="38" cy="38" r="24" fill="#9B3F2D" class="key"/><text x="78" y="31" class="sans country">Ghana</text><text x="78" y="62" class="sans meta">#9B3F2D · 5.91:1</text></g>
+      <g transform="translate(315 0)"><rect x="14" y="14" width="48" height="48" fill="#315F45" class="key"/><text x="78" y="31" class="sans country">Botswana</text><text x="78" y="62" class="sans meta">#315F45 · 6.51:1</text></g>
+      <g transform="translate(650 0)"><path d="M38,10 L66,62 L10,62 Z" fill="#8A5D19" class="key" stroke-linejoin="round"/><text x="78" y="31" class="sans country">Mauritius</text><text x="78" y="62" class="sans meta">#8A5D19 · 5.08:1</text></g>
+      <g transform="translate(995 0)"><path d="M38,8 L68,38 L38,68 L8,38 Z" fill="#245F89" class="key"/><text x="78" y="31" class="sans country">S. Korea</text><text x="78" y="62" class="sans meta">#245F89 · 6.05:1</text></g>
+      <g transform="translate(1260 0)"><path d="M15,20 L38,7 L61,20 L61,56 L38,69 L15,56 Z" fill="#276B66" class="key"/><text x="78" y="31" class="sans country">Malaysia</text><text x="78" y="62" class="sans meta">#276B66 · 5.50:1</text></g>
+      <g transform="translate(1585 0)"><path d="M14,14 L62,62 M62,14 L14,62" stroke="#252525" stroke-width="12"/><path d="M14,14 L62,62 M62,14 L14,62" stroke="#604B8A" stroke-width="7"/><text x="78" y="31" class="sans country">Philippines</text><text x="78" y="62" class="sans meta">#604B8A · 6.47:1</text></g>
+    </g>
+
+    <line x1="40" y1="255" x2="1900" y2="255" class="rule"/>
+    <g transform="translate(40 295)">
+      <text x="0" y="0" class="sans test-head">GRAYSCALE + MARKER CHECK</text>
+      <g class="grayscale" transform="translate(0 28)">
+        <circle cx="35" cy="35" r="24" fill="#9B3F2D" class="key"/><rect x="92" y="11" width="48" height="48" fill="#315F45" class="key"/><path d="M195,8 L223,60 L167,60 Z" fill="#8A5D19" class="key"/><path d="M285,5 L315,35 L285,65 L255,35 Z" fill="#245F89" class="key"/><path d="M350,17 L373,4 L396,17 L396,53 L373,66 L350,53 Z" fill="#276B66" class="key"/><path d="M445,11 L493,59 M493,11 L445,59" stroke="#604B8A" stroke-width="9"/>
+      </g>
+      <text x="540" y="54" class="sans test">PASS at information level: marker identities and labels remain decisive in grayscale.</text>
+      <text x="540" y="86" class="sans test">Warm Africa and cool Asia families remain visible in colour, but never replace country names.</text>
+
+      <text x="0" y="145" class="sans test-head">TEST RECORD</text>
+      <text x="0" y="184" class="sans test">Contrast: PASS. All six essential mark colours exceed 5:1 against the off-white ground.</text>
+      <text x="0" y="219" class="sans test">Colour-blind stress: PASS structurally. No red/green success code; shapes and direct labels are fixed.</text>
+      <text x="0" y="254" class="sans test">A4: PASS for marks and labels. Classroom: strongest equal-stroke candidate, pending human back-row test.</text>
+      <text x="0" y="289" class="sans test">Print: digital check only. Deep colours may close on low-quality printers, so a physical proof remains required.</text>
+      <text x="0" y="340" class="sans micro">Region is a navigation aid, not a claim that countries within a region share one path.</text>
+    </g>
+  </g>
+
+  <!-- PALETTE C -->
+  <g id="palette-c" transform="translate(80 1960)">
+    <rect width="1940" height="820" rx="8" fill="#F3EFE5" class="panel"/>
+    <text x="35" y="52" class="sans trial">C · COUNTRY FIRST / REGION IN NAVIGATION</text>
+    <text x="35" y="94" class="sans question">Question: reduce continent shorthand by placing region in labelled bands, not in inferred hue?</text>
+
+    <g transform="translate(40 135)">
+      <g><circle cx="38" cy="38" r="24" fill="#8A3C4A" class="key"/><text x="78" y="31" class="sans country">Ghana</text><text x="78" y="62" class="sans meta">#8A3C4A · 6.47:1</text></g>
+      <g transform="translate(315 0)"><rect x="14" y="14" width="48" height="48" fill="#23646A" class="key"/><text x="78" y="31" class="sans country">Botswana</text><text x="78" y="62" class="sans meta">#23646A · 5.89:1</text></g>
+      <g transform="translate(650 0)"><path d="M38,10 L66,62 L10,62 Z" fill="#8B611A" class="key" stroke-linejoin="round"/><text x="78" y="31" class="sans country">Mauritius</text><text x="78" y="62" class="sans meta">#8B611A · 4.78:1</text></g>
+      <g transform="translate(995 0)"><path d="M38,8 L68,38 L38,68 L8,38 Z" fill="#3D5192" class="key"/><text x="78" y="31" class="sans country">S. Korea</text><text x="78" y="62" class="sans meta">#3D5192 · 6.55:1</text></g>
+      <g transform="translate(1260 0)"><path d="M15,20 L38,7 L61,20 L61,56 L38,69 L15,56 Z" fill="#3D6B3F" class="key"/><text x="78" y="31" class="sans country">Malaysia</text><text x="78" y="62" class="sans meta">#3D6B3F · 5.42:1</text></g>
+      <g transform="translate(1585 0)"><path d="M14,14 L62,62 M62,14 L14,62" stroke="#252525" stroke-width="12"/><path d="M14,14 L62,62 M62,14 L14,62" stroke="#774078" stroke-width="7"/><text x="78" y="31" class="sans country">Philippines</text><text x="78" y="62" class="sans meta">#774078 · 6.56:1</text></g>
+    </g>
+
+    <line x1="40" y1="255" x2="1900" y2="255" class="rule"/>
+    <g transform="translate(40 295)">
+      <text x="0" y="0" class="sans test-head">GRAYSCALE + MARKER CHECK</text>
+      <g class="grayscale" transform="translate(0 28)">
+        <circle cx="35" cy="35" r="24" fill="#8A3C4A" class="key"/><rect x="92" y="11" width="48" height="48" fill="#23646A" class="key"/><path d="M195,8 L223,60 L167,60 Z" fill="#8B611A" class="key"/><path d="M285,5 L315,35 L285,65 L255,35 Z" fill="#3D5192" class="key"/><path d="M350,17 L373,4 L396,17 L396,53 L373,66 L350,53 Z" fill="#3D6B3F" class="key"/><path d="M445,11 L493,59 M493,11 L445,59" stroke="#774078" stroke-width="9"/>
+      </g>
+      <text x="540" y="54" class="sans test">PASS at information level: six shapes and direct labels carry identity when hues collapse.</text>
+      <text x="540" y="86" class="sans test">Region appears through explicit AFRICA / ASIA navigation, avoiding hue-only regional inference.</text>
+
+      <text x="0" y="145" class="sans test-head">TEST RECORD</text>
+      <text x="0" y="184" class="sans test">Contrast: PASS. All six essential mark colours exceed 4.7:1 against the warm paper.</text>
+      <text x="0" y="219" class="sans test">Colour-blind stress: PASS structurally. Country identity does not depend on regional colour families.</text>
+      <text x="0" y="254" class="sans test">A4: PASS for marks and labels. Classroom: PASS in digital simulation, human back-row test pending.</text>
+      <text x="0" y="289" class="sans test">Print: digital check only. Region bands must remain labelled if the country colours are used out of context.</text>
+      <text x="0" y="340" class="sans micro">Trade-off: strongest anti-stereotype logic, weakest at-a-glance regional grouping without navigation labels.</text>
+    </g>
+  </g>
+
+  <g transform="translate(100 2835)">
+    <text x="0" y="0" class="sans test-head">SHARED TEST LIMIT</text>
+    <text x="0" y="38" class="sans test">Digital contrast and grayscale checks do not replace physical A4 proofing, a human colour-vision review, or a classroom back-row test.</text>
+    <text x="0" y="76" class="sans test">Select, combine, or reject candidates in DESIGN_SHOWROOM.md. VIS-001 remains unchanged and Candidate A remains provisional.</text>
+  </g>
+</svg>
