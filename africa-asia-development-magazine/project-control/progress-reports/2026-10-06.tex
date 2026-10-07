@@ -1,0 +1,229 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=15mm,top=17mm,bottom=16mm]{geometry}
+\usepackage[scaled=0.95]{helvet}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{lastpage}
+\usepackage{ragged2e}
+
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{ink}{HTML}{252525}
+\definecolor{cream}{HTML}{F4F0E7}
+\definecolor{terracotta}{HTML}{B95332}
+\definecolor{ochre}{HTML}{D6A23A}
+\definecolor{forest}{HTML}{3F684E}
+\definecolor{blue}{HTML}{315A78}
+\definecolor{jade}{HTML}{3E7568}
+\definecolor{muted}{HTML}{6E6A64}
+\definecolor{rule}{HTML}{D7D0C4}
+
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,pdfauthor={Africa--Asia Development Magazine Team},pdftitle={Project Progress Report -- 6 October 2026}}
+\color{ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist[itemize]{leftmargin=4.5mm,itemsep=1.5pt,topsep=2pt}
+\setlist[enumerate]{leftmargin=5.5mm,itemsep=2pt,topsep=2pt}
+\renewcommand{\arraystretch}{1.23}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{muted}AFRICA--ASIA DEVELOPMENT MAGAZINE}
+\fancyhead[R]{\footnotesize\color{muted}PROGRESS REPORT · 6 OCTOBER 2026}
+\fancyfoot[L]{\footnotesize\color{muted}Controller-verified repository snapshot}
+\fancyfoot[R]{\footnotesize\color{muted}\thepage\ / \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\titleformat{\section}{\Large\bfseries\color{ink}}{}{0pt}{}[\vspace{1pt}\color{rule}\titlerule]
+\titleformat{\subsection}{\large\bfseries\color{blue}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{8pt}{3pt}
+\newcommand{\status}[2]{\textcolor{#1}{\bfseries #2}}
+\newcommand{\pathcode}[1]{\href{run:#1}{\nolinkurl{#1}}}
+\newcommand{\callout}[2]{%
+  \begin{tikzpicture}
+    \node[fill=#1!10,draw=#1!45,rounded corners=2pt,inner sep=7pt,text width=0.94\linewidth,align=left] {#2};
+  \end{tikzpicture}}
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[cream] (current page.north west) rectangle ([yshift=-77mm]current page.north east);
+  \fill[terracotta] (current page.north west) rectangle ([xshift=10mm,yshift=-77mm]current page.north west);
+  \fill[blue] ([xshift=10mm]current page.north west) rectangle ([xshift=17mm,yshift=-77mm]current page.north west);
+\end{tikzpicture}
+\vspace*{14mm}
+{\fontsize{11}{13}\selectfont\bfseries\color{terracotta} PROJECT PROGRESS REPORT}\par
+\vspace{4mm}
+{\fontsize{29}{32}\selectfont\bfseries Africa--Asia\par Development Magazine}\par
+\vspace{5mm}
+{\large\color{muted}Controller-verified repository snapshot · 6 October 2026}\par
+\vspace{15mm}
+
+\begin{minipage}[t]{0.31\linewidth}
+{\fontsize{25}{27}\selectfont\bfseries\color{terracotta}38\%}\par
+{\small controller-approved completion}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.31\linewidth}
+{\fontsize{18}{21}\selectfont\bfseries\color{blue}Phases 1--2}\par
+{\small evidence foundations and comparison harmonisation}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.31\linewidth}
+{\fontsize{18}{21}\selectfont\bfseries\color{terracotta}Not ready}\par
+{\small no final report or publication-ready figures}
+\end{minipage}
+
+\section{1. Overall status}
+
+The six country evidence files now exist and have passed their bounded controller checks. The project has reached the transition from country research to comparison harmonisation and thematic research. Data have not yet been frozen into a common master dataset, thematic evidence remains incomplete, and no final chart or magazine page has been approved.
+
+\begin{itemize}
+  \item \textbf{Latest controller reconciliation:} 5 October 2026 (\texttt{CTRL-007}).
+  \item \textbf{Current phase:} Phases 1--2 in progress; Phase 3 thematic research ready to begin.
+  \item \textbf{Final report ready:} No.
+  \item \textbf{Work after reconciliation:} No newer specialist log or unreconciled deliverable was found.
+\end{itemize}
+
+\callout{ochre}{\textbf{How to read “done.”} A completed country task means its assigned evidence file passed controller review. It does not mean every observation is suitable for a six-country graph or final publication.}
+
+\clearpage
+\section{2. Completed work}
+
+\small
+\begin{tabularx}{\textwidth}{>{\bfseries}p{17mm} >{\RaggedRight\arraybackslash}p{48mm} >{\RaggedRight\arraybackslash}p{44mm} X}
+\toprule
+Task & Delivered & Main location & Remaining limitation \\
+\midrule
+CTRL-001 & Project controls, roadmap, checklist, task board, standards, and logs & \pathcode{../STATUS.md} & Controls are operational; most production phases remain incomplete. \\
+SRC-001 & Ghana/Korea source audit; 17 source records and 89 claim records & \pathcode{../../research/ghana_korea_source_audit.md} & Only Ghana and Korea are in the shared registries; dynamic datasets still require freezing. \\
+DATA-001 & Ghana and Korea evidence repaired; unsupported claims removed, qualified, or retained as gaps & \pathcode{../../data/ghana.md}; \pathcode{../../data/south_korea.md} & Matched exports and several historical literacy, employment, and productivity observations remain unresolved. \\
+DATA-002 & Botswana evidence file & \pathcode{../../data/botswana.md} & Historical anchors, near-2020 literacy, informality, trust, and matched trade classifications remain incomplete. \\
+DATA-003 & Mauritius evidence file & \pathcode{../../data/mauritius.md} & Several 1960 anchors, matched 1990 exports, informality, trust, and service-export evidence remain incomplete. \\
+DATA-004 & Malaysia evidence file & \pathcode{../../data/malaysia.md} & Territorial, historical electricity, proxy, and export-classification issues require harmonisation. \\
+DATA-005 & Philippines evidence file & \pathcode{../../data/philippines.md} & Manufacturing vintages, export classifications, missing anchors, and informality measures require review. \\
+\bottomrule
+\end{tabularx}
+\normalsize
+
+\section{3. Current task queue}
+
+\subsection{Ready}
+
+\begin{itemize}
+  \item \textbf{VIS-001} --- define the fixed six-country comparison system and build one verified Ghana--South Korea GDP proof chart.
+  \item \textbf{DATA-006} --- complete the six-country comparability review and freeze approved chart inputs.
+  \item \textbf{SRC-002} --- integrate Botswana, Mauritius, Malaysia, and the Philippines into the shared source and claim registries.
+  \item \textbf{RES-001} --- build the colonialism, borders, infrastructure, and independence evidence pack.
+  \item \textbf{RES-002} --- verify Hofstede, its critiques, and trust literature.
+\end{itemize}
+
+\subsection{In progress and review}
+
+No task is recorded as \texttt{IN PROGRESS} or \texttt{REVIEW}. No newer specialist handoff awaits controller inspection.
+
+\subsection{Blocked}
+
+\begin{itemize}
+  \item \textbf{THEORY-001} --- blocked until DATA-006, RES-001, and RES-002 pass review.
+  \item \textbf{DESIGN-001} --- blocked until the comparison system and page-evidence priorities are approved.
+  \item \textbf{WRITE-001} --- blocked until its evidence and figure dependencies are approved.
+\end{itemize}
+
+\section{4. Visual progress}
+
+\begin{tabularx}{\textwidth}{>{\RaggedRight\arraybackslash}X >{\bfseries\RaggedRight\arraybackslash}p{32mm} >{\RaggedRight\arraybackslash}p{78mm}}
+\toprule
+Area & Status & Evidence \\
+\midrule
+Controller-approved publication graphs & 0 & No verified figure package exists. \\
+Completed final magazine spreads & 0 & Two HTML spread prototypes exist, but neither is final. \\
+Publication-ready exports & 0 & The \texttt{final/} folder contains only its README. \\
+Six-country colour and marker system & Missing & A regional palette exists, but fixed country colours and non-colour markers do not. \\
+Typography & Missing & Final typefaces and hierarchy have not been selected or tested. \\
+Page-rhythm map & Missing & No approved 45-page visual-variety plan exists. \\
+A4 print legibility & Not passed & Prototype chart/source text is frequently 6.5--10 px. \\
+Accessibility and contrast & Not passed & Requirements exist; no final visual has completed testing. \\
+Independent five-second test & Not passed & No qualifying independent result is recorded. \\
+\bottomrule
+\end{tabularx}
+
+\subsection{Prototype trail}
+
+\begin{itemize}
+  \item Ghana prototype: \pathcode{../../design/ghana_spread_draft.html}
+  \item South Korea prototype: \pathcode{../../design/south_korea_spread_draft.html}
+  \item Design guide: \pathcode{../../design/DESIGN_GUIDE.md}
+  \item Rough 45-page storyboard: \pathcode{../../drafts/Africa_Asia_Magazine_Rough_Structure.pdf}
+\end{itemize}
+
+The prototypes require formal data packages, complete APA figure notes, accessibility work, matched-scale validation, and print review. The old GDP panels use different vertical scales despite “same axis” wording, and the Ghana prototype visibly labels export data as a placeholder.
+
+\subsection{Still missing}
+
+All planned final figures remain missing: the three anchor-year dashboards; Ghana--Korea trajectories; six-country small multiples; employment, manufacturing, and export comparisons; matched timelines; colonial railway and border visuals; and both theory visuals. The directories \texttt{design/figures/} and \texttt{data/charts/} do not yet exist.
+
+\section{5. Research and APA progress}
+
+\subsection{Country evidence}
+
+All six bounded country evidence tasks are controller-approved: Ghana, South Korea, Botswana, Mauritius, Malaysia, and the Philippines. Each file addresses the required evidence categories and exposes proxy years, unavailable observations, and inference limits rather than silently filling gaps.
+
+\subsection{Registry and bibliography coverage}
+
+\begin{itemize}
+  \item Shared registry coverage: Ghana and South Korea only.
+  \item Registered sources: 17; registered claims: 89.
+  \item Botswana, Mauritius, Malaysia, and the Philippines are not yet integrated into the shared registries.
+  \item Full bibliography, independent citation audit, image-rights register, and map-source register are missing.
+\end{itemize}
+
+\subsection{Comparability and data freeze}
+
+The six-country comparison review and frozen master dataset are missing. The directories \texttt{data/master/} and \texttt{research/evidence\_packs/} do not yet exist.
+
+Major unresolved issues include mixed WDI/WGI release vintages; incompatible export classifications; Philippines national-account manufacturing vintages; missing 1960 anchors; inconsistent informality and firm-size definitions; governance measures that cannot substitute for direct trust; historical literacy and electricity definition gaps; the pandemic-distorted 2020 endpoint; and missing thematic evidence on colonialism, industrialisation, Hofstede, and trust.
+
+\section{6. Changes in the latest controller run}
+
+Compared with the preceding controller position, \texttt{CTRL-007}:
+
+\begin{itemize}
+  \item accepted DATA-001, DATA-004, and DATA-005 as done;
+  \item confirmed all six country evidence files now pass their bounded checks;
+  \item raised controller-approved progress from 32\% to 38\%;
+  \item changed several evidence categories from missing to meaningful-but-incomplete;
+  \item confirmed support/challenge/cannot-prove conclusions across all six cases;
+  \item identified harmonisation and four-country registry coverage as the next bottlenecks; and
+  \item set VIS-001, DATA-006, SRC-002, and RES-001 as the next batch.
+\end{itemize}
+
+No additional accepted, returned, or review-stage work appeared after that reconciliation.
+
+\section{7. Next three actions}
+
+\begin{enumerate}
+  \item \textbf{Complete VIS-001.} Establish stable country colours and markers and build the verified Ghana--South Korea GDP proof chart.
+  \item \textbf{Complete DATA-006.} Classify observations as directly comparable, caveated, narrative-only, or excluded, then freeze the approved inputs.
+  \item \textbf{Complete SRC-002.} Register and audit the four newer countries' sources and claims.
+\end{enumerate}
+
+RES-001 is the fourth ready assignment and can run alongside these when capacity permits.
+
+\section{8. Plain-language presentation summary}
+
+\callout{jade}{\textbf{What the team has achieved.} Controller-approved evidence files now exist for all six countries, and Ghana and South Korea have a traceable source-and-claim system.\\[3pt]
+\textbf{Where the project stands.} The project is 38\% complete and is moving from country research into comparison harmonisation and thematic research.\\[3pt]
+\textbf{What happens next.} The team must freeze comparable data, extend the source registries, create the first verified comparison chart, and build the historical evidence pack.\\[3pt]
+\textbf{Main risk.} Existing evidence uses different definitions, years, releases, and classifications. Until these are reconciled, much of the research cannot safely become comparative graphs, theory conclusions, or final magazine pages.}
+
+\vfill
+{\footnotesize\color{muted}
+Prepared from the repository state on 6 October 2026. Governing sources: \nolinkurl{project-control/REPORT_CHECKLIST.md}, \nolinkurl{project-control/STATUS.md}, \nolinkurl{project-control/ROADMAP.md}, specialist logs, and inspected deliverables. This report does not change task states.}
+
+\end{document}

@@ -23,6 +23,8 @@ Completion gate: a new agent can see what is done, missing, active, and blocked 
 
 Completion gate: every Ghana/South Korea headline claim traces to an exact value or passage and a complete APA reference.
 
+Current position: all six country files now have shared-registry coverage, and the core comparison table is frozen. The gate remains open for the 25 newer-country revision-required claims, historical-pack registry/rights work, and project-wide image/map registers.
+
 ## Phase 2 — Complete all six countries
 
 **State: IN PROGRESS**
@@ -33,14 +35,18 @@ Completion gate: every Ghana/South Korea headline claim traces to an exact value
 
 Completion gate: every required country item in the checklist is done or explicitly unavailable with a documented reason.
 
+Current position: the six-country comparability review is accepted. `DATA-007` must now apply the accepted WGI, Malaysia manufacturing, and wording/definition corrections to the four newer country files; excluded and narrative-only families remain visible rather than being forced into charts.
+
 ## Phase 3 — Complete historical, economic, and cultural research
 
-**State: READY**
+**State: IN PROGRESS**
 
 - Produce page-mapped evidence for structural transformation, colonial rule, infrastructure, borders, exports, industrial policy, Hofstede, and trust.
 - Add counterevidence and exceptions.
 
 Completion gate: every planned evidence page has approved claims, APA citations, limitations, and a visual candidate.
+
+Current position: the colonialism/borders/infrastructure/independence evidence pack is accepted. Its map rights and shared-registry integration remain separate work. Hofstede/critique/trust and the focused structural-transformation/East Asia evidence packs are still missing.
 
 ## Phase 4 — Test the three theories
 
@@ -62,6 +68,8 @@ Completion gate: the theory matrix is evidence-backed and does not present origi
 
 Completion gate: all graph items in the report checklist pass independent numeric and visual-comparability checks.
 
+Current position: one Ghana–South Korea GDP proof chart and a candidate six-country identity system exist. They are not final: independent numeric/five-second checks and the required side-by-side palette showroom plus explicit user selection are pending.
+
 ## Phase 6 — Write and assemble the magazine
 
 **State: MISSING**
@@ -72,15 +80,17 @@ Completion gate: all graph items in the report checklist pass independent numeri
 
 Completion gate: each page passes the per-page checklist and no placeholder/build note remains.
 
-## Phase 7 — Build interactions and presentation
+## Phase 7 — Build interactions, AI activity, game, and presentation
 
 **State: MISSING**
 
 - Select and build two useful interactions with static alternatives.
+- Complete and test the research-gated Development Evidence Lab from approved evidence.
+- Define and prototype the companion game without weakening the project's evidence standards.
 - Create the presentation, shared cue sheet, and question preparation.
 - Rehearse every member.
 
-Completion gate: links work, offline versions exist, and any member can present the argument.
+Completion gate: links work, offline versions exist, the AI activity and game pass their evidence/use tests, and any member can present the argument.
 
 ## Phase 8 — Audit and submit
 

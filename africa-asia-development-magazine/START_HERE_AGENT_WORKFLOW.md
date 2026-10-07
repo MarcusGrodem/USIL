@@ -172,64 +172,16 @@ Assign one independent audit area: evidence/APA, data/graphs, editorial/causalit
 
 ## Current prompts to run
 
-The complete current prompts are maintained in `project-control/NEXT_AGENT_PROMPTS.md`. At the time this runbook was created, the next batch was:
+The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPTS.md`; this runbook records the current task IDs so stale full prompts cannot survive here.
 
-1. `SRC-001` — Ghana and South Korea APA/source verification.
-2. `DATA-002` — Botswana country evidence.
-3. `DATA-003` — Mauritius country evidence.
-4. `VIS-001` — comparison system and Ghana–South Korea proof graph.
+**Current batch after the 2026-10-06 controller reconciliation:**
 
-Do not assume this list remains current. The controller must inspect `project-control/STATUS.md` and the task logs before dispatching it again.
+1. `QA-001` — independent audit of the DATA-006 freeze and VIS-001 proof chart.
+2. `RES-002` — Hofstede, critical limitations, and trust evidence pack.
+3. `DATA-007` — accepted SRC-002/DATA-006 repairs to the four newer country files.
+4. `DESIGN-001` — design showroom, palette trials, and draft 45-page rhythm plan for user selection.
 
-### Copy-ready prompt: SRC-001
-
-> You are the **Sources & APA Agent** for the Africa–Asia Development Magazine. Complete **SRC-001: Verify the Ghana and South Korea sources and create claim-linked APA 7 records**.
->
-> Read `AGENTS.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `data/ghana.md`, `data/south_korea.md`, `SOURCES.md`, `research/source_registry.csv`, and `research/claim_registry.csv`.
->
-> You may edit only `research/source_registry.csv`, `research/claim_registry.csv`, `research/ghana_korea_source_audit.md`, and `project-control/logs/SRC-001.md`. Do not edit the country files or `SOURCES.md`; record proposed corrections in the audit.
->
-> Verify every headline claim and numeric cell in the Ghana and South Korea files. Every checked source must have a stable source ID, complete APA 7 entry, matching in-text form, exact indicator/page/table/query locator, source tier, and verification status. Every claim/value must receive a claim ID linked to its source. Open the original source or authoritative dataset. Flag proxies, inaccessible sources, conflicts, missing metadata, and unsupported claims. End the audit with approved, revision-required, unresolved, and rejected lists.
->
-> Write `project-control/logs/SRC-001.md` using the log template and finish with status `REVIEW`. Stop after the audit, registries, and log are complete.
-
-### Copy-ready prompt: DATA-002
-
-> You are the **Country Data Agent** for the Africa–Asia Development Magazine. Complete **DATA-002: Build the Botswana evidence file**.
->
-> Read `AGENTS.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `research/RESEARCH_PLAN.md`, `data/ghana.md`, and `data/south_korea.md`.
->
-> You may edit only `data/botswana.md` and `project-control/logs/DATA-002.md`.
->
-> Create a Botswana file using the same ten-indicator structure as Ghana and South Korea and the locked 1960/1990/2020 years. Cover GDP per capita, labour productivity, employment by sector, manufacturing share, export composition, literacy/education, urbanisation, electricity/infrastructure, firm size/informality where comparable, and institutional/trust measures where credible. Record exact definitions, units, years, values, source locators, confidence, and limitations. Show actual proxy years and never silently interpolate. Explain historical inheritance, diamond dependence, and governance without presenting Botswana as a decorative success story. End with gaps, three to five findings, what the case supports, what it challenges, and what it cannot prove. Include complete APA 7 references and matching citations.
->
-> Write `project-control/logs/DATA-002.md` using the log template and finish with status `REVIEW`. Do not edit shared registries, the checklist, or magazine copy.
-
-### Copy-ready prompt: DATA-003
-
-> You are the **Country Data Agent** for the Africa–Asia Development Magazine. Complete **DATA-003: Build the Mauritius evidence file**.
->
-> Read `AGENTS.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `research/RESEARCH_PLAN.md`, `research/THEORIES.md`, `data/ghana.md`, and `data/south_korea.md`.
->
-> You may edit only `data/mauritius.md` and `project-control/logs/DATA-003.md`.
->
-> Create a Mauritius file using the same ten-indicator structure and locked 1960/1990/2020 years. Cover GDP per capita, labour productivity, employment by sector, manufacturing share, export composition, literacy/education, urbanisation, electricity/infrastructure, firm size/informality where comparable, and institutional/trust measures where credible. Record exact definitions, units, years, values, locators, confidence, and limitations. Show actual proxy years and do not mix incompatible series. Examine the transition from sugar toward export processing, textiles, tourism, finance, and services. Test Radius of Trust and Continuity + Adaptation instead of assuming confirmation. End with gaps, three to five findings, what the case supports, what it challenges, and what it cannot prove. Include complete APA 7 references and matching citations.
->
-> Write `project-control/logs/DATA-003.md` using the log template and finish with status `REVIEW`. Do not edit shared registries, the checklist, or magazine copy.
-
-### Copy-ready prompt: VIS-001
-
-> You are the **Charts & Maps Agent** for the Africa–Asia Development Magazine. Complete **VIS-001: Define the fixed comparison-chart system and build one Ghana–South Korea proof graph**.
->
-> Read `AGENTS.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `design/DESIGN_GUIDE.md`, `design/africa_asia_colour_palette.md`, `data/ghana.md`, and `data/south_korea.md`.
->
-> You may edit only `design/figures/COMPARISON_SYSTEM.md`, `data/charts/ghana_korea_gdp_per_capita.csv`, `design/figures/ghana_korea_gdp_per_capita.svg`, and `project-control/logs/VIS-001.md`.
->
-> Define a reusable six-country chart standard and build an editable SVG comparing Ghana and South Korea GDP per capita in constant 2015 US dollars for 1960, 1990, and 2020. Lock a distinct colour and marker for all six countries. Define when to use paired trajectories, dot/slope charts, small multiples, composition charts, mirrored dashboards, and maps. Use identical axes and exact values from the current country files; show observed anchor points without implying a continuous annual series. Include a message title, factual subtitle, direct labels, endpoint values, unit, years, proxy treatment, a “what this cannot prove” note, and an APA-style data note. Mark citation verification pending if SRC-001 is unfinished. The CSV must contain country, year, value, unit, indicator code, source reference, and notes. The SVG must work at A4 size without relying on colour alone.
->
-> Write `project-control/logs/VIS-001.md` using the log template and finish with status `REVIEW`. Stop after the system, CSV, SVG, and log exist.
-
-When the controller replaces this batch, it must update both this section and `project-control/NEXT_AGENT_PROMPTS.md` so they do not disagree.
+`SRC-003` follows when a slot opens. Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work.
 
 ## How an agent finishes correctly
 

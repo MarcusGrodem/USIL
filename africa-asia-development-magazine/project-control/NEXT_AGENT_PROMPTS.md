@@ -1,71 +1,22 @@
 # Next Agent Prompts
 
-**Last reconciled by the Roadmap Controller:** 2026-10-05
+**Last reconciled by the Roadmap Controller:** 2026-10-06
 
-**Current stage:** All six country evidence files are checked; comparison harmonisation, registry expansion, and thematic research are next.
+**Current stage:** Six-country core data frozen and registered; historical pack accepted; culture, design-showroom, and independent data/chart review next.
 
-**Estimated progress:** 38%
+**Estimated progress:** 45%
 
 **Final report ready:** No
 
-The previous prompts for `SRC-001`, `DATA-002`, and `DATA-003` have been retired because those tasks are `DONE`. The controller also accepted `DATA-001`, `DATA-004`, and `DATA-005` as `DONE` in `CTRL-007`.
+`DATA-006`, `SRC-002`, and `RES-001` passed controller review. `VIS-001` remains `REVIEW`: its chart is a strong candidate, but independent testing is pending and the proposed palette cannot be locked until the required showroom trials are compared and the user chooses a direction.
 
-The four prompts below are the next non-overlapping batch. They may run in parallel because their editable output paths do not overlap. If only three specialist slots are available, start `VIS-001`, `DATA-006`, and `SRC-002` first, then start `RES-001` when a slot opens.
+The four prompts below have non-overlapping write scopes and may run in parallel. If only three specialist slots are available, start `QA-001`, `RES-002`, and `DATA-007`, then run `DESIGN-001` when a slot opens.
 
-After the agents finish, run the prompt in `project-control/ROADMAP_CONTROLLER_AGENT.md` again. Do not mark any specialist task `DONE` before controller review.
+After the batch returns, rerun `project-control/ROADMAP_CONTROLLER_AGENT.md`. Do not mark a specialist task `DONE` before controller review.
 
-## 1. VIS-001 — Comparison system and verified proof graph
+## 1. QA-001 — Independent data-freeze and proof-chart gate
 
-You are the **Charts & Maps Agent** for the Africa–Asia Development Magazine. Complete **VIS-001: Define the fixed comparison-chart system and build one verified Ghana–South Korea GDP proof graph**.
-
-Before working, read:
-
-- `AGENTS.md`
-- `PRODUCT.md`
-- `SCOPE_LOCK.md`
-- `project-control/REPORT_CHECKLIST.md`
-- `project-control/STATUS.md`
-- `project-control/SOURCE_APA_AND_CHART_RULES.md`
-- `design/DESIGN_GUIDE.md`
-- `design/africa_asia_colour_palette.md`
-- `data/ghana.md`
-- `data/south_korea.md`
-- `research/source_registry.csv`
-- `research/claim_registry.csv`
-- `research/ghana_korea_source_audit.md`
-- `project-control/logs/charts_maps.md`
-
-You may create or edit only:
-
-- `design/figures/COMPARISON_SYSTEM.md`
-- `data/charts/ghana_korea_gdp_per_capita.csv`
-- `design/figures/ghana_korea_gdp_per_capita.svg`
-- `project-control/logs/VIS-001.md`
-
-Required deliverable: a reusable six-country chart standard plus one editable, publication-oriented SVG comparing Ghana and South Korea GDP per capita in constant 2015 US dollars for 1960, 1990, and 2020.
-
-Acceptance criteria:
-
-- Lock one distinct colour and one non-colour marker for each of the six countries. Explain the logical role of the colours and keep the mapping stable.
-- Define when to use paired trajectories, dot/slope charts, small multiples, 100% composition charts, mirrored dashboards, and maps.
-- Use only the controller-approved GDP observations in the current Ghana and South Korea files. Record the precise values and source IDs in the CSV.
-- Show only the three observed anchor years. Do not smooth, interpolate, or imply an annual series between them.
-- Use one genuinely shared axis and the same unit, years, geometry, and scale for both countries.
-- Use a finding-led title, factual subtitle, direct labels, visible values, unit, years, and a concise “what this cannot prove” note.
-- Include a complete APA-style figure note linked to the registered World Bank source.
-- The CSV must contain country, year, value, unit, indicator code, source ID, retrieval/release information, and notes.
-- The SVG must remain understandable in grayscale, use colour-independent markers, include accessible `<title>` and `<desc>` elements, and avoid legend hunting.
-- Verify text contrast and legibility at A4 print size. Do not use the tiny 7–10 px source and chart text found in the old HTML prototypes.
-- Record a five-second comprehension check. If no independent reader is available, mark independent testing as pending rather than claiming a pass.
-- Explicitly note that the old Ghana and South Korea HTML charts are prototypes with mismatched axes and are not approved evidence graphics.
-
-Before stopping, write `project-control/logs/VIS-001.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
-
-Stop after the comparison standard, CSV, SVG, and task log are complete. Do not redesign the full magazine, repair the old HTML spreads, or create unassigned charts.
-
-## 2. DATA-006 — Six-country comparability review and data freeze
-
-You are the **Country Data and Comparability Agent** for the Africa–Asia Development Magazine. Complete **DATA-006: Reconcile all six country evidence files and freeze the approved chart inputs**.
+You are the **Quality Assurance Agent** for the Africa–Asia Development Magazine. Complete **QA-001: Independently audit the DATA-006 freeze and VIS-001 proof chart**.
 
 Before working, read:
 
@@ -75,91 +26,44 @@ Before working, read:
 - `project-control/REPORT_CHECKLIST.md`
 - `project-control/STATUS.md`
 - `project-control/SOURCE_APA_AND_CHART_RULES.md`
-- all six files under `data/`: `ghana.md`, `south_korea.md`, `botswana.md`, `mauritius.md`, `malaysia.md`, and `philippines.md`
-- `research/source_registry.csv`
-- `research/claim_registry.csv`
-- `research/ghana_korea_source_audit.md`
-- `project-control/logs/DATA-001.md` through `project-control/logs/DATA-005.md`
-
-You may create or edit only:
-
 - `research/six_country_comparability_review.md`
 - `data/master/six_country_indicator_dictionary.csv`
 - `data/master/six_country_chart_inputs.csv`
-- `project-control/logs/DATA-006.md`
-
-Do not edit the six accepted country files or the shared source and claim registries.
-
-Required deliverable: an auditable decision on which country observations can be compared directly, which require visible proxy/definition warnings, and which must be excluded, together with a frozen chart-input table.
-
-Acceptance criteria:
-
-- Review the required indicators across all six countries: GDP per capita, labour productivity, employment by sector, manufacturing share, export composition, literacy/education, urbanisation, electricity/infrastructure, firm size/informality, and institutional/trust measures.
-- For every indicator, document definition, unit, price/PPP basis, source series, release or retrieval vintage, requested year, actual year, proxy distance, geographic coverage, and known break in method.
-- Use the locked comparison years 1960, 1990, and 2020. Never silently replace an anchor year or interpolate a missing value.
-- Classify every candidate observation as `APPROVED_FOR_DIRECT_COMPARISON`, `APPROVED_WITH_VISIBLE_CAVEAT`, `NARRATIVE_ONLY`, or `EXCLUDED`, with a short reason.
-- Reconcile dynamic WDI/WGI vintages before approving a comparison. Do not mix incompatible WGI releases.
-- Treat differing export classifications, Philippines national-account vintages, informality definitions, firm-size constructs, and direct-trust versus governance measures as explicit comparability decisions.
-- The indicator dictionary must define each approved indicator and its allowable transformations, rounding, missing-value notation, and display unit.
-- The frozen chart table must contain only traceable observations and include country, requested year, actual year, value, unit, indicator code, source locator/ID, comparability class, caveat, release/retrieval date, and verification status.
-- The review must end with: approved chart families; blocked chart families; unresolved gaps; and the exact inputs safe for the next Charts & Maps Agent.
-- Do not force a complete table. Honest blanks and exclusions are required where evidence is incompatible or unavailable.
-
-Before stopping, write `project-control/logs/DATA-006.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
-
-Stop after the review, dictionary, frozen table, and task log exist. Do not create charts, rewrite country research, or edit controller files.
-
-## 3. SRC-002 — Four-country APA and claim-registry integration
-
-You are the **Sources & APA Agent** for the Africa–Asia Development Magazine. Complete **SRC-002: Register and audit the Botswana, Mauritius, Malaysia, and Philippines sources and claims**.
-
-Before working, read:
-
-- `AGENTS.md`
-- `PRODUCT.md`
-- `SCOPE_LOCK.md`
-- `project-control/REPORT_CHECKLIST.md`
-- `project-control/STATUS.md`
-- `project-control/SOURCE_APA_AND_CHART_RULES.md`
-- `data/botswana.md`
-- `data/mauritius.md`
-- `data/malaysia.md`
-- `data/philippines.md`
 - `research/source_registry.csv`
 - `research/claim_registry.csv`
-- `research/ghana_korea_source_audit.md`
-- `project-control/logs/SRC-001.md`
+- `design/figures/COMPARISON_SYSTEM.md`
+- `data/charts/ghana_korea_gdp_per_capita.csv`
+- `design/figures/ghana_korea_gdp_per_capita.svg`
+- `project-control/logs/DATA-006.md`
+- `project-control/logs/VIS-001.md`
+- `project-control/logs/LOG_TEMPLATE.md`
 
 You may create or edit only:
 
-- `research/source_registry.csv`
-- `research/claim_registry.csv`
-- `research/four_country_source_audit.md`
-- `project-control/logs/SRC-002.md`
+- `qa/data_chart_gate_audit.md`
+- `project-control/logs/QA-001.md`
 
-Do not edit any country evidence file. Record corrections and unresolved issues in the audit.
-
-Required deliverable: expand the shared registries so the four newer country files have the same source and claim traceability standard as Ghana and South Korea.
+Required deliverable: one independent pass/fail audit of the frozen chart inputs and Ghana–South Korea proof chart, with exact repair instructions for every failed check.
 
 Acceptance criteria:
 
-- Preserve all valid SRC-001 rows, IDs, fields, and status meanings. Do not rewrite or renumber accepted Ghana/South Korea records.
-- Give every checked source a unique stable source ID, complete APA 7 reference, narrative and parenthetical in-text forms, exact indicator/page/table/query locator, source tier, stable URL/DOI, and verification status.
-- Register every headline finding, numeric anchor, proxy observation, historical claim, and theory-testing claim from the four country files.
-- Link each claim to one or more source IDs and record country, section, year/value where applicable, exact locator, and status.
-- Open the original source or authoritative dataset. A bibliography entry, search result, secondary mirror, or bare URL is not verification.
-- Flag dynamic datasets, conflicting editions, proxy years, inaccessible sources, incomplete APA metadata, weak causal language, and claims not supported by the cited passage.
-- Preserve rejected or unresolved evidence as explicitly classified records; do not silently delete it or invent missing metadata.
-- Validate the final CSVs for unique IDs, consistent column counts, valid source links, and no dangling claim-to-source references.
-- End the audit with separate `APPROVED`, `REVISION_REQUIRED`, `UNRESOLVED`, and `REJECTED` sections plus counts by country.
+- Parse both master CSVs; verify column counts, unique IDs, allowed classes, required fields, country/year coverage, proxy distances, no silent zeroes/interpolation, and dictionary-to-data consistency.
+- Recalculate employment-sector totals, the Ghana–Korea 2020 ratio, displayed rounding, and every plotted SVG coordinate/label from the underlying values.
+- Independently spot-check the common WDI release metadata and all 12 WGI 2020 estimates/confidence bounds against the authoritative sources. Record exact cells/queries and access date.
+- Confirm that no narrative-only or excluded observation appears in the frozen chart table.
+- Inspect the rendered SVG at intended A4 size, grayscale, and classroom-screen scale for clipping, type size, contrast, direct identification, and legend independence.
+- Run and record the five-second questions as a reviewer who did not create the chart. State the tester/reviewer, date, answers, and any ambiguity; do not claim a human test if none occurred.
+- Check the APA figure note and source IDs against the registries.
+- Flag the palette as **candidate only**, because user selection after showroom trials is still required. Do not approve a magazine-wide colour lock.
+- Give each finding a severity (`P0` through `P3`), exact location, evidence, and pass condition; finish with separate verdicts for DATA-006 and the VIS-001 proof chart.
 
-Before stopping, write `project-control/logs/SRC-002.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
+Before stopping, write `project-control/logs/QA-001.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
 
-Stop after the two expanded registries, audit, and task log are complete. Do not write magazine copy, alter country files, or research the historical-theme pages assigned to `RES-001`.
+Stop after the audit and log exist. Do not repair data, SVG, registries, country files, or controller files.
 
-## 4. RES-001 — Colonialism, borders, infrastructure, and independence evidence pack
+## 2. RES-002 — Hofstede, critiques, and trust evidence pack
 
-You are the **History & Theory Agent** for the Africa–Asia Development Magazine. Complete **RES-001: Verify the historical evidence for colonial rule, borders, infrastructure, and independence inheritance**.
+You are the **History & Theory Agent** for the Africa–Asia Development Magazine. Complete **RES-002: Verify Hofstede, critical limitations, and trust literature for the culture section**.
 
 Before working, read:
 
@@ -173,41 +77,141 @@ Before working, read:
 - `research/RESEARCH_PLAN.md`
 - `research/THEORIES.md`
 - all six country evidence files under `data/`
-- `design/INFOGRAPHICS_AND_INTERACTIONS.md`
+- `research/six_country_comparability_review.md`
+- `research/source_registry.csv`
+- `research/claim_registry.csv`
 - `project-control/logs/history_theory.md`
+- `project-control/logs/LOG_TEMPLATE.md`
 
 You may create or edit only:
 
-- `research/evidence_packs/colonialism_borders_infrastructure_independence.md`
-- `project-control/logs/RES-001.md`
+- `research/evidence_packs/hofstede_critique_trust.md`
+- `project-control/logs/RES-002.md`
 
-Required deliverable: a page-mapped historical evidence pack that can support the planned colonial-inheritance section without reducing countries to one colonial explanation.
+Required deliverable: a page-mapped evidence pack that explains all six Hofstede dimensions, evaluates which are relevant to this project, and distinguishes interpersonal, institutional, and governance measures of trust.
 
 Acceptance criteria:
 
-- Cover colonial control, British-rule variation, French-rule variation, other colonial models, railway/infrastructure orientation, partitioned borders, and the institutions/assets/liabilities present at independence.
-- Include evidence relevant to the six locked countries and at least one meaningful exception or counterexample for each broad colonial claim.
-- Distinguish directly documented historical facts, scholarly interpretations, competing explanations, and the group's own theory implications.
-- Map each evidence unit to its likely magazine page or spread and specify the single reader question it answers.
-- Every substantive claim must have a full APA 7 reference and an exact page, chapter, table, figure, archive item, or dataset locator.
-- Proposed maps must state the date represented, geographic boundaries, source, transformation required, and known uncertainty. Do not copy a modern border map as historical evidence.
-- Proposed infrastructure visuals must distinguish construction, ownership, route purpose, and later use; avoid claiming that every colonial railway had one purpose.
-- Identify what the evidence supports, what it challenges, alternative explanations, and what it cannot prove about later development.
-- Propose visually engaging treatments—such as paired maps, annotated routes, archival-document details, or matched timelines—without fabricating assets or using unlicensed images.
-- End with an approved-claim list, unresolved questions, rejected/overstated claims, visual candidates, and complete references.
+- Give an authoritative plain-language definition for all six dimensions: power distance, individualism/collectivism, masculinity/femininity, uncertainty avoidance, long-term orientation, and indulgence/restraint.
+- Include at least two strong academic critiques of country-level cultural scores, including ecological fallacy, within-country variation, measurement/time stability, and causal-overreach issues where supported.
+- For each potentially relevant dimension, state a specific mechanism, observable prediction, supporting evidence, counterargument or counterexample, non-cultural alternative, limitation, and revision/rejection condition.
+- Make an explicit relevance decision for uncertainty avoidance, masculinity/femininity, and indulgence/restraint; do not include a dimension merely to satisfy a list.
+- Distinguish generalized interpersonal trust, trust in named institutions, governance perceptions, network/family trust, and survey-response differences. Do not place incompatible measures on one scale.
+- Use the six locked cases and include both African and Asian variation; no national score may be presented as a fixed personality or causal proof.
+- Map each evidence unit to likely pp. 27–33 and give it one reader question plus one visually engaging treatment.
+- Every substantive claim must have an APA 7 reference and exact page, table, chapter, item, or dataset locator. Record inaccessible, weak, superseded, or rejected evidence.
+- End with approved claims, unresolved questions, rejected/overstated claims, visual candidates, complete references, and a recommendation about which dimensions should enter `THEORY-001`.
 
-Before stopping, write `project-control/logs/RES-001.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
+Before stopping, write `project-control/logs/RES-002.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
 
-Stop after the evidence pack and task log exist. Do not edit the shared registries, build final maps, test Hofstede/trust literature, or write final magazine pages.
+Stop after the evidence pack and log exist. Do not edit shared registries, country files, the theory matrix, magazine copy, or controller files.
+
+## 3. DATA-007 — Apply accepted four-country corrections
+
+You are the **Country Data Repair Agent** for the Africa–Asia Development Magazine. Complete **DATA-007: Apply the accepted SRC-002 and DATA-006 corrections to Botswana, Mauritius, Malaysia, and Philippines evidence files**.
+
+Before working, read:
+
+- `AGENTS.md`
+- `PRODUCT.md`
+- `SCOPE_LOCK.md`
+- `project-control/REPORT_CHECKLIST.md`
+- `project-control/STATUS.md`
+- `project-control/SOURCE_APA_AND_CHART_RULES.md`
+- `data/botswana.md`
+- `data/mauritius.md`
+- `data/malaysia.md`
+- `data/philippines.md`
+- `research/four_country_source_audit.md`
+- `research/six_country_comparability_review.md`
+- `data/master/six_country_indicator_dictionary.csv`
+- `data/master/six_country_chart_inputs.csv`
+- `research/source_registry.csv`
+- `research/claim_registry.csv`
+- `project-control/logs/SRC-002.md`
+- `project-control/logs/DATA-006.md`
+- `project-control/logs/LOG_TEMPLATE.md`
+
+You may create or edit only:
+
+- `data/botswana.md`
+- `data/mauritius.md`
+- `data/malaysia.md`
+- `data/philippines.md`
+- `project-control/logs/DATA-007.md`
+
+Required deliverable: narrowly corrected country evidence files that agree with the accepted source audit and common data freeze without inventing missing evidence.
+
+Acceptance criteria:
+
+- Resolve every `REVISION_REQUIRED` or `REJECTED` SRC-002 claim in the four files by correction, qualified reframing, removal as current evidence, or explicit unresolved/rejected note.
+- Replace the four files' old WGI release/value labels with the common 2026 workbook values and 90% intervals, while stating clearly that WGI is governance, not trust.
+- Correct Malaysia's 2020 manufacturing value to the frozen common-vintage value and preserve full precision in source notes while using sensible display rounding.
+- Preserve actual proxy years, period coverage, incompatible classifications, Philippines national-account breaks, and all explicit missing-data gaps.
+- Do not turn DATA-006 `NARRATIVE_ONLY` or `EXCLUDED` observations into comparable chart evidence.
+- Update in-text citations and APA entries only where the accepted registries/audits provide the needed metadata; do not invent inaccessible source details.
+- Search for and report stale superseded values, wrong-year exports, informal-employment residuals, population claims from unweighted WVS cases, and causal overstatements.
+- End each file with an updated verification record that names SRC-002/DATA-006 and the repair date.
+
+Before stopping, write `project-control/logs/DATA-007.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
+
+Stop after the four narrow repairs and log exist. Do not edit registries, master CSVs, charts, evidence packs, final copy, or controller files.
+
+## 4. DESIGN-001 — Design showroom, palette trials, and rhythm plan
+
+You are the **Editorial & Design Agent** for the Africa–Asia Development Magazine. Complete **DESIGN-001: Create a comparison showroom, palette tests, and draft 45-page rhythm plan for user selection**.
+
+Before working, read:
+
+- `AGENTS.md`
+- `PRODUCT.md`
+- `SCOPE_LOCK.md`
+- `project-control/REPORT_CHECKLIST.md`
+- `project-control/STATUS.md`
+- `project-control/SOURCE_APA_AND_CHART_RULES.md`
+- `design/DESIGN_GUIDE.md`
+- `design/africa_asia_colour_palette.md`
+- `design/figures/COMPARISON_SYSTEM.md`
+- `design/figures/ghana_korea_gdp_per_capita.svg`
+- `data/charts/ghana_korea_gdp_per_capita.csv`
+- `research/six_country_comparability_review.md`
+- `research/evidence_packs/colonialism_borders_infrastructure_independence.md`
+- `content/MAGAZINE_STRUCTURE.md`
+- `project-control/logs/editorial_design.md`
+- `project-control/logs/LOG_TEMPLATE.md`
+
+You may create or edit only:
+
+- `design/showroom/DESIGN_SHOWROOM.md`
+- `design/showroom/palette_trials.svg`
+- `design/showroom/spread_trials.svg`
+- `design/PAGE_RHYTHM_PLAN.md`
+- `project-control/logs/DESIGN-001.md`
+
+Required deliverable: preserved, labelled alternatives that let the user compare materially different visual directions before any magazine-wide system is approved.
+
+Acceptance criteria:
+
+- Create at least three materially different spread treatments using the same representative approved Ghana–South Korea content so the comparison tests design rather than evidence.
+- Label every version with a name and the design question it tests: hierarchy, composition, typography, chart treatment, imagery, or editorial tone.
+- Create at least three palette trials. Keep country/region meanings logical, test non-colour markers, and document contrast, colour-blind robustness, grayscale legibility, A4 reproduction, and classroom-screen visibility.
+- Treat the VIS-001 mapping as one candidate, not a locked answer. Preserve it unchanged as a comparison option and do not overwrite any alternative.
+- Do not fabricate images, maps, claims, citations, or data. Use labelled layout placeholders where an asset is not approved.
+- Produce a draft 45-page rhythm map that alternates chart, map, timeline, archival detail, question, interaction, and concise analysis; no three consecutive spreads may use the same composition or primary visual device.
+- Identify one dominant idea and five-second entry point for each planned spread, while keeping unapproved content visibly gated.
+- End `DESIGN_SHOWROOM.md` with a user-decision form listing each alternative, recommended combinations, and a place to record selected/rejected elements. Do not select on the user's behalf.
+- Keep all output editable as SVG/Markdown and legible at A4 size.
+
+Before stopping, write `project-control/logs/DESIGN-001.md` using `project-control/logs/LOG_TEMPLATE.md`. Mark the task `REVIEW`.
+
+Stop after the four design artefacts and log exist. Do not edit final magazine pages, VIS-001 files, research, data, shared registries, or controller files.
 
 ## After this batch
 
-Run the Roadmap Controller prompt in `project-control/ROADMAP_CONTROLLER_AGENT.md`. The controller must inspect the returned files before changing any checklist item.
+Run the Roadmap Controller again. Expected subsequent order, subject to review:
 
-Expected subsequent order, subject to controller review:
-
-1. `RES-002` — Hofstede, critiques, and trust literature.
-2. Additional chart tasks using only the accepted `DATA-006` freeze.
-3. `THEORY-001` after `DATA-006`, `RES-001`, and `RES-002` pass review.
-4. `DESIGN-001` after the comparison system and page evidence priorities are approved.
-5. `WRITE-001` only after its evidence and figure dependencies are approved.
+1. `SRC-003` — register RES-001 claims and verify map/image rights.
+2. `ECON-001` — structural transformation, East Asian industrialisation, manufactured exports, and within-region variation evidence pack.
+3. `VIS-002` — apply the user's selected palette/design direction and any QA-001 repairs.
+4. `THEORY-001` — only after DATA-007, RES-002, SRC-003, and relevant economic evidence pass review.
+5. `AI-PROMPT-002`, `WRITE-001`, and final game/presentation tasks only after their evidence dependencies are approved.

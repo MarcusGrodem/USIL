@@ -11,9 +11,9 @@ Status key:
 - `[ ]` MISSING — not started or only an idea/placeholder exists
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
-**Last checked:** 2026-10-05
-**Current stage:** Six-country evidence assembled; comparability freeze and thematic research next
-**Estimated total progress:** 38%
+**Last checked:** 2026-10-06
+**Current stage:** Six-country core data frozen and registered; historical pack accepted; culture, design-showroom, and independent data/chart review next
+**Estimated total progress:** 45%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -34,35 +34,35 @@ Status key:
 - [x] Mauritius evidence file — controller-checked; unresolved historical/comparability gaps are explicitly retained.
 - [x] Malaysia evidence file — controller-checked; territorial, proxy, classification, and historical gaps are explicit.
 - [x] Philippines evidence file — controller-checked; vintage, proxy, classification, and historical gaps are explicit.
-- [ ] Six-country comparability review — missing.
-- [ ] Clean master dataset behind all charts — missing.
+- [x] Six-country comparability review — accepted; each candidate family is classified as direct, caveated, narrative-only, or excluded.
+- [-] Clean master dataset behind all charts — 131 approved/caveated core observations are frozen with a 16-row dictionary; thematic/map data and independent audit remain pending.
 
 Each country must include:
 
-- [-] Starting position and historical inheritance — covered in all six evidence files; cross-case historical review pending.
-- [-] GDP per capita with matched definition — country values exist; common retrieval vintage and master-table freeze pending.
-- [-] Labour productivity — covered with explicit gaps/proxies; six-country comparability decision pending.
-- [-] Employment by sector — covered with explicit gaps/proxies; harmonised chart inclusion pending.
-- [-] Manufacturing share — covered; Philippines national-account vintages and other proxy issues require review.
+- [x] Starting position and historical inheritance — country files plus accepted RES-001 cross-case independence inventories; final page production remains later work.
+- [x] GDP per capita with matched definition — common 2026-07-13 WDI release frozen for all six countries at 1960/1990/2020, with Malaysia's territorial caveat.
+- [x] Labour productivity — common 1991 proxy and 2020 panels approved; 1960 explicitly excluded rather than back-cast.
+- [x] Employment by sector — common 1991 proxy and 2020 ILO-modelled panels approved; 1960 explicitly excluded.
+- [x] Manufacturing share — comparable cells and exclusions are frozen; Philippines historical vintages are narrative-only and cannot form a seamless trajectory.
 - [-] Export composition — covered narratively; classifications and several anchors remain unsuitable for one common chart.
-- [-] Literacy/education — covered with explicit gaps/proxies; historical definition matching remains incomplete.
-- [-] Urbanisation — covered; common master-table freeze pending.
-- [-] Electricity/infrastructure — covered with explicit gaps and denominator warnings; common chart inclusion pending.
-- [-] Firm size/informality where comparable — evidence exists, but constructs remain too inconsistent for a six-country comparison.
-- [-] Institutional/trust measure where credible — WGI/direct-trust evidence is distinguished, but releases and constructs require harmonisation.
+- [x] Literacy/education — partial matched panels and incompatible/missing cells are explicitly decided; no false six-country ranking is permitted.
+- [x] Urbanisation — all 18 core observations frozen on one release with definition and territorial caveats.
+- [x] Electricity/infrastructure — 2020 six-country and partial 1990/proxy panels approved; absent/incompatible anchors remain blank.
+- [x] Firm size/informality where comparable — comparability review found no defensible common chart and records the construct requirements needed to unblock one.
+- [x] Institutional/trust measure where credible — 2020 WGI is harmonised from one 2026 workbook with intervals; direct-trust measures are correctly retained as non-comparable narrative evidence.
 - [x] What the case supports, challenges, and cannot prove — present in all six evidence files.
-- [-] APA citations and exact source locators for every value and claim — present within country files; four countries are not yet in the shared registries.
+- [-] APA citations and exact source locators for every value and claim — shared registries now cover all six countries (63 sources, 262 claims), but 25 newer-country claims require revision and 10 remain unresolved.
 
 ## 3. Economic and historical research
 
 - [-] Structural-transformation explanation — planned, but final sourced copy missing.
-- [ ] Colonial control map with date and source — missing.
-- [ ] British-rule evidence page with an exception — missing.
-- [ ] French-rule evidence page with an exception — missing.
-- [ ] Other colonial models evidence — missing.
-- [ ] Colonial railway/infrastructure case with sourced map — missing.
-- [ ] Partitioned-border case with accurate sourced map — missing.
-- [ ] Independence inheritance evidence — missing.
+- [-] Colonial control map with date and source — dated 1914 source and transformation plan identified; rights/geometry check and artwork pending.
+- [-] British-rule evidence page with an exception — accepted evidence unit exists; final page and registry integration pending.
+- [-] French-rule evidence page with an exception — accepted comparative evidence unit exists; final page and registry integration pending.
+- [-] Other colonial models evidence — Korea, Philippines, and sequential Mauritius evidence unit accepted; final page pending.
+- [-] Colonial railway/infrastructure case with sourced map — Ghana case and route specification accepted; geometry rights and artwork pending.
+- [-] Partitioned-border case with accurate sourced map — Ghana–Togo/Dagomba/Ewe case and dated specification accepted; geometry rights and artwork pending.
+- [-] Independence inheritance evidence — six matched inventories accepted; final page pending.
 - [ ] East Asian industrialisation evidence pack — missing.
 - [ ] Manufactured exports versus commodities evidence — missing.
 - [ ] Evidence showing variation within Africa — missing.
@@ -93,11 +93,11 @@ Each theory must contain:
 
 ## 5. Sources and APA 7
 
-- [-] Working source register — Ghana/South Korea audit now has 17 checked APA records; project-wide coverage remains incomplete.
+- [-] Working source register — 63 checked six-country APA records exist; historical pack, final copy, images, and maps still need integration.
 - [ ] Full APA 7 bibliography — missing.
 - [ ] In-text APA citations throughout page copy — missing.
-- [-] Claim-to-source register — 89 Ghana/South Korea claims are registered; other countries and final copy remain uncovered.
-- [-] Dataset citations and query details — recorded within all six country files; shared-registry integration and project-wide data freeze remain missing.
+- [-] Claim-to-source register — 262 six-country claims are registered; RES-001 and final page copy remain uncovered.
+- [-] Dataset citations and query details — six-country core queries and releases are frozen; thematic/map datasets and independent audit remain pending.
 - [ ] Image-credit and rights register — missing.
 - [ ] Map-source register — missing.
 - [ ] Independent citation audit — missing.
@@ -115,7 +115,7 @@ Every final source must have:
 ## 6. Comparable graphs and maps
 
 - [-] Ghana–South Korea spread prototypes — exist but need formal data, APA, accessibility, and print review.
-- [ ] Fixed six-country colour and marker system — missing.
+- [-] Fixed six-country colour and marker system — VIS-001 candidate exists, but showroom/palette tests and explicit user selection are required before lock.
 - [ ] 1960 mirrored baseline dashboard — missing.
 - [ ] 1990 comparison snapshot — missing.
 - [ ] 2020 outcome dashboard — missing.
@@ -175,7 +175,7 @@ Every page must have:
 ## 7A. Visual engagement and editorial energy
 
 - [x] Visual quality is defined as a graded project requirement.
-- [ ] Magazine-wide country colour and marker system approved.
+- [!] Magazine-wide country colour and marker system approved — blocked until DESIGN-001 showroom/palette trials, user selection, and VIS-001 independent review.
 - [ ] Typography hierarchy tested at A4 print size.
 - [ ] Page-rhythm map showing deliberate variation across all 45 pages.
 - [ ] No three consecutive spreads use the same composition or visual device.
@@ -193,6 +193,17 @@ Every page must have:
 - [ ] Static PDF alternative for both — missing.
 - [ ] Phone/QR testing — missing.
 - [ ] Class-survey wording and sample-size warning, if used — missing.
+
+## 8A. Companion AI activity and game
+
+- [x] Research-gated AI activity scaffold — Development Evidence Lab, CEAL method, research-pack template, and acceptance checklist accepted as an interaction design.
+- [!] Final AI research pack and factual activity content — blocked by RES-002, THEORY-001, and relevant citation review.
+- [ ] AI platform, classroom time, and operator selected.
+- [ ] AI activity tested with strong, partial, incorrect, and stereotype-based answers.
+- [ ] Static/offline AI-activity alternative completed.
+- [ ] Companion game format and mechanics selected.
+- [!] Evidence-linked game content — blocked by approved theory synthesis and interaction decision.
+- [ ] Game prototype, rules, evidence notes, and classroom test completed.
 
 ## 9. Presentation
 
@@ -231,9 +242,13 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [x] `DATA-001`: Ghana/South Korea repair accepted; rejected claims removed or visibly retained only as audit notes and unresolved gaps remain explicit.
 - [x] `DATA-004`: Malaysia evidence file accepted with visible territorial, classification, proxy, and historical limitations.
 - [x] `DATA-005`: Philippines evidence file accepted with visible source-vintage, classification, proxy, and historical limitations.
-- [ ] `VIS-001`: Define the fixed comparison-chart system and build one verified Ghana/South Korea GDP proof chart.
-- [ ] `DATA-006`: Complete the six-country comparability review and freeze approved chart inputs.
-- [ ] `SRC-002`: Add Botswana, Mauritius, Malaysia, and Philippines sources/claims to the shared APA registries.
-- [ ] `RES-001`: Build the colonialism, borders, infrastructure, and independence evidence pack.
+- [-] `VIS-001`: Candidate comparison system and Ghana/South Korea GDP proof chart exist; independent audit and user palette decision pending.
+- [x] `DATA-006`: Six-country comparability review and frozen core chart inputs accepted.
+- [x] `SRC-002`: Botswana, Mauritius, Malaysia, and Philippines sources/claims integrated and audited.
+- [x] `RES-001`: Colonialism, borders, infrastructure, and independence evidence pack accepted; final rights/artwork work remains separate.
+- [ ] `QA-001`: Independently audit DATA-006 and VIS-001, including a real five-second test.
+- [ ] `RES-002`: Build the Hofstede, critique, and trust evidence pack.
+- [ ] `DATA-007`: Apply accepted SRC-002/DATA-006 corrections to the four newer country files.
+- [ ] `DESIGN-001`: Build the labelled showroom, palette trials, and draft 45-page rhythm plan for user selection.
 
-Run `RES-002` when a slot opens. Final page writing must wait for the relevant evidence, registry coverage, and figure data to pass review.
+Run `SRC-003` when a slot opens. Final page writing must wait for the relevant evidence, registry coverage, figure data, and visual-system choice to pass review.
