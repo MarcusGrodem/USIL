@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="chart-title chart-desc">
   <title id="chart-title">Near parity in 1960; nearly 17-to-1 by 2020</title>
-  <desc id="chart-desc">A classroom-format shared-axis comparison of Ghana and South Korea GDP per capita in constant 2015 US dollars at three observed years: 1960, 1990, and 2020. Ghana uses terracotta circles and a solid line; South Korea uses blue diamonds and a long-dashed line. Ghana values are 1,101, 856, and 1,970 dollars. South Korea values are 1,038, 9,673, and 33,216 dollars. Straight connectors join observed anchors only and do not estimate annual values. The comparison cannot establish what caused the divergence.</desc>
+  <desc id="chart-desc">A classroom-format shared-axis comparison of Ghana and South Korea GDP per capita in constant 2015 US dollars at three observed years: 1960, 1990, and 2020. Exactly six data marks show the observations: terracotta circles on Ghana's solid line and blue diamonds on South Korea's long-dashed line. Ghana values are 1,101, 856, and 1,970 dollars. South Korea values are 1,038, 9,673, and 33,216 dollars. The near-equal 1960 observations remain at their calculated positions and use separate, non-crossing leaders to marker-free labels. Straight connectors join observed anchors only and do not estimate annual values. The comparison cannot establish what caused the divergence, and 2020 is the COVID-19 year.</desc>
+  <metadata>
+    Chart ID: VIS-002-GDP-16X9, repaired under VIS-003.
+    Approved observations: Ghana 1960=1100.76305218242, 1990=855.85250708181, 2020=1970.19411460398; South Korea 1960=1037.72899231615, 1990=9672.57845182894, 2020=33215.9298928108.
+    Geometry: x(1960)=280, x(1990)=650, x(2020)=1020; y=490-(value/35000*300); shared domain 0 to 35000 constant 2015 US dollars.
+    Source: SRC-WDI-001; World Bank (2026), World Development Indicators; indicator NY.GDP.PCAP.KD; WDI API v2 source 2; retrieved 2026-10-04; https://databank.worldbank.org/source/world-development-indicators.
+    Frozen data: data/charts/ghana_korea_gdp_per_capita.csv.
+  </metadata>
 
   <defs>
     <style><![CDATA[
@@ -66,39 +73,42 @@
 
     <g id="ghana-series" aria-label="Ghana: 1,101 in 1960; 856 in 1990; 1,970 in 2020">
       <path d="M280,480.5649 L650,482.6641 L1020,473.1126" fill="none" stroke="#B95332" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-      <use href="#ghana-circle" xlink:href="#ghana-circle" x="264" y="464.5649" width="32" height="32"/>
-      <use href="#ghana-circle" xlink:href="#ghana-circle" x="634" y="466.6641" width="32" height="32"/>
-      <use href="#ghana-circle" xlink:href="#ghana-circle" x="1004" y="457.1126" width="32" height="32"/>
     </g>
 
     <g id="korea-series" aria-label="South Korea: 1,038 in 1960; 9,673 in 1990; 33,216 in 2020">
       <path d="M280,481.1052 L650,407.0922 L1020,205.2920" fill="none" stroke="#315A78" stroke-width="7" stroke-dasharray="24 15" stroke-linecap="butt" stroke-linejoin="round"/>
+    </g>
+
+    <g id="observation-marks" aria-label="Six observed coordinates, one marker per country and year">
       <use href="#korea-diamond" xlink:href="#korea-diamond" x="262" y="463.1052" width="36" height="36"/>
       <use href="#korea-diamond" xlink:href="#korea-diamond" x="632" y="389.0922" width="36" height="36"/>
       <use href="#korea-diamond" xlink:href="#korea-diamond" x="1002" y="187.2920" width="36" height="36"/>
+      <use href="#ghana-circle" xlink:href="#ghana-circle" x="268" y="468.5649" width="24" height="24"/>
+      <use href="#ghana-circle" xlink:href="#ghana-circle" x="638" y="470.6641" width="24" height="24"/>
+      <use href="#ghana-circle" xlink:href="#ghana-circle" x="1008" y="461.1126" width="24" height="24"/>
     </g>
 
     <g id="value-labels">
-      <path d="M270,470 L245,450 L190,450" class="leader"/>
-      <use href="#ghana-circle" xlink:href="#ghana-circle" x="174" y="434" width="32" height="32"/>
-      <text x="214" y="457" class="text value">$1,101</text>
+      <path d="M270,474 L250,456 L240,456" class="leader"/>
+      <text x="176" y="430" class="text note-head">Ghana</text>
+      <text x="176" y="455" class="text value">$1,101</text>
 
-      <path d="M290,470 L320,430 L355,430" class="leader"/>
-      <use href="#korea-diamond" xlink:href="#korea-diamond" x="340" y="414" width="32" height="32"/>
-      <text x="380" y="437" class="text value">$1,038</text>
+      <path d="M290,472 L320,442 L330,442" class="leader"/>
+      <text x="340" y="421" class="text note-head">South Korea</text>
+      <text x="340" y="446" class="text value">$1,038</text>
 
+      <path d="M650,399 L650,389" class="leader"/>
       <text x="650" y="382" text-anchor="middle" class="text value">$9,673</text>
+      <path d="M650,474 L650,466" class="leader"/>
       <text x="650" y="460" text-anchor="middle" class="text value">$856</text>
 
-      <path d="M1020,205.292 L1050,205.292" class="leader"/>
-      <use href="#korea-diamond" xlink:href="#korea-diamond" x="1046" y="187" width="36" height="36"/>
-      <text x="1090" y="206" class="text country">South Korea</text>
-      <text x="1090" y="232" class="text value">$33,216</text>
+      <path d="M1037,205.292 L1050,205.292" class="leader"/>
+      <text x="1062" y="206" class="text country">South Korea</text>
+      <text x="1062" y="232" class="text value">$33,216</text>
 
-      <path d="M1020,473.1126 L1050,473.1126" class="leader"/>
-      <use href="#ghana-circle" xlink:href="#ghana-circle" x="1048" y="457" width="32" height="32"/>
-      <text x="1090" y="474" class="text country">Ghana</text>
-      <text x="1090" y="500" class="text value">$1,970</text>
+      <path d="M1032,473.1126 L1050,473.1126" class="leader"/>
+      <text x="1062" y="474" class="text country">Ghana</text>
+      <text x="1062" y="500" class="text value">$1,970</text>
     </g>
   </g>
 
@@ -114,13 +124,12 @@
     <text x="650" y="639" class="text note">2020 is the COVID-19 year.</text>
   </g>
 
-  <line x1="64" y1="650" x2="1216" y2="650" stroke="#514E48" stroke-width="2"/>
+  <line x1="64" y1="648" x2="1216" y2="648" stroke="#514E48" stroke-width="2"/>
   <g id="figure-note">
-    <text x="64" y="670" class="text note"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. Data from <tspan font-style="italic">World Development Indicators</tspan>, NY.GDP.PCAP.KD, World Bank (2026).</text>
+    <text x="64" y="670" class="text note"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. Data from <tspan font-style="italic">World Development Indicators</tspan> (NY.GDP.PCAP.KD), World Bank (2026).</text>
     <a href="https://databank.worldbank.org/source/world-development-indicators" xlink:href="https://databank.worldbank.org/source/world-development-indicators" target="_blank">
-      <text x="64" y="692" class="text note" text-decoration="underline">databank.worldbank.org/source/world-development-indicators</text>
+      <text x="64" y="694" class="text note" text-decoration="underline">WDI DataBank</text>
     </a>
-    <text x="625" y="692" class="text note">Retrieved 2026-10-04 · SRC-WDI-001</text>
-    <text x="64" y="712" class="text note">Frozen CSV: data/charts/ghana_korea_gdp_per_capita.csv</text>
+    <text x="190" y="694" class="text note">· SRC-WDI-001 · Retrieved 2026-10-04 · Frozen CSV: data/charts/ghana_korea_gdp_per_capita.csv</text>
   </g>
 </svg>

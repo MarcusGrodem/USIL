@@ -12,8 +12,8 @@ Status key:
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
 **Last checked:** 2026-10-08
-**Current stage:** Historical claims/rights accepted; thematic registry integration and projection-proof cleanup next
-**Estimated total progress:** 59%
+**Current stage:** Thematic registry integrated and projection proof repaired; theory synthesis unblocked
+**Estimated total progress:** 62%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -51,7 +51,7 @@ Each country must include:
 - [x] Firm size/informality where comparable — comparability review found no defensible common chart and records the construct requirements needed to unblock one.
 - [x] Institutional/trust measure where credible — 2020 WGI is harmonised from one 2026 workbook with intervals; direct-trust measures are correctly retained as non-comparable narrative evidence.
 - [x] What the case supports, challenges, and cannot prove — present in all six evidence files.
-- [-] APA citations and exact source locators for every value and claim — shared registries now contain 75 sources and 274 claims, including all 12 approved RES-001 claims with zero dangling links; RES-002/ECON-001 integration, registry-status reconciliation, and unresolved country claims remain.
+- [-] APA citations and exact source locators for every value and claim — shared registries now contain 85 sources and 292 claims after SRC-004, with all 18 approved RES-002/ECON-001 claims registered at their bounded wording and zero dangling links; final page copy citations and remaining `PARTIAL` sources (Brewer and Venaik, Rodrik NBER abstract, Hillbom, two PSA rows) still require strengthening before publication-facing attribution.
 
 ## 3. Economic and historical research
 
@@ -77,10 +77,10 @@ Each country must include:
 - [x] Power-distance evidence and counterargument — accepted only as a conditional voice/feedback mechanism requiring direct institutional evidence.
 - [x] Long-term-orientation evidence and counterargument — accepted only as a provisional investment/learning question requiring direct policy evidence.
 - [x] Relevance review for uncertainty avoidance, masculinity/femininity, and indulgence/restraint — all three are excluded from THEORY-001 on current evidence, with reopening conditions recorded.
-- [-] Connected Development evidence test — required country, historical, and economic inputs now exist; the final six-case test remains to be written after RES-002/ECON-001 registry review.
-- [-] Radius of Trust evidence test — RES-002 supplies a revised mechanism using generalized trust, institutions, or organisational substitutes; final six-case test remains to be written.
-- [-] Continuity + Adaptation evidence test — required country, policy, historical, and economic inputs now exist; the final six-case test remains to be written.
-- [!] Final theory matrix — blocked by all three theory tests.
+- [-] Connected Development evidence test — all required inputs are now in the shared registries; THEORY-001 is unblocked and will write the final six-case test.
+- [-] Radius of Trust evidence test — RES-002 supplies the revised mechanism using generalized trust, institutions, or organisational substitutes; registry integration is complete and the final six-case test is unblocked.
+- [-] Continuity + Adaptation evidence test — country, policy, historical, and economic inputs are all registered; THEORY-001 is unblocked and will write the final six-case test.
+- [-] Final theory matrix — all three theory tests are unblocked; THEORY-001 is `READY` and must respect the registered bounded wording and all partial-access, construct, timing, proxy, classification, pandemic-year, and causal limitations.
 
 Each theory must contain:
 
@@ -93,10 +93,10 @@ Each theory must contain:
 
 ## 5. Sources and APA 7
 
-- [-] Working source register — 75 source records now include the six-country core and RES-001 historical pack; RES-002/ECON-001, final copy, and later assets still need integration.
+- [-] Working source register — 85 source records now cover the six-country core, RES-001 historical pack, and RES-002/ECON-001 thematic pack; final page copy and later image/map assets still need integration.
 - [ ] Full APA 7 bibliography — missing.
 - [ ] In-text APA citations throughout page copy — missing.
-- [-] Claim-to-source register — 274 claims are registered, including RES-001 A1–A12; RES-002/ECON-001 and final page copy remain uncovered.
+- [-] Claim-to-source register — 292 claims are registered, including all 18 approved RES-002/ECON-001 claims (`RES002-A01`–`A11` and `ECON001-A01`–`A07`) with 45 new source links to 22 unique source IDs; final page copy still remains uncovered.
 - [-] Dataset citations and query details — the core WDI/WGI/WDR package now passes exact source-ID joins and locator checks; thematic and map datasets remain pending.
 - [-] Image-credit and rights register — a six-row historical asset register exists, but no final country photographs are selected or cleared.
 - [-] Map-source register — six historical map/geometry routes are registered with use decisions; final artworks and later maps remain pending.
@@ -115,7 +115,7 @@ Every final source must have:
 ## 6. Comparable graphs and maps
 
 - [-] Ghana–South Korea spread prototypes — three materially different treatments were reviewed and Evidence Ledger was selected; production specification, human classroom check, and final spread production remain.
-- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents; projection-label cleanup plus physical/human testing remain before release.
+- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents; VIS-003 cleaned the projection proof's observation marks, 1960 labels, and source band; named physical A4, human classroom/back-row, colour-vision, and final-typography tests remain before release.
 - [ ] 1960 mirrored baseline dashboard — missing.
 - [ ] 1990 comparison snapshot — missing.
 - [ ] 2020 outcome dashboard — missing.
@@ -175,7 +175,7 @@ Every page must have:
 ## 7A. Visual engagement and editorial energy
 
 - [x] Visual quality is defined as a graded project requirement.
-- [-] Magazine-wide country colour and marker system approved — showroom selection and VIS-002 specification are complete; VIS-003 cleanup plus physical/human testing remain.
+- [-] Magazine-wide country colour and marker system approved — showroom selection, VIS-002 specification, and the VIS-003 projection-proof repair are complete; named physical A4, human classroom/back-row, colour-vision, and final-typography tests remain.
 - [ ] Typography hierarchy tested at A4 print size.
 - [x] Page-rhythm map showing deliberate variation across the approximately 25-page plan.
 - [x] No three consecutive spreads use the same composition or visual device in the accepted rhythm plan.
@@ -253,6 +253,8 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [x] `ECON-001`: Structural-transformation, East Asian industrialisation, exports, and within-region variation evidence pack accepted.
 - [x] `DESIGN-001`: Three spread directions, three palette trials, a 25-page rhythm plan, and the user's selected Spread A/Palette A direction are recorded.
 - [x] `SRC-003`: All 12 RES-001 claims and six historical visual-rights/geometry routes are registered and controller-accepted.
-- [-] `VIS-002`: Selected-system specification and technically correct projection proof delivered; duplicate annotation markers/source-band density require VIS-003.
+- [-] `VIS-002`: Selected-system specification and technically correct projection proof delivered; VIS-003 closed the duplicate-marker and source-band defects.
+- [x] `SRC-004`: All 18 approved RES-002/ECON-001 claims and 10 new sources registered with 45 new links to 22 unique source IDs; 85 unique sources and 292 unique claims with zero dangling links.
+- [x] `VIS-003`: Projection proof repaired to exactly six observation marks matching the frozen CSV, marker-free 1960 labels with non-crossing leaders, and a decompressed source band inside the 720 px canvas.
 
-Next: run `SRC-004` for RES-002/ECON-001 registry integration and `VIS-003` for the narrow projection-proof repair. `THEORY-001` remains blocked until SRC-004 passes controller review. Final page writing must still wait for approved theory synthesis, figure packages, and page-level citation/rights checks.
+Next: run `THEORY-001` to write the three-theory evidence matrix using only the registered bounded claims. Human classroom/back-row, physical A4, colour-vision, and final-typography tests remain release gates for the proof chart and must be scheduled under a named reviewer. Final page writing must still wait for approved theory synthesis, figure packages, and page-level citation/rights checks.
