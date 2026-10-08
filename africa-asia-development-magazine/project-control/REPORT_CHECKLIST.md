@@ -12,8 +12,8 @@ Status key:
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
 **Last checked:** 2026-10-07
-**Current stage:** Country-file repair and culture pack accepted; proof chart passed QA; core-data repair, economic evidence, rights registration, and design showroom next
-**Estimated total progress:** 49%
+**Current stage:** Core data, economic research, and design showroom accepted; historical registry/rights integration and selected-system production next
+**Estimated total progress:** 56%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -35,7 +35,7 @@ Status key:
 - [x] Malaysia evidence file — controller-checked; territorial, proxy, classification, and historical gaps are explicit.
 - [x] Philippines evidence file — controller-checked; vintage, proxy, classification, and historical gaps are explicit.
 - [x] Six-country comparability review — accepted; each candidate family is classified as direct, caveated, narrative-only, or excluded.
-- [-] Clean master dataset behind all charts — all 131 values/coverage decisions passed numeric QA, but source IDs, 36 unit strings, and the employment display-rounding rule must pass DATA-008 before the core freeze is gate-approved; thematic/map data also remain pending.
+- [-] Clean master dataset behind all charts — the 131-row core freeze now passes source-registry joins, canonical-unit checks, proxy/class checks, and deterministic employment display rounding; thematic/map data remain pending.
 
 Each country must include:
 
@@ -55,7 +55,7 @@ Each country must include:
 
 ## 3. Economic and historical research
 
-- [-] Structural-transformation explanation — planned, but final sourced copy missing.
+- [-] Structural-transformation explanation — accepted page-mapped evidence pack exists; final magazine copy remains missing.
 - [-] Colonial control map with date and source — dated 1914 source and transformation plan identified; rights/geometry check and artwork pending.
 - [-] British-rule evidence page with an exception — accepted evidence unit exists; final page and registry integration pending.
 - [-] French-rule evidence page with an exception — accepted comparative evidence unit exists; final page and registry integration pending.
@@ -63,10 +63,10 @@ Each country must include:
 - [-] Colonial railway/infrastructure case with sourced map — Ghana case and route specification accepted; geometry rights and artwork pending.
 - [-] Partitioned-border case with accurate sourced map — Ghana–Togo/Dagomba/Ewe case and dated specification accepted; geometry rights and artwork pending.
 - [-] Independence inheritance evidence — six matched inventories accepted; final page pending.
-- [ ] East Asian industrialisation evidence pack — missing.
-- [ ] Manufactured exports versus commodities evidence — missing.
-- [ ] Evidence showing variation within Africa — missing.
-- [ ] Evidence showing variation within Asia — missing.
+- [x] East Asian industrialisation evidence pack — accepted with mechanisms, competing explanations, sequencing, limitations, and revision conditions.
+- [x] Manufactured exports versus commodities evidence — accepted at compatible scope; the fabricated common six-country export series remains prohibited.
+- [x] Evidence showing variation within Africa — Ghana, Botswana, and Mauritius are compared with explicit demonstration and cannot-prove limits.
+- [x] Evidence showing variation within Asia — South Korea, Malaysia, and the Philippines are compared with explicit demonstration and cannot-prove limits.
 
 ## 4. Culture and theory
 
@@ -77,9 +77,9 @@ Each country must include:
 - [x] Power-distance evidence and counterargument — accepted only as a conditional voice/feedback mechanism requiring direct institutional evidence.
 - [x] Long-term-orientation evidence and counterargument — accepted only as a provisional investment/learning question requiring direct policy evidence.
 - [x] Relevance review for uncertainty avoidance, masculinity/femininity, and indulgence/restraint — all three are excluded from THEORY-001 on current evidence, with reopening conditions recorded.
-- [!] Connected Development evidence test — blocked by six-country and historical research.
+- [-] Connected Development evidence test — required country, historical, and economic inputs now exist; the final six-case test remains to be written after historical registry/rights review.
 - [-] Radius of Trust evidence test — RES-002 supplies a revised mechanism using generalized trust, institutions, or organisational substitutes; final six-case test remains to be written.
-- [!] Continuity + Adaptation evidence test — blocked by country and policy research.
+- [-] Continuity + Adaptation evidence test — required country, policy, historical, and economic inputs now exist; the final six-case test remains to be written.
 - [!] Final theory matrix — blocked by all three theory tests.
 
 Each theory must contain:
@@ -97,7 +97,7 @@ Each theory must contain:
 - [ ] Full APA 7 bibliography — missing.
 - [ ] In-text APA citations throughout page copy — missing.
 - [-] Claim-to-source register — 262 six-country claims are registered; RES-001 and final page copy remain uncovered.
-- [-] Dataset citations and query details — WDI/WGI values and release metadata passed independent QA, but the master-to-registry source-ID join and two registry locators require DATA-008 repair; thematic/map datasets remain pending.
+- [-] Dataset citations and query details — the core WDI/WGI/WDR package now passes exact source-ID joins and locator checks; thematic and map datasets remain pending.
 - [ ] Image-credit and rights register — missing.
 - [ ] Map-source register — missing.
 - [ ] Independent citation audit — missing.
@@ -114,8 +114,8 @@ Every final source must have:
 
 ## 6. Comparable graphs and maps
 
-- [-] Ghana–South Korea spread prototypes — the GDP proof chart passed numeric, APA, A4, grayscale, contrast, direct-label, and non-creator AI five-second checks; palette selection, system wording repair, a human classroom check, and final spread production remain.
-- [-] Fixed six-country colour and marker system — VIS-001 candidate exists, but showroom/palette tests and explicit user selection are required before lock.
+- [-] Ghana–South Korea spread prototypes — three materially different treatments were reviewed and Evidence Ledger was selected; production specification, human classroom check, and final spread production remain.
+- [-] Fixed six-country colour and marker system — Palette A and its six markers were selected with a mandatory Mauritius keyline repair and separate national-accent rules; VIS-002 must formalise and test the system before lock.
 - [ ] 1960 mirrored baseline dashboard — missing.
 - [ ] 1990 comparison snapshot — missing.
 - [ ] 2020 outcome dashboard — missing.
@@ -175,10 +175,10 @@ Every page must have:
 ## 7A. Visual engagement and editorial energy
 
 - [x] Visual quality is defined as a graded project requirement.
-- [!] Magazine-wide country colour and marker system approved — blocked until DESIGN-001 showroom/palette trials, user selection, and VIS-001 independent review.
+- [-] Magazine-wide country colour and marker system approved — showroom review and user selection are complete; VIS-002 specification plus physical/human testing remain.
 - [ ] Typography hierarchy tested at A4 print size.
-- [ ] Page-rhythm map showing deliberate variation across the approximately 25-page plan.
-- [ ] No three consecutive spreads use the same composition or visual device.
+- [x] Page-rhythm map showing deliberate variation across the approximately 25-page plan.
+- [x] No three consecutive spreads use the same composition or visual device in the accepted rhythm plan.
 - [ ] Every section contains at least one memorable visual centerpiece.
 - [ ] Headlines communicate findings or tensions rather than generic topics.
 - [ ] Longest text blocks reviewed and shortened, visualised, or split.
@@ -242,13 +242,15 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [x] `DATA-001`: Ghana/South Korea repair accepted; rejected claims removed or visibly retained only as audit notes and unresolved gaps remain explicit.
 - [x] `DATA-004`: Malaysia evidence file accepted with visible territorial, classification, proxy, and historical limitations.
 - [x] `DATA-005`: Philippines evidence file accepted with visible source-vintage, classification, proxy, and historical limitations.
-- [-] `VIS-001`: Ghana/South Korea GDP proof chart passed QA; candidate-system lock language, human classroom testing, and user palette decision remain.
-- [-] `DATA-006`: Comparability decisions and numeric values accepted, but the frozen package failed QA traceability/unit/rounding checks and needs DATA-008.
+- [-] `VIS-001`: Ghana/South Korea GDP proof chart passed QA; user palette decision is recorded, while selected-system wording and production tests move to VIS-002.
+- [x] `DATA-006`: Comparability decisions and numeric values accepted; DATA-008 closed the traceability, unit, and display-rounding defects.
 - [x] `SRC-002`: Botswana, Mauritius, Malaysia, and Philippines sources/claims integrated and audited.
 - [x] `RES-001`: Colonialism, borders, infrastructure, and independence evidence pack accepted; final rights/artwork work remains separate.
 - [x] `QA-001`: Independent gate audit accepted; DATA-006 failed narrow repairs while the VIS-001 proof chart passed.
 - [x] `RES-002`: Hofstede, critique, and trust evidence pack accepted with conditional/rejected-dimension decisions.
 - [x] `DATA-007`: Four newer country files corrected against SRC-002/DATA-006; unresolved evidence remains visibly limited.
-- [ ] `DESIGN-001`: Build the labelled showroom, palette trials, and draft approximately 25-page rhythm plan for user selection.
+- [x] `DATA-008`: Repaired source joins, canonical units, WDR/WGI/WDI locators, and deterministic employment display rounding; controller rerun passed.
+- [x] `ECON-001`: Structural-transformation, East Asian industrialisation, exports, and within-region variation evidence pack accepted.
+- [x] `DESIGN-001`: Three spread directions, three palette trials, a 25-page rhythm plan, and the user's selected Spread A/Palette A direction are recorded.
 
-Next: run `DATA-008`, `ECON-001`, and `DESIGN-001`; then run `SRC-003` after DATA-008 releases the shared registries. Final page writing must wait for the relevant evidence, registry coverage, figure data, and visual-system choice to pass review.
+Next: run `SRC-003` against the now-released shared registries and `VIS-002` against the user-selected Spread A/Palette A direction. `THEORY-001` remains blocked until historical claim/rights integration and the relevant citation review pass. Final page writing must still wait for approved registry coverage, figure packages, and the production visual specification.
