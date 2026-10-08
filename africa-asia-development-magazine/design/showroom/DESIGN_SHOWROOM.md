@@ -1,8 +1,29 @@
 # DESIGN-001 comparison showroom
 
-**Status:** REVIEW, user selection required  
+**Status:** REVIEW, user selection recorded; controller and production specification pending
 **Prepared:** 2026-10-07  
 **Decision scope:** editorial spread treatment, six-country palette logic, and page rhythm only. Nothing in this showroom is a magazine-wide lock.
+
+## Recorded user selection
+
+**Decision date:** 2026-10-07
+
+**Selected spread base:** A, Evidence Ledger
+
+**Selected palette base:** A, Inherited Editorial, with the mandatory Mauritius contrast repair
+
+**Requested refinement:** use selected national colours when a country is being presented.
+
+The refinement will be implemented as a **national accent layer**, separate from the comparison-data layer:
+
+- fixed Palette A country colours and markers remain authoritative inside charts, maps, timelines, and cross-country labels;
+- flag-derived national colours may appear on a country-led page in the folio, headline key word, caption tag, image frame, section tab, or short rule;
+- national accents may not recolour a data series, imply success or failure, or replace the country name and marker;
+- use at most two national accent colours prominently on one page, plus the paper and ink neutrals;
+- do not turn flag geometry, symbols, or colours into decorative cultural shorthand;
+- every accent must pass contrast and grayscale checks in its actual role.
+
+Examples of the intended accent families are Ghana red, yellow, and green; Botswana light blue, black, and white; Mauritius red, blue, yellow, and green; South Korea red, blue, ink, and paper; Malaysia red, navy, yellow, and white; and the Philippines blue, red, yellow, and white. These are presentation accents, not new country-data mappings.
 
 ## Read this first
 
@@ -33,7 +54,7 @@ The inherited `design/figures/COMPARISON_SYSTEM.md` and `design/DESIGN_GUIDE.md`
 - its palette and marker mapping are presented as **Candidate A**, not as a final system;
 - Palette A's Mauritius ochre has only 2.03:1 contrast against cream and therefore requires a charcoal outline or under-stroke for essential marks;
 - the proof chart's supporting notes remain marginal for back-row reading in a 1280 × 720 classroom fit, so a later 16:9 projection export and human back-row check are still required;
-- no final palette or spread direction may be propagated until the user completes the decision form below.
+- the user selected Spread A and Palette A on 2026-10-07; magazine-wide propagation still waits for a controller-reviewed production specification and the remaining physical and human tests.
 
 ## Constant test content
 
@@ -202,44 +223,45 @@ These are combinations to compare, not a selection:
 
 ## User decision form
 
-**Reviewer name:** ______________________________________________  
-**Decision date:** _______________________________________________
+**Reviewer name:** User
+
+**Decision date:** 2026-10-07
 
 ### 1. Spread direction
 
 Select one base or write a combination.
 
-- [ ] A: Evidence Ledger
+- [x] A: Evidence Ledger
 - [ ] B: Paired Field Notes
 - [ ] C: Question, Reveal, Qualification
-- [ ] Combination: ______________________________________________
+- [ ] Combination: none requested
 
 **Selected elements:**
 
-__________________________________________________________________
-
-__________________________________________________________________
+Evidence Ledger as the base composition: chart first, visible source,
+observed-anchor note, and causal limitation on the same spread.
 
 **Rejected elements and why:**
 
-__________________________________________________________________
-
-__________________________________________________________________
+B and C were not selected as the base. Preserve both as review artefacts;
+individual pacing ideas may be reconsidered later only with user approval.
 
 ### 2. Palette direction
 
-- [ ] A: Inherited Editorial, with mandatory accessibility repair
+- [x] A: Inherited Editorial, with mandatory accessibility repair
 - [ ] B: Deep Earth / Deep Water
 - [ ] C: Country First / Region in Navigation
-- [ ] Combination or requested revision: _________________________
+- [x] Combination or requested revision: add a secondary national accent layer
 
 **Selected country or region roles:**
 
-__________________________________________________________________
+Keep Palette A fixed for comparative evidence. Use flag-derived national
+colours for restrained country-page presentation accents only.
 
 **Rejected colours or associations:**
 
-__________________________________________________________________
+B and C were not selected as the base. Reject any use of national colour
+that changes chart identity, implies ranking, or becomes decorative shorthand.
 
 ### 3. Typography and tone
 
@@ -270,12 +292,11 @@ __________________________________________________________________
 
 ### 5. Approval boundary
 
-- [ ] Approve selected direction for a later visual-system specification.
+- [x] Approve selected direction for a later visual-system specification.
 - [ ] Request another showroom round before any system is locked.
 - [ ] Approve only the Ghana/South Korea spread experiment, not magazine-wide use.
 
 **Final instruction:**
 
-__________________________________________________________________
-
-__________________________________________________________________
+Formalise Spread A plus Palette A, including the Mauritius outline repair and
+the separate national accent layer. Preserve the unselected alternatives.

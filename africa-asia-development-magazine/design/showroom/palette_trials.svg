@@ -14,6 +14,7 @@
       .test-head { font-size: 25px; font-weight: 800; letter-spacing: 1px; }
       .test { font-size: 23px; font-weight: 500; fill: #3F3C37; }
       .micro { font-size: 21px; font-weight: 550; fill: #4A4742; }
+      .reverse { fill: #F4F0E7; }
       .panel { stroke: #252525; stroke-width: 3; }
       .rule { stroke: #AAA297; stroke-width: 2; }
       .key { stroke: #252525; stroke-width: 3; }
@@ -26,13 +27,15 @@
 
   <rect width="2100" height="2970" fill="#EAE5DA"/>
   <text x="100" y="90" class="sans title">Colour is a label, never the argument.</text>
-  <text x="100" y="138" class="sans deck">DESIGN-001 · three editable candidates · direct labels + unique markers + patterns · no palette selected</text>
+  <text x="100" y="138" class="sans deck">DESIGN-001 · Palette A selected · national accent refinement recorded · alternatives preserved</text>
 
   <!-- PALETTE A -->
   <g id="palette-a" transform="translate(80 190)">
     <rect width="1940" height="820" rx="8" fill="#F4F0E7" class="panel"/>
     <text x="35" y="52" class="sans trial">A · INHERITED EDITORIAL</text>
     <text x="35" y="94" class="sans question">Question: keep the VIS-001 candidate family, including its required Mauritius contrast repair?</text>
+    <rect x="1560" y="22" width="330" height="54" rx="27" fill="#252525"/>
+    <text x="1725" y="58" text-anchor="middle" class="sans meta reverse">SELECTED BASE · 2026-10-07</text>
 
     <g transform="translate(40 135)">
       <g transform="translate(0 0)">
@@ -82,6 +85,24 @@
       <text x="0" y="254" class="sans test">A4: PASS for marks and labels. Classroom: CONDITIONAL, method notes need a dedicated 16:9 export.</text>
       <text x="0" y="289" class="sans test">Print: digital check only. Physical paper proof and human colour-vision review remain required.</text>
       <text x="0" y="340" class="sans micro">* Mauritius ochre is never permitted as an unoutlined essential edge or text colour on cream.</text>
+    </g>
+
+    <line x1="40" y1="660" x2="1900" y2="660" class="rule"/>
+    <text x="40" y="700" class="sans test-head">SELECTED REFINEMENT · NATIONAL ACCENTS FOR COUNTRY-LED PAGES</text>
+    <text x="40" y="732" class="sans micro">Presentation layer only. Fixed Palette A chart colours and markers do not change.</text>
+    <g transform="translate(40 758)">
+      <text x="0" y="0" class="sans micro">Ghana</text>
+      <rect x="0" y="10" width="70" height="24" fill="#CE1126"/><rect x="70" y="10" width="70" height="24" fill="#FCD116"/><rect x="140" y="10" width="70" height="24" fill="#006B3F"/>
+      <text x="290" y="0" class="sans micro">Botswana</text>
+      <rect x="290" y="10" width="70" height="24" fill="#75AADB"/><rect x="360" y="10" width="70" height="24" fill="#252525"/><rect x="430" y="10" width="70" height="24" fill="#F4F0E7" stroke="#252525" stroke-width="1"/>
+      <text x="590" y="0" class="sans micro">Mauritius</text>
+      <rect x="590" y="10" width="52" height="24" fill="#EA2839"/><rect x="642" y="10" width="52" height="24" fill="#1A206D"/><rect x="694" y="10" width="52" height="24" fill="#FFD500"/><rect x="746" y="10" width="52" height="24" fill="#00A551"/>
+      <text x="905" y="0" class="sans micro">South Korea</text>
+      <rect x="905" y="10" width="52" height="24" fill="#CD2E3A"/><rect x="957" y="10" width="52" height="24" fill="#0047A0"/><rect x="1009" y="10" width="52" height="24" fill="#252525"/><rect x="1061" y="10" width="52" height="24" fill="#F4F0E7" stroke="#252525" stroke-width="1"/>
+      <text x="1215" y="0" class="sans micro">Malaysia</text>
+      <rect x="1215" y="10" width="52" height="24" fill="#CC0001"/><rect x="1267" y="10" width="52" height="24" fill="#010066"/><rect x="1319" y="10" width="52" height="24" fill="#FFCC00"/><rect x="1371" y="10" width="52" height="24" fill="#F4F0E7" stroke="#252525" stroke-width="1"/>
+      <text x="1530" y="0" class="sans micro">Philippines</text>
+      <rect x="1530" y="10" width="52" height="24" fill="#0038A8"/><rect x="1582" y="10" width="52" height="24" fill="#CE1126"/><rect x="1634" y="10" width="52" height="24" fill="#FCD116"/><rect x="1686" y="10" width="52" height="24" fill="#F4F0E7" stroke="#252525" stroke-width="1"/>
     </g>
   </g>
 

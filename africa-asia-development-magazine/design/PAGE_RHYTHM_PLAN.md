@@ -1,6 +1,6 @@
 # DESIGN-001 draft page-rhythm plan
 
-**Status:** REVIEW, direction and content gates remain open  
+**Status:** REVIEW, Spread A and Palette A selected; production and content gates remain open
 **Target:** 25 A4 pages, with a documented allowance for later reference or credit pages  
 **Authority:** `SCOPE_LOCK.md` and `content/MAGAZINE_STRUCTURE.md`  
 **Purpose:** test pacing, composition, and evidence visibility before any magazine-wide design is selected
@@ -23,6 +23,7 @@ No status in this plan approves final page copy, photography, maps, or a visual 
 5. Real photographs are assigned an analytical role. Until rights and provenance pass, the plan shows only labelled placeholders.
 6. Source, unit, date, gap, proxy, uncertainty, and causal limitation are part of the layout.
 7. Pages 18 to 23 remain structurally planned but factually gated by `THEORY-001` and the relevant accepted evidence.
+8. Country-led pages may use a restrained flag-derived national accent layer in folios, caption tags, image frames, or headline details. Comparative data keeps the selected Palette A colour and marker mapping unchanged.
 
 ## Twenty-five-page map
 
@@ -40,7 +41,7 @@ No status in this plan approves final page copy, photography, maps, or a visual 
 | 10 | How industrial capability compounds | Learning can reinforce infrastructure, firms, exports, and reinvestment. | One circular chain with an explicit break point. | Capability loop diagram | Off-centre loop with short evidence callouts | **GATED:** ECON-001 required. Diagram labels may remain structural placeholders only. | Optional rights-cleared factory/classroom pairing later, never as causal proof. |
 | 11 | Value addition is not just a product label | Export categories can hide learning, imported inputs, and services. | One product moving through stages of value creation. | Product journey / annotated process | Diagonal sequence with a blocked-chart warning | **GATED:** common six-country export chart remains prohibited; use only ECON-001-approved compatible or narrative evidence. | Rights-cleared product/process image if analytically exact; otherwise illustration. |
 | 12 | South Korea: capability built over time | Recovery, coordination, exports, and upgrading occurred in stages. | Four dated frames with one rupture or policy shift each. | Four-frame timeline | Cinematic strip with alternating text and image | **GATED:** ECON-001, final citations, and image rights required. | Four place/date-specific Korean images or documents, all **PLACEHOLDER ONLY** now. |
-| 13 | Ghana and South Korea: comparison, not experiment | Near parity in 1960 became a 16.9-to-1 difference in 2020, but the pair does not identify a cause. | The two 1960 values and the two 2020 endpoints. | Shared-axis paired trajectory | User-selected trial A, B, C, or combination | **READY FOR LAYOUT TEST:** proof chart passed QA; palette, composition, final historical annotations, and human projection check remain open. | Matched Ghana/Korea documentary slots only in treatments that need them; rights-gated. |
+| 13 | Ghana and South Korea: comparison, not experiment | Near parity in 1960 became a 16.9-to-1 difference in 2020, but the pair does not identify a cause. | The two 1960 values and the two 2020 endpoints. | Shared-axis paired trajectory | Selected Spread A, Evidence Ledger | **READY FOR LAYOUT TEST:** proof chart passed QA; Palette A and Spread A are user-selected, while the production specification, final historical annotations, and human projection check remain open. | One supporting documentary slot if rights-cleared. Ghanaian and Korean national colours may accent caption tags or image frames, but not the data series. |
 | 14 | Six dimensions, one warning label | National averages are lenses, not personalities or causal scores. | Six names split into “test conditionally” and “context only.” | Typographic taxonomy | Large labels around a central warning | **READY FOR LAYOUT TEST:** RES-002 accepted; final wording and citations still needed. | No photo; avoid cultural costume shorthand. |
 | 15 | How far can trust travel? | Personal trust, networks, institutions, governance, and survey responses are different constructs. | Five expanding rings interrupted by “not one scale.” | Network/radius diagram | Concentric but asymmetric network field | **READY FOR LAYOUT TEST:** construct distinctions accepted; six-case theory test pending. | Optional real institutional setting photo after rights review, not as proof of trust. |
 | 16 | Close networks: strength, boundary, or both? | Close ties can support cooperation and also limit wider exchange. | An anonymous money-choice prompt with two visible interpretations. | Question / poll interaction | Full-height prompt facing a balanced consequence rail | **GATED:** poll wording, ethics, static alternative, sample-size warning, and classroom protocol needed. | No photo; anonymous diagram avoids stereotyping. |
