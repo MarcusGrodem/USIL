@@ -174,12 +174,12 @@ Assign one independent audit area: evidence/APA, data/graphs, editorial/causalit
 
 The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPTS.md`; this runbook records the current task IDs so stale full prompts cannot survive here.
 
-**Current batch after the latest 2026-10-07 controller reconciliation:**
+**Current batch after the latest 2026-10-08 controller reconciliation:**
 
-1. `SRC-003` — register RES-001 claims and verify proposed historical map/image rights; DATA-008 has released the shared registries.
-2. `VIS-002` — formalise the user-selected Evidence Ledger/Palette A comparison system and create a projection proof.
+1. `SRC-004` — integrate the accepted RES-002 and ECON-001 claims/sources into the shared registries and decide whether THEORY-001's citation gate is clear.
+2. `VIS-003` — repair duplicated annotation markers, the 1960 label cluster, and the compressed source band in the VIS-002 projection proof.
 
-Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work. Do not start THEORY-001 until SRC-003 and the remaining relevant citation review pass.
+Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work. Do not start THEORY-001 until SRC-004 passes controller review.
 
 ## How an agent finishes correctly
 
