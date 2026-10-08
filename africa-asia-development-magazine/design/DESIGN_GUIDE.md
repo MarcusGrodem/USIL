@@ -17,25 +17,27 @@ Each spread should work at two speeds:
 
 Use one dominant visual or typographic move per spread. Supporting elements should clarify that move rather than compete with it.
 
-## Final colour palette
+## Selected colour and comparison system
 
-The dedicated palette guide is newer than the rough PDF and is the current design authority.
+The user selected **Spread A, Evidence Ledger**, and **Palette A, Inherited Editorial**, on 2026-10-07. The production specification is `design/SELECTED_COMPARISON_SYSTEM.md`; the concise chart rules are in `design/figures/COMPARISON_SYSTEM.md`. Spreads B/C and Palettes B/C remain preserved rejected alternatives in `design/showroom/`.
+
+This selection authorises the design direction, not final pages, final typography, physical print reproduction, or human classroom/colour-vision performance.
 
 ### Africa palette
 
 | Colour | Hex | Suggested use |
 |---|---|---|
-| Terracotta | `#B95332` | Africa section accents, maps, case markers |
-| Ochre | `#D6A23A` | Timelines, highlights, historical notes |
-| Green | `#3F684E` | Institutional and development elements |
+| Ghana terracotta | `#B95332` | Ghana data; circle marker |
+| Mauritius ochre | `#D6A23A` | Mauritius data; up-triangle with mandatory charcoal keyline/under-stroke |
+| Botswana green | `#3F684E` | Botswana data; square marker |
 
 ### Asia palette
 
 | Colour | Hex | Suggested use |
 |---|---|---|
-| Red | `#A63A3A` | Asia section accents and case markers |
-| Blue | `#315A78` | Industrialisation, trade and comparison graphics |
-| Jade | `#3E7568` | Growth loops, infrastructure and capability graphics |
+| Philippines red | `#A63A3A` | Philippines data; cross with charcoal under-stroke |
+| South Korea blue | `#315A78` | South Korea data; diamond marker |
+| Malaysia jade | `#3E7568` | Malaysia data; hexagon marker |
 
 ### Shared base
 
@@ -45,13 +47,23 @@ The dedicated palette guide is newer than the rough PDF and is the current desig
 | Charcoal text | `#252525` | Body copy and headings |
 | Secondary grey | `#B7B0A4` | Rules, captions, axes and low-emphasis labels |
 
+Country colours identify cases only. They do not encode success/failure, richer/poorer, culture, or uniform regional paths. Every use requires the full country name and fixed marker; line patterns are added where needed. Mauritius ochre is only 2.03:1 against cream, so every essential ochre mark requires a charcoal keyline and every essential ochre line a charcoal under-stroke or visible pattern.
+
+Africa/Asia colour families are for explicitly labelled navigation only. A separate flag-derived national-accent layer is limited to folios, headline details, caption tags, image frames, section tabs, and short rules on country-led pages. It must not recolour data series, imply success/failure, replace direct labels, or become cultural shorthand.
+
 ## Relationship to the rough PDF
 
 The legacy 45-page rough PDF uses an earlier navy, bright orange, teal and gold palette. Its hierarchy and page ideas remain useful, but its pagination is superseded by the approximately 25-page plan. Its colours should not be copied automatically into the final design.
 
+## Evidence Ledger layout
+
+Use the selected chart-first hierarchy: finding header, dominant matched evidence plot, narrow evidence rail, and full-width source band. On an A4 spread, use 12 columns with the chart occupying roughly eight and the rail four. Keep essential content at least 10 mm from the fold and use a 4 mm baseline rhythm. The rail holds an optional rights-gated image placeholder, observation/proxy note, and “What this cannot prove” statement in that order.
+
+Image placeholders are neutral grey with a dashed charcoal boundary and the words `IMAGE PLACEHOLDER — NOT APPROVED`. They must name the unresolved country/place, subject, creator, date/period, source, licence, crop permission, attribution, and analytical role. They cannot survive into final pages.
+
 ## Typography
 
-The final typefaces have not been selected.
+The final typefaces have not been selected. Typography remains provisional until a named physical A4 test is recorded.
 
 Use no more than:
 
@@ -66,6 +78,8 @@ Priorities:
 - enough weights for hierarchy;
 - support for all required characters;
 - consistent use across Canva, charts and interactive content.
+
+Provisional A4 minima: 28 pt finding headline, 14 pt deck, 10.5–11.5 pt body, 11 pt chart axes/values, and 10 pt source/limitation notes. Dedicated 1280 × 720 assets use at least 22 px for essential axes/values and 18 px for supporting notes.
 
 Do not choose typography only because it appears "African" or "Asian." Avoid decorative stereotypes.
 
