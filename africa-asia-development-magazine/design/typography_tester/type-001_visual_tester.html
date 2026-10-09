@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TYPE-001 — Typography visual tester (3 candidates)</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root {
+  --cream: #F4F0E7;
+  --charcoal: #252525;
+  --dark-neutral: #403D38;
+  --mid-neutral: #514E48;
+  --rule: #B7B0A4;
+  --ghana: #B95332;
+  --botswana: #3F684E;
+  --mauritius: #D6A23A;
+  --korea: #315A78;
+  --malaysia: #3E7568;
+  --philippines: #A63A3A;
+}
+
+@page {
+  size: A3 landscape;
+  margin: 10mm;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--cream);
+  color: var(--charcoal);
+  font-family: -apple-system, system-ui, sans-serif;
+}
+
+body {
+  padding: 16mm 14mm;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.cover {
+  margin-bottom: 10mm;
+  padding-bottom: 6mm;
+  border-bottom: 0.6pt solid var(--rule);
+}
+
+.cover .eyebrow {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dark-neutral);
+  margin-bottom: 4mm;
+}
+
+.cover h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 34pt;
+  line-height: 1.03;
+  letter-spacing: -0.015em;
+  margin: 0 0 3mm 0;
+}
+
+.cover .deck {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13pt;
+  line-height: 1.4;
+  color: var(--mid-neutral);
+  max-width: 170mm;
+  margin: 0;
+}
+
+.cover .meta {
+  margin-top: 6mm;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
+  color: var(--mid-neutral);
+  display: flex;
+  gap: 10mm;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7mm;
+  page-break-inside: avoid;
+}
+
+.col {
+  padding: 7mm 7mm 8mm 7mm;
+  background: #FFFDF7;
+  border: 0.6pt solid var(--rule);
+  break-inside: avoid;
+}
+
+.col .candidate-tag {
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dark-neutral);
+  margin-bottom: 1mm;
+}
+
+.col .candidate-name {
+  font-size: 20pt;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 1mm;
+}
+
+.col .candidate-note {
+  font-size: 9pt;
+  line-height: 1.4;
+  color: var(--mid-neutral);
+  margin-bottom: 5mm;
+  padding-bottom: 4mm;
+  border-bottom: 0.4pt solid var(--rule);
+}
+
+/* ------- Candidate type styles ------- */
+.c-montserrat .candidate-tag,
+.c-montserrat .candidate-name,
+.c-montserrat .candidate-note,
+.c-montserrat .sample,
+.c-montserrat .sample * { font-family: "Montserrat", sans-serif; }
+
+.c-inter .candidate-tag,
+.c-inter .candidate-name,
+.c-inter .candidate-note,
+.c-inter .sample,
+.c-inter .sample * { font-family: "Inter", sans-serif; }
+
+.c-plex .candidate-tag,
+.c-plex .candidate-name,
+.c-plex .candidate-note,
+.c-plex .sample,
+.c-plex .sample * { font-family: "IBM Plex Sans", sans-serif; }
+
+/* ------- Hierarchy sample ------- */
+.sample { color: var(--charcoal); }
+
+.sample .lbl {
+  font-size: 7pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rule);
+  margin-top: 4mm;
+  margin-bottom: 1mm;
+}
+
+.sample .h-display {
+  font-weight: 900;
+  font-size: 32pt;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.sample .h1 {
+  font-weight: 700;
+  font-size: 24pt;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.sample .h2 {
+  font-weight: 700;
+  font-size: 16pt;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.sample .h3 {
+  font-weight: 600;
+  font-size: 12pt;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.sample .deck {
+  font-weight: 400;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: var(--mid-neutral);
+  margin: 0;
+}
+
+.sample .body {
+  font-weight: 400;
+  font-size: 9.5pt;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.sample .caption {
+  font-weight: 500;
+  font-size: 8pt;
+  line-height: 1.4;
+  color: var(--mid-neutral);
+  margin: 0;
+}
+
+.sample .fignote {
+  font-weight: 400;
+  font-size: 7.5pt;
+  line-height: 1.4;
+  color: var(--dark-neutral);
+  margin: 0;
+}
+
+.sample .eyebrow {
+  font-weight: 700;
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dark-neutral);
+  margin: 0;
+}
+
+/* ------- Numerals test row ------- */
+.numerals {
+  margin-top: 4mm;
+  padding: 3mm 4mm;
+  background: var(--cream);
+  border: 0.4pt dashed var(--rule);
+}
+.numerals .n-label {
+  font-size: 7pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dark-neutral);
+  margin-bottom: 1mm;
+}
+.numerals .n-value {
+  font-weight: 700;
+  font-size: 14pt;
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums lining-nums;
+  color: var(--charcoal);
+}
+.numerals .n-value .light { font-weight: 500; color: var(--mid-neutral); }
+
+/* ------- Country labels sample ------- */
+.labels {
+  margin-top: 4mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2mm 4mm;
+  font-size: 8.5pt;
+  font-weight: 600;
+}
+.labels div { display: flex; align-items: center; gap: 2mm; }
+.labels .dot {
+  width: 3mm; height: 3mm; display: inline-block; flex-shrink: 0;
+}
+.labels .dot.ghana      { background: var(--ghana); border-radius: 999px; }
+.labels .dot.botswana   { background: var(--botswana); }
+.labels .dot.mauritius  { background: var(--mauritius); border: 0.5pt solid var(--charcoal); }
+.labels .dot.korea      { background: var(--korea); transform: rotate(45deg); }
+.labels .dot.malaysia   { background: var(--malaysia); clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%); }
+.labels .dot.philippines{ background: var(--philippines); }
+
+/* ------- Dagger caveat sample ------- */
+.caveat {
+  margin-top: 4mm;
+  padding: 3mm 4mm;
+  background: #FFF8E6;
+  border-left: 1.6pt solid var(--mauritius);
+  font-size: 8.5pt;
+  line-height: 1.4;
+  color: var(--dark-neutral);
+}
+.caveat .dagger { font-weight: 700; color: var(--charcoal); }
+
+/* ------- Footer / rationale ------- */
+.rationale {
+  margin-top: 10mm;
+  padding-top: 6mm;
+  border-top: 0.6pt solid var(--rule);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7mm;
+  font-family: "Inter", sans-serif;
+}
+.rationale .r-col .r-head {
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2mm;
+  color: var(--charcoal);
+}
+.rationale .r-col .r-body {
+  font-size: 8.5pt;
+  line-height: 1.45;
+  color: var(--mid-neutral);
+  margin: 0;
+}
+.rationale .r-col ul {
+  margin: 2mm 0 2mm 4mm;
+  padding: 0;
+  font-size: 8.5pt;
+  line-height: 1.45;
+  color: var(--mid-neutral);
+}
+.rationale .r-col li { margin-bottom: 1mm; }
+
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="eyebrow">TYPE-001 · typography visual tester · 2026-10-08</div>
+  <h1>Three candidate typefaces for the Africa–Asia Development Magazine</h1>
+  <p class="deck">Each column applies one candidate to the same sample: display headline, section head, subhead, deck, body, caption, figure-note, tabular numerals, country labels, and a dagger-caveat line. Compare the hierarchy, numeral behaviour, and reading colour side by side, then record a choice in TYPOGRAPHY_DECISION.md.</p>
+  <div class="meta">
+    <div><strong>Candidates:</strong> Montserrat · Inter · IBM Plex Sans</div>
+    <div><strong>Licence:</strong> all three SIL Open Font Licence 1.1</div>
+    <div><strong>Palette:</strong> Palette A — Inherited Editorial (unchanged)</div>
+  </div>
+</section>
+
+<section class="grid">
+
+  <!-- ============== 1. MONTSERRAT ============== -->
+  <article class="col c-montserrat">
+    <div class="candidate-tag">Candidate 1</div>
+    <div class="candidate-name">Montserrat</div>
+    <div class="candidate-note">Geometric sans by Julieta Ulanovsky. Nine weights 100–900 plus italics. Google Fonts; SIL OFL 1.1. The user raised this family by name as a modern alternative to Aptos.</div>
+
+    <div class="sample">
+      <div class="lbl">Display · 32 pt / 900</div>
+      <p class="h-display">Divergent paths.</p>
+
+      <div class="lbl">Headline H1 · 24 pt / 700</div>
+      <p class="h1">Why Ghana and South Korea diverged after 1960</p>
+
+      <div class="lbl">Subhead H2 · 16 pt / 700</div>
+      <p class="h2">Observed anchors — not a race</p>
+
+      <div class="lbl">Section head H3 · 12 pt / 600</div>
+      <p class="h3">Manufacturing value added as a share of GDP</p>
+
+      <div class="lbl">Eyebrow · 8 pt / 700 · tracked</div>
+      <p class="eyebrow">Evidence Ledger · Spread 03</p>
+
+      <div class="lbl">Deck · 11 pt / 400</div>
+      <p class="deck">Three dated observations on one shared axis. African and Asian paths vary within their region; the chart does not establish a cause.</p>
+
+      <div class="lbl">Body · 9.5 pt / 400</div>
+      <p class="body">In 1960 Ghana and South Korea reported broadly similar GDP per person in constant 2015 US dollars. Sixty years later they sit decades apart. Culture is one of many candidate explanations the registered evidence pack can neither confirm nor rule out.</p>
+
+      <div class="lbl">Caption · 8 pt / 500</div>
+      <p class="caption">Ghana (1,101 → 1,970) and South Korea (1,038 → 33,216) rounded to the nearest constant 2015 US dollar.</p>
+
+      <div class="lbl">Figure note · 7.5 pt / 400</div>
+      <p class="fignote">Note. Manufacturing value added, current-price share of GDP. Data from World Development Indicators (NV.IND.MANF.ZS), by World Bank (2026). SRC-WDI-001.</p>
+
+      <div class="numerals">
+        <div class="n-label">Tabular numerals · 14 pt</div>
+        <div class="n-value">1,101 · 9,673 · 25,702 · 1960 — 1990 — 2020 <span class="light">· 9.75 % · 25.70 %</span></div>
+      </div>
+
+      <div class="labels">
+        <div><span class="dot ghana"></span>Ghana</div>
+        <div><span class="dot korea"></span>South Korea</div>
+        <div><span class="dot botswana"></span>Botswana</div>
+        <div><span class="dot malaysia"></span>Malaysia</div>
+        <div><span class="dot mauritius"></span>Mauritius</div>
+        <div><span class="dot philippines"></span>Philippines</div>
+      </div>
+
+      <div class="caveat">
+        <span class="dagger">†</span> 1965 is a five-year proxy for Ghana's 1960 anchor; the figure prints 1965, not 1960.
+      </div>
+    </div>
+  </article>
+
+  <!-- ============== 2. INTER ============== -->
+  <article class="col c-inter">
+    <div class="candidate-tag">Candidate 2</div>
+    <div class="candidate-name">Inter</div>
+    <div class="candidate-note">Humanist sans by Rasmus Andersson, screen-tuned with excellent small-size reading. Variable weight 100–900 plus display cuts. Google Fonts; SIL OFL 1.1. Widely used in editorial and data-journalism contexts.</div>
+
+    <div class="sample">
+      <div class="lbl">Display · 32 pt / 900</div>
+      <p class="h-display">Divergent paths.</p>
+
+      <div class="lbl">Headline H1 · 24 pt / 700</div>
+      <p class="h1">Why Ghana and South Korea diverged after 1960</p>
+
+      <div class="lbl">Subhead H2 · 16 pt / 700</div>
+      <p class="h2">Observed anchors — not a race</p>
+
+      <div class="lbl">Section head H3 · 12 pt / 600</div>
+      <p class="h3">Manufacturing value added as a share of GDP</p>
+
+      <div class="lbl">Eyebrow · 8 pt / 700 · tracked</div>
+      <p class="eyebrow">Evidence Ledger · Spread 03</p>
+
+      <div class="lbl">Deck · 11 pt / 400</div>
+      <p class="deck">Three dated observations on one shared axis. African and Asian paths vary within their region; the chart does not establish a cause.</p>
+
+      <div class="lbl">Body · 9.5 pt / 400</div>
+      <p class="body">In 1960 Ghana and South Korea reported broadly similar GDP per person in constant 2015 US dollars. Sixty years later they sit decades apart. Culture is one of many candidate explanations the registered evidence pack can neither confirm nor rule out.</p>
+
+      <div class="lbl">Caption · 8 pt / 500</div>
+      <p class="caption">Ghana (1,101 → 1,970) and South Korea (1,038 → 33,216) rounded to the nearest constant 2015 US dollar.</p>
+
+      <div class="lbl">Figure note · 7.5 pt / 400</div>
+      <p class="fignote">Note. Manufacturing value added, current-price share of GDP. Data from World Development Indicators (NV.IND.MANF.ZS), by World Bank (2026). SRC-WDI-001.</p>
+
+      <div class="numerals">
+        <div class="n-label">Tabular numerals · 14 pt</div>
+        <div class="n-value">1,101 · 9,673 · 25,702 · 1960 — 1990 — 2020 <span class="light">· 9.75 % · 25.70 %</span></div>
+      </div>
+
+      <div class="labels">
+        <div><span class="dot ghana"></span>Ghana</div>
+        <div><span class="dot korea"></span>South Korea</div>
+        <div><span class="dot botswana"></span>Botswana</div>
+        <div><span class="dot malaysia"></span>Malaysia</div>
+        <div><span class="dot mauritius"></span>Mauritius</div>
+        <div><span class="dot philippines"></span>Philippines</div>
+      </div>
+
+      <div class="caveat">
+        <span class="dagger">†</span> 1965 is a five-year proxy for Ghana's 1960 anchor; the figure prints 1965, not 1960.
+      </div>
+    </div>
+  </article>
+
+  <!-- ============== 3. IBM PLEX SANS ============== -->
+  <article class="col c-plex">
+    <div class="candidate-tag">Candidate 3</div>
+    <div class="candidate-name">IBM Plex Sans</div>
+    <div class="candidate-note">Open editorial-technical family by Mike Abbink / Bold Monday for IBM. Seven weights 100–700 plus condensed and mono siblings. Google Fonts; SIL OFL 1.1. Strong editorial personality with calm display behaviour.</div>
+
+    <div class="sample">
+      <div class="lbl">Display · 32 pt / 700 (no 900 in Plex)</div>
+      <p class="h-display" style="font-weight:700;">Divergent paths.</p>
+
+      <div class="lbl">Headline H1 · 24 pt / 700</div>
+      <p class="h1">Why Ghana and South Korea diverged after 1960</p>
+
+      <div class="lbl">Subhead H2 · 16 pt / 700</div>
+      <p class="h2">Observed anchors — not a race</p>
+
+      <div class="lbl">Section head H3 · 12 pt / 600</div>
+      <p class="h3">Manufacturing value added as a share of GDP</p>
+
+      <div class="lbl">Eyebrow · 8 pt / 700 · tracked</div>
+      <p class="eyebrow">Evidence Ledger · Spread 03</p>
+
+      <div class="lbl">Deck · 11 pt / 400</div>
+      <p class="deck">Three dated observations on one shared axis. African and Asian paths vary within their region; the chart does not establish a cause.</p>
+
+      <div class="lbl">Body · 9.5 pt / 400</div>
+      <p class="body">In 1960 Ghana and South Korea reported broadly similar GDP per person in constant 2015 US dollars. Sixty years later they sit decades apart. Culture is one of many candidate explanations the registered evidence pack can neither confirm nor rule out.</p>
+
+      <div class="lbl">Caption · 8 pt / 500</div>
+      <p class="caption">Ghana (1,101 → 1,970) and South Korea (1,038 → 33,216) rounded to the nearest constant 2015 US dollar.</p>
+
+      <div class="lbl">Figure note · 7.5 pt / 400</div>
+      <p class="fignote">Note. Manufacturing value added, current-price share of GDP. Data from World Development Indicators (NV.IND.MANF.ZS), by World Bank (2026). SRC-WDI-001.</p>
+
+      <div class="numerals">
+        <div class="n-label">Tabular numerals · 14 pt</div>
+        <div class="n-value">1,101 · 9,673 · 25,702 · 1960 — 1990 — 2020 <span class="light">· 9.75 % · 25.70 %</span></div>
+      </div>
+
+      <div class="labels">
+        <div><span class="dot ghana"></span>Ghana</div>
+        <div><span class="dot korea"></span>South Korea</div>
+        <div><span class="dot botswana"></span>Botswana</div>
+        <div><span class="dot malaysia"></span>Malaysia</div>
+        <div><span class="dot mauritius"></span>Mauritius</div>
+        <div><span class="dot philippines"></span>Philippines</div>
+      </div>
+
+      <div class="caveat">
+        <span class="dagger">†</span> 1965 is a five-year proxy for Ghana's 1960 anchor; the figure prints 1965, not 1960.
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<section class="rationale">
+  <div class="r-col">
+    <div class="r-head">Montserrat — strengths / watch-outs</div>
+    <p class="r-body"><strong>Strengths.</strong> Confident geometric display; nine weights up to Black (900) for dramatic section openers; modern, friendly voice; wide language coverage; already common in modern infographics.</p>
+    <ul>
+      <li>Needs a slightly lower body size than Inter at the same visual weight — set body at 9.5 pt, not 10 pt.</li>
+      <li>Tabular lining numerals supported but historically narrower; verify alignment in dense tables.</li>
+      <li>Can read as "startup template" if used at only one weight; use Black + Medium contrast to earn editorial feel.</li>
+    </ul>
+  </div>
+  <div class="r-col">
+    <div class="r-head">Inter — strengths / watch-outs</div>
+    <p class="r-body"><strong>Strengths.</strong> Humanist, screen-tuned, excellent at small sizes; variable axis for continuous weight control; a well-trodden choice in data journalism (FT, Pudding, Our World in Data). Numerals are purpose-built for charts.</p>
+    <ul>
+      <li>Less distinctive display personality than Montserrat Black or Plex 700; may feel neutral on a cover.</li>
+      <li>Pair with a serif display face if the magazine wants more editorial character on openers.</li>
+      <li>Confirm the Display cuts, not only the base family, if used above 32 pt.</li>
+    </ul>
+  </div>
+  <div class="r-col">
+    <div class="r-head">IBM Plex Sans — strengths / watch-outs</div>
+    <p class="r-body"><strong>Strengths.</strong> Editorial-technical voice; corporate seriousness without stiffness; strong hierarchy at 600/700; condensed and mono siblings available for figure callouts and code-like captions; well tested in long-form editorial PDFs.</p>
+    <ul>
+      <li>No weight above 700; display headlines rely on size and tracking rather than Black weight.</li>
+      <li>Numerals are high-contrast and clear but visibly "IBM"; may clash with Palette A warmth unless balanced by cream-heavy layouts.</li>
+      <li>Watch spacing on all-caps eyebrows at small sizes.</li>
+    </ul>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,11 +1,11 @@
 # Next Agent Prompts
 
-**Last reconciled by the Roadmap Controller:** 2026-10-08 (CTRL-017)
-**Current stage:** VIS-007 and VIS-008 delivered at digital-gate scope and awaiting controller reconciliation; named VIS-004 reviewer locked; typeface decision deferred.
-**Estimated progress:** 72%
+**Last reconciled by the Roadmap Controller:** 2026-10-09 (TYPE-001 delivery)
+**Current stage:** VIS-007 and VIS-008 delivered at digital-gate scope and awaiting controller reconciliation; named VIS-004 reviewer locked; TYPE-001 delivered three candidate typefaces + a self-contained PDF visual tester and now awaits the project lead's selection.
+**Estimated progress:** 74%
 **Final report ready:** No
 
-CTRL-017 recorded Marcus Grude Grodem as the named reviewer for all four VIS-004 release gates. Three of the four gates are now dispatchable. The final-typography gate remains BLOCKED because Aptos is not confirmed as the project typeface; the project lead has asked to consider more modern alternatives and look at reference infographics for inspiration before locking a family. `MAP-001` is still blocked because the verified LOC item raster derivative, dimensions, checksum, and original legend have not been supplied by the project lead. The three non-overlapping assignments below may run in parallel.
+CTRL-017 recorded Marcus Grude Grodem as the named reviewer for all four VIS-004 release gates. TYPE-001 produced three open-licensed candidate typefaces (Montserrat, Inter, IBM Plex Sans) and the self-contained PDF visual tester at `design/typography_tester/type-001_visual_tester.pdf`. The project lead's selection is now the blocking input for the final-typography sub-gate of VIS-004. `MAP-001` is still blocked because the verified LOC item raster derivative, dimensions, checksum, and original legend have not been supplied by the project lead. The three non-overlapping assignments below may run in parallel.
 
 ## 1. VIS-004 (three of four gates) — Run the human and physical release reviews
 
@@ -35,30 +35,31 @@ Acceptance criteria:
 
 Before stopping, create or append `project-control/logs/VIS-004.md` using `project-control/logs/LOG_TEMPLATE.md`. Do not edit any other file.
 
-## 2. TYPE-001 — Confirm or substitute the project typeface
+## 2. TYPE-001 selection — Project lead chooses one of three candidate typefaces
 
-You are the **Editorial & Design Agent**. Open **TYPE-001: Confirm or substitute the Aptos default typeface for the magazine's figure and page system**.
+You are the **project lead** making the final selection. TYPE-001 has delivered three open-licensed candidates and a self-contained A3-landscape PDF visual tester. Inspect the PDF, choose one family, and sign off the hierarchy; a short follow-up then propagates the choice through the figures.
 
-Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `design/DESIGN_GUIDE.md`, `design/SELECTED_COMPARISON_SYSTEM.md`, `design/figures/COMPARISON_SYSTEM.md`, every current `*_SPEC.md` in `design/figures/`, and `project-control/logs/LOG_TEMPLATE.md`. The project lead has indicated preference for a more modern typeface and wants to inspect reference infographics before locking a family.
+Before working, read `design/TYPOGRAPHY_RECOMMENDATION.md` and open `design/typography_tester/type-001_visual_tester.pdf`.
 
-You may create or edit only:
+Decision inputs:
 
-- `design/TYPOGRAPHY_DECISION.md` (new)
-- `project-control/logs/TYPE-001.md` (new)
+- **Candidate 1 — Montserrat.** Geometric sans, nine weights up to Black 900, strong display drama. The project lead named this family on 2026-10-08.
+- **Candidate 2 — Inter.** Humanist, screen-tuned, data-journalism standard; best small-size reading and tabular numerals.
+- **Candidate 3 — IBM Plex Sans.** Editorial-technical voice; ceiling at Bold 700; ships Serif, Mono, and Condensed siblings.
 
-Required deliverable: a decision record naming the confirmed typeface family (display and text), weights to be used, numeral style (tabular lining required for every figure), licensing, fallback stack, and the WCAG-size calibration against the current A4 and 1280 × 720 role tables.
+Selection records to produce (follow-up task; create only after a family is chosen):
+
+- `design/TYPOGRAPHY_DECISION.md` — chosen family, weight set, hierarchy table, fallback stack, licensing, calibration against the figure role-size tables.
+- Swap `"Aptos", "Aptos Display"` → the chosen family in the four production SVGs (`six_country_gdp_anchor_dashboard.svg`, `..._16x9.svg`, `employment_structural_transformation.svg`, `..._16x9.svg`, `manufacturing_share.svg`, `..._16x9.svg`, `theory_evidence_matrix.svg`). Update only `font-family`; do not touch geometry, sizes, or data.
+- Update the typography section of each figure's `*_SPEC.md` to name the chosen family.
+- Append a REVIEW entry to `project-control/logs/TYPE-001.md`.
 
 Acceptance criteria:
 
-- Compare at least three candidate families against Aptos. Each candidate must have a verified licence suitable for a published magazine and classroom projection, support tabular lining numerals, and remain legible at the figure role-size tables already recorded in the specifications.
-- Pull at least three reference infographic examples (from `references/visual-inspiration/` or newly collected and licence-cleared) and record how each uses display/text pairings; do not republish inspiration images without rights verification.
-- Record whether the chosen family requires any role-size update in `COMPARISON_SYSTEM.md`; do not silently rebuild the figures.
-- Do not change the data colours, chart geometry, Palette A country identities, or Mauritius repair.
-- Mark the handoff `REVIEW`.
-
-Before stopping, create `project-control/logs/TYPE-001.md` using `project-control/logs/LOG_TEMPLATE.md`.
-
-Stop after the decision record and log exist. Do not edit any figure, specification, chart CSV, master file, registry, selected-system document, page copy, checklist, status board, roadmap, or controller log.
+- A single family is named; no mixed selection across figures.
+- Figure geometry, sizes, markers, and data are unchanged by the swap.
+- Tabular lining numerals (`font-variant-numeric: tabular-nums lining-nums`) remain set on every figure.
+- The final-typography sub-gate of VIS-004 is unblocked only after this follow-up is accepted.
 
 ## 3. CTRL-018 — Reconcile VIS-007 and VIS-008 (controller task)
 
@@ -90,7 +91,7 @@ Stop after status, checklist, and controller log are updated. Do not edit any fi
 ## Blocked tasks — do not dispatch
 
 - `MAP-001`: requires a verified Library of Congress item 2021668660 raster derivative URL, dimensions, checksum, original legend scan, and a human source comparison. The specification is not finished artwork.
-- `VIS-004` final-typography gate: BLOCKED pending `TYPE-001` decision. The three other VIS-004 gates are dispatchable under this prompt.
+- `VIS-004` final-typography gate: BLOCKED pending the project lead's TYPE-001 selection and the follow-up swap. The three other VIS-004 gates are dispatchable under this prompt.
 
 ## After this batch
 

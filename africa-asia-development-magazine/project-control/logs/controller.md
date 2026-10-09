@@ -1,5 +1,25 @@
 # Roadmap Controller Log
 
+## 2026-10-09 — TYPE-001 delivery — Three candidate typefaces and PDF visual tester
+
+- **Status:** REVIEW — awaiting the project lead's selection
+- **Objective:** Deliver TYPE-001 as a recommendation rather than a lock: three open-licensed candidate typefaces plus a self-contained A3-landscape PDF visual tester that applies each candidate to the same hierarchy sample.
+- **Inputs read:** `design/DESIGN_GUIDE.md`; `design/SELECTED_COMPARISON_SYSTEM.md`; `design/figures/COMPARISON_SYSTEM.md`; the four current figure specs; `project-control/STATUS.md`; `project-control/NEXT_AGENT_PROMPTS.md`; `project-control/logs/LOG_TEMPLATE.md`; this log.
+- **Files created or changed:** Created `design/TYPOGRAPHY_RECOMMENDATION.md`, `design/typography_tester/type-001_visual_tester.html`, `design/typography_tester/fonts.css`, `design/typography_tester/type-001_visual_tester.pdf`, `project-control/logs/TYPE-001.md`. Updated `project-control/STATUS.md` and `project-control/NEXT_AGENT_PROMPTS.md`; appended this entry. No figure SVG, chart CSV, master file, registry, selected-system document, page copy, or checklist entry was changed.
+- **Candidates presented:** Montserrat (project-lead named; geometric; Black 900), Inter (humanist; screen-tuned; data-journalism standard), IBM Plex Sans (editorial-technical; ships Serif/Mono/Condensed siblings; ceiling at Bold 700). All three are SIL Open Font Licence 1.1.
+- **Visual tester integrity:**
+    - A3 landscape, 3 pages, 898 KB.
+    - `pdffonts` lists 14 Type 3 font subsets across the three families (5 Montserrat; 5 Inter; 4 IBM Plex Sans). All embedded, all subsetted, all mapped to Unicode. Chrome header fallback traces (Times-Roman, LucidaGrande) do not render any user-visible sample content.
+    - Self-contained: `fonts.css` holds the six Google Fonts woff2 bundles as base64 `data:` URIs; the tester re-renders offline and does not depend on any file outside the `design/typography_tester/` directory.
+- **Hierarchy proposed:** Page-level editorial scale H0 (72 pt), H1 (48 pt), H2 (32 pt), H3 (22 pt), deck (16 pt), eyebrow (11 pt, UPPERCASE, +14 % tracked), body (10.5 pt), caption (9 pt), figure note (7.5–8 pt), credit (7 pt). Figure-level sizes remain unchanged from the four production specs.
+- **Decisions and limitations:**
+    - This is a recommendation. No family is locked, no production figure is edited, and `design/TYPOGRAPHY_DECISION.md` is not written yet.
+    - Only open-licensed candidates were considered to keep the classroom-distributed magazine licence-safe. Proprietary families (Söhne, Helvetica beyond fallback) are excluded by that constraint.
+    - Chrome embeds the candidate families as Type 3 subset fonts; a future xelatex rebuild would use TrueType subsets instead, with no visual change.
+- **Status-board changes:** Added TYPE-001 row at state REVIEW; updated "Last reconciled" to 2026-10-09; updated "Current stage" and "Recommended next batch" to point at the project lead's selection as the next blocking input. Estimated progress raised to 74 %.
+- **Blockers:** None for TYPE-001. The final-typography sub-gate of VIS-004 remains BLOCKED pending the project lead's selection and the short follow-up that swaps `"Aptos"` to the chosen family in the four production SVGs and updates their specs.
+- **Exact next action:** Project lead opens `design/typography_tester/type-001_visual_tester.pdf`, selects Montserrat / Inter / IBM Plex Sans, and signs off the hierarchy; a short follow-up then produces `design/TYPOGRAPHY_DECISION.md` and propagates the family swap through the four production SVGs and their specs.
+
 ## 2026-10-08 — CTRL-017 — Lock named reviewer owners for VIS-004 and record Aptos deferral
 
 - **Status:** DONE

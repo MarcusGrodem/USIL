@@ -1,8 +1,8 @@
 # Agent Status Board
 
 **Owner:** Roadmap Controller Agent  
-**Last reconciled:** 2026-10-08 (CTRL-017)
-**Current stage:** VIS-007 (employment) and VIS-008 (manufacturing) delivered at digital-gate scope and awaiting controller acceptance; CTRL-017 locked Marcus Grude Grodem as named reviewer for all four VIS-004 gates; final typeface decision deferred — Aptos not confirmed; back-row five-second redundancy carries a methodological note
+**Last reconciled:** 2026-10-09 (TYPE-001 delivery)
+**Current stage:** VIS-007 (employment) and VIS-008 (manufacturing) delivered at digital-gate scope and awaiting controller acceptance; CTRL-017 locked Marcus Grude Grodem as named reviewer for all four VIS-004 gates; TYPE-001 delivered three open-licensed candidate typefaces (Montserrat, Inter, IBM Plex Sans) with a self-contained A3-landscape PDF visual tester and now awaits the project lead's selection; back-row five-second redundancy carries a methodological note
 **Checklist:** `project-control/REPORT_CHECKLIST.md`
 
 ## Task queue
@@ -52,13 +52,14 @@
 | VIS-006 | Build the six-country GDP anchor dashboard family | Charts & Maps Agent | DONE | A4 and 16:9 dashboards, tidy 18-row CSV matching frozen master, and spec; 24 `<use>` marks per canvas with all required caveats (final release blocked by VIS-004) |
 | VIS-007 | Build the employment structural-transformation visual at the 1991 proxy and 2020 anchors | Charts & Maps / Editorial Design Agent | REVIEW | A4 and 16:9 stacked-bar figures, tidy 36-row CSV, and spec honouring the 1960 exclusion and the deterministic one-decimal sum-to-100 rule (final release blocked by VIS-004) |
 | VIS-008 | Build the manufacturing-share comparison visual from the frozen six-country rows | Charts & Maps Agent | REVIEW | A4 and 16:9 small-multiples figures, 15-row CSV matching frozen `NV.IND.MANF.ZS` master rows, and spec; Philippines 1960 and 1990 shown as narrative-only annotations (never connected to the 2020 WDI observation); Mauritius 1960 absent and the connector stops at 1990 (final release blocked by VIS-004) |
+| TYPE-001 | Confirm or substitute the Aptos default typeface and define a multi-size magazine headline hierarchy | Editorial & Design Agent → Project lead for selection | REVIEW | Three open-licensed candidates (Montserrat, Inter, IBM Plex Sans) in `design/TYPOGRAPHY_RECOMMENDATION.md`; self-contained A3-landscape PDF visual tester at `design/typography_tester/type-001_visual_tester.pdf` embedding all three families as Type 3 subsets; H0–H3 editorial hierarchy and figure stack defined; project lead opens the PDF and records a selection, then a follow-up swaps `"Aptos"` to the chosen family in the four production SVGs and updates their specs |
 
 ## Recommended next batch
 
-The 2026-10-08 CTRL-017 reconciliation locked Marcus Grude Grodem as the named reviewer for all four VIS-004 release gates. VIS-007 and VIS-008 are delivered at digital-gate scope and await a controller reconciliation (next CTRL slot). The final typeface decision is deferred: Aptos is not confirmed and the typography sub-gate of VIS-004 cannot dispatch until a replacement typeface is selected. The next non-overlapping batch is:
+The 2026-10-08 CTRL-017 reconciliation locked Marcus Grude Grodem as the named reviewer for all four VIS-004 release gates. The 2026-10-09 TYPE-001 delivery produced three open-licensed candidate typefaces (Montserrat, Inter, IBM Plex Sans) and a self-contained A3-landscape PDF visual tester; the project lead's selection is now the blocking input. VIS-007 and VIS-008 are delivered at digital-gate scope and await a controller reconciliation (next CTRL slot). The next non-overlapping batch is:
 
-1. `VIS-004` (three of four gates) — Marcus Grude Grodem runs the back-row five-second, physical A4, and colour-vision reviews against the current VIS-002/003 production family and the VIS-005/006/007/008 figures that inherit the same system. Each gate records tester name, method, date, setup, findings, failures, and disposition. The back-row five-second gate is run under a recorded methodological note that one reviewer removes cross-reviewer redundancy; an independent second reader is recommended but not blocking.
-2. `TYPE-001` (new, to be opened) — review modern typeface alternatives to Aptos (including those used in reference infographics) and record the chosen family, weights, and licensing before dispatching the final-typography sub-gate of VIS-004. Until this task closes, the typography gate remains BLOCKED.
+1. **TYPE-001 selection** — project lead opens `design/typography_tester/type-001_visual_tester.pdf`, selects one of Montserrat / Inter / IBM Plex Sans, and signs off the H0–H3 hierarchy in `design/TYPOGRAPHY_RECOMMENDATION.md`. A short follow-up then writes `design/TYPOGRAPHY_DECISION.md`, swaps `"Aptos"` to the chosen family in the four production SVGs, and updates their spec typography sections.
+2. `VIS-004` (three of four gates) — Marcus Grude Grodem runs the back-row five-second, physical A4, and colour-vision reviews against the current VIS-002/003 production family and the VIS-005/006/007/008 figures that inherit the same system. Each gate records tester name, method, date, setup, findings, failures, and disposition. The back-row five-second gate is run under a recorded methodological note that one reviewer removes cross-reviewer redundancy; an independent second reader is recommended but not blocking.
 3. Controller reconciliation (`CTRL-018`) to accept or reject VIS-007 and VIS-008 against their acceptance criteria.
 4. `MAP-001` remains non-dispatchable until the verified LOC raster derivative URL, dimensions, checksum, and original legend are supplied by the project lead.
 
