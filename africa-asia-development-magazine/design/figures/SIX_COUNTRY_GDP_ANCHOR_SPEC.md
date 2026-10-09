@@ -194,6 +194,7 @@ The following checks were run on 2026-10-08.
 - **Canvas-bounds check.** Every non-local `y` attribute in each SVG renders within `[0, viewBox height]`. The two negative y values detected by a bulk scan are inside the Botswana and Philippines marker symbols' local viewBoxes (`-14 … 14` for 16:9; `-18 … 18` for A4) and are intentional symbol geometry, not canvas content.
 - **Contrast calculation on cream.** Data-colour contrasts match the selected system record (Ghana 4.25:1; Botswana 5.59:1; Mauritius 2.03:1; Korea 6.45:1; Malaysia 4.68:1; Philippines 5.62:1). The Mauritius repair rule is implemented in both figures.
 - **Grayscale identification.** In a conceptual grayscale conversion, identity remains recoverable from full country name, marker geometry, solid/long-dashed connector, and the printed values; colour is redundant.
+- **Named-reviewer layout repair (2026-10-09).** Human screen review identified overlapping row/unit labels and overlong note copy. The A4 and 16:9 revisions remove the redundant in-plot region/unit labels, state row order and unit once in the deck, shorten all three caveat columns, reduce the 16:9 heading scale, relocate the South Korea 2020 value away from its country heading, and keep all 18 marker coordinates and the shared 0–35,000 transforms unchanged.
 
 ## Release-gate scope
 

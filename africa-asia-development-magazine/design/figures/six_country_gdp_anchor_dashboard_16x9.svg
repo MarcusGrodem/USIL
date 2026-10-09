@@ -22,8 +22,8 @@
       .display { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
       .text { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
       .eyebrow { font-size: 18px; font-weight: 750; letter-spacing: 1.8px; }
-      .title { font-size: 32px; font-weight: 780; letter-spacing: -0.5px; }
-      .deck { font-size: 18px; font-weight: 500; fill: #403D38; }
+      .title { font-size: 28px; font-weight: 780; letter-spacing: -0.4px; }
+      .deck { font-size: 16px; font-weight: 500; fill: #403D38; }
       .region { font-size: 18px; font-weight: 800; letter-spacing: 2.6px; fill: #514E48; }
       .country-name { font-size: 22px; font-weight: 780; }
       .axis { font-size: 22px; font-weight: 650; fill: #514E48; font-variant-numeric: tabular-nums; }
@@ -68,14 +68,12 @@
   <!-- Heading band -->
   <g id="heading">
     <text x="30" y="26" class="text eyebrow">SIX COUNTRIES · OBSERVED ANCHORS 1960 · 1990 · 2020</text>
-    <text x="30" y="58" class="display title">GDP per capita at three anchors. One shared axis.</text>
-    <text x="30" y="80" class="text deck">Constant 2015 US$ per person. African and Asian paths both vary within region; the chart does not identify a cause.</text>
+    <text x="30" y="56" class="display title">GDP per capita at three anchors. One shared axis.</text>
+    <text x="30" y="76" class="text deck">Constant 2015 US$ per person · Africa top row, Asia below · one shared scale · no causal claim</text>
   </g>
 
   <!-- Row 1: Africa -->
   <g id="row-africa">
-    <text x="30" y="97" class="text region">AFRICA</text>
-    <text x="30" y="118" class="text axis-head">CONSTANT 2015 US$</text>
 
     <!-- Row 1 shared axis -->
     <g id="row1-axis" aria-label="Row 1 shared axis: 0 to 35,000 constant 2015 US dollars">
@@ -152,8 +150,6 @@
 
   <!-- Row 2: Asia -->
   <g id="row-asia">
-    <text x="30" y="360" class="text region">ASIA</text>
-    <text x="30" y="381" class="text axis-head">CONSTANT 2015 US$</text>
 
     <!-- Row 2 shared axis -->
     <g id="row2-axis" aria-label="Row 2 shared axis: 0 to 35,000 constant 2015 US dollars">
@@ -182,7 +178,8 @@
       <use href="#m-korea" xlink:href="#m-korea" x="401" y="364.1947" width="28" height="28"/>
       <text x="125" y="541" text-anchor="middle" class="text value">$1,038</text>
       <text x="270" y="492" text-anchor="middle" class="text value">$9,673</text>
-      <text x="415" y="358" text-anchor="middle" class="text value">$33,216</text>
+      <rect x="363" y="397" width="104" height="30" rx="3" fill="#F4F0E7" opacity="0.96"/>
+      <text x="415" y="420" text-anchor="middle" class="text value">$33,216</text>
       <text x="125" y="591" text-anchor="middle" class="text year">1960</text>
       <text x="270" y="591" text-anchor="middle" class="text year">1990</text>
       <text x="415" y="591" text-anchor="middle" class="text year">2020</text>
@@ -233,22 +230,22 @@
   <!-- Reading notes band -->
   <g id="reading-notes">
     <text x="30" y="634" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="30" y="656" class="text note">Straight connectors link the three dated points only;</text>
-    <text x="30" y="676" class="text note">they do not estimate any value between years.</text>
+    <text x="30" y="656" class="text note">Only three dated observations are linked.</text>
+    <text x="30" y="676" class="text note">No in-between values are shown.</text>
 
     <text x="440" y="634" class="text note-head">VISIBLE CAVEATS</text>
-    <text x="440" y="656" class="text note">† Malaysia 1960 is a retrospective territorial series across</text>
-    <text x="440" y="676" class="text note">the 1963 formation of Malaysia. 2020 is the COVID-19 year.</text>
+    <text x="440" y="656" class="text note">† Malaysia 1960 predates its 1963 formation.</text>
+    <text x="440" y="676" class="text note">2020 is the COVID-19 endpoint.</text>
 
     <text x="860" y="634" class="text note-head">WHAT THIS COMPARISON CANNOT PROVE</text>
-    <text x="860" y="656" class="text note">Gaps do not identify whether culture, policy, institutions,</text>
-    <text x="860" y="676" class="text note">war, aid, or another factor caused them. Not a race.</text>
+    <text x="860" y="656" class="text note">The gaps do not identify their causes.</text>
+    <text x="860" y="676" class="text note">Culture, policy, war, or aid? Not a race.</text>
   </g>
 
   <line x1="30" y1="690" x2="1250" y2="690" class="panel-rule"/>
 
   <!-- Figure note -->
   <g id="figure-note">
-    <text x="30" y="708" class="text note" font-size="14"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. Data from <tspan font-style="italic">World Development Indicators</tspan> (NY.GDP.PCAP.KD), by World Bank (2026). <a href="https://databank.worldbank.org/source/world-development-indicators" xlink:href="https://databank.worldbank.org/source/world-development-indicators" target="_blank"><tspan text-decoration="underline">WDI DataBank</tspan></a>. SRC-WDI-001 · WDI release 2026-07-13; retrieved 2026-10-06 · Frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
+    <text x="30" y="708" class="text note" style="font-size:12px"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. WDI NY.GDP.PCAP.KD · World Bank (2026) · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
   </g>
 </svg>

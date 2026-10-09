@@ -71,16 +71,14 @@
   <g id="heading">
     <text x="64" y="60" class="text eyebrow">SIX COUNTRIES · OBSERVED ANCHORS 1960 · 1990 · 2020</text>
     <text x="64" y="118" class="display title">Observed GDP per capita at three anchors. One shared axis.</text>
-    <text x="64" y="156" class="text deck">GDP per capita, constant 2015 US$ per person. African and Asian paths both vary within region; the chart does not identify a cause.</text>
+    <text x="64" y="156" class="text deck">Constant 2015 US$ per person · Africa top row, Asia below · one shared scale · no causal claim</text>
   </g>
 
   <!-- Row 1: Africa panels -->
   <g id="row-africa">
-    <text x="64" y="212" class="text region">AFRICA</text>
 
     <!-- Shared y-axis for Row 1 -->
     <g id="row1-axis" aria-label="Row 1 shared axis: 0 to 35,000 constant 2015 US dollars">
-      <text x="64" y="232" class="text axis-head">CONSTANT 2015 US$</text>
       <line x1="146" y1="220" x2="1566" y2="220" class="grid"/>
       <line x1="146" y1="267.1429" x2="1566" y2="267.1429" class="grid"/>
       <line x1="146" y1="361.4286" x2="1566" y2="361.4286" class="grid"/>
@@ -154,11 +152,9 @@
 
   <!-- Row 2: Asia panels -->
   <g id="row-asia">
-    <text x="64" y="612" class="text region">ASIA</text>
 
     <!-- Shared y-axis for Row 2 -->
     <g id="row2-axis" aria-label="Row 2 shared axis: 0 to 35,000 constant 2015 US dollars">
-      <text x="64" y="632" class="text axis-head">CONSTANT 2015 US$</text>
       <line x1="146" y1="620" x2="1566" y2="620" class="grid"/>
       <line x1="146" y1="667.1429" x2="1566" y2="667.1429" class="grid"/>
       <line x1="146" y1="761.4286" x2="1566" y2="761.4286" class="grid"/>
@@ -235,22 +231,22 @@
   <!-- Reading notes band -->
   <g id="reading-notes">
     <text x="64" y="1026" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="64" y="1050" class="text note">Straight connectors link the three dated points only.</text>
-    <text x="64" y="1072" class="text note">They do not show or estimate any value between years.</text>
+    <text x="64" y="1050" class="text note">Lines link only the three dated observations.</text>
+    <text x="64" y="1072" class="text note">No values between years are shown or estimated.</text>
 
     <text x="560" y="1026" class="text note-head">VISIBLE CAVEATS</text>
-    <text x="560" y="1050" class="text note">† Malaysia 1960 is a retrospective territorial series across</text>
-    <text x="560" y="1072" class="text note">the 1963 formation of Malaysia. 2020 is the COVID-19 year.</text>
+    <text x="560" y="1050" class="text note">† Malaysia 1960 crosses its 1963 formation.</text>
+    <text x="560" y="1072" class="text note">All 2020 points fall in the COVID-19 year.</text>
 
     <text x="1056" y="1026" class="text note-head">WHAT THIS COMPARISON CANNOT PROVE</text>
-    <text x="1056" y="1050" class="text note">Gaps do not identify whether culture, policy, institutions,</text>
-    <text x="1056" y="1072" class="text note">war, aid, or another factor caused them. Not a race.</text>
+    <text x="1056" y="1050" class="text note">Gaps do not identify culture, policy, institutions,</text>
+    <text x="1056" y="1072" class="text note">war, aid, or another cause. Not a race.</text>
   </g>
 
-  <line x1="64" y1="1086" x2="1536" y2="1086" class="panel-rule"/>
+  <line x1="64" y1="1080" x2="1536" y2="1080" class="panel-rule"/>
 
   <!-- Figure note -->
   <g id="figure-note">
-    <text x="64" y="1098" class="text note" font-size="16"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$ per person. Data from <tspan font-style="italic">World Development Indicators</tspan> (NY.GDP.PCAP.KD), by World Bank (2026). <a href="https://databank.worldbank.org/source/world-development-indicators" xlink:href="https://databank.worldbank.org/source/world-development-indicators" target="_blank"><tspan text-decoration="underline">WDI DataBank</tspan></a>. SRC-WDI-001 · WDI release 2026-07-13; retrieved 2026-10-06 · Frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
+    <text x="64" y="1094" class="text note" style="font-size:12px"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. WDI NY.GDP.PCAP.KD · World Bank (2026) · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
   </g>
 </svg>

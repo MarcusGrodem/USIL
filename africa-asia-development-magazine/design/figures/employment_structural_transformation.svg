@@ -3,19 +3,23 @@
 <title id="chart-title">Employment structural transformation, six locked country cases, 1991 (proxy for 1990) and 2020</title>
 <desc id="chart-desc">Share of total employment by broad sector, agriculture, industry, services, at two years. Ghana, 1991: agriculture 71.8 percent, industry 9.0 percent, services 19.2 percent. 2020: agriculture 37.4 percent, industry 15.2 percent, services 47.4 percent. Botswana, 1991: agriculture 12.6 percent, industry 21.3 percent, services 66.1 percent. 2020: agriculture 19.5 percent, industry 15.0 percent, services 65.5 percent. Mauritius, 1991: agriculture 19.6 percent, industry 35.0 percent, services 45.4 percent. 2020: agriculture 5.3 percent, industry 23.4 percent, services 71.3 percent. South Korea, 1991: agriculture 15.5 percent, industry 37.1 percent, services 47.4 percent. 2020: agriculture 5.4 percent, industry 24.6 percent, services 70.0 percent. Malaysia, 1991: agriculture 18.9 percent, industry 32.8 percent, services 48.3 percent. 2020: agriculture 10.5 percent, industry 26.2 percent, services 63.3 percent. Philippines, 1991: agriculture 44.1 percent, industry 16.6 percent, services 39.3 percent. 2020: agriculture 24.5 percent, industry 18.7 percent, services 56.8 percent. Each column sums to one hundred by the dictionary rule. 1991 is a plus-one proxy for the requested 1990 anchor. The 1960 anchor is excluded because the three-sector ILO modelled series has no harmonised 1960 observation. The 2020 observation is the COVID-19 year. The chart observes anchors only and does not estimate values between years. Gaps and shifts do not identify whether culture, policy, institutions, war, aid, or any other factor caused them. Not a race.</desc>
 <metadata>VIS-007 Employment structural transformation. Indicators SL.AGR.EMPL.ZS, SL.IND.EMPL.ZS, SL.SRV.EMPL.ZS. Source SRC-WDI-001 (World Development Indicators, ILO modelled estimates). WDI release 2026-07-13; retrieved 2026-10-06. Frozen master: data/master/six_country_chart_inputs.csv. Frozen chart data: data/charts/employment_structural_transformation.csv. Specification: design/figures/EMPLOYMENT_STRUCTURAL_TRANSFORMATION_SPEC.md. Scale: 1 percent = 3.0 units; plot height = 300 units; stack order from bottom up is agriculture, industry, services. Display shares use the dictionary one-decimal sum-to-100 rule and sum exactly to 100.0 per country-year.</metadata>
+<defs>
+  <pattern id="agriculture-pattern" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#2F6B4F"/><path d="M-2,12 L12,-2 M5,16 L16,5" stroke="#F4F0E7" stroke-width="1.2" opacity="0.28"/></pattern>
+  <pattern id="industry-pattern" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#D07A32"/><path d="M3,0 V12 M9,0 V12" stroke="#252525" stroke-width="0.9" opacity="0.20"/></pattern>
+  <pattern id="services-pattern" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#6FA3C8"/><circle cx="4" cy="4" r="1.3" fill="#252525" opacity="0.23"/><circle cx="11" cy="11" r="1.3" fill="#252525" opacity="0.23"/></pattern>
+  <style>rect[fill="#4A3D28"] { fill: url(#agriculture-pattern); } rect[fill="#9B8F6E"] { fill: url(#industry-pattern); } rect[fill="#DBD2BA"] { fill: url(#services-pattern); }</style>
+</defs>
 <rect x="0" y="0" width="1600" height="1100" fill="#F4F0E7"/>
 <text x="60" y="40" fill="#403D38" font-size="18" letter-spacing="2" font-weight="600">VIS-007 . EVIDENCE LEDGER . EMPLOYMENT BY SECTOR</text>
-<text x="60" y="85" fill="#252525" font-size="44" font-weight="700">Where employment sat in each economy at the proxy 1991 anchor and in 2020.</text>
-<text x="60" y="125" fill="#403D38" font-size="20" font-weight="500">Share of total employment by sector . agriculture, industry, services . six locked country cases . 1991 is a plus-one proxy for the requested 1990 anchor</text>
-<text x="60" y="149" fill="#514E48" font-size="18" font-weight="400">World Development Indicators, ILO modelled estimates (SL.AGR.EMPL.ZS, SL.IND.EMPL.ZS, SL.SRV.EMPL.ZS) . constant comparability class on each column . no 1960 observation exists in this series</text>
-<text x="60" y="195" fill="#252525" font-size="20" font-weight="700" letter-spacing="1.5">AFRICA</text>
-<text x="60" y="605" fill="#252525" font-size="20" font-weight="700" letter-spacing="1.5">ASIA</text>
-<rect x="1190" y="183" width="18" height="18" fill="#4A3D28" stroke="#252525" stroke-width="1"/>
-<text x="1214" y="198" fill="#403D38" font-size="18" font-weight="600">Agriculture</text>
-<rect x="1336.9" y="183" width="18" height="18" fill="#9B8F6E" stroke="#252525" stroke-width="1"/>
-<text x="1360.9" y="198" fill="#403D38" font-size="18" font-weight="600">Industry</text>
-<rect x="1454.1000000000001" y="183" width="18" height="18" fill="#DBD2BA" stroke="#252525" stroke-width="1"/>
-<text x="1478.1000000000001" y="198" fill="#403D38" font-size="18" font-weight="600">Services</text>
+<text x="60" y="85" fill="#252525" font-size="44" font-weight="700">How work moved across sectors, 1991 to 2020.</text>
+<text x="60" y="120" fill="#403D38" font-size="20" font-weight="500">Six country cases · Africa on the top row, Asia below · each bar represents 100% of employment</text>
+<text x="60" y="147" fill="#514E48" font-size="18" font-weight="400">1991 † is the proxy for 1990 · 2020 is the pandemic endpoint · no harmonised 1960 observation exists</text>
+<rect x="900" y="153" width="18" height="18" fill="#4A3D28" stroke="#252525" stroke-width="1"/>
+<text x="924" y="168" fill="#403D38" font-size="18" font-weight="600">Agriculture</text>
+<rect x="1064" y="153" width="18" height="18" fill="#9B8F6E" stroke="#252525" stroke-width="1"/>
+<text x="1088" y="168" fill="#403D38" font-size="18" font-weight="600">Industry</text>
+<rect x="1190" y="153" width="18" height="18" fill="#DBD2BA" stroke="#252525" stroke-width="1"/>
+<text x="1214" y="168" fill="#403D38" font-size="18" font-weight="600">Services</text>
 <g aria-label="Ghana: 1991, agriculture 71.8 percent, industry 9.0 percent, services 19.2 percent. 2020, agriculture 37.4 percent, industry 15.2 percent, services 47.4 percent.">
 <circle cx="72.0" cy="182" r="10.0" fill="#B95332" stroke="#252525" stroke-width="1.6"/>
 <text x="92.0" y="190.0" fill="#252525" font-size="24" font-weight="700">Ghana</text>
@@ -36,7 +40,6 @@
 <rect x="350.00" y="210.000" width="90" height="142.200" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="395.00" y="286.35" fill="#252525" font-size="15" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">47.4</text>
 <text x="395.00" y="534.00" fill="#252525" font-size="20" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
-<text x="300.00" y="558.00" fill="#514E48" font-size="16" text-anchor="middle">1991 † proxy for 1990  .  2020 pandemic-year endpoint</text>
 </g>
 <g aria-label="Botswana: 1991, agriculture 12.6 percent, industry 21.3 percent, services 66.1 percent. 2020, agriculture 19.5 percent, industry 15.0 percent, services 65.5 percent.">
 <rect x="562.0" y="172.0" width="20" height="20" fill="#3F684E" stroke="#252525" stroke-width="1.6"/>
@@ -58,7 +61,6 @@
 <rect x="850.00" y="210.000" width="90" height="196.500" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="895.00" y="313.50" fill="#252525" font-size="15" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">65.5</text>
 <text x="895.00" y="534.00" fill="#252525" font-size="20" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
-<text x="800.00" y="558.00" fill="#514E48" font-size="16" text-anchor="middle">1991 † proxy for 1990  .  2020 pandemic-year endpoint</text>
 </g>
 <g aria-label="Mauritius: 1991, agriculture 19.6 percent, industry 35.0 percent, services 45.4 percent. 2020, agriculture 5.3 percent, industry 23.4 percent, services 71.3 percent.">
 <polygon points="1072.0,172.0 1082.0,192.0 1062.0,192.0" fill="#D6A23A" stroke="#252525" stroke-width="1.8"/>
@@ -81,7 +83,6 @@
 <rect x="1350.00" y="210.000" width="90" height="213.900" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="1395.00" y="322.20" fill="#252525" font-size="15" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">71.3</text>
 <text x="1395.00" y="534.00" fill="#252525" font-size="20" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
-<text x="1300.00" y="558.00" fill="#514E48" font-size="16" text-anchor="middle">1991 † proxy for 1990  .  2020 pandemic-year endpoint</text>
 </g>
 <g aria-label="South Korea: 1991, agriculture 15.5 percent, industry 37.1 percent, services 47.4 percent. 2020, agriculture 5.4 percent, industry 24.6 percent, services 70.0 percent.">
 <polygon points="72.0,582.0 82.0,592 72.0,602.0 62.0,592" fill="#315A78" stroke="#252525" stroke-width="1.6"/>
@@ -104,7 +105,6 @@
 <rect x="350.00" y="620.000" width="90" height="210.000" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="395.00" y="730.25" fill="#252525" font-size="15" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">70.0</text>
 <text x="395.00" y="944.00" fill="#252525" font-size="20" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
-<text x="300.00" y="968.00" fill="#514E48" font-size="16" text-anchor="middle">1991 † proxy for 1990  .  2020 pandemic-year endpoint</text>
 </g>
 <g aria-label="Malaysia: 1991, agriculture 18.9 percent, industry 32.8 percent, services 48.3 percent. 2020, agriculture 10.5 percent, industry 26.2 percent, services 63.3 percent.">
 <polygon points="580.66,597.00 572.00,602.00 563.34,597.00 563.34,587.00 572.00,582.00 580.66,587.00" fill="#3E7568" stroke="#252525" stroke-width="1.6"/>
@@ -126,7 +126,6 @@
 <rect x="850.00" y="620.000" width="90" height="189.900" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="895.00" y="720.20" fill="#252525" font-size="15" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">63.3</text>
 <text x="895.00" y="944.00" fill="#252525" font-size="20" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
-<text x="800.00" y="968.00" fill="#514E48" font-size="16" text-anchor="middle">1991 † proxy for 1990  .  2020 pandemic-year endpoint</text>
 </g>
 <g aria-label="Philippines: 1991, agriculture 44.1 percent, industry 16.6 percent, services 39.3 percent. 2020, agriculture 24.5 percent, industry 18.7 percent, services 56.8 percent.">
 <g stroke="#252525" stroke-width="2.2" fill="none"><line x1="1062.0" y1="582.0" x2="1082.0" y2="602.0"/><line x1="1062.0" y1="602.0" x2="1082.0" y2="582.0"/></g><g stroke="#A63A3A" stroke-width="1.4" fill="none"><line x1="1062.0" y1="582.0" x2="1082.0" y2="602.0"/><line x1="1062.0" y1="602.0" x2="1082.0" y2="582.0"/></g>
@@ -148,7 +147,6 @@
 <rect x="1350.00" y="620.000" width="90" height="170.400" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="1395.00" y="710.45" fill="#252525" font-size="15" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">56.8</text>
 <text x="1395.00" y="944.00" fill="#252525" font-size="20" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
-<text x="1300.00" y="968.00" fill="#514E48" font-size="16" text-anchor="middle">1991 † proxy for 1990  .  2020 pandemic-year endpoint</text>
 </g>
 <rect x="60" y="960" width="1480" height="90" fill="#F4F0E7" stroke="#B7B0A4" stroke-width="0.8"/>
 <text x="72.00" y="986.00" fill="#252525" font-size="18" font-weight="700" letter-spacing="1">OBSERVED ANCHORS ONLY</text>
@@ -161,8 +159,8 @@
 <text x="565.33" y="1038.00" fill="#403D38" font-size="15">observation exists in the ILO modelled three-sector series.</text>
 <text x="1058.67" y="986.00" fill="#252525" font-size="18" font-weight="700" letter-spacing="1">WHAT THIS COMPARISON CANNOT PROVE</text>
 <text x="1058.67" y="1000.00" fill="#403D38" font-size="15">Gaps and shifts do not identify whether culture, policy,</text>
-<text x="1058.67" y="1019.00" fill="#403D38" font-size="15">institutions, war, aid, or any other factor caused them. Not</text>
-<text x="1058.67" y="1038.00" fill="#403D38" font-size="15">a race. The chart does not identify a cause.</text>
-<text x="60" y="1080.00" fill="#514E48" font-size="14" font-style="italic">Note. Share of total employment by broad sector (agriculture, industry, services), 1991 (proxy for 1990) and 2020. Data from World Development Indicators, ILO modelled estimates (SL.AGR.EMPL.ZS,</text>
-<text x="60" y="1097.00" fill="#514E48" font-size="14" font-style="italic">SL.IND.EMPL.ZS, SL.SRV.EMPL.ZS), by World Bank (2026). WDI DataBank. SRC-WDI-001 . WDI release 2026-07-13; retrieved 2026-10-06 . Frozen CSV: data/charts/employment_structural_transformation.csv.</text>
+<text x="1058.67" y="1019.00" fill="#403D38" font-size="15">institutions, war, aid, or any other factor caused them.</text>
+<text x="1058.67" y="1038.00" fill="#403D38" font-size="15">Not a race. The chart does not identify a cause.</text>
+<text x="60" y="1076.00" fill="#514E48" font-size="13" font-style="italic">Note. Employment share by sector, 1991 (proxy for 1990) and 2020. WDI / ILO modelled estimates: SL.AGR.EMPL.ZS, SL.IND.EMPL.ZS, SL.SRV.EMPL.ZS.</text>
+<text x="60" y="1093.00" fill="#514E48" font-size="13" font-style="italic">World Bank (2026) · SRC-WDI-001 · WDI release 2026-07-13 · retrieved 2026-10-06 · frozen CSV: data/charts/employment_structural_transformation.csv.</text>
 </svg>

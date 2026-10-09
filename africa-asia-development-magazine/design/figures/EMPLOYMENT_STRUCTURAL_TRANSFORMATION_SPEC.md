@@ -64,8 +64,8 @@ Each displayed `display_value_1dp` matches the frozen master exactly; the underl
 
 ## Required visible caveats
 
-- **1991 proxy (†):** Every bar labelled `1991 †` is a plus-one proxy for the requested 1990 anchor. The symbol and its explanation are repeated on every panel foot and in the reading-notes band.
-- **2020 pandemic endpoint:** Each 2020 bar carries the figure-wide `2020 pandemic-year endpoint` tag beneath it, and the reading-notes band repeats the limitation.
+- **1991 proxy (†):** Every applicable bar is labelled `1991 †`; the deck and reading-notes band explain that it is the plus-one proxy for the requested 1990 anchor.
+- **2020 pandemic endpoint:** Every second bar is labelled `2020`; the deck and reading-notes band identify it as the pandemic endpoint.
 - **No 1960 observation:** The reading-notes band and the accessibility description both state that no 1960 observation exists in the ILO modelled three-sector series, so the 1960 anchor is excluded from this figure specifically.
 - **Observed anchors only:** The band states that each bar is one dated observation and that the chart does not estimate values between 1991 and 2020.
 - **Not a race:** The band includes `Not a race.` and `the chart does not identify a cause.`
@@ -131,26 +131,26 @@ Country colour is for navigation only and does not encode better/worse, richer/p
 - **Bar geometry:** Bar 1 centre x = `panel_x + 110`; Bar 2 centre x = `panel_x + 270`; bar width 70.
 - **Segment transform:** `y = y_base − (cum + s) × 2`, `height = s × 2`.
 
-## Sector colour system and grayscale behaviour
+## Sector colour, texture, and grayscale behaviour
 
-Country colour never identifies the sectors in this figure. The three sectors have fixed grayscale-separated fills with a charcoal keyline on every segment, so the identification remains readable with colour stripped.
+Country colour never identifies the sectors in this figure. Following the named reviewer’s 2026-10-09 finding that the original brown/grey/parchment set felt dull, the production revision uses a more vivid semantic palette plus a different texture for every sector. A charcoal keyline remains on every segment, so colour is not the only identifier.
 
 | Sector | Fill | Keyline | Grayscale value class |
 |---|---|---|---|
-| Agriculture | `#4A3D28` (dark earthy brown) | `#252525` 0.8 pt | darkest tone |
-| Industry | `#9B8F6E` (ochre-gray) | `#252525` 0.8 pt | mid tone |
-| Services | `#DBD2BA` (light parchment) | `#252525` 0.8 pt | lightest tone |
+| Agriculture | `#2F6B4F` forest green + diagonal field texture | `#252525` 0.8 pt | darkest tone; cream value text |
+| Industry | `#D07A32` production orange + vertical-line texture | `#252525` 0.8 pt | mid tone; charcoal value text |
+| Services | `#6FA3C8` clear blue + dot texture | `#252525` 0.8 pt | lightest tone; charcoal value text |
 
 Direct in-segment value labels print in cream `#F4F0E7` on agriculture and in charcoal `#252525` on industry and services. Any segment too thin to carry an inside label (threshold: height < 24 units on A4; < 16 units on 16:9) is directly labelled outside the bar with a leader line in charcoal; this applies to Mauritius 2020 agriculture (5.3 %) and South Korea 2020 agriculture (5.4 %) in both files.
 
-In grayscale conversion, each stacked bar remains unambiguously three bands of different lightness, the dark–mid–light pattern is identical across all 12 bars, the full country name sits in every panel heading, and every segment carries its printed percentage. No reader relies on colour perception alone.
+In grayscale conversion, each stacked bar remains three bands with different lightness and texture: diagonal agriculture, vertical industry, dotted services. The full country name sits in every panel heading, and every segment carries its printed percentage. No reader relies on colour perception alone.
 
 ## Direct labels and legend behaviour
 
 - Every panel heading carries the Palette A country marker followed by the full country name.
 - Every observed sector segment carries its one-decimal percentage; the dictionary rule guarantees that the three labels in a bar sum to 100.0.
 - A sector key printed at the right of the top row shows the three sector swatches and their names; this is a legend to the colour system, not to any country.
-- Beneath each bar, the year label `1991 †` or `2020` is printed in tabular numerals; the symbol and the pandemic note are repeated as a one-line foot tag on every panel.
+- Beneath each bar, the year label `1991 †` or `2020` is printed in tabular numerals. The shared deck and reading-notes band carry the explanations once, avoiding six repeated footers.
 - No country legend is required; the panel heading and direct labels replace it.
 
 ## Reading-notes band
@@ -192,16 +192,13 @@ Essential axis/value type on A4 is ≥ 14 px (figure note) with every bar value 
 - Both SVGs declare `role="img"` and `aria-labelledby="chart-title chart-desc"`.
 - The `<title>` names the finding; the `<desc>` reads every one of the 36 observations, the proxy caveat, the pandemic caveat, the 1960 exclusion, and the limitation in plain prose for assistive technology.
 - Each country panel group carries an `aria-label` that reads the three 1991 shares and the three 2020 shares, so a screen reader can traverse country-by-country.
-- Identification is redundant: full country name + Palette A marker (circle / square / triangle / diamond / hexagon / cross) in the panel heading + sector-fill lightness order (dark / mid / light) + printed percentage. Colour is never the sole identifier.
+- Identification is redundant: full country name + Palette A marker (circle / square / triangle / diamond / hexagon / cross) in the panel heading + sector texture (diagonal / vertical / dotted) + printed percentage. Colour is never the sole identifier.
 - `<metadata>` carries the indicator codes, the source identity, the release/retrieval dates, the stable URL, the frozen master and chart-data paths, the specification path, the scale `1% = 2 or 3 units`, and the statement that every column sums to 100.0 by the dictionary rule.
-- WCAG contrast on cream `#F4F0E7`:
-  - Agriculture fill `#4A3D28` ≈ 10.3:1.
-  - Industry fill `#9B8F6E` ≈ 2.4:1 (used only as a filled area with charcoal keyline and either cream or charcoal label on top of it; never as the sole identifier and never as small text).
-  - Services fill `#DBD2BA` ≈ 1.4:1 (used only as a filled area with charcoal keyline and charcoal label; never as the sole identifier).
+- WCAG contrast for the revised sector fills:
+  - Agriculture `#2F6B4F` against cream label text `#F4F0E7`: 5.53:1.
+  - Industry `#D07A32` against charcoal label text `#252525`: 4.75:1.
+  - Services `#6FA3C8` against charcoal label text `#252525`: 5.66:1.
   - Charcoal text `#252525` on cream ≈ 13.5:1; dark neutral `#403D38` on cream ≈ 9.5:1; neutral `#514E48` on cream ≈ 7.3:1.
-  - Cream text on agriculture dark `#4A3D28`: label-size contrast > 7:1.
-  - Charcoal text on industry mid `#9B8F6E`: label-size contrast ≈ 5.5:1.
-  - Charcoal text on services light `#DBD2BA`: label-size contrast ≈ 9.4:1.
 
 ## Print and projection constraints
 
@@ -216,9 +213,10 @@ The following checks were run on 2026-10-08.
 - **Independent reparse of the output CSV against the frozen master.** For all 36 rows, `value`, `display_value_1dp`, `actual_year`, `source_id`, `source_locator`, `comparability_class`, `indicator_code`, `unit`, `caveat`, and `release_or_retrieval_date` match `data/master/six_country_chart_inputs.csv` byte-for-byte. No row is missing or duplicated.
 - **Sum-to-100 check.** For each of the 12 country-actual-year compositions, the three printed `display_value_1dp` values sum to exactly 100.0 (verified by floating-point addition in Python; residual 0.0).
 - **XML parse (`xmllint --noout`).** Both SVGs parse without error.
-- **Rect inventory.** Each SVG contains 42 `<rect>` elements: 1 cream background + 1 reading-notes band frame + 3 sector-key swatches + 1 Botswana panel-heading square + 36 stacked segments (6 countries × 2 years × 3 sectors). No stray data rectangles exist outside the twelve bar groups.
+- **Rect inventory.** Each SVG contains 45 `<rect>` elements after the colour/texture revision: the original 42 elements plus 3 pattern-backing rectangles inside `<defs>`. The data inventory remains exactly 36 stacked segments (6 countries × 2 years × 3 sectors); no data rectangle was added, removed, or moved.
+- **Named-reviewer layout repair.** The overlong headline was replaced with a shorter finding-led title, duplicated per-panel proxy/pandemic footers were removed, row labels no longer collide with country headings, the sector key was separated from the Mauritius heading, and the source note was shortened without removing its source ID, indicators, release date, or frozen-data path.
 - **Required-string check.** Both SVGs contain `OBSERVED ANCHORS ONLY`, `VISIBLE CAVEATS`, `WHAT THIS COMPARISON CANNOT PROVE`, `Not a race.`, `SRC-WDI-001`, `WDI release 2026-07-13`, `data/charts/employment_structural_transformation.csv`, `SL.AGR.EMPL.ZS`, `SL.IND.EMPL.ZS`, `SL.SRV.EMPL.ZS`, `ILO modelled`, `1991`, and `2020`. The only occurrences of `1960` are in the explicit exclusion note.
-- **Grayscale identification.** With colour stripped, each stacked bar remains three bands of dark / mid / light in the same bottom-to-top order; the full country name and the printed percentages identify every country-year composition; the Palette A marker shape identifies the country redundantly.
+- **Grayscale identification.** With colour stripped, each stacked bar retains diagonal, vertical, and dotted sector textures in the same bottom-to-top order; the full country name and printed percentages identify every country-year composition; the Palette A marker shape identifies the country redundantly.
 
 ## Release-gate scope
 
