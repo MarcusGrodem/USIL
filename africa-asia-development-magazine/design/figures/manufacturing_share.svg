@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="chart-title chart-desc">
+  <title id="chart-title">Manufacturing value added as a share of GDP at observed anchors: six paths, one shared axis, with visible gaps where the frozen master is silent</title>
+  <desc id="chart-desc">A six-panel dashboard. Each panel plots the frozen World Development Indicators manufacturing-value-added share of GDP (indicator NV.IND.MANF.ZS, current-price, percent of GDP) at observed anchors for one country. All six panels share a 0 to 30 percent vertical axis. Row 1 Africa shows Ghana (terracotta circles, 9.8 percent in 1965 proxy, 9.8 percent in 1990, 11.0 percent in 2020), Botswana (green squares, 11.6 percent in 1965 proxy, 4.8 percent in 1990, 5.7 percent in 2020), and Mauritius (ochre triangles with charcoal keyline, no 1960 observation in NV.IND.MANF.ZS frozen master, 20.4 percent in 1990, 10.7 percent in 2020; connector runs 1990 to 2020 only). Row 2 Asia shows South Korea (blue diamonds with long-dashed connector, 11.4 percent in 1960, 25.2 percent in 1990, 25.7 percent in 2020), Malaysia (jade hexagons, 10.3 percent in 1960 territorial proxy, 24.2 percent in 1990, 22.2 percent in 2020), and the Philippines (red cross with charcoal under-stroke, only 17.7 percent in 2020 is plotted; the 1960 and 1990 historical vintages are shown as separate text annotations and are not connected to the 2020 marker). Ghana 1965 and Botswana 1965 are five-year proxies for the requested 1960 anchor. Malaysia 1960 is a retrospective territorial series across the 1963 formation of Malaysia. The 1990 Philippines value of 24.8 percent and the 1960 Philippines value of approximately 18.9 percent are narrative-only historical vintages from incompatible national-accounts sources (Yusuf and Nabeshima 2010; World Bank 1980) and are never connected to the current World Development Indicators 2020 observation. 2020 is the COVID-19 pandemic year for all six countries, and current-price manufacturing shares reflect price and composition effects. The chart cannot establish whether culture, policy, institutions, war, aid, or another factor caused the gaps. No cross-country ranking is implied; country colours and panel order are navigation only. Not a race.</desc>
+  <metadata>
+    Chart ID: VIS-008-MANF-A4.
+    Indicator: NV.IND.MANF.ZS (manufacturing, value added, percent of GDP, current prices).
+    Source: SRC-WDI-001; World Bank (2026), World Development Indicators; WDI API v2 source 2; release 2026-07-13; retrieved 2026-10-06; https://databank.worldbank.org/source/world-development-indicators.
+    Frozen master: data/master/six_country_chart_inputs.csv (15 NV.IND.MANF.ZS rows).
+    Frozen chart CSV: data/charts/manufacturing_share.csv.
+    Specification: design/figures/MANUFACTURING_SHARE_SPEC.md.
+    Frozen full-precision observations (NV.IND.MANF.ZS, percent of GDP, current prices):
+    Ghana: 1965=9.75443383356071; 1990=9.76285290799468; 2020=10.9530558483938.
+    Botswana: 1965=11.5853658536585; 1990=4.77075017547342; 2020=5.65905088338406.
+    Mauritius: 1960=not available in NV.IND.MANF.ZS frozen master; 1990=20.3722570941437; 2020=10.6686355036685.
+    South Korea: 1960=11.4035087719298; 1990=25.2385195677477; 2020=25.7002433607737.
+    Malaysia: 1960=10.2609802250256; 1990=24.2246873976537; 2020=22.2320858423886.
+    Philippines: 1960=NARRATIVE ONLY approximately 18.9 percent (World Bank 1980 Part II paragraph 1.11 page 4); 1990=NARRATIVE ONLY 24.8 percent (Yusuf and Nabeshima 2010 Figure 4.16 page 141); 2020=17.6581790478661.
+    Geometry: viewBox 1600x1100. Row 1 plot y range 220..550; Row 2 plot y range 620..950. Plot height per row = 330 units. Shared domain 0..30 percent. y = y_baseline - value * 11 where y_baseline is 550 (Row 1) or 950 (Row 2).
+    Panel x spans: Panel 1 x=146..606; Panel 2 x=626..1086; Panel 3 x=1106..1566.
+    Year anchor x positions: Panel 1 (206, 376, 546); Panel 2 (686, 856, 1026); Panel 3 (1166, 1336, 1506).
+    Plotted marker centres (x, y):
+    Ghana: (206, 442.7012278308321); (376, 442.6086180120585); (546, 429.5163856676682).
+    Botswana: (686, 422.5609756097565); (856, 497.5217480697924); (1026, 487.7504402827753).
+    Mauritius: (1336, 325.9051719644193); (1506, 432.6450094596465). No 1960 marker.
+    South Korea: (206, 824.5614035087722); (376, 672.3762847547753); (546, 667.2973230314893).
+    Malaysia: (686, 837.1292175247184); (856, 683.5284386258093); (1026, 705.4470557337254).
+    Philippines: (1506, 755.7600304734729). No 1960 marker; no 1990 marker.
+    Narrative-only text anchor x positions on the Philippines panel: 1960 at x=1166; 1990 at x=1336. No connector of any kind links these annotations to the 2020 marker.
+    Mauritius 1960 absence note anchor on the Mauritius panel: x=1166. The connector between Mauritius 1990 and 2020 stops at the 1990 marker.
+    No cross-country ranking is implied. Country colours and panel order are navigation only.
+  </metadata>
+
+  <defs>
+    <style><![CDATA[
+      .display { font-family: "Aptos Display", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
+      .text { font-family: "Aptos", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
+      .eyebrow { font-size: 22px; font-weight: 750; letter-spacing: 2.2px; }
+      .title { font-size: 50px; font-weight: 780; letter-spacing: -0.8px; }
+      .deck { font-size: 24px; font-weight: 500; fill: #403D38; }
+      .region { font-size: 22px; font-weight: 800; letter-spacing: 3px; fill: #514E48; }
+      .country-name { font-size: 26px; font-weight: 780; }
+      .axis { font-size: 22px; font-weight: 650; fill: #514E48; font-variant-numeric: tabular-nums; }
+      .axis-head { font-size: 20px; font-weight: 700; letter-spacing: 1.4px; fill: #514E48; }
+      .year { font-size: 22px; font-weight: 700; fill: #252525; }
+      .value { font-size: 22px; font-weight: 780; font-variant-numeric: tabular-nums; }
+      .note-head { font-size: 20px; font-weight: 800; letter-spacing: 0.6px; }
+      .note { font-size: 20px; font-weight: 500; fill: #403D38; }
+      .narrative-tag { font-size: 16px; font-weight: 800; letter-spacing: 1.2px; fill: #514E48; font-variant-numeric: tabular-nums; }
+      .narrative-value { font-size: 20px; font-weight: 700; fill: #403D38; font-variant-numeric: tabular-nums; }
+      .narrative-cite { font-size: 15px; font-weight: 500; fill: #514E48; }
+      .absence-note { font-size: 15px; font-weight: 600; fill: #514E48; }
+      .grid { stroke: #B7B0A4; stroke-width: 1.4; }
+      .baseline { stroke: #514E48; stroke-width: 2.5; }
+      .year-guide { stroke: #D8D2C7; stroke-width: 1.1; }
+      .panel-rule { stroke: #514E48; stroke-width: 1; }
+      .dotted-rule { stroke: #514E48; stroke-width: 1.4; stroke-dasharray: 2 4; fill: none; }
+    ]]></style>
+    <symbol id="m-ghana" viewBox="-18 -18 36 36">
+      <circle cx="0" cy="0" r="12" fill="#B95332" stroke="#F4F0E7" stroke-width="4"/>
+      <circle cx="0" cy="0" r="12" fill="none" stroke="#252525" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="m-botswana" viewBox="-18 -18 36 36">
+      <rect x="-11" y="-11" width="22" height="22" fill="#3F684E" stroke="#F4F0E7" stroke-width="4"/>
+      <rect x="-11" y="-11" width="22" height="22" fill="none" stroke="#252525" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="m-mauritius" viewBox="-18 -18 36 36">
+      <polygon points="0,-13 12,10 -12,10" fill="#D6A23A" stroke="#F4F0E7" stroke-width="4" stroke-linejoin="round"/>
+      <polygon points="0,-13 12,10 -12,10" fill="none" stroke="#252525" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="m-korea" viewBox="-18 -18 36 36">
+      <path d="M0,-14 L14,0 L0,14 L-14,0 Z" fill="#315A78" stroke="#F4F0E7" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M0,-14 L14,0 L0,14 L-14,0 Z" fill="none" stroke="#252525" stroke-width="1.6" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="m-malaysia" viewBox="-18 -18 36 36">
+      <polygon points="-12,-6.93 0,-13.86 12,-6.93 12,6.93 0,13.86 -12,6.93" fill="#3E7568" stroke="#F4F0E7" stroke-width="4" stroke-linejoin="round"/>
+      <polygon points="-12,-6.93 0,-13.86 12,-6.93 12,6.93 0,13.86 -12,6.93" fill="none" stroke="#252525" stroke-width="1.6" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="m-philippines" viewBox="-18 -18 36 36">
+      <path d="M-13,0 L13,0 M0,-13 L0,13" stroke="#252525" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-13,0 L13,0 M0,-13 L0,13" stroke="#A63A3A" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="1100" fill="#F4F0E7"/>
+
+  <!-- Heading band -->
+  <g id="heading">
+    <text x="64" y="60" class="text eyebrow">SIX COUNTRIES · MANUFACTURING SHARE OF GDP · OBSERVED ANCHORS</text>
+    <text x="64" y="118" class="display title">Manufacturing share of GDP at observed anchors. Gaps shown, not filled.</text>
+    <text x="64" y="156" class="text deck">Manufacturing value added, percent of GDP, current-price (NV.IND.MANF.ZS). Mauritius 1960 is absent from the frozen master; Philippines 1960 and 1990 are NARRATIVE ONLY and never connected. Not a race.</text>
+  </g>
+
+  <!-- Row 1: Africa panels -->
+  <g id="row-africa">
+    <text x="64" y="212" class="text region">AFRICA</text>
+
+    <!-- Shared y-axis for Row 1 -->
+    <g id="row1-axis" aria-label="Row 1 shared axis: 0 to 30 percent of GDP">
+      <text x="64" y="232" class="text axis-head">% of GDP</text>
+      <line x1="146" y1="220" x2="1566" y2="220" class="grid"/>
+      <line x1="146" y1="330" x2="1566" y2="330" class="grid"/>
+      <line x1="146" y1="440" x2="1566" y2="440" class="grid"/>
+      <line x1="146" y1="550" x2="1566" y2="550" class="baseline"/>
+      <text x="130" y="227" text-anchor="end" class="text axis">30</text>
+      <text x="130" y="337" text-anchor="end" class="text axis">20</text>
+      <text x="130" y="447" text-anchor="end" class="text axis">10</text>
+      <text x="130" y="557" text-anchor="end" class="text axis">0</text>
+    </g>
+
+    <!-- Panel 1: Ghana -->
+    <g id="panel-ghana" aria-label="Ghana manufacturing share of GDP: 9.8 percent in 1965 five-year proxy; 9.8 percent in 1990; 11.0 percent in 2020. 1960 anchor replaced by a 1965 proxy.">
+      <use href="#m-ghana" xlink:href="#m-ghana" x="188" y="194" width="36" height="36"/>
+      <text x="230" y="208" class="text country-name">Ghana</text>
+      <line x1="206" y1="220" x2="206" y2="550" class="year-guide"/>
+      <line x1="376" y1="220" x2="376" y2="550" class="year-guide"/>
+      <line x1="546" y1="220" x2="546" y2="550" class="year-guide"/>
+      <path d="M206,442.7012278308321 L376,442.6086180120585 L546,429.5163856676682" fill="none" stroke="#B95332" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-ghana" xlink:href="#m-ghana" x="188" y="424.7012278308321" width="36" height="36"/>
+      <use href="#m-ghana" xlink:href="#m-ghana" x="358" y="424.6086180120585" width="36" height="36"/>
+      <use href="#m-ghana" xlink:href="#m-ghana" x="528" y="411.5163856676682" width="36" height="36"/>
+      <text x="206" y="421" text-anchor="middle" class="text value">9.8 % †</text>
+      <text x="376" y="421" text-anchor="middle" class="text value">9.8 %</text>
+      <text x="546" y="408" text-anchor="middle" class="text value">11.0 %</text>
+      <text x="206" y="575" text-anchor="middle" class="text year">1965 †</text>
+      <text x="376" y="575" text-anchor="middle" class="text year">1990</text>
+      <text x="546" y="575" text-anchor="middle" class="text year">2020</text>
+    </g>
+
+    <!-- Panel 2: Botswana -->
+    <g id="panel-botswana" aria-label="Botswana manufacturing share of GDP: 11.6 percent in 1965 five-year pre-independence proxy; 4.8 percent in 1990; 5.7 percent in 2020. 1960 anchor replaced by a 1965 proxy.">
+      <use href="#m-botswana" xlink:href="#m-botswana" x="668" y="194" width="36" height="36"/>
+      <text x="710" y="208" class="text country-name">Botswana</text>
+      <line x1="686" y1="220" x2="686" y2="550" class="year-guide"/>
+      <line x1="856" y1="220" x2="856" y2="550" class="year-guide"/>
+      <line x1="1026" y1="220" x2="1026" y2="550" class="year-guide"/>
+      <path d="M686,422.5609756097565 L856,497.5217480697924 L1026,487.7504402827753" fill="none" stroke="#3F684E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-botswana" xlink:href="#m-botswana" x="668" y="404.5609756097565" width="36" height="36"/>
+      <use href="#m-botswana" xlink:href="#m-botswana" x="838" y="479.5217480697924" width="36" height="36"/>
+      <use href="#m-botswana" xlink:href="#m-botswana" x="1008" y="469.7504402827753" width="36" height="36"/>
+      <text x="686" y="401" text-anchor="middle" class="text value">11.6 % †</text>
+      <text x="856" y="476" text-anchor="middle" class="text value">4.8 %</text>
+      <text x="1026" y="466" text-anchor="middle" class="text value">5.7 %</text>
+      <text x="686" y="575" text-anchor="middle" class="text year">1965 †</text>
+      <text x="856" y="575" text-anchor="middle" class="text year">1990</text>
+      <text x="1026" y="575" text-anchor="middle" class="text year">2020</text>
+    </g>
+
+    <!-- Panel 3: Mauritius: 1960 absent; connector 1990 to 2020 only -->
+    <g id="panel-mauritius" aria-label="Mauritius manufacturing share of GDP: 1960 observation is not available in the NV.IND.MANF.ZS frozen master; 20.4 percent in 1990; 10.7 percent in 2020. No connector bridges 1960 and 1990.">
+      <use href="#m-mauritius" xlink:href="#m-mauritius" x="1148" y="194" width="36" height="36"/>
+      <text x="1190" y="208" class="text country-name">Mauritius</text>
+      <line x1="1166" y1="220" x2="1166" y2="550" class="year-guide"/>
+      <line x1="1336" y1="220" x2="1336" y2="550" class="year-guide"/>
+      <line x1="1506" y1="220" x2="1506" y2="550" class="year-guide"/>
+      <!-- Connector begins at 1990, not at 1960 -->
+      <path d="M1336,325.9051719644193 L1506,432.6450094596465" fill="none" stroke="#252525" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1336,325.9051719644193 L1506,432.6450094596465" fill="none" stroke="#D6A23A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-mauritius" xlink:href="#m-mauritius" x="1318" y="307.9051719644193" width="36" height="36"/>
+      <use href="#m-mauritius" xlink:href="#m-mauritius" x="1488" y="414.6450094596465" width="36" height="36"/>
+      <text x="1336" y="304" text-anchor="middle" class="text value">20.4 %</text>
+      <text x="1506" y="411" text-anchor="middle" class="text value">10.7 %</text>
+      <!-- Mauritius 1960 absence inline note -->
+      <text x="1166" y="568" text-anchor="middle" class="text absence-note">Mauritius 1960</text>
+      <text x="1166" y="588" text-anchor="middle" class="text absence-note">not available in</text>
+      <text x="1166" y="604" text-anchor="middle" class="text absence-note">NV.IND.MANF.ZS frozen master</text>
+      <text x="1336" y="575" text-anchor="middle" class="text year">1990</text>
+      <text x="1506" y="575" text-anchor="middle" class="text year">2020</text>
+    </g>
+  </g>
+
+  <!-- Row 2: Asia panels -->
+  <g id="row-asia">
+    <text x="64" y="612" class="text region">ASIA</text>
+
+    <!-- Shared y-axis for Row 2 -->
+    <g id="row2-axis" aria-label="Row 2 shared axis: 0 to 30 percent of GDP">
+      <text x="64" y="632" class="text axis-head">% of GDP</text>
+      <line x1="146" y1="620" x2="1566" y2="620" class="grid"/>
+      <line x1="146" y1="730" x2="1566" y2="730" class="grid"/>
+      <line x1="146" y1="840" x2="1566" y2="840" class="grid"/>
+      <line x1="146" y1="950" x2="1566" y2="950" class="baseline"/>
+      <text x="130" y="627" text-anchor="end" class="text axis">30</text>
+      <text x="130" y="737" text-anchor="end" class="text axis">20</text>
+      <text x="130" y="847" text-anchor="end" class="text axis">10</text>
+      <text x="130" y="957" text-anchor="end" class="text axis">0</text>
+    </g>
+
+    <!-- Panel 4: South Korea -->
+    <g id="panel-korea" aria-label="South Korea manufacturing share of GDP: 11.4 percent in 1960; 25.2 percent in 1990; 25.7 percent in 2020.">
+      <use href="#m-korea" xlink:href="#m-korea" x="188" y="594" width="36" height="36"/>
+      <text x="230" y="608" class="text country-name">South Korea</text>
+      <line x1="206" y1="620" x2="206" y2="950" class="year-guide"/>
+      <line x1="376" y1="620" x2="376" y2="950" class="year-guide"/>
+      <line x1="546" y1="620" x2="546" y2="950" class="year-guide"/>
+      <path d="M206,824.5614035087722 L376,672.3762847547753 L546,667.2973230314893" fill="none" stroke="#315A78" stroke-width="5" stroke-dasharray="22 14" stroke-linecap="butt" stroke-linejoin="round"/>
+      <use href="#m-korea" xlink:href="#m-korea" x="188" y="806.5614035087722" width="36" height="36"/>
+      <use href="#m-korea" xlink:href="#m-korea" x="358" y="654.3762847547753" width="36" height="36"/>
+      <use href="#m-korea" xlink:href="#m-korea" x="528" y="649.2973230314893" width="36" height="36"/>
+      <text x="206" y="803" text-anchor="middle" class="text value">11.4 %</text>
+      <text x="376" y="650" text-anchor="middle" class="text value">25.2 %</text>
+      <text x="546" y="645" text-anchor="middle" class="text value">25.7 %</text>
+      <text x="206" y="975" text-anchor="middle" class="text year">1960</text>
+      <text x="376" y="975" text-anchor="middle" class="text year">1990</text>
+      <text x="546" y="975" text-anchor="middle" class="text year">2020</text>
+    </g>
+
+    <!-- Panel 5: Malaysia -->
+    <g id="panel-malaysia" aria-label="Malaysia manufacturing share of GDP: 10.3 percent in 1960 retrospective territorial series; 24.2 percent in 1990; 22.2 percent in 2020.">
+      <use href="#m-malaysia" xlink:href="#m-malaysia" x="668" y="594" width="36" height="36"/>
+      <text x="710" y="608" class="text country-name">Malaysia</text>
+      <line x1="686" y1="620" x2="686" y2="950" class="year-guide"/>
+      <line x1="856" y1="620" x2="856" y2="950" class="year-guide"/>
+      <line x1="1026" y1="620" x2="1026" y2="950" class="year-guide"/>
+      <path d="M686,837.1292175247184 L856,683.5284386258093 L1026,705.4470557337254" fill="none" stroke="#3E7568" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-malaysia" xlink:href="#m-malaysia" x="668" y="819.1292175247184" width="36" height="36"/>
+      <use href="#m-malaysia" xlink:href="#m-malaysia" x="838" y="665.5284386258093" width="36" height="36"/>
+      <use href="#m-malaysia" xlink:href="#m-malaysia" x="1008" y="687.4470557337254" width="36" height="36"/>
+      <text x="686" y="816" text-anchor="middle" class="text value">10.3 % †</text>
+      <text x="856" y="662" text-anchor="middle" class="text value">24.2 %</text>
+      <text x="1026" y="684" text-anchor="middle" class="text value">22.2 %</text>
+      <text x="686" y="975" text-anchor="middle" class="text year">1960 †</text>
+      <text x="856" y="975" text-anchor="middle" class="text year">1990</text>
+      <text x="1026" y="975" text-anchor="middle" class="text year">2020</text>
+    </g>
+
+    <!-- Panel 6: Philippines: ONLY the 2020 marker is plotted. 1960 and 1990 are NARRATIVE ONLY text annotations with dotted rules; no connector of any kind. -->
+    <g id="panel-philippines" aria-label="Philippines manufacturing share of GDP: 17.7 percent in 2020. The 1960 value of approximately 18.9 percent and the 1990 value of 24.8 percent are NARRATIVE ONLY historical vintages from incompatible national-accounts sources and are not connected to the current WDI 2020 observation.">
+      <use href="#m-philippines" xlink:href="#m-philippines" x="1148" y="594" width="36" height="36"/>
+      <text x="1190" y="608" class="text country-name">Philippines</text>
+      <line x1="1166" y1="620" x2="1166" y2="950" class="year-guide"/>
+      <line x1="1336" y1="620" x2="1336" y2="950" class="year-guide"/>
+      <line x1="1506" y1="620" x2="1506" y2="950" class="year-guide"/>
+
+      <!-- 2020 marker only (no connector) -->
+      <use href="#m-philippines" xlink:href="#m-philippines" x="1488" y="737.7600304734729" width="36" height="36"/>
+      <text x="1506" y="733" text-anchor="middle" class="text value">17.7 %</text>
+
+      <!-- 1960 narrative-only annotation at x=1166. No marker. Dotted charcoal rule, not a connector. -->
+      <g id="phl-1960-narrative" aria-label="Philippines 1960 NARRATIVE ONLY approximately 18.9 percent from World Bank 1980 Part II page 4 NEDA national accounts vintage; not connected to the 2020 World Development Indicators observation.">
+        <line x1="1136" y1="742" x2="1196" y2="742" class="dotted-rule"/>
+        <text x="1166" y="770" text-anchor="middle" class="text narrative-tag">NARRATIVE ONLY — different vintage</text>
+        <text x="1166" y="795" text-anchor="middle" class="text narrative-value">≈ 18.9 %</text>
+        <text x="1166" y="815" text-anchor="middle" class="text narrative-cite">World Bank 1980 Part II p. 4 (NEDA)</text>
+      </g>
+
+      <!-- 1990 narrative-only annotation at x=1336. No marker. Dotted charcoal rule, not a connector. -->
+      <g id="phl-1990-narrative" aria-label="Philippines 1990 NARRATIVE ONLY 24.8 percent from Yusuf and Nabeshima 2010 Figure 4.16 page 141, a different national-accounts vintage; not connected to the 2020 World Development Indicators observation.">
+        <line x1="1306" y1="690" x2="1366" y2="690" class="dotted-rule"/>
+        <text x="1336" y="718" text-anchor="middle" class="text narrative-tag">NARRATIVE ONLY — different vintage</text>
+        <text x="1336" y="743" text-anchor="middle" class="text narrative-value">24.8 %</text>
+        <text x="1336" y="763" text-anchor="middle" class="text narrative-cite">Yusuf &amp; Nabeshima 2010 Fig. 4.16 p. 141</text>
+      </g>
+
+      <text x="1166" y="975" text-anchor="middle" class="text year">1960</text>
+      <text x="1336" y="975" text-anchor="middle" class="text year">1990</text>
+      <text x="1506" y="975" text-anchor="middle" class="text year">2020</text>
+    </g>
+  </g>
+
+  <line x1="64" y1="1000" x2="1536" y2="1000" class="panel-rule"/>
+
+  <!-- Reading notes band -->
+  <g id="reading-notes">
+    <text x="64" y="1026" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="64" y="1050" class="text note">Straight connectors link only the master-approved manufacturing</text>
+    <text x="64" y="1072" class="text note">observations. Narrative-only vintages are text and never connected.</text>
+
+    <text x="560" y="1026" class="text note-head">VISIBLE CAVEATS</text>
+    <text x="560" y="1050" class="text note">† 1965 proxies for Ghana and Botswana; Malaysia 1960 territorial series; Mauritius 1960</text>
+    <text x="560" y="1072" class="text note">absent from frozen master; Philippines 1960 and 1990 NARRATIVE ONLY; current-price; 2020 pandemic.</text>
+
+    <text x="1056" y="1026" class="text note-head">WHAT THIS COMPARISON CANNOT PROVE</text>
+    <text x="1056" y="1050" class="text note">Gaps do not identify whether culture, policy, institutions, war, aid,</text>
+    <text x="1056" y="1072" class="text note">or any other factor caused them. Current-price share mixes price and composition. Not a race.</text>
+  </g>
+
+  <line x1="64" y1="1086" x2="1536" y2="1086" class="panel-rule"/>
+
+  <!-- Figure note -->
+  <g id="figure-note">
+    <text x="64" y="1098" class="text note" font-size="16"><tspan font-style="italic">Note.</tspan> Manufacturing value added as a share of GDP, current prices. Data from <tspan font-style="italic">World Development Indicators</tspan> (NV.IND.MANF.ZS), by World Bank (2026). <a href="https://databank.worldbank.org/source/world-development-indicators" xlink:href="https://databank.worldbank.org/source/world-development-indicators" target="_blank"><tspan text-decoration="underline">WDI DataBank</tspan></a>. SRC-WDI-001 · WDI release 2026-07-13; retrieved 2026-10-06 · Frozen CSV: data/charts/manufacturing_share.csv. Philippines 1960 (≈ 18.9 %) and 1990 (24.8 %) are NARRATIVE ONLY historical vintages (World Bank 1980; Yusuf &amp; Nabeshima 2010), not connected to the current WDI 2020 observation.</text>
+  </g>
+</svg>

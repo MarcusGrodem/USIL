@@ -11,9 +11,9 @@ Status key:
 - `[ ]` MISSING — not started or only an idea/placeholder exists
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
-**Last checked:** 2026-10-08
-**Current stage:** Three-theory matrix accepted; figure production and photography-source integration next
-**Estimated total progress:** 66%
+**Last checked:** 2026-10-08 (CTRL-016)
+**Current stage:** Photography-registry integration accepted; theory-matrix and six-country GDP-anchor dashboards passed digital gates; VIS-004 human/physical release gates still outstanding
+**Estimated total progress:** 69%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -93,12 +93,12 @@ Each theory must contain:
 
 ## 5. Sources and APA 7
 
-- [-] Working source register — 85 source records now cover the six-country core, RES-001 historical pack, and RES-002/ECON-001 thematic pack; final page copy and later image/map assets still need integration.
+- [-] Working source register — 97 source records now cover the six-country core, RES-001 historical pack, RES-002/ECON-001 thematic pack, and SRC-005's twelve PHOTO-001 Wikimedia Commons rows; final page copy and remaining map assets still need integration.
 - [ ] Full APA 7 bibliography — missing.
 - [ ] In-text APA citations throughout page copy — missing.
 - [-] Claim-to-source register — 292 claims are registered, including all 18 approved RES-002/ECON-001 claims (`RES002-A01`–`A11` and `ECON001-A01`–`A07`) with 45 new source links to 22 unique source IDs; final page copy still remains uncovered.
 - [-] Dataset citations and query details — the core WDI/WGI/WDR package now passes exact source-ID joins and locator checks; thematic and map datasets remain pending.
-- [-] Image-credit and rights register — 18 unique asset rows now include 12 rights-verified, place-specific photography candidates (two per country); shared source-registry integration, final selection/crops, print checks, and page-level credits remain.
+- [-] Image-credit and rights register — 18 unique asset rows cover 12 rights-verified photography candidates (two per country) and six historical items; SRC-005 added 12 complete photograph source rows to the shared registry with every asset joining cleanly. Final selection/crops, print checks, model-release notes, and page-level credits remain.
 - [-] Map-source register — six historical map/geometry routes are registered with use decisions; final artworks and later maps remain pending.
 - [ ] Independent citation audit — missing.
 
@@ -116,18 +116,18 @@ Every final source must have:
 
 - [-] Ghana–South Korea spread prototypes — three materially different treatments were reviewed and Evidence Ledger was selected; production specification, human classroom check, and final spread production remain.
 - [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents; VIS-003 completed the digital repair. VIS-004 is blocked until reviewer owners are named; magazine-wide release requires recorded results from the physical A4, non-creator back-row five-second, human colour-vision, and final-typography reviews.
-- [ ] 1960 mirrored baseline dashboard — missing.
-- [ ] 1990 comparison snapshot — missing.
-- [ ] 2020 outcome dashboard — missing.
-- [ ] Ghana–South Korea matched trajectory graphs — missing.
-- [ ] Six-country small multiples with identical axes — missing.
+- [-] 1960 mirrored baseline dashboard — VIS-006 six-country small-multiples cover the 1960 anchor; passed numeric/geometry/accessibility digital gates and awaits named human/physical VIS-004 review.
+- [-] 1990 comparison snapshot — VIS-006 covers the 1990 anchor as above.
+- [-] 2020 outcome dashboard — VIS-006 covers the 2020 anchor as above.
+- [-] Ghana–South Korea matched trajectory graphs — VIS-001/002/003 proof chart passes digital gates; final release blocked by VIS-004 human/physical gates.
+- [-] Six-country small multiples with identical axes — VIS-006 digital A4 and 16:9 dashboard family passed numeric/geometry/accessibility checks; final release blocked by VIS-004 human/physical gates.
 - [ ] Employment structural-transformation visual — missing.
 - [ ] Manufacturing comparison visual — missing.
 - [ ] Export-composition comparison visual — missing.
 - [ ] Matched Ghana and South Korea timelines — missing.
 - [ ] Colonial railway/network visual — missing.
 - [ ] Border visual — missing.
-- [ ] Theory evidence matrix visual — missing.
+- [-] Theory evidence matrix visual — VIS-005 produced an A4 portrait SVG, tidy 18-row CSV, and spec using only APPROVED claims; passed CSV/XML/claim-registry/grayscale digital gates and awaits named human/physical VIS-004 review.
 - [ ] Final combined-theory visual — missing.
 - [ ] Independent numeric check for every final figure — missing.
 
@@ -262,4 +262,8 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [x] `PHOTO-001`: Twelve rights-verified, place-specific photo candidates accepted as a balanced shortlist; final selection and source-registry integration remain separate.
 - [!] `MAP-001`: Compliant production specification accepted, but no artwork exists because the approved LOC raster/legend could not be retrieved through Cloudflare.
 
-Next: run `SRC-005` to integrate the twelve photography sources, `VIS-005` to prototype the accepted theory matrix visual, and `VIS-006` to build the frozen six-country GDP anchor dashboard family. Keep `MAP-001` blocked until a verified LOC raster derivative is available, and do not dispatch `VIS-004` until every reviewer role has a named owner. Final page writing still waits for figure packages and page-level citation/rights checks.
+Next: run a `VIS-007` employment structural-transformation visual from the accepted 1991/2020 panels and a `VIS-008` manufacturing-share comparison visual from the frozen six-country rows. `SRC-005`, `VIS-005`, and `VIS-006` are accepted at digital-gate scope on 2026-10-08. Keep `MAP-001` blocked until a verified LOC raster derivative is available, and do not dispatch `VIS-004` until every reviewer role has a named owner. Final page writing still waits for figure packages and page-level citation/rights checks.
+
+- [x] `SRC-005`: Twelve PHOTO-001 Wikimedia Commons source rows appended to the shared registry; 97/97 unique IDs, 12 asset-to-source joins, zero defects.
+- [x] `VIS-005`: Theory evidence matrix visual, tidy CSV, and spec built from APPROVED claims; A4 portrait SVG, grayscale identification, bounded verdict wording.
+- [x] `VIS-006`: Six-country 1960/1990/2020 GDP-per-capita dashboard family (A4 + 16:9) built from frozen master; 18/18 values match, 24 `<use>` marks per canvas, all required caveats present.

@@ -1,100 +1,97 @@
 # Next Agent Prompts
 
-**Last reconciled by the Roadmap Controller:** 2026-10-08
-**Current stage:** Three-theory matrix accepted; figure production and photography-source integration next.
-**Estimated progress:** 66%
+**Last reconciled by the Roadmap Controller:** 2026-10-08 (CTRL-017)
+**Current stage:** VIS-007 and VIS-008 delivered at digital-gate scope and awaiting controller reconciliation; named VIS-004 reviewer locked; typeface decision deferred.
+**Estimated progress:** 72%
 **Final report ready:** No
 
-THEORY-001/002 and PHOTO-001 are accepted. MAP-001 is blocked because the approved Library of Congress item raster and original legend could not be retrieved; its production specification is not finished artwork. The three assignments below have non-overlapping outputs and may run in parallel.
+CTRL-017 recorded Marcus Grude Grodem as the named reviewer for all four VIS-004 release gates. Three of the four gates are now dispatchable. The final-typography gate remains BLOCKED because Aptos is not confirmed as the project typeface; the project lead has asked to consider more modern alternatives and look at reference infographics for inspiration before locking a family. `MAP-001` is still blocked because the verified LOC item raster derivative, dimensions, checksum, and original legend have not been supplied by the project lead. The three non-overlapping assignments below may run in parallel.
 
-## 1. SRC-005 — Integrate the accepted photography sources
+## 1. VIS-004 (three of four gates) — Run the human and physical release reviews
 
-You are the **Sources & APA Agent** for the Africa–Asia Development Magazine. Complete **SRC-005: Integrate the accepted PHOTO-001 sources into the shared source registry**.
+You are the **named reviewer, Marcus Grude Grodem**, running the human and physical release gates for the selected comparison system against the current production figures.
 
-Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `research/asset_rights_register.csv`, `research/country_photography_audit.md`, `research/source_registry.csv`, `project-control/logs/PHOTO-001.md`, and `project-control/logs/LOG_TEMPLATE.md`.
-
-You may create or edit only:
-
-- `research/source_registry.csv`
-- `research/photo_source_registry_audit.md`
-- `project-control/logs/SRC-005.md`
-
-Required deliverable: twelve complete source-registry rows matching the twelve `SRC-PHOTO-COMMONS-*` IDs already assigned to the accepted PHOTO-001 asset rows, plus an integration audit.
-
-Acceptance criteria:
-
-- Preserve every existing source row exactly and append one unique row for each of the twelve provisional photo source IDs; do not rename asset/source IDs or change PHOTO-001 rights decisions.
-- Open each item page and rights statement. Record creator, date/period, title/description, Wikimedia Commons or original container, stable item URL, access date, source type/tier, complete APA 7 image reference, narrative/parenthetical citation, exact item/file locator, honest verification status, owner, and rights/attribution/ShareAlike/model-release notes.
-- Match creator, date, title, URLs, and licence terms to the accepted asset row. Report and stop on any material conflict rather than silently repairing another task's file.
-- Confirm 97 unique source IDs after the append (85 existing + 12 new), zero malformed CSV rows, and zero PHOTO-001 asset source IDs missing from the registry.
-- End the audit with `Approved`, `Revision required`, `Unresolved`, and `Rejected` sections. Approval is source-registry integration only, not final crop/page selection.
-
-Before stopping, create `project-control/logs/SRC-005.md` using `project-control/logs/LOG_TEMPLATE.md` and mark the handoff `REVIEW`.
-
-Stop after the registry append, audit, and log exist. Do not edit the asset register, claim registry, photographs, page copy, checklist, status board, roadmap, or controller log.
-
-## 2. VIS-005 — Build the accepted theory evidence matrix visual
-
-You are the **Charts & Editorial Design Agent** for the Africa–Asia Development Magazine. Complete **VIS-005: Build the accepted three-theory evidence matrix visual**.
-
-Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `research/THEORY_EVIDENCE_MATRIX.md`, `research/claim_registry.csv`, `research/source_registry.csv`, `design/DESIGN_GUIDE.md`, `design/SELECTED_COMPARISON_SYSTEM.md`, `design/PAGE_RHYTHM_PLAN.md`, and `project-control/logs/LOG_TEMPLATE.md`.
+Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `design/SELECTED_COMPARISON_SYSTEM.md`, `design/figures/COMPARISON_SYSTEM.md`, `design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md`, `design/figures/EMPLOYMENT_STRUCTURAL_TRANSFORMATION_SPEC.md`, `design/figures/MANUFACTURING_SHARE_SPEC.md`, `design/figures/THEORY_EVIDENCE_MATRIX_SPEC.md`, and `project-control/logs/LOG_TEMPLATE.md`.
 
 You may create or edit only:
 
-- `data/charts/theory_evidence_matrix.csv`
-- `design/figures/theory_evidence_matrix.svg`
-- `design/figures/THEORY_EVIDENCE_MATRIX_SPEC.md`
-- `project-control/logs/VIS-005.md`
+- `project-control/logs/VIS-004.md`
 
-Required deliverable: one editable A4 theory-test visual for page 18 that lets a reader compare the three bounded verdicts, strongest support, strongest challenge, limitation, and revision condition without reading the full research matrix.
+Required deliverable: one results record naming the tester, method, date, setup, findings, failures, and disposition for each of the three non-typography gates. The final-typography gate is held open until a replacement typeface for Aptos is confirmed under `TYPE-001`.
+
+Gates to run:
+
+1. **Back-row five-second comprehension test.** Printed figures viewed from the back of a classroom-size room. Record what the reader understood in five seconds, whether the five-second message matches the specification, and any element that failed to read.
+   - Methodological note recorded in STATUS.md and this log: the named tester is the same person who owns the other gates, which removes cross-reviewer redundancy for this test. An independent second reader is recommended but not blocking.
+2. **Physical A4 proof review.** A trim-size A4 printer proof inspected under paper, not on a monitor. Record line weight, marker diameter, label legibility, caveat visibility, and the Mauritius repair.
+3. **Human colour-vision review.** The six Palette A country colours and the Mauritius repair reviewed by a human reader. Record colour-vision profile or method if known; otherwise record "declared vision profile not stated" and note the limitation.
 
 Acceptance criteria:
 
-- Use only the accepted THEORY-001/002 wording and `APPROVED` registered claims. The tidy CSV must preserve theory, country/case role, bounded verdict, claim IDs, source IDs, limitation, and revision/rejection condition.
-- Do not convert qualitative verdicts into numeric scores, imply causal magnitude, rank cultures/countries, merge trust constructs, or omit the inconclusive Radius of Trust result.
-- Make `supported-with-exceptions` and `inconclusive` understandable without colour; use direct text, distinct symbols/patterns, and explicit exception/cannot-prove language.
-- Give the page one five-second question, a clear reading order, concise labels, 11 pt minimum essential A4 text, a source/limitations band, and no legend hunting or essay-like blocks.
-- Include a complete figure/source note referencing the accepted matrix and shared registries. State that the theories are original group hypotheses, not established academic theories or causal estimates.
-- Validate SVG/XML, CSV parsing, every claim/source ID, grayscale identity, and digital A4 geometry. Mark `REVIEW`; physical/human/final-type checks remain under VIS-004.
+- Every gate records tester name, method, date, setup, findings, failures, and disposition. Anonymous or AI-only records are rejected.
+- Failures are recorded as failures and routed back to the appropriate chart task for revision; successes are recorded as successes.
+- The final-typography gate is explicitly held open with reason "Aptos not confirmed; awaiting TYPE-001 decision"; do not fabricate a typography result.
+- Mark the handoff `REVIEW` when the three gates are recorded.
 
-Before stopping, create `project-control/logs/VIS-005.md` using `project-control/logs/LOG_TEMPLATE.md`.
+Before stopping, create or append `project-control/logs/VIS-004.md` using `project-control/logs/LOG_TEMPLATE.md`. Do not edit any other file.
 
-Stop after the CSV, SVG, specification, and log exist. Do not edit the theory matrix, registries, design system, page copy, checklist, status board, roadmap, or controller log.
+## 2. TYPE-001 — Confirm or substitute the project typeface
 
-## 3. VIS-006 — Build the six-country GDP anchor dashboard family
+You are the **Editorial & Design Agent**. Open **TYPE-001: Confirm or substitute the Aptos default typeface for the magazine's figure and page system**.
 
-You are the **Charts & Maps Agent** for the Africa–Asia Development Magazine. Complete **VIS-006: Build the six-country GDP-per-capita anchor dashboard family**.
-
-Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `data/master/six_country_chart_inputs.csv`, `data/master/six_country_indicator_dictionary.csv`, `research/six_country_comparability_review.md`, `research/source_registry.csv`, `design/DESIGN_GUIDE.md`, `design/SELECTED_COMPARISON_SYSTEM.md`, `design/figures/COMPARISON_SYSTEM.md`, and `project-control/logs/LOG_TEMPLATE.md`.
+Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `design/DESIGN_GUIDE.md`, `design/SELECTED_COMPARISON_SYSTEM.md`, `design/figures/COMPARISON_SYSTEM.md`, every current `*_SPEC.md` in `design/figures/`, and `project-control/logs/LOG_TEMPLATE.md`. The project lead has indicated preference for a more modern typeface and wants to inspect reference infographics before locking a family.
 
 You may create or edit only:
 
-- `data/charts/six_country_gdp_anchor_years.csv`
-- `design/figures/six_country_gdp_anchor_dashboard.svg`
-- `design/figures/six_country_gdp_anchor_dashboard_16x9.svg`
-- `design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md`
-- `project-control/logs/VIS-006.md`
+- `design/TYPOGRAPHY_DECISION.md` (new)
+- `project-control/logs/TYPE-001.md` (new)
 
-Required deliverable: a matched A4 and 1280 × 720 dashboard family comparing all six countries at the locked 1960, 1990, and 2020 anchors using the frozen `NY.GDP.PCAP.KD` rows.
+Required deliverable: a decision record naming the confirmed typeface family (display and text), weights to be used, numeral style (tabular lining required for every figure), licensing, fallback stack, and the WCAG-size calibration against the current A4 and 1280 × 720 role tables.
 
 Acceptance criteria:
 
-- Copy the 18 approved frozen observations at full precision into the tidy output; preserve country, region, actual year, value, unit, comparison class, source ID, locator, territorial caveat, and display label. Do not query live WDI or substitute a different release.
-- Use one identical constant-2015-US-dollar definition and common quantitative scale/geometry across all six countries and three years. State Malaysia's territorial caveat visibly.
-- Direct-label all countries and endpoint values; use the selected country markers and provisional colours with colour-independent identification. Do not imply a uniform Africa-versus-Asia race or a causal explanation.
-- Provide one five-second message, visible year/unit/source notes, a COVID-affected-2020 note, and “What this comparison cannot prove.” Avoid unnecessary legend hunting, decorative precision, and overpacked labels.
-- Include exact coordinate/scale math, source identity, frozen input path, APA figure note, accessibility metadata, and print/projection typography targets in the specification.
-- Independently reparse the output CSV and verify all 18 values against the frozen master; validate both SVGs/XML, coordinates, labels, grayscale identity, contrast, and canvas bounds. Mark `REVIEW`; named human/physical release gates remain separate.
+- Compare at least three candidate families against Aptos. Each candidate must have a verified licence suitable for a published magazine and classroom projection, support tabular lining numerals, and remain legible at the figure role-size tables already recorded in the specifications.
+- Pull at least three reference infographic examples (from `references/visual-inspiration/` or newly collected and licence-cleared) and record how each uses display/text pairings; do not republish inspiration images without rights verification.
+- Record whether the chosen family requires any role-size update in `COMPARISON_SYSTEM.md`; do not silently rebuild the figures.
+- Do not change the data colours, chart geometry, Palette A country identities, or Mauritius repair.
+- Mark the handoff `REVIEW`.
 
-Before stopping, create `project-control/logs/VIS-006.md` using `project-control/logs/LOG_TEMPLATE.md`.
+Before stopping, create `project-control/logs/TYPE-001.md` using `project-control/logs/LOG_TEMPLATE.md`.
 
-Stop after the CSV, two SVGs, specification, and log exist. Do not edit the frozen master, dictionary, registries, selected-system documents, existing figures, page copy, checklist, status board, roadmap, or controller log.
+Stop after the decision record and log exist. Do not edit any figure, specification, chart CSV, master file, registry, selected-system document, page copy, checklist, status board, roadmap, or controller log.
+
+## 3. CTRL-018 — Reconcile VIS-007 and VIS-008 (controller task)
+
+You are the **Roadmap Controller**. Reconcile the delivered VIS-007 and VIS-008 artefacts against their acceptance criteria.
+
+Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/ROADMAP_CONTROLLER_AGENT.md`, `data/master/six_country_chart_inputs.csv`, `data/master/six_country_indicator_dictionary.csv`, both figure spec files, both figure logs, and `project-control/logs/LOG_TEMPLATE.md`.
+
+You may create or edit only:
+
+- `project-control/STATUS.md`
+- `project-control/REPORT_CHECKLIST.md`
+- `project-control/logs/controller.md`
+
+Required deliverables: accept, reject, or move each of VIS-007 and VIS-008 against its stated acceptance criteria; update the status board and checklist; record the reconciliation in the controller log.
+
+Acceptance criteria:
+
+- Reparse `data/charts/employment_structural_transformation.csv` and `data/charts/manufacturing_share.csv` against the frozen master byte-for-byte on `value`, `actual_year`, `source_id`, `source_locator`, `comparability_class`, `indicator_code`, `caveat`, `release_or_retrieval_date`.
+- Confirm `xmllint --noout` on all four SVGs.
+- Confirm the Philippines narrative-only treatment on VIS-008: no connector or line element bridges the Philippines 1960 or 1990 narrative annotations to the Philippines 2020 marker; no marker is rendered at the Philippines 1960 or 1990 position; no marker is rendered at the Mauritius 1960 position.
+- Confirm the 1960 exclusion on VIS-007: no bar is drawn at a 1960 anchor; the exclusion is explicitly stated in the reading-notes band and the accessible description.
+- Confirm that neither figure implies cross-country ranking: `Not a race.` and `WHAT THIS COMPARISON CANNOT PROVE` blocks present on each.
+- Record the acceptance or rejection with evidence pointers in the controller log.
+
+Before stopping, append a new section to `project-control/logs/controller.md`.
+
+Stop after status, checklist, and controller log are updated. Do not edit any figure, specification, chart CSV, master file, registry, or page copy.
 
 ## Blocked tasks — do not dispatch
 
-- `MAP-001`: requires a verified LOC item 2021668660 raster derivative, original legend, direct derivative URL, dimensions, checksum, and human source comparison.
-- `VIS-004`: requires named owners/testers for the non-creator back-row test, physical A4 proof, human colour-vision review, and final-typography review.
+- `MAP-001`: requires a verified Library of Congress item 2021668660 raster derivative URL, dimensions, checksum, original legend scan, and a human source comparison. The specification is not finished artwork.
+- `VIS-004` final-typography gate: BLOCKED pending `TYPE-001` decision. The three other VIS-004 gates are dispatchable under this prompt.
 
 ## After this batch
 
-Run the Roadmap Controller again. Inspect real source rows and visual exports, not only logs. Accept technical prototypes only at their bounded gate; no final figure or magazine-wide system is released until the named human/physical checks pass.
+Run the Roadmap Controller again. Inspect the real reviewer-results record, the typography decision record, and the reconciliation. Accept technical prototypes only at their bounded gate; no final figure or magazine-wide system is released until the named human/physical checks pass and the typeface is confirmed.

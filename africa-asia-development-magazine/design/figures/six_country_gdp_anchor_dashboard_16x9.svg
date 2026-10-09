@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="chart-title chart-desc">
+  <title id="chart-title">Observed GDP per capita at 1960, 1990, 2020: six paths on one shared axis</title>
+  <desc id="chart-desc">A 1280 by 720 classroom-format version of the six-country dashboard. Each of the six panels shares the same 0 to 35,000 constant 2015 US dollar vertical axis and the same 1960, 1990, 2020 horizontal positions. Row 1 (Africa) shows Ghana (terracotta circles, 1101; 856; 1970), Botswana (green squares, 394; 4039; 6254) and Mauritius (ochre triangles with charcoal keyline and under-stroke, 1419; 3846; 9534). Row 2 (Asia) shows South Korea (blue diamonds with long-dashed connector, 1038; 9673; 33216), Malaysia (jade hexagons, 1266; 4185; 10171) and the Philippines (red cross with charcoal under-stroke, 1124; 1704; 3199). Malaysia 1960 is a retrospective territorial series across the 1963 formation of Malaysia; 2020 is the COVID-19 year for all six countries. Straight connectors join observed anchors only. The chart cannot establish whether culture, policy, institutions, war, aid, or another factor caused the gaps, and it is not a uniform Africa-versus-Asia race.</desc>
+  <metadata>
+    Chart ID: VIS-006-GDP-16X9.
+    Frozen full-precision observations (NY.GDP.PCAP.KD, constant 2015 US dollars per person):
+    Ghana: 1960=1100.76305218242; 1990=855.85250708181; 2020=1970.19411460398.
+    Botswana: 1960=393.861742487166; 1990=4039.46544455099; 2020=6254.24806241091.
+    Mauritius: 1960=1419.4048237128; 1990=3846.40593009531; 2020=9533.5982796049.
+    South Korea: 1960=1037.72899231615; 1990=9672.57845182894; 2020=33215.9298928108.
+    Malaysia: 1960=1266.31525712689; 1990=4184.76072928976; 2020=10171.4657842762.
+    Philippines: 1960=1123.78209980486; 1990=1704.07568899121; 2020=3198.66690008413.
+    Geometry: viewBox 1280x720. Row 1 plot y range 105..305; Row 2 plot y range 368..568. Plot height per row = 200 units. Shared domain 0..35000 constant 2015 US dollars. y = y_baseline - value * 4 / 700 where y_baseline is 305 (Row 1) or 568 (Row 2). Panel x positions: Panel 1 x=125, 270, 415. Panel 2 x=525, 670, 815. Panel 3 x=925, 1070, 1215.
+    Source: SRC-WDI-001; World Bank (2026), World Development Indicators; indicator NY.GDP.PCAP.KD; WDI API v2 source 2; release 2026-07-13; retrieved 2026-10-06; https://databank.worldbank.org/source/world-development-indicators.
+    Frozen data: data/charts/six_country_gdp_anchor_years.csv.
+    Specification: design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md.
+  </metadata>
+
+  <defs>
+    <style><![CDATA[
+      .display { font-family: "Aptos Display", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
+      .text { font-family: "Aptos", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
+      .eyebrow { font-size: 18px; font-weight: 750; letter-spacing: 1.8px; }
+      .title { font-size: 32px; font-weight: 780; letter-spacing: -0.5px; }
+      .deck { font-size: 18px; font-weight: 500; fill: #403D38; }
+      .region { font-size: 18px; font-weight: 800; letter-spacing: 2.6px; fill: #514E48; }
+      .country-name { font-size: 22px; font-weight: 780; }
+      .axis { font-size: 22px; font-weight: 650; fill: #514E48; font-variant-numeric: tabular-nums; }
+      .axis-head { font-size: 18px; font-weight: 700; letter-spacing: 1.2px; fill: #514E48; }
+      .year { font-size: 22px; font-weight: 700; fill: #252525; }
+      .value { font-size: 22px; font-weight: 780; font-variant-numeric: tabular-nums; }
+      .note-head { font-size: 18px; font-weight: 800; letter-spacing: 0.5px; }
+      .note { font-size: 18px; font-weight: 500; fill: #403D38; }
+      .grid { stroke: #B7B0A4; stroke-width: 1.2; }
+      .baseline { stroke: #514E48; stroke-width: 2; }
+      .year-guide { stroke: #D8D2C7; stroke-width: 1; }
+      .panel-rule { stroke: #514E48; stroke-width: 1; }
+    ]]></style>
+    <symbol id="m-ghana" viewBox="-14 -14 28 28">
+      <circle cx="0" cy="0" r="9" fill="#B95332" stroke="#F4F0E7" stroke-width="3"/>
+      <circle cx="0" cy="0" r="9" fill="none" stroke="#252525" stroke-width="1.3"/>
+    </symbol>
+    <symbol id="m-botswana" viewBox="-14 -14 28 28">
+      <rect x="-8.5" y="-8.5" width="17" height="17" fill="#3F684E" stroke="#F4F0E7" stroke-width="3"/>
+      <rect x="-8.5" y="-8.5" width="17" height="17" fill="none" stroke="#252525" stroke-width="1.3"/>
+    </symbol>
+    <symbol id="m-mauritius" viewBox="-14 -14 28 28">
+      <polygon points="0,-10 9,8 -9,8" fill="#D6A23A" stroke="#F4F0E7" stroke-width="3" stroke-linejoin="round"/>
+      <polygon points="0,-10 9,8 -9,8" fill="none" stroke="#252525" stroke-width="1.5" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="m-korea" viewBox="-14 -14 28 28">
+      <path d="M0,-11 L11,0 L0,11 L-11,0 Z" fill="#315A78" stroke="#F4F0E7" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M0,-11 L11,0 L0,11 L-11,0 Z" fill="none" stroke="#252525" stroke-width="1.3" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="m-malaysia" viewBox="-14 -14 28 28">
+      <polygon points="-9,-5.2 0,-10.4 9,-5.2 9,5.2 0,10.4 -9,5.2" fill="#3E7568" stroke="#F4F0E7" stroke-width="3" stroke-linejoin="round"/>
+      <polygon points="-9,-5.2 0,-10.4 9,-5.2 9,5.2 0,10.4 -9,5.2" fill="none" stroke="#252525" stroke-width="1.3" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="m-philippines" viewBox="-14 -14 28 28">
+      <path d="M-10,0 L10,0 M0,-10 L0,10" stroke="#252525" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-10,0 L10,0 M0,-10 L0,10" stroke="#A63A3A" stroke-width="3.4" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <rect width="1280" height="720" fill="#F4F0E7"/>
+
+  <!-- Heading band -->
+  <g id="heading">
+    <text x="30" y="26" class="text eyebrow">SIX COUNTRIES · OBSERVED ANCHORS 1960 · 1990 · 2020</text>
+    <text x="30" y="58" class="display title">GDP per capita at three anchors. One shared axis.</text>
+    <text x="30" y="80" class="text deck">Constant 2015 US$ per person. African and Asian paths both vary within region; the chart does not identify a cause.</text>
+  </g>
+
+  <!-- Row 1: Africa -->
+  <g id="row-africa">
+    <text x="30" y="97" class="text region">AFRICA</text>
+    <text x="30" y="118" class="text axis-head">CONSTANT 2015 US$</text>
+
+    <!-- Row 1 shared axis -->
+    <g id="row1-axis" aria-label="Row 1 shared axis: 0 to 35,000 constant 2015 US dollars">
+      <line x1="78" y1="105" x2="1255" y2="105" class="grid"/>
+      <line x1="78" y1="133.5714" x2="1255" y2="133.5714" class="grid"/>
+      <line x1="78" y1="190.7143" x2="1255" y2="190.7143" class="grid"/>
+      <line x1="78" y1="247.8571" x2="1255" y2="247.8571" class="grid"/>
+      <line x1="78" y1="305" x2="1255" y2="305" class="baseline"/>
+      <text x="72" y="112" text-anchor="end" class="text axis">35,000</text>
+      <text x="72" y="140" text-anchor="end" class="text axis">30,000</text>
+      <text x="72" y="197" text-anchor="end" class="text axis">20,000</text>
+      <text x="72" y="254" text-anchor="end" class="text axis">10,000</text>
+      <text x="72" y="312" text-anchor="end" class="text axis">0</text>
+    </g>
+
+    <!-- Panel 1: Ghana -->
+    <g id="panel-ghana" aria-label="Ghana: 1,101 in 1960; 856 in 1990; 1,970 in 2020">
+      <use href="#m-ghana" xlink:href="#m-ghana" x="80" y="80" width="28" height="28"/>
+      <text x="114" y="97" class="text country-name">Ghana</text>
+      <line x1="125" y1="105" x2="125" y2="305" class="year-guide"/>
+      <line x1="270" y1="105" x2="270" y2="305" class="year-guide"/>
+      <line x1="415" y1="105" x2="415" y2="305" class="year-guide"/>
+      <path d="M125,298.7099 L270,300.1094 L415,293.7417" fill="none" stroke="#B95332" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-ghana" xlink:href="#m-ghana" x="111" y="284.7099" width="28" height="28"/>
+      <use href="#m-ghana" xlink:href="#m-ghana" x="256" y="286.1094" width="28" height="28"/>
+      <use href="#m-ghana" xlink:href="#m-ghana" x="401" y="279.7417" width="28" height="28"/>
+      <text x="125" y="277" text-anchor="middle" class="text value">$1,101</text>
+      <text x="270" y="278" text-anchor="middle" class="text value">$856</text>
+      <text x="415" y="272" text-anchor="middle" class="text value">$1,970</text>
+      <text x="125" y="328" text-anchor="middle" class="text year">1960</text>
+      <text x="270" y="328" text-anchor="middle" class="text year">1990</text>
+      <text x="415" y="328" text-anchor="middle" class="text year">2020</text>
+    </g>
+
+    <!-- Panel 2: Botswana -->
+    <g id="panel-botswana" aria-label="Botswana: 394 in 1960; 4,039 in 1990; 6,254 in 2020">
+      <use href="#m-botswana" xlink:href="#m-botswana" x="480" y="80" width="28" height="28"/>
+      <text x="514" y="97" class="text country-name">Botswana</text>
+      <line x1="525" y1="105" x2="525" y2="305" class="year-guide"/>
+      <line x1="670" y1="105" x2="670" y2="305" class="year-guide"/>
+      <line x1="815" y1="105" x2="815" y2="305" class="year-guide"/>
+      <path d="M525,302.7494 L670,281.9173 L815,269.2614" fill="none" stroke="#3F684E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-botswana" xlink:href="#m-botswana" x="511" y="288.7494" width="28" height="28"/>
+      <use href="#m-botswana" xlink:href="#m-botswana" x="656" y="267.9173" width="28" height="28"/>
+      <use href="#m-botswana" xlink:href="#m-botswana" x="801" y="255.2614" width="28" height="28"/>
+      <text x="525" y="282" text-anchor="middle" class="text value">$394</text>
+      <text x="670" y="261" text-anchor="middle" class="text value">$4,039</text>
+      <text x="815" y="248" text-anchor="middle" class="text value">$6,254</text>
+      <text x="525" y="328" text-anchor="middle" class="text year">1960</text>
+      <text x="670" y="328" text-anchor="middle" class="text year">1990</text>
+      <text x="815" y="328" text-anchor="middle" class="text year">2020</text>
+    </g>
+
+    <!-- Panel 3: Mauritius (charcoal under-stroke required) -->
+    <g id="panel-mauritius" aria-label="Mauritius: 1,419 in 1960; 3,846 in 1990; 9,534 in 2020">
+      <use href="#m-mauritius" xlink:href="#m-mauritius" x="880" y="80" width="28" height="28"/>
+      <text x="914" y="97" class="text country-name">Mauritius</text>
+      <line x1="925" y1="105" x2="925" y2="305" class="year-guide"/>
+      <line x1="1070" y1="105" x2="1070" y2="305" class="year-guide"/>
+      <line x1="1215" y1="105" x2="1215" y2="305" class="year-guide"/>
+      <path d="M925,296.8891 L1070,283.0205 L1215,250.5223" fill="none" stroke="#252525" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M925,296.8891 L1070,283.0205 L1215,250.5223" fill="none" stroke="#D6A23A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-mauritius" xlink:href="#m-mauritius" x="911" y="282.8891" width="28" height="28"/>
+      <use href="#m-mauritius" xlink:href="#m-mauritius" x="1056" y="269.0205" width="28" height="28"/>
+      <use href="#m-mauritius" xlink:href="#m-mauritius" x="1201" y="236.5223" width="28" height="28"/>
+      <text x="925" y="275" text-anchor="middle" class="text value">$1,419</text>
+      <text x="1070" y="262" text-anchor="middle" class="text value">$3,846</text>
+      <text x="1215" y="229" text-anchor="middle" class="text value">$9,534</text>
+      <text x="925" y="328" text-anchor="middle" class="text year">1960</text>
+      <text x="1070" y="328" text-anchor="middle" class="text year">1990</text>
+      <text x="1215" y="328" text-anchor="middle" class="text year">2020</text>
+    </g>
+  </g>
+
+  <!-- Row 2: Asia -->
+  <g id="row-asia">
+    <text x="30" y="360" class="text region">ASIA</text>
+    <text x="30" y="381" class="text axis-head">CONSTANT 2015 US$</text>
+
+    <!-- Row 2 shared axis -->
+    <g id="row2-axis" aria-label="Row 2 shared axis: 0 to 35,000 constant 2015 US dollars">
+      <line x1="78" y1="368" x2="1255" y2="368" class="grid"/>
+      <line x1="78" y1="396.5714" x2="1255" y2="396.5714" class="grid"/>
+      <line x1="78" y1="453.7143" x2="1255" y2="453.7143" class="grid"/>
+      <line x1="78" y1="510.8571" x2="1255" y2="510.8571" class="grid"/>
+      <line x1="78" y1="568" x2="1255" y2="568" class="baseline"/>
+      <text x="72" y="375" text-anchor="end" class="text axis">35,000</text>
+      <text x="72" y="403" text-anchor="end" class="text axis">30,000</text>
+      <text x="72" y="460" text-anchor="end" class="text axis">20,000</text>
+      <text x="72" y="517" text-anchor="end" class="text axis">10,000</text>
+      <text x="72" y="575" text-anchor="end" class="text axis">0</text>
+    </g>
+
+    <!-- Panel 4: South Korea -->
+    <g id="panel-korea" aria-label="South Korea: 1,038 in 1960; 9,673 in 1990; 33,216 in 2020">
+      <use href="#m-korea" xlink:href="#m-korea" x="80" y="343" width="28" height="28"/>
+      <text x="114" y="360" class="text country-name">South Korea</text>
+      <line x1="125" y1="368" x2="125" y2="568" class="year-guide"/>
+      <line x1="270" y1="368" x2="270" y2="568" class="year-guide"/>
+      <line x1="415" y1="368" x2="415" y2="568" class="year-guide"/>
+      <path d="M125,562.0701 L270,512.7281 L415,378.1947" fill="none" stroke="#315A78" stroke-width="4" stroke-dasharray="20 12" stroke-linecap="butt" stroke-linejoin="round"/>
+      <use href="#m-korea" xlink:href="#m-korea" x="111" y="548.0701" width="28" height="28"/>
+      <use href="#m-korea" xlink:href="#m-korea" x="256" y="498.7281" width="28" height="28"/>
+      <use href="#m-korea" xlink:href="#m-korea" x="401" y="364.1947" width="28" height="28"/>
+      <text x="125" y="541" text-anchor="middle" class="text value">$1,038</text>
+      <text x="270" y="492" text-anchor="middle" class="text value">$9,673</text>
+      <text x="415" y="358" text-anchor="middle" class="text value">$33,216</text>
+      <text x="125" y="591" text-anchor="middle" class="text year">1960</text>
+      <text x="270" y="591" text-anchor="middle" class="text year">1990</text>
+      <text x="415" y="591" text-anchor="middle" class="text year">2020</text>
+    </g>
+
+    <!-- Panel 5: Malaysia -->
+    <g id="panel-malaysia" aria-label="Malaysia: 1,266 in 1960; 4,185 in 1990; 10,171 in 2020. 1960 is a retrospective territorial series.">
+      <use href="#m-malaysia" xlink:href="#m-malaysia" x="480" y="343" width="28" height="28"/>
+      <text x="514" y="360" class="text country-name">Malaysia</text>
+      <line x1="525" y1="368" x2="525" y2="568" class="year-guide"/>
+      <line x1="670" y1="368" x2="670" y2="568" class="year-guide"/>
+      <line x1="815" y1="368" x2="815" y2="568" class="year-guide"/>
+      <path d="M525,560.7639 L670,544.0871 L815,509.8774" fill="none" stroke="#3E7568" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-malaysia" xlink:href="#m-malaysia" x="511" y="546.7639" width="28" height="28"/>
+      <use href="#m-malaysia" xlink:href="#m-malaysia" x="656" y="530.0871" width="28" height="28"/>
+      <use href="#m-malaysia" xlink:href="#m-malaysia" x="801" y="495.8774" width="28" height="28"/>
+      <text x="525" y="540" text-anchor="middle" class="text value">$1,266 †</text>
+      <text x="670" y="523" text-anchor="middle" class="text value">$4,185</text>
+      <text x="815" y="489" text-anchor="middle" class="text value">$10,171</text>
+      <text x="525" y="591" text-anchor="middle" class="text year">1960 †</text>
+      <text x="670" y="591" text-anchor="middle" class="text year">1990</text>
+      <text x="815" y="591" text-anchor="middle" class="text year">2020</text>
+    </g>
+
+    <!-- Panel 6: Philippines -->
+    <g id="panel-philippines" aria-label="Philippines: 1,124 in 1960; 1,704 in 1990; 3,199 in 2020">
+      <use href="#m-philippines" xlink:href="#m-philippines" x="880" y="343" width="28" height="28"/>
+      <text x="914" y="360" class="text country-name">Philippines</text>
+      <line x1="925" y1="368" x2="925" y2="568" class="year-guide"/>
+      <line x1="1070" y1="368" x2="1070" y2="568" class="year-guide"/>
+      <line x1="1215" y1="368" x2="1215" y2="568" class="year-guide"/>
+      <path d="M925,561.5784 L1070,558.2624 L1215,549.7219" fill="none" stroke="#252525" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M925,561.5784 L1070,558.2624 L1215,549.7219" fill="none" stroke="#A63A3A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <use href="#m-philippines" xlink:href="#m-philippines" x="911" y="547.5784" width="28" height="28"/>
+      <use href="#m-philippines" xlink:href="#m-philippines" x="1056" y="544.2624" width="28" height="28"/>
+      <use href="#m-philippines" xlink:href="#m-philippines" x="1201" y="535.7219" width="28" height="28"/>
+      <text x="925" y="540" text-anchor="middle" class="text value">$1,124</text>
+      <text x="1070" y="537" text-anchor="middle" class="text value">$1,704</text>
+      <text x="1215" y="528" text-anchor="middle" class="text value">$3,199</text>
+      <text x="925" y="591" text-anchor="middle" class="text year">1960</text>
+      <text x="1070" y="591" text-anchor="middle" class="text year">1990</text>
+      <text x="1215" y="591" text-anchor="middle" class="text year">2020</text>
+    </g>
+  </g>
+
+  <line x1="30" y1="612" x2="1250" y2="612" class="panel-rule"/>
+
+  <!-- Reading notes band -->
+  <g id="reading-notes">
+    <text x="30" y="634" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="30" y="656" class="text note">Straight connectors link the three dated points only;</text>
+    <text x="30" y="676" class="text note">they do not estimate any value between years.</text>
+
+    <text x="440" y="634" class="text note-head">VISIBLE CAVEATS</text>
+    <text x="440" y="656" class="text note">† Malaysia 1960 is a retrospective territorial series across</text>
+    <text x="440" y="676" class="text note">the 1963 formation of Malaysia. 2020 is the COVID-19 year.</text>
+
+    <text x="860" y="634" class="text note-head">WHAT THIS COMPARISON CANNOT PROVE</text>
+    <text x="860" y="656" class="text note">Gaps do not identify whether culture, policy, institutions,</text>
+    <text x="860" y="676" class="text note">war, aid, or another factor caused them. Not a race.</text>
+  </g>
+
+  <line x1="30" y1="690" x2="1250" y2="690" class="panel-rule"/>
+
+  <!-- Figure note -->
+  <g id="figure-note">
+    <text x="30" y="708" class="text note" font-size="14"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. Data from <tspan font-style="italic">World Development Indicators</tspan> (NY.GDP.PCAP.KD), by World Bank (2026). <a href="https://databank.worldbank.org/source/world-development-indicators" xlink:href="https://databank.worldbank.org/source/world-development-indicators" target="_blank"><tspan text-decoration="underline">WDI DataBank</tspan></a>. SRC-WDI-001 · WDI release 2026-07-13; retrieved 2026-10-06 · Frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
+  </g>
+</svg>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210mm" height="297mm" viewBox="0 0 595 842" role="img" aria-labelledby="fig-title fig-desc">
+  <title id="fig-title">Three original group hypotheses tested on six country cases</title>
+  <desc id="fig-desc">An A4 portrait theory-test matrix for page 18. Three vertical columns compare the original group hypotheses Connected Development, Radius of Trust in its institutional/organisational-substitutes form, and Continuity + Adaptation. For each theory the figure shows the bounded verdict, six country cells for Ghana, Botswana, Mauritius, South Korea, Malaysia, and the Philippines, a strongest support, a strongest challenge, a limitation, and a condition that would revise or reject the theory. Connected Development is supported-with-exceptions; Radius of Trust is inconclusive; Continuity + Adaptation is supported-with-exceptions. The visual uses only grayscale, direct text labels, and distinct symbols; colour is not required to read the verdicts. The theories are original group hypotheses, not established academic theories, and the visual does not estimate causal magnitudes or rank the countries.</desc>
+
+  <defs>
+    <style><![CDATA[
+      .display { font-family: "Aptos", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; }
+      .text { font-family: "Aptos", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; }
+      .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1.6px; fill: #514E48; }
+      .title { font-size: 22px; font-weight: 750; letter-spacing: -0.4px; }
+      .deck { font-size: 11px; font-weight: 450; fill: #252525; }
+      .ribbon { font-size: 10px; font-weight: 600; letter-spacing: 0.4px; fill: #514E48; }
+      .theory-tag { font-size: 10px; font-weight: 700; letter-spacing: 1.4px; fill: #514E48; }
+      .theory-name { font-size: 13px; font-weight: 750; fill: #252525; }
+      .verdict { font-size: 11px; font-weight: 750; letter-spacing: 0.6px; fill: #252525; text-anchor: middle; }
+      .section-label { font-size: 10px; font-weight: 700; letter-spacing: 1.2px; fill: #514E48; }
+      .country-name { font-size: 11px; font-weight: 700; fill: #252525; }
+      .country-verdict { font-size: 11px; font-weight: 450; fill: #403D38; }
+      .block-head { font-size: 11px; font-weight: 750; letter-spacing: 0.3px; fill: #252525; }
+      .body { font-size: 10px; font-weight: 450; fill: #252525; }
+      .note { font-size: 10px; font-weight: 450; fill: #403D38; }
+      .note-strong { font-size: 10px; font-weight: 700; fill: #252525; }
+      .marker-glyph { font-family: "Aptos", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; font-size: 12px; }
+      .rule { stroke: #514E48; stroke-width: 0.75; fill: none; }
+      .rule-light { stroke: #B7B0A4; stroke-width: 0.5; fill: none; }
+      .rule-strong { stroke: #252525; stroke-width: 1.2; fill: none; }
+    ]]></style>
+
+    <!-- Country markers as drawn shapes to keep identity in grayscale -->
+    <symbol id="m-ghana" viewBox="-6 -6 12 12">
+      <circle cx="0" cy="0" r="4.2" fill="#252525" stroke="#F4F0E7" stroke-width="0.8"/>
+    </symbol>
+    <symbol id="m-botswana" viewBox="-6 -6 12 12">
+      <rect x="-4" y="-4" width="8" height="8" fill="#252525" stroke="#F4F0E7" stroke-width="0.8"/>
+    </symbol>
+    <symbol id="m-mauritius" viewBox="-6 -6 12 12">
+      <path d="M0,-4.6 L4.6,3.6 L-4.6,3.6 Z" fill="#252525" stroke="#F4F0E7" stroke-width="0.8"/>
+    </symbol>
+    <symbol id="m-korea" viewBox="-6 -6 12 12">
+      <path d="M0,-4.6 L4.6,0 L0,4.6 L-4.6,0 Z" fill="#252525" stroke="#F4F0E7" stroke-width="0.8"/>
+    </symbol>
+    <symbol id="m-malaysia" viewBox="-6 -6 12 12">
+      <path d="M4.2,0 L2.1,3.6 L-2.1,3.6 L-4.2,0 L-2.1,-3.6 L2.1,-3.6 Z" fill="#252525" stroke="#F4F0E7" stroke-width="0.8"/>
+    </symbol>
+    <symbol id="m-philippines" viewBox="-6 -6 12 12">
+      <path d="M-4.4,-1.4 H-1.4 V-4.4 H1.4 V-1.4 H4.4 V1.4 H1.4 V4.4 H-1.4 V1.4 H-4.4 Z" fill="#252525" stroke="#F4F0E7" stroke-width="0.6"/>
+    </symbol>
+
+    <!-- Support (star) and challenge (heavy X) badges -->
+    <symbol id="badge-support" viewBox="-7 -7 14 14">
+      <path d="M0,-6 L1.8,-1.8 L6,-1.8 L2.5,0.9 L3.9,5 L0,2.5 L-3.9,5 L-2.5,0.9 L-6,-1.8 L-1.8,-1.8 Z" fill="#252525" stroke="#F4F0E7" stroke-width="0.5"/>
+    </symbol>
+    <symbol id="badge-challenge" viewBox="-7 -7 14 14">
+      <path d="M-5,-5 L-2.4,-5 L0,-2.4 L2.4,-5 L5,-5 L2.4,0 L5,5 L2.4,5 L0,2.4 L-2.4,5 L-5,5 L-2.4,0 Z" fill="#252525" stroke="#F4F0E7" stroke-width="0.5"/>
+    </symbol>
+
+    <!-- Verdict badges: supported-with-exceptions uses diagonal hatching; inconclusive uses open dashed box -->
+    <pattern id="hatch-exceptions" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="4" fill="#F4F0E7"/>
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#252525" stroke-width="1.1"/>
+    </pattern>
+  </defs>
+
+  <!-- Page background: cream -->
+  <rect width="595" height="842" fill="#F4F0E7"/>
+
+  <!-- =============== TOP BAND =============== -->
+  <g id="finding-header">
+    <text x="40" y="34" class="text eyebrow">PAGE 18 · THREE-THEORY TEST · ORIGINAL GROUP HYPOTHESES</text>
+    <line x1="40" y1="42" x2="555" y2="42" class="rule-light"/>
+    <text x="40" y="68" class="display title">Do the three ideas survive the six-country evidence?</text>
+    <text x="40" y="90" class="text deck">Each original group hypothesis is tested against Ghana, Botswana, Mauritius, South Korea, Malaysia, and the Philippines.</text>
+    <text x="40" y="104" class="text deck">The chart shows the bounded verdict, strongest support, strongest challenge, limitation, and revision condition.</text>
+    <text x="40" y="126" class="text ribbon">READ ACROSS A COLUMN:  1 Verdict  ·  2 Six country cells  ·  3 Star Strongest support  ·  4 X Strongest challenge  ·  5 Limitation  ·  6 Would revise or reject if</text>
+  </g>
+
+  <!-- Divider under top band -->
+  <line x1="40" y1="138" x2="555" y2="138" class="rule"/>
+
+  <!-- =============== COLUMN 1: Connected Development =============== -->
+  <g id="col-1" transform="translate(40,0)">
+    <text x="0" y="156" class="text theory-tag">THEORY 1</text>
+    <text x="0" y="174" class="text theory-name">Connected Development</text>
+
+    <!-- Verdict badge: supported-with-exceptions pattern -->
+    <rect x="0" y="184" width="163" height="26" fill="url(#hatch-exceptions)" stroke="#252525" stroke-width="1.2"/>
+    <rect x="2" y="186" width="159" height="22" fill="#F4F0E7" stroke="none"/>
+    <text x="81.5" y="202" class="text verdict">SUPPORTED-WITH-EXCEPTIONS</text>
+
+    <!-- Six-country section -->
+    <text x="0" y="226" class="text section-label">SIX-COUNTRY TEST</text>
+    <line x1="0" y1="230" x2="163" y2="230" class="rule-light"/>
+
+    <!-- Row 1 Ghana -->
+    <use xlink:href="#m-ghana" x="7" y="245" width="14" height="14"/>
+    <text x="22" y="249" class="text country-name">Ghana</text>
+    <text x="22" y="261" class="text country-verdict">Consistent, not causal</text>
+
+    <!-- Row 2 Botswana (strongest challenge) -->
+    <use xlink:href="#m-botswana" x="7" y="268" width="14" height="14"/>
+    <text x="22" y="272" class="text country-name">Botswana</text>
+    <use xlink:href="#badge-challenge" x="150" y="268" width="14" height="14"/>
+    <text x="22" y="284" class="text country-verdict">Strong exception</text>
+
+    <!-- Row 3 Mauritius -->
+    <use xlink:href="#m-mauritius" x="7" y="291" width="14" height="14"/>
+    <text x="22" y="295" class="text country-name">Mauritius</text>
+    <text x="22" y="307" class="text country-verdict">Support with conditions</text>
+
+    <!-- Row 4 South Korea -->
+    <use xlink:href="#m-korea" x="7" y="314" width="14" height="14"/>
+    <text x="22" y="318" class="text country-name">South Korea</text>
+    <text x="22" y="330" class="text country-verdict">Multi-causal support</text>
+
+    <!-- Row 5 Malaysia (strongest support) -->
+    <use xlink:href="#m-malaysia" x="7" y="337" width="14" height="14"/>
+    <text x="22" y="341" class="text country-name">Malaysia</text>
+    <use xlink:href="#badge-support" x="150" y="337" width="14" height="14"/>
+    <text x="22" y="353" class="text country-verdict">Qualified support</text>
+
+    <!-- Row 6 Philippines -->
+    <use xlink:href="#m-philippines" x="7" y="360" width="14" height="14"/>
+    <text x="22" y="364" class="text country-name">Philippines</text>
+    <text x="22" y="376" class="text country-verdict">Counterexample to sufficiency</text>
+
+    <line x1="0" y1="384" x2="163" y2="384" class="rule-light"/>
+
+    <!-- Strongest support -->
+    <use xlink:href="#badge-support" x="2" y="395" width="14" height="14"/>
+    <text x="20" y="400" class="text block-head">STRONGEST SUPPORT  Malaysia</text>
+    <text x="0" y="416" class="text body">Productive connections joined</text>
+    <text x="0" y="428" class="text body">infrastructure, skills, firms, suppliers,</text>
+    <text x="0" y="440" class="text body">and world markets. Nearly 90% of</text>
+    <text x="0" y="452" class="text body">electronics by TNC affiliates by 1992</text>
+    <text x="0" y="464" class="text body">limits the domestic-depth claim.</text>
+
+    <!-- Strongest challenge -->
+    <use xlink:href="#badge-challenge" x="2" y="478" width="14" height="14"/>
+    <text x="20" y="483" class="text block-head">STRONGEST CHALLENGE  Botswana</text>
+    <text x="0" y="499" class="text body">Large income gains followed a weakly</text>
+    <text x="0" y="511" class="text body">connected inheritance; manufacturing</text>
+    <text x="0" y="523" class="text body">and exports stayed narrow. Challenges</text>
+    <text x="0" y="535" class="text body">inherited infrastructure as a prerequisite</text>
+    <text x="0" y="547" class="text body">but cannot prove connection was unnecessary.</text>
+
+    <!-- Limitation -->
+    <text x="0" y="568" class="text block-head">LIMITATION</text>
+    <text x="0" y="584" class="text body">Cannot establish whether infrastructure</text>
+    <text x="0" y="596" class="text body">preceded growth or worked through</text>
+    <text x="0" y="608" class="text body">bundled skills, policy, finance,</text>
+    <text x="0" y="620" class="text body">ownership, and market access. No common</text>
+    <text x="0" y="632" class="text body">six-country export-composition series exists.</text>
+
+    <!-- Revision -->
+    <text x="0" y="653" class="text block-head">WOULD REVISE OR REJECT IF</text>
+    <text x="0" y="669" class="text body">Revise to the channel actually measured</text>
+    <text x="0" y="681" class="text body">if time-series evidence shows only</text>
+    <text x="0" y="693" class="text body">physical access, global-market access,</text>
+    <text x="0" y="705" class="text body">or domestic supplier depth moving with</text>
+    <text x="0" y="717" class="text body">capability. Reject if network depth</text>
+    <text x="0" y="729" class="text body">followed, not preceded, upgrading.</text>
+  </g>
+
+  <!-- =============== COLUMN 2: Radius of Trust =============== -->
+  <g id="col-2" transform="translate(216,0)">
+    <text x="0" y="156" class="text theory-tag">THEORY 2</text>
+    <text x="0" y="174" class="text theory-name">Radius of Trust (substitutes form)</text>
+
+    <!-- Verdict badge: inconclusive = open dashed box -->
+    <rect x="0" y="184" width="163" height="26" fill="#F4F0E7" stroke="#252525" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <text x="81.5" y="202" class="text verdict">INCONCLUSIVE</text>
+
+    <text x="0" y="226" class="text section-label">SIX-COUNTRY TEST</text>
+    <line x1="0" y1="230" x2="163" y2="230" class="rule-light"/>
+
+    <!-- Row 1 Ghana -->
+    <use xlink:href="#m-ghana" x="7" y="245" width="14" height="14"/>
+    <text x="22" y="249" class="text country-name">Ghana</text>
+    <text x="22" y="261" class="text country-verdict">Unresolved</text>
+
+    <!-- Row 2 Botswana -->
+    <use xlink:href="#m-botswana" x="7" y="268" width="14" height="14"/>
+    <text x="22" y="272" class="text country-name">Botswana</text>
+    <text x="22" y="284" class="text country-verdict">Mechanism plausible</text>
+
+    <!-- Row 3 Mauritius (strongest support) -->
+    <use xlink:href="#m-mauritius" x="7" y="291" width="14" height="14"/>
+    <text x="22" y="295" class="text country-name">Mauritius</text>
+    <use xlink:href="#badge-support" x="150" y="291" width="14" height="14"/>
+    <text x="22" y="307" class="text country-verdict">Substitutes qualified</text>
+
+    <!-- Row 4 South Korea -->
+    <use xlink:href="#m-korea" x="7" y="314" width="14" height="14"/>
+    <text x="22" y="318" class="text country-name">South Korea</text>
+    <text x="22" y="330" class="text country-verdict">Unresolved channel</text>
+
+    <!-- Row 5 Malaysia -->
+    <use xlink:href="#m-malaysia" x="7" y="337" width="14" height="14"/>
+    <text x="22" y="341" class="text country-name">Malaysia</text>
+    <text x="22" y="353" class="text country-verdict">Plausible substitutes</text>
+
+    <!-- Row 6 Philippines (strongest challenge) -->
+    <use xlink:href="#m-philippines" x="7" y="360" width="14" height="14"/>
+    <text x="22" y="364" class="text country-name">Philippines</text>
+    <use xlink:href="#badge-challenge" x="150" y="360" width="14" height="14"/>
+    <text x="22" y="376" class="text country-verdict">Counterexample to strong form</text>
+
+    <line x1="0" y1="384" x2="163" y2="384" class="rule-light"/>
+
+    <!-- Strongest support -->
+    <use xlink:href="#badge-support" x="2" y="395" width="14" height="14"/>
+    <text x="20" y="400" class="text block-head">STRONGEST SUPPORT  Mauritius</text>
+    <text x="0" y="416" class="text body">Credible institutions extended</text>
+    <text x="0" y="428" class="text body">cooperation beyond close ties, while</text>
+    <text x="0" y="440" class="text body">direct political trust was minority-level</text>
+    <text x="0" y="452" class="text body">and informal microfirms persisted. Does</text>
+    <text x="0" y="464" class="text body">not show generalized trust caused scaling.</text>
+
+    <!-- Strongest challenge -->
+    <use xlink:href="#badge-challenge" x="2" y="478" width="14" height="14"/>
+    <text x="20" y="483" class="text block-head">STRONGEST CHALLENGE  Philippines</text>
+    <text x="0" y="499" class="text body">Scaling occurred while large firms and</text>
+    <text x="0" y="511" class="text body">supply chains used possible institutional</text>
+    <text x="0" y="523" class="text body">or organisational substitutes. The 2019</text>
+    <text x="0" y="535" class="text body">WVS result is unweighted, cannot be</text>
+    <text x="0" y="547" class="text body">back-cast or identify the channel.</text>
+
+    <!-- Limitation -->
+    <text x="0" y="568" class="text block-head">LIMITATION</text>
+    <text x="0" y="584" class="text body">Only WGI governance is harmonised across</text>
+    <text x="0" y="596" class="text body">all six; direct-trust observations differ</text>
+    <text x="0" y="608" class="text body">by target, wording, sample, weighting,</text>
+    <text x="0" y="620" class="text body">and year. Ghana and Korea remain gaps.</text>
+    <text x="0" y="632" class="text body">Within-region variation defeats any</text>
+    <text x="0" y="644" class="text body">Africa-vs-Asia trust ladder.</text>
+
+    <!-- Revision -->
+    <text x="0" y="665" class="text block-head">WOULD REVISE OR REJECT IF</text>
+    <text x="0" y="681" class="text body">Reject strong-trust causation unless</text>
+    <text x="0" y="693" class="text body">weighted, historically timed evidence</text>
+    <text x="0" y="705" class="text body">links trust to delegation or scale while</text>
+    <text x="0" y="717" class="text body">ruling out reverse causality and</text>
+    <text x="0" y="729" class="text body">substitutes. Revise substitutes form if</text>
+    <text x="0" y="741" class="text body">institutional changes neither precede nor</text>
+    <text x="0" y="753" class="text body">explain scale. (Trust constructs stay separate.)</text>
+  </g>
+
+  <!-- =============== COLUMN 3: Continuity + Adaptation =============== -->
+  <g id="col-3" transform="translate(392,0)">
+    <text x="0" y="156" class="text theory-tag">THEORY 3</text>
+    <text x="0" y="174" class="text theory-name">Continuity + Adaptation</text>
+
+    <!-- Verdict badge: supported-with-exceptions pattern -->
+    <rect x="0" y="184" width="163" height="26" fill="url(#hatch-exceptions)" stroke="#252525" stroke-width="1.2"/>
+    <rect x="2" y="186" width="159" height="22" fill="#F4F0E7" stroke="none"/>
+    <text x="81.5" y="202" class="text verdict">SUPPORTED-WITH-EXCEPTIONS</text>
+
+    <text x="0" y="226" class="text section-label">SIX-COUNTRY TEST</text>
+    <line x1="0" y1="230" x2="163" y2="230" class="rule-light"/>
+
+    <!-- Row 1 Ghana -->
+    <use xlink:href="#m-ghana" x="7" y="245" width="14" height="14"/>
+    <text x="22" y="249" class="text country-name">Ghana</text>
+    <text x="22" y="261" class="text country-verdict">Unresolved direct test</text>
+
+    <!-- Row 2 Botswana (strongest challenge) -->
+    <use xlink:href="#m-botswana" x="7" y="268" width="14" height="14"/>
+    <text x="22" y="272" class="text country-name">Botswana</text>
+    <use xlink:href="#badge-challenge" x="150" y="268" width="14" height="14"/>
+    <text x="22" y="284" class="text country-verdict">Accumulation warning</text>
+
+    <!-- Row 3 Mauritius -->
+    <use xlink:href="#m-mauritius" x="7" y="291" width="14" height="14"/>
+    <text x="22" y="295" class="text country-name">Mauritius</text>
+    <text x="22" y="307" class="text country-verdict">Strong qualified support</text>
+
+    <!-- Row 4 South Korea (strongest support) -->
+    <use xlink:href="#m-korea" x="7" y="314" width="14" height="14"/>
+    <text x="22" y="318" class="text country-name">South Korea</text>
+    <use xlink:href="#badge-support" x="150" y="314" width="14" height="14"/>
+    <text x="22" y="330" class="text country-verdict">Duration plus correction</text>
+
+    <!-- Row 5 Malaysia -->
+    <use xlink:href="#m-malaysia" x="7" y="337" width="14" height="14"/>
+    <text x="22" y="341" class="text country-name">Malaysia</text>
+    <text x="22" y="353" class="text country-verdict">Moderate qualified support</text>
+
+    <!-- Row 6 Philippines -->
+    <use xlink:href="#m-philippines" x="7" y="360" width="14" height="14"/>
+    <text x="22" y="364" class="text country-name">Philippines</text>
+    <text x="22" y="376" class="text country-verdict">Support with warning</text>
+
+    <line x1="0" y1="384" x2="163" y2="384" class="rule-light"/>
+
+    <!-- Strongest support -->
+    <use xlink:href="#badge-support" x="2" y="395" width="14" height="14"/>
+    <text x="20" y="400" class="text block-head">STRONGEST SUPPORT  South Korea</text>
+    <text x="0" y="416" class="text body">Duration plus discipline and correction</text>
+    <text x="0" y="428" class="text body">inside a multi-causal sequence of</text>
+    <text x="0" y="440" class="text body">capability, education, land change,</text>
+    <text x="0" y="452" class="text body">investment, exports, and policy</text>
+    <text x="0" y="464" class="text body">correction. Exports-vs-investment debate remains open.</text>
+
+    <!-- Strongest challenge -->
+    <use xlink:href="#badge-challenge" x="2" y="478" width="14" height="14"/>
+    <text x="20" y="483" class="text block-head">STRONGEST CHALLENGE  Botswana</text>
+    <text x="0" y="499" class="text body">Centralized mineral rights and invested</text>
+    <text x="0" y="511" class="text body">rents coexisted with narrow exports and</text>
+    <text x="0" y="523" class="text body">weak manufacturing. No registered policy</text>
+    <text x="0" y="535" class="text body">timeline tests duration, feedback, or</text>
+    <text x="0" y="547" class="text body">correction; rents and institutions are stronger alternatives.</text>
+
+    <!-- Limitation -->
+    <text x="0" y="568" class="text block-head">LIMITATION</text>
+    <text x="0" y="584" class="text body">Cases cannot isolate policy duration</text>
+    <text x="0" y="596" class="text body">from prior success, institutional</text>
+    <text x="0" y="608" class="text body">capacity, external support, rents, or</text>
+    <text x="0" y="620" class="text body">market demand. Continuity can describe</text>
+    <text x="0" y="632" class="text body">adaptive learning or protected failure;</text>
+    <text x="0" y="644" class="text body">Hofstede LTO cannot replace it.</text>
+
+    <!-- Revision -->
+    <text x="0" y="665" class="text block-head">WOULD REVISE OR REJECT IF</text>
+    <text x="0" y="681" class="text body">Revise if duration predicts accumulation</text>
+    <text x="0" y="693" class="text body">but not diversification, or if adaptation</text>
+    <text x="0" y="705" class="text body">is carried by firms or external networks</text>
+    <text x="0" y="717" class="text body">rather than policy. Reject if reversals</text>
+    <text x="0" y="729" class="text body">do not interrupt learning, or disciplined</text>
+    <text x="0" y="741" class="text body">direction repeatedly fails despite</text>
+    <text x="0" y="753" class="text body">capability and market access.</text>
+  </g>
+
+  <!-- =============== SOURCE / LIMITATIONS BAND =============== -->
+  <line x1="40" y1="767" x2="555" y2="767" class="rule-strong"/>
+  <g id="source-band">
+    <text x="40" y="780" class="text note-strong">Figure VIS-005 · Theory evidence matrix (digital A4 proof).</text>
+    <text x="40" y="792" class="text note">Note. Verdicts are bounded, qualitative conclusions from the accepted three-theory matrix. They are not causal estimates, numeric scores, country rankings, or merged trust constructs. The Radius of Trust result is retained as inconclusive. The three theories are original group hypotheses, not established academic theories.</text>
+    <text x="40" y="810" class="text note">Data from research/THEORY_EVIDENCE_MATRIX.md and the shared registries research/claim_registry.csv and research/source_registry.csv. Tidy data at data/charts/theory_evidence_matrix.csv. Specification at design/figures/THEORY_EVIDENCE_MATRIX_SPEC.md. Marks: filled star = strongest support; heavy cross = strongest challenge.</text>
+    <text x="40" y="828" class="text note">Status REVIEW. Verified: SVG/XML parses; CSV parses; 18 cell rows (3 theories x 6 countries); all referenced claim IDs are APPROVED; all referenced source IDs exist (PARTIAL status preserved per THEORY-001). Physical A4, human five-second, colour-vision, and final-typography checks remain under VIS-004.</text>
+  </g>
+</svg>
