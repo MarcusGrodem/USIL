@@ -134,7 +134,7 @@ APA references for every cited source already live in `research/source_registry.
 | Badges | filled star (support), heavy cross (challenge) |
 | Patterns | 45° hatched border for supported-with-exceptions; dashed stroke for inconclusive |
 
-Typefaces remain provisional. The SVG uses an explicit fallback stack (`Aptos`, `Helvetica Neue`, `Helvetica`, `Arial`, `sans-serif`). Final typography is not approved by this figure and remains under VIS-004.
+The project typeface is **Montserrat**, locked by `design/TYPOGRAPHY_DECISION.md` (2026-10-09). The SVG uses the fallback stack `"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif`. Physical A4, back-row five-second, and colour-vision re-tests under this family remain outstanding VIS-004 release gates.
 
 ## Verification performed
 

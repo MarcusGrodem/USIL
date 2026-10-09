@@ -19,8 +19,8 @@
 
   <defs>
     <style><![CDATA[
-      .display { font-family: "Aptos Display", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
-      .text { font-family: "Aptos", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
+      .display { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
+      .text { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
       .eyebrow { font-size: 22px; font-weight: 750; letter-spacing: 2.2px; }
       .title { font-size: 50px; font-weight: 780; letter-spacing: -0.8px; }
       .deck { font-size: 24px; font-weight: 500; fill: #403D38; }

@@ -5,8 +5,8 @@
 
   <defs>
     <style><![CDATA[
-      .display { font-family: "Aptos", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; }
-      .text { font-family: "Aptos", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; }
+      .display { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; }
+      .text { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; }
       .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1.6px; fill: #514E48; }
       .title { font-size: 22px; font-weight: 750; letter-spacing: -0.4px; }
       .deck { font-size: 11px; font-weight: 450; fill: #252525; }
@@ -21,7 +21,7 @@
       .body { font-size: 10px; font-weight: 450; fill: #252525; }
       .note { font-size: 10px; font-weight: 450; fill: #403D38; }
       .note-strong { font-size: 10px; font-weight: 700; fill: #252525; }
-      .marker-glyph { font-family: "Aptos", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; font-size: 12px; }
+      .marker-glyph { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; font-size: 12px; }
       .rule { stroke: #514E48; stroke-width: 0.75; fill: none; }
       .rule-light { stroke: #B7B0A4; stroke-width: 0.5; fill: none; }
       .rule-strong { stroke: #252525; stroke-width: 1.2; fill: none; }

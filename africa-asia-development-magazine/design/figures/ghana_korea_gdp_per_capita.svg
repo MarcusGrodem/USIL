@@ -5,8 +5,8 @@
 
   <defs>
     <style><![CDATA[
-      .display { font-family: "Aptos Display", "Helvetica Neue", sans-serif; fill: #252525; }
-      .text { font-family: "Aptos", "Helvetica Neue", sans-serif; fill: #252525; }
+      .display { font-family: "Montserrat", "Helvetica Neue", sans-serif; fill: #252525; }
+      .text { font-family: "Montserrat", "Helvetica Neue", sans-serif; fill: #252525; }
       .title { font-size: 58px; font-weight: 750; letter-spacing: -1.2px; }
       .subtitle { font-size: 28px; font-weight: 450; }
       .eyebrow { font-size: 20px; font-weight: 700; letter-spacing: 2.2px; }

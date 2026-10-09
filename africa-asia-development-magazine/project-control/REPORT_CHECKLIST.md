@@ -11,9 +11,9 @@ Status key:
 - `[ ]` MISSING — not started or only an idea/placeholder exists
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
-**Last checked:** 2026-10-08 (CTRL-016)
-**Current stage:** Photography-registry integration accepted; theory-matrix and six-country GDP-anchor dashboards passed digital gates; VIS-004 human/physical release gates still outstanding
-**Estimated total progress:** 69%
+**Last checked:** 2026-10-09 (CTRL-019)
+**Current stage:** TYPE-001 is locked to Montserrat and propagated through all production figures/specs; all four VIS-004 human/physical release gates are ready but unperformed; GAME-001 is ready; MAP-001 remains blocked
+**Estimated total progress:** 78%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -115,14 +115,14 @@ Every final source must have:
 ## 6. Comparable graphs and maps
 
 - [-] Ghana–South Korea spread prototypes — three materially different treatments were reviewed and Evidence Ledger was selected; production specification, human classroom check, and final spread production remain.
-- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents; VIS-003 completed the digital repair. VIS-004 is blocked until reviewer owners are named; magazine-wide release requires recorded results from the physical A4, non-creator back-row five-second, human colour-vision, and final-typography reviews.
+- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents; VIS-003 completed the digital repair. Marcus Grude Grodem is the named VIS-004 reviewer, and all four gates are dispatchable under the locked Montserrat system. Magazine-wide release still requires recorded results for all four gates.
 - [-] 1960 mirrored baseline dashboard — VIS-006 six-country small-multiples cover the 1960 anchor; passed numeric/geometry/accessibility digital gates and awaits named human/physical VIS-004 review.
 - [-] 1990 comparison snapshot — VIS-006 covers the 1990 anchor as above.
 - [-] 2020 outcome dashboard — VIS-006 covers the 2020 anchor as above.
 - [-] Ghana–South Korea matched trajectory graphs — VIS-001/002/003 proof chart passes digital gates; final release blocked by VIS-004 human/physical gates.
 - [-] Six-country small multiples with identical axes — VIS-006 digital A4 and 16:9 dashboard family passed numeric/geometry/accessibility checks; final release blocked by VIS-004 human/physical gates.
-- [ ] Employment structural-transformation visual — missing.
-- [ ] Manufacturing comparison visual — missing.
+- [-] Employment structural-transformation visual — VIS-007 accepted at bounded digital-gate scope: its 36-row CSV matches the frozen master on all required fields; both SVGs parse; no 1960 bar is drawn; the reading-notes band and accessible description state the exclusion; `Not a race.` and `WHAT THIS COMPARISON CANNOT PROVE` are present. Final release remains under VIS-004.
+- [-] Manufacturing comparison visual — VIS-008 accepted at bounded digital-gate scope: its 15-row CSV matches the frozen master on all required fields; both SVGs parse; Philippines 1960/1990 are marker-free narrative-only annotations with no bridge to the 2020 marker; Mauritius 1960 has no marker; both no-ranking blocks are present. Final release remains under VIS-004.
 - [ ] Export-composition comparison visual — missing.
 - [ ] Matched Ghana and South Korea timelines — missing.
 - [ ] Colonial railway/network visual — missing.
@@ -154,7 +154,7 @@ Every graph must have:
 - [ ] Pages 14–17: culture in context — final copy/visuals missing.
 - [ ] Pages 18–22: theory tests and counterexamples — research synthesis approved; final copy, figures, rights, and layouts missing.
 - [ ] Pages 23–25: synthesis, conclusion, references/credits, and back cover — theory synthesis approved; final copy, bibliography/credits, and layouts missing.
-- [ ] Final typography selected and documented — missing.
+- [x] Final typography selected and documented — Montserrat is locked in `design/TYPOGRAPHY_DECISION.md`, with weights, hierarchy, fallback, and numeral rules; the separate physical A4 typography release check remains open under VIS-004.
 - [ ] Final Canva magazine assembled — missing.
 - [ ] All internal build notes removed — missing.
 - [ ] Approximately 25-page final PDF exported; any slight variation is explained by references, credits, or front/back matter — missing.
@@ -175,7 +175,7 @@ Every page must have:
 ## 7A. Visual engagement and editorial energy
 
 - [x] Visual quality is defined as a graded project requirement.
-- [-] Magazine-wide country colour and marker system approved — showroom selection, VIS-002 specification, and the VIS-003 digital repair are complete; VIS-004 remains blocked until named reviewer owners are recorded, and no release claim may be accepted without named testers and results for all four gates.
+- [-] Magazine-wide country colour and marker system approved — showroom selection, VIS-002 specification, and the VIS-003 digital repair are complete; Marcus Grude Grodem is the named VIS-004 reviewer. All four gates are ready under Montserrat, and no release claim may be accepted without recorded results for all four gates.
 - [ ] Typography hierarchy tested at A4 print size.
 - [x] Page-rhythm map showing deliberate variation across the approximately 25-page plan.
 - [x] No three consecutive spreads use the same composition or visual device in the accepted rhythm plan.
@@ -256,14 +256,17 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [-] `VIS-002`: Selected-system specification and technically correct projection proof delivered; VIS-003 closed the duplicate-marker and source-band defects.
 - [x] `SRC-004`: All 18 approved RES-002/ECON-001 claims and 10 new sources registered with 45 new links to 22 unique source IDs; 85 unique sources and 292 unique claims with zero dangling links.
 - [x] `VIS-003`: Projection proof repaired to exactly six observation marks matching the frozen CSV, marker-free 1960 labels with non-crossing leaders, and a decompressed source band inside the 720 px canvas.
-- [!] `VIS-004`: Human/physical release-gate review is blocked until the Roadmap Controller records named owners/testers for the non-creator back-row test, A4 print proof, colour-vision review, and post-typeface typography review.
+- [-] `VIS-004`: Marcus Grude Grodem is the named reviewer for all four human/physical release gates. All four are ready under Montserrat but remain unperformed; the existing log correctly records open gates rather than fabricated outcomes.
+- [x] `TYPE-001`: Montserrat selected and documented; font-family swap verified across nine production SVGs and four figure specs with zero production Aptos residue and nine clean XML parses.
 - [x] `THEORY-001`: Complete three-theory matrix delivered and independently audited.
 - [x] `THEORY-002`: Botswana causal wording and PSA/Dolan source caveats repaired; registry rerun passed.
 - [x] `PHOTO-001`: Twelve rights-verified, place-specific photo candidates accepted as a balanced shortlist; final selection and source-registry integration remain separate.
 - [!] `MAP-001`: Compliant production specification accepted, but no artwork exists because the approved LOC raster/legend could not be retrieved through Cloudflare.
 
-Next: run a `VIS-007` employment structural-transformation visual from the accepted 1991/2020 panels and a `VIS-008` manufacturing-share comparison visual from the frozen six-country rows. `SRC-005`, `VIS-005`, and `VIS-006` are accepted at digital-gate scope on 2026-10-08. Keep `MAP-001` blocked until a verified LOC raster derivative is available, and do not dispatch `VIS-004` until every reviewer role has a named owner. Final page writing still waits for figure packages and page-level citation/rights checks.
+Next: Marcus Grude Grodem runs and records all four VIS-004 gates under Montserrat; GAME-001 may proceed independently. VIS-007 and VIS-008 remain accepted at bounded digital-gate scope under CTRL-018. Keep MAP-001 blocked until a verified LOC raster derivative is available. Final page writing still waits for publication-release figure gates and page-level citation/rights checks.
 
 - [x] `SRC-005`: Twelve PHOTO-001 Wikimedia Commons source rows appended to the shared registry; 97/97 unique IDs, 12 asset-to-source joins, zero defects.
 - [x] `VIS-005`: Theory evidence matrix visual, tidy CSV, and spec built from APPROVED claims; A4 portrait SVG, grayscale identification, bounded verdict wording.
 - [x] `VIS-006`: Six-country 1960/1990/2020 GDP-per-capita dashboard family (A4 + 16:9) built from frozen master; 18/18 values match, 24 `<use>` marks per canvas, all required caveats present.
+- [x] `VIS-007`: Employment structural-transformation family (A4 + 16:9), 36-row frozen-master extract, and spec controller-accepted at bounded digital-gate scope; 1960 is visibly and accessibly excluded.
+- [x] `VIS-008`: Manufacturing-share family (A4 + 16:9), 15-row frozen-master extract, and spec controller-accepted at bounded digital-gate scope; Philippines narrative-only anchors and Mauritius 1960 absence pass geometry checks.

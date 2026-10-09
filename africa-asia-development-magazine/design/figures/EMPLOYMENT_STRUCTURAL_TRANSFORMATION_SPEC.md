@@ -171,7 +171,7 @@ The complete bibliography reference remains:
 
 ## Typography
 
-Both files declare an explicit readable fallback stack (`"Aptos" / "Aptos Display" → "Helvetica Neue" → "Arial" → sans-serif`) and use `font-variant-numeric: tabular-nums` for every percentage, year label, and axis value. Final typefaces are not approved; the stack must be re-tested when the project typeface is locked.
+Both files declare the project typeface stack (`"Montserrat" → "Helvetica Neue" → "Arial" → sans-serif`) locked by `design/TYPOGRAPHY_DECISION.md` (2026-10-09) and use `font-variant-numeric: tabular-nums lining-nums` for every percentage, year label, and axis value. The physical A4 proof and back-row five-second re-tests under the chosen family remain outstanding VIS-004 release gates.
 
 | Role | A4 target (px in 1600 × 1100) | 16:9 target (px in 1280 × 720) |
 |---|---:|---:|

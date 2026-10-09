@@ -174,13 +174,12 @@ Assign one independent audit area: evidence/APA, data/graphs, editorial/causalit
 
 The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPTS.md`; this runbook records the current task IDs so stale full prompts cannot survive here.
 
-**Current batch after the latest 2026-10-08 controller reconciliation:**
+**Current batch after the latest 2026-10-09 controller reconciliation:**
 
-1. `SRC-005` — integrate the 12 accepted PHOTO-001 image sources into the shared source registry.
-2. `VIS-005` — build the accepted three-theory evidence matrix visual.
-3. `VIS-006` — build the frozen six-country GDP anchor dashboard family.
+1. `VIS-004` — Marcus Grude Grodem runs and records all four human/physical release gates under the locked Montserrat system.
+2. `GAME-001` — define and prototype the evidence-linked offline companion game without editing accepted figure/data packages.
 
-`MAP-001` remains blocked until a verified LOC raster derivative is available. `VIS-004` remains blocked until all human/physical reviewer roles are named. Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work.
+`MAP-001` remains blocked until a verified LOC raster derivative, dimensions, checksum, original legend, and human source comparison are available. Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work.
 
 ## How an agent finishes correctly
 

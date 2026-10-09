@@ -23,7 +23,7 @@ Completion gate: a new agent can see what is done, missing, active, and blocked 
 
 Completion gate: every Ghana/South Korea headline claim traces to an exact value or passage and a complete APA reference.
 
-Current position: all six country files have shared-registry coverage, and DATA-007 corrected or visibly qualified the 25 revision-required and four rejected newer-country claims in those files. DATA-008 repaired and the controller revalidated all 131 source joins, canonical units, WDR/WGI/WDI locators, and 12 employment display totals. SRC-003 added all 12 approved historical claims and six asset decisions. SRC-004 added all 18 approved RES-002/ECON-001 claims and 10 new APA/source rows, bringing the shared registries to 85 sources and 292 claims with zero dangling links. Final page citations and project-wide photograph/map coverage remain open.
+Current position: all six country files have shared-registry coverage, and DATA-007 corrected or visibly qualified the 25 revision-required and four rejected newer-country claims in those files. DATA-008 repaired and the controller revalidated all 131 source joins, canonical units, WDR/WGI/WDI locators, and 12 employment display totals. SRC-003 added all 12 approved historical claims and six asset decisions. SRC-004 added all 18 approved RES-002/ECON-001 claims and 10 new APA/source rows; SRC-005 then integrated 12 accepted photograph sources, bringing the shared registry to 97 sources while the claim registry remains at 292 claims with zero dangling links. Final page citations and remaining map coverage remain open.
 
 ## Phase 2 — Complete all six countries
 
@@ -46,7 +46,7 @@ Current position: the six country evidence files and cross-country comparability
 
 Completion gate: every planned evidence page has approved claims, APA citations, limitations, and a visual candidate.
 
-Current position: the colonialism/borders/infrastructure/independence, Hofstede/critique/trust, and structural-transformation/East Asia/exports/variation packs are accepted. SRC-003 and SRC-004 completed the historical and thematic shared-registry integration. The economic pack preserves incompatible export evidence as narrative-only. THEORY-001 and its THEORY-002 repair are accepted. PHOTO-001 adds a rights-checked six-country photography shortlist; its source rows still require shared-registry integration.
+Current position: the colonialism/borders/infrastructure/independence, Hofstede/critique/trust, and structural-transformation/East Asia/exports/variation packs are accepted. SRC-003 and SRC-004 completed the historical and thematic shared-registry integration. The economic pack preserves incompatible export evidence as narrative-only. THEORY-001 and its THEORY-002 repair are accepted. PHOTO-001 adds a rights-checked six-country photography shortlist, and SRC-005 has integrated its 12 approved photograph sources into the shared registry; final crop, placement, print, and model/property-release decisions remain open.
 
 ## Phase 4 — Test the three theories
 
@@ -70,9 +70,9 @@ Current position: THEORY-002 removed the unsupported Botswana necessity/duration
 
 Completion gate: all graph items in the report checklist pass independent numeric and visual-comparability checks.
 
-Current position: the Ghana–South Korea GDP proof chart passed independent numeric, APA, digital A4-geometry, grayscale, contrast, direct-label, and disclosed non-creator AI checks. VIS-002 formalised Evidence Ledger/Palette A, the Mauritius repair, and a classroom projection variant. VIS-003 cleaned the projection proof to exactly six observation marks matching the frozen CSV, marker-free 1960 labels with non-crossing leaders, and a decompressed source band. VIS-004 is blocked and must not be dispatched until the Roadmap Controller records named owners/testers for the physical A4 proof, non-creator classroom/back-row five-second test, human colour-vision review with simulated deuteranopia/protanopia on screen and in print, and final-typography review after the typeface is confirmed. Magazine-wide release requires dated, named results for every gate.
+Current position: the Ghana–South Korea GDP proof chart passed independent numeric, APA, digital A4-geometry, grayscale, contrast, direct-label, and disclosed non-creator AI checks. VIS-002 formalised Evidence Ledger/Palette A, the Mauritius repair, and a classroom projection variant. VIS-003 cleaned the projection proof to exactly six observation marks matching the frozen CSV, marker-free 1960 labels with non-crossing leaders, and a decompressed source band. VIS-005–VIS-008 added accepted digital-gate theory, GDP-anchor, employment, and manufacturing figure families. TYPE-001 locked Montserrat and propagated it through all nine production SVGs and four figure specs. Marcus Grude Grodem is the named VIS-004 reviewer, so all four human/physical gates are dispatchable; none has yet been performed. Magazine-wide release requires dated, named results for every gate.
 
-MAP-001 is separately blocked: the approved 1914 LOC map route, attribution, limitations, and production specification are fixed, but the environment could not retrieve a verified raster derivative or original legend. No substitute artwork was accepted. VIS-005 and VIS-006 are ready for bounded prototype production while all final human/physical release gates remain visible.
+MAP-001 is separately blocked: the approved 1914 LOC map route, attribution, limitations, and production specification are fixed, but the environment could not retrieve a verified raster derivative or original legend. No substitute artwork was accepted. VIS-005 through VIS-008 are accepted at bounded digital-gate scope while all final human/physical release gates remain visible under VIS-004.
 
 ## Phase 6 — Write and assemble the magazine
 
