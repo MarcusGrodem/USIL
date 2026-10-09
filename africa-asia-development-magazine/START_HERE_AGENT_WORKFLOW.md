@@ -176,10 +176,11 @@ The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPT
 
 **Current batch after the latest 2026-10-08 controller reconciliation:**
 
-1. `SRC-004` — integrate the accepted RES-002 and ECON-001 claims/sources into the shared registries and decide whether THEORY-001's citation gate is clear.
-2. `VIS-003` — repair duplicated annotation markers, the 1960 label cluster, and the compressed source band in the VIS-002 projection proof.
+1. `SRC-005` — integrate the 12 accepted PHOTO-001 image sources into the shared source registry.
+2. `VIS-005` — build the accepted three-theory evidence matrix visual.
+3. `VIS-006` — build the frozen six-country GDP anchor dashboard family.
 
-Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work. Do not start THEORY-001 until SRC-004 passes controller review.
+`MAP-001` remains blocked until a verified LOC raster derivative is available. `VIS-004` remains blocked until all human/physical reviewer roles are named. Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work.
 
 ## How an agent finishes correctly
 

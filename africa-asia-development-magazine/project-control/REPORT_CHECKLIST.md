@@ -12,8 +12,8 @@ Status key:
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
 **Last checked:** 2026-10-08
-**Current stage:** Thematic registry integrated and projection proof repaired; theory synthesis unblocked
-**Estimated total progress:** 62%
+**Current stage:** Three-theory matrix accepted; figure production and photography-source integration next
+**Estimated total progress:** 66%
 **Final report ready:** No
 
 ## 1. Scope and argument
@@ -24,7 +24,7 @@ Status key:
 - [x] Three original theories defined.
 - [x] All six Hofstede dimensions included with a critical-use warning.
 - [x] Culture is framed as one interacting factor, not the sole cause.
-- [-] Final thesis/conclusion — working direction exists; must be revised after theory testing.
+- [-] Final thesis/conclusion — accepted theory verdicts now bound the direction; concise publication-facing synthesis remains unwritten.
 
 ## 2. Required country evidence
 
@@ -56,7 +56,7 @@ Each country must include:
 ## 3. Economic and historical research
 
 - [-] Structural-transformation explanation — accepted page-mapped evidence pack exists; final magazine copy remains missing.
-- [-] Colonial control map with date and source — the 1914 Library of Congress adaptation route and credit are rights-checked; artwork remains pending.
+- [!] Colonial control map with date and source — route, rights, attribution, limitation, and production specification are checked, but artwork is blocked until a verified LOC raster derivative and original legend can be retrieved.
 - [-] British-rule evidence page with an exception — accepted evidence unit and registry coverage exist; final page remains pending.
 - [-] French-rule evidence page with an exception — accepted comparative evidence unit and registry coverage exist; final page remains pending.
 - [-] Other colonial models evidence — Korea, Philippines, and sequential Mauritius evidence unit accepted; final page pending.
@@ -77,19 +77,19 @@ Each country must include:
 - [x] Power-distance evidence and counterargument — accepted only as a conditional voice/feedback mechanism requiring direct institutional evidence.
 - [x] Long-term-orientation evidence and counterargument — accepted only as a provisional investment/learning question requiring direct policy evidence.
 - [x] Relevance review for uncertainty avoidance, masculinity/femininity, and indulgence/restraint — all three are excluded from THEORY-001 on current evidence, with reopening conditions recorded.
-- [-] Connected Development evidence test — all required inputs are now in the shared registries; THEORY-001 is unblocked and will write the final six-case test.
-- [-] Radius of Trust evidence test — RES-002 supplies the revised mechanism using generalized trust, institutions, or organisational substitutes; registry integration is complete and the final six-case test is unblocked.
-- [-] Continuity + Adaptation evidence test — country, policy, historical, and economic inputs are all registered; THEORY-001 is unblocked and will write the final six-case test.
-- [-] Final theory matrix — all three theory tests are unblocked; THEORY-001 is `READY` and must respect the registered bounded wording and all partial-access, construct, timing, proxy, classification, pandemic-year, and causal limitations.
+- [x] Connected Development evidence test — accepted in productive-network-depth form; Botswana challenges inherited infrastructure as a prerequisite without proving necessity, and the Philippines challenges sufficiency.
+- [x] Radius of Trust evidence test — accepted as inconclusive in institutional/organisational-substitutes form; trust constructs remain separate and PSA limits are explicit.
+- [x] Continuity + Adaptation evidence test — accepted with exceptions; Botswana is an accumulation/diversification warning rather than a direct duration/feedback test.
+- [x] Final theory matrix — accepted after THEORY-002; 55 approved claims, 44 sources, 181 explicit claim groups, and 512 valid claim-to-source pairings pass with all required causal and `PARTIAL`-source limitations.
 
 Each theory must contain:
 
-- [ ] Mechanism.
-- [ ] Measurable prediction.
-- [ ] Supporting evidence.
-- [ ] Strongest counterexample or alternative explanation.
-- [ ] Limitation.
-- [ ] Condition that would revise or reject the theory.
+- [x] Mechanism.
+- [x] Measurable prediction.
+- [x] Supporting evidence — six distinct country cells per theory.
+- [x] Strongest counterexample or alternative explanation.
+- [x] Limitation.
+- [x] Condition that would revise or reject the theory.
 
 ## 5. Sources and APA 7
 
@@ -98,7 +98,7 @@ Each theory must contain:
 - [ ] In-text APA citations throughout page copy — missing.
 - [-] Claim-to-source register — 292 claims are registered, including all 18 approved RES-002/ECON-001 claims (`RES002-A01`–`A11` and `ECON001-A01`–`A07`) with 45 new source links to 22 unique source IDs; final page copy still remains uncovered.
 - [-] Dataset citations and query details — the core WDI/WGI/WDR package now passes exact source-ID joins and locator checks; thematic and map datasets remain pending.
-- [-] Image-credit and rights register — a six-row historical asset register exists, but no final country photographs are selected or cleared.
+- [-] Image-credit and rights register — 18 unique asset rows now include 12 rights-verified, place-specific photography candidates (two per country); shared source-registry integration, final selection/crops, print checks, and page-level credits remain.
 - [-] Map-source register — six historical map/geometry routes are registered with use decisions; final artworks and later maps remain pending.
 - [ ] Independent citation audit — missing.
 
@@ -115,7 +115,7 @@ Every final source must have:
 ## 6. Comparable graphs and maps
 
 - [-] Ghana–South Korea spread prototypes — three materially different treatments were reviewed and Evidence Ledger was selected; production specification, human classroom check, and final spread production remain.
-- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents; VIS-003 cleaned the projection proof's observation marks, 1960 labels, and source band; named physical A4, human classroom/back-row, colour-vision, and final-typography tests remain before release.
+- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents; VIS-003 completed the digital repair. VIS-004 is blocked until reviewer owners are named; magazine-wide release requires recorded results from the physical A4, non-creator back-row five-second, human colour-vision, and final-typography reviews.
 - [ ] 1960 mirrored baseline dashboard — missing.
 - [ ] 1990 comparison snapshot — missing.
 - [ ] 2020 outcome dashboard — missing.
@@ -152,8 +152,8 @@ Every graph must have:
 - [ ] Pages 5–9: colonial inheritance — final copy/visuals missing.
 - [ ] Pages 10–13: Asian turn and Ghana/Korea — research partially ready; final pages missing.
 - [ ] Pages 14–17: culture in context — final copy/visuals missing.
-- [ ] Pages 18–22: theory tests and counterexamples — blocked by research.
-- [ ] Pages 23–25: synthesis, conclusion, references/credits, and back cover — blocked by earlier sections.
+- [ ] Pages 18–22: theory tests and counterexamples — research synthesis approved; final copy, figures, rights, and layouts missing.
+- [ ] Pages 23–25: synthesis, conclusion, references/credits, and back cover — theory synthesis approved; final copy, bibliography/credits, and layouts missing.
 - [ ] Final typography selected and documented — missing.
 - [ ] Final Canva magazine assembled — missing.
 - [ ] All internal build notes removed — missing.
@@ -175,7 +175,7 @@ Every page must have:
 ## 7A. Visual engagement and editorial energy
 
 - [x] Visual quality is defined as a graded project requirement.
-- [-] Magazine-wide country colour and marker system approved — showroom selection, VIS-002 specification, and the VIS-003 projection-proof repair are complete; named physical A4, human classroom/back-row, colour-vision, and final-typography tests remain.
+- [-] Magazine-wide country colour and marker system approved — showroom selection, VIS-002 specification, and the VIS-003 digital repair are complete; VIS-004 remains blocked until named reviewer owners are recorded, and no release claim may be accepted without named testers and results for all four gates.
 - [ ] Typography hierarchy tested at A4 print size.
 - [x] Page-rhythm map showing deliberate variation across the approximately 25-page plan.
 - [x] No three consecutive spreads use the same composition or visual device in the accepted rhythm plan.
@@ -197,12 +197,12 @@ Every page must have:
 ## 8A. Companion AI activity and game
 
 - [x] Research-gated AI activity scaffold — Development Evidence Lab, CEAL method, research-pack template, and acceptance checklist accepted as an interaction design.
-- [!] Final AI research pack and factual activity content — blocked by THEORY-001 and relevant citation review.
+- [!] Final AI research pack and factual activity content — theory evidence gate is clear, but the platform, classroom time, operator, and release-test plan remain unselected.
 - [ ] AI platform, classroom time, and operator selected.
 - [ ] AI activity tested with strong, partial, incorrect, and stereotype-based answers.
 - [ ] Static/offline AI-activity alternative completed.
 - [ ] Companion game format and mechanics selected.
-- [!] Evidence-linked game content — blocked by approved theory synthesis and interaction decision.
+- [ ] Evidence-linked game content — theory evidence is approved and GAME-001 is ready; format/mechanics, prototype, and final interaction decision remain missing.
 - [ ] Game prototype, rules, evidence notes, and classroom test completed.
 
 ## 9. Presentation
@@ -256,5 +256,10 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [-] `VIS-002`: Selected-system specification and technically correct projection proof delivered; VIS-003 closed the duplicate-marker and source-band defects.
 - [x] `SRC-004`: All 18 approved RES-002/ECON-001 claims and 10 new sources registered with 45 new links to 22 unique source IDs; 85 unique sources and 292 unique claims with zero dangling links.
 - [x] `VIS-003`: Projection proof repaired to exactly six observation marks matching the frozen CSV, marker-free 1960 labels with non-crossing leaders, and a decompressed source band inside the 720 px canvas.
+- [!] `VIS-004`: Human/physical release-gate review is blocked until the Roadmap Controller records named owners/testers for the non-creator back-row test, A4 print proof, colour-vision review, and post-typeface typography review.
+- [x] `THEORY-001`: Complete three-theory matrix delivered and independently audited.
+- [x] `THEORY-002`: Botswana causal wording and PSA/Dolan source caveats repaired; registry rerun passed.
+- [x] `PHOTO-001`: Twelve rights-verified, place-specific photo candidates accepted as a balanced shortlist; final selection and source-registry integration remain separate.
+- [!] `MAP-001`: Compliant production specification accepted, but no artwork exists because the approved LOC raster/legend could not be retrieved through Cloudflare.
 
-Next: run `THEORY-001` to write the three-theory evidence matrix using only the registered bounded claims. Human classroom/back-row, physical A4, colour-vision, and final-typography tests remain release gates for the proof chart and must be scheduled under a named reviewer. Final page writing must still wait for approved theory synthesis, figure packages, and page-level citation/rights checks.
+Next: run `SRC-005` to integrate the twelve photography sources, `VIS-005` to prototype the accepted theory matrix visual, and `VIS-006` to build the frozen six-country GDP anchor dashboard family. Keep `MAP-001` blocked until a verified LOC raster derivative is available, and do not dispatch `VIS-004` until every reviewer role has a named owner. Final page writing still waits for figure packages and page-level citation/rights checks.

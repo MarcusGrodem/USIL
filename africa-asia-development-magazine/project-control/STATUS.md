@@ -2,7 +2,7 @@
 
 **Owner:** Roadmap Controller Agent  
 **Last reconciled:** 2026-10-08
-**Current stage:** Thematic registry integrated and projection proof repaired; theory synthesis unblocked
+**Current stage:** Three-theory matrix accepted; figure production and photography-source integration next
 **Checklist:** `project-control/REPORT_CHECKLIST.md`
 
 ## Task queue
@@ -14,6 +14,8 @@
 | CTRL-011 | Reconcile core-data repair, economic evidence, and selected design direction | Roadmap Controller | DONE | Released registries, accepted handoffs, and prepared SRC-003/VIS-002 prompts |
 | CTRL-012 | Reconcile historical rights and selected-system production | Roadmap Controller | DONE | Accepted SRC-003, reviewed VIS-002, and prepared SRC-004/VIS-003 prompts |
 | CTRL-013 | Reconcile thematic registry integration and projection-proof repair | Roadmap Controller | DONE | Accepted SRC-004 and VIS-003; unblocked THEORY-001 and prepared next prompts |
+| CTRL-014 | Lock named-reviewer requirements for the VIS-002 release gate | Roadmap Controller | DONE | VIS-004 held as BLOCKED until reviewer owners are identified; release claims require named testers and recorded results |
+| CTRL-015 | Reconcile theory, photography, and 1914-map batch | Roadmap Controller | DONE | Accepted THEORY-002 and PHOTO-001; retained MAP-001 as blocked; prepared SRC-005/VIS-005/VIS-006 |
 | SRC-001 | Verify Ghana/South Korea sources and create APA 7 records | Sources & APA Agent | DONE | Registries and `research/ghana_korea_source_audit.md` |
 | DATA-001 | Close or explicitly retain Ghana/South Korea data gaps | Country Data Agent | DONE | Updated `data/ghana.md` and `data/south_korea.md` |
 | DATA-002 | Research Botswana with the common template | Country Data Agent | DONE | `data/botswana.md` |
@@ -29,25 +31,34 @@
 | RES-001 | Verify colonialism, borders, infrastructure, and independence claims | History & Theory Agent | DONE | Page-mapped evidence pack |
 | RES-002 | Verify Hofstede, critiques, and trust literature | History & Theory Agent | DONE | Page-mapped evidence pack |
 | ECON-001 | Verify structural transformation, East Asian industrialisation, exports, and within-region variation | Economic Research Agent | DONE | Accepted page-mapped economic evidence pack with counterevidence and incompatible-export safeguards |
-| THEORY-001 | Complete the theory evidence matrix | History & Theory Agent | READY | `research/THEORY_EVIDENCE_MATRIX.md` using only registered RES-002/ECON-001/RES-001/country claims at their bounded wording |
-| VIS-001 | Define graph system and build one verified proof chart | Charts & Maps Agent | REVIEW | Proof chart and selected-system wording pass; VIS-003 and named human/physical tests remain |
-| VIS-002 | Formalise the selected comparison system and projection proof | Charts & Maps / Editorial Design Agent | REVIEW | Specification and technically correct 16:9 proof delivered; duplicated annotation markers and source-band density need a narrow repair |
+| THEORY-001 | Complete the theory evidence matrix | History & Theory Agent | DONE | Accepted three-theory, six-country matrix using only approved registered claims |
+| THEORY-002 | Repair THEORY-001 causal wording and source caveats | History & Theory Agent | DONE | Botswana wording and PSA/Dolan caveats repaired; 55 claims, 44 sources, and 512 pairings revalidated |
+| VIS-001 | Define graph system and build one verified proof chart | Charts & Maps Agent | REVIEW | Digital proof and selected-system wording pass; named human/physical release gates remain |
+| VIS-002 | Formalise the selected comparison system and projection proof | Charts & Maps / Editorial Design Agent | REVIEW | Specification and technically correct 16:9 proof delivered; VIS-003 closed the digital readability repair, but human/physical release gates remain |
 | VIS-003 | Repair the projection proof's observation labels and source band | Charts & Maps / Editorial Design Agent | DONE | Revised 16:9 SVG passes XML, coordinate, contrast, and grayscale checks; named human/physical release gates remain outstanding |
+| VIS-004 | Run the VIS-002 human and physical release-gate review | Unassigned — Roadmap Controller must name reviewer owners before dispatch | BLOCKED | One results record naming each tester, method, date, setup, findings, failures, and disposition for all four gates |
 | QA-001 | Independently audit the DATA-006 freeze and VIS-001 proof chart | QA Agent | DONE | Audit accepted: DATA-006 failed narrow gate; proof chart passed; palette lock rejected |
 | WRITE-001 | Draft page 13 | Editorial & Design Agent | BLOCKED | Page-ready Ghana/Korea comparison copy |
 | DESIGN-001 | Create the design showroom, palette tests, and approximately 25-page rhythm plan | Editorial & Design Agent | DONE | Three preserved alternatives, 25-page rhythm plan, and user-selected Spread A/Palette A direction |
 | AI-PROMPT-001 | Design the research-gated Development Evidence Lab scaffold | Editorial & Interaction Agent | DONE | Master prompt, research-pack template, and acceptance checklist |
-| AI-PROMPT-002 | Fill, test, and approve the factual AI activity | Editorial & Interaction Agent | BLOCKED | Completed research pack, tested prompt, and offline alternative |
-| GAME-001 | Define and prototype the companion game | Interaction Agent | MISSING | Evidence-linked game concept, prototype, rules, and static/offline form |
+| AI-PROMPT-002 | Fill, test, and approve the factual AI activity | Unassigned — project lead must select platform, classroom time, operator, and test plan | BLOCKED | Completed research pack, tested prompt, and offline alternative |
+| GAME-001 | Define and prototype the companion game | Interaction Agent | READY | Evidence-linked game concept, prototype, rules, and static/offline form; final selection remains a user review gate |
+| MAP-001 | Produce the sourced 1914 colonial-control map | Charts & Maps Agent | BLOCKED | Production/source specification exists; verified LOC raster derivative, original legend, checksum, and human source comparison are missing |
+| PHOTO-001 | Build the six-country rights-cleared photography shortlist | Sources & Rights Agent | DONE | Twelve verified candidates, two per country, with rights metadata and analytical/cannot-prove roles |
+| SRC-005 | Integrate PHOTO-001 sources into the shared source registry | Sources & APA Agent | READY | Twelve complete image-source rows plus focused integration audit and task log |
+| VIS-005 | Build the accepted theory evidence matrix visual | Charts & Editorial Design Agent | READY | Editable/source-backed matrix visual, tidy data, specification, and task log |
+| VIS-006 | Build the six-country GDP anchor dashboard family | Charts & Maps Agent | READY | Frozen-data dashboard, projection variant, tidy data, specification, and task log |
 
 ## Recommended next batch
 
-The 2026-10-08 controller review accepted `SRC-004` and `VIS-003`. The shared registries now hold 85 unique sources and 292 unique claims with zero dangling links; all 18 approved RES-002/ECON-001 claims are registered at their bounded wording with full APA locators. The repaired 1280 × 720 projection proof shows exactly six observation marks matching the frozen CSV, uses marker-free 1960 labels with non-crossing leaders, and leaves 26 SVG units of bottom breathing room. `THEORY-001` is unblocked and ready. The next non-overlapping batch is:
+The 2026-10-08 controller review accepted THEORY-002 and PHOTO-001 and retained MAP-001 as blocked. The theory matrix now passes all structure, construct, wording, and registry gates. The photography register contains 18 unique assets, including 12 complete `VERIFIED_USABLE` country-photo rows, while preserving all six historical rows. MAP-001 has a compliant specification but no artwork because the approved LOC raster and original legend were inaccessible. The next non-overlapping batch is:
 
-1. `THEORY-001` — build `research/THEORY_EVIDENCE_MATRIX.md` for Connected Development, Radius of Trust (institutional/organisational substitutes form), and Continuity + Adaptation using only registered RES-002/ECON-001/RES-001/country claims at their bounded wording; include mechanism, measurable prediction, supporting evidence, strongest counterexample, limitation, and revision condition per theory.
-2. Named human/physical release gates for `VIS-003`: schedule back-row five-second testing by a non-creator, physical A4 proofing, human colour-vision review, and final-typography review. These are a separate audit task once a reviewer owner is named.
+1. `SRC-005` — add complete APA/source-registry rows for the 12 accepted photography sources without changing the accepted asset decisions.
+2. `VIS-005` — translate the accepted three-theory matrix into one clear evidence visual without turning verdicts into causal scores.
+3. `VIS-006` — build the six-country 1960/1990/2020 GDP-per-capita dashboard family from the frozen master data and selected provisional system.
+4. `MAP-001` and `VIS-004` remain non-dispatchable until their named external dependencies are supplied.
 
-`WRITE-001`, `AI-PROMPT-002`, and evidence-linked game content remain dependency-blocked by theory synthesis and final figure/page gates.
+`WRITE-001` remains blocked by final figure/page gates. `AI-PROMPT-002` is no longer blocked by theory but still requires named platform/operator/time/test-plan decisions. `GAME-001` is ready but sequenced behind the current critical-path figure/source batch; its final direction remains a user review gate.
 
 ## Known risks
 
@@ -57,8 +68,11 @@ The 2026-10-08 controller review accepted `SRC-004` and `VIS-003`. The shared re
 - Export composition, firm size/informality, direct trust, several historical anchors, and a seamless Philippines manufacturing trajectory remain excluded from common charts.
 - RES-001 registry and rights review is accepted, but no historical map, railway schematic, border artwork, photograph, or page is finished. The Ghana railway must remain an original labelled schematic; unlicensed/unverifiable geometry remains excluded.
 - VIS-002 formalises Spread A/Palette A and the Mauritius repair. The VIS-003 repair reduced the proof to exactly six observation marks that match the frozen CSV, replaced the tangled 1960 markers with marker-free text and short non-crossing leaders, and decompressed the source band (last baseline y=694 inside 720). Physical A4 and named human classroom/colour-vision/final-typography checks remain outstanding release gates.
+- `VIS-004` is blocked on named reviewer owners and final typeface confirmation for its typography portion. Digital or anonymous checks cannot satisfy it. Magazine-wide release requires a recorded result for every gate, including failures and resulting revisions/retests.
 - The rough PDF contains placeholders and an obsolete palette.
 - The AI teaching scaffold is accepted as a research-gated interaction design, but its factual pack, platform, tests, and offline release remain blocked by research. The companion game is not yet defined.
+- MAP-001 has no SVG. The specification must not be mistaken for completed artwork; only the verified LOC item raster may unblock production.
+- The 12 PHOTO-001 source IDs are provisional until SRC-005 creates complete shared-registry entries.
 - No final deliverable exists.
 - Current accepted and review files are uncommitted; unrelated pre-existing worktree changes were not altered by this reconciliation.
 

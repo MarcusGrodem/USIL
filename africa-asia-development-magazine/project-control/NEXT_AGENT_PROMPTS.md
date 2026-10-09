@@ -1,51 +1,100 @@
 # Next Agent Prompts
 
 **Last reconciled by the Roadmap Controller:** 2026-10-08
-
-**Current stage:** Thematic registry integrated and projection proof repaired; theory synthesis unblocked.
-
-**Estimated progress:** 62%
-
+**Current stage:** Three-theory matrix accepted; figure production and photography-source integration next.
+**Estimated progress:** 66%
 **Final report ready:** No
 
-`SRC-004` and `VIS-003` passed controller review. The shared registries now hold 85 unique sources and 292 unique claims with zero dangling links; all 18 approved RES-002/ECON-001 claims are registered at their bounded wording. The repaired 1280 × 720 projection proof contains exactly six observation marks matching the frozen CSV, marker-free 1960 labels with non-crossing leaders, and 26 SVG units of bottom breathing room. `THEORY-001` is unblocked. Named human classroom/back-row, physical A4, colour-vision, and final-typography tests remain release gates for the VIS-002 system and are tracked separately.
+THEORY-001/002 and PHOTO-001 are accepted. MAP-001 is blocked because the approved Library of Congress item raster and original legend could not be retrieved; its production specification is not finished artwork. The three assignments below have non-overlapping outputs and may run in parallel.
 
-## 1. THEORY-001 — Three-theory evidence matrix
+## 1. SRC-005 — Integrate the accepted photography sources
 
-You are the **History & Theory Agent** for the Africa–Asia Development Magazine. Complete **THEORY-001: Build the three-theory evidence matrix**.
+You are the **Sources & APA Agent** for the Africa–Asia Development Magazine. Complete **SRC-005: Integrate the accepted PHOTO-001 sources into the shared source registry**.
 
-Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `research/THEORIES.md`, `research/evidence_packs/hofstede_critique_trust.md`, `research/evidence_packs/structural_transformation_east_asia_exports_variation.md`, `research/evidence_packs/colonialism_borders_infrastructure_independence.md`, `research/res002_econ_source_audit.md`, `research/res001_source_rights_audit.md`, `research/four_country_source_audit.md`, `research/ghana_korea_source_audit.md`, `research/source_registry.csv`, `research/claim_registry.csv`, all six `data/<country>.md` files, `project-control/logs/RES-001.md`, `project-control/logs/RES-002.md`, `project-control/logs/ECON-001.md`, `project-control/logs/SRC-004.md`, and `project-control/logs/LOG_TEMPLATE.md`.
+Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `research/asset_rights_register.csv`, `research/country_photography_audit.md`, `research/source_registry.csv`, `project-control/logs/PHOTO-001.md`, and `project-control/logs/LOG_TEMPLATE.md`.
 
 You may create or edit only:
 
-- `research/THEORY_EVIDENCE_MATRIX.md`
-- `project-control/logs/THEORY-001.md`
+- `research/source_registry.csv`
+- `research/photo_source_registry_audit.md`
+- `project-control/logs/SRC-005.md`
 
-Required deliverable: one evidence matrix testing each of the three original theories — Connected Development, Radius of Trust (institutional/organisational substitutes form), and Continuity + Adaptation — across the six locked countries using only claims already approved and registered in the shared claim registry.
+Required deliverable: twelve complete source-registry rows matching the twelve `SRC-PHOTO-COMMONS-*` IDs already assigned to the accepted PHOTO-001 asset rows, plus an integration audit.
 
 Acceptance criteria:
 
-- For each theory, record: mechanism; measurable prediction; supporting evidence (country-by-country, cell-level, with claim IDs); strongest counterexample or alternative explanation; limitation; and the condition that would revise or reject the theory.
-- Cite every statement by registered claim ID and link back to the shared registries' source IDs. Do not import narrative not already registered. Do not upgrade `REVISION_REQUIRED`, `UNRESOLVED`, or `REJECTED` claims. Preserve all `PARTIAL`-source caveats (Brewer and Venaik 2014, Rodrik 1995 at NBER abstract, Hillbom 2014, the two PSA rows).
-- Respect all construct boundaries: Hofstede scores remain country-level question-generating measures and never individual traits, direct trust, or causes of growth; WGI is governance perception, not trust; the four direct-trust snapshots stay mutually incompatible; no 2019/2020 attitude is back-cast to 1960/1990; no common export-composition series or score-based cultural ranking is implied.
-- Treat the six countries as distinct cases with within-region variation (Ghana vs. Botswana vs. Mauritius; South Korea vs. Malaysia vs. the Philippines). Do not present Africa or Asia as uniform.
-- End with explicit `Approved`, `Revision required`, `Unresolved`, and `Rejected` sections and a verdict on each theory: supported-with-exceptions, inconclusive, or rejected. Do not present original group theories as established academic theories.
+- Preserve every existing source row exactly and append one unique row for each of the twelve provisional photo source IDs; do not rename asset/source IDs or change PHOTO-001 rights decisions.
+- Open each item page and rights statement. Record creator, date/period, title/description, Wikimedia Commons or original container, stable item URL, access date, source type/tier, complete APA 7 image reference, narrative/parenthetical citation, exact item/file locator, honest verification status, owner, and rights/attribution/ShareAlike/model-release notes.
+- Match creator, date, title, URLs, and licence terms to the accepted asset row. Report and stop on any material conflict rather than silently repairing another task's file.
+- Confirm 97 unique source IDs after the append (85 existing + 12 new), zero malformed CSV rows, and zero PHOTO-001 asset source IDs missing from the registry.
+- End the audit with `Approved`, `Revision required`, `Unresolved`, and `Rejected` sections. Approval is source-registry integration only, not final crop/page selection.
 
-Before stopping, write `project-control/logs/THEORY-001.md` using `project-control/logs/LOG_TEMPLATE.md` and mark it `REVIEW`.
+Before stopping, create `project-control/logs/SRC-005.md` using `project-control/logs/LOG_TEMPLATE.md` and mark the handoff `REVIEW`.
 
-Stop after the matrix and log exist. Do not edit evidence packs, country files, master data, registries, charts, magazine copy, design-system documents, checklist, status board, roadmap, or controller files.
+Stop after the registry append, audit, and log exist. Do not edit the asset register, claim registry, photographs, page copy, checklist, status board, roadmap, or controller log.
 
-## 2. VIS-003 release gates — separate task, awaiting reviewer owner
+## 2. VIS-005 — Build the accepted theory evidence matrix visual
 
-The VIS-003 digital repair is accepted. Before the VIS-002 system can be released magazine-wide, the Roadmap Controller must assign named reviewers for:
+You are the **Charts & Editorial Design Agent** for the Africa–Asia Development Magazine. Complete **VIS-005: Build the accepted three-theory evidence matrix visual**.
 
-- a back-row five-second comprehension test by a reader who did not make the chart;
-- a physical A4 proof printed and read at reading distance;
-- a human colour-vision review (including simulated deuteranopia/protanopia on screen and in print);
-- a final-typography review once Aptos or its replacement is confirmed.
+Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `research/THEORY_EVIDENCE_MATRIX.md`, `research/claim_registry.csv`, `research/source_registry.csv`, `design/DESIGN_GUIDE.md`, `design/SELECTED_COMPARISON_SYSTEM.md`, `design/PAGE_RHYTHM_PLAN.md`, and `project-control/logs/LOG_TEMPLATE.md`.
 
-Dispatch this only when a reviewer owner is identified; the Roadmap Controller must not accept release-gate claims without named testers and recorded results.
+You may create or edit only:
+
+- `data/charts/theory_evidence_matrix.csv`
+- `design/figures/theory_evidence_matrix.svg`
+- `design/figures/THEORY_EVIDENCE_MATRIX_SPEC.md`
+- `project-control/logs/VIS-005.md`
+
+Required deliverable: one editable A4 theory-test visual for page 18 that lets a reader compare the three bounded verdicts, strongest support, strongest challenge, limitation, and revision condition without reading the full research matrix.
+
+Acceptance criteria:
+
+- Use only the accepted THEORY-001/002 wording and `APPROVED` registered claims. The tidy CSV must preserve theory, country/case role, bounded verdict, claim IDs, source IDs, limitation, and revision/rejection condition.
+- Do not convert qualitative verdicts into numeric scores, imply causal magnitude, rank cultures/countries, merge trust constructs, or omit the inconclusive Radius of Trust result.
+- Make `supported-with-exceptions` and `inconclusive` understandable without colour; use direct text, distinct symbols/patterns, and explicit exception/cannot-prove language.
+- Give the page one five-second question, a clear reading order, concise labels, 11 pt minimum essential A4 text, a source/limitations band, and no legend hunting or essay-like blocks.
+- Include a complete figure/source note referencing the accepted matrix and shared registries. State that the theories are original group hypotheses, not established academic theories or causal estimates.
+- Validate SVG/XML, CSV parsing, every claim/source ID, grayscale identity, and digital A4 geometry. Mark `REVIEW`; physical/human/final-type checks remain under VIS-004.
+
+Before stopping, create `project-control/logs/VIS-005.md` using `project-control/logs/LOG_TEMPLATE.md`.
+
+Stop after the CSV, SVG, specification, and log exist. Do not edit the theory matrix, registries, design system, page copy, checklist, status board, roadmap, or controller log.
+
+## 3. VIS-006 — Build the six-country GDP anchor dashboard family
+
+You are the **Charts & Maps Agent** for the Africa–Asia Development Magazine. Complete **VIS-006: Build the six-country GDP-per-capita anchor dashboard family**.
+
+Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `project-control/SOURCE_APA_AND_CHART_RULES.md`, `data/master/six_country_chart_inputs.csv`, `data/master/six_country_indicator_dictionary.csv`, `research/six_country_comparability_review.md`, `research/source_registry.csv`, `design/DESIGN_GUIDE.md`, `design/SELECTED_COMPARISON_SYSTEM.md`, `design/figures/COMPARISON_SYSTEM.md`, and `project-control/logs/LOG_TEMPLATE.md`.
+
+You may create or edit only:
+
+- `data/charts/six_country_gdp_anchor_years.csv`
+- `design/figures/six_country_gdp_anchor_dashboard.svg`
+- `design/figures/six_country_gdp_anchor_dashboard_16x9.svg`
+- `design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md`
+- `project-control/logs/VIS-006.md`
+
+Required deliverable: a matched A4 and 1280 × 720 dashboard family comparing all six countries at the locked 1960, 1990, and 2020 anchors using the frozen `NY.GDP.PCAP.KD` rows.
+
+Acceptance criteria:
+
+- Copy the 18 approved frozen observations at full precision into the tidy output; preserve country, region, actual year, value, unit, comparison class, source ID, locator, territorial caveat, and display label. Do not query live WDI or substitute a different release.
+- Use one identical constant-2015-US-dollar definition and common quantitative scale/geometry across all six countries and three years. State Malaysia's territorial caveat visibly.
+- Direct-label all countries and endpoint values; use the selected country markers and provisional colours with colour-independent identification. Do not imply a uniform Africa-versus-Asia race or a causal explanation.
+- Provide one five-second message, visible year/unit/source notes, a COVID-affected-2020 note, and “What this comparison cannot prove.” Avoid unnecessary legend hunting, decorative precision, and overpacked labels.
+- Include exact coordinate/scale math, source identity, frozen input path, APA figure note, accessibility metadata, and print/projection typography targets in the specification.
+- Independently reparse the output CSV and verify all 18 values against the frozen master; validate both SVGs/XML, coordinates, labels, grayscale identity, contrast, and canvas bounds. Mark `REVIEW`; named human/physical release gates remain separate.
+
+Before stopping, create `project-control/logs/VIS-006.md` using `project-control/logs/LOG_TEMPLATE.md`.
+
+Stop after the CSV, two SVGs, specification, and log exist. Do not edit the frozen master, dictionary, registries, selected-system documents, existing figures, page copy, checklist, status board, roadmap, or controller log.
+
+## Blocked tasks — do not dispatch
+
+- `MAP-001`: requires a verified LOC item 2021668660 raster derivative, original legend, direct derivative URL, dimensions, checksum, and human source comparison.
+- `VIS-004`: requires named owners/testers for the non-creator back-row test, physical A4 proof, human colour-vision review, and final-typography review.
 
 ## After this batch
 
-Run the Roadmap Controller again. Independently verify that the matrix cites only registered claim IDs with status `APPROVED`, that no construct boundary has been crossed, and that each theory ends with its verdict. If accepted, open design and page-copy prompts only once figure packages, page-level citations, and image rights are in place.
+Run the Roadmap Controller again. Inspect real source rows and visual exports, not only logs. Accept technical prototypes only at their bounded gate; no final figure or magazine-wide system is released until the named human/physical checks pass.
