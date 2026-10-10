@@ -174,10 +174,11 @@ Assign one independent audit area: evidence/APA, data/graphs, editorial/causalit
 
 The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPTS.md`; this runbook records the current task IDs so stale full prompts cannot survive here.
 
-**Current batch after the latest 2026-10-09 controller reconciliation:**
+**Current batch after the latest 2026-10-10 controller reconciliation:**
 
-1. `VIS-004` — Marcus Grude Grodem runs and records all four human/physical release gates under the locked Montserrat system.
-2. `GAME-001` — define and prototype the evidence-linked offline companion game without editing accepted figure/data packages.
+1. `VIS-009`: de-clump and repair all nine production SVGs, verify native rendered spacing and bounds, and preserve all data geometry and evidence identities.
+
+`VIS-004` is held until the Roadmap Controller accepts VIS-009. `GAME-001` remains on the status board but is deliberately deferred from this batch.
 
 `MAP-001` remains blocked until a verified LOC raster derivative, dimensions, checksum, original legend, and human source comparison are available. Always inspect `project-control/STATUS.md`, newer logs, and real deliverables before dispatching or accepting work.
 

@@ -1,66 +1,120 @@
-# Next Agent Prompts
+# Next Agent Prompt
 
-**Last reconciled by the Roadmap Controller:** 2026-10-09 (TYPE-001 lock)
-**Current stage:** VIS-007 and VIS-008 accepted at digital-gate scope (CTRL-018); named VIS-004 reviewer locked (CTRL-017); **TYPE-001 lock complete** — Montserrat selected, `design/TYPOGRAPHY_DECISION.md` written, swap propagated to nine production SVGs and four figure specs with zero Aptos residue and nine clean XML parses.
+**Last reconciled by the Roadmap Controller:** 2026-10-10 (CTRL-020)
+**Current stage:** The production figure set is numerically and evidentially bounded, but the project lead has rejected the current visual spacing. Figures remain too clumped, several text blocks overlap or nearly overlap, and small notes are not ready for physical A4 or classroom testing. **VIS-009 is the only next dispatch. VIS-004 is held until VIS-009 passes its digital repair gate.**
 **Estimated progress:** 78%
 **Final report ready:** No
 
-CTRL-017 recorded Marcus Grude Grodem as the named reviewer for all four VIS-004 release gates. TYPE-001 is now DONE at digital-gate scope — the project lead selected **Montserrat** on 2026-10-09 and the swap has been propagated. All four VIS-004 gates are dispatchable. `MAP-001` is still blocked because the verified LOC item raster derivative, dimensions, checksum, and original legend have not been supplied by the project lead. The two non-overlapping assignments below may run in parallel.
+## VIS-009: De-clump and repair the complete production-figure family before human testing
 
-## 1. VIS-004 (all four gates) — Run the human and physical release reviews under Montserrat
+You are the **Charts and Editorial Design Agent**. Repair the current production figures so they have clear hierarchy, generous breathing room, no overlapping text, and no near-collisions at native render size. This is a targeted production repair, not a redesign and not a data task.
 
-You are the **named reviewer, Marcus Grude Grodem**, running the human and physical release gates for the selected comparison system against the current production figures.
+The project lead's controlling finding is: **the visuals still feel clumpy and a lot of text overlaps.** Treat this as a failed digital layout gate. Do not run or claim any VIS-004 human/physical release test during this task.
 
-Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `design/SELECTED_COMPARISON_SYSTEM.md`, `design/figures/COMPARISON_SYSTEM.md`, `design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md`, `design/figures/EMPLOYMENT_STRUCTURAL_TRANSFORMATION_SPEC.md`, `design/figures/MANUFACTURING_SHARE_SPEC.md`, `design/figures/THEORY_EVIDENCE_MATRIX_SPEC.md`, and `project-control/logs/LOG_TEMPLATE.md`.
+Before working, read:
 
-You may create or edit only:
+- `AGENTS.md`
+- `PRODUCT.md`
+- `SCOPE_LOCK.md`
+- `project-control/REPORT_CHECKLIST.md`
+- `project-control/STATUS.md`
+- `project-control/SOURCE_APA_AND_CHART_RULES.md`
+- `design/SELECTED_COMPARISON_SYSTEM.md`
+- `design/TYPOGRAPHY_DECISION.md`
+- `design/figures/COMPARISON_SYSTEM.md`
+- `design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md`
+- `design/figures/EMPLOYMENT_STRUCTURAL_TRANSFORMATION_SPEC.md`
+- `design/figures/MANUFACTURING_SHARE_SPEC.md`
+- `design/figures/THEORY_EVIDENCE_MATRIX_SPEC.md`
+- `project-control/logs/LOG_TEMPLATE.md`
 
-- `project-control/logs/VIS-004.md`
+### Files in scope
 
-Required deliverable: one results record naming the tester, method, date, setup, findings, failures, and disposition for each of the four VIS-004 gates. TYPE-001 locked **Montserrat** on 2026-10-09; the final-typography gate must now be run under Montserrat (do not reopen it against Aptos).
+Render and inspect every file before editing and again after editing:
 
-Gates to run:
+- `design/figures/ghana_korea_gdp_per_capita.svg`
+- `design/figures/ghana_korea_gdp_per_capita_16x9.svg`
+- `design/figures/theory_evidence_matrix.svg`
+- `design/figures/six_country_gdp_anchor_dashboard.svg`
+- `design/figures/six_country_gdp_anchor_dashboard_16x9.svg`
+- `design/figures/employment_structural_transformation.svg`
+- `design/figures/employment_structural_transformation_16x9.svg`
+- `design/figures/manufacturing_share.svg`
+- `design/figures/manufacturing_share_16x9.svg`
 
-1. **Back-row five-second comprehension test.** Printed figures viewed from the back of a classroom-size room. Record what the reader understood in five seconds, whether the five-second message matches the specification, and any element that failed to read.
-   - Methodological note recorded in STATUS.md and this log: the named tester is the same person who owns the other gates, which removes cross-reviewer redundancy for this test. An independent second reader is recommended but not blocking.
-2. **Physical A4 proof review.** A trim-size A4 printer proof inspected under paper, not on a monitor. Record line weight, marker diameter, label legibility, caveat visibility, and the Mauritius repair. This proof also serves as the first physical check on the Montserrat lock (see gate 4).
-3. **Human colour-vision review.** The six Palette A country colours and the Mauritius repair reviewed by a human reader. Record colour-vision profile or method if known; otherwise record "declared vision profile not stated" and note the limitation.
-4. **Final-typography review.** Confirm that Montserrat as locked by `design/TYPOGRAPHY_DECISION.md` reads correctly on the physical A4 proof: body copy at 10.5 pt, caption at 9 pt, figure-note at 7.5–8 pt, tabular numerals aligned in dense tables, and the Black 900 weight at display sizes under −2 % tracking. Record pass / fail on each role size.
+You may edit only those nine SVGs, the four matching `*_SPEC.md` files when a documented layout value must change, `design/figures/COMPARISON_SYSTEM.md` if a shared production rule needs clarification, and `project-control/logs/VIS-009.md`.
 
-Acceptance criteria:
+Do not edit any CSV, master data, source registry, claim registry, country file, showroom alternative, palette decision, typography decision, or evidence wording outside the visible corrections explicitly required below.
 
-- Every gate records tester name, method, date, setup, findings, failures, and disposition. Anonymous or AI-only records are rejected.
-- Failures are recorded as failures and routed back to the appropriate chart task for revision; successes are recorded as successes.
-- Mark the handoff `REVIEW` when all four gates are recorded.
+### Non-negotiable preservation rules
 
-Before stopping, create or append `project-control/logs/VIS-004.md` using `project-control/logs/LOG_TEMPLATE.md`. Do not edit any other file.
+- Do not change any value, year, indicator, unit, scale, country order, country identity, marker identity, source ID, frozen-data path, comparability decision, missing-data treatment, or plotted data coordinate.
+- Do not move a marker, bar edge, or data connector along a value axis to solve a collision.
+- Preserve Montserrat as the locked family. Use only locked weights 400, 500, 600, 700, and 900. Do not use synthetic weights such as 650, 750, 780, or 800.
+- Preserve Palette A and the Mauritius charcoal keyline and connector under-stroke.
+- Preserve direct country names, direct values, proxy symbols, observed-anchor wording, pandemic caveats, causality limitations, and `Not a race.`
+- Preserve the employment sector order, deterministic displayed percentages, textures, and 100% geometry.
+- Preserve the Philippines narrative-only and Mauritius missing-anchor treatments in the manufacturing family.
 
-## 2. GAME-001 — Define and prototype the companion game
+### Required repair method
 
-You are the **Interaction Agent**. Open **GAME-001: Define and prototype the evidence-linked companion game** without touching the accepted figure/data packages. Final direction remains a user review gate.
+1. **Render first.** Render all nine SVGs at their declared native canvases. Also create a digital greyscale render. Review the actual images, not only XML or source code.
+2. **Map every collision.** Record text-to-text, text-to-rule, text-to-marker, text-to-bar, text-to-canvas, and major-block spacing failures. Include near-collisions that leave less than the minimum clearance below.
+3. **Repair hierarchy before shrinking type.** Create breathing room by shortening repeated copy, relocating notes, widening gutters, separating header/plot/note bands, or using short leaders. Do not solve clumping by making essential text smaller.
+4. **Keep major blocks distinct.** Headline/deck, plot, country headings, dates, caveats, and source band must read as separate layers. Each major block should retain approximately 10–20% perceptual breathing room around it.
+5. **Render again.** Repeat colour, greyscale, bounds, and collision inspection after every repair pass. Continue until the acceptance checks pass.
 
-Before working, read `AGENTS.md`, `PRODUCT.md`, `SCOPE_LOCK.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/STATUS.md`, `research/claim_registry.csv`, `research/source_registry.csv`, `data/master/six_country_chart_inputs.csv`, `design/DESIGN_GUIDE.md`, and `project-control/logs/LOG_TEMPLATE.md`.
+### Minimum clearances and type sizes
 
-You may create or edit only:
+For 1280 × 720 projection files:
 
-- `design/game/` (new directory for the prototype)
-- `project-control/logs/GAME-001.md`
+- Essential axes, years, values, and direct country labels: **22 px minimum**.
+- Supporting caveats and limitation text: **18 px minimum**.
+- Keep at least **8 px** between unrelated text and a rule, marker, bar, or another text block.
+- Keep at least **16 px** between major bands such as header, plot, notes, and source.
+- Keep essential content at least **12 px** inside every canvas edge.
+- If the complete source will not fit legibly, retain a concise on-screen source with indicator, organisation/year, source ID, release/retrieval identifier, and frozen-data path. Route the full reference to the handout/source slide as already permitted by the comparison system.
 
-Required deliverable: a short game concept document, a static or offline prototype, and a rules sheet that links each play step to approved registered claims or frozen chart rows.
+For A4 figures at final trim:
 
-Acceptance criteria:
+- Axes and values: **11 pt minimum**.
+- Source, limitation, and caveat copy: **10 pt minimum**, except the locked 7.5–8 pt APA figure-note role where explicitly applied.
+- Keep text and essential marks at least **10 mm** from trim and fold risks; use the selected system's 14 mm outer/top/bottom and 16 mm inner page margins when the asset is a page-level A4 export.
+- Essential strokes: **0.6 pt minimum**; keylines: **1 pt minimum**; markers: **3.5 mm minimum**.
+- Encode an explicit physical page size for every file claimed as A4. A unitless pixel canvas is not an actual-size print proof.
 
-- Every evidence pointer in the game resolves to an approved claim ID or a frozen chart-input row; no new sources or claims are introduced.
-- The game does not imply causal explanation beyond what the research pack supports.
-- The prototype is reproducible offline on paper (no required internet or app).
-- Mark the handoff `REVIEW`.
+### Known failures that must be corrected
 
-Before stopping, create `project-control/logs/GAME-001.md` using `project-control/logs/LOG_TEMPLATE.md`.
+- **All figures:** ensure Montserrat actually renders in the controlled export environment; a fallback-font screenshot is not a typography pass. Update any non-locked font weights.
+- **Employment A4:** enlarge percentage labels, note copy, and source copy; increase segment/keyline reproduction strength where it falls below the print minimum; move the source band into a real safe area; separate years and the 5.3/5.4 external labels from the baselines.
+- **Employment 16:9:** current 11–14 px values, years, and caveats are too small for projection. Enlarge them to the projection minima, shorten repeated prose, create more air between baselines, dates, note frame, and source, and keep the last source baseline safely inside the canvas.
+- **GDP A4:** restore a safe bottom source band, use a legible figure-note size, use a true physical A4 wrapper/export, and restore the complete Malaysia territorial caveat, including the 1963 formation and Singapore's 1965 exit.
+- **GDP 16:9:** restore the complete Malaysia caveat; bring title, deck, and source roles up to their recorded sizes without introducing collisions.
+- **Manufacturing A4 and 16:9:** inspect every narrative-only annotation, absence note, year label, value, and source line for collision or clumping. Preserve all missing-data geometry and the no-connector rules.
+- **Theory matrix A4:** inspect all three columns at actual trim size. No verdict badge, country row, support/challenge mark, limitation, revision condition, or source line may collide or read as a continuous wall of text.
+- **Ghana–South Korea A4 and 16:9:** retain the six-observation geometry while checking all leaders, endpoint labels, caveats, and the source band for clear separation.
 
-## Blocked tasks — do not dispatch
+### Acceptance checks
 
-- `MAP-001`: requires a verified Library of Congress item 2021668660 raster derivative URL, dimensions, checksum, original legend scan, and a human source comparison. The specification is not finished artwork.
+- All nine SVGs parse successfully.
+- Native colour and greyscale renders are attached or referenced in the VIS-009 log.
+- There is **zero text overlap** and zero accidental crop in every native render.
+- There is no text touching a rule, marker, bar, or another major component.
+- Every stated minimum type size, stroke, marker size, edge clearance, and major-band separation is met and recorded.
+- A bounding-box or equivalent rendered-layout check is used. A string search alone is not sufficient.
+- The three-second/five-second entry point remains obvious without reading the caveat band.
+- All caveats remain visible and readable, including proxy years, 1960 exclusions, pandemic endpoints, Malaysia's full territorial caveat, observed-anchor-only wording, causality limits, and `Not a race.`
+- Data geometry and evidence identity are verified unchanged against the existing specifications and CSVs.
+- Mark the handoff `REVIEW`, not `DONE`. VIS-004 remains blocked until the Roadmap Controller inspects the repaired renders.
 
-## After this batch
+Before stopping, create `project-control/logs/VIS-009.md` using `project-control/logs/LOG_TEMPLATE.md`. Record every file changed, every collision corrected, before/after render paths, verification commands, remaining limitations, and the exact next action.
 
-Run the Roadmap Controller again. Inspect the real reviewer-results record, the typography decision record, and the reconciliation. Accept technical prototypes only at their bounded gate; no final figure or magazine-wide system is released until the named human/physical checks pass and the typeface is confirmed.
+## Blocked or deferred tasks
+
+- `VIS-004`: do not run the human/physical gates until VIS-009 is reviewed and accepted.
+- `GAME-001`: remains on the status board but is deliberately not dispatched in this batch.
+- `MAP-001`: remains blocked pending the verified Library of Congress raster derivative, original legend, dimensions, checksum, and human source comparison.
+
+## After VIS-009
+
+Run the Roadmap Controller. Inspect the actual repaired renders, not only the task log. If VIS-009 passes, dispatch VIS-004 against that exact figure revision. Do not release the figure system until the named human/physical gates are then completed and recorded.
