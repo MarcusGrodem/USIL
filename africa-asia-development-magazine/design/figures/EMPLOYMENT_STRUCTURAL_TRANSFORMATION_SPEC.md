@@ -205,6 +205,7 @@ Essential axis/value type on A4 is ≥ 14 px (figure note) with every bar value 
 - **A4:** target line weight ≥ 0.6 pt and segment edge ≥ 3.5 mm visible at trim. The 0.8-unit segment keylines and 1.4-unit baseline rule, scaled from the viewBox to a 297 mm wide landscape A4 trim (`≈ 5.4 units/mm`), satisfy this.
 - **Projection (1280 × 720):** essential year labels at 14 px; in-segment values at 11 px; reading-note heads at 13 px; reading-note body at 11 px; segment heights ≥ 10.6 units (Mauritius 2020 agriculture, 5.3 %) with external leader labels where < 16 units; no transparency, gradient, shadow, 3D, dual axis, or decorative silhouette.
 - Both files use stacked rectangles only — no smoothing, curves, or inferred between-year connectors.
+- **Spacing repair (2026-10-09):** the country rows, year labels, key, and note band retain the same data geometry but use approximately 15% more perceptual separation. The A4 header carries the proxy/pandemic/1960 explanation once in the note band instead of repeating it above the panels; year labels move 8 units toward their baselines; the note band begins 10 units lower. In the 16:9 file the shortened deck and key share one horizontal band, year labels move 8 units toward their baselines, and the note frame begins 4 units lower. These offsets prevent descenders and note rules from touching without changing a segment coordinate or value.
 
 ## Verification record
 

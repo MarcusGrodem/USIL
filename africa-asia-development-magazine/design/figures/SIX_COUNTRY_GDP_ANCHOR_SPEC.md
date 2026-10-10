@@ -180,6 +180,7 @@ Both files meet the selected-system typography minima: the A4 figure keeps all e
 
 - **A4 (final trim 420 × 297 mm at full spread or 297 × 210 mm single page landscape):** target line weight ≥ 0.6 pt and marker diameter ≥ 3.5 mm at trim. In this SVG, strokes of 1.3–2.5 units and markers of 24–36 units satisfy that when the viewBox fits a 297 mm wide trim (≈ 5.4 units/mm). The dashboard is designed as a single landscape evidence plate; the Evidence Ledger spread layout for the magazine page remains separate work.
 - **Projection (1280 × 720):** essential axes/years/values are at ≥ 22 px; supporting notes at ≥ 18 px; markers at ≥ 17–21 px across; no transparency, gradient, shadow, 3D, dual axis, or decorative silhouette.
+- **Spacing repair (2026-10-09):** all observation markers, connector paths, values, axes, and scales remain fixed. Year labels move 10 units toward their baselines on A4 and 8 units on 16:9, increasing clearance to the following country row and reading-notes band. The 16:9 title/deck band moves upward by 2/6 units to increase clearance above the first country headings. No data coordinate or displayed value changes.
 - Both files use only straight connectors between observed anchors; no smoothing is applied.
 
 ## Verification record

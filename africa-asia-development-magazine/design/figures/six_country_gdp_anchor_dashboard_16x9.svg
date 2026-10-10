@@ -68,8 +68,8 @@
   <!-- Heading band -->
   <g id="heading">
     <text x="30" y="26" class="text eyebrow">SIX COUNTRIES · OBSERVED ANCHORS 1960 · 1990 · 2020</text>
-    <text x="30" y="56" class="display title">GDP per capita at three anchors. One shared axis.</text>
-    <text x="30" y="76" class="text deck">Constant 2015 US$ per person · Africa top row, Asia below · one shared scale · no causal claim</text>
+    <text x="30" y="54" class="display title">GDP per capita at three anchors. One shared axis.</text>
+    <text x="30" y="70" class="text deck">Constant 2015 US$ per person · Africa top row, Asia below · one shared scale · no causal claim</text>
   </g>
 
   <!-- Row 1: Africa -->
@@ -103,9 +103,9 @@
       <text x="125" y="277" text-anchor="middle" class="text value">$1,101</text>
       <text x="270" y="278" text-anchor="middle" class="text value">$856</text>
       <text x="415" y="272" text-anchor="middle" class="text value">$1,970</text>
-      <text x="125" y="328" text-anchor="middle" class="text year">1960</text>
-      <text x="270" y="328" text-anchor="middle" class="text year">1990</text>
-      <text x="415" y="328" text-anchor="middle" class="text year">2020</text>
+<text x="125" y="320" text-anchor="middle" class="text year">1960</text>
+      <text x="270" y="320" text-anchor="middle" class="text year">1990</text>
+      <text x="415" y="320" text-anchor="middle" class="text year">2020</text>
     </g>
 
     <!-- Panel 2: Botswana -->
@@ -122,9 +122,9 @@
       <text x="525" y="282" text-anchor="middle" class="text value">$394</text>
       <text x="670" y="261" text-anchor="middle" class="text value">$4,039</text>
       <text x="815" y="248" text-anchor="middle" class="text value">$6,254</text>
-      <text x="525" y="328" text-anchor="middle" class="text year">1960</text>
-      <text x="670" y="328" text-anchor="middle" class="text year">1990</text>
-      <text x="815" y="328" text-anchor="middle" class="text year">2020</text>
+      <text x="525" y="320" text-anchor="middle" class="text year">1960</text>
+      <text x="670" y="320" text-anchor="middle" class="text year">1990</text>
+      <text x="815" y="320" text-anchor="middle" class="text year">2020</text>
     </g>
 
     <!-- Panel 3: Mauritius (charcoal under-stroke required) -->
@@ -142,9 +142,9 @@
       <text x="925" y="275" text-anchor="middle" class="text value">$1,419</text>
       <text x="1070" y="262" text-anchor="middle" class="text value">$3,846</text>
       <text x="1215" y="229" text-anchor="middle" class="text value">$9,534</text>
-      <text x="925" y="328" text-anchor="middle" class="text year">1960</text>
-      <text x="1070" y="328" text-anchor="middle" class="text year">1990</text>
-      <text x="1215" y="328" text-anchor="middle" class="text year">2020</text>
+      <text x="925" y="320" text-anchor="middle" class="text year">1960</text>
+      <text x="1070" y="320" text-anchor="middle" class="text year">1990</text>
+      <text x="1215" y="320" text-anchor="middle" class="text year">2020</text>
     </g>
   </g>
 
@@ -180,9 +180,9 @@
       <text x="270" y="492" text-anchor="middle" class="text value">$9,673</text>
       <rect x="363" y="397" width="104" height="30" rx="3" fill="#F4F0E7" opacity="0.96"/>
       <text x="415" y="420" text-anchor="middle" class="text value">$33,216</text>
-      <text x="125" y="591" text-anchor="middle" class="text year">1960</text>
-      <text x="270" y="591" text-anchor="middle" class="text year">1990</text>
-      <text x="415" y="591" text-anchor="middle" class="text year">2020</text>
+      <text x="125" y="583" text-anchor="middle" class="text year">1960</text>
+      <text x="270" y="583" text-anchor="middle" class="text year">1990</text>
+      <text x="415" y="583" text-anchor="middle" class="text year">2020</text>
     </g>
 
     <!-- Panel 5: Malaysia -->
@@ -199,9 +199,9 @@
       <text x="525" y="540" text-anchor="middle" class="text value">$1,266 †</text>
       <text x="670" y="523" text-anchor="middle" class="text value">$4,185</text>
       <text x="815" y="489" text-anchor="middle" class="text value">$10,171</text>
-      <text x="525" y="591" text-anchor="middle" class="text year">1960 †</text>
-      <text x="670" y="591" text-anchor="middle" class="text year">1990</text>
-      <text x="815" y="591" text-anchor="middle" class="text year">2020</text>
+      <text x="525" y="583" text-anchor="middle" class="text year">1960 †</text>
+      <text x="670" y="583" text-anchor="middle" class="text year">1990</text>
+      <text x="815" y="583" text-anchor="middle" class="text year">2020</text>
     </g>
 
     <!-- Panel 6: Philippines -->
@@ -219,9 +219,9 @@
       <text x="925" y="540" text-anchor="middle" class="text value">$1,124</text>
       <text x="1070" y="537" text-anchor="middle" class="text value">$1,704</text>
       <text x="1215" y="528" text-anchor="middle" class="text value">$3,199</text>
-      <text x="925" y="591" text-anchor="middle" class="text year">1960</text>
-      <text x="1070" y="591" text-anchor="middle" class="text year">1990</text>
-      <text x="1215" y="591" text-anchor="middle" class="text year">2020</text>
+      <text x="925" y="583" text-anchor="middle" class="text year">1960</text>
+      <text x="1070" y="583" text-anchor="middle" class="text year">1990</text>
+      <text x="1215" y="583" text-anchor="middle" class="text year">2020</text>
     </g>
   </g>
 

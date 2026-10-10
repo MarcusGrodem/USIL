@@ -105,9 +105,9 @@
       <text x="206" y="518" text-anchor="middle" class="text value">$1,101</text>
       <text x="376" y="520" text-anchor="middle" class="text value">$856</text>
       <text x="546" y="509" text-anchor="middle" class="text value">$1,970</text>
-      <text x="206" y="575" text-anchor="middle" class="text year">1960</text>
-      <text x="376" y="575" text-anchor="middle" class="text year">1990</text>
-      <text x="546" y="575" text-anchor="middle" class="text year">2020</text>
+<text x="206" y="565" text-anchor="middle" class="text year">1960</text>
+      <text x="376" y="565" text-anchor="middle" class="text year">1990</text>
+      <text x="546" y="565" text-anchor="middle" class="text year">2020</text>
     </g>
 
     <!-- Panel 2: Botswana -->
@@ -124,9 +124,9 @@
       <text x="686" y="524" text-anchor="middle" class="text value">$394</text>
       <text x="856" y="490" text-anchor="middle" class="text value">$4,039</text>
       <text x="1026" y="469" text-anchor="middle" class="text value">$6,254</text>
-      <text x="686" y="575" text-anchor="middle" class="text year">1960</text>
-      <text x="856" y="575" text-anchor="middle" class="text year">1990</text>
-      <text x="1026" y="575" text-anchor="middle" class="text year">2020</text>
+      <text x="686" y="565" text-anchor="middle" class="text year">1960</text>
+      <text x="856" y="565" text-anchor="middle" class="text year">1990</text>
+      <text x="1026" y="565" text-anchor="middle" class="text year">2020</text>
     </g>
 
     <!-- Panel 3: Mauritius (ochre with mandatory charcoal under-stroke) -->
@@ -144,9 +144,9 @@
       <text x="1166" y="514" text-anchor="middle" class="text value">$1,419</text>
       <text x="1336" y="492" text-anchor="middle" class="text value">$3,846</text>
       <text x="1506" y="438" text-anchor="middle" class="text value">$9,534</text>
-      <text x="1166" y="575" text-anchor="middle" class="text year">1960</text>
-      <text x="1336" y="575" text-anchor="middle" class="text year">1990</text>
-      <text x="1506" y="575" text-anchor="middle" class="text year">2020</text>
+      <text x="1166" y="565" text-anchor="middle" class="text year">1960</text>
+      <text x="1336" y="565" text-anchor="middle" class="text year">1990</text>
+      <text x="1506" y="565" text-anchor="middle" class="text year">2020</text>
     </g>
   </g>
 
@@ -181,9 +181,9 @@
       <text x="206" y="918" text-anchor="middle" class="text value">$1,038</text>
       <text x="376" y="837" text-anchor="middle" class="text value">$9,673</text>
       <text x="546" y="614" text-anchor="middle" class="text value">$33,216</text>
-      <text x="206" y="975" text-anchor="middle" class="text year">1960</text>
-      <text x="376" y="975" text-anchor="middle" class="text year">1990</text>
-      <text x="546" y="975" text-anchor="middle" class="text year">2020</text>
+      <text x="206" y="965" text-anchor="middle" class="text year">1960</text>
+      <text x="376" y="965" text-anchor="middle" class="text year">1990</text>
+      <text x="546" y="965" text-anchor="middle" class="text year">2020</text>
     </g>
 
     <!-- Panel 5: Malaysia -->
@@ -200,9 +200,9 @@
       <text x="686" y="916" text-anchor="middle" class="text value">$1,266<tspan class="text marker-label"> †</tspan></text>
       <text x="856" y="889" text-anchor="middle" class="text value">$4,185</text>
       <text x="1026" y="832" text-anchor="middle" class="text value">$10,171</text>
-      <text x="686" y="975" text-anchor="middle" class="text year">1960 †</text>
-      <text x="856" y="975" text-anchor="middle" class="text year">1990</text>
-      <text x="1026" y="975" text-anchor="middle" class="text year">2020</text>
+      <text x="686" y="965" text-anchor="middle" class="text year">1960 †</text>
+      <text x="856" y="965" text-anchor="middle" class="text year">1990</text>
+      <text x="1026" y="965" text-anchor="middle" class="text year">2020</text>
     </g>
 
     <!-- Panel 6: Philippines -->
@@ -220,9 +220,9 @@
       <text x="1166" y="917" text-anchor="middle" class="text value">$1,124</text>
       <text x="1336" y="911" text-anchor="middle" class="text value">$1,704</text>
       <text x="1506" y="897" text-anchor="middle" class="text value">$3,199</text>
-      <text x="1166" y="975" text-anchor="middle" class="text year">1960</text>
-      <text x="1336" y="975" text-anchor="middle" class="text year">1990</text>
-      <text x="1506" y="975" text-anchor="middle" class="text year">2020</text>
+      <text x="1166" y="965" text-anchor="middle" class="text year">1960</text>
+      <text x="1336" y="965" text-anchor="middle" class="text year">1990</text>
+      <text x="1506" y="965" text-anchor="middle" class="text year">2020</text>
     </g>
   </g>
 

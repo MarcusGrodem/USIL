@@ -12,13 +12,13 @@
 <rect x="0" y="0" width="1280" height="720" fill="#F4F0E7"/>
 <text x="44" y="30" fill="#403D38" font-size="13" letter-spacing="2" font-weight="600">VIS-007 . EVIDENCE LEDGER . EMPLOYMENT BY SECTOR</text>
 <text x="44" y="60" fill="#252525" font-size="28" font-weight="700">How work moved across sectors, 1991 to 2020.</text>
-<text x="44" y="84" fill="#403D38" font-size="16" font-weight="500">Six country cases · Africa on the top row, Asia below · each bar represents 100% of employment</text>
-<rect x="876" y="92" width="13" height="13" fill="#4A3D28" stroke="#252525" stroke-width="1"/>
-<text x="895" y="103" fill="#403D38" font-size="14" font-weight="600">Agriculture</text>
-<rect x="994" y="92" width="13" height="13" fill="#9B8F6E" stroke="#252525" stroke-width="1"/>
-<text x="1013" y="103" fill="#403D38" font-size="14" font-weight="600">Industry</text>
-<rect x="1089" y="92" width="13" height="13" fill="#DBD2BA" stroke="#252525" stroke-width="1"/>
-<text x="1108" y="103" fill="#403D38" font-size="14" font-weight="600">Services</text>
+<text x="44" y="82" fill="#403D38" font-size="16" font-weight="500">Six cases · Africa above, Asia below · every bar = 100%</text>
+<rect x="730" y="72" width="13" height="13" fill="#4A3D28" stroke="#252525" stroke-width="1"/>
+<text x="749" y="83" fill="#403D38" font-size="14" font-weight="600">Agriculture</text>
+<rect x="848" y="72" width="13" height="13" fill="#9B8F6E" stroke="#252525" stroke-width="1"/>
+<text x="867" y="83" fill="#403D38" font-size="14" font-weight="600">Industry</text>
+<rect x="943" y="72" width="13" height="13" fill="#DBD2BA" stroke="#252525" stroke-width="1"/>
+<text x="962" y="83" fill="#403D38" font-size="14" font-weight="600">Services</text>
 <g aria-label="Ghana: 1991, agriculture 71.8 percent, industry 9.0 percent, services 19.2 percent. 2020, agriculture 37.4 percent, industry 15.2 percent, services 47.4 percent.">
 <circle cx="53.5" cy="120" r="7.5" fill="#B95332" stroke="#252525" stroke-width="1.6"/>
 <text x="71.0" y="125.5" fill="#252525" font-size="18" font-weight="700">Ghana</text>
@@ -31,14 +31,14 @@
 <text x="154.00" y="191.25" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">9.0</text>
 <rect x="119.00" y="140.000" width="70" height="38.400" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="154.00" y="163.05" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">19.2</text>
-<text x="154.00" y="358.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
+<text x="154.00" y="350.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
 <rect x="279.00" y="265.200" width="70" height="74.800" fill="#4A3D28" stroke="#252525" stroke-width="0.8"/>
 <text x="314.00" y="306.45" fill="#F4F0E7" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">37.4</text>
 <rect x="279.00" y="234.800" width="70" height="30.400" fill="#9B8F6E" stroke="#252525" stroke-width="0.8"/>
 <text x="314.00" y="253.85" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">15.2</text>
 <rect x="279.00" y="140.000" width="70" height="94.800" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="314.00" y="191.25" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">47.4</text>
-<text x="314.00" y="358.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
+<text x="314.00" y="350.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
 </g>
 <g aria-label="Botswana: 1991, agriculture 12.6 percent, industry 21.3 percent, services 66.1 percent. 2020, agriculture 19.5 percent, industry 15.0 percent, services 65.5 percent.">
 <rect x="448.6666666666667" y="112.5" width="15" height="15" fill="#3F684E" stroke="#252525" stroke-width="1.6"/>
@@ -52,14 +52,14 @@
 <text x="556.67" y="297.35" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">21.3</text>
 <rect x="521.67" y="140.000" width="70" height="132.200" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="556.67" y="209.95" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">66.1</text>
-<text x="556.67" y="358.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
+<text x="556.67" y="350.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
 <rect x="681.67" y="301.000" width="70" height="39.000" fill="#4A3D28" stroke="#252525" stroke-width="0.8"/>
 <text x="716.67" y="324.35" fill="#F4F0E7" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">19.5</text>
 <rect x="681.67" y="271.000" width="70" height="30.000" fill="#9B8F6E" stroke="#252525" stroke-width="0.8"/>
 <text x="716.67" y="289.85" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">15.0</text>
 <rect x="681.67" y="140.000" width="70" height="131.000" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="716.67" y="209.35" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">65.5</text>
-<text x="716.67" y="358.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
+<text x="716.67" y="350.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
 </g>
 <g aria-label="Mauritius: 1991, agriculture 19.6 percent, industry 35.0 percent, services 45.4 percent. 2020, agriculture 5.3 percent, industry 23.4 percent, services 71.3 percent.">
 <polygon points="858.8333333333334,112.5 866.3333333333334,127.5 851.3333333333334,127.5" fill="#D6A23A" stroke="#252525" stroke-width="1.8"/>
@@ -73,7 +73,7 @@
 <text x="959.33" y="269.65" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">35.0</text>
 <rect x="924.33" y="140.000" width="70" height="90.800" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="959.33" y="189.25" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">45.4</text>
-<text x="959.33" y="358.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
+<text x="959.33" y="350.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
 <rect x="1084.33" y="329.400" width="70" height="10.600" fill="#4A3D28" stroke="#252525" stroke-width="0.8"/>
 <line x1="1156.3333333333335" y1="334.70" x2="1174.3333333333335" y2="334.70" stroke="#252525" stroke-width="0.8"/>
 <text x="1177.3333333333335" y="338.55" fill="#252525" font-size="11" font-weight="700" font-variant-numeric="tabular-nums" text-anchor="start">5.3</text>
@@ -81,7 +81,7 @@
 <text x="1119.33" y="309.85" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">23.4</text>
 <rect x="1084.33" y="140.000" width="70" height="142.600" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="1119.33" y="215.15" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">71.3</text>
-<text x="1119.33" y="358.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
+<text x="1119.33" y="350.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
 </g>
 <g aria-label="South Korea: 1991, agriculture 15.5 percent, industry 37.1 percent, services 47.4 percent. 2020, agriculture 5.4 percent, industry 24.6 percent, services 70.0 percent.">
 <polygon points="53.5,372.5 61.0,380 53.5,387.5 46.0,380" fill="#315A78" stroke="#252525" stroke-width="1.6"/>
@@ -95,7 +95,7 @@
 <text x="154.00" y="535.75" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">37.1</text>
 <rect x="119.00" y="400.000" width="70" height="94.800" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="154.00" y="451.25" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">47.4</text>
-<text x="154.00" y="618.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
+<text x="154.00" y="610.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
 <rect x="279.00" y="589.200" width="70" height="10.800" fill="#4A3D28" stroke="#252525" stroke-width="0.8"/>
 <line x1="351.0" y1="594.60" x2="369.0" y2="594.60" stroke="#252525" stroke-width="0.8"/>
 <text x="372.0" y="598.45" fill="#252525" font-size="11" font-weight="700" font-variant-numeric="tabular-nums" text-anchor="start">5.4</text>
@@ -103,7 +103,7 @@
 <text x="314.00" y="568.45" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">24.6</text>
 <rect x="279.00" y="400.000" width="70" height="140.000" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="314.00" y="473.85" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">70.0</text>
-<text x="314.00" y="618.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
+<text x="314.00" y="610.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
 </g>
 <g aria-label="Malaysia: 1991, agriculture 18.9 percent, industry 32.8 percent, services 48.3 percent. 2020, agriculture 10.5 percent, industry 26.2 percent, services 63.3 percent.">
 <polygon points="462.66,383.75 456.17,387.50 449.67,383.75 449.67,376.25 456.17,372.50 462.66,376.25" fill="#3E7568" stroke="#252525" stroke-width="1.6"/>
@@ -117,14 +117,14 @@
 <text x="556.67" y="533.25" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">32.8</text>
 <rect x="521.67" y="400.000" width="70" height="96.600" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="556.67" y="452.15" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">48.3</text>
-<text x="556.67" y="618.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
+<text x="556.67" y="610.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
 <rect x="681.67" y="579.000" width="70" height="21.000" fill="#4A3D28" stroke="#252525" stroke-width="0.8"/>
 <text x="716.67" y="593.35" fill="#F4F0E7" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">10.5</text>
 <rect x="681.67" y="526.600" width="70" height="52.400" fill="#9B8F6E" stroke="#252525" stroke-width="0.8"/>
 <text x="716.67" y="556.65" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">26.2</text>
 <rect x="681.67" y="400.000" width="70" height="126.600" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="716.67" y="467.15" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">63.3</text>
-<text x="716.67" y="618.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
+<text x="716.67" y="610.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
 </g>
 <g aria-label="Philippines: 1991, agriculture 44.1 percent, industry 16.6 percent, services 39.3 percent. 2020, agriculture 24.5 percent, industry 18.7 percent, services 56.8 percent.">
 <g stroke="#252525" stroke-width="2.2" fill="none"><line x1="851.3333333333334" y1="372.5" x2="866.3333333333334" y2="387.5"/><line x1="851.3333333333334" y1="387.5" x2="866.3333333333334" y2="372.5"/></g><g stroke="#A63A3A" stroke-width="1.4" fill="none"><line x1="851.3333333333334" y1="372.5" x2="866.3333333333334" y2="387.5"/><line x1="851.3333333333334" y1="387.5" x2="866.3333333333334" y2="372.5"/></g>
@@ -138,16 +138,16 @@
 <text x="959.33" y="499.05" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">16.6</text>
 <rect x="924.33" y="400.000" width="70" height="78.600" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="959.33" y="443.15" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">39.3</text>
-<text x="959.33" y="618.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
+<text x="959.33" y="610.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">1991 †</text>
 <rect x="1084.33" y="551.000" width="70" height="49.000" fill="#4A3D28" stroke="#252525" stroke-width="0.8"/>
 <text x="1119.33" y="579.35" fill="#F4F0E7" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">24.5</text>
 <rect x="1084.33" y="513.600" width="70" height="37.400" fill="#9B8F6E" stroke="#252525" stroke-width="0.8"/>
 <text x="1119.33" y="536.15" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">18.7</text>
 <rect x="1084.33" y="400.000" width="70" height="113.600" fill="#DBD2BA" stroke="#252525" stroke-width="0.8"/>
 <text x="1119.33" y="460.65" fill="#252525" font-size="11" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">56.8</text>
-<text x="1119.33" y="618.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
+<text x="1119.33" y="610.00" fill="#252525" font-size="14" font-weight="700" text-anchor="middle" font-variant-numeric="tabular-nums">2020</text>
 </g>
-<rect x="44" y="620" width="1192" height="70" fill="#F4F0E7" stroke="#B7B0A4" stroke-width="0.8"/>
+<rect x="44" y="624" width="1192" height="66" fill="#F4F0E7" stroke="#B7B0A4" stroke-width="0.8"/>
 <text x="54.00" y="641.00" fill="#252525" font-size="13" font-weight="700" letter-spacing="1">OBSERVED ANCHORS ONLY</text>
 <text x="54.00" y="655.00" fill="#403D38" font-size="11">Each bar is one dated observation. The chart does not estimate</text>
 <text x="54.00" y="670.00" fill="#403D38" font-size="11">values between 1991 and 2020 and does not extrapolate before 1991</text>
