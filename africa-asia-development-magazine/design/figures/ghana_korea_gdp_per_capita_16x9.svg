@@ -14,15 +14,16 @@
     <style><![CDATA[
       .display { font-family: "Montserrat", "Helvetica Neue", sans-serif; fill: #252525; }
       .text { font-family: "Montserrat", "Helvetica Neue", sans-serif; fill: #252525; }
-      .eyebrow { font-size: 18px; font-weight: 750; letter-spacing: 1.8px; }
-      .title { font-size: 44px; font-weight: 780; letter-spacing: -0.8px; }
-      .subtitle { font-size: 22px; font-weight: 520; fill: #403D38; }
-      .axis { font-size: 22px; font-weight: 650; fill: #514E48; font-variant-numeric: tabular-nums; }
-      .year { font-size: 22px; font-weight: 750; }
-      .value { font-size: 22px; font-weight: 780; font-variant-numeric: tabular-nums; }
-      .country { font-size: 24px; font-weight: 780; }
-      .note-head { font-size: 18px; font-weight: 800; letter-spacing: 0.5px; }
+      .eyebrow { font-size: 18px; font-weight: 700; letter-spacing: 1.8px; }
+      .title { font-size: 40px; font-weight: 700; letter-spacing: -0.7px; }
+      .subtitle { font-size: 20px; font-weight: 500; fill: #403D38; }
+      .axis { font-size: 22px; font-weight: 600; fill: #514E48; font-variant-numeric: tabular-nums; }
+      .year { font-size: 22px; font-weight: 700; }
+      .value { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+      .country { font-size: 24px; font-weight: 700; }
+      .note-head { font-size: 18px; font-weight: 700; letter-spacing: 0.5px; }
       .note { font-size: 18px; font-weight: 500; fill: #403D38; }
+      .fignote { font-size: 14px; font-weight: 500; fill: #403D38; font-variant-numeric: tabular-nums; }
       .grid { stroke: #B7B0A4; stroke-width: 1.5; }
       .baseline { stroke: #514E48; stroke-width: 2.5; }
       .year-guide { stroke: #D8D2C7; stroke-width: 1.2; }
@@ -36,12 +37,16 @@
       <path d="M0,-13 L13,0 L0,13 L-13,0 Z" fill="#315A78" stroke="#F4F0E7" stroke-width="5" stroke-linejoin="round"/>
       <path d="M0,-13 L13,0 L0,13 L-13,0 Z" fill="none" stroke="#252525" stroke-width="1.5" stroke-linejoin="round"/>
     </symbol>
+    <symbol id="flag-ghana" viewBox="0 0 30 20"><rect width="30" height="6.67" fill="#CE1126"/><rect y="6.67" width="30" height="6.66" fill="#FCD116"/><rect y="13.33" width="30" height="6.67" fill="#006B3F"/><path d="M15 7.1l.9 1.9 2.1.2-1.55 1.45.45 2.1-1.9-1.05-1.9 1.05.45-2.1L12 9.2l2.1-.2z" fill="#111"/></symbol>
+    <symbol id="flag-korea" viewBox="0 0 30 20"><rect x=".5" y=".5" width="29" height="19" rx="1" fill="#FFF" stroke="#B7B0A4"/><path d="M10 10a5 5 0 0 1 10 0 2.5 2.5 0 0 0-5 0 2.5 2.5 0 0 1-5 0" fill="#CD2E3A"/><path d="M20 10a5 5 0 0 1-10 0 2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 1 5 0" fill="#0047A0"/><path d="M5 4h5M5 5.5h5M20 14.5h5M20 16h5M20 4h2M23 4h2M20 5.5h2M23 5.5h2M5 14.5h2M8 14.5h2M5 16h2M8 16h2" stroke="#111" stroke-width=".8"/></symbol>
   </defs>
 
-  <rect width="1280" height="720" fill="#F4F0E7"/>
+  <rect width="1280" height="720" fill="#F7F6F2"/>
 
   <g id="heading">
     <text x="64" y="38" class="text eyebrow">GHANA × SOUTH KOREA · OBSERVED ANCHORS</text>
+    <use href="#flag-ghana" xlink:href="#flag-ghana" x="1112" y="20" width="30" height="20" aria-hidden="true"/>
+    <use href="#flag-korea" xlink:href="#flag-korea" x="1152" y="20" width="30" height="20" aria-hidden="true"/>
     <text x="64" y="88" class="display title">Near parity in 1960. Nearly 17-to-1 by 2020.</text>
     <text x="64" y="122" class="text subtitle">GDP per capita · constant 2015 US$ per person · 1960, 1990, 2020</text>
   </g>
@@ -112,24 +117,23 @@
     </g>
   </g>
 
-  <line x1="64" y1="544" x2="1216" y2="544" stroke="#514E48" stroke-width="2"/>
+  <rect x="64" y="542" width="1152" height="104" fill="#FFFFFF" fill-opacity="0.55"/>
+  <line x1="64" y1="542" x2="1216" y2="542" stroke="#514E48" stroke-width="2"/>
   <g id="reading-notes">
-    <text x="64" y="570" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="64" y="595" class="text note">Straight connectors link the three points only.</text>
-    <text x="64" y="619" class="text note">They do not show or estimate annual values.</text>
+    <text x="76" y="566" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="76" y="592" class="text note">Straight connectors link the three points only.</text>
+    <text x="76" y="614" class="text note">They do not show or estimate annual values.</text>
+    <text x="76" y="636" class="text note">2020 is the COVID-19 year.</text>
 
-    <text x="650" y="570" class="text note-head">WHAT THIS CANNOT PROVE</text>
-    <text x="650" y="595" class="text note">The gap does not identify whether culture, policy,</text>
-    <text x="650" y="619" class="text note">institutions, war, aid, or another factor caused it.</text>
-    <text x="650" y="639" class="text note">2020 is the COVID-19 year.</text>
+    <text x="662" y="566" class="text note-head">WHAT THIS CANNOT PROVE</text>
+    <text x="662" y="592" class="text note">The gap does not identify whether culture,</text>
+    <text x="662" y="614" class="text note">policy, institutions, war, aid, or another</text>
+    <text x="662" y="636" class="text note">factor caused it. Not a race.</text>
   </g>
 
-  <line x1="64" y1="648" x2="1216" y2="648" stroke="#514E48" stroke-width="2"/>
+  <line x1="64" y1="650" x2="1216" y2="650" stroke="#514E48" stroke-width="2"/>
   <g id="figure-note">
-    <text x="64" y="670" class="text note"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. Data from <tspan font-style="italic">World Development Indicators</tspan> (NY.GDP.PCAP.KD), World Bank (2026).</text>
-    <a href="https://databank.worldbank.org/source/world-development-indicators" xlink:href="https://databank.worldbank.org/source/world-development-indicators" target="_blank">
-      <text x="64" y="694" class="text note" text-decoration="underline">WDI DataBank</text>
-    </a>
-    <text x="190" y="694" class="text note">· SRC-WDI-001 · Retrieved 2026-10-04 · Frozen CSV: data/charts/ghana_korea_gdp_per_capita.csv</text>
+    <text x="64" y="668" class="text fignote"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. <tspan font-style="italic">WDI</tspan> NY.GDP.PCAP.KD · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · retrieved 2026-10-04 · frozen CSV: data/charts/ghana_korea_gdp_per_capita.csv.</text>
+    <text x="64" y="690" class="text fignote">WDI DataBank: databank.worldbank.org/source/world-development-indicators (full URL on handout).</text>
   </g>
 </svg>

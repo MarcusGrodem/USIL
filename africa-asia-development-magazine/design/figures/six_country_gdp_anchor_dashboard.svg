@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1100" role="img" aria-labelledby="chart-title chart-desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297mm" height="210mm" viewBox="0 0 1600 1100" role="img" aria-labelledby="chart-title chart-desc">
   <title id="chart-title">Observed GDP per capita at 1960, 1990, 2020: six paths on one shared axis</title>
   <desc id="chart-desc">A six-panel dashboard. Each panel plots the frozen World Development Indicators GDP-per-capita observations in constant 2015 US dollars at three anchor years for one country. All six panels share a 0 to 35,000 US dollar vertical axis and the same 1960, 1990, 2020 horizontal positions. Row 1 (Africa) shows Ghana (terracotta circles, 1101; 856; 1970), Botswana (green squares, 394; 4039; 6254) and Mauritius (ochre triangles with charcoal keyline, 1419; 3846; 9534). Row 2 (Asia) shows South Korea (blue diamonds with long-dashed connector, 1038; 9673; 33216), Malaysia (jade hexagons, 1266; 4185; 10171) and the Philippines (red cross with charcoal under-stroke, 1124; 1704; 3199). Malaysia 1960 is a retrospective territorial series across the 1963 formation of Malaysia; 2020 is the COVID-19 year for all six countries. Straight connectors join observed anchors only. The chart cannot establish whether culture, policy, institutions, war, aid, or another factor caused the gaps, and it is not a uniform Africa-versus-Asia race.</desc>
   <metadata>
@@ -21,18 +21,19 @@
     <style><![CDATA[
       .display { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
       .text { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
-      .eyebrow { font-size: 22px; font-weight: 750; letter-spacing: 2.2px; }
-      .title { font-size: 50px; font-weight: 780; letter-spacing: -0.8px; }
+      .eyebrow { font-size: 22px; font-weight: 700; letter-spacing: 2.2px; }
+      .title { font-size: 50px; font-weight: 900; letter-spacing: -0.8px; }
       .deck { font-size: 24px; font-weight: 500; fill: #403D38; }
-      .region { font-size: 22px; font-weight: 800; letter-spacing: 3px; fill: #514E48; }
-      .country-name { font-size: 26px; font-weight: 780; }
-      .marker-label { font-size: 22px; font-weight: 650; fill: #514E48; font-variant-numeric: tabular-nums; letter-spacing: 0.4px; }
-      .axis { font-size: 22px; font-weight: 650; fill: #514E48; font-variant-numeric: tabular-nums; }
+      .region { font-size: 22px; font-weight: 700; letter-spacing: 3px; fill: #514E48; }
+      .country-name { font-size: 26px; font-weight: 700; }
+      .marker-label { font-size: 22px; font-weight: 600; fill: #514E48; font-variant-numeric: tabular-nums; letter-spacing: 0.4px; }
+      .axis { font-size: 22px; font-weight: 600; fill: #514E48; font-variant-numeric: tabular-nums; }
       .axis-head { font-size: 20px; font-weight: 700; letter-spacing: 1.4px; fill: #514E48; }
       .year { font-size: 22px; font-weight: 700; fill: #252525; }
-      .value { font-size: 22px; font-weight: 780; font-variant-numeric: tabular-nums; }
-      .note-head { font-size: 20px; font-weight: 800; letter-spacing: 0.6px; }
+      .value { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+      .note-head { font-size: 20px; font-weight: 700; letter-spacing: 0.6px; }
       .note { font-size: 20px; font-weight: 500; fill: #403D38; }
+      .fignote { font-size: 14px; font-weight: 500; fill: #403D38; font-variant-numeric: tabular-nums; }
       .grid { stroke: #B7B0A4; stroke-width: 1.4; }
       .baseline { stroke: #514E48; stroke-width: 2.5; }
       .year-guide { stroke: #D8D2C7; stroke-width: 1.1; }
@@ -226,27 +227,27 @@
     </g>
   </g>
 
-  <line x1="64" y1="1000" x2="1536" y2="1000" class="panel-rule"/>
+  <line x1="64" y1="992" x2="1536" y2="992" class="panel-rule"/>
 
   <!-- Reading notes band -->
   <g id="reading-notes">
-    <text x="64" y="1026" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="64" y="1050" class="text note">Lines link only the three dated observations.</text>
-    <text x="64" y="1072" class="text note">No values between years are shown or estimated.</text>
+    <text x="64" y="1018" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="64" y="1042" class="text note">Lines link only the three dated observations.</text>
+    <text x="64" y="1064" class="text note">No values between years are shown or estimated.</text>
 
-    <text x="560" y="1026" class="text note-head">VISIBLE CAVEATS</text>
-    <text x="560" y="1050" class="text note">† Malaysia 1960 crosses its 1963 formation.</text>
-    <text x="560" y="1072" class="text note">All 2020 points fall in the COVID-19 year.</text>
+    <text x="560" y="1018" class="text note-head">VISIBLE CAVEATS</text>
+    <text x="560" y="1042" class="text note">† Malaysia 1960 is a retrospective territorial series</text>
+    <text x="560" y="1064" class="text note">predating the 1963 formation and Singapore’s 1965 exit; 2020 is the COVID-19 year.</text>
 
-    <text x="1056" y="1026" class="text note-head">WHAT THIS COMPARISON CANNOT PROVE</text>
-    <text x="1056" y="1050" class="text note">Gaps do not identify culture, policy, institutions,</text>
-    <text x="1056" y="1072" class="text note">war, aid, or another cause. Not a race.</text>
+    <text x="1056" y="1018" class="text note-head">WHAT THIS COMPARISON CANNOT PROVE</text>
+    <text x="1056" y="1042" class="text note">Gaps do not identify culture, policy, institutions,</text>
+    <text x="1056" y="1064" class="text note">war, aid, or another cause. Not a race.</text>
   </g>
 
-  <line x1="64" y1="1080" x2="1536" y2="1080" class="panel-rule"/>
+  <line x1="64" y1="1072" x2="1536" y2="1072" class="panel-rule"/>
 
   <!-- Figure note -->
   <g id="figure-note">
-    <text x="64" y="1094" class="text note" style="font-size:12px"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. WDI NY.GDP.PCAP.KD · World Bank (2026) · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
+    <text x="64" y="1088" class="text fignote"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. WDI NY.GDP.PCAP.KD · World Bank (2026) · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
   </g>
 </svg>

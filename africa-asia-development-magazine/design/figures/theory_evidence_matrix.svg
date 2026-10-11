@@ -8,18 +8,18 @@
       .display { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; }
       .text { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; }
       .eyebrow { font-size: 10px; font-weight: 700; letter-spacing: 1.6px; fill: #514E48; }
-      .title { font-size: 22px; font-weight: 750; letter-spacing: -0.4px; }
-      .deck { font-size: 11px; font-weight: 450; fill: #252525; }
+      .title { font-size: 22px; font-weight: 700; letter-spacing: -0.4px; }
+      .deck { font-size: 11px; font-weight: 500; fill: #252525; }
       .ribbon { font-size: 10px; font-weight: 600; letter-spacing: 0.4px; fill: #514E48; }
       .theory-tag { font-size: 10px; font-weight: 700; letter-spacing: 1.4px; fill: #514E48; }
-      .theory-name { font-size: 13px; font-weight: 750; fill: #252525; }
-      .verdict { font-size: 11px; font-weight: 750; letter-spacing: 0.6px; fill: #252525; text-anchor: middle; }
+      .theory-name { font-size: 13px; font-weight: 700; fill: #252525; }
+      .verdict { font-size: 11px; font-weight: 700; letter-spacing: 0.6px; fill: #252525; text-anchor: middle; }
       .section-label { font-size: 10px; font-weight: 700; letter-spacing: 1.2px; fill: #514E48; }
       .country-name { font-size: 11px; font-weight: 700; fill: #252525; }
-      .country-verdict { font-size: 11px; font-weight: 450; fill: #403D38; }
-      .block-head { font-size: 11px; font-weight: 750; letter-spacing: 0.3px; fill: #252525; }
-      .body { font-size: 10px; font-weight: 450; fill: #252525; }
-      .note { font-size: 10px; font-weight: 450; fill: #403D38; }
+      .country-verdict { font-size: 11px; font-weight: 500; fill: #403D38; }
+      .block-head { font-size: 11px; font-weight: 700; letter-spacing: 0.3px; fill: #252525; }
+      .body { font-size: 10px; font-weight: 500; fill: #252525; }
+      .note { font-size: 10px; font-weight: 500; fill: #403D38; }
       .note-strong { font-size: 10px; font-weight: 700; fill: #252525; }
       .marker-glyph { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; font-size: 12px; }
       .rule { stroke: #514E48; stroke-width: 0.75; fill: none; }

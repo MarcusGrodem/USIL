@@ -21,17 +21,18 @@
     <style><![CDATA[
       .display { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
       .text { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
-      .eyebrow { font-size: 18px; font-weight: 750; letter-spacing: 1.8px; }
-      .title { font-size: 28px; font-weight: 780; letter-spacing: -0.4px; }
-      .deck { font-size: 16px; font-weight: 500; fill: #403D38; }
-      .region { font-size: 18px; font-weight: 800; letter-spacing: 2.6px; fill: #514E48; }
-      .country-name { font-size: 22px; font-weight: 780; }
-      .axis { font-size: 22px; font-weight: 650; fill: #514E48; font-variant-numeric: tabular-nums; }
+      .eyebrow { font-size: 18px; font-weight: 700; letter-spacing: 1.8px; }
+      .title { font-size: 32px; font-weight: 700; letter-spacing: -0.4px; }
+      .deck { font-size: 18px; font-weight: 500; fill: #403D38; }
+      .region { font-size: 18px; font-weight: 700; letter-spacing: 2.6px; fill: #514E48; }
+      .country-name { font-size: 22px; font-weight: 700; }
+      .axis { font-size: 22px; font-weight: 600; fill: #514E48; font-variant-numeric: tabular-nums; }
       .axis-head { font-size: 18px; font-weight: 700; letter-spacing: 1.2px; fill: #514E48; }
       .year { font-size: 22px; font-weight: 700; fill: #252525; }
-      .value { font-size: 22px; font-weight: 780; font-variant-numeric: tabular-nums; }
-      .note-head { font-size: 18px; font-weight: 800; letter-spacing: 0.5px; }
+      .value { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+      .note-head { font-size: 18px; font-weight: 700; letter-spacing: 0.5px; }
       .note { font-size: 18px; font-weight: 500; fill: #403D38; }
+      .fignote { font-size: 14px; font-weight: 500; fill: #403D38; font-variant-numeric: tabular-nums; }
       .grid { stroke: #B7B0A4; stroke-width: 1.2; }
       .baseline { stroke: #514E48; stroke-width: 2; }
       .year-guide { stroke: #D8D2C7; stroke-width: 1; }
@@ -61,15 +62,21 @@
       <path d="M-10,0 L10,0 M0,-10 L0,10" stroke="#252525" stroke-width="6" stroke-linecap="round"/>
       <path d="M-10,0 L10,0 M0,-10 L0,10" stroke="#A63A3A" stroke-width="3.4" stroke-linecap="round"/>
     </symbol>
+    <symbol id="flag-ghana" viewBox="0 0 30 20"><rect width="30" height="6.67" fill="#CE1126"/><rect y="6.67" width="30" height="6.66" fill="#FCD116"/><rect y="13.33" width="30" height="6.67" fill="#006B3F"/><path d="M15 7.1l.9 1.9 2.1.2-1.55 1.45.45 2.1-1.9-1.05-1.9 1.05.45-2.1L12 9.2l2.1-.2z" fill="#111"/></symbol>
+    <symbol id="flag-botswana" viewBox="0 0 30 20"><rect width="30" height="20" fill="#75AADB"/><rect y="7" width="30" height="6" fill="#FFF"/><rect y="8" width="30" height="4" fill="#111"/></symbol>
+    <symbol id="flag-mauritius" viewBox="0 0 30 20"><rect width="30" height="5" fill="#EA2839"/><rect y="5" width="30" height="5" fill="#1A206D"/><rect y="10" width="30" height="5" fill="#FFD500"/><rect y="15" width="30" height="5" fill="#00A551"/></symbol>
+    <symbol id="flag-korea" viewBox="0 0 30 20"><rect x=".5" y=".5" width="29" height="19" rx="1" fill="#FFF" stroke="#B7B0A4"/><path d="M10 10a5 5 0 0 1 10 0 2.5 2.5 0 0 0-5 0 2.5 2.5 0 0 1-5 0" fill="#CD2E3A"/><path d="M20 10a5 5 0 0 1-10 0 2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 1 5 0" fill="#0047A0"/><path d="M5 4h5M5 5.5h5M20 14.5h5M20 16h5M20 4h2M23 4h2M20 5.5h2M23 5.5h2M5 14.5h2M8 14.5h2M5 16h2M8 16h2" stroke="#111" stroke-width=".8"/></symbol>
+    <symbol id="flag-malaysia" viewBox="0 0 30 20"><rect width="30" height="20" fill="#FFF"/><path d="M0 0h30v2H0zm0 4h30v2H0zm0 8h30v2H0zm0 4h30v2H0" fill="#CC0001"/><rect width="15" height="10" fill="#010066"/><circle cx="6" cy="5" r="3.2" fill="#FFD100"/><circle cx="7.2" cy="4.4" r="2.7" fill="#010066"/><circle cx="10.8" cy="5" r="1.2" fill="#FFD100"/></symbol>
+    <symbol id="flag-philippines" viewBox="0 0 30 20"><rect width="30" height="10" fill="#0038A8"/><rect y="10" width="30" height="10" fill="#CE1126"/><path d="M0 0l13 10L0 20z" fill="#FFF"/><circle cx="4.5" cy="10" r="1.8" fill="#FCD116"/><circle cx="2" cy="3" r=".7" fill="#FCD116"/><circle cx="2" cy="17" r=".7" fill="#FCD116"/><circle cx="10" cy="10" r=".7" fill="#FCD116"/></symbol>
   </defs>
 
-  <rect width="1280" height="720" fill="#F4F0E7"/>
+  <rect width="1280" height="720" fill="#F7F6F2"/>
 
   <!-- Heading band -->
   <g id="heading">
-    <text x="30" y="26" class="text eyebrow">SIX COUNTRIES · OBSERVED ANCHORS 1960 · 1990 · 2020</text>
-    <text x="30" y="54" class="display title">GDP per capita at three anchors. One shared axis.</text>
-    <text x="30" y="70" class="text deck">Constant 2015 US$ per person · Africa top row, Asia below · one shared scale · no causal claim</text>
+    <text x="30" y="28" class="text eyebrow">SIX COUNTRIES · OBSERVED ANCHORS 1960 · 1990 · 2020</text>
+    <text x="30" y="60" class="display title">GDP per capita at three anchors. One shared axis.</text>
+    <text x="30" y="86" class="text deck">Constant 2015 US$ per person · Africa top row, Asia below · one shared scale · no causal claim</text>
   </g>
 
   <!-- Row 1: Africa -->
@@ -93,6 +100,7 @@
     <g id="panel-ghana" aria-label="Ghana: 1,101 in 1960; 856 in 1990; 1,970 in 2020">
       <use href="#m-ghana" xlink:href="#m-ghana" x="80" y="80" width="28" height="28"/>
       <text x="114" y="97" class="text country-name">Ghana</text>
+      <use href="#flag-ghana" x="182" y="81" width="27" height="18" aria-hidden="true"/>
       <line x1="125" y1="105" x2="125" y2="305" class="year-guide"/>
       <line x1="270" y1="105" x2="270" y2="305" class="year-guide"/>
       <line x1="415" y1="105" x2="415" y2="305" class="year-guide"/>
@@ -112,6 +120,7 @@
     <g id="panel-botswana" aria-label="Botswana: 394 in 1960; 4,039 in 1990; 6,254 in 2020">
       <use href="#m-botswana" xlink:href="#m-botswana" x="480" y="80" width="28" height="28"/>
       <text x="514" y="97" class="text country-name">Botswana</text>
+      <use href="#flag-botswana" x="616" y="81" width="27" height="18" aria-hidden="true"/>
       <line x1="525" y1="105" x2="525" y2="305" class="year-guide"/>
       <line x1="670" y1="105" x2="670" y2="305" class="year-guide"/>
       <line x1="815" y1="105" x2="815" y2="305" class="year-guide"/>
@@ -131,6 +140,7 @@
     <g id="panel-mauritius" aria-label="Mauritius: 1,419 in 1960; 3,846 in 1990; 9,534 in 2020">
       <use href="#m-mauritius" xlink:href="#m-mauritius" x="880" y="80" width="28" height="28"/>
       <text x="914" y="97" class="text country-name">Mauritius</text>
+      <use href="#flag-mauritius" x="1008" y="81" width="27" height="18" aria-hidden="true"/>
       <line x1="925" y1="105" x2="925" y2="305" class="year-guide"/>
       <line x1="1070" y1="105" x2="1070" y2="305" class="year-guide"/>
       <line x1="1215" y1="105" x2="1215" y2="305" class="year-guide"/>
@@ -169,6 +179,7 @@
     <g id="panel-korea" aria-label="South Korea: 1,038 in 1960; 9,673 in 1990; 33,216 in 2020">
       <use href="#m-korea" xlink:href="#m-korea" x="80" y="343" width="28" height="28"/>
       <text x="114" y="360" class="text country-name">South Korea</text>
+      <use href="#flag-korea" x="247" y="344" width="27" height="18" aria-hidden="true"/>
       <line x1="125" y1="368" x2="125" y2="568" class="year-guide"/>
       <line x1="270" y1="368" x2="270" y2="568" class="year-guide"/>
       <line x1="415" y1="368" x2="415" y2="568" class="year-guide"/>
@@ -178,7 +189,7 @@
       <use href="#m-korea" xlink:href="#m-korea" x="401" y="364.1947" width="28" height="28"/>
       <text x="125" y="541" text-anchor="middle" class="text value">$1,038</text>
       <text x="270" y="492" text-anchor="middle" class="text value">$9,673</text>
-      <rect x="363" y="397" width="104" height="30" rx="3" fill="#F4F0E7" opacity="0.96"/>
+      <rect x="363" y="397" width="104" height="30" rx="3" fill="#F7F6F2" opacity="0.96"/>
       <text x="415" y="420" text-anchor="middle" class="text value">$33,216</text>
       <text x="125" y="583" text-anchor="middle" class="text year">1960</text>
       <text x="270" y="583" text-anchor="middle" class="text year">1990</text>
@@ -189,6 +200,7 @@
     <g id="panel-malaysia" aria-label="Malaysia: 1,266 in 1960; 4,185 in 1990; 10,171 in 2020. 1960 is a retrospective territorial series.">
       <use href="#m-malaysia" xlink:href="#m-malaysia" x="480" y="343" width="28" height="28"/>
       <text x="514" y="360" class="text country-name">Malaysia</text>
+      <use href="#flag-malaysia" x="602" y="344" width="27" height="18" aria-hidden="true"/>
       <line x1="525" y1="368" x2="525" y2="568" class="year-guide"/>
       <line x1="670" y1="368" x2="670" y2="568" class="year-guide"/>
       <line x1="815" y1="368" x2="815" y2="568" class="year-guide"/>
@@ -208,6 +220,7 @@
     <g id="panel-philippines" aria-label="Philippines: 1,124 in 1960; 1,704 in 1990; 3,199 in 2020">
       <use href="#m-philippines" xlink:href="#m-philippines" x="880" y="343" width="28" height="28"/>
       <text x="914" y="360" class="text country-name">Philippines</text>
+      <use href="#flag-philippines" x="1017" y="344" width="27" height="18" aria-hidden="true"/>
       <line x1="925" y1="368" x2="925" y2="568" class="year-guide"/>
       <line x1="1070" y1="368" x2="1070" y2="568" class="year-guide"/>
       <line x1="1215" y1="368" x2="1215" y2="568" class="year-guide"/>
@@ -225,27 +238,31 @@
     </g>
   </g>
 
-  <line x1="30" y1="612" x2="1250" y2="612" class="panel-rule"/>
+  <rect x="30" y="598" width="1220" height="94" fill="#FFFFFF" fill-opacity="0.55"/>
+  <line x1="30" y1="598" x2="1250" y2="598" class="panel-rule"/>
 
   <!-- Reading notes band -->
   <g id="reading-notes">
-    <text x="30" y="634" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="30" y="656" class="text note">Only three dated observations are linked.</text>
-    <text x="30" y="676" class="text note">No in-between values are shown.</text>
+    <text x="40" y="620" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="40" y="644" class="text note">Only three dated observations are linked.</text>
+    <text x="40" y="666" class="text note">No in-between values are shown.</text>
+    <text x="40" y="688" class="text note">2020 is the COVID-19 endpoint.</text>
 
-    <text x="440" y="634" class="text note-head">VISIBLE CAVEATS</text>
-    <text x="440" y="656" class="text note">† Malaysia 1960 predates its 1963 formation.</text>
-    <text x="440" y="676" class="text note">2020 is the COVID-19 endpoint.</text>
+    <text x="446" y="620" class="text note-head">VISIBLE CAVEATS</text>
+    <text x="446" y="644" class="text note">† Malaysia 1960 is a retrospective</text>
+    <text x="446" y="666" class="text note">territorial series spanning the 1963</text>
+    <text x="446" y="688" class="text note">formation and Singapore’s 1965 exit.</text>
 
-    <text x="860" y="634" class="text note-head">WHAT THIS COMPARISON CANNOT PROVE</text>
-    <text x="860" y="656" class="text note">The gaps do not identify their causes.</text>
-    <text x="860" y="676" class="text note">Culture, policy, war, or aid? Not a race.</text>
+    <text x="866" y="620" class="text note-head">WHAT THIS CANNOT PROVE</text>
+    <text x="866" y="644" class="text note">The gaps do not identify their causes.</text>
+    <text x="866" y="666" class="text note">Culture, policy, institutions, war, or aid?</text>
+    <text x="866" y="688" class="text note">Not a race.</text>
   </g>
 
-  <line x1="30" y1="690" x2="1250" y2="690" class="panel-rule"/>
+  <line x1="30" y1="696" x2="1250" y2="696" class="panel-rule"/>
 
   <!-- Figure note -->
   <g id="figure-note">
-    <text x="30" y="708" class="text note" style="font-size:12px"><tspan font-style="italic">Note.</tspan> GDP per capita, constant 2015 US$. WDI NY.GDP.PCAP.KD · World Bank (2026) · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
+    <text x="30" y="712" class="text fignote"><tspan font-style="italic">Note.</tspan> WDI NY.GDP.PCAP.KD · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
   </g>
 </svg>

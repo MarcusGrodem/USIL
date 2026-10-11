@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 1100" role="img" aria-labelledby="chart-title chart-desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297mm" height="210mm" viewBox="0 0 1600 1100" role="img" aria-labelledby="chart-title chart-desc">
   <title id="chart-title">Near parity in 1960; nearly 17-to-1 by 2020</title>
   <desc id="chart-desc">A shared-axis comparison of Ghana and South Korea GDP per capita in constant 2015 US dollars at three observed years: 1960, 1990, and 2020. Ghana is shown with terracotta circles and a solid line; South Korea with blue diamonds and a dashed line. Ghana values are 1,101, 856, and 1,970 dollars. South Korea values are 1,038, 9,673, and 33,216 dollars. Straight connectors guide the eye and do not show annual observations. The chart cannot establish what caused the divergence.</desc>
 
@@ -7,15 +7,16 @@
     <style><![CDATA[
       .display { font-family: "Montserrat", "Helvetica Neue", sans-serif; fill: #252525; }
       .text { font-family: "Montserrat", "Helvetica Neue", sans-serif; fill: #252525; }
-      .title { font-size: 58px; font-weight: 750; letter-spacing: -1.2px; }
-      .subtitle { font-size: 28px; font-weight: 450; }
+      .title { font-size: 58px; font-weight: 900; letter-spacing: -1.2px; }
+      .subtitle { font-size: 28px; font-weight: 500; }
       .eyebrow { font-size: 20px; font-weight: 700; letter-spacing: 2.2px; }
-      .axis-label { font-size: 22px; font-weight: 650; fill: #514E48; }
+      .axis-label { font-size: 22px; font-weight: 600; fill: #514E48; }
       .year { font-size: 24px; font-weight: 700; fill: #252525; }
-      .value { font-size: 25px; font-weight: 750; font-variant-numeric: tabular-nums; fill: #252525; }
-      .country { font-size: 25px; font-weight: 750; fill: #252525; }
-      .note-head { font-size: 21px; font-weight: 750; fill: #252525; }
-      .note { font-size: 20px; font-weight: 450; fill: #403D38; }
+      .value { font-size: 25px; font-weight: 700; font-variant-numeric: tabular-nums; fill: #252525; }
+      .country { font-size: 25px; font-weight: 700; fill: #252525; }
+      .note-head { font-size: 21px; font-weight: 700; fill: #252525; }
+      .note { font-size: 20px; font-weight: 500; fill: #403D38; }
+      .fignote { font-size: 14px; font-weight: 500; fill: #403D38; font-variant-numeric: tabular-nums; }
       .grid { stroke: #B7B0A4; stroke-width: 2; }
       .baseline { stroke: #514E48; stroke-width: 3; }
       .leader { stroke: #6A655D; stroke-width: 2; fill: none; }
@@ -111,16 +112,14 @@
   </g>
 
   <g id="figure-note">
-    <line x1="100" y1="980" x2="1500" y2="980" stroke="#514E48" stroke-width="3"/>
-    <text x="100" y="1017" class="text note">
+    <line x1="100" y1="990" x2="1500" y2="990" stroke="#514E48" stroke-width="3"/>
+    <text x="100" y="1016" class="text note">
       <tspan font-style="italic">Note.</tspan>
       <tspan> GDP per capita in constant 2015 US dollars. Data from </tspan>
       <tspan font-style="italic">World Development Indicators</tspan>
-      <tspan> (indicator NY.GDP.PCAP.KD), by World Bank (2026).</tspan>
+      <tspan> (NY.GDP.PCAP.KD), by World Bank (2026).</tspan>
     </text>
-    <a href="https://databank.worldbank.org/source/world-development-indicators" xlink:href="https://databank.worldbank.org/source/world-development-indicators" target="_blank">
-      <text x="100" y="1050" class="text note" text-decoration="underline">https://databank.worldbank.org/source/world-development-indicators</text>
-    </a>
-    <text x="100" y="1080" class="text note">Retrieved October 4, 2026 · Source ID SRC-WDI-001 · Frozen chart data: data/charts/ghana_korea_gdp_per_capita.csv</text>
+    <text x="100" y="1046" class="text note">SRC-WDI-001 · WDI release 2026-07-13 · retrieved 2026-10-04 · frozen CSV: data/charts/ghana_korea_gdp_per_capita.csv.</text>
+    <text x="100" y="1076" class="text fignote">Full URL at databank.worldbank.org/source/world-development-indicators (handout).</text>
   </g>
 </svg>

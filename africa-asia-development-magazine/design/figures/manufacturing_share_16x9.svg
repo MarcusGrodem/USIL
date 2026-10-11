@@ -35,21 +35,22 @@
     <style><![CDATA[
       .display { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
       .text { font-family: "Montserrat", "Helvetica Neue", "Arial", sans-serif; fill: #252525; }
-      .eyebrow { font-size: 18px; font-weight: 750; letter-spacing: 1.8px; }
-      .title { font-size: 32px; font-weight: 780; letter-spacing: -0.5px; }
+      .eyebrow { font-size: 18px; font-weight: 700; letter-spacing: 1.8px; }
+      .title { font-size: 32px; font-weight: 700; letter-spacing: -0.5px; }
       .deck { font-size: 18px; font-weight: 500; fill: #403D38; }
-      .region { font-size: 18px; font-weight: 800; letter-spacing: 2.6px; fill: #514E48; }
-      .country-name { font-size: 22px; font-weight: 780; }
-      .axis { font-size: 22px; font-weight: 650; fill: #514E48; font-variant-numeric: tabular-nums; }
+      .region { font-size: 18px; font-weight: 700; letter-spacing: 2.6px; fill: #514E48; }
+      .country-name { font-size: 22px; font-weight: 700; }
+      .axis { font-size: 22px; font-weight: 600; fill: #514E48; font-variant-numeric: tabular-nums; }
       .axis-head { font-size: 18px; font-weight: 700; letter-spacing: 1.2px; fill: #514E48; }
       .year { font-size: 22px; font-weight: 700; fill: #252525; }
-      .value { font-size: 22px; font-weight: 780; font-variant-numeric: tabular-nums; }
-      .note-head { font-size: 18px; font-weight: 800; letter-spacing: 0.5px; }
+      .value { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+      .note-head { font-size: 18px; font-weight: 700; letter-spacing: 0.5px; }
       .note { font-size: 18px; font-weight: 500; fill: #403D38; }
-      .narrative-tag { font-size: 14px; font-weight: 800; letter-spacing: 1px; fill: #514E48; }
+      .narrative-tag { font-size: 14px; font-weight: 700; letter-spacing: 1px; fill: #514E48; }
       .narrative-value { font-size: 16px; font-weight: 700; fill: #403D38; font-variant-numeric: tabular-nums; }
       .narrative-cite { font-size: 14px; font-weight: 500; fill: #514E48; }
-      .absence-note { font-size: 14px; font-weight: 600; fill: #514E48; }
+      .absence-note { font-size: 15px; font-weight: 600; fill: #514E48; }
+      .fignote { font-size: 14px; font-weight: 500; fill: #403D38; font-variant-numeric: tabular-nums; }
       .grid { stroke: #B7B0A4; stroke-width: 1.2; }
       .baseline { stroke: #514E48; stroke-width: 2; }
       .year-guide { stroke: #D8D2C7; stroke-width: 1; }
@@ -86,15 +87,13 @@
 
   <!-- Heading band -->
   <g id="heading">
-    <text x="30" y="26" class="text eyebrow">SIX COUNTRIES · MANUFACTURING SHARE OF GDP · OBSERVED ANCHORS</text>
-    <text x="30" y="58" class="display title">Manufacturing share of GDP. Gaps shown, not filled.</text>
-    <text x="30" y="80" class="text deck">Manufacturing value added, percent of GDP, current-price (NV.IND.MANF.ZS). Mauritius 1960 absent; Philippines 1960 and 1990 NARRATIVE ONLY. Not a race.</text>
+    <text x="30" y="28" class="text eyebrow">SIX COUNTRIES · MANUFACTURING SHARE OF GDP · OBSERVED ANCHORS</text>
+    <text x="30" y="62" class="display title">Manufacturing share of GDP. Gaps shown, not filled.</text>
+    <text x="30" y="86" class="text deck">% of GDP (NV.IND.MANF.ZS) · Africa top row, Asia below · gaps shown where the frozen master is silent · not a race</text>
   </g>
 
   <!-- Row 1: Africa panels -->
   <g id="row-africa">
-    <text x="30" y="97" class="text region">AFRICA</text>
-    <text x="30" y="118" class="text axis-head">% of GDP</text>
 
     <g id="row1-axis" aria-label="Row 1 shared axis: 0 to 30 percent of GDP">
       <line x1="78" y1="105" x2="1255" y2="105" class="grid"/>
@@ -158,9 +157,9 @@
       <use href="#m-mauritius" xlink:href="#m-mauritius" x="1201" y="219.8757632875433" width="28" height="28"/>
       <text x="1070" y="150" text-anchor="middle" class="text value">20.4 %</text>
       <text x="1215" y="214" text-anchor="middle" class="text value">10.7 %</text>
-      <text x="925" y="325" text-anchor="middle" class="text absence-note">Mauritius 1960</text>
-      <text x="925" y="341" text-anchor="middle" class="text absence-note">not available in</text>
-      <text x="925" y="355" text-anchor="middle" class="text absence-note">NV.IND.MANF.ZS frozen master</text>
+      <text x="925" y="328" text-anchor="middle" class="text year">1960</text>
+      <text x="925" y="348" text-anchor="middle" class="text absence-note">no observation</text>
+      <text x="925" y="364" text-anchor="middle" class="text absence-note">in frozen master</text>
       <text x="1070" y="328" text-anchor="middle" class="text year">1990</text>
       <text x="1215" y="328" text-anchor="middle" class="text year">2020</text>
     </g>
@@ -168,8 +167,6 @@
 
   <!-- Row 2: Asia -->
   <g id="row-asia">
-    <text x="30" y="360" class="text region">ASIA</text>
-    <text x="30" y="381" class="text axis-head">% of GDP</text>
 
     <g id="row2-axis" aria-label="Row 2 shared axis: 0 to 30 percent of GDP">
       <line x1="78" y1="368" x2="1255" y2="368" class="grid"/>
@@ -232,20 +229,19 @@
       <use href="#m-philippines" xlink:href="#m-philippines" x="1201" y="436.2788063475593" width="28" height="28"/>
       <text x="1215" y="430" text-anchor="middle" class="text value">17.7 %</text>
 
-      <!-- 1960 narrative-only annotation at x=925 -->
+      <!-- Both narrative-only annotations placed at the same y range so they do not overlap each other, and well above the 2020 marker (y=436) to avoid touching it. -->
       <g id="phl-1960-narrative" aria-label="Philippines 1960 NARRATIVE ONLY approximately 18.9 percent from World Bank 1980 Part II page 4 NEDA; not connected to the WDI 2020 observation.">
-        <line x1="900" y1="441" x2="950" y2="441" class="dotted-rule"/>
-        <text x="925" y="462" text-anchor="middle" class="text narrative-tag">NARRATIVE ONLY — different vintage</text>
-        <text x="925" y="482" text-anchor="middle" class="text narrative-value">≈ 18.9 %</text>
-        <text x="925" y="498" text-anchor="middle" class="text narrative-cite">World Bank 1980 Part II p. 4 (NEDA)</text>
+        <line x1="892" y1="398" x2="958" y2="398" class="dotted-rule"/>
+        <text x="925" y="418" text-anchor="middle" class="text narrative-tag">NARRATIVE ONLY</text>
+        <text x="925" y="438" text-anchor="middle" class="text narrative-value">≈ 18.9 %</text>
+        <text x="925" y="454" text-anchor="middle" class="text narrative-cite">WB 1980 p. 4 (NEDA)</text>
       </g>
 
-      <!-- 1990 narrative-only annotation at x=1070 -->
       <g id="phl-1990-narrative" aria-label="Philippines 1990 NARRATIVE ONLY 24.8 percent from Yusuf and Nabeshima 2010 Figure 4.16 page 141; not connected to the WDI 2020 observation.">
-        <line x1="1045" y1="403" x2="1095" y2="403" class="dotted-rule"/>
-        <text x="1070" y="424" text-anchor="middle" class="text narrative-tag">NARRATIVE ONLY — different vintage</text>
-        <text x="1070" y="444" text-anchor="middle" class="text narrative-value">24.8 %</text>
-        <text x="1070" y="460" text-anchor="middle" class="text narrative-cite">Yusuf &amp; Nabeshima 2010 Fig. 4.16 p. 141</text>
+        <line x1="1037" y1="398" x2="1103" y2="398" class="dotted-rule"/>
+        <text x="1070" y="418" text-anchor="middle" class="text narrative-tag">NARRATIVE ONLY</text>
+        <text x="1070" y="438" text-anchor="middle" class="text narrative-value">24.8 %</text>
+        <text x="1070" y="454" text-anchor="middle" class="text narrative-cite">Yusuf &amp; Nabeshima 2010 p. 141</text>
       </g>
 
       <text x="925" y="591" text-anchor="middle" class="text year">1960</text>
@@ -254,27 +250,31 @@
     </g>
   </g>
 
-  <line x1="30" y1="612" x2="1250" y2="612" class="panel-rule"/>
+  <rect x="30" y="606" width="1220" height="88" fill="#FFFFFF" fill-opacity="0.55"/>
+  <line x1="30" y1="606" x2="1250" y2="606" class="panel-rule"/>
 
   <!-- Reading notes band -->
   <g id="reading-notes">
-    <text x="30" y="634" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="30" y="656" class="text note">Connectors join master-approved manufacturing</text>
-    <text x="30" y="676" class="text note">observations. NARRATIVE ONLY vintages are not connected.</text>
+    <text x="40" y="628" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="40" y="650" class="text note">Connectors link master-approved</text>
+    <text x="40" y="670" class="text note">anchors only. NARRATIVE ONLY</text>
+    <text x="40" y="690" class="text note">vintages are never connected.</text>
 
-    <text x="440" y="634" class="text note-head">VISIBLE CAVEATS</text>
-    <text x="440" y="656" class="text note">† 1965 proxies (Ghana, Botswana); Malaysia 1960 territorial;</text>
-    <text x="440" y="676" class="text note">Mauritius 1960 absent; Philippines 1960/1990 NARRATIVE ONLY; current-price; 2020 pandemic.</text>
+    <text x="446" y="628" class="text note-head">VISIBLE CAVEATS</text>
+    <text x="446" y="650" class="text note">† 1965 proxies (Ghana, Botswana);</text>
+    <text x="446" y="670" class="text note">Malaysia 1960 territorial series;</text>
+    <text x="446" y="690" class="text note">Mauritius 1960 absent; 2020 pandemic.</text>
 
-    <text x="860" y="634" class="text note-head">WHAT THIS COMPARISON CANNOT PROVE</text>
-    <text x="860" y="656" class="text note">Gaps do not identify whether culture, policy, institutions,</text>
-    <text x="860" y="676" class="text note">war, aid, or any other factor caused them. Not a race.</text>
+    <text x="866" y="628" class="text note-head">WHAT THIS CANNOT PROVE</text>
+    <text x="866" y="650" class="text note">Gaps do not identify causes.</text>
+    <text x="866" y="670" class="text note">Current-price reflects price and mix.</text>
+    <text x="866" y="690" class="text note">Not a race.</text>
   </g>
 
-  <line x1="30" y1="690" x2="1250" y2="690" class="panel-rule"/>
+  <line x1="30" y1="696" x2="1250" y2="696" class="panel-rule"/>
 
   <!-- Figure note -->
   <g id="figure-note">
-    <text x="30" y="708" class="text note" font-size="14"><tspan font-style="italic">Note.</tspan> Manufacturing value added, share of GDP, current prices. Data from <tspan font-style="italic">World Development Indicators</tspan> (NV.IND.MANF.ZS), by World Bank (2026). <a href="https://databank.worldbank.org/source/world-development-indicators" xlink:href="https://databank.worldbank.org/source/world-development-indicators" target="_blank"><tspan text-decoration="underline">WDI DataBank</tspan></a>. SRC-WDI-001 · WDI release 2026-07-13; retrieved 2026-10-06 · Frozen CSV: data/charts/manufacturing_share.csv. Philippines 1960 (≈ 18.9 %) and 1990 (24.8 %) are NARRATIVE ONLY historical vintages (World Bank 1980; Yusuf &amp; Nabeshima 2010), not connected to the current WDI 2020 observation.</text>
+    <text x="30" y="712" class="text fignote"><tspan font-style="italic">Note.</tspan> WDI NV.IND.MANF.ZS · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/manufacturing_share.csv. Philippines 1960/1990 are NARRATIVE ONLY vintages (WB 1980; Yusuf &amp; Nabeshima 2010), not connected to 2020.</text>
   </g>
 </svg>

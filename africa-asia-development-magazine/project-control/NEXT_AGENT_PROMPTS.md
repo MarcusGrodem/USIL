@@ -1,7 +1,7 @@
 # Next Agent Prompt
 
-**Last reconciled by the Roadmap Controller:** 2026-10-10 (CTRL-020)
-**Current stage:** The production figure set is numerically and evidentially bounded, but the project lead has rejected the current visual spacing. Figures remain too clumped, several text blocks overlap or nearly overlap, and small notes are not ready for physical A4 or classroom testing. **VIS-009 is the only next dispatch. VIS-004 is held until VIS-009 passes its digital repair gate.**
+**Last reconciled by the Roadmap Controller:** 2026-10-11 (CTRL-021)
+**Current stage:** The first VIS-009 handoff failed controller review. Its nine SVGs parse and remain evidence-bounded, but actual renders still contain collisions/clipping, several type roles miss the stated A4 or projection minima, and the export record does not prove that Montserrat rendered. **Continue VIS-009 only. VIS-004 remains blocked.**
 **Estimated progress:** 78%
 **Final report ready:** No
 
@@ -9,7 +9,21 @@
 
 You are the **Charts and Editorial Design Agent**. Repair the current production figures so they have clear hierarchy, generous breathing room, no overlapping text, and no near-collisions at native render size. This is a targeted production repair, not a redesign and not a data task.
 
-The project lead's controlling finding is: **the visuals still feel clumpy and a lot of text overlaps.** Treat this as a failed digital layout gate. Do not run or claim any VIS-004 human/physical release test during this task.
+The project lead's controlling finding is: **the visuals still feel clumpy and a lot of text overlaps.** CTRL-021 confirmed that the first repair did not close that failure. Treat this as a failed digital layout gate. Do not run or claim any VIS-004 human/physical release test during this task.
+
+Read `project-control/logs/VIS-009.md` and continue the same task. Append a new dated entry; do not overwrite the earlier handoff.
+
+### CTRL-021 failures that must be closed
+
+- `manufacturing_share.svg`: the deck is clipped at the right edge; the AFRICA/ASIA and `% of GDP` labels collide with axis/country content; the Mauritius absence block collides with the Philippines heading; the Philippines narrative citations overlap each other; the lower caveat columns collide; and multiple values/axes/caveats render below the A4 minima.
+- `manufacturing_share_16x9.svg`: country headings crowd the deck; the Mauritius absence block collides with the Philippines heading; the two Philippines narrative annotations/citations overlap; supporting narrative text is 14–16 px instead of the required 18 px.
+- `six_country_gdp_anchor_dashboard.svg`: the lower caveat columns overlap across gutters, and multiple A4 axis/value/note roles are below their required final-trim size.
+- `six_country_gdp_anchor_dashboard_16x9.svg`: the top-row country headings/flags crowd the deck rather than retaining a 16 px band separation.
+- `theory_evidence_matrix.svg`: headings, badges, country rows, support/challenge blocks, limitations, and revision conditions collide across all three columns; the right column is clipped at the page edge. This is a hard rejection, not a VIS-004 deferral.
+- `employment_structural_transformation.svg`: 15 px values and note copy scale to roughly 7.9 pt in the 1600-unit-wide A4 wrapper, below the required 11 pt values and 10 pt caveats; 16 px axes are also below 11 pt.
+- `employment_structural_transformation_16x9.svg`: in-segment values remain 11 px, below the required 22 px essential-value minimum. The prior log's statement that geometry prevents compliance is not an acceptance exception; redesign the label placement without moving the bars or data coordinates.
+- Font proof failed: the SVGs contain no embedded `@font-face`, and the available font checks did not resolve Montserrat. Install/activate a licensed local Montserrat family for the controlled export or embed a permitted local font resource, then record a reproducible browser-level proof such as `document.fonts.check()` plus the resolved face. A fallback screenshot does not pass.
+- The A4 screenshots were captured in 1600 × 1100 browser windows after adding 297 mm × 210 mm wrappers; the SVG itself rendered at roughly 1122 × 794 CSS pixels with white space around it. Record both the physical-page render dimensions and the viewBox-to-point conversion when checking final-trim type and margins.
 
 Before working, read:
 
