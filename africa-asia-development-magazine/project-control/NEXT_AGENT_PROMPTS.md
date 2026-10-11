@@ -1,7 +1,7 @@
 # Next Agent Prompt
 
-**Last reconciled by the Roadmap Controller:** 2026-10-11 (CTRL-021)
-**Current stage:** The first VIS-009 handoff failed controller review. Its nine SVGs parse and remain evidence-bounded, but actual renders still contain collisions/clipping, several type roles miss the stated A4 or projection minima, and the export record does not prove that Montserrat rendered. **Continue VIS-009 only. VIS-004 remains blocked.**
+**Last reconciled by the Roadmap Controller:** 2026-10-11 (CTRL-022)
+**Current stage:** The second VIS-009 handoff proves embedded Montserrat and materially improves the main plot areas, but the family still fails the strict zero-overlap, projection-size, edge-clearance, and safe source-band gate. **Continue VIS-009 only. VIS-004 remains blocked.**
 **Estimated progress:** 78%
 **Final report ready:** No
 
@@ -9,21 +9,22 @@
 
 You are the **Charts and Editorial Design Agent**. Repair the current production figures so they have clear hierarchy, generous breathing room, no overlapping text, and no near-collisions at native render size. This is a targeted production repair, not a redesign and not a data task.
 
-The project lead's controlling finding is: **the visuals still feel clumpy and a lot of text overlaps.** CTRL-021 confirmed that the first repair did not close that failure. Treat this as a failed digital layout gate. Do not run or claim any VIS-004 human/physical release test during this task.
+The project lead's controlling finding is: **the visuals still feel clumpy and a lot of text overlaps.** CTRL-022 confirms that the second repair improves the plots but does not close the strict digital layout gate. Do not run or claim any VIS-004 human/physical release test during this task.
 
 Read `project-control/logs/VIS-009.md` and continue the same task. Append a new dated entry; do not overwrite the earlier handoff.
 
-### CTRL-021 failures that must be closed
+### CTRL-022 residual failures that must be closed
 
-- `manufacturing_share.svg`: the deck is clipped at the right edge; the AFRICA/ASIA and `% of GDP` labels collide with axis/country content; the Mauritius absence block collides with the Philippines heading; the Philippines narrative citations overlap each other; the lower caveat columns collide; and multiple values/axes/caveats render below the A4 minima.
-- `manufacturing_share_16x9.svg`: country headings crowd the deck; the Mauritius absence block collides with the Philippines heading; the two Philippines narrative annotations/citations overlap; supporting narrative text is 14–16 px instead of the required 18 px.
-- `six_country_gdp_anchor_dashboard.svg`: the lower caveat columns overlap across gutters, and multiple A4 axis/value/note roles are below their required final-trim size.
-- `six_country_gdp_anchor_dashboard_16x9.svg`: the top-row country headings/flags crowd the deck rather than retaining a 16 px band separation.
-- `theory_evidence_matrix.svg`: headings, badges, country rows, support/challenge blocks, limitations, and revision conditions collide across all three columns; the right column is clipped at the page edge. This is a hard rejection, not a VIS-004 deferral.
-- `employment_structural_transformation.svg`: 15 px values and note copy scale to roughly 7.9 pt in the 1600-unit-wide A4 wrapper, below the required 11 pt values and 10 pt caveats; 16 px axes are also below 11 pt.
-- `employment_structural_transformation_16x9.svg`: in-segment values remain 11 px, below the required 22 px essential-value minimum. The prior log's statement that geometry prevents compliance is not an acceptance exception; redesign the label placement without moving the bars or data coordinates.
-- Font proof failed: the SVGs contain no embedded `@font-face`, and the available font checks did not resolve Montserrat. Install/activate a licensed local Montserrat family for the controlled export or embed a permitted local font resource, then record a reproducible browser-level proof such as `document.fonts.check()` plus the resolved face. A fallback screenshot does not pass.
-- The A4 screenshots were captured in 1600 × 1100 browser windows after adding 297 mm × 210 mm wrappers; the SVG itself rendered at roughly 1122 × 794 CSS pixels with white space around it. Record both the physical-page render dimensions and the viewBox-to-point conversion when checking final-trim type and margins.
+- `employment_structural_transformation.svg`: the header/legend remains crowded, and the three-column reading band and two figure-note lines overprint one another at physical A4 size. Reflow the notes and source into separate bands with visible baseline spacing.
+- `employment_structural_transformation_16x9.svg`: `10.5` overlaps `2020`; the final source line is clipped by roughly 331 px at the right edge; years are 20 px, `50%` axes 10 px, and external `5.3`/`5.4` values 11 px, below the explicit 22 px projection minimum for axes, years, and values. Keep the accepted 22 px in-segment values.
+- `ghana_korea_gdp_per_capita.svg`: `Observed anchors only.` runs directly into `Straight connectors...`, and the figure note touches/crosses its rule. Separate both pairs.
+- `ghana_korea_gdp_per_capita_16x9.svg`: the main plot is accepted, but the source block must retain the required gap and edge safety at native size.
+- `manufacturing_share.svg`: the three lower note columns compress into one another, and the figure note touches the lower rule. Preserve the repaired plot and narrative-only annotation positions.
+- `manufacturing_share_16x9.svg`: eyebrow/title and title/deck boxes overlap; the South Korea heading overlaps `25.2 %`; reading-note lines overlap the source; top clearance is 11 px and source bottom clearance is 8 px, both below 12 px.
+- `six_country_gdp_anchor_dashboard.svg`: the three lower note columns collide across gutters and with the figure note/rule. Preserve the repaired plot and full Malaysia caveat.
+- `six_country_gdp_anchor_dashboard_16x9.svg`: headline bands overlap, and the bottom caveat/source/rule stack overlaps and clips. The log says row-2 flags were removed, but the preserved render and SVG still show South Korea, Malaysia, and Philippines flags; either remove them as claimed or correct the log, without changing country identity.
+- `theory_evidence_matrix.svg`: the reflow is materially better and no column clips, but marker/text pairs retain zero-gap near-collisions, including Theory 3 South Korea and Theory 2 Philippines. Add measurable clearance without changing verdicts or evidence identity.
+- Keep the accepted embedded Montserrat implementation and browser proof. Do not redownload or replace the font unless a reproducible failure is found.
 
 Before working, read:
 
@@ -99,14 +100,12 @@ For A4 figures at final trim:
 
 ### Known failures that must be corrected
 
-- **All figures:** ensure Montserrat actually renders in the controlled export environment; a fallback-font screenshot is not a typography pass. Update any non-locked font weights.
-- **Employment A4:** enlarge percentage labels, note copy, and source copy; increase segment/keyline reproduction strength where it falls below the print minimum; move the source band into a real safe area; separate years and the 5.3/5.4 external labels from the baselines.
-- **Employment 16:9:** current 11–14 px values, years, and caveats are too small for projection. Enlarge them to the projection minima, shorten repeated prose, create more air between baselines, dates, note frame, and source, and keep the last source baseline safely inside the canvas.
-- **GDP A4:** restore a safe bottom source band, use a legible figure-note size, use a true physical A4 wrapper/export, and restore the complete Malaysia territorial caveat, including the 1963 formation and Singapore's 1965 exit.
-- **GDP 16:9:** restore the complete Malaysia caveat; bring title, deck, and source roles up to their recorded sizes without introducing collisions.
-- **Manufacturing A4 and 16:9:** inspect every narrative-only annotation, absence note, year label, value, and source line for collision or clumping. Preserve all missing-data geometry and the no-connector rules.
-- **Theory matrix A4:** inspect all three columns at actual trim size. No verdict badge, country row, support/challenge mark, limitation, revision condition, or source line may collide or read as a continuous wall of text.
-- **Ghana–South Korea A4 and 16:9:** retain the six-observation geometry while checking all leaders, endpoint labels, caveats, and the source band for clear separation.
+- **Bottom-band architecture:** allocate enough height for each note column and a distinct source strip. No note may cross a column gutter, touch a rule, overwrite a source line, or sit against the canvas edge.
+- **Employment:** preserve the accepted bar geometry and enlarged in-segment values; repair the A4 note/source overprint, the 16:9 `10.5`/`2020` contact, the projection source crop, and the weak supporting-label hierarchy.
+- **GDP dashboard:** preserve the accepted plot; rebuild the A4 and 16:9 caveat/source bands so the complete Malaysia territorial caveat and COVID-19 note are readable without collision.
+- **Manufacturing:** preserve the repaired absence and narrative-only blocks; rebuild only the bottom bands and source-edge clearance.
+- **Theory matrix:** preserve the new column reflow and verdict wording; add real spacing between the remaining marker/text pairs and verify them at physical A4 size.
+- **Ghana–South Korea:** preserve the accepted projection plot and six-observation geometry; separate the A4 callout text runs and both formats' source/rule stacks.
 
 ### Acceptance checks
 
@@ -116,6 +115,7 @@ For A4 figures at final trim:
 - There is no text touching a rule, marker, bar, or another major component.
 - Every stated minimum type size, stroke, marker size, edge clearance, and major-band separation is met and recorded.
 - A bounding-box or equivalent rendered-layout check is used. A string search alone is not sufficient.
+- The check covers text against rules, markers, bars, and canvas edges as well as text-to-text pairs; the second handoff's harness checked text-to-text only and cannot substantiate the broader no-touch claim.
 - The three-second/five-second entry point remains obvious without reading the caveat band.
 - All caveats remain visible and readable, including proxy years, 1960 exclusions, pandemic endpoints, Malaysia's full territorial caveat, observed-anchor-only wording, causality limits, and `Not a race.`
 - Data geometry and evidence identity are verified unchanged against the existing specifications and CSVs.
