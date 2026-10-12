@@ -402,3 +402,16 @@
 - **Current blockers:** VIS-004 remains blocked until the exact CTRL-023 residual list and checked-in proof refresh pass. MAP-001 still requires the verified LOC raster derivative, dimensions, checksum, original legend, and human comparison. AI-PROMPT-002 still requires platform/operator/time/test-plan decisions. WRITE-001 remains sequenced behind final figure/page gates.
 - **Exact next action:** Continue VIS-009 only with the bounded CTRL-023 prompt in `project-control/NEXT_AGENT_PROMPTS.md`. Repair the named type and clearance failures, regenerate checked-in colour/greyscale proofs from the final SVG revision, and return `REVIEW`. Do not run VIS-004 until the Roadmap Controller accepts that proof set.
 - **Recommended reviewer:** Roadmap Controller for the next digital pass; Marcus Grude Grodem for all four VIS-004 human/physical gates only after digital acceptance.
+
+## 2026-10-12 — Codex — CTRL-024 — project-lead stop decision and move-forward gate
+
+- **Status:** DONE
+- **Objective:** Implement the project lead's instruction to stop repeated VIS-009 iteration and move production forward without falsely declaring the known digital deviations resolved.
+- **Inputs read:** The project lead's instruction; `AGENTS.md`; `PRODUCT.md`; `SCOPE_LOCK.md`; `project-control/REPORT_CHECKLIST.md`; `project-control/STATUS.md`; `project-control/ROADMAP.md`; `project-control/NEXT_AGENT_PROMPTS.md`; `project-control/logs/VIS-004.md`; `project-control/logs/VIS-009.md`; and CTRL-023.
+- **Files created or changed:** Updated `project-control/STATUS.md`, `project-control/REPORT_CHECKLIST.md`, `project-control/ROADMAP.md`, `project-control/NEXT_AGENT_PROMPTS.md`, and `START_HERE_AGENT_WORKFLOW.md`; appended this entry. No SVG, specification, render, CSV, registry, research, or evidence file was edited.
+- **Decision:** Frozen VIS-009 at `REVIEW — iteration stopped by project lead`. The CTRL-023 failures remain explicit and are not converted into passes. Changed VIS-004 from blocked to READY under a documented risk decision.
+- **Next-gate design:** VIS-004 now produces a practical figure-level disposition: `USE`, `ONE OBSERVED REPAIR`, or `OMIT`. A repair is permitted only for a concrete defect witnessed in the human/physical test, preventing another speculative polish loop.
+- **Checklist changes:** Changed VIS-004 from blocked to in-progress/ready-for-execution language. Retained VIS-009 and all figure-release items as incomplete. No completion box advanced; estimated progress remains 78%.
+- **Known deviations retained:** Employment A4 type minima; projection text/rule and note/source clearances; manufacturing projection `25.2 %`/`25.7 %`; manufacturing and GDP A4 source-edge clearance; and stale checked-in VIS-009 proof PNGs.
+- **Current blockers:** Final figure release now depends on real VIS-004 observations rather than another digital repair. MAP-001 and AI-PROMPT-002 retain their prior external decisions/dependencies. Final page assembly still waits for figure-level use/omit decisions.
+- **Exact next action:** Marcus Grude Grodem runs VIS-004 from `project-control/NEXT_AGENT_PROMPTS.md`, appends genuine observations to `project-control/logs/VIS-004.md`, and assigns each figure `USE`, `ONE OBSERVED REPAIR`, or `OMIT`. The controller then opens at most one observed repair or moves directly into page writing/assembly.
