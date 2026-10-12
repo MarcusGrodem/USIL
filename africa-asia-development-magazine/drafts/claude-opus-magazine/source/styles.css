@@ -1,0 +1,581 @@
+/* =======================================================================
+   AFRICA & ASIA: WHY DID THEIR ECONOMIC PATHS DIVERGE?
+   Claude Opus editorial draft — Evidence Ledger comparison system
+   A4 portrait print CSS. Montserrat type. Palette A (locked 2026-10-07).
+   ======================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500&display=swap');
+
+:root {
+  /* Palette A — neutrals */
+  --paper: #F4F0E7;
+  --ink: #252525;
+  --note: #514E48;
+  --rule: #B7B0A4;
+  --rule-soft: #D7D1C4;
+
+  /* Palette A — country identifiers (colour cues cases only) */
+  --gha: #B95332;
+  --bwa: #3F684E;
+  --mus: #D6A23A;
+  --kor: #315A78;
+  --mys: #3E7568;
+  --phl: #A63A3A;
+
+  /* Africa / Asia navigation (only with explicit label) */
+  --africa: #9A5533;
+  --asia:   #3B5E78;
+
+  /* A4 */
+  --page-w: 210mm;
+  --page-h: 297mm;
+  --m-outer: 14mm;
+  --m-inner: 14mm;
+  --m-top: 14mm;
+  --m-bottom: 14mm;
+}
+
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #2a2a2a;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  font-variant-numeric: lining-nums;
+}
+
+/* Single A4 page */
+.page {
+  position: relative;
+  width: var(--page-w);
+  height: var(--page-h);
+  margin: 10mm auto;
+  background: var(--paper);
+  color: var(--ink);
+  overflow: hidden;
+  page-break-after: always;
+  break-after: page;
+  box-shadow: 0 2mm 6mm rgba(0,0,0,.4);
+}
+.page:last-child { page-break-after: auto; break-after: auto; }
+
+@media print {
+  html, body { background: var(--paper); }
+  .page {
+    width: var(--page-w);
+    height: var(--page-h);
+    margin: 0;
+    box-shadow: none;
+  }
+}
+
+/* ============== Grid system ==============
+   6 columns per page (12 across a spread), 5mm gutters.
+   Working area: 210 - 14 - 14 = 182mm.
+   Column width ≈ (182 - 5*5)/6 = 26.17mm. */
+.frame {
+  position: absolute;
+  top: var(--m-top);
+  bottom: var(--m-bottom);
+  left: var(--m-outer);
+  right: var(--m-outer);
+}
+.frame--even { left: var(--m-inner); right: var(--m-outer); }
+.frame--odd  { left: var(--m-outer); right: var(--m-inner); }
+
+/* ============== Universal page furniture ============== */
+.folio {
+  position: absolute;
+  bottom: 7mm;
+  font-size: 7pt;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--note);
+}
+.folio--left  { left: 14mm; }
+.folio--right { right: 14mm; }
+
+.section-tag {
+  display: inline-block;
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--note);
+}
+
+.rule-h {
+  display: block;
+  height: 0;
+  border: 0;
+  border-top: .4pt solid var(--rule);
+  margin: 3mm 0;
+}
+.rule-ink { border-top-color: var(--ink); border-top-width: .6pt; }
+
+/* ============== Type scale ============== */
+h1, h2, h3, h4 { margin: 0; font-weight: 700; }
+p, li { margin: 0; }
+
+.eyebrow {
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--note);
+}
+
+.h0 { font-weight: 900; font-size: 62pt; line-height: .96; letter-spacing: -.02em; }
+.h1 { font-weight: 700; font-size: 32pt; line-height: 1.05; letter-spacing: -.015em; }
+.h2 { font-weight: 700; font-size: 22pt; line-height: 1.1;  letter-spacing: -.01em; }
+.h3 { font-weight: 600; font-size: 14pt; line-height: 1.2;  letter-spacing: 0; }
+.deck { font-weight: 500; font-size: 11pt; line-height: 1.42; color: var(--ink); }
+.body { font-weight: 400; font-size: 9.5pt; line-height: 1.5; color: var(--ink); }
+.body--sm { font-size: 8.5pt; line-height: 1.45; }
+.caption { font-weight: 500; font-size: 7.8pt; line-height: 1.35; color: var(--note); }
+.notei { font-weight: 400; font-size: 7.3pt; line-height: 1.35; color: var(--note); }
+.notei em { font-style: italic; }
+
+.num { font-variant-numeric: tabular-nums lining-nums; }
+.ucase { text-transform: uppercase; letter-spacing: .14em; }
+
+/* ============== Finding header (Evidence Ledger top band) ============== */
+.finding {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 6mm;
+  padding-bottom: 3mm;
+  border-bottom: .6pt solid var(--ink);
+}
+.finding h1 { font-weight: 700; font-size: 24pt; line-height: 1.08; letter-spacing: -.012em; }
+.finding .meta { text-align: right; max-width: 48mm; }
+.finding .meta .k { font-size: 7pt; letter-spacing: .15em; text-transform: uppercase; color: var(--note); font-weight:700; }
+.finding .meta .v { font-size: 8.5pt; font-weight:500; color: var(--ink); }
+
+/* ============== Country chip ============== */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6mm;
+  font-size: 8.5pt;
+  font-weight: 600;
+  color: var(--ink);
+}
+.chip .marker { width: 2.4mm; height: 2.4mm; display: inline-block; }
+.chip--value .val { font-weight: 500; color: var(--note); font-size: 8pt; margin-left: 1mm; font-variant-numeric: tabular-nums; }
+
+.marker-circle   { background: var(--gha); border-radius: 50%; border:.4pt solid var(--ink); }
+.marker-square   { background: var(--bwa); border:.4pt solid var(--ink); }
+.marker-triangle { width:0 !important; height:0 !important; background: transparent !important;
+                   border-left: 1.4mm solid transparent; border-right: 1.4mm solid transparent;
+                   border-bottom: 2.4mm solid var(--mus); position: relative; }
+.marker-triangle::after {
+  content: ""; position:absolute; left:-1.6mm; top:0;
+  border-left: 1.6mm solid transparent; border-right: 1.6mm solid transparent;
+  border-bottom: 2.6mm solid transparent;
+  /* Outline via SVG not strictly needed; rely on wrapper outline below */
+}
+.marker-tri-wrap { display: inline-block; filter: drop-shadow(0 0 .4pt var(--ink)) drop-shadow(0 0 .4pt var(--ink)); }
+.marker-diamond  { background: var(--kor); transform: rotate(45deg); border:.4pt solid var(--ink); }
+.marker-hex      {
+  background: var(--mys);
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  border:.4pt solid var(--ink);
+}
+.marker-cross {
+  position: relative; width: 2.4mm; height: 2.4mm; background: transparent;
+}
+.marker-cross::before, .marker-cross::after {
+  content: ""; position: absolute; left: 0; top: 0;
+}
+.marker-cross::before {
+  width: 2.4mm; height: .9mm; top: .75mm; background: var(--phl);
+  box-shadow: 0 0 0 .25mm var(--ink);
+}
+.marker-cross::after {
+  width: .9mm; height: 2.4mm; left: .75mm; background: var(--phl);
+  box-shadow: 0 0 0 .25mm var(--ink);
+}
+
+/* ============== Image / asset placeholder ============== */
+.placeholder {
+  position: relative;
+  background: #ECE6D8;
+  border: 1pt dashed var(--ink);
+  padding: 5mm;
+  color: var(--note);
+  font-size: 7.5pt;
+  line-height: 1.35;
+  font-weight: 500;
+  overflow: hidden;
+}
+.placeholder::before {
+  content: "EDITORIAL PLACEHOLDER — VERIFIED ASSET REQUIRED";
+  display: block;
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: .14em;
+  color: var(--ink);
+  margin-bottom: 2mm;
+}
+.placeholder dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 1mm 2.4mm; }
+.placeholder dt { font-weight: 700; color: var(--ink); text-transform: uppercase; letter-spacing: .1em; font-size: 6.6pt; }
+.placeholder dd { margin: 0; color: var(--note); font-size: 7.5pt; }
+.placeholder .diag {
+  position: absolute; inset: 0; pointer-events: none;
+  background: repeating-linear-gradient(45deg, transparent 0, transparent 6mm, rgba(37,37,37,.04) 6mm, rgba(37,37,37,.04) 6.3mm);
+}
+
+/* ============== Caveat / limitation box ============== */
+.caveat {
+  border-left: 2pt solid var(--ink);
+  padding: 2mm 0 2mm 3mm;
+  font-size: 7.8pt;
+  line-height: 1.4;
+  color: var(--ink);
+  background: transparent;
+}
+.caveat .ucase { font-weight: 700; display: block; font-size: 7pt; margin-bottom: 1mm; }
+
+/* ============== Source band (foot) ============== */
+.source-band {
+  position: absolute;
+  left: 14mm; right: 14mm;
+  bottom: 12mm;
+  padding-top: 2.5mm;
+  border-top: .6pt solid var(--ink);
+  font-size: 7pt;
+  line-height: 1.4;
+  color: var(--note);
+}
+.source-band .lbl { font-weight: 700; color: var(--ink); letter-spacing: .1em; text-transform: uppercase; margin-right: 2mm; }
+
+/* ============== Figure wrapper ============== */
+.figwrap {
+  position: relative;
+  width: 100%;
+  border: .4pt solid var(--rule);
+  background: #F8F5EC;
+  padding: 2mm;
+  overflow: hidden;
+}
+.figwrap svg, .figwrap img { width: 100%; height: 100%; display: block; }
+.figwrap--portrait { aspect-ratio: 595 / 842; }
+.figwrap--land     { aspect-ratio: 1600 / 1100; }
+.figwrap--sm       { aspect-ratio: 4 / 3; }
+
+/* ============== Running header ============== */
+.runhead {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 4mm;
+}
+
+/* ============== Cover ============== */
+.cover-wrap {
+  position: relative; width: 100%; height: 100%;
+  background: var(--paper); color: var(--ink);
+  display: grid; grid-template-rows: 1fr 1fr;
+}
+.cover-top {
+  position: relative;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+}
+.cover-img {
+  position: relative; overflow: hidden;
+  border: .4pt solid var(--ink);
+}
+.cover-img:first-child { border-right: .4pt solid var(--ink); }
+.cover-img.left  { background: linear-gradient(135deg, #D9CFB8 0%, #B3A383 100%); }
+.cover-img.right { background: linear-gradient(135deg, #B9C3C8 0%, #6E7F8A 100%); }
+.cover-img .lbl {
+  position: absolute; left: 10mm; bottom: 10mm;
+  background: var(--paper); color: var(--ink);
+  padding: 2mm 4mm; font-size: 7pt; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase;
+  border: .4pt solid var(--ink);
+}
+.cover-img .credit {
+  position: absolute; left: 10mm; right: 10mm; top: 10mm;
+  color: #ffffff; font-size: 7pt; font-weight: 500;
+  mix-blend-mode: screen;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.cover-bot {
+  padding: 14mm;
+  display: grid; grid-template-rows: auto 1fr auto;
+  gap: 6mm;
+}
+.cover-title {
+  font-weight: 900;
+  font-size: 52pt;
+  line-height: .94;
+  letter-spacing: -.025em;
+}
+.cover-deck {
+  font-weight: 500; font-size: 13pt; line-height: 1.35; max-width: 150mm;
+}
+.cover-foot {
+  display: flex; justify-content: space-between; align-items: flex-end;
+  font-size: 8pt; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--note);
+}
+
+/* ============== Reusable layouts ============== */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5mm; }
+.grid-4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 4mm; }
+.grid-6 { display: grid; grid-template-columns: repeat(6,1fr); gap: 3mm; }
+.col-l6 { grid-column: 1 / span 6; }
+
+.flex-h { display: flex; align-items: center; gap: 3mm; }
+.stack  { display: flex; flex-direction: column; }
+.stack  > * + * { margin-top: 3mm; }
+
+/* ============== Evidence rail layout ============== */
+.layout-ledger {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 6mm;
+  height: 100%;
+}
+.rail { display: flex; flex-direction: column; gap: 4mm; }
+.rail .rail-head { font-size: 7.5pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--note); border-bottom: .4pt solid var(--rule); padding-bottom: 1mm; }
+
+/* ============== Matrix table ============== */
+.matrix { width: 100%; border-collapse: collapse; font-size: 8.5pt; }
+.matrix th, .matrix td {
+  border-top: .4pt solid var(--rule);
+  padding: 2.5mm 2mm;
+  vertical-align: top;
+  text-align: left;
+  color: var(--ink);
+}
+.matrix th {
+  font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--note);
+  border-top: 0; border-bottom: .6pt solid var(--ink); padding-bottom: 2mm;
+}
+.matrix td.label { font-weight: 700; width: 36mm; }
+.matrix tr:last-child td { border-bottom: .4pt solid var(--rule); }
+
+/* ============== Small multiples ============== */
+.sm-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3mm;
+  height: 100%;
+}
+.sm-tile {
+  border: .4pt solid var(--rule);
+  padding: 3mm;
+  display: flex; flex-direction: column; gap: 1.5mm;
+  background: #F8F5EC;
+  position: relative;
+}
+.sm-tile .sm-head { display: flex; justify-content: space-between; align-items: baseline; }
+.sm-tile .sm-name { font-weight: 700; font-size: 10pt; }
+.sm-tile .sm-tag  { font-size: 6.5pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--note); }
+.sm-tile .sm-fig  { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.sm-tile .sm-note { font-size: 6.5pt; color: var(--note); line-height: 1.3; }
+
+/* Mini bars for small multiples (SVG inline will handle real plots) */
+.minibar { display: grid; grid-template-columns: 1fr; gap: 1mm; }
+.minibar .row { display: grid; grid-template-columns: 10mm 1fr 14mm; align-items: center; gap: 1.5mm; }
+.minibar .row .label { font-size: 7pt; color: var(--note); font-weight: 600; }
+.minibar .row .track { height: 2.6mm; background: #ECE6D8; position: relative; border: .3pt solid var(--rule); }
+.minibar .row .fill  { height: 100%; }
+.minibar .row .v     { font-size: 7pt; color: var(--ink); font-variant-numeric: tabular-nums; text-align: right; }
+
+/* ============== Pill / badge ============== */
+.badge {
+  display: inline-block;
+  font-size: 6.8pt;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: 1mm 2.4mm;
+  border: .5pt solid var(--ink);
+  color: var(--ink);
+  margin-right: 1mm;
+}
+.badge--verdict { background: var(--paper); }
+.badge--support { border-style: dashed; border-width: 1pt; }
+.badge--challenge { background: #ECE6D8; }
+.badge--inconclusive { border-style: dotted; border-width: 1pt; }
+
+/* ============== Theory matrix card layout for p18 ============== */
+.theory-row { border-top: .6pt solid var(--ink); padding: 3mm 0; }
+.theory-row:first-child { border-top: 0; }
+.theory-head { display: grid; grid-template-columns: 10mm 1fr auto; gap: 3mm; align-items: baseline; }
+.theory-head .idx { font-weight: 900; font-size: 18pt; }
+.theory-head .nm  { font-weight: 700; font-size: 11pt; }
+.theory-cells { display: grid; grid-template-columns: repeat(6,1fr); gap: 2mm; margin-top: 2mm; }
+.theory-cell  { font-size: 7pt; line-height: 1.3; padding: 2mm; border: .4pt solid var(--rule); background: #F8F5EC; min-height: 18mm; }
+.theory-cell .cn { font-weight: 700; display: flex; align-items: center; gap: 1.4mm; font-size: 7.2pt; margin-bottom: 1mm; }
+.theory-cell .cv { font-weight: 500; color: var(--note); font-size: 6.6pt; letter-spacing: .1em; text-transform: uppercase; }
+
+/* ============== Big number display ============== */
+.bignum {
+  font-weight: 900;
+  font-variant-numeric: tabular-nums lining-nums;
+  letter-spacing: -.03em;
+  line-height: .9;
+}
+
+/* ============== Dot plot (inline SVG style helpers) ============== */
+.scale-bar {
+  position: relative; height: 10mm;
+  border-top: .4pt solid var(--ink);
+  margin-top: 6mm;
+}
+.scale-bar .tick {
+  position: absolute; top: 0; width: 0;
+  border-left: .4pt solid var(--rule);
+  height: 2mm;
+  font-size: 7pt; color: var(--note);
+}
+.scale-bar .tick::after {
+  content: attr(data-label);
+  position: absolute; top: 2.5mm; left: -8mm; width: 16mm;
+  text-align: center; font-size: 6.8pt; color: var(--note); font-variant-numeric: tabular-nums;
+}
+
+/* ============== Country colour swatches ============== */
+.swatch { display:inline-block; width: 3mm; height: 3mm; vertical-align: middle; margin-right: 1mm; border:.4pt solid var(--ink); }
+.sw-gha { background: var(--gha); border-radius: 50%; }
+.sw-bwa { background: var(--bwa); }
+.sw-mus { background: var(--mus); }
+.sw-kor { background: var(--kor); transform: rotate(45deg); }
+.sw-mys { background: var(--mys); clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%); }
+.sw-phl { background: var(--phl); }
+
+/* ============== Capability loop (p10) ============== */
+.loop {
+  position: relative; width: 100%; height: 100%;
+  padding: 4mm; display: flex; align-items: center; justify-content: center;
+}
+.loop svg { width: 100%; height: 100%; }
+
+/* ============== Prevent any Chrome weirdness ============== */
+img, svg { max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+
+/* ============== Allocation board (p9) ============== */
+.alloc {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4mm;
+}
+.alloc .choice {
+  border: .6pt solid var(--ink); padding: 3mm; min-height: 36mm;
+  display: flex; flex-direction: column; gap: 2mm;
+}
+.alloc .choice h4 { font-size: 10pt; font-weight: 700; }
+.alloc .choice .b { font-size: 7.5pt; color: var(--note); line-height: 1.35; }
+.alloc .pts {
+  margin-top: auto;
+  display: flex; align-items: center; gap: 2mm;
+  font-size: 7.5pt; font-weight: 500; color: var(--note);
+}
+.alloc .pts .box {
+  width: 18mm; height: 7mm; border: .5pt solid var(--ink); position: relative;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums;
+}
+
+/* ============== Open mono ticks (for timelines) ============== */
+.timeline {
+  position: relative; margin: 4mm 0;
+  padding-top: 4mm;
+}
+.timeline .track {
+  position: relative; height: .6pt; background: var(--ink);
+}
+.timeline .pt {
+  position: absolute; top: -2mm; width: 2mm; height: 2mm;
+  background: var(--ink); border-radius: 50%;
+}
+.timeline .pt .yr {
+  position: absolute; top: -5mm; left: 50%; transform: translateX(-50%);
+  font-size: 7.5pt; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums;
+}
+.timeline .pt .ev {
+  position: absolute; top: 4mm; left: 50%; transform: translateX(-50%);
+  width: 30mm; text-align: center; font-size: 7pt; color: var(--note); line-height: 1.3;
+}
+
+/* ============== Pull quote ============== */
+.pullquote {
+  font-weight: 600; font-size: 14pt; line-height: 1.25;
+  color: var(--ink);
+  padding: 4mm 6mm;
+  border-top: .6pt solid var(--ink);
+  border-bottom: .6pt solid var(--ink);
+}
+.pullquote .q::before { content: "“"; }
+.pullquote .q::after  { content: "”"; }
+
+/* ============== Section opener style ============== */
+.opener {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+}
+.opener .big {
+  font-weight: 900; font-size: 54pt; line-height: .96; letter-spacing: -.02em;
+  align-self: end;
+}
+.opener .sub {
+  padding-top: 4mm; border-top: .6pt solid var(--ink);
+  font-weight: 500; font-size: 11pt; line-height: 1.4; max-width: 150mm;
+}
+
+/* ============== Reference columns (p25) ============== */
+.refs { column-count: 2; column-gap: 6mm; column-rule: .4pt solid var(--rule); }
+.refs .ref {
+  break-inside: avoid-column;
+  margin-bottom: 2.5mm;
+  font-size: 7.6pt; line-height: 1.35;
+  color: var(--ink); font-weight: 400;
+  text-indent: -3mm; padding-left: 3mm;
+}
+.refs .ref strong { font-weight: 700; }
+.refs .ref em { font-style: italic; }
+
+/* ============== Small helper: visually hidden ============== */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+/* ============== Specific country colour overrides for text/labels ============== */
+.c-gha { color: var(--gha); }
+.c-bwa { color: var(--bwa); }
+.c-mus { color: var(--mus); }
+.c-kor { color: var(--kor); }
+.c-mys { color: var(--mys); }
+.c-phl { color: var(--phl); }
+.c-ink { color: var(--ink); }
+
+/* ============== Table variant ============== */
+.data-tbl { width: 100%; border-collapse: collapse; font-size: 8pt; font-variant-numeric: tabular-nums; }
+.data-tbl th, .data-tbl td { padding: 1.6mm 2mm; border-bottom: .4pt solid var(--rule); text-align: left; }
+.data-tbl th { font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--note); border-bottom: .6pt solid var(--ink); }
+.data-tbl td.n { text-align: right; }
+
+/* ============== Big question frame ============== */
+.question-frame {
+  border: .6pt solid var(--ink);
+  padding: 6mm;
+  font-weight: 700; font-size: 18pt; line-height: 1.15; letter-spacing: -.01em;
+}
