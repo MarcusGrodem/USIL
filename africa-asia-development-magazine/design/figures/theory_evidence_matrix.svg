@@ -60,6 +60,7 @@
       .note { font-size: 10px; font-weight: 500; fill: #403D38; }
       .note-strong { font-size: 10px; font-weight: 700; fill: #252525; }
       .marker-glyph { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #252525; font-size: 12px; }
+      .country-name, .country-verdict, .block-head, .note-strong { transform: translateX(4px); }
       .rule { stroke: #514E48; stroke-width: 0.75; fill: none; }
       .rule-light { stroke: #B7B0A4; stroke-width: 0.5; fill: none; }
       .rule-strong { stroke: #252525; stroke-width: 1.2; fill: none; }
@@ -141,7 +142,7 @@
     <!-- Row 2 Botswana (strongest challenge) -->
     <use xlink:href="#m-botswana" x="2" y="295" width="14" height="14"/>
     <text x="20" y="299" class="text country-name">Botswana</text>
-    <use xlink:href="#badge-challenge" x="149" y="295" width="14" height="14"/>
+    <use xlink:href="#badge-challenge" x="153" y="287" width="10" height="10"/>
     <text x="20" y="311" class="text country-verdict">Strong exception</text>
 
     <!-- Row 3 Mauritius -->
@@ -157,7 +158,7 @@
     <!-- Row 5 Malaysia (strongest support) -->
     <use xlink:href="#m-malaysia" x="2" y="379" width="14" height="14"/>
     <text x="20" y="383" class="text country-name">Malaysia</text>
-    <use xlink:href="#badge-support" x="149" y="379" width="14" height="14"/>
+    <use xlink:href="#badge-support" x="153" y="371" width="10" height="10"/>
     <text x="20" y="395" class="text country-verdict">Qualified support</text>
 
     <!-- Row 6 Philippines -->
@@ -222,7 +223,7 @@
     <!-- Row 3 Mauritius (strongest support) -->
     <use xlink:href="#m-mauritius" x="2" y="323" width="14" height="14"/>
     <text x="20" y="327" class="text country-name">Mauritius</text>
-    <use xlink:href="#badge-support" x="149" y="323" width="14" height="14"/>
+    <use xlink:href="#badge-support" x="153" y="315" width="10" height="10"/>
     <text x="20" y="339" class="text country-verdict">Substitutes qualified</text>
 
     <!-- Row 4 South Korea -->
@@ -238,7 +239,7 @@
     <!-- Row 6 Philippines (strongest challenge) -->
     <use xlink:href="#m-philippines" x="2" y="407" width="14" height="14"/>
     <text x="20" y="411" class="text country-name">Philippines</text>
-    <use xlink:href="#badge-challenge" x="149" y="407" width="14" height="14"/>
+    <use xlink:href="#badge-challenge" x="153" y="399" width="10" height="10"/>
     <text x="20" y="423" class="text country-verdict">Counter to strong form</text>
 
     <line x1="0" y1="436" x2="165" y2="436" class="rule-light"/>
@@ -294,7 +295,7 @@
     <!-- Row 2 Botswana (strongest challenge) -->
     <use xlink:href="#m-botswana" x="2" y="295" width="14" height="14"/>
     <text x="20" y="299" class="text country-name">Botswana</text>
-    <use xlink:href="#badge-challenge" x="149" y="295" width="14" height="14"/>
+    <use xlink:href="#badge-challenge" x="153" y="287" width="10" height="10"/>
     <text x="20" y="311" class="text country-verdict">Accumulation warning</text>
 
     <!-- Row 3 Mauritius -->
@@ -305,7 +306,7 @@
     <!-- Row 4 South Korea (strongest support) -->
     <use xlink:href="#m-korea" x="2" y="351" width="14" height="14"/>
     <text x="20" y="355" class="text country-name">South Korea</text>
-    <use xlink:href="#badge-support" x="149" y="351" width="14" height="14"/>
+    <use xlink:href="#badge-support" x="153" y="343" width="10" height="10"/>
     <text x="20" y="367" class="text country-verdict">Duration plus correction</text>
 
     <!-- Row 5 Malaysia -->

@@ -174,9 +174,9 @@ Assign one independent audit area: evidence/APA, data/graphs, editorial/causalit
 
 The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPTS.md`; this runbook records the current task IDs so stale full prompts cannot survive here.
 
-**Current batch after the latest 2026-10-11 controller reconciliation (CTRL-022):**
+**Current batch after the latest 2026-10-12 controller reconciliation (CTRL-023):**
 
-1. `VIS-009` continuation: close only the CTRL-022 residual note/source overlap, clipping, edge-clearance, and zero-gap failures while preserving the accepted plot reflow, embedded Montserrat, data geometry, and evidence identities.
+1. `VIS-009` continuation: close only the CTRL-023 residual physical type, rule/label, note/source, source-edge, and manufacturing-label failures; then regenerate checked-in colour/greyscale proofs from the final SVGs while preserving accepted plots, embedded Montserrat, data geometry, and evidence identities.
 
 `VIS-004` is held until the Roadmap Controller accepts VIS-009. `GAME-001` remains on the status board but is deliberately deferred from this batch.
 

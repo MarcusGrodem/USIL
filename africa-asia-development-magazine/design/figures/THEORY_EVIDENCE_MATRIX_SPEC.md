@@ -87,6 +87,7 @@ The orienting non-cultural-determinism statement comes from `ECON001-A07` with `
 - Three columns, 163 pt each, 13 pt gutters: Column 1 x = 40–203, Column 2 x = 216–379, Column 3 x = 392–555.
 - Essential A4 text ≥ 11 pt (country name, country short verdict, verdict badge, block headers, deck). Source/limitation band is 10 pt per the selected system minima.
 - Vertical layout: finding header 25–136 pt, column body 148–760 pt, source band rule 767 pt, source paragraphs 780–828 pt.
+- CTRL-022 spacing repair (2026-10-11): country names, short verdicts, block heads, and strong-note labels receive a 4 pt rightward text offset; inline support/challenge badges are 10 pt squares positioned with a measured 8 pt marker-to-text clearance. Verdicts, evidence identity, and the three-column grid are unchanged.
 
 ## Visual logic without colour
 

@@ -141,24 +141,24 @@
   </g>
 
   <g id="reading-notes">
-    <text x="100" y="842" class="text note-head">Observed anchors only.</text>
-    <text x="355" y="842" class="text note">Straight connectors guide the eye; they do not show or estimate annual values between the three years.</text>
+    <text x="100" y="836" class="text note-head">Observed anchors only.</text>
+    <text x="100" y="868" class="text note">Straight connectors guide the eye; they do not show or estimate annual values between the three years.</text>
 
-    <line x1="100" y1="875" x2="1500" y2="875" stroke="#B7B0A4" stroke-width="2"/>
-    <text x="100" y="915" class="text note-head">What this cannot prove</text>
-    <text x="100" y="948" class="text note">The GDP-per-person gap does not identify whether culture, policy, institutions, war, aid,</text>
-    <text x="100" y="972" class="text note">or another factor caused the divergence. 2020 is the COVID-19 year.</text>
+    <line x1="100" y1="890" x2="1500" y2="890" stroke="#B7B0A4" stroke-width="2"/>
+    <text x="100" y="922" class="text note-head">What this cannot prove</text>
+    <text x="100" y="950" class="text note">The GDP-per-person gap does not identify whether culture, policy, institutions, war, aid,</text>
+    <text x="100" y="974" class="text note">or another factor caused the divergence. 2020 is the COVID-19 year.</text>
   </g>
 
   <g id="figure-note">
-    <line x1="100" y1="996" x2="1500" y2="996" stroke="#514E48" stroke-width="3"/>
-    <text x="100" y="1008" class="text note">
+    <line x1="100" y1="988" x2="1500" y2="988" stroke="#514E48" stroke-width="3"/>
+    <text x="100" y="1008" class="text fignote">
       <tspan font-style="italic">Note.</tspan>
       <tspan> GDP per capita in constant 2015 US dollars. Data from </tspan>
       <tspan font-style="italic">World Development Indicators</tspan>
       <tspan> (NY.GDP.PCAP.KD), by World Bank (2026).</tspan>
     </text>
-    <text x="100" y="1032" class="text note">SRC-WDI-001 · WDI release 2026-07-13 · retrieved 2026-10-04 · frozen CSV: data/charts/ghana_korea_gdp_per_capita.csv.</text>
-    <text x="100" y="1058" class="text fignote">Full URL at databank.worldbank.org/source/world-development-indicators (handout).</text>
+    <text x="100" y="1024" class="text fignote">SRC-WDI-001 · WDI release 2026-07-13 · retrieved 2026-10-04 · frozen CSV: data/charts/ghana_korea_gdp_per_capita.csv.</text>
+    <text x="100" y="1040" class="text fignote">Full URL at databank.worldbank.org/source/world-development-indicators (handout).</text>
   </g>
 </svg>

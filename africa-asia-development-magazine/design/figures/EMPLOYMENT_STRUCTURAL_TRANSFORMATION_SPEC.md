@@ -141,7 +141,7 @@ Country colour never identifies the sectors in this figure. Following the named 
 | Industry | `#D07A32` production orange + vertical-line texture | `#252525` 0.8 pt | mid tone; charcoal value text |
 | Services | `#6FA3C8` clear blue + dot texture | `#252525` 0.8 pt | lightest tone; charcoal value text |
 
-Direct in-segment value labels print in cream `#F4F0E7` on agriculture and in charcoal `#252525` on industry and services. Any segment too thin to carry an inside label (threshold: height < 24 units on A4; < 16 units on 16:9) is directly labelled outside the bar with a leader line in charcoal; this applies to Mauritius 2020 agriculture (5.3 %) and South Korea 2020 agriculture (5.4 %) in both files.
+Direct in-segment value labels print in cream `#F4F0E7` on agriculture and in charcoal `#252525` on industry and services. Any segment too thin to carry an inside label is directly labelled outside the bar with a leader line in charcoal; this applies to Mauritius 2020 agriculture (5.3 %) and South Korea 2020 agriculture (5.4 %) in both files. On the 16:9 canvas, Botswana 1991 agriculture (12.6 %) also uses a short left leader because the required 22 px label cannot retain clearance from both the adjacent segment and year label inside its 25.2 px band.
 
 In grayscale conversion, each stacked bar remains three bands with different lightness and texture: diagonal agriculture, vertical industry, dotted services. The full country name sits in every panel heading, and every segment carries its printed percentage. No reader relies on colour perception alone.
 
@@ -175,17 +175,17 @@ Both files declare the project typeface stack (`"Montserrat" → "Helvetica Neue
 
 | Role | A4 target (px in 1600 × 1100) | 16:9 target (px in 1280 × 720) |
 |---|---:|---:|
-| Finding headline | 44 | 28 |
-| Deck / indicator line | 20 | 16 |
-| Row heading (AFRICA / ASIA) | 20 | 16 |
-| Country direct label (panel heading) | 24 | 18 |
-| Year label (per bar foot) | 20 | 14 |
-| In-segment value label | 15 | 11 |
-| Reading-note head | 18 | 13 |
-| Reading-note body | 15 | 11 |
-| Figure-note band | 14 | 11 |
+| Finding headline | 44 | 32 |
+| Deck / indicator line | 20 | 18 |
+| Country direct label (panel heading) | 24 | 22 |
+| Year label (per bar foot) | 21 | 22 |
+| In-segment value label | 21 | 22 |
+| External value / 50% guide label | 21 | 22 |
+| Reading-note head | 20 | 18 |
+| Reading-note body | 20 | 18 |
+| Figure-note band | 15 | 14 |
 
-Essential axis/value type on A4 is ≥ 14 px (figure note) with every bar value at 15 px; essential axis/value type on 16:9 is ≥ 11 px. Physical A4 reproduction and the named back-row five-second test remain separate release gates as recorded for the GDP dashboard (`design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md`, release gate scope).
+Essential axes and values remain at or above the A4 11 pt trim target. On 16:9, every axis, year, direct country label, and value is at least 22 px; caveat text is 18 px. Physical A4 reproduction and the named back-row five-second test remain separate release gates as recorded for the GDP dashboard (`design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md`, release gate scope).
 
 ## Accessibility metadata
 
@@ -203,9 +203,10 @@ Essential axis/value type on A4 is ≥ 14 px (figure note) with every bar value 
 ## Print and projection constraints
 
 - **A4:** target line weight ≥ 0.6 pt and segment edge ≥ 3.5 mm visible at trim. The 0.8-unit segment keylines and 1.4-unit baseline rule, scaled from the viewBox to a 297 mm wide landscape A4 trim (`≈ 5.4 units/mm`), satisfy this.
-- **Projection (1280 × 720):** essential year labels at 14 px; in-segment values at 11 px; reading-note heads at 13 px; reading-note body at 11 px; segment heights ≥ 10.6 units (Mauritius 2020 agriculture, 5.3 %) with external leader labels where < 16 units; no transparency, gradient, shadow, 3D, dual axis, or decorative silhouette.
+- **Projection (1280 × 720):** essential year, axis, country, and value labels are 22 px; reading-note heads and bodies are 18 px; the concise source strip is 14 px; segment heights ≥ 10.6 units (Mauritius 2020 agriculture, 5.3 %) use external leader labels where needed; no transparency, gradient, shadow, 3D, dual axis, or decorative silhouette.
 - Both files use stacked rectangles only — no smoothing, curves, or inferred between-year connectors.
 - **Spacing repair (2026-10-09):** the country rows, year labels, key, and note band retain the same data geometry but use approximately 15% more perceptual separation. The A4 header carries the proxy/pandemic/1960 explanation once in the note band instead of repeating it above the panels; year labels move 8 units toward their baselines; the note band begins 10 units lower. In the 16:9 file the shortened deck and key share one horizontal band, year labels move 8 units toward their baselines, and the note frame begins 4 units lower. These offsets prevent descenders and note rules from touching without changing a segment coordinate or value.
+- **CTRL-022 repair (2026-10-11):** the A4 reading notes and source now occupy separate bands. The projection header is vertically separated, the key moves right, every essential axis/year/value label is 22 px, the Malaysia `10.5` label and the two thin-segment external labels use clear leaders, and the concise source remains inside the right and bottom edges. Bar rectangles and their value-axis coordinates are unchanged.
 
 ## Verification record
 

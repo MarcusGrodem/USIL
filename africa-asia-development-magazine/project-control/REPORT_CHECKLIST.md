@@ -11,8 +11,8 @@ Status key:
 - `[ ]` MISSING — not started or only an idea/placeholder exists
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
-**Last checked:** 2026-10-11 (CTRL-022)
-**Current stage:** The second VIS-009 handoff proves embedded Montserrat and substantially cleans the main plots, but still fails the strict digital gate across the figure family: note/source overlap, clipping, unsafe edge contact, sub-minimum projection roles, and zero-gap text remain. VIS-009 is returned for a narrow repair; VIS-004 remains blocked. GAME-001 is deferred; MAP-001 remains blocked.
+**Last checked:** 2026-10-12 (CTRL-023)
+**Current stage:** The third VIS-009 handoff fixes most prior collisions and preserves the approved evidence/data geometry, but still fails the strict digital gate on exact type and clearance minima, one true manufacturing-projection value collision, two A4 source-edge violations, and stale checked-in proof renders. VIS-009 is returned for a narrow fourth pass; VIS-004 remains blocked. GAME-001 is deferred; MAP-001 remains blocked.
 **Estimated total progress:** 78%
 **Final report ready:** No
 
@@ -115,7 +115,7 @@ Every final source must have:
 ## 6. Comparable graphs and maps
 
 - [-] Ghana–South Korea spread prototypes — three materially different treatments were reviewed and Evidence Ledger was selected; production specification, human classroom check, and final spread production remain.
-- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents. CTRL-022 accepted the second handoff's font proof and main-plot cleanup but returned its residual note/source and clearance failures. VIS-009 must pass before Marcus Grude Grodem runs VIS-004.
+- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents. CTRL-023 accepted the third handoff's preserved identities, theory-matrix spacing, and most layout repair but returned exact type/clearance failures and stale proof renders. VIS-009 must pass before Marcus Grude Grodem runs VIS-004.
 - [-] 1960 mirrored baseline dashboard — VIS-006 six-country small-multiples cover the 1960 anchor; passed numeric/geometry/accessibility digital gates and awaits named human/physical VIS-004 review.
 - [-] 1990 comparison snapshot — VIS-006 covers the 1990 anchor as above.
 - [-] 2020 outcome dashboard — VIS-006 covers the 2020 anchor as above.
@@ -175,7 +175,7 @@ Every page must have:
 ## 7A. Visual engagement and editorial energy
 
 - [x] Visual quality is defined as a graded project requirement.
-- [-] Magazine-wide country colour and marker system approved — showroom selection, VIS-002 specification, and the VIS-003 bounded repair are complete, but CTRL-022 returned the second VIS-009 handoff for residual note/source collisions, clipping, and zero-gap text. Embedded Montserrat now passes digitally; no release claim may be accepted without VIS-009 acceptance and recorded results for all four VIS-004 gates.
+- [-] Magazine-wide country colour and marker system approved — showroom selection, VIS-002 specification, and the VIS-003 bounded repair are complete, but CTRL-023 returned the third VIS-009 handoff for residual physical type/edge failures, rule clearances, one projection-label collision, and stale proof renders. Embedded Montserrat and identity encodings remain accepted; no release claim may be accepted without VIS-009 acceptance and all four VIS-004 gates.
 - [ ] Typography hierarchy tested at A4 print size.
 - [x] Page-rhythm map showing deliberate variation across the approximately 25-page plan.
 - [x] No three consecutive spreads use the same composition or visual device in the accepted rhythm plan.
@@ -257,14 +257,14 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [x] `SRC-004`: All 18 approved RES-002/ECON-001 claims and 10 new sources registered with 45 new links to 22 unique source IDs; 85 unique sources and 292 unique claims with zero dangling links.
 - [x] `VIS-003`: Projection proof repaired to exactly six observation marks matching the frozen CSV, marker-free 1960 labels with non-crossing leaders, and a decompressed source band inside the 720 px canvas.
 - [!] `VIS-004`: Marcus Grude Grodem remains the named reviewer for all four human/physical release gates, but the gates are held until VIS-009 repairs the project lead's reported clumping and text-overlap failures.
-- [-] `VIS-009`: Second nine-figure repair handoff returned for revision. XML, bounded evidence scope, embedded Montserrat, and the main plot reflow pass, but note/source overlap, clipping, unsafe edge contact, sub-minimum projection roles, and zero-gap text remain across the family. VIS-004 cannot resume until the corrected renders pass.
+- [-] `VIS-009`: Third nine-figure repair handoff returned for revision. XML, all 75 frozen chart rows, bounded evidence scope, embedded Montserrat payloads, current theory-matrix spacing, and most band repairs pass. Employment A4 type minima, several text/rule and note/source clearances, manufacturing projection `25.2 %`/`25.7 %`, A4 manufacturing/GDP source margins, and the stale checked-in proof package still fail. VIS-004 cannot resume until corrected final renders pass.
 - [x] `TYPE-001`: Montserrat selected and documented; font-family swap verified across nine production SVGs and four figure specs with zero production Aptos residue and nine clean XML parses.
 - [x] `THEORY-001`: Complete three-theory matrix delivered and independently audited.
 - [x] `THEORY-002`: Botswana causal wording and PSA/Dolan source caveats repaired; registry rerun passed.
 - [x] `PHOTO-001`: Twelve rights-verified, place-specific photo candidates accepted as a balanced shortlist; final selection and source-registry integration remain separate.
 - [!] `MAP-001`: Compliant production specification accepted, but no artwork exists because the approved LOC raster/legend could not be retrieved through Cloudflare.
 
-Next: continue VIS-009 only against the CTRL-022 residual failure list in `project-control/NEXT_AGENT_PROMPTS.md`. After controller acceptance of corrected native renders, Marcus Grude Grodem runs and records all four VIS-004 gates. GAME-001 is deferred from this batch. Keep MAP-001 blocked until a verified LOC raster derivative is available. Final page writing still waits for publication-release figure gates and page-level citation/rights checks.
+Next: continue VIS-009 only against the CTRL-023 residual failure list in `project-control/NEXT_AGENT_PROMPTS.md`, including regenerated checked-in proofs. After controller acceptance, Marcus Grude Grodem runs and records all four VIS-004 gates. GAME-001 is deferred from this batch. Keep MAP-001 blocked until a verified LOC raster derivative is available. Final page writing still waits for publication-release figure gates and page-level citation/rights checks.
 
 - [x] `SRC-005`: Twelve PHOTO-001 Wikimedia Commons source rows appended to the shared registry; 97/97 unique IDs, 12 asset-to-source joins, zero defects.
 - [x] `VIS-005`: Theory evidence matrix visual, tidy CSV, and spec built from APPROVED claims; A4 portrait SVG, grayscale identification, bounded verdict wording.

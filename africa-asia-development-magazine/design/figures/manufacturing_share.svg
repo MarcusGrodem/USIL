@@ -303,23 +303,20 @@
 
   <!-- Reading notes band -->
   <g id="reading-notes">
-    <text x="64" y="1000" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="64" y="1020" class="text note">Connectors link master-approved anchors only;</text>
-    <text x="64" y="1036" class="text note">NARRATIVE ONLY vintages are never connected.</text>
+    <text x="64" y="1004" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="64" y="1028" class="text note">Anchors only; narratives stay separate.</text>
 
-    <text x="560" y="1000" class="text note-head">VISIBLE CAVEATS</text>
-    <text x="560" y="1020" class="text note">† 1965 proxies; Malaysia 1960 territorial;</text>
-    <text x="560" y="1036" class="text note">Mauritius 1960 absent; 2020 is the COVID-19 year.</text>
+    <text x="560" y="1004" class="text note-head">VISIBLE CAVEATS</text>
+    <text x="560" y="1028" class="text note">† Proxies; Mauritius gap; 2020 pandemic.</text>
 
-    <text x="1056" y="1000" class="text note-head">WHAT THIS CANNOT PROVE</text>
-    <text x="1056" y="1020" class="text note">Gaps do not identify causes; current-price</text>
-    <text x="1056" y="1036" class="text note">mixes price and composition. Not a race.</text>
+    <text x="1056" y="1004" class="text note-head">WHAT THIS CANNOT PROVE</text>
+    <text x="1056" y="1028" class="text note">No cause claim; current-price mix. Not a race.</text>
   </g>
 
-  <line x1="64" y1="1040" x2="1536" y2="1040" class="panel-rule"/>
+  <line x1="64" y1="1046" x2="1536" y2="1046" class="panel-rule"/>
 
   <!-- Figure note (compact, APA 7.5pt role) -->
   <g id="figure-note">
-    <text x="64" y="1052" class="text fignote"><tspan font-style="italic">Note.</tspan> WDI NV.IND.MANF.ZS · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/manufacturing_share.csv.</text>
+    <text x="64" y="1068" class="text fignote"><tspan font-style="italic">Note.</tspan> WDI NV.IND.MANF.ZS · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/manufacturing_share.csv.</text>
   </g>
 </svg>

@@ -125,9 +125,9 @@
 
   <!-- Heading band -->
   <g id="heading">
-    <text x="30" y="28" class="text eyebrow">SIX COUNTRIES · MANUFACTURING SHARE OF GDP · OBSERVED ANCHORS</text>
-    <text x="30" y="62" class="display title">Manufacturing share of GDP. Gaps shown, not filled.</text>
-    <text x="30" y="86" class="text deck">% of GDP (NV.IND.MANF.ZS)  ·  Africa above, Asia below  ·  not a race</text>
+    <text x="896" y="30" class="text eyebrow">SIX CASES · OBSERVED ANCHORS</text>
+    <text x="30" y="50" class="display title">Manufacturing share of GDP. Gaps shown, not filled.</text>
+    <text x="30" y="79" class="text deck">% of GDP (NV.IND.MANF.ZS) · Africa above, Asia below · not a race</text>
   </g>
 
   <!-- Row 1: Africa panels -->
@@ -222,7 +222,7 @@
     <!-- Panel 4: South Korea -->
     <g id="panel-korea" aria-label="South Korea manufacturing share: 11.4 percent in 1960; 25.2 percent in 1990; 25.7 percent in 2020.">
       <use href="#m-korea" xlink:href="#m-korea" x="80" y="343" width="28" height="28"/>
-      <text x="114" y="360" class="text country-name">South Korea</text>
+      <text x="114" y="356" class="text country-name">South Korea</text>
       <line x1="125" y1="368" x2="125" y2="568" class="year-guide"/>
       <line x1="270" y1="368" x2="270" y2="568" class="year-guide"/>
       <line x1="415" y1="368" x2="415" y2="568" class="year-guide"/>
@@ -231,7 +231,8 @@
       <use href="#m-korea" xlink:href="#m-korea" x="256" y="385.7432028816820" width="28" height="28"/>
       <use href="#m-korea" xlink:href="#m-korea" x="401" y="382.6650442615087" width="28" height="28"/>
       <text x="125" y="470" text-anchor="middle" class="text value">11.4 %</text>
-      <text x="270" y="378" text-anchor="middle" class="text value">25.2 %</text>
+      <path d="M276,390 L296,378 L304,378" fill="none" stroke="#514E48" stroke-width="1.4"/>
+      <text x="312" y="382" text-anchor="start" class="text value">25.2 %</text>
       <text x="415" y="375" text-anchor="middle" class="text value">25.7 %</text>
       <text x="125" y="591" text-anchor="middle" class="text year">1960</text>
       <text x="270" y="591" text-anchor="middle" class="text year">1990</text>
@@ -291,31 +292,25 @@
     </g>
   </g>
 
-  <rect x="30" y="606" width="1220" height="88" fill="#FFFFFF" fill-opacity="0.55"/>
-  <line x1="30" y1="606" x2="1250" y2="606" class="panel-rule"/>
+  <rect x="30" y="608" width="1220" height="58" fill="#FFFFFF" fill-opacity="0.55"/>
+  <line x1="30" y1="608" x2="1250" y2="608" class="panel-rule"/>
 
   <!-- Reading notes band -->
   <g id="reading-notes">
-    <text x="40" y="628" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="40" y="650" class="text note">Connectors link master-approved</text>
-    <text x="40" y="670" class="text note">anchors only. NARRATIVE ONLY</text>
-    <text x="40" y="690" class="text note">vintages are never connected.</text>
+    <text x="40" y="630" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="40" y="656" class="text note">Anchors only; narratives stay unconnected.</text>
 
-    <text x="446" y="628" class="text note-head">VISIBLE CAVEATS</text>
-    <text x="446" y="650" class="text note">† 1965 proxies (Ghana, Botswana);</text>
-    <text x="446" y="670" class="text note">Malaysia 1960 territorial series;</text>
-    <text x="446" y="690" class="text note">Mauritius 1960 absent; 2020 pandemic.</text>
+    <text x="446" y="630" class="text note-head">VISIBLE CAVEATS</text>
+    <text x="446" y="656" class="text note">† Proxies; Mauritius gap; 2020 pandemic.</text>
 
-    <text x="866" y="628" class="text note-head">WHAT THIS CANNOT PROVE</text>
-    <text x="866" y="650" class="text note">Gaps do not identify causes.</text>
-    <text x="866" y="670" class="text note">Current-price reflects price and mix.</text>
-    <text x="866" y="690" class="text note">Not a race.</text>
+    <text x="866" y="630" class="text note-head">WHAT THIS CANNOT PROVE</text>
+    <text x="866" y="656" class="text note">No causal claim. Not a race.</text>
   </g>
 
-  <line x1="30" y1="696" x2="1250" y2="696" class="panel-rule"/>
+  <line x1="30" y1="674" x2="1250" y2="674" class="panel-rule"/>
 
   <!-- Figure note (wrapped to fit canvas width) -->
   <g id="figure-note">
-    <text x="30" y="708" class="text fignote"><tspan font-style="italic">Note.</tspan> WDI NV.IND.MANF.ZS · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/manufacturing_share.csv.</text>
+    <text x="30" y="700" class="text fignote"><tspan font-style="italic">Note.</tspan> WDI NV.IND.MANF.ZS · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/manufacturing_share.csv.</text>
   </g>
 </svg>

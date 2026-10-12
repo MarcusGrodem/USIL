@@ -112,9 +112,9 @@
 
   <!-- Heading band -->
   <g id="heading">
-    <text x="30" y="34" class="text eyebrow">SIX COUNTRIES · OBSERVED ANCHORS 1960 · 1990 · 2020</text>
-    <text x="30" y="60" class="display title">GDP per capita at three anchors. One shared axis.</text>
-    <text x="30" y="86" class="text deck">Constant 2015 US$ per person · Africa top row, Asia below · one shared scale · no causal claim</text>
+    <text x="900" y="30" class="text eyebrow">SIX CASES · 1960 · 1990 · 2020</text>
+    <text x="30" y="50" class="display title">GDP per capita at three anchors. One shared axis.</text>
+    <text x="30" y="79" class="text deck">Constant 2015 US$ per person · Africa above, Asia below · no causal claim</text>
   </g>
 
   <!-- Row 1: Africa -->
@@ -214,7 +214,6 @@
     <g id="panel-korea" aria-label="South Korea: 1,038 in 1960; 9,673 in 1990; 33,216 in 2020">
       <use href="#m-korea" xlink:href="#m-korea" x="80" y="343" width="28" height="28"/>
       <text x="114" y="360" class="text country-name">South Korea</text>
-      <use href="#flag-korea" x="247" y="344" width="27" height="18" aria-hidden="true"/>
       <line x1="125" y1="368" x2="125" y2="568" class="year-guide"/>
       <line x1="270" y1="368" x2="270" y2="568" class="year-guide"/>
       <line x1="415" y1="368" x2="415" y2="568" class="year-guide"/>
@@ -235,7 +234,6 @@
     <g id="panel-malaysia" aria-label="Malaysia: 1,266 in 1960; 4,185 in 1990; 10,171 in 2020. 1960 is a retrospective territorial series.">
       <use href="#m-malaysia" xlink:href="#m-malaysia" x="480" y="343" width="28" height="28"/>
       <text x="514" y="360" class="text country-name">Malaysia</text>
-      <use href="#flag-malaysia" x="602" y="344" width="27" height="18" aria-hidden="true"/>
       <line x1="525" y1="368" x2="525" y2="568" class="year-guide"/>
       <line x1="670" y1="368" x2="670" y2="568" class="year-guide"/>
       <line x1="815" y1="368" x2="815" y2="568" class="year-guide"/>
@@ -255,7 +253,6 @@
     <g id="panel-philippines" aria-label="Philippines: 1,124 in 1960; 1,704 in 1990; 3,199 in 2020">
       <use href="#m-philippines" xlink:href="#m-philippines" x="880" y="343" width="28" height="28"/>
       <text x="914" y="360" class="text country-name">Philippines</text>
-      <use href="#flag-philippines" x="1017" y="344" width="27" height="18" aria-hidden="true"/>
       <line x1="925" y1="368" x2="925" y2="568" class="year-guide"/>
       <line x1="1070" y1="368" x2="1070" y2="568" class="year-guide"/>
       <line x1="1215" y1="368" x2="1215" y2="568" class="year-guide"/>
@@ -273,31 +270,26 @@
     </g>
   </g>
 
-  <rect x="30" y="598" width="1220" height="94" fill="#FFFFFF" fill-opacity="0.55"/>
-  <line x1="30" y1="598" x2="1250" y2="598" class="panel-rule"/>
+  <rect x="30" y="604" width="1220" height="72" fill="#FFFFFF" fill-opacity="0.55"/>
+  <line x1="30" y1="604" x2="1250" y2="604" class="panel-rule"/>
 
   <!-- Reading notes band -->
   <g id="reading-notes">
-    <text x="40" y="620" class="text note-head">OBSERVED ANCHORS ONLY</text>
-    <text x="40" y="644" class="text note">Only three dated observations are linked.</text>
-    <text x="40" y="666" class="text note">No in-between values are shown.</text>
-    <text x="40" y="688" class="text note">2020 is the COVID-19 endpoint.</text>
+    <text x="40" y="626" class="text note-head">OBSERVED ANCHORS ONLY</text>
+    <text x="40" y="652" class="text note">Three dated points only; 2020 is COVID-19.</text>
 
-    <text x="446" y="620" class="text note-head">VISIBLE CAVEATS</text>
-    <text x="446" y="644" class="text note">† Malaysia 1960 is a retrospective</text>
-    <text x="446" y="666" class="text note">territorial series spanning the 1963</text>
-    <text x="446" y="688" class="text note">formation and Singapore’s 1965 exit.</text>
+    <text x="446" y="626" class="text note-head">VISIBLE CAVEATS</text>
+    <text x="446" y="652" class="text note">† Malaysia 1960 predates 1963 formation</text>
+    <text x="446" y="674" class="text note">and Singapore’s 1965 exit; 2020 COVID-19.</text>
 
-    <text x="866" y="620" class="text note-head">WHAT THIS CANNOT PROVE</text>
-    <text x="866" y="644" class="text note">The gaps do not identify their causes.</text>
-    <text x="866" y="666" class="text note">Culture, policy, institutions, war, or aid?</text>
-    <text x="866" y="688" class="text note">Not a race.</text>
+    <text x="866" y="626" class="text note-head">WHAT THIS CANNOT PROVE</text>
+    <text x="866" y="652" class="text note">Gaps do not identify causes. Not a race.</text>
   </g>
 
-  <line x1="30" y1="696" x2="1250" y2="696" class="panel-rule"/>
+  <line x1="30" y1="684" x2="1250" y2="684" class="panel-rule"/>
 
   <!-- Figure note -->
   <g id="figure-note">
-    <text x="30" y="700" class="text fignote"><tspan font-style="italic">Note.</tspan> WDI NY.GDP.PCAP.KD · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · frozen CSV: data/charts/six_country_gdp_anchor_years.csv.</text>
+    <text x="30" y="704" class="text fignote"><tspan font-style="italic">Note.</tspan> WDI NY.GDP.PCAP.KD · World Bank 2026 · SRC-WDI-001 · release 2026-07-13 · CSV: data/charts/six_country_gdp_anchor_years.csv</text>
   </g>
 </svg>

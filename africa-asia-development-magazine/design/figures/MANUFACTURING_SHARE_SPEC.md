@@ -195,6 +195,7 @@ Both files meet the selected-system typography minima: essential axis / year / v
 - **Projection (1280 × 720):** essential axes/years/values at ≥ 22 px; supporting notes at ≥ 18 px; narrative annotations at ≥ 14 px; no transparency, gradient, shadow, 3D, dual axis, or decorative silhouette.
 - Both files use only straight connectors between observed anchors, with the dotted charcoal rules on the Philippines narrative-only annotations treated as text ornaments, not as connectors. No smoothing is applied.
 - **Current-price caveat.** Manufacturing-share change at current prices reflects price and composition effects as well as volume. The figure records this in the reading-notes band and the figure note.
+- **CTRL-022 repair (2026-10-11).** Plot markers and connectors remain fixed. The A4 lower band uses three independent columns plus a separate source strip. The projection eyebrow is a right-side `SIX CASES · OBSERVED ANCHORS` label, the title/deck stack is separated, the South Korea heading and `25.2 %` label have independent clearance, and the lower note/source bands retain at least 12 px canvas-edge safety. Philippines narrative-only and Mauritius missing-anchor treatments are unchanged.
 
 ## Narrative-only treatment of Philippines 1960 and 1990
 
