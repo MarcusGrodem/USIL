@@ -86,9 +86,11 @@ html, body {
 .frame {
   position: absolute;
   top: var(--m-top);
-  bottom: var(--m-bottom);
+  bottom: 32mm;          /* reserve 32mm at foot for source-band + folio */
   left: var(--m-outer);
   right: var(--m-outer);
+  display: flex;
+  flex-direction: column;
 }
 .frame--even { left: var(--m-inner); right: var(--m-outer); }
 .frame--odd  { left: var(--m-outer); right: var(--m-inner); }
@@ -105,6 +107,7 @@ html, body {
 }
 .folio--left  { left: 14mm; }
 .folio--right { right: 14mm; }
+.folio-right { right: 14mm; bottom: 6mm; }
 
 .section-tag {
   display: inline-block;
@@ -253,12 +256,14 @@ p, li { margin: 0; }
 .source-band {
   position: absolute;
   left: 14mm; right: 14mm;
-  bottom: 12mm;
+  bottom: 14mm;
   padding-top: 2.5mm;
   border-top: .6pt solid var(--ink);
   font-size: 7pt;
   line-height: 1.4;
   color: var(--note);
+  max-height: 16mm;
+  overflow: hidden;
 }
 .source-band .lbl { font-weight: 700; color: var(--ink); letter-spacing: .1em; text-transform: uppercase; margin-right: 2mm; }
 
@@ -271,8 +276,9 @@ p, li { margin: 0; }
   padding: 2mm;
   overflow: hidden;
 }
-.figwrap svg, .figwrap img { width: 100%; height: 100%; display: block; }
-.figwrap--portrait { aspect-ratio: 595 / 842; }
+.figwrap svg, .figwrap img { width: 100%; height: auto; display: block; }
+.figwrap--portrait { max-width: 182mm; }
+.figwrap--portrait img { max-height: 253mm; width: auto; height: 253mm; display: block; margin: 0 auto; }
 .figwrap--land     { aspect-ratio: 1600 / 1100; }
 .figwrap--sm       { aspect-ratio: 4 / 3; }
 
@@ -346,10 +352,11 @@ p, li { margin: 0; }
 /* ============== Evidence rail layout ============== */
 .layout-ledger {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
   gap: 6mm;
-  height: 100%;
+  min-height: 0;
 }
+.layout-ledger > * { min-width: 0; min-height: 0; }
 .rail { display: flex; flex-direction: column; gap: 4mm; }
 .rail .rail-head { font-size: 7.5pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--note); border-bottom: .4pt solid var(--rule); padding-bottom: 1mm; }
 

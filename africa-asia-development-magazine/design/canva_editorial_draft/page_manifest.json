@@ -14,7 +14,7 @@
       },
       {
         "type": "text",
-        "text": "Photographs: JulianGrayscales (2020), Tema port; Svwmal (2012), Busan harbour. Both are present-day context, not a 1960 baseline or evidence of relative performance. Full credits and licences: p. 27.",
+        "text": "Photographs: JulianGrayscales (2020), Tema port; Svwmal (2012), Busan harbour; Amuzujoe (2020), Accra market; Gaël Chardon (2008), Gyeongdong Market, Seoul. Present-day context only. Full credits and licences: p. 30.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -46,16 +46,16 @@
         "y": 70,
         "w": 523,
         "h": 59,
-        "fontSize": 42
+        "fontSize": 45
       },
       {
         "type": "text",
-        "text": "Why did their\neconomic paths\ndiverge?",
+        "text": "Why Did Their\nEconomic Paths\nDiverge?",
         "x": 36,
         "y": 139,
         "w": 520,
         "h": 175,
-        "fontSize": 42
+        "fontSize": 44
       },
       {
         "type": "text",
@@ -71,51 +71,76 @@
         "asset": "ASSET-PH-GHA-TEMA-001",
         "x": 36,
         "y": 405,
-        "w": 249,
-        "h": 184
+        "w": 120,
+        "h": 176
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-GHA-ACCRA-001",
+        "x": 165,
+        "y": 405,
+        "w": 120,
+        "h": 176
       },
       {
         "type": "photo",
         "asset": "ASSET-PH-KOR-BUSAN-001",
         "x": 310,
         "y": 405,
-        "w": 249,
-        "h": 184
+        "w": 120,
+        "h": 176
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-KOR-GYEONGDONG-001",
+        "x": 439,
+        "y": 405,
+        "w": 120,
+        "h": 176
       },
       {
         "type": "text",
         "text": "Ghana",
-        "x": 54,
-        "y": 605,
-        "w": 192,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 600,
+        "w": 190,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
         "text": "South Korea",
-        "x": 328,
-        "y": 605,
-        "w": 192,
-        "h": 22,
-        "fontSize": 11
+        "x": 330,
+        "y": 600,
+        "w": 190,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "Tema port · 2020",
+        "text": "Tema port · 2020 / Accra market · 2020",
         "x": 54,
-        "y": 631,
-        "w": 225,
+        "y": 626,
+        "w": 231,
         "h": 18,
-        "fontSize": 9
+        "fontSize": 8.3
       },
       {
         "type": "text",
-        "text": "Busan harbour · 2012",
+        "text": "Busan harbour · 2012 / Seoul market · 2008",
         "x": 328,
-        "y": 631,
-        "w": 225,
+        "y": 626,
+        "w": 231,
         "h": 18,
+        "fontSize": 8.1
+      },
+      {
+        "type": "text",
+        "text": "Different places and livelihoods—not images of a whole region.",
+        "x": 36,
+        "y": 652,
+        "w": 523,
+        "h": 20,
         "fontSize": 9
       },
       {
@@ -128,7 +153,7 @@
         "fontSize": 16
       }
     ],
-    "sources": "Photographs: JulianGrayscales (2020), Tema port; Svwmal (2012), Busan harbour. Both are present-day context, not a 1960 baseline or evidence of relative performance. Full credits and licences: p. 27.",
+    "sources": "Photographs: JulianGrayscales (2020), Tema port; Svwmal (2012), Busan harbour; Amuzujoe (2020), Accra market; Gaël Chardon (2008), Gyeongdong Market, Seoul. Present-day context only. Full credits and licences: p. 30.",
     "limit": ""
   },
   {
@@ -151,11 +176,11 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 27
+        "fontSize": 29
       },
       {
         "type": "text",
-        "text": "The assignment is our question, not our answer. We compare six cases and ask which explanations survive the exceptions.",
+        "text": "Six country pathways test the question. Their differences also test the explanations.",
         "x": 36,
         "y": 168,
         "w": 505,
@@ -164,7 +189,7 @@
       },
       {
         "type": "text",
-        "text": "Method: original group framework. Evidence boundaries follow Hofstede (2011, pp. 6–8), McSweeney (2002, pp. 93–107), and the approved project theory matrix.",
+        "text": "Hofstede (2011, pp. 6–8); McSweeney (2002, pp. 93–107); approved project theory matrix.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -196,7 +221,7 @@
         "y": 253,
         "w": 110,
         "h": 31,
-        "fontSize": 22
+        "fontSize": 25
       },
       {
         "type": "text",
@@ -205,7 +230,7 @@
         "y": 294,
         "w": 120,
         "h": 25,
-        "fontSize": 14
+        "fontSize": 15
       },
       {
         "type": "text",
@@ -223,7 +248,7 @@
         "y": 253,
         "w": 110,
         "h": 31,
-        "fontSize": 22
+        "fontSize": 25
       },
       {
         "type": "text",
@@ -232,7 +257,7 @@
         "y": 294,
         "w": 120,
         "h": 25,
-        "fontSize": 14
+        "fontSize": 15
       },
       {
         "type": "text",
@@ -250,7 +275,7 @@
         "y": 253,
         "w": 110,
         "h": 31,
-        "fontSize": 22
+        "fontSize": 25
       },
       {
         "type": "text",
@@ -259,7 +284,7 @@
         "y": 294,
         "w": 120,
         "h": 25,
-        "fontSize": 14
+        "fontSize": 15
       },
       {
         "type": "text",
@@ -277,7 +302,7 @@
         "y": 253,
         "w": 110,
         "h": 31,
-        "fontSize": 22
+        "fontSize": 25
       },
       {
         "type": "text",
@@ -286,7 +311,7 @@
         "y": 294,
         "w": 120,
         "h": 25,
-        "fontSize": 14
+        "fontSize": 15
       },
       {
         "type": "text",
@@ -371,7 +396,7 @@
       },
       {
         "type": "text",
-        "text": "10–13",
+        "text": "10–15",
         "x": 482,
         "y": 516,
         "w": 77,
@@ -398,7 +423,7 @@
       },
       {
         "type": "text",
-        "text": "14–17",
+        "text": "16–19",
         "x": 482,
         "y": 558,
         "w": 77,
@@ -425,7 +450,7 @@
       },
       {
         "type": "text",
-        "text": "18–22",
+        "text": "20–24",
         "x": 482,
         "y": 600,
         "w": 77,
@@ -452,7 +477,7 @@
       },
       {
         "type": "text",
-        "text": "23–27",
+        "text": "25–29",
         "x": 482,
         "y": 642,
         "w": 77,
@@ -469,7 +494,7 @@
         "fontSize": 10.5
       }
     ],
-    "sources": "Method: original group framework. Evidence boundaries follow Hofstede (2011, pp. 6–8), McSweeney (2002, pp. 93–107), and the approved project theory matrix.",
+    "sources": "Hofstede (2011, pp. 6–8); McSweeney (2002, pp. 93–107); approved project theory matrix.",
     "limit": ""
   },
   {
@@ -492,11 +517,11 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
-        "text": "GDP per capita · constant 2015 US dollars per person · observed 1960 values",
+        "text": "GDP per capita · constant 2015 US dollars per person · all six cases on one shared scale",
         "x": 36,
         "y": 168,
         "w": 505,
@@ -505,7 +530,7 @@
       },
       {
         "type": "text",
-        "text": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 26. Indicator: NY.GDP.PCAP.KD. Rounded to nearest US dollar.",
+        "text": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. Indicator: NY.GDP.PCAP.KD. Source values are rounded to nearest US dollar for display.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -541,7 +566,7 @@
       },
       {
         "type": "text",
-        "text": "Similar income levels do not mean identical starting conditions. These values do not identify causes or describe distribution within countries.",
+        "text": "Similar income levels do not mean identical starting conditions. This comparison describes income per person, not distribution or causality.",
         "x": 36,
         "y": 715,
         "w": 523,
@@ -550,137 +575,209 @@
       },
       {
         "type": "text",
+        "text": "GHANA",
+        "x": 36,
+        "y": 239,
+        "w": 109,
+        "h": 22,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOUTH KOREA",
+        "x": 310,
+        "y": 239,
+        "w": 249,
+        "h": 22,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "US$1,101",
+        "x": 36,
+        "y": 269,
+        "w": 235,
+        "h": 52,
+        "fontSize": 32
+      },
+      {
+        "type": "text",
+        "text": "US$1,038",
+        "x": 310,
+        "y": 269,
+        "w": 249,
+        "h": 52,
+        "fontSize": 32
+      },
+      {
+        "type": "text",
+        "text": "Only US$63 apart at this anchor",
+        "x": 36,
+        "y": 324,
+        "w": 523,
+        "h": 23,
+        "fontSize": 13
+      },
+      {
+        "type": "text",
+        "text": "$0",
+        "x": 175,
+        "y": 345,
+        "w": 66,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "$500",
+        "x": 286.6666666666667,
+        "y": 345,
+        "w": 66,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "$1,000",
+        "x": 398.33333333333337,
+        "y": 345,
+        "w": 66,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "$1,500",
+        "x": 510,
+        "y": 345,
+        "w": 66,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
         "text": "Ghana",
-        "x": 54,
-        "y": 248,
-        "w": 192,
+        "x": 56,
+        "y": 400,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "$1,101",
+        "x": 463.89,
+        "y": 398,
+        "w": 100,
+        "h": 22,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 448,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "$394",
+        "x": 305.99333333333334,
+        "y": 446,
+        "w": 100,
+        "h": 22,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 496,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "$1,419",
+        "x": 534.9100000000001,
+        "y": 494,
+        "w": 100,
         "h": 22,
         "fontSize": 11
       },
       {
         "type": "text",
         "text": "South Korea",
-        "x": 328,
-        "y": 248,
-        "w": 192,
+        "x": 56,
+        "y": 544,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "$1,038",
+        "x": 449.82,
+        "y": 542,
+        "w": 100,
         "h": 22,
         "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "US$1,101",
-        "x": 36,
-        "y": 283,
-        "w": 248,
-        "h": 70,
-        "fontSize": 36
-      },
-      {
-        "type": "text",
-        "text": "US$1,038",
-        "x": 310,
-        "y": 283,
-        "w": 249,
-        "h": 70,
-        "fontSize": 36
-      },
-      {
-        "type": "text",
-        "text": "Near parity is a starting question.\nIt is not a controlled experiment.",
-        "x": 36,
-        "y": 376,
-        "w": 510,
-        "h": 65,
-        "fontSize": 23
-      },
-      {
-        "type": "text",
-        "text": "Botswana",
-        "x": 54,
-        "y": 477,
-        "w": 257,
-        "h": 22,
-        "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "US$394",
-        "x": 330,
-        "y": 477,
-        "w": 225,
-        "h": 25,
-        "fontSize": 15
-      },
-      {
-        "type": "text",
-        "text": "Mauritius",
-        "x": 54,
-        "y": 516,
-        "w": 257,
-        "h": 22,
-        "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "US$1,419",
-        "x": 330,
-        "y": 516,
-        "w": 225,
-        "h": 25,
-        "fontSize": 15
       },
       {
         "type": "text",
         "text": "Malaysia",
-        "x": 54,
-        "y": 555,
-        "w": 257,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 592,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "US$1,266 †",
-        "x": 330,
-        "y": 555,
-        "w": 225,
-        "h": 25,
-        "fontSize": 15
+        "text": "$1,266 †",
+        "x": 500.74,
+        "y": 590,
+        "w": 100,
+        "h": 22,
+        "fontSize": 11
       },
       {
         "type": "text",
         "text": "Philippines",
-        "x": 54,
-        "y": 594,
-        "w": 257,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 640,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "US$1,124",
-        "x": 330,
-        "y": 594,
-        "w": 225,
-        "h": 25,
-        "fontSize": 15
+        "text": "$1,124",
+        "x": 469.02666666666664,
+        "y": 638,
+        "w": 100,
+        "h": 22,
+        "fontSize": 11
       },
       {
         "type": "text",
         "text": "† Malaysia: retrospective territorial series. The 1960 value predates the federation’s 1963 formation and Singapore’s 1965 exit.",
         "x": 36,
-        "y": 650,
+        "y": 666,
         "w": 523,
-        "h": 39,
-        "fontSize": 9
+        "h": 27,
+        "fontSize": 8.5
       }
     ],
-    "sources": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 26. Indicator: NY.GDP.PCAP.KD. Rounded to nearest US dollar.",
-    "limit": "Similar income levels do not mean identical starting conditions. These values do not identify causes or describe distribution within countries."
+    "sources": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. Indicator: NY.GDP.PCAP.KD. Source values are rounded to nearest US dollar for display.",
+    "limit": "Similar income levels do not mean identical starting conditions. This comparison describes income per person, not distribution or causality."
   },
   {
     "page": 4,
-    "title": "What diverged—and what did not?",
+    "title": "Six paths. One income scale.",
     "elements": [
       {
         "type": "text",
@@ -693,16 +790,16 @@
       },
       {
         "type": "text",
-        "text": "What diverged—and what did not?",
+        "text": "Six paths. One income scale.",
         "x": 36,
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
-        "text": "Structural transformation: workers move between sectors, productivity changes within sectors, and the economy’s production mix changes.",
+        "text": "GDP per capita · constant 2015 US dollars per person · observed anchors only: 1960, 1990, 2020",
         "x": 36,
         "y": 168,
         "w": 505,
@@ -711,7 +808,7 @@
       },
       {
         "type": "text",
-        "text": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 26. GDP: NY.GDP.PCAP.KD; agriculture employment: SL.AGR.EMPL.ZS (ILO modelled); manufacturing: NV.IND.MANF.ZS. McMillan et al. (2014, p. 11).",
+        "text": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. Indicator: NY.GDP.PCAP.KD. Exact frozen country/year values are shown below each small multiple.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -747,7 +844,7 @@
       },
       {
         "type": "text",
-        "text": "Employment shares are not productivity. Services growth does not automatically equal industrial upgrading; current-price manufacturing shares also reflect prices.",
+        "text": "These lines connect three observed anchors only. They do not show annual values or explain why paths diverged. 2020 is the COVID-19 year.",
         "x": 36,
         "y": 715,
         "w": 523,
@@ -756,295 +853,304 @@
       },
       {
         "type": "text",
-        "text": "COUNTRY",
-        "x": 36,
-        "y": 230,
-        "w": 110,
-        "h": 20,
+        "text": "$0",
+        "x": 164,
+        "y": 258,
+        "w": 40,
+        "h": 14,
+        "fontSize": 7.5
+      },
+      {
+        "type": "text",
+        "text": "$10k",
+        "x": 272,
+        "y": 258,
+        "w": 40,
+        "h": 14,
+        "fontSize": 7.5
+      },
+      {
+        "type": "text",
+        "text": "$20k",
+        "x": 380,
+        "y": 258,
+        "w": 40,
+        "h": 14,
+        "fontSize": 7.5
+      },
+      {
+        "type": "text",
+        "text": "$30k",
+        "x": 488,
+        "y": 258,
+        "w": 40,
+        "h": 14,
+        "fontSize": 7.5
+      },
+      {
+        "type": "text",
+        "text": "$35k",
+        "x": 542,
+        "y": 258,
+        "w": 40,
+        "h": 14,
+        "fontSize": 7.5
+      },
+      {
+        "type": "text",
+        "text": "1960",
+        "x": 155,
+        "y": 279,
+        "w": 57,
+        "h": 14,
         "fontSize": 8
       },
       {
         "type": "text",
-        "text": "INCOME / PERSON",
-        "x": 158,
-        "y": 230,
-        "w": 132,
-        "h": 20,
+        "text": "1990",
+        "x": 331,
+        "y": 279,
+        "w": 57,
+        "h": 14,
         "fontSize": 8
       },
       {
         "type": "text",
-        "text": "AGRICULTURE JOBS",
-        "x": 308,
-        "y": 230,
-        "w": 123,
-        "h": 20,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "MANUFACTURING",
-        "x": 451,
-        "y": 230,
-        "w": 108,
-        "h": 20,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "1960 → 2020\nUS$ · 0–35,000",
-        "x": 158,
-        "y": 251,
-        "w": 137,
-        "h": 36,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "1991† → 2020\n% · 0–100",
-        "x": 308,
-        "y": 251,
-        "w": 135,
-        "h": 36,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "1990 → 2020\n% GDP · 0–30",
-        "x": 451,
-        "y": 251,
-        "w": 108,
-        "h": 36,
+        "text": "2020",
+        "x": 490,
+        "y": 279,
+        "w": 57,
+        "h": 14,
         "fontSize": 8
       },
       {
         "type": "text",
         "text": "Ghana",
-        "x": 54,
-        "y": 307,
-        "w": 99,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 304,
+        "w": 115,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "1,101 → 1,970",
-        "x": 158,
-        "y": 334,
-        "w": 125,
-        "h": 18,
+        "text": "$1,101",
+        "x": 150,
+        "y": 337,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "71.8 → 37.4",
-        "x": 308,
-        "y": 334,
-        "w": 121,
-        "h": 18,
+        "text": "$856",
+        "x": 326,
+        "y": 337,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "9.8 → 11",
-        "x": 451,
-        "y": 334,
-        "w": 107,
-        "h": 18,
+        "text": "$1,970",
+        "x": 485,
+        "y": 337,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
         "text": "Botswana",
-        "x": 54,
-        "y": 362,
-        "w": 99,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 366,
+        "w": 115,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "394 → 6,254",
-        "x": 158,
-        "y": 389,
-        "w": 125,
-        "h": 18,
+        "text": "$394",
+        "x": 150,
+        "y": 399,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "12.6 → 19.5",
-        "x": 308,
-        "y": 389,
-        "w": 121,
-        "h": 18,
+        "text": "$4,039",
+        "x": 326,
+        "y": 399,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "4.8 → 5.7",
-        "x": 451,
-        "y": 389,
-        "w": 107,
-        "h": 18,
+        "text": "$6,254",
+        "x": 485,
+        "y": 399,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
         "text": "Mauritius",
-        "x": 54,
-        "y": 417,
-        "w": 99,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 428,
+        "w": 115,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "1,419 → 9,534",
-        "x": 158,
-        "y": 444,
-        "w": 125,
-        "h": 18,
+        "text": "$1,419",
+        "x": 150,
+        "y": 461,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "19.6 → 5.3",
-        "x": 308,
-        "y": 444,
-        "w": 121,
-        "h": 18,
+        "text": "$3,846",
+        "x": 326,
+        "y": 461,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "20.4 → 10.7",
-        "x": 451,
-        "y": 444,
-        "w": 107,
-        "h": 18,
+        "text": "$9,534",
+        "x": 485,
+        "y": 461,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
         "text": "South Korea",
-        "x": 54,
-        "y": 472,
-        "w": 99,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 490,
+        "w": 115,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "1,038 → 33,216",
-        "x": 158,
-        "y": 499,
-        "w": 125,
-        "h": 18,
+        "text": "$1,038",
+        "x": 150,
+        "y": 523,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "15.5 → 5.4",
-        "x": 308,
-        "y": 499,
-        "w": 121,
-        "h": 18,
+        "text": "$9,673",
+        "x": 326,
+        "y": 523,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "25.2 → 25.7",
-        "x": 451,
-        "y": 499,
-        "w": 107,
-        "h": 18,
+        "text": "$33,216",
+        "x": 485,
+        "y": 523,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
         "text": "Malaysia",
-        "x": 54,
-        "y": 527,
-        "w": 99,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 552,
+        "w": 115,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "1,266 → 10,171",
-        "x": 158,
-        "y": 554,
-        "w": 125,
-        "h": 18,
+        "text": "$1,266",
+        "x": 150,
+        "y": 585,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "18.9 → 10.5",
-        "x": 308,
-        "y": 554,
-        "w": 121,
-        "h": 18,
+        "text": "$4,185",
+        "x": 326,
+        "y": 585,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "24.2 → 22.2",
-        "x": 451,
-        "y": 554,
-        "w": 107,
-        "h": 18,
+        "text": "$10,171",
+        "x": 485,
+        "y": 585,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
         "text": "Philippines",
-        "x": 54,
-        "y": 582,
-        "w": 99,
-        "h": 22,
-        "fontSize": 11
+        "x": 56,
+        "y": 614,
+        "w": 115,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "1,124 → 3,199",
-        "x": 158,
-        "y": 609,
-        "w": 125,
-        "h": 18,
+        "text": "$1,124",
+        "x": 150,
+        "y": 647,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "44.1 → 24.5",
-        "x": 308,
-        "y": 609,
-        "w": 121,
-        "h": 18,
+        "text": "$1,704",
+        "x": 326,
+        "y": 647,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "gap → 17.7",
-        "x": 451,
-        "y": 609,
-        "w": 107,
-        "h": 18,
+        "text": "$3,199",
+        "x": 485,
+        "y": 647,
+        "w": 67,
+        "h": 17,
         "fontSize": 8.5
       },
       {
         "type": "text",
-        "text": "Open dot = earlier value; country marker = 2020. † 1991 explicitly proxies 1990; no 1960 ILO series. Philippines 1990 manufacturing is not comparable: gap retained. Malaysia 1960 is retrospective; 2020 is the pandemic year. Full three-anchor income comparison: p. 13 and frozen CSVs.",
+        "text": "Read the value labels as well as the line: the shared vertical scale preserves the income gaps across cases.",
         "x": 36,
-        "y": 648,
+        "y": 672,
         "w": 523,
-        "h": 44,
-        "fontSize": 8.5
+        "h": 20,
+        "fontSize": 9
       }
     ],
-    "sources": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 26. GDP: NY.GDP.PCAP.KD; agriculture employment: SL.AGR.EMPL.ZS (ILO modelled); manufacturing: NV.IND.MANF.ZS. McMillan et al. (2014, p. 11).",
-    "limit": "Employment shares are not productivity. Services growth does not automatically equal industrial upgrading; current-price manufacturing shares also reflect prices."
+    "sources": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. Indicator: NY.GDP.PCAP.KD. Exact frozen country/year values are shown below each small multiple.",
+    "limit": "These lines connect three observed anchors only. They do not show annual values or explain why paths diverged. 2020 is the COVID-19 year."
   },
   {
     "page": 5,
@@ -1066,7 +1172,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -1079,7 +1185,7 @@
       },
       {
         "type": "text",
-        "text": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d., “Independence”); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending.",
+        "text": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d., “Independence”); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Map geometry: Natural Earth (n.d.), 1:110m Cultural Vectors, Admin 0 – Countries, v5.1.1; present-day generalized de facto boundaries; public-domain data. https://www.naturalearthdata.com/downloads/110m-cultural-vectors/. Mauritius is located by point marker at this global scale; its island outline is too small to render.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -1115,7 +1221,7 @@
       },
       {
         "type": "text",
-        "text": "A political date is not a comparable measure of state capacity. This timeline does not equate independence, state formation and territorial change.",
+        "text": "The locator uses generalized present-day boundaries and country markers, not a 1914 map or a development score. A political date is not a comparable measure of state capacity.",
         "x": 36,
         "y": 715,
         "w": 523,
@@ -1124,196 +1230,249 @@
       },
       {
         "type": "text",
-        "text": "1914 / HISTORICAL MAP",
-        "x": 52,
-        "y": 246,
-        "w": 490,
+        "text": "PRESENT-DAY COUNTRY LOCATOR",
+        "x": 36,
+        "y": 225,
+        "w": 523,
+        "h": 16,
+        "fontSize": 8.5
+      },
+      {
+        "type": "map",
+        "source": "Natural Earth 1:110m Admin 0 Countries v5.1.1",
+        "x": 62,
+        "y": 236,
+        "w": 470,
+        "h": 188
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 430,
+        "w": 135,
         "h": 24,
-        "fontSize": 13
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "EDITORIAL PLACEHOLDER —\nVERIFIED ASSET OR APPROVED COPY REQUIRED",
-        "x": 52,
-        "y": 284,
-        "w": 490,
-        "h": 42,
-        "fontSize": 13
+        "text": "Botswana",
+        "x": 233,
+        "y": 430,
+        "w": 135,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
-        "text": "ASSET-H1-LOC1914 · Linde; Wagner & Debes · Africa (1914)\nLibrary of Congress item 2021668660. Item-level reuse statement checked; actual raster and original legend remain unverified. No invented boundary geometry.",
-        "x": 52,
-        "y": 343,
-        "w": 490,
-        "h": 56,
-        "fontSize": 9
+        "text": "Mauritius",
+        "x": 410,
+        "y": 430,
+        "w": 135,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 452,
+        "w": 135,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 233,
+        "y": 452,
+        "w": 135,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 410,
+        "y": 452,
+        "w": 135,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Historical 1914 map: still withheld pending verified artwork and original legend.",
+        "x": 36,
+        "y": 479,
+        "w": 523,
+        "h": 17,
+        "fontSize": 8
       },
       {
         "type": "text",
         "text": "1945 / 1948",
         "x": 36,
-        "y": 447,
+        "y": 511,
         "w": 92,
-        "h": 25,
-        "fontSize": 11
+        "h": 22,
+        "fontSize": 10.5
       },
       {
         "type": "text",
         "text": "South Korea",
         "x": 140,
-        "y": 447,
+        "y": 511,
         "w": 124,
-        "h": 28,
+        "h": 25,
         "fontSize": 10
       },
       {
         "type": "text",
         "text": "Japanese rule ends / Republic of Korea established",
         "x": 277,
-        "y": 447,
+        "y": 511,
         "w": 282,
-        "h": 30,
-        "fontSize": 9
+        "h": 26,
+        "fontSize": 8.7
       },
       {
         "type": "text",
         "text": "1946",
         "x": 36,
-        "y": 487,
+        "y": 542,
         "w": 92,
-        "h": 25,
-        "fontSize": 11
+        "h": 22,
+        "fontSize": 10.5
       },
       {
         "type": "text",
         "text": "Philippines",
         "x": 140,
-        "y": 487,
+        "y": 542,
         "w": 124,
-        "h": 28,
+        "h": 25,
         "fontSize": 10
       },
       {
         "type": "text",
         "text": "Independence; preceding Spanish and US rule",
         "x": 277,
-        "y": 487,
+        "y": 542,
         "w": 282,
-        "h": 30,
-        "fontSize": 9
+        "h": 26,
+        "fontSize": 8.7
       },
       {
         "type": "text",
         "text": "1957",
         "x": 36,
-        "y": 527,
+        "y": 573,
         "w": 92,
-        "h": 25,
-        "fontSize": 11
+        "h": 22,
+        "fontSize": 10.5
       },
       {
         "type": "text",
         "text": "Ghana",
         "x": 140,
-        "y": 527,
+        "y": 573,
         "w": 124,
-        "h": 28,
+        "h": 25,
         "fontSize": 10
       },
       {
         "type": "text",
         "text": "Independence",
         "x": 277,
-        "y": 527,
+        "y": 573,
         "w": 282,
-        "h": 30,
-        "fontSize": 9
+        "h": 26,
+        "fontSize": 8.7
       },
       {
         "type": "text",
         "text": "1957 / 1963",
         "x": 36,
-        "y": 567,
+        "y": 604,
         "w": 92,
-        "h": 25,
-        "fontSize": 11
+        "h": 22,
+        "fontSize": 10.5
       },
       {
         "type": "text",
         "text": "Malaysia",
         "x": 140,
-        "y": 567,
+        "y": 604,
         "w": 124,
-        "h": 28,
+        "h": 25,
         "fontSize": 10
       },
       {
         "type": "text",
         "text": "Malaya independence / federation formed",
         "x": 277,
-        "y": 567,
+        "y": 604,
         "w": 282,
-        "h": 30,
-        "fontSize": 9
+        "h": 26,
+        "fontSize": 8.7
       },
       {
         "type": "text",
         "text": "1966",
         "x": 36,
-        "y": 607,
+        "y": 635,
         "w": 92,
-        "h": 25,
-        "fontSize": 11
+        "h": 22,
+        "fontSize": 10.5
       },
       {
         "type": "text",
         "text": "Botswana",
         "x": 140,
-        "y": 607,
+        "y": 635,
         "w": 124,
-        "h": 28,
+        "h": 25,
         "fontSize": 10
       },
       {
         "type": "text",
         "text": "Independence from British protectorate",
         "x": 277,
-        "y": 607,
+        "y": 635,
         "w": 282,
-        "h": 30,
-        "fontSize": 9
+        "h": 26,
+        "fontSize": 8.7
       },
       {
         "type": "text",
         "text": "1968",
         "x": 36,
-        "y": 647,
+        "y": 666,
         "w": 92,
-        "h": 25,
-        "fontSize": 11
+        "h": 22,
+        "fontSize": 10.5
       },
       {
         "type": "text",
         "text": "Mauritius",
         "x": 140,
-        "y": 647,
+        "y": 666,
         "w": 124,
-        "h": 28,
+        "h": 25,
         "fontSize": 10
       },
       {
         "type": "text",
         "text": "Independence; earlier French and British rule",
         "x": 277,
-        "y": 647,
+        "y": 666,
         "w": 282,
-        "h": 30,
-        "fontSize": 9
+        "h": 26,
+        "fontSize": 8.7
       }
     ],
-    "sources": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d., “Independence”); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending.",
-    "limit": "A political date is not a comparable measure of state capacity. This timeline does not equate independence, state formation and territorial change."
+    "sources": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d., “Independence”); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Map geometry: Natural Earth (n.d.), 1:110m Cultural Vectors, Admin 0 – Countries, v5.1.1; present-day generalized de facto boundaries; public-domain data. https://www.naturalearthdata.com/downloads/110m-cultural-vectors/. Mauritius is located by point marker at this global scale; its island outline is too small to render.",
+    "limit": "The locator uses generalized present-day boundaries and country markers, not a 1914 map or a development score. A political date is not a comparable measure of state capacity."
   },
   {
     "page": 6,
@@ -1335,7 +1494,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -1496,7 +1655,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -1648,7 +1807,7 @@
   },
   {
     "page": 8,
-    "title": "Independence inventory",
+    "title": "Six starting points. Six country settings.",
     "elements": [
       {
         "type": "text",
@@ -1661,16 +1820,16 @@
       },
       {
         "type": "text",
-        "text": "Independence inventory",
+        "text": "Six starting points. Six country settings.",
         "x": 36,
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
-        "text": "Six dimensions, unequal evidence. Read each row as a dated context—not a score or a common-year ranking.",
+        "text": "The photographs add place and human scale. The captions connect each setting to the historical evidence.",
         "x": 36,
         "y": 168,
         "w": 505,
@@ -1679,7 +1838,7 @@
       },
       {
         "type": "text",
-        "text": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); Xenos (1970, p. 1); Svirydzenka and Petri (2014, pp. 5–8); Kohli (1994); Haggard et al. (1997); Asadullah et al. (2024, pp. 13–15); Dolan (1993), partial archival check.",
+        "text": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); Xenos (1970, p. 1); National Archives Department (n.d.); Svirydzenka and Petri (2014, pp. 5–8); Kohli (1994); Haggard et al. (1997); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -1715,7 +1874,7 @@
       },
       {
         "type": "text",
-        "text": "The categories are not standardised indicators. “Not matched” means no comparable inventory is approved here—not that the capability or infrastructure was absent.",
+        "text": "These are contemporary photographs, not images from independence. They cannot show living conditions at independence or prove an economic cause. See creator, date, licence and source on p. 30.",
         "x": 36,
         "y": 715,
         "w": 523,
@@ -1723,178 +1882,172 @@
         "fontSize": 9
       },
       {
+        "type": "photo",
+        "asset": "ASSET-PH-GHA-TEMA-001",
+        "x": 36,
+        "y": 230,
+        "w": 100,
+        "h": 58
+      },
+      {
         "type": "text",
         "text": "Ghana",
-        "x": 54,
-        "y": 242,
-        "w": 120,
-        "h": 22,
-        "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "1957",
-        "x": 54,
-        "y": 267,
-        "w": 115,
-        "h": 25,
-        "fontSize": 9
-      },
-      {
-        "type": "text",
-        "text": "Exports: cocoa dependence. Industry: import–export orientation. Skills: education base. Bureaucracy: not matched. Borders: independence territory, not a 1960 “culture” unit. Infrastructure: roads, rail; Tema under construction.",
-        "x": 185,
-        "y": 239,
+        "x": 173,
+        "y": 232,
         "w": 374,
-        "h": 61,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Ghana · cocoa dependence; public assets included roads, rail and Tema harbour (1957).",
+        "x": 153,
+        "y": 259,
+        "w": 394,
+        "h": 39,
         "fontSize": 9.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-KOR-BUSAN-001",
+        "x": 36,
+        "y": 302,
+        "w": 100,
+        "h": 58
       },
       {
         "type": "text",
         "text": "Botswana",
-        "x": 54,
-        "y": 316,
-        "w": 120,
-        "h": 22,
-        "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "1966",
-        "x": 54,
-        "y": 341,
-        "w": 115,
-        "h": 25,
-        "fontSize": 9
-      },
-      {
-        "type": "text",
-        "text": "Exports: agriculture/cattle context; diamonds followed independence. Industry and infrastructure: very limited base. Skills: severe shortage. Bureaucracy: not matched. Borders: former protectorate.",
-        "x": 185,
-        "y": 313,
+        "x": 173,
+        "y": 304,
         "w": 374,
-        "h": 61,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Botswana · very limited inherited infrastructure and skills; later mineral income changed the base (1966).",
+        "x": 153,
+        "y": 331,
+        "w": 394,
+        "h": 39,
         "fontSize": 9.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-BWA-GABORONE-001",
+        "x": 36,
+        "y": 374,
+        "w": 100,
+        "h": 58
       },
       {
         "type": "text",
         "text": "Mauritius",
-        "x": 54,
-        "y": 390,
-        "w": 120,
-        "h": 22,
-        "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "1968",
-        "x": 54,
-        "y": 415,
-        "w": 115,
-        "h": 25,
-        "fontSize": 9
-      },
-      {
-        "type": "text",
-        "text": "Exports: sugar dependence. Industry: sugar-centred. Skills and bureaucracy: no matched independence metric. Borders: island state. Infrastructure: no matched inventory. Later diversification is not an inherited condition.",
-        "x": 185,
-        "y": 387,
+        "x": 173,
+        "y": 376,
         "w": 374,
-        "h": 61,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Mauritius · sugar dominated export earnings near independence; diversification came later (1968).",
+        "x": 153,
+        "y": 403,
+        "w": 394,
+        "h": 39,
         "fontSize": 9.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-MUS-MARKET-001",
+        "x": 36,
+        "y": 446,
+        "w": 100,
+        "h": 58
       },
       {
         "type": "text",
         "text": "South Korea",
-        "x": 54,
-        "y": 464,
-        "w": 120,
-        "h": 22,
-        "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "1945–48",
-        "x": 54,
-        "y": 489,
-        "w": 115,
-        "h": 25,
-        "fontSize": 9
-      },
-      {
-        "type": "text",
-        "text": "Exports and industry: colonial inheritance disrupted by division and war. Skills and bureaucracy: contested continuity. Borders: division is fundamental. Infrastructure: disruption; no matched common-year stock.",
-        "x": 185,
-        "y": 461,
+        "x": 173,
+        "y": 448,
         "w": 374,
-        "h": 61,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "South Korea · colonial inheritance was disrupted by division and war; postwar development followed a distinct sequence.",
+        "x": 153,
+        "y": 475,
+        "w": 394,
+        "h": 39,
         "fontSize": 9.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-MYS-PERAI-001",
+        "x": 36,
+        "y": 518,
+        "w": 100,
+        "h": 58
       },
       {
         "type": "text",
         "text": "Malaysia",
-        "x": 54,
-        "y": 538,
-        "w": 120,
-        "h": 22,
-        "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "1957–63",
-        "x": 54,
-        "y": 563,
-        "w": 115,
-        "h": 25,
-        "fontSize": 9
-      },
-      {
-        "type": "text",
-        "text": "Exports: commodity-oriented inheritance. Industry: later electronics is not a starting asset. Skills: segmented opportunities. Bureaucracy: not matched. Borders: Malaya ≠ later federation. Infrastructure: no matched inventory.",
-        "x": 185,
-        "y": 535,
+        "x": 173,
+        "y": 520,
         "w": 374,
-        "h": 61,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Malaysia · commodity inheritance preceded export manufacturing; the federation formed in 1963.",
+        "x": 153,
+        "y": 547,
+        "w": 394,
+        "h": 39,
         "fontSize": 9.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-PHL-MANILAPORT-001",
+        "x": 36,
+        "y": 590,
+        "w": 100,
+        "h": 58
       },
       {
         "type": "text",
         "text": "Philippines",
-        "x": 54,
-        "y": 612,
-        "w": 120,
-        "h": 22,
-        "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "1946",
-        "x": 54,
-        "y": 637,
-        "w": 115,
-        "h": 25,
-        "fontSize": 9
-      },
-      {
-        "type": "text",
-        "text": "Exports: agricultural orientation. Industry: no matched independence stock. Skills and bureaucracy: education and formal institutions alongside elite concentration. Borders/infrastructure: no matched inventory. Archival recheck pending.",
-        "x": 185,
-        "y": 609,
+        "x": 173,
+        "y": 592,
         "w": 374,
-        "h": 61,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Philippines · independence in 1946; formal institutions and education coexisted with concentrated power.",
+        "x": 153,
+        "y": 619,
+        "w": 394,
+        "h": 39,
         "fontSize": 9.5
       }
     ],
-    "sources": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); Xenos (1970, p. 1); Svirydzenka and Petri (2014, pp. 5–8); Kohli (1994); Haggard et al. (1997); Asadullah et al. (2024, pp. 13–15); Dolan (1993), partial archival check.",
-    "limit": "The categories are not standardised indicators. “Not matched” means no comparable inventory is approved here—not that the capability or infrastructure was absent."
+    "sources": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); Xenos (1970, p. 1); National Archives Department (n.d.); Svirydzenka and Petri (2014, pp. 5–8); Kohli (1994); Haggard et al. (1997); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending.",
+    "limit": "These are contemporary photographs, not images from independence. They cannot show living conditions at independence or prove an economic cause. See creator, date, licence and source on p. 30."
   },
   {
     "page": 9,
-    "title": "You are president in 1960",
+    "title": "Where would you invest 100 points?",
     "elements": [
       {
         "type": "text",
-        "text": "AFRICA & ASIA  /  02 / MAKE A CHOICE",
+        "text": "AFRICA & ASIA  /  02 / TRADE-OFFS",
         "x": 36,
         "y": 23,
         "w": 490,
@@ -1903,16 +2056,16 @@
       },
       {
         "type": "text",
-        "text": "You are president in 1960",
+        "text": "Where would you invest 100 points?",
         "x": 36,
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
-        "text": "Allocate 100 points across schools, factories, roads, health, security and state capacity. Write the trade-off—not just the total.",
+        "text": "Schools and skills · factories and firms · roads · health · security · state capacity. Every choice has an opportunity cost.",
         "x": 36,
         "y": 168,
         "w": 505,
@@ -1921,7 +2074,7 @@
       },
       {
         "type": "text",
-        "text": "Classroom exercise: original group design, not a statistical model. Constraints derive from the approved historical inventory (p. 8) and World Bank (1993, pp. 4–7, 159–161). “1960” is the exercise anchor, not the independence date of every case.",
+        "text": "Compare priorities with the six distinct starting conditions on p. 8. Around 1960, the six cases were at different political stages; their timelines are not a common sovereignty date. World Bank (1993, pp. 4–7, 159–161).",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -1957,7 +2110,7 @@
       },
       {
         "type": "text",
-        "text": "This exercise exposes trade-offs. It does not reveal one universally correct allocation, predict growth, or simulate the six countries’ actual budgets.",
+        "text": "There is no single correct allocation. A budget thought experiment exposes trade-offs; it cannot predict growth, recreate actual budgets or isolate a cause.",
         "x": 36,
         "y": 715,
         "w": 523,
@@ -1966,7 +2119,7 @@
       },
       {
         "type": "text",
-        "text": "Schools",
+        "text": "Schools & skills",
         "x": 36,
         "y": 237,
         "w": 260,
@@ -1975,16 +2128,16 @@
       },
       {
         "type": "text",
-        "text": "/ 100",
-        "x": 477,
+        "text": "____ / 100",
+        "x": 468,
         "y": 244,
-        "w": 82,
+        "w": 91,
         "h": 21,
         "fontSize": 10
       },
       {
         "type": "text",
-        "text": "Factories",
+        "text": "Factories & firms",
         "x": 36,
         "y": 284,
         "w": 260,
@@ -1993,10 +2146,10 @@
       },
       {
         "type": "text",
-        "text": "/ 100",
-        "x": 477,
+        "text": "____ / 100",
+        "x": 468,
         "y": 291,
-        "w": 82,
+        "w": 91,
         "h": 21,
         "fontSize": 10
       },
@@ -2011,10 +2164,10 @@
       },
       {
         "type": "text",
-        "text": "/ 100",
-        "x": 477,
+        "text": "____ / 100",
+        "x": 468,
         "y": 338,
-        "w": 82,
+        "w": 91,
         "h": 21,
         "fontSize": 10
       },
@@ -2029,10 +2182,10 @@
       },
       {
         "type": "text",
-        "text": "/ 100",
-        "x": 477,
+        "text": "____ / 100",
+        "x": 468,
         "y": 385,
-        "w": 82,
+        "w": 91,
         "h": 21,
         "fontSize": 10
       },
@@ -2047,10 +2200,10 @@
       },
       {
         "type": "text",
-        "text": "/ 100",
-        "x": 477,
+        "text": "____ / 100",
+        "x": 468,
         "y": 432,
-        "w": 82,
+        "w": 91,
         "h": 21,
         "fontSize": 10
       },
@@ -2065,10 +2218,10 @@
       },
       {
         "type": "text",
-        "text": "/ 100",
-        "x": 477,
+        "text": "____ / 100",
+        "x": 468,
         "y": 479,
-        "w": 82,
+        "w": 91,
         "h": 21,
         "fontSize": 10
       },
@@ -2083,25 +2236,25 @@
       },
       {
         "type": "text",
-        "text": "= 100",
-        "x": 477,
+        "text": "100 points",
+        "x": 468,
         "y": 532,
-        "w": 82,
+        "w": 91,
         "h": 21,
         "fontSize": 11
       },
       {
         "type": "text",
-        "text": "Choose your constraint",
+        "text": "Choose a starting condition",
         "x": 36,
         "y": 578,
-        "w": 245,
-        "h": 29,
-        "fontSize": 15
+        "w": 523,
+        "h": 32,
+        "fontSize": 17
       },
       {
         "type": "text",
-        "text": "Ghana: export dependence. Botswana: thin skills and infrastructure. Mauritius: sugar dependence. South Korea: recovery and security. Malaysia: uneven opportunities. Philippines: concentrated power.",
+        "text": "Ghana: export dependence. Botswana: few inherited public assets. Mauritius: concentrated sugar economy. South Korea: recovery, land and security. Malaysia: uneven regional development. Philippines: concentrated ownership and institutions.",
         "x": 36,
         "y": 614,
         "w": 523,
@@ -2109,11 +2262,693 @@
         "fontSize": 10.5
       }
     ],
-    "sources": "Classroom exercise: original group design, not a statistical model. Constraints derive from the approved historical inventory (p. 8) and World Bank (1993, pp. 4–7, 159–161). “1960” is the exercise anchor, not the independence date of every case.",
-    "limit": "This exercise exposes trade-offs. It does not reveal one universally correct allocation, predict growth, or simulate the six countries’ actual budgets."
+    "sources": "Compare priorities with the six distinct starting conditions on p. 8. Around 1960, the six cases were at different political stages; their timelines are not a common sovereignty date. World Bank (1993, pp. 4–7, 159–161).",
+    "limit": "There is no single correct allocation. A budget thought experiment exposes trade-offs; it cannot predict growth, recreate actual budgets or isolate a cause."
   },
   {
     "page": 10,
+    "title": "Where did work move?",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA  /  02 / COMPARE THE PATHWAYS",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Where did work move?",
+        "x": 36,
+        "y": 64,
+        "w": 523,
+        "h": 100,
+        "fontSize": 36
+      },
+      {
+        "type": "text",
+        "text": "Structural transformation: workers move between sectors, productivity changes within sectors, and the economy’s production mix changes. Employment shares · 1991 proxy to 2020.",
+        "x": 36,
+        "y": 168,
+        "w": 505,
+        "h": 55,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. ILO modelled estimates: SL.AGR.EMPL.ZS, SL.IND.EMPL.ZS, SL.SRV.EMPL.ZS. 1991 proxies 1990; values are percentages of employment.",
+        "x": 36,
+        "y": 763,
+        "w": 523,
+        "h": 47,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "EVIDENCE LEDGER  ·  EDITORIAL DRAFT",
+        "x": 36,
+        "y": 818,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "10",
+        "x": 523,
+        "y": 814,
+        "w": 36,
+        "h": 19,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "WHAT THIS CANNOT PROVE",
+        "x": 36,
+        "y": 698,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Employment movement is not productivity. Industry includes mining, construction and utilities. Service growth alone does not establish industrial upgrading; 2020 is the pandemic year.",
+        "x": 36,
+        "y": 715,
+        "w": 523,
+        "h": 34,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "AGRICULTURE",
+        "x": 166,
+        "y": 233,
+        "w": 117,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "INDUSTRY*",
+        "x": 300,
+        "y": 233,
+        "w": 116,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "SERVICES",
+        "x": 434,
+        "y": 233,
+        "w": 116,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "1991† → 2020 · % of employment",
+        "x": 166,
+        "y": 253,
+        "w": 384,
+        "h": 16,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 308,
+        "w": 100,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "71.8 → 37.4",
+        "x": 166,
+        "y": 334,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "9.0 → 15.2",
+        "x": 300,
+        "y": 334,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "19.2 → 47.4",
+        "x": 434,
+        "y": 334,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 370,
+        "w": 100,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "12.6 → 19.5",
+        "x": 166,
+        "y": 396,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "21.3 → 15.0",
+        "x": 300,
+        "y": 396,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "66.1 → 65.5",
+        "x": 434,
+        "y": 396,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 432,
+        "w": 100,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "19.6 → 5.3",
+        "x": 166,
+        "y": 458,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "35.0 → 23.4",
+        "x": 300,
+        "y": 458,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "45.4 → 71.3",
+        "x": 434,
+        "y": 458,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 494,
+        "w": 100,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "15.5 → 5.4",
+        "x": 166,
+        "y": 520,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "37.1 → 24.6",
+        "x": 300,
+        "y": 520,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "47.4 → 70.0",
+        "x": 434,
+        "y": 520,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 556,
+        "w": 100,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "18.9 → 10.5",
+        "x": 166,
+        "y": 582,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "32.8 → 26.2",
+        "x": 300,
+        "y": 582,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "48.3 → 63.3",
+        "x": 434,
+        "y": 582,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 618,
+        "w": 100,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "44.1 → 24.5",
+        "x": 166,
+        "y": 644,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "16.6 → 18.7",
+        "x": 300,
+        "y": 644,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "39.3 → 56.8",
+        "x": 434,
+        "y": 644,
+        "w": 106,
+        "h": 17,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "† 1991 explicitly proxies 1990; no 1960 ILO-modelled series. Open marker = 1991; filled country marker = 2020. * Industry includes mining, construction and utilities. Values are percentages of employment.",
+        "x": 36,
+        "y": 667,
+        "w": 523,
+        "h": 28,
+        "fontSize": 8.2
+      }
+    ],
+    "sources": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. ILO modelled estimates: SL.AGR.EMPL.ZS, SL.IND.EMPL.ZS, SL.SRV.EMPL.ZS. 1991 proxies 1990; values are percentages of employment.",
+    "limit": "Employment movement is not productivity. Industry includes mining, construction and utilities. Service growth alone does not establish industrial upgrading; 2020 is the pandemic year."
+  },
+  {
+    "page": 11,
+    "title": "Manufacturing share: gaps shown, not filled",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA  /  02 / COMPARE THE PATHWAYS",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Manufacturing share: gaps shown, not filled",
+        "x": 36,
+        "y": 64,
+        "w": 523,
+        "h": 100,
+        "fontSize": 36
+      },
+      {
+        "type": "text",
+        "text": "Manufacturing value added · current-price share of GDP · observed country anchors",
+        "x": 36,
+        "y": 168,
+        "w": 505,
+        "h": 55,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. Indicator: NV.IND.MANF.ZS; values are current-price percentages of GDP. Source file: data/charts/manufacturing_share.csv.",
+        "x": 36,
+        "y": 763,
+        "w": 523,
+        "h": 47,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "EVIDENCE LEDGER  ·  EDITORIAL DRAFT",
+        "x": 36,
+        "y": 818,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "11",
+        "x": 523,
+        "y": 814,
+        "w": 36,
+        "h": 19,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "WHAT THIS CANNOT PROVE",
+        "x": 36,
+        "y": 698,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Shares describe a current-price production mix; they cannot identify causes or technology. Ghana/Botswana use 1965 proxies; Mauritius has no 1960 observation; Malaysia 1960 is retrospective territory; historical Philippine series are not comparable.",
+        "x": 36,
+        "y": 715,
+        "w": 523,
+        "h": 34,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Shared vertical scale: 0–30% of GDP",
+        "x": 36,
+        "y": 229,
+        "w": 523,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "1960 (or visible proxy)",
+        "x": 166,
+        "y": 250,
+        "w": 111,
+        "h": 30,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "1990",
+        "x": 304,
+        "y": 250,
+        "w": 95,
+        "h": 30,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "2020",
+        "x": 442,
+        "y": 250,
+        "w": 95,
+        "h": 30,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 280,
+        "w": 131,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1965†\n9.8%",
+        "x": 185,
+        "y": 316,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "1990\n9.8%",
+        "x": 323,
+        "y": 316,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "2020\n11.0%",
+        "x": 461,
+        "y": 316,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 347,
+        "w": 131,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1965†\n11.6%",
+        "x": 185,
+        "y": 383,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "1990\n4.8%",
+        "x": 323,
+        "y": 383,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "2020\n5.7%",
+        "x": 461,
+        "y": 383,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 414,
+        "w": 131,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "NO DATA",
+        "x": 186,
+        "y": 454,
+        "w": 68,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "1990\n20.4%",
+        "x": 323,
+        "y": 450,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "2020\n10.7%",
+        "x": 461,
+        "y": 450,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 481,
+        "w": 131,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1960\n11.4%",
+        "x": 185,
+        "y": 517,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "1990\n25.2%",
+        "x": 323,
+        "y": 517,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "2020\n25.7%",
+        "x": 461,
+        "y": 517,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 548,
+        "w": 131,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1960†\n10.3%",
+        "x": 185,
+        "y": 584,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "1990\n24.2%",
+        "x": 323,
+        "y": 584,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "2020\n22.2%",
+        "x": 461,
+        "y": 584,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 615,
+        "w": 131,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "NO DATA",
+        "x": 186,
+        "y": 655,
+        "w": 68,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "NO DATA",
+        "x": 324,
+        "y": 655,
+        "w": 68,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "2020\n17.7%",
+        "x": 461,
+        "y": 651,
+        "w": 70,
+        "h": 23,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "NARRATIVE-ONLY historical Philippines values are intentionally excluded. Connectors stop at missing anchors. These shares do not identify technology, ownership or causes.",
+        "x": 36,
+        "y": 671,
+        "w": 523,
+        "h": 24,
+        "fontSize": 8.2
+      }
+    ],
+    "sources": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. Indicator: NV.IND.MANF.ZS; values are current-price percentages of GDP. Source file: data/charts/manufacturing_share.csv.",
+    "limit": "Shares describe a current-price production mix; they cannot identify causes or technology. Ghana/Botswana use 1965 proxies; Mauritius has no 1960 observation; Malaysia 1960 is retrospective territory; historical Philippine series are not comparable."
+  },
+  {
+    "page": 12,
     "title": "How industrial capability compounds",
     "elements": [
       {
@@ -2132,7 +2967,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -2163,7 +2998,7 @@
       },
       {
         "type": "text",
-        "text": "10",
+        "text": "12",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -2427,7 +3262,7 @@
     "limit": "These links do not isolate a single cause. External access, distribution, resources, institutions and political choices change the sequence and its effects."
   },
   {
-    "page": 11,
+    "page": 13,
     "title": "A product label does not reveal value added",
     "elements": [
       {
@@ -2446,7 +3281,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -2477,7 +3312,7 @@
       },
       {
         "type": "text",
-        "text": "11",
+        "text": "13",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -2639,7 +3474,7 @@
       },
       {
         "type": "photo",
-        "asset": "ASSET-PH-MYS-PERAI-001",
+        "asset": "ASSET-PH-MYS-PORTKLANG-001",
         "x": 380,
         "y": 237,
         "w": 179,
@@ -2647,7 +3482,7 @@
       },
       {
         "type": "text",
-        "text": "Perai, Malaysia · 2024\nIndustrial setting; not evidence of local value captured. HundenvonPenang; CC BY-SA 4.0.",
+        "text": "Port Klang, Malaysia · 2009\nContainers show movement, not local value captured. jgmorard; CC BY 2.0.",
         "x": 380,
         "y": 379,
         "w": 179,
@@ -2656,7 +3491,7 @@
       },
       {
         "type": "photo",
-        "asset": "ASSET-PH-PHL-MANILAPORT-001",
+        "asset": "ASSET-PH-PHL-DAMPA-001",
         "x": 380,
         "y": 453,
         "w": 179,
@@ -2664,7 +3499,7 @@
       },
       {
         "type": "text",
-        "text": "Manila, Philippines · 2009\nA port does not reveal cargo origin. Theurbanhistorian; CC BY-SA 3.0.",
+        "text": "Dampa Seaside Market, Metro Manila · 2013\nEveryday exchange, not a national productivity measure. george ruiz; CC BY 2.0.",
         "x": 380,
         "y": 580,
         "w": 179,
@@ -2694,7 +3529,7 @@
     "limit": "A photograph or gross export total cannot identify domestic value captured, supplier depth, ownership, wages, technological capability or causality."
   },
   {
-    "page": 12,
+    "page": 14,
     "title": "Capability built over time",
     "elements": [
       {
@@ -2713,7 +3548,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -2744,7 +3579,7 @@
       },
       {
         "type": "text",
-        "text": "12",
+        "text": "14",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -2891,7 +3726,7 @@
     "limit": "The sequence is multi-causal. It does not establish culture as the cause or mean that another country can copy the same national model or international setting."
   },
   {
-    "page": 13,
+    "page": 15,
     "title": "Ghana and South Korea: comparison, not experiment",
     "elements": [
       {
@@ -2910,7 +3745,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -2923,7 +3758,7 @@
       },
       {
         "type": "text",
-        "text": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 26. NY.GDP.PCAP.KD; pair CSV retrieved 4 October 2026. Straight connectors guide the eye only; no annual values are estimated. 2020 is the COVID-19 year.",
+        "text": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. NY.GDP.PCAP.KD; pair CSV retrieved 4 October 2026. Straight connectors guide the eye only; no annual values are estimated. 2020 is the COVID-19 year.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -2941,7 +3776,7 @@
       },
       {
         "type": "text",
-        "text": "13",
+        "text": "15",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -3096,10 +3931,10 @@
         "type": "text",
         "text": "16.9 : 1",
         "x": 294,
-        "y": 619,
+        "y": 611,
         "w": 265,
-        "h": 46,
-        "fontSize": 32
+        "h": 55,
+        "fontSize": 41
       },
       {
         "type": "text",
@@ -3111,11 +3946,11 @@
         "fontSize": 8.5
       }
     ],
-    "sources": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 26. NY.GDP.PCAP.KD; pair CSV retrieved 4 October 2026. Straight connectors guide the eye only; no annual values are estimated. 2020 is the COVID-19 year.",
+    "sources": "World Bank (2026), World Development Indicators (SRC-WDI-001). Frozen release: 13 July 2026; retrieved 6 October 2026. Data and locators: project CSVs; reference p. 28. NY.GDP.PCAP.KD; pair CSV retrieved 4 October 2026. Straight connectors guide the eye only; no annual values are estimated. 2020 is the COVID-19 year.",
     "limit": "A two-country trajectory cannot isolate culture, colonial rule, policy, institutions or any single cause."
   },
   {
-    "page": 14,
+    "page": 16,
     "title": "Six dimensions, one warning label",
     "elements": [
       {
@@ -3134,7 +3969,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -3165,7 +4000,7 @@
       },
       {
         "type": "text",
-        "text": "14",
+        "text": "16",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -3357,7 +4192,7 @@
     "limit": "Country-level averages cannot describe every individual. Associations between national indices and income do not establish cultural causation."
   },
   {
-    "page": 15,
+    "page": 17,
     "title": "How far can trust travel?",
     "elements": [
       {
@@ -3376,7 +4211,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -3407,7 +4242,7 @@
       },
       {
         "type": "text",
-        "text": "15",
+        "text": "17",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -3536,7 +4371,7 @@
     "limit": "There is no approved common six-country trust scale here. Contemporary responses cannot be back-cast to 1960 or used alone to explain national growth."
   },
   {
-    "page": 16,
+    "page": 18,
     "title": "Close networks: strength, boundary—or both?",
     "elements": [
       {
@@ -3555,7 +4390,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -3568,7 +4403,7 @@
       },
       {
         "type": "text",
-        "text": "Hofstede (2011, p. 11); OECD (2017, pp. 41–44); Svirydzenka and Petri (2014, pp. 5–8, 12). Approved theory matrix: Radius of Trust. The classroom question is discussion material, not national evidence.",
+        "text": "Hofstede (2011, p. 11); OECD (2017, pp. 41–44); Svirydzenka and Petri (2014, pp. 5–8, 12). Approved theory matrix: Radius of Trust. The discussion question is not national evidence.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -3586,7 +4421,7 @@
       },
       {
         "type": "text",
-        "text": "16",
+        "text": "18",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -3684,11 +4519,11 @@
         "fontSize": 11
       }
     ],
-    "sources": "Hofstede (2011, p. 11); OECD (2017, pp. 41–44); Svirydzenka and Petri (2014, pp. 5–8, 12). Approved theory matrix: Radius of Trust. The classroom question is discussion material, not national evidence.",
+    "sources": "Hofstede (2011, p. 11); OECD (2017, pp. 41–44); Svirydzenka and Petri (2014, pp. 5–8, 12). Approved theory matrix: Radius of Trust. The discussion question is not national evidence.",
     "limit": "The diagram is a conditional hypothesis. It does not rank national cultures, equate family loyalty with corruption, or measure trust in any country."
   },
   {
-    "page": 17,
+    "page": 19,
     "title": "Authority, time horizons and missing evidence",
     "elements": [
       {
@@ -3707,7 +4542,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -3738,7 +4573,7 @@
       },
       {
         "type": "text",
-        "text": "17",
+        "text": "19",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -3885,7 +4720,7 @@
     "limit": "National cultural measures cannot substitute for observed organisational behaviour, policy duration, investment or feedback. Mechanisms need their own evidence."
   },
   {
-    "page": 18,
+    "page": 20,
     "title": "Can our three ideas survive the evidence?",
     "elements": [
       {
@@ -3904,7 +4739,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -3935,7 +4770,7 @@
       },
       {
         "type": "text",
-        "text": "18",
+        "text": "20",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -4017,11 +4852,11 @@
       {
         "type": "text",
         "text": "Ghana",
-        "x": 54,
+        "x": 56,
         "y": 428,
-        "w": 100,
-        "h": 22,
-        "fontSize": 11
+        "w": 98,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
@@ -4053,11 +4888,11 @@
       {
         "type": "text",
         "text": "Botswana",
-        "x": 54,
+        "x": 56,
         "y": 466,
-        "w": 100,
-        "h": 22,
-        "fontSize": 11
+        "w": 98,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
@@ -4089,11 +4924,11 @@
       {
         "type": "text",
         "text": "Mauritius",
-        "x": 54,
+        "x": 56,
         "y": 504,
-        "w": 100,
-        "h": 22,
-        "fontSize": 11
+        "w": 98,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
@@ -4125,11 +4960,11 @@
       {
         "type": "text",
         "text": "South Korea",
-        "x": 54,
+        "x": 56,
         "y": 542,
-        "w": 100,
-        "h": 22,
-        "fontSize": 11
+        "w": 98,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
@@ -4161,11 +4996,11 @@
       {
         "type": "text",
         "text": "Malaysia",
-        "x": 54,
+        "x": 56,
         "y": 580,
-        "w": 100,
-        "h": 22,
-        "fontSize": 11
+        "w": 98,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
@@ -4197,11 +5032,11 @@
       {
         "type": "text",
         "text": "Philippines",
-        "x": 54,
+        "x": 56,
         "y": 618,
-        "w": 100,
-        "h": 22,
-        "fontSize": 11
+        "w": 98,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
@@ -4244,7 +5079,7 @@
     "limit": "Qualitative consistency is not causal identification. A supporting case can fit several competing explanations; an unresolved cell must remain unresolved."
   },
   {
-    "page": 19,
+    "page": 21,
     "title": "Connected Development",
     "elements": [
       {
@@ -4263,7 +5098,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -4294,7 +5129,7 @@
       },
       {
         "type": "text",
-        "text": "19",
+        "text": "21",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -4405,7 +5240,7 @@
     "limit": "Connection alone neither establishes causality nor guarantees diversification. Investment, skills, institutions, resources and market access are bundled alternatives."
   },
   {
-    "page": 20,
+    "page": 22,
     "title": "Radius of Trust",
     "elements": [
       {
@@ -4424,7 +5259,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -4455,7 +5290,7 @@
       },
       {
         "type": "text",
-        "text": "20",
+        "text": "22",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -4473,7 +5308,7 @@
       },
       {
         "type": "text",
-        "text": "The project cannot show that generalized trust caused firm scale or national growth. Governance indicators cannot close direct-trust gaps.",
+        "text": "This evidence cannot show that generalized trust caused firm scale or national growth. Governance indicators cannot close direct-trust gaps.",
         "x": 36,
         "y": 715,
         "w": 523,
@@ -4545,10 +5380,10 @@
       }
     ],
     "sources": "OECD (2017, pp. 41–44, 62–79); Svirydzenka and Petri (2014, pp. 5–8, 12); approved trust evidence pack and six-country theory matrix. WGI is retained only as governance context.",
-    "limit": "The project cannot show that generalized trust caused firm scale or national growth. Governance indicators cannot close direct-trust gaps."
+    "limit": "This evidence cannot show that generalized trust caused firm scale or national growth. Governance indicators cannot close direct-trust gaps."
   },
   {
-    "page": 21,
+    "page": 23,
     "title": "Continuity + Adaptation",
     "elements": [
       {
@@ -4567,7 +5402,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -4598,7 +5433,7 @@
       },
       {
         "type": "text",
-        "text": "21",
+        "text": "23",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -4709,7 +5544,7 @@
     "limit": "Cases cannot isolate duration from state capacity, mineral rents, FDI, market access, shocks or prior success. Hofstede long-term orientation is not a duration measure."
   },
   {
-    "page": 22,
+    "page": 24,
     "title": "The counterexamples change the answer",
     "elements": [
       {
@@ -4728,7 +5563,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -4741,7 +5576,7 @@
       },
       {
         "type": "text",
-        "text": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20); approved theory matrix. Photographs: credits p. 27.",
+        "text": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20); approved theory matrix. Photographs: credits p. 30.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -4759,7 +5594,7 @@
       },
       {
         "type": "text",
-        "text": "22",
+        "text": "24",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -4787,15 +5622,15 @@
       {
         "type": "text",
         "text": "Botswana",
-        "x": 54,
+        "x": 56,
         "y": 230,
-        "w": 192,
-        "h": 22,
-        "fontSize": 11
+        "w": 190,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "photo",
-        "asset": "ASSET-PH-BWA-GABORONE-001",
+        "asset": "ASSET-PH-BWA-MOCHUDI-001",
         "x": 36,
         "y": 267,
         "w": 163,
@@ -4803,7 +5638,7 @@
       },
       {
         "type": "text",
-        "text": "Gaborone Bus Rank · 2015\nEveryday mobility, not a growth measure.",
+        "text": "Mochudi solar pumping · 2018\nSmall-scale infrastructure context; outcomes unmeasured.",
         "x": 36,
         "y": 371,
         "w": 176,
@@ -4822,11 +5657,11 @@
       {
         "type": "text",
         "text": "Mauritius",
-        "x": 54,
+        "x": 56,
         "y": 410,
-        "w": 192,
-        "h": 22,
-        "fontSize": 11
+        "w": 190,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
@@ -4839,7 +5674,7 @@
       },
       {
         "type": "photo",
-        "asset": "ASSET-PH-MUS-MARKET-001",
+        "asset": "ASSET-PH-MUS-SUGAR-001",
         "x": 397,
         "y": 411,
         "w": 162,
@@ -4847,7 +5682,7 @@
       },
       {
         "type": "text",
-        "text": "Port Louis market · 2015\nCommerce, not measured trust.",
+        "text": "Port Louis sugar terminal · 2025\nTrade infrastructure; not a history series.",
         "x": 397,
         "y": 528,
         "w": 162,
@@ -4857,20 +5692,20 @@
       {
         "type": "text",
         "text": "Malaysia",
-        "x": 54,
+        "x": 56,
         "y": 568,
-        "w": 228,
-        "h": 22,
-        "fontSize": 11
+        "w": 226,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
         "text": "Philippines",
-        "x": 331,
+        "x": 333,
         "y": 568,
-        "w": 228,
-        "h": 22,
-        "fontSize": 11
+        "w": 226,
+        "h": 24,
+        "fontSize": 12
       },
       {
         "type": "text",
@@ -4891,11 +5726,11 @@
         "fontSize": 9.5
       }
     ],
-    "sources": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20); approved theory matrix. Photographs: credits p. 27.",
+    "sources": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20); approved theory matrix. Photographs: credits p. 30.",
     "limit": "These cases do not isolate culture or a universal growth formula. An exception changes the scope of a claim; it does not automatically establish its rival."
   },
   {
-    "page": 23,
+    "page": 25,
     "title": "What the combined evidence says",
     "elements": [
       {
@@ -4914,7 +5749,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -4945,7 +5780,7 @@
       },
       {
         "type": "text",
-        "text": "23",
+        "text": "25",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -5056,7 +5891,7 @@
     "limit": "This is a bounded comparative interpretation, not an estimated causal decomposition. The six cases cannot represent every African or Asian economy."
   },
   {
-    "page": 24,
+    "page": 26,
     "title": "What can travel—and what must adapt?",
     "elements": [
       {
@@ -5075,7 +5910,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -5106,7 +5941,7 @@
       },
       {
         "type": "text",
-        "text": "24",
+        "text": "26",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -5262,7 +6097,7 @@
     "limit": ""
   },
   {
-    "page": 25,
+    "page": 27,
     "title": "If culture matters, can culture change?",
     "elements": [
       {
@@ -5281,11 +6116,11 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
-        "text": "The final question returns us to the first: culture may shape economic organisation—and also change with institutions, opportunities and experience.",
+        "text": "Culture may shape economic organisation and also change with institutions, opportunities and experience.",
         "x": 36,
         "y": 168,
         "w": 505,
@@ -5294,7 +6129,7 @@
       },
       {
         "type": "text",
-        "text": "Hofstede (2011, pp. 6–8, 16); Beugelsdijk and Welzel (2018, pp. 1469–1475, Figures 7–9). Essential references continue on p. 26; image credits on p. 27.",
+        "text": "Hofstede (2011, pp. 6–8, 16); Beugelsdijk and Welzel (2018, pp. 1469–1475, Figures 7–9). Essential references continue on p. 28; image credits on p. 30.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -5312,7 +6147,7 @@
       },
       {
         "type": "text",
-        "text": "25",
+        "text": "27",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -5374,11 +6209,11 @@
         "fontSize": 9
       }
     ],
-    "sources": "Hofstede (2011, pp. 6–8, 16); Beugelsdijk and Welzel (2018, pp. 1469–1475, Figures 7–9). Essential references continue on p. 26; image credits on p. 27.",
+    "sources": "Hofstede (2011, pp. 6–8, 16); Beugelsdijk and Welzel (2018, pp. 1469–1475, Figures 7–9). Essential references continue on p. 28; image credits on p. 30.",
     "limit": ""
   },
   {
-    "page": 26,
+    "page": 28,
     "title": "Essential references",
     "elements": [
       {
@@ -5397,7 +6232,7 @@
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
@@ -5428,7 +6263,7 @@
       },
       {
         "type": "text",
-        "text": "26",
+        "text": "28",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -5617,7 +6452,7 @@
       },
       {
         "type": "text",
-        "text": "Further cited works: Bolt et al. (2025); Cogneau et al. (2018); Huillery (2009); Kohli (1994); Haggard et al. (1997); Dolan (1993); Asadullah et al. (2024); Xenos (1970); Nasution (2000); McMillan et al. (2014); Beugelsdijk and Welzel (2018); National Archives Department (n.d.). Full registered APA entries accompany the production master; see appendix placeholder p. 25.",
+        "text": "Further cited works: Bolt et al. (2025); Cogneau et al. (2018); Huillery (2009); Kohli (1994); Haggard et al. (1997); Dolan (1993); Asadullah et al. (2024); Xenos (1970); Nasution (2000); McMillan et al. (2014); Beugelsdijk and Welzel (2018); National Archives Department (n.d.). Full registered APA entries accompany the production master; appendix placeholder p. 27.",
         "x": 36,
         "y": 665,
         "w": 523,
@@ -5629,8 +6464,8 @@
     "limit": ""
   },
   {
-    "page": 27,
-    "title": "Images, data and open gates",
+    "page": 29,
+    "title": "Data, method and open gates",
     "elements": [
       {
         "type": "text",
@@ -5643,16 +6478,16 @@
       },
       {
         "type": "text",
-        "text": "Images, data and open gates",
+        "text": "Data, method and open gates",
         "x": 36,
         "y": 64,
         "w": 523,
         "h": 100,
-        "fontSize": 32
+        "fontSize": 36
       },
       {
         "type": "text",
-        "text": "Every photograph has a country, place and date. Images provide context and human scale—not proof of culture, trust, productivity or causality.",
+        "text": "The figures use the registered World Bank and ILO series; the locator map is contextual, not a development score.",
         "x": 36,
         "y": 168,
         "w": 505,
@@ -5661,7 +6496,7 @@
       },
       {
         "type": "text",
-        "text": "Rights records: research/asset_rights_register.csv and country_photography_audit.md, verified 8 October 2026. All images are placed uncropped and resized only. Recheck final asset use and licence compliance before publication.",
+        "text": "Data and figure credits: World Bank WDI / ILO modelled employment. Editable charts recreate approved frozen CSV values; no annual interpolation or composite trust score. Map geometry is Natural Earth 1:110m, Admin 0, v5.1.1. Photographic attributions continue on p. 30.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -5679,7 +6514,7 @@
       },
       {
         "type": "text",
-        "text": "27",
+        "text": "29",
         "x": 523,
         "y": 814,
         "w": 36,
@@ -5688,195 +6523,536 @@
       },
       {
         "type": "text",
-        "text": "JulianGrayscales (2020-02-08). Tema port. CC BY-SA 4.0. Wikimedia Commons.",
+        "text": "Complete editorial draft — final evidence, rights and physical-print checks pending.",
         "x": 36,
-        "y": 230,
+        "y": 238,
         "w": 523,
-        "h": 39,
-        "fontSize": 8.5
+        "h": 58,
+        "fontSize": 24
       },
       {
         "type": "text",
-        "text": "SOURCE ↗",
+        "text": "OPEN GATES",
         "x": 36,
-        "y": 270,
-        "w": 93,
-        "h": 15,
-        "fontSize": 8
+        "y": 375,
+        "w": 155,
+        "h": 24,
+        "fontSize": 10
       },
       {
         "type": "text",
-        "text": "CC BY-SA 4.0 ↗",
-        "x": 146,
-        "y": 270,
-        "w": 130,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "Svwmal (2012-04-08). South Korea Busan harbour. CC BY-SA 3.0. Wikimedia Commons.",
-        "x": 36,
-        "y": 290,
-        "w": 523,
-        "h": 39,
-        "fontSize": 8.5
-      },
-      {
-        "type": "text",
-        "text": "SOURCE ↗",
-        "x": 36,
-        "y": 330,
-        "w": 93,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "CC BY-SA 3.0 ↗",
-        "x": 146,
-        "y": 330,
-        "w": 130,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "Sarvesh Lutchmun (2015-08-06). Bus Terminal in Gaborone, Botswana. CC BY-SA 4.0. Wikimedia Commons.",
-        "x": 36,
-        "y": 350,
-        "w": 523,
-        "h": 39,
-        "fontSize": 8.5
-      },
-      {
-        "type": "text",
-        "text": "SOURCE ↗",
-        "x": 36,
-        "y": 390,
-        "w": 93,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "CC BY-SA 4.0 ↗",
-        "x": 146,
-        "y": 390,
-        "w": 130,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "Didier Baertschiger (2015-03-09). Mauritius - Port Louis (Central Market). CC BY-SA 2.0. Wikimedia Commons.",
-        "x": 36,
-        "y": 410,
-        "w": 523,
-        "h": 39,
-        "fontSize": 8.5
-      },
-      {
-        "type": "text",
-        "text": "SOURCE ↗",
-        "x": 36,
-        "y": 450,
-        "w": 93,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "CC BY-SA 2.0 ↗",
-        "x": 146,
-        "y": 450,
-        "w": 130,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "HundenvonPenang (2024-01-27). Perai Industrial Zone, Seberang Perai, Penang. CC BY-SA 4.0. Wikimedia Commons.",
-        "x": 36,
-        "y": 470,
-        "w": 523,
-        "h": 39,
-        "fontSize": 8.5
-      },
-      {
-        "type": "text",
-        "text": "SOURCE ↗",
-        "x": 36,
-        "y": 510,
-        "w": 93,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "CC BY-SA 4.0 ↗",
-        "x": 146,
-        "y": 510,
-        "w": 130,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "Theurbanhistorian (2009-07-18). Port of Manila. CC BY-SA 3.0. Wikimedia Commons.",
-        "x": 36,
-        "y": 530,
-        "w": 523,
-        "h": 39,
-        "fontSize": 8.5
-      },
-      {
-        "type": "text",
-        "text": "SOURCE ↗",
-        "x": 36,
-        "y": 570,
-        "w": 93,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "CC BY-SA 3.0 ↗",
-        "x": 146,
-        "y": 570,
-        "w": 130,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "Data & figure credits",
-        "x": 36,
-        "y": 604,
-        "w": 523,
-        "h": 23,
+        "text": "1914 historical map raster and original legend; final source and rights review; physical A4 print, colour and classroom-screen checks. Team name and complete source-appendix link remain placeholders.",
+        "x": 196,
+        "y": 375,
+        "w": 363,
+        "h": 96,
         "fontSize": 12
       },
       {
         "type": "text",
-        "text": "World Bank WDI / ILO modelled employment. Editable charts recreate approved frozen CSV values; original SVGs remain preserved. Native text and geometry are not flattened images. No annual interpolation or composite trust score.",
+        "text": "Photographs are credited separately on p. 30. They add place and human scale; they cannot prove culture, trust, productivity or causality.",
         "x": 36,
-        "y": 634,
+        "y": 517,
         "w": 523,
-        "h": 49,
+        "h": 56,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "MAP NOTE",
+        "x": 36,
+        "y": 610,
+        "w": 90,
+        "h": 20,
         "fontSize": 9
       },
       {
         "type": "text",
-        "text": "OPEN GATES: 1914 map raster/legend; final source and rights review; physical A4 print, colour and classroom-screen tests. Team and appendix links remain placeholders. No publication-ready claim is made.",
-        "x": 36,
-        "y": 699,
-        "w": 523,
-        "h": 45,
-        "fontSize": 9
+        "text": "Natural Earth boundaries are generalized and present-day; they are not historical borders. At this scale Mauritius is represented by a location marker, not a visible island outline.",
+        "x": 135,
+        "y": 610,
+        "w": 424,
+        "h": 54,
+        "fontSize": 9.5
       }
     ],
-    "sources": "Rights records: research/asset_rights_register.csv and country_photography_audit.md, verified 8 October 2026. All images are placed uncropped and resized only. Recheck final asset use and licence compliance before publication.",
+    "sources": "Data and figure credits: World Bank WDI / ILO modelled employment. Editable charts recreate approved frozen CSV values; no annual interpolation or composite trust score. Map geometry is Natural Earth 1:110m, Admin 0, v5.1.1. Photographic attributions continue on p. 30.",
     "limit": ""
+  },
+  {
+    "page": 30,
+    "title": "Photographs and map source",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA  /  CREDITS / COLOPHON",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Photographs and map source",
+        "x": 36,
+        "y": 64,
+        "w": 523,
+        "h": 100,
+        "fontSize": 36
+      },
+      {
+        "type": "text",
+        "text": "Two country-specific photographs for each case. Each image remains contextual, not evidence of a national characteristic.",
+        "x": 36,
+        "y": 168,
+        "w": 505,
+        "h": 55,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Rights audit and asset IDs: research/asset_rights_register.csv; country short-list and limits: research/country_photography_audit.md.",
+        "x": 36,
+        "y": 763,
+        "w": 523,
+        "h": 47,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "EVIDENCE LEDGER  ·  EDITORIAL DRAFT",
+        "x": 36,
+        "y": 818,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "30",
+        "x": 523,
+        "y": 814,
+        "w": 36,
+        "h": 19,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "WHAT THIS CANNOT PROVE",
+        "x": 36,
+        "y": 698,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "The map locates cases only. Photography cannot establish development outcomes or causality.",
+        "x": 36,
+        "y": 715,
+        "w": 523,
+        "h": 34,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 230,
+        "w": 185,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "JulianGrayscales (2020-02-08). Tema port · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 231,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Amuzujoe (2020-11-27). Market Accra · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 252,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 273,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 273,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 273,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 273,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 298,
+        "w": 185,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Sarvesh Lutchmun (2015-08-06). Bus Terminal in Gaborone, Botswana · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 299,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Paul tk (2018-09-14). MochudiBotswanaSolarPanel · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 320,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 341,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 341,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 341,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 341,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 366,
+        "w": 185,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Didier Baertschiger (2015-03-09). Mauritius - Port Louis (Central Market) · CC BY-SA 2.0.",
+        "x": 218,
+        "y": 367,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Richard N Horne (2025-04-03). Port Louis, Mauritius, Bulk Sugar Terminal Quay · CC BY 4.0.",
+        "x": 218,
+        "y": 388,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 409,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 409,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 409,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 409,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 434,
+        "w": 185,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Svwmal (2012-04-08). South Korea Busan harbour · CC BY-SA 3.0.",
+        "x": 218,
+        "y": 435,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Gaël Chardon (2008-04-21). Korea-Seoul-Gyeongdong Market-01 · CC BY-SA 2.0.",
+        "x": 218,
+        "y": 456,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 477,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 477,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 477,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 477,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 502,
+        "w": 185,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "HundenvonPenang (2024-01-27). Perai Industrial Zone, Seberang Perai, Penang · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 503,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "jgmorard (2009-03-01). 090301.020.PortKlang · CC BY 2.0.",
+        "x": 218,
+        "y": 524,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 545,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 545,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 545,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 545,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 570,
+        "w": 185,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Theurbanhistorian (2009-07-18). Port of Manila · CC BY-SA 3.0.",
+        "x": 218,
+        "y": 571,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "george ruiz (2013-01-04). The Philippines — seaside market in Manila · CC BY 2.0.",
+        "x": 218,
+        "y": 592,
+        "w": 341,
+        "h": 19,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 613,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 613,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 613,
+        "w": 66,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 613,
+        "w": 59,
+        "h": 14,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Map source: Natural Earth. (n.d.). Admin 0 – Countries, 1:110m Cultural Vectors (v5.1.1). https://www.naturalearthdata.com/downloads/110m-cultural-vectors/. Generalized present-day boundaries; public-domain data.",
+        "x": 36,
+        "y": 650,
+        "w": 523,
+        "h": 37,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "All photographs were resized and recompressed only; no content was removed or added. Check licence attribution and any future changes before redistribution.",
+        "x": 36,
+        "y": 705,
+        "w": 523,
+        "h": 30,
+        "fontSize": 8.5
+      }
+    ],
+    "sources": "Rights audit and asset IDs: research/asset_rights_register.csv; country short-list and limits: research/country_photography_audit.md.",
+    "limit": "The map locates cases only. Photography cannot establish development outcomes or causality."
   }
 ]
