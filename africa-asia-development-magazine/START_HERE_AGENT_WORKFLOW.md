@@ -174,9 +174,9 @@ Assign one independent audit area: evidence/APA, data/graphs, editorial/causalit
 
 The copy-ready prompts are maintained only in `project-control/NEXT_AGENT_PROMPTS.md`; this runbook records the current task IDs so stale full prompts cannot survive here.
 
-**Current batch after the latest 2026-10-12 controller reconciliation (CTRL-024):**
+**Current batch after the latest 2026-10-12 controller reconciliation (CTRL-025):**
 
-1. `VIS-004`: run the four real human/physical decision gates against the frozen current figures and record `USE`, `ONE OBSERVED REPAIR`, or `OMIT` per figure. The project lead has stopped further speculative VIS-009 iteration; the known CTRL-023 deviations remain test targets, not hidden passes.
+1. `VIS-004`: rerun the four real human/physical decision gates against the frozen current figures and record `USE`, `ONE OBSERVED REPAIR`, or `OMIT` per figure. The latest source-render proxy was returned because no required human/physical evidence existed. The project lead has stopped further speculative VIS-009 iteration; the known CTRL-023 deviations remain test targets, not hidden passes.
 
 `VIS-009` is frozen at REVIEW and reopens only for a concrete failure observed during VIS-004. `GAME-001` remains on the status board but is deliberately deferred from this batch.
 

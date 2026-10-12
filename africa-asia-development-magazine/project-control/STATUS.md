@@ -1,8 +1,8 @@
 # Agent Status Board
 
 **Owner:** Roadmap Controller Agent  
-**Last reconciled:** 2026-10-12 (CTRL-024 project-lead stop decision)
-**Current stage:** The project lead has ended further VIS-009 iteration so production can move on. VIS-009 is frozen at `REVIEW` with the CTRL-023 deviations explicitly retained; this is not a digital-gate pass. VIS-004 is now READY as the decision gate: real print/classroom/human results determine whether each current figure is usable, needs one observed repair, or is omitted.
+**Last reconciled:** 2026-10-12 (CTRL-025 VIS-004 source-proxy review)
+**Current stage:** The project lead has ended further VIS-009 iteration so production can move on. VIS-009 is frozen at `REVIEW` with the CTRL-023 deviations explicitly retained; this is not a digital-gate pass. The latest VIS-004 handoff supplied a useful source-render assessment but none of the required human or physical evidence, so VIS-004 remains READY for genuine print/classroom/human execution.
 **Checklist:** `project-control/REPORT_CHECKLIST.md`
 
 ## Task queue
@@ -25,6 +25,7 @@
 | CTRL-022 | Reconcile the second VIS-009 repair handoff | Roadmap Controller | DONE | Accepted the embedded Montserrat proof and major plot-area reflow, but returned VIS-009 for revision after native renders showed overlapping/clipped A4 and projection note/source bands plus residual zero-gap text; VIS-004 remains blocked |
 | CTRL-023 | Reconcile the third VIS-009 repair handoff | Roadmap Controller | DONE | Accepted the repaired band architecture, theory-matrix spacing, preserved evidence geometry, and most plot cleanup, but returned VIS-009 for exact residual type/clearance failures, one manufacturing-label collision, and stale checked-in render proofs; VIS-004 remains blocked |
 | CTRL-024 | Stop repeated VIS-009 digital iteration and move to the human/physical decision gate | Roadmap Controller + Project lead | DONE | Project lead directed the team to move on; VIS-009 frozen at REVIEW with known deviations, VIS-004 made READY without representing the digital gate as passed |
+| CTRL-025 | Reconcile the VIS-004 source-render proxy against the human/physical decision gate | Roadmap Controller | DONE | Returned VIS-004 for genuine execution: no human attestation, timed recall, paper proof, printer setup, or human colour response exists; the manufacturing collision was already documented by CTRL-023, so no new repair was authorised |
 | SRC-001 | Verify Ghana/South Korea sources and create APA 7 records | Sources & APA Agent | DONE | Registries and `research/ghana_korea_source_audit.md` |
 | DATA-001 | Close or explicitly retain Ghana/South Korea data gaps | Country Data Agent | DONE | Updated `data/ghana.md` and `data/south_korea.md` |
 | DATA-002 | Research Botswana with the common template | Country Data Agent | DONE | `data/botswana.md` |
@@ -45,7 +46,7 @@
 | VIS-001 | Define graph system and build one verified proof chart | Charts & Maps Agent | REVIEW | Digital proof and selected-system wording pass; named human/physical release gates remain |
 | VIS-002 | Formalise the selected comparison system and projection proof | Charts & Maps / Editorial Design Agent | REVIEW | Specification and technically correct 16:9 proof delivered; VIS-003 closed the digital readability repair, but human/physical release gates remain |
 | VIS-003 | Repair the projection proof's observation labels and source band | Charts & Maps / Editorial Design Agent | DONE | Revised 16:9 SVG passes XML, coordinate, contrast, and grayscale checks; named human/physical release gates remain outstanding |
-| VIS-004 | Run the human and physical figure decision-gate review | Marcus Grude Grodem (all four gates) | READY | Test the frozen current figures despite the documented CTRL-023 deviations. Record tester, method, date, setup, findings, failures, and a figure-level disposition: use, one observed repair, or omit. This authorization does not convert VIS-009 into a digital pass. |
+| VIS-004 | Run the human and physical figure decision-gate review | Marcus Grude Grodem (all four gates) | READY — rerun required | The 2026-10-12 source-render proxy is not gate evidence. Record genuine tester, method, date, physical/classroom setup, immediate unaided recall, paper findings, colour response, typography-role results, and a figure-level disposition: use, one observed repair, or omit. |
 | QA-001 | Independently audit the DATA-006 freeze and VIS-001 proof chart | QA Agent | DONE | Audit accepted: DATA-006 failed narrow gate; proof chart passed; palette lock rejected |
 | WRITE-001 | Draft page 13 | Editorial & Design Agent | BLOCKED | Page-ready Ghana/Korea comparison copy |
 | DESIGN-001 | Create the design showroom, palette tests, and approximately 25-page rhythm plan | Editorial & Design Agent | DONE | Three preserved alternatives, 25-page rhythm plan, and user-selected Spread A/Palette A direction |
@@ -64,10 +65,10 @@
 
 ## Recommended next batch
 
-CTRL-024 records the project lead's decision to stop iterative digital repair and move to observed human/physical decisions:
+CTRL-025 returned the latest VIS-004 handoff because it contained source-render proxies rather than the required human/physical observations:
 
-1. **VIS-004: run now against the frozen current figures.** Record actual-size A4, back-row five-second, human colour-identity, and physical Montserrat results. Give every figure a `USE`, `ONE OBSERVED REPAIR`, or `OMIT` disposition.
-2. **Do not reopen VIS-009 for speculative polish.** Reopen only when VIS-004 identifies a concrete failure that prevents use.
+1. **VIS-004: rerun now against the frozen current figures.** Marcus must record actual-size A4, timed remove-and-recall, human colour-identity, and physical Montserrat results. A screen render, AI inspection, or source declaration cannot substitute for any gate.
+2. **Do not reopen VIS-009 for speculative polish.** The manufacturing 16:9 collision remains a known CTRL-023 test target, but no repair is authorised until genuine VIS-004 evidence records that it prevents use.
 3. `GAME-001` remains READY on the board but is removed from the next-agent prompt and is not part of this batch.
 4. `MAP-001` remains non-dispatchable until the verified LOC raster derivative URL, dimensions, checksum, and original legend are supplied by the project lead.
 
@@ -77,14 +78,14 @@ CTRL-024 records the project lead's decision to stop iterative digital repair an
 
 - The repaired core package passes all 131 source joins, exact dictionary units, proxy/class checks, and 12 deterministic employment display totals; thematic/map datasets still require separate approval.
 - Ghana and South Korea explicitly retain unresolved historical, export, literacy, informality, and trust gaps; rejected claims are preserved only as rejection/correction notes.
-- The shared registries contain 85 sources and 292 claims after SRC-004, with unique IDs and zero dangling links. Status totals are 59 VERIFIED / 25 PARTIAL / 1 VERIFIED_NOT_SUPPORTING sources and 222 APPROVED / 39 REVISION_REQUIRED / 24 UNRESOLVED / 7 REJECTED claims. Brewer and Venaik (2014), Rodrik (1995) at NBER abstract, Hillbom (2014), and two PSA rows remain `PARTIAL` and must stay paired with opened sources before publication-facing exact attribution.
+- The shared registries contain 97 sources after SRC-005 and 292 claims, with unique IDs and zero dangling links. Source totals are 71 VERIFIED / 25 PARTIAL / 1 VERIFIED_NOT_SUPPORTING; claim totals are 222 APPROVED / 39 REVISION_REQUIRED / 24 UNRESOLVED / 7 REJECTED. Brewer and Venaik (2014), Rodrik (1995) at NBER abstract, Hillbom (2014), and two PSA rows remain `PARTIAL` and must stay paired with opened sources before publication-facing exact attribution.
 - Export composition, firm size/informality, direct trust, several historical anchors, and a seamless Philippines manufacturing trajectory remain excluded from common charts.
 - RES-001 registry and rights review is accepted, but no historical map, railway schematic, border artwork, photograph, or page is finished. The Ghana railway must remain an original labelled schematic; unlicensed/unverifiable geometry remains excluded.
 - VIS-002 formalises Spread A/Palette A and the Mauritius repair. The VIS-003 repair reduced the proof to exactly six observation marks that match the frozen CSV, replaced the tangled 1960 markers with marker-free text and short non-crossing leaders, and decompressed the source band (last baseline y=694 inside 720). Physical A4 and named human classroom/colour-vision/final-typography checks remain outstanding release gates.
 - VIS-007 and VIS-008 pass their bounded digital acceptance checks: 36/36 employment rows and 15/15 manufacturing rows match the frozen master on the eight required identity/evidence fields; all four SVGs parse; the employment figures exclude 1960 explicitly; and the manufacturing figures preserve the Philippines narrative-only and Mauritius-missing-anchor rules. Neither family is publication-released until VIS-004 is complete.
-- `VIS-004`'s named reviewer owner remains Marcus Grude Grodem for all four gates (CTRL-017). CTRL-024 makes the gate dispatchable under an explicit project-lead risk decision; the recorded CTRL-023 deviations remain visible and must be checked on paper/screen rather than silently waived.
+- `VIS-004`'s named reviewer owner remains Marcus Grude Grodem for all four gates (CTRL-017). CTRL-025 rejected source renders and AI inspection as substitutes for the required tests. The recorded CTRL-023 deviations remain visible and must be checked in the specified human/physical conditions rather than silently waived.
 - The rough PDF contains placeholders and an obsolete palette.
-- The AI teaching scaffold is accepted as a research-gated interaction design, but its factual pack, platform, tests, and offline release remain blocked by research. The companion game is not yet defined.
+- The AI teaching scaffold is accepted and the theory evidence gate has passed, but its factual pack, platform, operator, classroom time, tests, and offline release remain unfinished. The companion game is not yet defined.
 - MAP-001 has no SVG. The specification must not be mistaken for completed artwork; only the verified LOC item raster may unblock production.
 - SRC-005 completed shared-registry integration for the 12 PHOTO-001 photograph source IDs; model/property releases are not stated on the Commons item pages and remain a final-use editorial constraint.
 - No final deliverable exists.

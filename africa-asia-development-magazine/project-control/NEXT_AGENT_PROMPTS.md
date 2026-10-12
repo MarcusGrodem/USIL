@@ -1,13 +1,15 @@
 # Next Agent Prompt
 
-**Last reconciled by the Roadmap Controller:** 2026-10-12 (CTRL-024)
-**Current stage:** The project lead has stopped further speculative VIS-009 iteration. The current figures are frozen at `REVIEW` with their known CTRL-023 deviations visible. **Run VIS-004 now and decide which figures to use, repair once from observed evidence, or omit.**
+**Last reconciled by the Roadmap Controller:** 2026-10-12 (CTRL-025)
+**Current stage:** The project lead has stopped further speculative VIS-009 iteration. The current figures are frozen at `REVIEW` with their known CTRL-023 deviations visible. A source-render proxy did not satisfy VIS-004. **Marcus must now run the genuine human/physical methods and decide which figures to use, repair once from observed evidence, or omit.**
 **Estimated progress:** 78%
 **Final report ready:** No
 
 ## VIS-004: Human and physical figure decision gate
 
 You are the **named human reviewer, Marcus Grude Grodem**, completing **VIS-004**. This task does not require every current figure to pass. Its purpose is to make a practical decision and move production forward.
+
+The 2026-10-12 source-render entry in `project-control/logs/VIS-004.md` is context only. Do not copy its dispositions as test results. A headless/browser render, AI inspection, SVG source declaration, or missing-printer report cannot satisfy any of the four gates below.
 
 Read:
 
@@ -76,6 +78,7 @@ Do not choose `ONE OBSERVED REPAIR` for general polish. It requires a concrete f
 - Every figure receives one of the three dispositions.
 - Any repair request names one figure and one measurable defect.
 - Append the results as `REVIEW`; the Roadmap Controller makes the final status change.
+- If any required physical/human method cannot be performed, record the blocker and stop without assigning `USE`, `ONE OBSERVED REPAIR`, or `OMIT`; proxy observations will not be accepted.
 
 Stop after the VIS-004 log entry. Do not reopen VIS-009 or begin page assembly in the same task.
 

@@ -11,8 +11,8 @@ Status key:
 - `[ ]` MISSING — not started or only an idea/placeholder exists
 - `[!]` BLOCKED — cannot proceed until a named dependency is ready
 
-**Last checked:** 2026-10-12 (CTRL-024)
-**Current stage:** The project lead ended further VIS-009 iteration to move forward. The current figures are frozen at REVIEW with the CTRL-023 deviations still documented; this is not a digital pass. VIS-004 is ready now and will decide figure-by-figure use, one observed repair, or omission from real human/physical evidence. GAME-001 remains deferred; MAP-001 remains blocked.
+**Last checked:** 2026-10-12 (CTRL-025)
+**Current stage:** The project lead ended further VIS-009 iteration to move forward. The current figures are frozen at REVIEW with the CTRL-023 deviations still documented; this is not a digital pass. The latest VIS-004 entry used source renders and explicitly lacked every required human/physical method, so no figure disposition or repair request was accepted. VIS-004 remains ready for genuine execution. GAME-001 remains deferred; MAP-001 remains blocked.
 **Estimated total progress:** 78%
 **Final report ready:** No
 
@@ -115,7 +115,7 @@ Every final source must have:
 ## 6. Comparable graphs and maps
 
 - [-] Ghana–South Korea spread prototypes — three materially different treatments were reviewed and Evidence Ledger was selected; production specification, human classroom check, and final spread production remain.
-- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents. CTRL-024 freezes the current implementation with known CTRL-023 deviations and moves it to real VIS-004 testing; final approval still depends on those results.
+- [-] Fixed six-country colour and marker system — VIS-002 formalised Palette A, all six markers, the Mauritius repair, and bounded national accents. CTRL-024 froze the current implementation with known CTRL-023 deviations; CTRL-025 rejected a source-render proxy as human/physical evidence, so final approval still depends on a genuine VIS-004 run.
 - [-] 1960 mirrored baseline dashboard — VIS-006 six-country small-multiples cover the 1960 anchor; passed numeric/geometry/accessibility digital gates and awaits named human/physical VIS-004 review.
 - [-] 1990 comparison snapshot — VIS-006 covers the 1990 anchor as above.
 - [-] 2020 outcome dashboard — VIS-006 covers the 2020 anchor as above.
@@ -175,7 +175,7 @@ Every page must have:
 ## 7A. Visual engagement and editorial energy
 
 - [x] Visual quality is defined as a graded project requirement.
-- [-] Magazine-wide country colour and marker system approved — showroom selection and identity encodings are complete. CTRL-024 stops further speculative VIS-009 polishing and routes the frozen figures directly to VIS-004; no publication release claim may be made until the four human/physical gates produce real results.
+- [-] Magazine-wide country colour and marker system approved — showroom selection and identity encodings are complete. CTRL-024 stops further speculative VIS-009 polishing and routes the frozen figures directly to VIS-004; CTRL-025 confirms that source-render/AI inspection does not satisfy the four real human/physical gates.
 - [ ] Typography hierarchy tested at A4 print size.
 - [x] Page-rhythm map showing deliberate variation across the approximately 25-page plan.
 - [x] No three consecutive spreads use the same composition or visual device in the accepted rhythm plan.
@@ -256,7 +256,7 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [-] `VIS-002`: Selected-system specification and technically correct projection proof delivered; VIS-003 closed the duplicate-marker and source-band defects.
 - [x] `SRC-004`: All 18 approved RES-002/ECON-001 claims and 10 new sources registered with 45 new links to 22 unique source IDs; 85 unique sources and 292 unique claims with zero dangling links.
 - [x] `VIS-003`: Projection proof repaired to exactly six observation marks matching the frozen CSV, marker-free 1960 labels with non-crossing leaders, and a decompressed source band inside the 720 px canvas.
-- [-] `VIS-004`: READY under CTRL-024. Marcus Grude Grodem runs the four real human/physical gates against the frozen figures and records a figure-level `USE`, `ONE OBSERVED REPAIR`, or `OMIT` disposition.
+- [-] `VIS-004`: READY for rerun under CTRL-025. The source-render proxy was not accepted; Marcus Grude Grodem must run the four real human/physical gates against the frozen figures and record a figure-level `USE`, `ONE OBSERVED REPAIR`, or `OMIT` disposition.
 - [-] `VIS-009`: Frozen at REVIEW by project-lead decision, not accepted as a digital pass. XML, data/evidence preservation, Montserrat embedding, and most repairs pass; the exact CTRL-023 type, clearance, manufacturing-label, A4 source-margin, and stale-proof deviations remain documented. Reopen only for a concrete VIS-004 failure.
 - [x] `TYPE-001`: Montserrat selected and documented; font-family swap verified across nine production SVGs and four figure specs with zero production Aptos residue and nine clean XML parses.
 - [x] `THEORY-001`: Complete three-theory matrix delivered and independently audited.
@@ -264,7 +264,7 @@ The root agent should generate the next copy-ready versions in `project-control/
 - [x] `PHOTO-001`: Twelve rights-verified, place-specific photo candidates accepted as a balanced shortlist; final selection and source-registry integration remain separate.
 - [!] `MAP-001`: Compliant production specification accepted, but no artwork exists because the approved LOC raster/legend could not be retrieved through Cloudflare.
 
-Next: run VIS-004 now from `project-control/NEXT_AGENT_PROMPTS.md`. Use the frozen figures, retain the CTRL-023 deviations as test targets, and choose `USE`, `ONE OBSERVED REPAIR`, or `OMIT` per figure. GAME-001 is deferred from this batch. Keep MAP-001 blocked until a verified LOC raster derivative is available. Final page writing still waits for the figure decisions and page-level citation/rights checks.
+Next: rerun VIS-004 now from `project-control/NEXT_AGENT_PROMPTS.md` with genuine human/physical evidence. Use the frozen figures, retain the CTRL-023 deviations as test targets, and choose `USE`, `ONE OBSERVED REPAIR`, or `OMIT` per figure. GAME-001 is deferred from this batch. Keep MAP-001 blocked until a verified LOC raster derivative is available. Final page writing still waits for the figure decisions and page-level citation/rights checks.
 
 - [x] `SRC-005`: Twelve PHOTO-001 Wikimedia Commons source rows appended to the shared registry; 97/97 unique IDs, 12 asset-to-source joins, zero defects.
 - [x] `VIS-005`: Theory evidence matrix visual, tidy CSV, and spec built from APPROVED claims; A4 portrait SVG, grayscale identification, bounded verdict wording.
