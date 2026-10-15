@@ -1,0 +1,6302 @@
+[
+  {
+    "page": 1,
+    "title": "",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / SIX COUNTRIES. ONE BIG QUESTION.",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Photographs: JulianGrayscales (2020), Tema port; Svwmal (2012), Busan harbour. Context, not a regional ranking. Full credits and licences: p. 29.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "01",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Africa & Asia:",
+        "x": 36,
+        "y": 69,
+        "w": 523,
+        "h": 62,
+        "fontSize": 47
+      },
+      {
+        "type": "text",
+        "text": "Why Did Their\nEconomic Paths\nDiverge?",
+        "x": 36,
+        "y": 148,
+        "w": 523,
+        "h": 183,
+        "fontSize": 47
+      },
+      {
+        "type": "text",
+        "text": "Testing culture against history, institutions,\npolicy and economic evidence.",
+        "x": 36,
+        "y": 350,
+        "w": 523,
+        "h": 51,
+        "fontSize": 14
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-GHA-TEMA-001",
+        "x": 36,
+        "y": 425,
+        "w": 249,
+        "h": 166
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-KOR-BUSAN-001",
+        "x": 310,
+        "y": 425,
+        "w": 249,
+        "h": 166
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 606,
+        "w": 229,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 330,
+        "y": 606,
+        "w": 229,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Tema port · 2020\nTrade and work in Ghana.",
+        "x": 36,
+        "y": 640,
+        "w": 249,
+        "h": 37,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Busan harbour · 2012\nTrade and work in South Korea.",
+        "x": 310,
+        "y": 640,
+        "w": 249,
+        "h": 37,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "DIFFERENT PATHS.\nNO EASY ANSWER.",
+        "x": 36,
+        "y": 691,
+        "w": 523,
+        "h": 59,
+        "fontSize": 24
+      }
+    ],
+    "sources": "Photographs: JulianGrayscales (2020), Tema port; Svwmal (2012), Busan harbour. Context, not a regional ranking. Full credits and licences: p. 29.",
+    "limit": ""
+  },
+  {
+    "page": 2,
+    "title": "Culture—or a much bigger story?",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / START HERE",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Culture—or a much bigger story?",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "We started with a question. Six countries made the answer more complicated.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "Hofstede (2011, pp. 6–8, 9–16); McSweeney (2002, pp. 93–107). National averages are not individual traits or causal scores. Full references: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "02",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Not one Africa.\nNot one Asia.",
+        "x": 36,
+        "y": 244,
+        "w": 523,
+        "h": 106,
+        "fontSize": 43
+      },
+      {
+        "type": "text",
+        "text": "Ghana and South Korea give us a striking comparison. Botswana, Mauritius, Malaysia and the Philippines challenge the easy explanations.",
+        "x": 36,
+        "y": 368,
+        "w": 500,
+        "h": 71,
+        "fontSize": 13
+      },
+      {
+        "type": "text",
+        "text": "01",
+        "x": 36,
+        "y": 456,
+        "w": 30,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "The gap",
+        "x": 82,
+        "y": 456,
+        "w": 370,
+        "h": 22,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "03–04",
+        "x": 490,
+        "y": 456,
+        "w": 69,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "02",
+        "x": 36,
+        "y": 483,
+        "w": 30,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "The starting line",
+        "x": 82,
+        "y": 483,
+        "w": 370,
+        "h": 22,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "05–08",
+        "x": 490,
+        "y": 483,
+        "w": 69,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "03",
+        "x": 36,
+        "y": 510,
+        "w": 30,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Work, income and learning",
+        "x": 82,
+        "y": 510,
+        "w": 370,
+        "h": 22,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "09–14",
+        "x": 490,
+        "y": 510,
+        "w": 69,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "04",
+        "x": 36,
+        "y": 537,
+        "w": 30,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Culture and trust",
+        "x": 82,
+        "y": 537,
+        "w": 370,
+        "h": 22,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "15–18",
+        "x": 490,
+        "y": 537,
+        "w": 69,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "05",
+        "x": 36,
+        "y": 564,
+        "w": 30,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Our ideas on trial",
+        "x": 82,
+        "y": 564,
+        "w": 370,
+        "h": 22,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "19–23",
+        "x": 490,
+        "y": 564,
+        "w": 69,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "06",
+        "x": 36,
+        "y": 591,
+        "w": 30,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "What we think",
+        "x": 82,
+        "y": 591,
+        "w": 370,
+        "h": 22,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "24–26",
+        "x": 490,
+        "y": 591,
+        "w": 69,
+        "h": 20,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 50,
+        "y": 645,
+        "w": 495,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "We think culture matters. But different histories, resources and starting points make “Africa versus Asia” the wrong shortcut.",
+        "x": 50,
+        "y": 667,
+        "w": 495,
+        "h": 63,
+        "fontSize": 11.5
+      }
+    ],
+    "sources": "Hofstede (2011, pp. 6–8, 9–16); McSweeney (2002, pp. 93–107). National averages are not individual traits or causal scores. Full references: p. 27.",
+    "limit": ""
+  },
+  {
+    "page": 3,
+    "title": "1960: almost level. Not identical.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / THE GAP",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "1960: almost level. Not identical.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Ghana and South Korea were close in income per person—not in every starting condition.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Income per person is an average, not a typical wage or a measure of inequality. Similar income does not mean the same history.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (2026), World Development Indicators, NY.GDP.PCAP.KD; release 13 July 2026, retrieved 6 October 2026. GDP per capita, constant 2015 US dollars per person. Full reference: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "03",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "US$1,101",
+        "x": 36,
+        "y": 239,
+        "w": 249,
+        "h": 54,
+        "fontSize": 34
+      },
+      {
+        "type": "text",
+        "text": "US$1,038",
+        "x": 310,
+        "y": 239,
+        "w": 249,
+        "h": 54,
+        "fontSize": 34
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 302,
+        "w": 229,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 330,
+        "y": 302,
+        "w": 229,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Just US$63 apart.",
+        "x": 36,
+        "y": 347,
+        "w": 523,
+        "h": 35,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 408,
+        "w": 145,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$1,101",
+        "x": 469,
+        "y": 409,
+        "w": 90,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 447,
+        "w": 145,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$394",
+        "x": 469,
+        "y": 448,
+        "w": 90,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 486,
+        "w": 145,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$1,419",
+        "x": 469,
+        "y": 487,
+        "w": 90,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 525,
+        "w": 145,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$1,038",
+        "x": 469,
+        "y": 526,
+        "w": 90,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 564,
+        "w": 145,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$1,266 †",
+        "x": 469,
+        "y": 565,
+        "w": 90,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 603,
+        "w": 145,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$1,124",
+        "x": 469,
+        "y": 604,
+        "w": 90,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Bar scale: US$0–1,500. † Malaysia: retrospective territorial series; 1960 predates the 1963 federation and Singapore’s 1965 exit.",
+        "x": 36,
+        "y": 661,
+        "w": 523,
+        "h": 33,
+        "fontSize": 8.5
+      }
+    ],
+    "sources": "World Bank (2026), World Development Indicators, NY.GDP.PCAP.KD; release 13 July 2026, retrieved 6 October 2026. GDP per capita, constant 2015 US dollars per person. Full reference: p. 27.",
+    "limit": "Income per person is an average, not a typical wage or a measure of inequality. Similar income does not mean the same history."
+  },
+  {
+    "page": 4,
+    "title": "2020: the paths have split.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / THE GAP",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "2020: the paths have split.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "The same income measure. Six very different outcomes.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "This is the COVID-19 year. The comparison does not measure purchasing power, freedom, health or the causes of growth.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (2026), World Development Indicators, NY.GDP.PCAP.KD; release 13 July 2026, retrieved 6 October 2026. GDP per capita, constant 2015 US dollars per person. Full reference: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "04",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 255,
+        "w": 141,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$1,970",
+        "x": 457,
+        "y": 257,
+        "w": 102,
+        "h": 25,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 314,
+        "w": 141,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$6,254",
+        "x": 457,
+        "y": 316,
+        "w": 102,
+        "h": 25,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 373,
+        "w": 141,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$9,534",
+        "x": 457,
+        "y": 375,
+        "w": 102,
+        "h": 25,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 432,
+        "w": 141,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$33,216",
+        "x": 457,
+        "y": 434,
+        "w": 102,
+        "h": 25,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 491,
+        "w": 141,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$10,171",
+        "x": 457,
+        "y": 493,
+        "w": 102,
+        "h": 25,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 550,
+        "w": 141,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "US$3,199",
+        "x": 457,
+        "y": 552,
+        "w": 102,
+        "h": 25,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "0",
+        "x": 204,
+        "y": 625,
+        "w": 45,
+        "h": 17,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "US$35,000",
+        "x": 379,
+        "y": 625,
+        "w": 85,
+        "h": 17,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Different outcomes inside\nboth continents.",
+        "x": 36,
+        "y": 643,
+        "w": 523,
+        "h": 55,
+        "fontSize": 22
+      }
+    ],
+    "sources": "World Bank (2026), World Development Indicators, NY.GDP.PCAP.KD; release 13 July 2026, retrieved 6 October 2026. GDP per capita, constant 2015 US dollars per person. Full reference: p. 27.",
+    "limit": "This is the COVID-19 year. The comparison does not measure purchasing power, freedom, health or the causes of growth."
+  },
+  {
+    "page": 5,
+    "title": "Find the countries. Then rewind.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / THE STARTING LINE",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Find the countries. Then rewind.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "These are present-day locations. Their political starting points came at different times.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "The map is generalized and present-day—not a 1914 colonial map. Mauritius is located by a point. Independence dates do not measure state capacity.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d.); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Map: Natural Earth (n.d.), v5.1.1; full credit p. 29.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "05",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "map",
+        "source": "Natural Earth 1:110m Admin 0 Countries v5.1.1",
+        "x": 45,
+        "y": 242,
+        "w": 505,
+        "h": 202
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 450,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 233,
+        "y": 450,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 410,
+        "y": 450,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 477,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 233,
+        "y": 477,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 410,
+        "y": 477,
+        "w": 138,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1945 / 1948",
+        "x": 36,
+        "y": 521,
+        "w": 95,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 140,
+        "y": 521,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Japan → end of rule / Republic established",
+        "x": 270,
+        "y": 521,
+        "w": 289,
+        "h": 23,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "1946",
+        "x": 36,
+        "y": 548,
+        "w": 95,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 140,
+        "y": 548,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Spain, then United States → independence",
+        "x": 270,
+        "y": 548,
+        "w": 289,
+        "h": 23,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "1957",
+        "x": 36,
+        "y": 575,
+        "w": 95,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 140,
+        "y": 575,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Britain → independence",
+        "x": 270,
+        "y": 575,
+        "w": 289,
+        "h": 23,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "1957 / 1963",
+        "x": 36,
+        "y": 602,
+        "w": 95,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 140,
+        "y": 602,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "Britain → Malaya independence / federation",
+        "x": 270,
+        "y": 602,
+        "w": 289,
+        "h": 23,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "1966",
+        "x": 36,
+        "y": 629,
+        "w": 95,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 140,
+        "y": 629,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "British protectorate → independence",
+        "x": 270,
+        "y": 629,
+        "w": 289,
+        "h": 23,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "1968",
+        "x": 36,
+        "y": 656,
+        "w": 95,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 140,
+        "y": 656,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "France, then Britain → independence",
+        "x": 270,
+        "y": 656,
+        "w": 289,
+        "h": 23,
+        "fontSize": 8.3
+      },
+      {
+        "type": "text",
+        "text": "Historical 1914 map withheld: verified artwork and original legend still required.",
+        "x": 36,
+        "y": 684,
+        "w": 523,
+        "h": 13,
+        "fontSize": 8
+      }
+    ],
+    "sources": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d.); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Map: Natural Earth (n.d.), v5.1.1; full credit p. 29.",
+    "limit": "The map is generalized and present-day—not a 1914 colonial map. Mauritius is located by a point. Independence dates do not measure state capacity."
+  },
+  {
+    "page": 6,
+    "title": "Same empire. Different inheritance.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / THE STARTING LINE",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Same empire. Different inheritance.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Ask what colonial rule built, extracted and left behind—not just which flag it flew.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "These studies do not show that colonial rule was beneficial overall, or that one empire explains the six countries’ later paths.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Bolt et al. (2025, pp. 1–6, 18–20); Huillery (2009, pp. 176–180, 203–208); Kohli (1994, pp. 1277–1284); Haggard et al. (1997, pp. 867–881); Dolan (1993), archival passage recheck pending.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "06",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Built for whom?",
+        "x": 98,
+        "y": 240,
+        "w": 461,
+        "h": 31,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "British African councils varied. Investment also varied within French West Africa. An empire label hides important differences (Bolt et al., 2025; Huillery, 2009).",
+        "x": 98,
+        "y": 280,
+        "w": 461,
+        "h": 66,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "What survived?",
+        "x": 98,
+        "y": 353,
+        "w": 461,
+        "h": 31,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "Researchers disagree about Korea’s colonial inheritance. Organisation mattered, but so did coercion, unequal ownership, division, war and later policy change (Kohli, 1994; Haggard et al., 1997).",
+        "x": 98,
+        "y": 393,
+        "w": 461,
+        "h": 66,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "Who had access?",
+        "x": 98,
+        "y": 466,
+        "w": 461,
+        "h": 31,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "The Philippines combined formal institutions and education with concentrated power. Spanish and US rule cannot be explained by a British–French contrast (Dolan, 1993; recheck pending).",
+        "x": 98,
+        "y": 506,
+        "w": 461,
+        "h": 66,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 50,
+        "y": 601,
+        "w": 495,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Independence did not reset the economy. We think what countries inherited—and what they could build on afterwards—mattered more than the colonial flag alone.",
+        "x": 50,
+        "y": 623,
+        "w": 495,
+        "h": 64,
+        "fontSize": 11.5
+      }
+    ],
+    "sources": "Bolt et al. (2025, pp. 1–6, 18–20); Huillery (2009, pp. 176–180, 203–208); Kohli (1994, pp. 1277–1284); Haggard et al. (1997, pp. 867–881); Dolan (1993), archival passage recheck pending.",
+    "limit": "These studies do not show that colonial rule was beneficial overall, or that one empire explains the six countries’ later paths."
+  },
+  {
+    "page": 7,
+    "title": "Track is not the whole story.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / THE STARTING LINE",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Track is not the whole story.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Ghana: the useful question is who the railway connected.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "One railway case cannot explain all of Africa or show that infrastructure alone caused growth. It does not establish the net benefit of colonial rule.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Jedwab and Moradi (2012, pp. 1–4, 6–10). Original schematic based on cited facts, not traced map geometry. Full reference: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "07",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "1898–1918 / GHANA",
+        "x": 36,
+        "y": 239,
+        "w": 523,
+        "h": 20,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Coast and ports",
+        "x": 36,
+        "y": 356,
+        "w": 211,
+        "h": 32,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Mining areas",
+        "x": 354,
+        "y": 356,
+        "w": 205,
+        "h": 32,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "→",
+        "x": 260,
+        "y": 286,
+        "w": 30,
+        "h": 33,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "Cocoa producers",
+        "x": 36,
+        "y": 491,
+        "w": 211,
+        "h": 32,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Kumasi and markets",
+        "x": 329,
+        "y": 491,
+        "w": 230,
+        "h": 32,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "→",
+        "x": 260,
+        "y": 422,
+        "w": 30,
+        "h": 33,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "SCHEMATIC, NOT SURVEY GEOMETRY",
+        "x": 36,
+        "y": 535,
+        "w": 523,
+        "h": 17,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Solid: original connections to mines and Kumasi.\nDashed: later economic links—not a mapped railway route.",
+        "x": 36,
+        "y": 561,
+        "w": 523,
+        "h": 36,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Built to extract.\nUsed for more.",
+        "x": 36,
+        "y": 612,
+        "w": 249,
+        "h": 69,
+        "fontSize": 25
+      },
+      {
+        "type": "text",
+        "text": "Lower transport costs also supported cocoa production and urban growth. Original purpose and later effects were not the same (Jedwab & Moradi, 2012).",
+        "x": 310,
+        "y": 612,
+        "w": 249,
+        "h": 80,
+        "fontSize": 10.5
+      }
+    ],
+    "sources": "Jedwab and Moradi (2012, pp. 1–4, 6–10). Original schematic based on cited facts, not traced map geometry. Full reference: p. 27.",
+    "limit": "One railway case cannot explain all of Africa or show that infrastructure alone caused growth. It does not establish the net benefit of colonial rule."
+  },
+  {
+    "page": 8,
+    "title": "Six countries. Six starting points.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / THE STARTING LINE",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Six countries. Six starting points.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "What could each country build on—and what held it back?",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "These are contemporary photographs, not scenes from independence. They give context, not proof of historical living conditions or causes.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); Xenos (1970, p. 1); Svirydzenka and Petri (2014, pp. 5–8); Haggard et al. (1997); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Photo credits p. 29.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "08",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-GHA-TEMA-001",
+        "x": 36,
+        "y": 237,
+        "w": 120,
+        "h": 66
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 197,
+        "y": 237,
+        "w": 362,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Cocoa exports; inherited roads, rail and Tema harbour.",
+        "x": 177,
+        "y": 268,
+        "w": 382,
+        "h": 39,
+        "fontSize": 10.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-BWA-GABORONE-001",
+        "x": 36,
+        "y": 312,
+        "w": 120,
+        "h": 66
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 197,
+        "y": 312,
+        "w": 362,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Few inherited public assets and limited skills; mineral income later changed the base.",
+        "x": 177,
+        "y": 343,
+        "w": 382,
+        "h": 39,
+        "fontSize": 10.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-MUS-MARKET-001",
+        "x": 36,
+        "y": 387,
+        "w": 120,
+        "h": 66
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 197,
+        "y": 387,
+        "w": 362,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Sugar dominated export earnings; diversification came later.",
+        "x": 177,
+        "y": 418,
+        "w": 382,
+        "h": 39,
+        "fontSize": 10.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-KOR-BUSAN-001",
+        "x": 36,
+        "y": 462,
+        "w": 120,
+        "h": 66
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 197,
+        "y": 462,
+        "w": 362,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Colonial inheritance was disrupted by division and war.",
+        "x": 177,
+        "y": 493,
+        "w": 382,
+        "h": 39,
+        "fontSize": 10.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-MYS-PERAI-001",
+        "x": 36,
+        "y": 537,
+        "w": 120,
+        "h": 66
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 197,
+        "y": 537,
+        "w": 362,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Commodity exports came before export manufacturing; federation formed in 1963.",
+        "x": 177,
+        "y": 568,
+        "w": 382,
+        "h": 39,
+        "fontSize": 10.5
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-PHL-MANILAPORT-001",
+        "x": 36,
+        "y": 612,
+        "w": 120,
+        "h": 66
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 197,
+        "y": 612,
+        "w": 362,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Formal institutions and education coexisted with concentrated power.",
+        "x": 177,
+        "y": 643,
+        "w": 382,
+        "h": 39,
+        "fontSize": 10.5
+      }
+    ],
+    "sources": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); Xenos (1970, p. 1); Svirydzenka and Petri (2014, pp. 5–8); Haggard et al. (1997); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Photo credits p. 29.",
+    "limit": "These are contemporary photographs, not scenes from independence. They give context, not proof of historical living conditions or causes."
+  },
+  {
+    "page": 9,
+    "title": "Fewer farm jobs. What came next?",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / WORK",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Fewer farm jobs. What came next?",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Share of workers in agriculture, industry and services. Actual comparison: 1991 → 2020.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Moving out of farming does not automatically raise productivity. Industry includes mining, construction and utilities; services are not all high-skill jobs.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (2026), WDI / ILO modelled estimates: SL.AGR.EMPL.ZS, SL.IND.EMPL.ZS, SL.SRV.EMPL.ZS. 1991 proxies 1990; no approved 1960 series. Percent of employment. Release 13 July 2026; retrieved 6 October 2026.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "09",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "FARMING",
+        "x": 174,
+        "y": 239,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "INDUSTRY*",
+        "x": 307,
+        "y": 239,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SERVICES",
+        "x": 440,
+        "y": 239,
+        "w": 112,
+        "h": 21,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Upper thin bar: 1991. Lower thick bar: 2020. All bars use 0–100%.",
+        "x": 36,
+        "y": 270,
+        "w": 523,
+        "h": 24,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 316,
+        "w": 108,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "71.8 → 37.4%",
+        "x": 174,
+        "y": 345,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "9.0 → 15.2%",
+        "x": 307,
+        "y": 345,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "19.2 → 47.4%",
+        "x": 440,
+        "y": 345,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 375,
+        "w": 108,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "12.6 → 19.5%",
+        "x": 174,
+        "y": 404,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "21.3 → 15.0%",
+        "x": 307,
+        "y": 404,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "66.1 → 65.5%",
+        "x": 440,
+        "y": 404,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 434,
+        "w": 108,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "19.6 → 5.3%",
+        "x": 174,
+        "y": 463,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "35.0 → 23.4%",
+        "x": 307,
+        "y": 463,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "45.4 → 71.3%",
+        "x": 440,
+        "y": 463,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 493,
+        "w": 108,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "15.5 → 5.4%",
+        "x": 174,
+        "y": 522,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "37.1 → 24.6%",
+        "x": 307,
+        "y": 522,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "47.4 → 70.0%",
+        "x": 440,
+        "y": 522,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 552,
+        "w": 108,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "18.9 → 10.5%",
+        "x": 174,
+        "y": 581,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "32.8 → 26.2%",
+        "x": 307,
+        "y": 581,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "48.3 → 63.3%",
+        "x": 440,
+        "y": 581,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 611,
+        "w": 108,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "44.1 → 24.5%",
+        "x": 174,
+        "y": 640,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "16.6 → 18.7%",
+        "x": 307,
+        "y": 640,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "39.3 → 56.8%",
+        "x": 440,
+        "y": 640,
+        "w": 112,
+        "h": 17,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "* Industry includes mining, construction and utilities. 1991 is the visible proxy for 1990. 2020 is the pandemic year.",
+        "x": 36,
+        "y": 675,
+        "w": 523,
+        "h": 24,
+        "fontSize": 8.5
+      }
+    ],
+    "sources": "World Bank (2026), WDI / ILO modelled estimates: SL.AGR.EMPL.ZS, SL.IND.EMPL.ZS, SL.SRV.EMPL.ZS. 1991 proxies 1990; no approved 1960 series. Percent of employment. Release 13 July 2026; retrieved 6 October 2026.",
+    "limit": "Moving out of farming does not automatically raise productivity. Industry includes mining, construction and utilities; services are not all high-skill jobs."
+  },
+  {
+    "page": 10,
+    "title": "The numbers. Country by country.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / INCOME",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "The numbers. Country by country.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "GDP per capita means economic output per person—not total national GDP or a share of GDP.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Not a purchasing-power comparison or a measure of inequality. † Malaysia 1960 is a retrospective territorial series. 2020 is the pandemic year.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (2026), World Development Indicators, NY.GDP.PCAP.KD; release 13 July 2026, retrieved 6 October 2026. GDP per capita, constant 2015 US dollars per person. Full reference: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "10",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "1960",
+        "x": 161,
+        "y": 244,
+        "w": 100,
+        "h": 45,
+        "fontSize": 24
+      },
+      {
+        "type": "text",
+        "text": "1990",
+        "x": 303,
+        "y": 244,
+        "w": 100,
+        "h": 45,
+        "fontSize": 24
+      },
+      {
+        "type": "text",
+        "text": "2020",
+        "x": 445,
+        "y": 244,
+        "w": 100,
+        "h": 45,
+        "fontSize": 24
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 316,
+        "w": 134,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1,101",
+        "x": 161,
+        "y": 314,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "856",
+        "x": 303,
+        "y": 314,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "1,970",
+        "x": 445,
+        "y": 314,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 374,
+        "w": 134,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "394",
+        "x": 161,
+        "y": 372,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "4,039",
+        "x": 303,
+        "y": 372,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "6,254",
+        "x": 445,
+        "y": 372,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 432,
+        "w": 134,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1,419",
+        "x": 161,
+        "y": 430,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "3,846",
+        "x": 303,
+        "y": 430,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "9,534",
+        "x": 445,
+        "y": 430,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 490,
+        "w": 134,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1,038",
+        "x": 161,
+        "y": 488,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "9,673",
+        "x": 303,
+        "y": 488,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "33,216",
+        "x": 445,
+        "y": 488,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 548,
+        "w": 134,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1,266 †",
+        "x": 161,
+        "y": 546,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "4,185",
+        "x": 303,
+        "y": 546,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "10,171",
+        "x": 445,
+        "y": 546,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 606,
+        "w": 134,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "1,124",
+        "x": 161,
+        "y": 604,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "1,704",
+        "x": 303,
+        "y": 604,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "3,199",
+        "x": 445,
+        "y": 604,
+        "w": 100,
+        "h": 34,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "US dollars per person, at constant 2015 prices. Mini-bars all run from 0 to US$35,000; use the printed values for the small early-year differences.",
+        "x": 36,
+        "y": 669,
+        "w": 523,
+        "h": 29,
+        "fontSize": 8.5
+      }
+    ],
+    "sources": "World Bank (2026), World Development Indicators, NY.GDP.PCAP.KD; release 13 July 2026, retrieved 6 October 2026. GDP per capita, constant 2015 US dollars per person. Full reference: p. 27.",
+    "limit": "Not a purchasing-power comparison or a measure of inequality. † Malaysia 1960 is a retrospective territorial series. 2020 is the pandemic year."
+  },
+  {
+    "page": 11,
+    "title": "Build. Learn. Improve. Repeat.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / LEARNING",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Build. Learn. Improve. Repeat.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "A country needs more than factories. People and firms need the ability to make better things.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "This is a possible learning sequence, not an automatic cycle. Institutions, resources, distribution and access to technology and markets shape every link.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (1993, pp. 4–7, 20–26, 79–80, 127–130, 159–161); World Bank (2020, pp. 32–33, Box 2 pp. 44–47). Full references: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "11",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Learn the skills",
+        "x": 99,
+        "y": 237,
+        "w": 460,
+        "h": 27,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Education helps people use and improve technology.",
+        "x": 99,
+        "y": 271,
+        "w": 460,
+        "h": 29,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "↓",
+        "x": 47,
+        "y": 276,
+        "w": 20,
+        "h": 22,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Make the connections",
+        "x": 99,
+        "y": 306,
+        "w": 460,
+        "h": 27,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Reliable power and transport help work get done.",
+        "x": 99,
+        "y": 340,
+        "w": 460,
+        "h": 29,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "↓",
+        "x": 47,
+        "y": 345,
+        "w": 20,
+        "h": 22,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Build firms and suppliers",
+        "x": 99,
+        "y": 375,
+        "w": 460,
+        "h": 27,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Local businesses need links, skills and organisations.",
+        "x": 99,
+        "y": 409,
+        "w": 460,
+        "h": 29,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "↓",
+        "x": 47,
+        "y": 414,
+        "w": 20,
+        "h": 22,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Make and improve",
+        "x": 99,
+        "y": 444,
+        "w": 460,
+        "h": 27,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Production tests quality, routines and coordination.",
+        "x": 99,
+        "y": 478,
+        "w": 460,
+        "h": 29,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "↓",
+        "x": 47,
+        "y": 483,
+        "w": 20,
+        "h": 22,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Sell and learn",
+        "x": 99,
+        "y": 513,
+        "w": 460,
+        "h": 27,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Export markets can bring scale and feedback.",
+        "x": 99,
+        "y": 547,
+        "w": 460,
+        "h": 29,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "↓",
+        "x": 47,
+        "y": 552,
+        "w": 20,
+        "h": 22,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Invest again",
+        "x": 99,
+        "y": 582,
+        "w": 460,
+        "h": 27,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Use returns to upgrade—not just protect failure.",
+        "x": 99,
+        "y": 616,
+        "w": 460,
+        "h": 29,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "The chain breaks when power fails, feedback is ignored, or firms are protected from learning.",
+        "x": 36,
+        "y": 658,
+        "w": 523,
+        "h": 37,
+        "fontSize": 11
+      }
+    ],
+    "sources": "World Bank (1993, pp. 4–7, 20–26, 79–80, 127–130, 159–161); World Bank (2020, pp. 32–33, Box 2 pp. 44–47). Full references: p. 27.",
+    "limit": "This is a possible learning sequence, not an automatic cycle. Institutions, resources, distribution and access to technology and markets shape every link."
+  },
+  {
+    "page": 12,
+    "title": "“Made here” is not the whole story.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / FOLLOW THE PRODUCT",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "“Made here” is not the whole story.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "A country can export a product without keeping all its value—or learning how to make its most complex parts.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Export totals and photographs cannot reveal who keeps the value, how much is local, or which skills firms have learned.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20, Table 9); World Bank (1993, pp. 20–26). Conceptual journey, not measured product shares. Photographs: jgmorard (2009), Port Klang; george ruiz (2013), Metro Manila; CC BY 2.0. Full credits p. 29.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "12",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-MYS-PORTKLANG-001",
+        "x": 36,
+        "y": 239,
+        "w": 249,
+        "h": 166
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-PHL-DAMPA-001",
+        "x": 310,
+        "y": 239,
+        "w": 249,
+        "h": 166
+      },
+      {
+        "type": "text",
+        "text": "Port Klang, Malaysia · 2009\nContainers show movement—not local value kept.",
+        "x": 36,
+        "y": 415,
+        "w": 249,
+        "h": 37,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Metro Manila, Philippines · 2013\nMarket exchange—not a national productivity measure.",
+        "x": 310,
+        "y": 415,
+        "w": 249,
+        "h": 37,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "INPUTS",
+        "x": 36,
+        "y": 521,
+        "w": 165,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Parts can come from abroad.",
+        "x": 36,
+        "y": 552,
+        "w": 165,
+        "h": 60,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "→",
+        "x": 176,
+        "y": 477,
+        "w": 30,
+        "h": 33,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "ASSEMBLY",
+        "x": 215,
+        "y": 521,
+        "w": 165,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Local work is one part of the value.",
+        "x": 215,
+        "y": 552,
+        "w": 165,
+        "h": 60,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "→",
+        "x": 355,
+        "y": 477,
+        "w": 30,
+        "h": 33,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "SUPPLIERS",
+        "x": 394,
+        "y": 521,
+        "w": 165,
+        "h": 21,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Local links may deepen—or stay thin.",
+        "x": 394,
+        "y": 552,
+        "w": 165,
+        "h": 60,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "Exports ≠ local value ≠ local skills.",
+        "x": 36,
+        "y": 635,
+        "w": 523,
+        "h": 40,
+        "fontSize": 24
+      },
+      {
+        "type": "text",
+        "text": "Manufacturing share measures production mix, not technological capability. More assembly does not automatically mean deeper domestic learning.",
+        "x": 36,
+        "y": 675,
+        "w": 523,
+        "h": 23,
+        "fontSize": 9
+      }
+    ],
+    "sources": "World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20, Table 9); World Bank (1993, pp. 20–26). Conceptual journey, not measured product shares. Photographs: jgmorard (2009), Port Klang; george ruiz (2013), Metro Manila; CC BY 2.0. Full credits p. 29.",
+    "limit": "Export totals and photographs cannot reveal who keeps the value, how much is local, or which skills firms have learned."
+  },
+  {
+    "page": 13,
+    "title": "Not an overnight miracle.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / SOUTH KOREA",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Not an overnight miracle.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "South Korea built skills and firms over time. It also made costly policy mistakes.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "The sequence cannot isolate culture as the cause. Other countries cannot copy its history, security setting or international opportunities.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (1993, pp. 20–26, 127–130, 159–161, 242). Rodrik (1995): competing investment-coordination argument; registered working-paper abstract, not a page-specific causal estimate.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "13",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "1950s",
+        "x": 36,
+        "y": 240,
+        "w": 138,
+        "h": 35,
+        "fontSize": 27
+      },
+      {
+        "type": "text",
+        "text": "Recover",
+        "x": 190,
+        "y": 240,
+        "w": 369,
+        "h": 29,
+        "fontSize": 20
+      },
+      {
+        "type": "text",
+        "text": "Education, agricultural change and infrastructure helped build foundations.",
+        "x": 190,
+        "y": 278,
+        "w": 369,
+        "h": 45,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "1960s",
+        "x": 36,
+        "y": 324,
+        "w": 138,
+        "h": 35,
+        "fontSize": 27
+      },
+      {
+        "type": "text",
+        "text": "Coordinate",
+        "x": 190,
+        "y": 324,
+        "w": 369,
+        "h": 29,
+        "fontSize": 20
+      },
+      {
+        "type": "text",
+        "text": "Credit and investment worked alongside export incentives and performance pressure.",
+        "x": 190,
+        "y": 362,
+        "w": 369,
+        "h": 45,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "1970s",
+        "x": 36,
+        "y": 408,
+        "w": 138,
+        "h": 35,
+        "fontSize": 27
+      },
+      {
+        "type": "text",
+        "text": "Push—and pay",
+        "x": 190,
+        "y": 408,
+        "w": 369,
+        "h": 29,
+        "fontSize": 20
+      },
+      {
+        "type": "text",
+        "text": "Heavy industry expanded, but brought debt, bottlenecks and other costs.",
+        "x": 190,
+        "y": 446,
+        "w": 369,
+        "h": 45,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "1980s",
+        "x": 36,
+        "y": 492,
+        "w": 138,
+        "h": 35,
+        "fontSize": 27
+      },
+      {
+        "type": "text",
+        "text": "Correct and upgrade",
+        "x": 190,
+        "y": 492,
+        "w": 369,
+        "h": 29,
+        "fontSize": 20
+      },
+      {
+        "type": "text",
+        "text": "Policy adjustment accompanied deeper firm learning and technological upgrading.",
+        "x": 190,
+        "y": 530,
+        "w": 369,
+        "h": 45,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 50,
+        "y": 605,
+        "w": 495,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Learn from South Korea. Don’t photocopy it. We value cooperation and long-term effort, but these are lessons to adapt—not proof of a superior culture.",
+        "x": 50,
+        "y": 627,
+        "w": 495,
+        "h": 60,
+        "fontSize": 11.5
+      }
+    ],
+    "sources": "World Bank (1993, pp. 20–26, 127–130, 159–161, 242). Rodrik (1995): competing investment-coordination argument; registered working-paper abstract, not a page-specific causal estimate.",
+    "limit": "The sequence cannot isolate culture as the cause. Other countries cannot copy its history, security setting or international opportunities."
+  },
+  {
+    "page": 14,
+    "title": "A huge gap. Not a controlled test.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / GHANA + SOUTH KOREA",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "A huge gap. Not a controlled test.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "GDP per capita · constant 2015 US dollars per person · 1960, 1990, 2020",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "A two-country trajectory cannot isolate culture, colonial rule, policy, institutions or any single cause. Straight lines connect anchors, not annual estimates.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "World Bank (2026), World Development Indicators, NY.GDP.PCAP.KD; release 13 July 2026, retrieved 6 October 2026. GDP per capita, constant 2015 US dollars per person. Full reference: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "14",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "0",
+        "x": 36,
+        "y": 558,
+        "w": 53,
+        "h": 18,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "10k",
+        "x": 36,
+        "y": 474.57142857142856,
+        "w": 53,
+        "h": 18,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "20k",
+        "x": 36,
+        "y": 391.1428571428571,
+        "w": 53,
+        "h": 18,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "30k",
+        "x": 36,
+        "y": 307.7142857142857,
+        "w": 53,
+        "h": 18,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "35k",
+        "x": 36,
+        "y": 266,
+        "w": 53,
+        "h": 18,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "1960",
+        "x": 80,
+        "y": 578,
+        "w": 50,
+        "h": 23,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "1990",
+        "x": 280,
+        "y": 578,
+        "w": 50,
+        "h": 23,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "2020",
+        "x": 480,
+        "y": 578,
+        "w": 50,
+        "h": 23,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "South Korea\nUS$33,216",
+        "x": 370,
+        "y": 235,
+        "w": 189,
+        "h": 44,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Ghana\nUS$1,970",
+        "x": 399,
+        "y": 502,
+        "w": 160,
+        "h": 43,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Ghana 1,101 / Korea 1,038",
+        "x": 36,
+        "y": 611,
+        "w": 249,
+        "h": 23,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "1990: Ghana 856 / Korea 9,673",
+        "x": 36,
+        "y": 642,
+        "w": 249,
+        "h": 34,
+        "fontSize": 9.5
+      },
+      {
+        "type": "text",
+        "text": "16.9 : 1",
+        "x": 310,
+        "y": 615,
+        "w": 249,
+        "h": 51,
+        "fontSize": 36
+      },
+      {
+        "type": "text",
+        "text": "Approximate income ratio in 2020.\nNot a causal estimate.",
+        "x": 310,
+        "y": 667,
+        "w": 249,
+        "h": 29,
+        "fontSize": 9
+      }
+    ],
+    "sources": "World Bank (2026), World Development Indicators, NY.GDP.PCAP.KD; release 13 July 2026, retrieved 6 October 2026. GDP per capita, constant 2015 US dollars per person. Full reference: p. 27.",
+    "limit": "A two-country trajectory cannot isolate culture, colonial rule, policy, institutions or any single cause. Straight lines connect anchors, not annual estimates."
+  },
+  {
+    "page": 15,
+    "title": "A lens. Not a national personality.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / CULTURE",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "A lens. Not a national personality.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Hofstede’s six dimensions ask about patterns in societies—not what every person is like.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "National averages are historical, country-level lenses—not individual personalities, timeless truths or causal scores. Missing country scores are not invented.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Hofstede (2011, pp. 6–8, 9–16); McSweeney (2002, pp. 93–107). National averages are not individual traits or causal scores. Full references: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "15",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Power distance",
+        "x": 36,
+        "y": 237,
+        "w": 249,
+        "h": 30,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "How accepted is unequal power?",
+        "x": 310,
+        "y": 237,
+        "w": 249,
+        "h": 37,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "TEST CONDITIONALLY",
+        "x": 36,
+        "y": 269,
+        "w": 249,
+        "h": 14,
+        "fontSize": 7.8
+      },
+      {
+        "type": "text",
+        "text": "Individualism / collectivism",
+        "x": 36,
+        "y": 293,
+        "w": 249,
+        "h": 30,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "How strongly are people tied to groups? Not a trust score.",
+        "x": 310,
+        "y": 293,
+        "w": 249,
+        "h": 37,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "TEST CONDITIONALLY",
+        "x": 36,
+        "y": 325,
+        "w": 249,
+        "h": 14,
+        "fontSize": 7.8
+      },
+      {
+        "type": "text",
+        "text": "Masculinity / femininity",
+        "x": 36,
+        "y": 349,
+        "w": 249,
+        "h": 30,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Competition and achievement versus care and quality of life. Historical labels.",
+        "x": 310,
+        "y": 349,
+        "w": 249,
+        "h": 37,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "CONTEXT ONLY",
+        "x": 36,
+        "y": 381,
+        "w": 249,
+        "h": 14,
+        "fontSize": 7.8
+      },
+      {
+        "type": "text",
+        "text": "Uncertainty avoidance",
+        "x": 36,
+        "y": 405,
+        "w": 249,
+        "h": 30,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "How do people respond to ambiguity? Not simply risk-taking.",
+        "x": 310,
+        "y": 405,
+        "w": 249,
+        "h": 37,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "CONTEXT ONLY",
+        "x": 36,
+        "y": 437,
+        "w": 249,
+        "h": 14,
+        "fontSize": 7.8
+      },
+      {
+        "type": "text",
+        "text": "Long-term orientation",
+        "x": 36,
+        "y": 461,
+        "w": 249,
+        "h": 30,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Future-focused adaptation versus present and past obligations. Not policy duration.",
+        "x": 310,
+        "y": 461,
+        "w": 249,
+        "h": 37,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "TEST CONDITIONALLY",
+        "x": 36,
+        "y": 493,
+        "w": 249,
+        "h": 14,
+        "fontSize": 7.8
+      },
+      {
+        "type": "text",
+        "text": "Indulgence / restraint",
+        "x": 36,
+        "y": 517,
+        "w": 249,
+        "h": 30,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "How strongly does society regulate gratification? Not work ethic.",
+        "x": 310,
+        "y": 517,
+        "w": 249,
+        "h": 37,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "CONTEXT ONLY",
+        "x": 36,
+        "y": 549,
+        "w": 249,
+        "h": 14,
+        "fontSize": 7.8
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 50,
+        "y": 600,
+        "w": 495,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Culture matters. It isn’t destiny. We think habits and shared expectations influence cooperation—but history, resources and institutions also shape what people can do.",
+        "x": 50,
+        "y": 622,
+        "w": 495,
+        "h": 65,
+        "fontSize": 11.5
+      }
+    ],
+    "sources": "Hofstede (2011, pp. 6–8, 9–16); McSweeney (2002, pp. 93–107). National averages are not individual traits or causal scores. Full references: p. 27.",
+    "limit": "National averages are historical, country-level lenses—not individual personalities, timeless truths or causal scores. Missing country scores are not invented."
+  },
+  {
+    "page": 16,
+    "title": "Trust whom—with what?",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / TRUST",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Trust whom—with what?",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Trust in a relative, a bank and “most people” are not the same thing.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Governance indicators are not trust measures. Different questions, years and survey samples cannot be turned into one six-country trust ranking.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "OECD (2017, pp. 41–44, 62–79); Svirydzenka and Petri (2014, pp. 5–8, 12). No comparable six-country direct-trust series is available for this comparison. Full references: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "16",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-GHA-ACCRA-001",
+        "x": 36,
+        "y": 239,
+        "w": 180,
+        "h": 239
+      },
+      {
+        "type": "text",
+        "text": "Accra market, Ghana · 2020\nAmuzujoe; CC BY-SA 4.0. Everyday trade—not a trust score. Full credit p. 29.",
+        "x": 36,
+        "y": 487,
+        "w": 180,
+        "h": 37,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "A PERSON",
+        "x": 250,
+        "y": 241,
+        "w": 309,
+        "h": 24,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Someone you know is different from a stranger.",
+        "x": 250,
+        "y": 272,
+        "w": 309,
+        "h": 39,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "A NETWORK",
+        "x": 250,
+        "y": 319,
+        "w": 309,
+        "h": 24,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Family and close contacts can support cooperation.",
+        "x": 250,
+        "y": 350,
+        "w": 309,
+        "h": 39,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "AN INSTITUTION",
+        "x": 250,
+        "y": 397,
+        "w": 309,
+        "h": 24,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Name it: a court, a bank or a government.",
+        "x": 250,
+        "y": 428,
+        "w": 309,
+        "h": 39,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "A SURVEY ANSWER",
+        "x": 250,
+        "y": 475,
+        "w": 309,
+        "h": 24,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Wording, timing and who was asked all matter.",
+        "x": 250,
+        "y": 506,
+        "w": 309,
+        "h": 39,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "We cannot conclude that\n“Asia trusts more”.",
+        "x": 36,
+        "y": 588,
+        "w": 523,
+        "h": 68,
+        "fontSize": 29
+      },
+      {
+        "type": "text",
+        "text": "That was our initial impression—not a finding supported by comparable evidence across these six countries.",
+        "x": 36,
+        "y": 664,
+        "w": 523,
+        "h": 33,
+        "fontSize": 10.5
+      }
+    ],
+    "sources": "OECD (2017, pp. 41–44, 62–79); Svirydzenka and Petri (2014, pp. 5–8, 12). No comparable six-country direct-trust series is available for this comparison. Full references: p. 27.",
+    "limit": "Governance indicators are not trust measures. Different questions, years and survey samples cannot be turned into one six-country trust ranking."
+  },
+  {
+    "page": 17,
+    "title": "Family first. Doors open—or closed?",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / CLOSE NETWORKS",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Family first. Doors open—or closed?",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Close ties can make cooperation easier. They can also make it harder for outsiders to join.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "This is a conditional explanation and a discussion prompt—not a measure of any country’s culture, corruption or trust.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "OECD (2017, pp. 41–44, 62–79); Svirydzenka and Petri (2014, pp. 5–8, 12). No comparable six-country direct-trust series is available for this comparison. Full references: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "17",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-KOR-GYEONGDONG-001",
+        "x": 36,
+        "y": 239,
+        "w": 249,
+        "h": 171
+      },
+      {
+        "type": "text",
+        "text": "Gyeongdong Market, Seoul · 2008\nGaël Chardon; CC BY-SA 2.0. Market context, not measured trust. Full credit p. 29.",
+        "x": 36,
+        "y": 420,
+        "w": 249,
+        "h": 37,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "The strength",
+        "x": 310,
+        "y": 239,
+        "w": 249,
+        "h": 53,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "Credit, labour and mutual help can keep people and businesses going.",
+        "x": 310,
+        "y": 298,
+        "w": 249,
+        "h": 80,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "The boundary",
+        "x": 310,
+        "y": 396,
+        "w": 249,
+        "h": 53,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "Hiring outsiders or sharing control may be harder without reliable organisations and contracts.",
+        "x": 310,
+        "y": 455,
+        "w": 249,
+        "h": 80,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Who would you trust with money?",
+        "x": 36,
+        "y": 534,
+        "w": 523,
+        "h": 37,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "Family? A friend? A bank? An unfamiliar partner backed by a reliable contract?",
+        "x": 36,
+        "y": 578,
+        "w": 523,
+        "h": 34,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 50,
+        "y": 637,
+        "w": 495,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "We see family networks mainly as a strength. But conflict, exclusion and closed-minded decisions can turn that strength into a limit.",
+        "x": 50,
+        "y": 659,
+        "w": 495,
+        "h": 31,
+        "fontSize": 11.5
+      }
+    ],
+    "sources": "OECD (2017, pp. 41–44, 62–79); Svirydzenka and Petri (2014, pp. 5–8, 12). No comparable six-country direct-trust series is available for this comparison. Full references: p. 27.",
+    "limit": "This is a conditional explanation and a discussion prompt—not a measure of any country’s culture, corruption or trust."
+  },
+  {
+    "page": 18,
+    "title": "Strong leadership. Honest feedback.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / POWER + TIME",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Strong leadership. Honest feedback.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Planning ahead helps only if people can challenge mistakes.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Cultural scores cannot replace direct evidence about decisions, investment, policy duration or whether leaders actually correct failure.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Hofstede (2011, pp. 6–8, 9–16); McSweeney (2002, pp. 93–107). National averages are not individual traits or causal scores. Full references: p. 27.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "18",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Who can speak up?",
+        "x": 101,
+        "y": 239,
+        "w": 458,
+        "h": 53,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "Hierarchy may coordinate action—or silence the people who notice a problem.",
+        "x": 101,
+        "y": 298,
+        "w": 458,
+        "h": 80,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Who changes course?",
+        "x": 101,
+        "y": 388,
+        "w": 458,
+        "h": 53,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "Long-term plans need feedback. A long-term-orientation score does not measure policy continuity.",
+        "x": 101,
+        "y": 447,
+        "w": 458,
+        "h": 80,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "NOT ENOUGH EVIDENCE FOR A GROWTH CLAIM",
+        "x": 36,
+        "y": 531,
+        "w": 523,
+        "h": 19,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Uncertainty avoidance: need observed behaviour and matched timing.\nMasculinity / femininity: need a clear mechanism and valid measures.\nIndulgence / restraint: need a direct, timed link—not guessed work ethic.",
+        "x": 36,
+        "y": 560,
+        "w": 523,
+        "h": 43,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 50,
+        "y": 626,
+        "w": 495,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Strong government—for whose benefit? We support long-term planning, but leaders must serve the country, face accountability and change policies that fail.",
+        "x": 50,
+        "y": 648,
+        "w": 495,
+        "h": 42,
+        "fontSize": 11.5
+      }
+    ],
+    "sources": "Hofstede (2011, pp. 6–8, 9–16); McSweeney (2002, pp. 93–107). National averages are not individual traits or causal scores. Full references: p. 27.",
+    "limit": "Cultural scores cannot replace direct evidence about decisions, investment, policy duration or whether leaders actually correct failure."
+  },
+  {
+    "page": 19,
+    "title": "Three ideas. Six reality checks.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / OUR IDEAS ON TRIAL",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Three ideas. Six reality checks.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "These are our hypotheses—not established laws or national scores.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "A case can fit more than one explanation. Support does not isolate a cause; missing evidence must stay missing.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Original group hypotheses tested against the six cases. Sources: World Bank (1993, 2020); Maipose (2008); Svirydzenka and Petri (2014); OECD (2017).",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "19",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Ask how it works.\nLook for the case that breaks it.",
+        "x": 36,
+        "y": 239,
+        "w": 523,
+        "h": 92,
+        "fontSize": 29
+      },
+      {
+        "type": "text",
+        "text": "COUNTRY",
+        "x": 36,
+        "y": 365,
+        "w": 132,
+        "h": 22,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "CONNECTIONS",
+        "x": 174,
+        "y": 365,
+        "w": 128,
+        "h": 22,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "TRUST",
+        "x": 310,
+        "y": 365,
+        "w": 125,
+        "h": 22,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "CONTINUITY",
+        "x": 443,
+        "y": 365,
+        "w": 116,
+        "h": 22,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 410,
+        "w": 111,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Fits, not causal",
+        "x": 174,
+        "y": 410,
+        "w": 128,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Unresolved",
+        "x": 310,
+        "y": 410,
+        "w": 125,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Unresolved",
+        "x": 443,
+        "y": 410,
+        "w": 116,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 451,
+        "w": 111,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Strong exception",
+        "x": 174,
+        "y": 451,
+        "w": 128,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Plausible channel",
+        "x": 310,
+        "y": 451,
+        "w": 125,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Diversification warning",
+        "x": 443,
+        "y": 451,
+        "w": 116,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 492,
+        "w": 111,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Conditional support",
+        "x": 174,
+        "y": 492,
+        "w": 128,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Qualified substitutes",
+        "x": 310,
+        "y": 492,
+        "w": 125,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Strong qualified support",
+        "x": 443,
+        "y": 492,
+        "w": 116,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 533,
+        "w": 111,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Several causes",
+        "x": 174,
+        "y": 533,
+        "w": 128,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Unresolved channel",
+        "x": 310,
+        "y": 533,
+        "w": 125,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Duration + correction",
+        "x": 443,
+        "y": 533,
+        "w": 116,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 574,
+        "w": 111,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Qualified support",
+        "x": 174,
+        "y": 574,
+        "w": 128,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Plausible substitutes",
+        "x": 310,
+        "y": 574,
+        "w": 125,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Qualified support",
+        "x": 443,
+        "y": 574,
+        "w": 116,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 615,
+        "w": 111,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Not enough alone",
+        "x": 174,
+        "y": 615,
+        "w": 128,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Challenges strong form",
+        "x": 310,
+        "y": 615,
+        "w": 125,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Support with warning",
+        "x": 443,
+        "y": 615,
+        "w": 116,
+        "h": 36,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "What would change our minds? Better measurements, a clear sequence in time, and evidence against competing explanations.",
+        "x": 36,
+        "y": 670,
+        "w": 523,
+        "h": 29,
+        "fontSize": 10.5
+      }
+    ],
+    "sources": "Original group hypotheses tested against the six cases. Sources: World Bank (1993, 2020); Maipose (2008); Svirydzenka and Petri (2014); OECD (2017).",
+    "limit": "A case can fit more than one explanation. Support does not isolate a cause; missing evidence must stay missing."
+  },
+  {
+    "page": 20,
+    "title": "More roads—or better connections?",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / TEST 1 / CONNECTED DEVELOPMENT",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "More roads—or better connections?",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "What if the important difference is whom infrastructure connects?",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Connections alone do not guarantee diversification. Skills, investment, resources, institutions and market access remain competing explanations.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20). Full references: p. 27. World Bank (1993, pp. 20–26). Original group hypothesis.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "20",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "SUPPORTED\nWITH EXCEPTIONS",
+        "x": 36,
+        "y": 239,
+        "w": 523,
+        "h": 76,
+        "fontSize": 28
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-MYS-PERAI-001",
+        "x": 36,
+        "y": 345,
+        "w": 249,
+        "h": 172
+      },
+      {
+        "type": "text",
+        "text": "Perai Industrial Zone, Malaysia · 2024\nHundenvonPenang; CC BY-SA 4.0. Industrial context, not proof of linkages. Full credit p. 29.",
+        "x": 36,
+        "y": 527,
+        "w": 249,
+        "h": 37,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "The fit",
+        "x": 310,
+        "y": 343,
+        "w": 249,
+        "h": 28,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "South Korea, Malaysia and Mauritius fit a story of skills, firms, infrastructure and markets working together.",
+        "x": 310,
+        "y": 380,
+        "w": 249,
+        "h": 83,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "The challenge",
+        "x": 310,
+        "y": 479,
+        "w": 249,
+        "h": 28,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Botswana grew despite few inherited public assets. The Philippines shows that export access can coexist with thin domestic links.",
+        "x": 310,
+        "y": 516,
+        "w": 249,
+        "h": 102,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Roads matter when people\nand firms can use them.",
+        "x": 36,
+        "y": 625,
+        "w": 523,
+        "h": 63,
+        "fontSize": 27
+      },
+      {
+        "type": "text",
+        "text": "Revise the claim if stronger connections followed growth rather than helped produce it.",
+        "x": 36,
+        "y": 686,
+        "w": 523,
+        "h": 13,
+        "fontSize": 8.5
+      }
+    ],
+    "sources": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20). Full references: p. 27. World Bank (1993, pp. 20–26). Original group hypothesis.",
+    "limit": "Connections alone do not guarantee diversification. Skills, investment, resources, institutions and market access remain competing explanations."
+  },
+  {
+    "page": 21,
+    "title": "Can cooperation reach strangers?",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / TEST 2 / RADIUS OF TRUST",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Can cooperation reach strangers?",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Contracts, courts and organisations may let people work together without knowing each other first.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "We cannot show that generalized trust caused larger firms or national growth. Institutional substitutes and other causes remain unresolved.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "OECD (2017, pp. 41–44, 62–79); Svirydzenka and Petri (2014, pp. 5–8, 12). No comparable six-country direct-trust series is available for this comparison. Full references: p. 27. Original group hypothesis.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "21",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "INCONCLUSIVE",
+        "x": 36,
+        "y": 239,
+        "w": 523,
+        "h": 58,
+        "fontSize": 37
+      },
+      {
+        "type": "text",
+        "text": "A plausible idea",
+        "x": 136,
+        "y": 335,
+        "w": 423,
+        "h": 31,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "Reliable institutions may help cooperation extend beyond family and close contacts.",
+        "x": 136,
+        "y": 379,
+        "w": 423,
+        "h": 65,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "A missing test",
+        "x": 136,
+        "y": 469,
+        "w": 423,
+        "h": 31,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "We lack comparable direct-trust evidence across all six cases. Ghana and South Korea remain direct-trust gaps.",
+        "x": 136,
+        "y": 513,
+        "w": 423,
+        "h": 73,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Trust matters to us.\nThe regional claim is unproven.",
+        "x": 36,
+        "y": 604,
+        "w": 523,
+        "h": 69,
+        "fontSize": 28
+      },
+      {
+        "type": "text",
+        "text": "Reopen with comparable, weighted trust surveys linked in time to firm outcomes, while testing institutional alternatives.",
+        "x": 36,
+        "y": 676,
+        "w": 523,
+        "h": 23,
+        "fontSize": 9
+      }
+    ],
+    "sources": "OECD (2017, pp. 41–44, 62–79); Svirydzenka and Petri (2014, pp. 5–8, 12). No comparable six-country direct-trust series is available for this comparison. Full references: p. 27. Original group hypothesis.",
+    "limit": "We cannot show that generalized trust caused larger firms or national growth. Institutional substitutes and other causes remain unresolved."
+  },
+  {
+    "page": 22,
+    "title": "Keep the direction. Fix the mistakes.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / TEST 3 / CONTINUITY + ADAPTATION",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Keep the direction. Fix the mistakes.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "A stable policy is useful only if it can learn.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Policy duration cannot be separated here from state capacity, resources, foreign investment, market access, shocks or prior success.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20). Full references: p. 27. World Bank (1993, pp. 127–130, 159–161, 242). Original group hypothesis.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "22",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "SUPPORTED\nWITH EXCEPTIONS",
+        "x": 36,
+        "y": 239,
+        "w": 523,
+        "h": 76,
+        "fontSize": 28
+      },
+      {
+        "type": "text",
+        "text": "PLAN",
+        "x": 36,
+        "y": 415,
+        "w": 165,
+        "h": 25,
+        "fontSize": 15
+      },
+      {
+        "type": "text",
+        "text": "Give firms and workers a direction.",
+        "x": 36,
+        "y": 452,
+        "w": 165,
+        "h": 67,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "→",
+        "x": 167,
+        "y": 362,
+        "w": 30,
+        "h": 33,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "LISTEN",
+        "x": 215,
+        "y": 415,
+        "w": 165,
+        "h": 25,
+        "fontSize": 15
+      },
+      {
+        "type": "text",
+        "text": "Check what is actually working.",
+        "x": 215,
+        "y": 452,
+        "w": 165,
+        "h": 67,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "→",
+        "x": 346,
+        "y": 362,
+        "w": 30,
+        "h": 33,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "CHANGE",
+        "x": 394,
+        "y": 415,
+        "w": 165,
+        "h": 25,
+        "fontSize": 15
+      },
+      {
+        "type": "text",
+        "text": "Stop protecting repeated failure.",
+        "x": 394,
+        "y": 452,
+        "w": 165,
+        "h": 67,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "The fit",
+        "x": 36,
+        "y": 547,
+        "w": 245,
+        "h": 27,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "South Korea, Mauritius, Malaysia and the Philippines are consistent with durable direction plus correction.",
+        "x": 36,
+        "y": 585,
+        "w": 245,
+        "h": 84,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "The warning",
+        "x": 310,
+        "y": 547,
+        "w": 249,
+        "h": 27,
+        "fontSize": 17
+      },
+      {
+        "type": "text",
+        "text": "Continuity can preserve failure. Botswana warns that accumulating wealth is not the same as diversifying production.",
+        "x": 310,
+        "y": 585,
+        "w": 249,
+        "h": 84,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Revise if lasting policy repeatedly protects failure rather than learning.",
+        "x": 36,
+        "y": 681,
+        "w": 523,
+        "h": 17,
+        "fontSize": 9
+      }
+    ],
+    "sources": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20). Full references: p. 27. World Bank (1993, pp. 127–130, 159–161, 242). Original group hypothesis.",
+    "limit": "Policy duration cannot be separated here from state capacity, resources, foreign investment, market access, shocks or prior success."
+  },
+  {
+    "page": 23,
+    "title": "The cases that break the shortcut.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / THE EXCEPTIONS MATTER",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "The cases that break the shortcut.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Four countries stop us telling one simple continental story.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "No case proves a universal formula. An exception challenges a claim; it does not automatically prove a rival explanation.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20). Full references: p. 27. Photos: Paul tk (2018), Mochudi; Richard N Horne (2025), Port Louis. Full credits p. 29.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "23",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 238,
+        "w": 229,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-BWA-MOCHUDI-001",
+        "x": 36,
+        "y": 276,
+        "w": 163,
+        "h": 103
+      },
+      {
+        "type": "text",
+        "text": "Supports resource management and investment. Challenges the need for strong inherited infrastructure. Does not prove broad diversification.",
+        "x": 219,
+        "y": 278,
+        "w": 340,
+        "h": 83,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Mochudi solar pumping · 2018\nInfrastructure context, not a growth estimate.",
+        "x": 36,
+        "y": 385,
+        "w": 177,
+        "h": 37,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 426,
+        "w": 229,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Supports adaptation and diversification. Challenges fixed cultural destiny. Does not prove continuity alone caused growth.",
+        "x": 36,
+        "y": 465,
+        "w": 311,
+        "h": 80,
+        "fontSize": 11
+      },
+      {
+        "type": "photo",
+        "asset": "ASSET-PH-MUS-SUGAR-001",
+        "x": 397,
+        "y": 425,
+        "w": 162,
+        "h": 100
+      },
+      {
+        "type": "text",
+        "text": "Port Louis sugar terminal · 2025\nTrade context, not a history series.",
+        "x": 397,
+        "y": 532,
+        "w": 162,
+        "h": 21,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 552,
+        "w": 229,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 330,
+        "y": 552,
+        "w": 229,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Malaysia: exports can help, but do not prove local capability.",
+        "x": 36,
+        "y": 589,
+        "w": 249,
+        "h": 30,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "Philippines: global links alone are not enough. There is no single “Asia” path.",
+        "x": 310,
+        "y": 589,
+        "w": 249,
+        "h": 30,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 50,
+        "y": 637,
+        "w": 495,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Mauritius surprised us. Its small size challenged our assumptions about what a country needs to develop—and about one single African development story.",
+        "x": 50,
+        "y": 659,
+        "w": 495,
+        "h": 31,
+        "fontSize": 11.5
+      }
+    ],
+    "sources": "Maipose (2008, pp. 3–5, 8–11); Svirydzenka and Petri (2014, pp. 5–8); World Bank (2020, Box 2, pp. 44–47); Nasution (2000, pp. 19–20). Full references: p. 27. Photos: Paul tk (2018), Mochudi; Richard N Horne (2025), Port Louis. Full credits p. 29.",
+    "limit": "No case proves a universal formula. An exception challenges a claim; it does not automatically prove a rival explanation."
+  },
+  {
+    "page": 24,
+    "title": "Build the ability to do more.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / PUTTING IT TOGETHER",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Build the ability to do more.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Skills. Reliable connections. Firms that learn. Institutions that make cooperation possible.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "KEEP IN MIND",
+        "x": 36,
+        "y": 701,
+        "w": 523,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "This is a bounded interpretation, not a calculation of each cause’s contribution. Six countries do not represent two whole continents.",
+        "x": 36,
+        "y": 721,
+        "w": 523,
+        "h": 32,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "Group synthesis: World Bank (1993, pp. 4–7, 20–26, 79–80); World Bank (2020); Maipose (2008); Svirydzenka and Petri (2014); Hofstede (2011).",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "24",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Different ingredients.\nDifferent sequences.",
+        "x": 36,
+        "y": 310,
+        "w": 523,
+        "h": 83,
+        "fontSize": 32
+      },
+      {
+        "type": "text",
+        "text": "Divergence depended less on fixed regional culture than on whether states, firms, workers and external partners built and disciplined productive capabilities over time. Education, agricultural change, infrastructure, investment coordination, technology access and exports mattered in different sequences. Their effects depended on institutions, resources, distribution, history and international conditions. Culture may influence coordination, legitimacy and organisational practice, but it is not a stand-alone explanation.",
+        "x": 36,
+        "y": 410,
+        "w": 523,
+        "h": 170,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "Connected Development",
+        "x": 36,
+        "y": 609,
+        "w": 260,
+        "h": 22,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "Supported with exceptions",
+        "x": 310,
+        "y": 609,
+        "w": 249,
+        "h": 22,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "Radius of Trust",
+        "x": 36,
+        "y": 638,
+        "w": 260,
+        "h": 22,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "Inconclusive",
+        "x": 310,
+        "y": 638,
+        "w": 249,
+        "h": 22,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "Continuity + Adaptation",
+        "x": 36,
+        "y": 667,
+        "w": 260,
+        "h": 22,
+        "fontSize": 10.5
+      },
+      {
+        "type": "text",
+        "text": "Supported with exceptions",
+        "x": 310,
+        "y": 667,
+        "w": 249,
+        "h": 22,
+        "fontSize": 10.5
+      }
+    ],
+    "sources": "Group synthesis: World Bank (1993, pp. 4–7, 20–26, 79–80); World Bank (2020); Maipose (2008); Svirydzenka and Petri (2014); Hofstede (2011).",
+    "limit": "This is a bounded interpretation, not a calculation of each cause’s contribution. Six countries do not represent two whole continents."
+  },
+  {
+    "page": 25,
+    "title": "A bigger economy. A better life?",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / OUR TAKE",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "A bigger economy. A better life?",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "For us, development is about what people can actually do and afford—not just a bigger GDP number.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "Group values and interpretation, not a measured six-country wellbeing comparison. GDP charts: World Bank (2026), NY.GDP.PCAP.KD. Policy implications: World Bank (1993, 2020); Maipose (2008); Svirydzenka and Petri (2014); OECD (2017).",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "25",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Health.\nBuying power.\nFreedom.\nLiving standards.",
+        "x": 36,
+        "y": 239,
+        "w": 523,
+        "h": 221,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 36,
+        "y": 480,
+        "w": 523,
+        "h": 17,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Higher income matters. But we also care about what that income buys, whether people are healthy, and whether they have more freedom. GDP alone cannot answer those questions.",
+        "x": 36,
+        "y": 515,
+        "w": 523,
+        "h": 85,
+        "fontSize": 14
+      },
+      {
+        "type": "text",
+        "text": "What should travel?",
+        "x": 36,
+        "y": 631,
+        "w": 523,
+        "h": 33,
+        "fontSize": 23
+      },
+      {
+        "type": "text",
+        "text": "Build skills and useful connections. Keep a direction, but correct failure. Help people cooperate beyond close ties. Adapt each lesson to the place.",
+        "x": 36,
+        "y": 675,
+        "w": 523,
+        "h": 63,
+        "fontSize": 11.5
+      }
+    ],
+    "sources": "Group values and interpretation, not a measured six-country wellbeing comparison. GDP charts: World Bank (2026), NY.GDP.PCAP.KD. Policy implications: World Bank (1993, 2020); Maipose (2008); Svirydzenka and Petri (2014); OECD (2017).",
+    "limit": ""
+  },
+  {
+    "page": 26,
+    "title": "Different starts.\nNo fixed destiny.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / OUR ANSWER",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Different starts.\nNo fixed destiny.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Culture matters—but the question is bigger than culture.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "Group viewpoint informed by the six-country comparison. On cultural change: Hofstede (2011, pp. 6–8, 16); Beugelsdijk and Welzel (2018, pp. 1469–1475, Figures 7–9).",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "26",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "OUR TAKE / GROUP VIEW",
+        "x": 50,
+        "y": 251,
+        "w": 495,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "We think “Why couldn’t Africa grow like Asia?” is misleading. Neither continent followed one path. Countries had different histories, resources, infrastructure and opportunities.",
+        "x": 50,
+        "y": 273,
+        "w": 495,
+        "h": 86,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "Our view changed.",
+        "x": 36,
+        "y": 408,
+        "w": 523,
+        "h": 48,
+        "fontSize": 31
+      },
+      {
+        "type": "text",
+        "text": "We still think culture can shape trust and cooperation. But the evidence pushes us to ask what governments, firms and people could build—and what helped or blocked them.",
+        "x": 36,
+        "y": 477,
+        "w": 523,
+        "h": 92,
+        "fontSize": 14
+      },
+      {
+        "type": "text",
+        "text": "If culture matters,\ncan culture change?",
+        "x": 36,
+        "y": 616,
+        "w": 523,
+        "h": 115,
+        "fontSize": 36
+      }
+    ],
+    "sources": "Group viewpoint informed by the six-country comparison. On cultural change: Hofstede (2011, pp. 6–8, 16); Beugelsdijk and Welzel (2018, pp. 1469–1475, Figures 7–9).",
+    "limit": ""
+  },
+  {
+    "page": 27,
+    "title": "Where the evidence comes from.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / SOURCES",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Where the evidence comes from.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Essential references. Exact page, table and indicator details sit beside the evidence.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "Complete source appendix: [LINK / QR PLACEHOLDER]. The full bibliography accompanies this edition; the online appendix link remains pending.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "27",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "World Bank. (2026). World Development Indicators [Data set]. Retrieved October 6, 2026, from",
+        "x": 36,
+        "y": 237,
+        "w": 523,
+        "h": 28,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 253,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "World Bank. (1993). The East Asian miracle: Economic growth and public policy. Oxford University Press.",
+        "x": 36,
+        "y": 268,
+        "w": 523,
+        "h": 28,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 284,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "World Bank. (2020). Structural transformation and labor market performance in Ghana.",
+        "x": 36,
+        "y": 299,
+        "w": 523,
+        "h": 28,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 315,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "World Bank. (1985). Ghana: Industrial policy, performance and recovery (Report No. 5716-GH).",
+        "x": 36,
+        "y": 330,
+        "w": 523,
+        "h": 28,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 346,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Maipose, G. S. (2008). Policy and institutional dynamics of sustained development in Botswana (Commission on Growth and Development Working Paper No. 35). World Bank.",
+        "x": 36,
+        "y": 361,
+        "w": 523,
+        "h": 39,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 388,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Svirydzenka, K., & Petri, M. (2014). Mauritius: The drivers of growth-Can the past be extended? (IMF Working Paper No. 14/134). International Monetary Fund.",
+        "x": 36,
+        "y": 403,
+        "w": 523,
+        "h": 39,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 430,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Jedwab, R., & Moradi, A. (2012). Colonial investments and long-term development in Africa: Evidence from Ghanaian railways [Working paper]. Northeast Universities Development Consortium.",
+        "x": 36,
+        "y": 445,
+        "w": 523,
+        "h": 39,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 472,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Hofstede, G. (2011). Dimensionalizing cultures: The Hofstede model in context. Online Readings in Psychology and Culture, 2(1), Article 8.",
+        "x": 36,
+        "y": 487,
+        "w": 523,
+        "h": 39,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 514,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "McSweeney, B. (2002). Hofstede's model of national cultural differences and their consequences: A triumph of faith—a failure of analysis. Human Relations, 55(1), 89–118.",
+        "x": 36,
+        "y": 529,
+        "w": 523,
+        "h": 39,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 556,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Organisation for Economic Co-operation and Development. (2017). OECD guidelines on measuring trust. OECD Publishing.",
+        "x": 36,
+        "y": 571,
+        "w": 523,
+        "h": 39,
+        "fontSize": 9
+      },
+      {
+        "type": "text",
+        "text": "SOURCE ↗",
+        "x": 36,
+        "y": 598,
+        "w": 85,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Also cited: Bolt et al. (2025); Huillery (2009); Kohli (1994); Haggard et al. (1997); Dolan (1993); Asadullah et al. (2024); Xenos (1970); Nasution (2000); Beugelsdijk and Welzel (2018); National Archives Department (n.d.). Full registered entries accompany the production master. The online appendix link remains pending.",
+        "x": 36,
+        "y": 687,
+        "w": 523,
+        "h": 60,
+        "fontSize": 8.5
+      }
+    ],
+    "sources": "Complete source appendix: [LINK / QR PLACEHOLDER]. The full bibliography accompanies this edition; the online appendix link remains pending.",
+    "limit": ""
+  },
+  {
+    "page": 28,
+    "title": "About this edition.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / COLOPHON",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "About this edition.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Six cases. Three anchor years. Evidence, interpretation and group views kept separate.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "Chart credits: World Bank WDI and ILO modelled employment. Charts use recorded observations, not invented annual values. Map: Natural Earth 1:110m Admin 0 Countries, v5.1.1; public-domain generalized present-day boundaries. Photo credits: p. 29.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "28",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Complete editorial draft — final evidence, rights and physical-print checks pending.",
+        "x": 36,
+        "y": 239,
+        "w": 523,
+        "h": 95,
+        "fontSize": 27
+      },
+      {
+        "type": "text",
+        "text": "What is measured",
+        "x": 36,
+        "y": 374,
+        "w": 249,
+        "h": 53,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "Income uses constant 2015 US dollars per person—not purchasing power. Employment uses a visible 1991 proxy for 1990. No annual values or trust scores are invented.",
+        "x": 36,
+        "y": 433,
+        "w": 249,
+        "h": 80,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "What is our view",
+        "x": 310,
+        "y": 374,
+        "w": 249,
+        "h": 53,
+        "fontSize": 21
+      },
+      {
+        "type": "text",
+        "text": "“Our take” passages reflect the group’s answers. They are opinions and interpretations—not additional research findings.",
+        "x": 310,
+        "y": 433,
+        "w": 249,
+        "h": 80,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "Still to check",
+        "x": 36,
+        "y": 562,
+        "w": 523,
+        "h": 30,
+        "fontSize": 19
+      },
+      {
+        "type": "text",
+        "text": "Final citations and rights; actual-size A4 print; colour and classroom-screen readability. The historical 1914 map remains unavailable pending verified artwork and original legend.",
+        "x": 36,
+        "y": 605,
+        "w": 523,
+        "h": 71,
+        "fontSize": 11
+      },
+      {
+        "type": "text",
+        "text": "TEAM NAME: [TO BE CONFIRMED]\nComplete source appendix: [LINK / QR PLACEHOLDER]",
+        "x": 36,
+        "y": 699,
+        "w": 523,
+        "h": 43,
+        "fontSize": 10.5
+      }
+    ],
+    "sources": "Chart credits: World Bank WDI and ILO modelled employment. Charts use recorded observations, not invented annual values. Map: Natural Earth 1:110m Admin 0 Countries, v5.1.1; public-domain generalized present-day boundaries. Photo credits: p. 29.",
+    "limit": ""
+  },
+  {
+    "page": 29,
+    "title": "The people behind the pictures.",
+    "elements": [
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA / CREDITS",
+        "x": 36,
+        "y": 23,
+        "w": 490,
+        "h": 15,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "The people behind the pictures.",
+        "x": 36,
+        "y": 65,
+        "w": 523,
+        "h": 99,
+        "fontSize": 42
+      },
+      {
+        "type": "text",
+        "text": "Twelve country-specific photographs. Images give context—not proof of culture, trust or growth.",
+        "x": 36,
+        "y": 175,
+        "w": 523,
+        "h": 47,
+        "fontSize": 11.5
+      },
+      {
+        "type": "text",
+        "text": "All photographs resized only, without cropping or content changes. Source-page and licence links are attached below. Check the licence terms before reusing or changing an image.",
+        "x": 36,
+        "y": 772,
+        "w": 523,
+        "h": 41,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "AFRICA & ASIA",
+        "x": 36,
+        "y": 824,
+        "w": 430,
+        "h": 12,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "29",
+        "x": 523,
+        "y": 820,
+        "w": 36,
+        "h": 18,
+        "fontSize": 10
+      },
+      {
+        "type": "text",
+        "text": "Ghana",
+        "x": 56,
+        "y": 238,
+        "w": 155,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "JulianGrayscales (2020-02-08). Tema port · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 239,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Amuzujoe (2020-11-27). Market Accra · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 262,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 285,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 285,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 285,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 285,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Botswana",
+        "x": 56,
+        "y": 306,
+        "w": 155,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Sarvesh Lutchmun (2015-08-06). Bus Terminal in Gaborone, Botswana · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 307,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Paul tk (2018-09-14). MochudiBotswanaSolarPanel · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 330,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 353,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 353,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 353,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 353,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Mauritius",
+        "x": 56,
+        "y": 374,
+        "w": 155,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Didier Baertschiger (2015-03-09). Mauritius - Port Louis (Central Market) · CC BY-SA 2.0.",
+        "x": 218,
+        "y": 375,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Richard N Horne (2025-04-03). Port Louis, Mauritius, Bulk Sugar Terminal Quay · CC BY 4.0.",
+        "x": 218,
+        "y": 398,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 421,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 421,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 421,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 421,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "South Korea",
+        "x": 56,
+        "y": 442,
+        "w": 155,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Svwmal (2012-04-08). South Korea Busan harbour · CC BY-SA 3.0.",
+        "x": 218,
+        "y": 443,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Gaël Chardon (2008-04-21). Korea-Seoul-Gyeongdong Market-01 · CC BY-SA 2.0.",
+        "x": 218,
+        "y": 466,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 489,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 489,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 489,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 489,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Malaysia",
+        "x": 56,
+        "y": 510,
+        "w": 155,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "HundenvonPenang (2024-01-27). Perai Industrial Zone, Seberang Perai, Penang · CC BY-SA 4.0.",
+        "x": 218,
+        "y": 511,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "jgmorard (2009-03-01). 090301.020.PortKlang · CC BY 2.0.",
+        "x": 218,
+        "y": 534,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 557,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 557,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 557,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 557,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Philippines",
+        "x": 56,
+        "y": 578,
+        "w": 155,
+        "h": 24,
+        "fontSize": 12
+      },
+      {
+        "type": "text",
+        "text": "Theurbanhistorian (2009-07-18). Port of Manila · CC BY-SA 3.0.",
+        "x": 218,
+        "y": 579,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "george ruiz (2013-01-04). The Philippines — seaside market in Manila · CC BY 2.0.",
+        "x": 218,
+        "y": 602,
+        "w": 341,
+        "h": 21,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "Image A ↗",
+        "x": 218,
+        "y": 625,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 286,
+        "y": 625,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Image B ↗",
+        "x": 358,
+        "y": 625,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Licence ↗",
+        "x": 428,
+        "y": 625,
+        "w": 66,
+        "h": 13,
+        "fontSize": 8
+      },
+      {
+        "type": "text",
+        "text": "Map: Natural Earth. (n.d.). Admin 0 – Countries, 1:110m Cultural Vectors (v5.1.1). Public-domain data; generalized present-day boundaries, not historical geometry. Mauritius is located by point at this scale.",
+        "x": 36,
+        "y": 660,
+        "w": 523,
+        "h": 43,
+        "fontSize": 8.5
+      },
+      {
+        "type": "text",
+        "text": "MAP SOURCE ↗",
+        "x": 36,
+        "y": 714,
+        "w": 160,
+        "h": 17,
+        "fontSize": 8
+      }
+    ],
+    "sources": "All photographs resized only, without cropping or content changes. Source-page and licence links are attached below. Check the licence terms before reusing or changing an image.",
+    "limit": ""
+  }
+]

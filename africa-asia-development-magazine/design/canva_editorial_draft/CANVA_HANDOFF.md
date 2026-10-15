@@ -1,5 +1,7 @@
 # Canva editorial draft — 12 October 2026
 
+> This document records the original draft. For the latest 28-page WHY editorial revision and current edit/view links, see [CANVA_LINKS.md](../../CANVA_LINKS.md).
+
 Status: **REVIEW**. This is a complete editorial draft, not a publication-ready report.
 
 ## Saved Canva design

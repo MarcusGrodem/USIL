@@ -1,21 +1,26 @@
-Question,Correct Answer,Incorrect Answer 1,Incorrect Answer 2,Incorrect Answer 3
-How many countries does the project study?,6,4,8,10
-Which continent has Ghana Botswana and Mauritius?,Africa,Asia,Europe,South America
-Which continent has South Korea Malaysia and Philippines?,Asia,Africa,Europe,North America
-Which two countries are the main comparison pair?,Ghana and South Korea,Nigeria and Japan,Kenya and China,Egypt and India
-In 1960 Ghana and South Korea had similar what?,Income per person,Population size,Land area,Military size
-By 2020 which country became much richer?,South Korea,Ghana,Both equally,Neither changed
-Is Africa treated as one single culture in this project?,No — each country is different,Yes — one African culture,Only partly,Depends on the region
-Is Asia treated as one single culture in this project?,No — each country is different,Yes — one Asian culture,Only for East Asia,Depends on the religion
-What is the main question of the whole project?,Why did some economies grow faster than others?,Why is Africa bigger than Asia?,Which continent has more resources?,Why do people move between continents?
-Is culture the main cause of economic differences in this project?,No — it is one factor among many,Yes — culture is the main cause,Yes — but only in Africa,No — culture has no effect at all
-What did colonial infrastructure mainly connect?,Mines and farms to ports for export,Cities to each other inside the country,Schools to factories,Villages to hospitals
-What is the name of the team's first theory?,Connected Development Theory,Export Growth Theory,Culture First Theory,Border Trade Theory
-What does the Connected Development Theory focus on?,Who and what infrastructure connects,How much money a country has,How large a country is,How many people live in cities
-Which African country grew fast and challenges simple culture arguments?,Botswana,Ghana,Nigeria,Sudan
-Which Asian country did NOT grow as fast as South Korea?,Philippines,Japan,China,Singapore
-How many original theories did the team create?,3,1,5,7
-What must a good policy have according to Theory 3?,Long enough direction AND ability to fix mistakes,Only short-term goals,Strong military support,Foreign investment
-What is Hofstede known for?,Measuring cultural differences between countries,Measuring economic growth,Measuring infrastructure quality,Measuring trust in governments
-Can one Hofstede score describe every person in a country?,No — it is a national average only,Yes — it describes everyone,Only in small countries,Only for young people
-What is this project's final conclusion about culture?,Culture matters but it does not explain everything alone,Culture explains everything,Culture explains nothing,Only African culture matters
+Question #,Question Text,Answer 1,Answer 2,Answer 3 (Optional),Answer 4 (Optional),Time Limit (sec) (Max: 300 Seconds),Correct Answer(s) (Only Include Answer #)
+1,How much apart were Ghana and South Korea's income per person in 1960?,US$63 apart,US$500 apart,US$1000 apart,US$2000 apart,20,1
+2,What was Ghana's income per person in 2020?,US$10000,US$1970,US$500,US$5000,20,2
+3,What was South Korea's income per person in 2020?,US$10000,US$5000,US$33216,US$20000,20,3
+4,How many times richer was South Korea than Ghana in 2020?,16.9 times,5 times,3 times,30 times,20,1
+5,What was Botswana's income per person in 1960?,US$1101,US$1038,US$1124,US$394,20,4
+6,What did Ghana's colonial railway originally connect?,Cities to each other,Schools to factories,Villages to hospitals,Coast and ports to mining areas,20,4
+7,When did Ghana gain independence?,1945,1957,1968,1970,20,2
+8,When did South Korea establish its Republic?,1957,1960,1945 / 1948,1953,20,3
+9,What did Botswana inherit at independence?,A strong railway,Few public assets and limited skills,Large factories,Many universities,20,2
+10,What was Mauritius's main export at independence?,Cocoa,Sugar,Diamonds,Fish,20,2
+11,What happened in South Korea in the 1970s?,The economy collapsed,South Korea started exporting cocoa,The country became a democracy,Heavy industry expanded but brought debt and problems,20,4
+12,What was South Korea's step in the 1980s?,Push and pay,Recover,Coordinate,Correct and upgrade,20,4
+13,What is the magazine's group view on Hofstede?,Culture matters. It isn't destiny.,Culture explains everything,Culture is irrelevant,Only long-term orientation matters,20,1
+14,What are the four types of trust the magazine describes?,Family money work love,A person a network an institution a survey answer,Government school church market,Personal national regional global,25,2
+15,What was the verdict on the trust theory?,Fully supported,Rejected completely,Inconclusive,Accepted with exceptions,20,3
+16,What did the magazine find about family networks?,Always a weakness,Mainly a strength but can become a limit,Not relevant to economics,Only important in Africa,20,2
+17,What was Botswana's main source of wealth?,Cocoa exports,Tourism,Mineral income,Sugar exports,20,3
+18,What did the team find about the claim that Asia trusts more?,It was proven true,It was their initial impression — not proven by the evidence,It was completely false,It only applies to South Korea,25,2
+19,Which country showed that global trade alone is not enough?,Ghana,Botswana,Malaysia,Philippines,20,4
+20,What did the Philippines inherit?,Cocoa exports and railways,Mineral wealth,Sugar plantations,Formal institutions and education with concentrated power,25,4
+21,What does the workshop wheel say?,Export as fast as possible,Copy South Korea exactly,Build. Learn. Improve. Repeat.,Only culture drives growth,20,3
+22,What does the magazine say about exporting products?,Exporting always means keeping all the value,Exports equal local skills,Exports equal local value,Made here is not the whole story,20,4
+23,What six ingredients go into productive capability on page 24?,Money land people religion climate war,History institutions resources skills markets culture,Exports roads banks schools farms ports,Culture language religion food music sport,25,2
+24,What does the magazine say development should feel like?,A bigger GDP number,More exports,Faster factories,A better life — health buying power and freedom,20,4
+25,What is the magazine's final statement?,Culture explains the whole gap,History shapes the start. It does not fix the finish.,Asia always wins,Africa cannot develop,20,2

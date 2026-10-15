@@ -1185,7 +1185,7 @@
       },
       {
         "type": "text",
-        "text": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d., “Independence”); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Map geometry: Natural Earth (n.d.), 1:110m Cultural Vectors, Admin 0 – Countries, v5.1.1; present-day generalized de facto boundaries; public-domain data. https://www.naturalearthdata.com/downloads/110m-cultural-vectors/. Mauritius is located by point marker at this global scale; its island outline is too small to render.",
+        "text": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d., “Independence”); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Locator geometry: Natural Earth (n.d.), 1:110m Admin 0 – Countries, v5.1.1; generalized present-day boundaries, not historical geometry. Full citation and public-domain note: p. 30. Mauritius is located by point marker at this scale.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -1471,7 +1471,7 @@
         "fontSize": 8.7
       }
     ],
-    "sources": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d., “Independence”); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Map geometry: Natural Earth (n.d.), 1:110m Cultural Vectors, Admin 0 – Countries, v5.1.1; present-day generalized de facto boundaries; public-domain data. https://www.naturalearthdata.com/downloads/110m-cultural-vectors/. Mauritius is located by point marker at this global scale; its island outline is too small to render.",
+    "sources": "World Bank (1985, p. 18); Maipose (2008, pp. 3–5); National Archives Department (n.d., “Independence”); Haggard et al. (1997, pp. 867–870); Asadullah et al. (2024, pp. 13–15); Dolan (1993), archival recheck pending. Locator geometry: Natural Earth (n.d.), 1:110m Admin 0 – Countries, v5.1.1; generalized present-day boundaries, not historical geometry. Full citation and public-domain note: p. 30. Mauritius is located by point marker at this scale.",
     "limit": "The locator uses generalized present-day boundaries and country markers, not a 1914 map or a development score. A political date is not a comparable measure of state capacity."
   },
   {
@@ -6612,7 +6612,7 @@
       },
       {
         "type": "text",
-        "text": "Rights audit and asset IDs: research/asset_rights_register.csv; country short-list and limits: research/country_photography_audit.md.",
+        "text": "Rights audit and asset IDs: research/asset_rights_register.csv; country short-list and limits: research/country_photography_audit.md. The map locates cases only; photography cannot establish development outcomes or causality.",
         "x": 36,
         "y": 763,
         "w": 523,
@@ -6636,24 +6636,6 @@
         "w": 36,
         "h": 19,
         "fontSize": 11
-      },
-      {
-        "type": "text",
-        "text": "WHAT THIS CANNOT PROVE",
-        "x": 36,
-        "y": 698,
-        "w": 523,
-        "h": 15,
-        "fontSize": 8
-      },
-      {
-        "type": "text",
-        "text": "The map locates cases only. Photography cannot establish development outcomes or causality.",
-        "x": 36,
-        "y": 715,
-        "w": 523,
-        "h": 34,
-        "fontSize": 9
       },
       {
         "type": "text",
@@ -7052,7 +7034,7 @@
         "fontSize": 8.5
       }
     ],
-    "sources": "Rights audit and asset IDs: research/asset_rights_register.csv; country short-list and limits: research/country_photography_audit.md.",
-    "limit": "The map locates cases only. Photography cannot establish development outcomes or causality."
+    "sources": "Rights audit and asset IDs: research/asset_rights_register.csv; country short-list and limits: research/country_photography_audit.md. The map locates cases only; photography cannot establish development outcomes or causality.",
+    "limit": ""
   }
 ]

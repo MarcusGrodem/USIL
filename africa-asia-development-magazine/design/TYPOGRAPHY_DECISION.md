@@ -82,3 +82,7 @@ Current figure SVGs updated by this decision:
 - Self-contained HTML + base64 fonts: `design/typography_tester/type-001_visual_tester.html`, `design/typography_tester/fonts.css`
 - Current figure specs (updated by this decision): `design/figures/SIX_COUNTRY_GDP_ANCHOR_SPEC.md`, `design/figures/EMPLOYMENT_STRUCTURAL_TRANSFORMATION_SPEC.md`, `design/figures/MANUFACTURING_SHARE_SPEC.md`, `design/figures/THEORY_EVIDENCE_MATRIX_SPEC.md`
 - Task log: `project-control/logs/TYPE-001.md`
+
+## User-directed editorial-draft revision — 2026-10-12
+
+The project lead requested more typographic variety in the Canva magazine. For the current editorial draft only, **Alegreya Bold** is added for cover and page headlines; **Montserrat** remains the body, label, caption, data, and figure family, with its existing weight and tabular-numeral rules. This is a deliberate serif/sans contrast, not a change to any evidence, figure value, or country-colour meaning. Canva thumbnails confirm Alegreya is rendered in the imported design. The revised pairing remains a draft pending physical A4 and presentation-distance review; it does not claim that the earlier Montserrat-only release decision or its final physical gate has been completed.

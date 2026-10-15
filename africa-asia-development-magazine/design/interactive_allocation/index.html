@@ -1,0 +1,1230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>You have 100 points — Africa &amp; Asia Development Magazine</title>
+  <meta name="description" content="Classroom thought experiment: allocate 100 points across six development priorities and find the closest of six country discussion profiles." />
+
+  <!-- Single-file build. Styles and script are inlined so this HTML file
+       runs on its own with no external files. Edit the PROFILES and
+       COUNTRIES data blocks inside the inline script at the bottom to
+       update the rubric or country copy. -->
+
+  <style>
+  /* Africa & Asia Development Magazine — classroom allocation activity.
+     Evidence Ledger system — paper cream, charcoal, Montserrat, generous
+     spacing. Country colours only stand for a country; the six category
+     sliders use a locked, non-country category palette. */
+
+  :root {
+    --paper: #F4F0E7;
+    --paper-shade: #ECE6D8;
+    --paper-deep: #E2DACB;
+    --charcoal: #252525;
+    --neutral: #514E48;
+    --grey: #B7B0A4;
+
+    --cat-schools:   #2E5F8A;
+    --cat-factories: #7A3F2F;
+    --cat-transport: #6B5A2F;
+    --cat-health:    #3B6B55;
+    --cat-security:  #4A3F6B;
+    --cat-state:     #8A4F2F;
+
+    --font-sans: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    --measure: 62ch;
+  }
+
+  *,*::before,*::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--charcoal);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    font-feature-settings: "tnum" 1, "lnum" 1;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px; height: 1px; overflow: hidden;
+    white-space: nowrap; border: 0; padding: 0;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: 1rem; top: -3rem;
+    background: var(--charcoal); color: var(--paper);
+    padding: .5rem 1rem;
+    text-decoration: none; font-weight: 600;
+    z-index: 100;
+  }
+  .skip-link:focus { top: 1rem; }
+  :focus-visible { outline: 3px solid var(--charcoal); outline-offset: 3px; }
+
+  /* ============================== HEADER =============================== */
+
+  .page-head {
+    background: var(--paper);
+    border-bottom: 2px solid var(--charcoal);
+    overflow: hidden;
+  }
+  .head-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 2.5rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+  @media (min-width: 900px) {
+    .head-grid {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      align-items: end;
+      gap: 3rem;
+    }
+  }
+  .eyebrow {
+    font-size: .75rem; font-weight: 700;
+    letter-spacing: .18em; text-transform: uppercase;
+    color: var(--neutral);
+    margin: 0 0 1rem;
+  }
+  .page-head h1 {
+    font-size: clamp(2.25rem, 1.2rem + 4.2vw, 4.75rem);
+    font-weight: 900;
+    line-height: .98;
+    letter-spacing: -0.02em;
+    margin: 0 0 1.25rem;
+  }
+  .hundred {
+    font-weight: 900;
+    background: var(--charcoal);
+    color: var(--paper);
+    padding: 0 .18em .02em;
+    display: inline-block;
+    line-height: 1;
+  }
+  .deck {
+    font-size: clamp(1rem, .95rem + .3vw, 1.125rem);
+    font-weight: 500;
+    color: var(--neutral);
+    max-width: 36ch;
+    margin: 0;
+  }
+  .deck em { font-style: italic; color: var(--charcoal); }
+
+  .country-strip {
+    list-style: none; margin: 0; padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .5rem;
+  }
+  @media (min-width: 1100px) { .country-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  .country-chip {
+    display: flex; align-items: center; gap: .5rem;
+    padding: .5rem .625rem;
+    background: var(--paper-shade);
+    border: 1px solid var(--charcoal);
+    font-size: .8125rem; font-weight: 600;
+  }
+  .country-chip .marker { flex: 0 0 18px; width: 18px; height: 18px; }
+
+  /* ============================= LAYOUT ================================ */
+
+  .layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+    display: grid;
+    gap: 3.5rem;
+  }
+  .section-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    flex-wrap: wrap; gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .section-heading {
+    font-size: 1rem; font-weight: 800;
+    letter-spacing: .14em; text-transform: uppercase;
+    margin: 0;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid var(--charcoal);
+    display: inline-block;
+  }
+  .dates-note { font-size: .8125rem; color: var(--neutral); }
+  .dates-note summary { cursor: pointer; font-weight: 600; }
+  .dates-note[open] summary { margin-bottom: .5rem; }
+  .dates-note p { margin: 0; max-width: 56ch; }
+
+  /* ============================== TOTALS =============================== */
+
+  .totals {
+    background: var(--paper);
+    border: 2px solid var(--charcoal);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "readout status"
+      "progress progress";
+    align-items: center;
+  }
+  @media (max-width: 540px) {
+    .totals {
+      grid-template-columns: 1fr;
+      grid-template-areas: "readout" "progress" "status";
+    }
+  }
+  .total-readout { grid-area: readout; display: flex; align-items: baseline; gap: .5rem; }
+  .total-value {
+    font-size: clamp(3rem, 2rem + 4vw, 5rem);
+    font-weight: 900;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .total-of { font-size: 1.25rem; color: var(--neutral); font-weight: 600; }
+  .total-status {
+    grid-area: status; margin: 0;
+    font-weight: 600; font-size: .9375rem;
+    max-width: 32ch;
+    justify-self: end; text-align: right;
+  }
+  @media (max-width: 540px) {
+    .total-status { justify-self: start; text-align: left; }
+  }
+  .total-status[data-state="under"]::before { content: "— "; font-weight: 700; }
+  .total-status[data-state="ok"]::before    { content: "✓ "; font-weight: 700; }
+
+  .progress {
+    grid-area: progress;
+    height: 10px;
+    background: var(--paper-deep);
+    border: 1px solid var(--charcoal);
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--charcoal);
+    width: 0;
+    transition: width .18s ease-out;
+  }
+
+  /* ============================== SLIDERS ============================== */
+
+  .sliders {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0;
+    display: grid;
+    gap: 0;
+    border-top: 1px solid var(--charcoal);
+  }
+  .slider-row {
+    --cat: var(--charcoal);
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "num label value"
+      "num slider slider";
+    gap: .5rem 1rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--grey);
+    align-items: center;
+  }
+  .slider-row[data-key="schools"]    { --cat: var(--cat-schools); }
+  .slider-row[data-key="factories"]  { --cat: var(--cat-factories); }
+  .slider-row[data-key="transport"]  { --cat: var(--cat-transport); }
+  .slider-row[data-key="health"]     { --cat: var(--cat-health); }
+  .slider-row[data-key="security"]   { --cat: var(--cat-security); }
+  .slider-row[data-key="state"]      { --cat: var(--cat-state); }
+  .slider-num {
+    grid-area: num;
+    width: 2.25rem; height: 2.25rem;
+    display: inline-flex;
+    align-items: center; justify-content: center;
+    background: var(--cat);
+    color: var(--paper);
+    font-weight: 800;
+    font-size: .9375rem;
+    font-variant-numeric: tabular-nums;
+    align-self: start;
+  }
+  .slider-label {
+    grid-area: label;
+    font-weight: 700;
+    font-size: 1.0625rem;
+    color: var(--charcoal);
+    align-self: end;
+  }
+  .slider-value {
+    grid-area: value;
+    font-weight: 800;
+    font-size: 1.5rem;
+    min-width: 3ch;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--cat);
+    align-self: end;
+    line-height: 1;
+  }
+
+  input[type="range"] {
+    grid-area: slider;
+    width: 100%;
+    margin: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    cursor: pointer;
+    padding: .5rem 0;
+    --pct: 0%;
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 8px;
+    background: linear-gradient(to right,
+      var(--cat) 0 var(--pct),
+      var(--paper-deep) var(--pct) 100%);
+    border: 1px solid var(--charcoal);
+  }
+  input[type="range"]::-moz-range-track {
+    height: 8px;
+    background: var(--paper-deep);
+    border: 1px solid var(--charcoal);
+  }
+  input[type="range"]::-moz-range-progress {
+    height: 8px;
+    background: var(--cat);
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none;
+    width: 24px; height: 24px;
+    margin-top: -9px;
+    background: var(--paper);
+    border: 3px solid var(--charcoal);
+    border-radius: 50%;
+  }
+  input[type="range"]::-moz-range-thumb {
+    width: 24px; height: 24px;
+    background: var(--paper);
+    border: 3px solid var(--charcoal);
+    border-radius: 50%;
+  }
+  input[type="range"]:focus-visible::-webkit-slider-thumb { background: var(--cat); }
+  input[type="range"]:focus-visible::-moz-range-thumb { background: var(--cat); }
+  input[type="range"][data-locked="true"]::-webkit-slider-thumb { background: var(--paper-deep); }
+  input[type="range"][data-locked="true"]::-moz-range-thumb    { background: var(--paper-deep); }
+
+  /* ============================== BUTTONS ============================== */
+
+  .actions, .result-actions {
+    display: flex; flex-wrap: wrap; gap: 1rem;
+  }
+  .btn {
+    font-family: inherit;
+    font-size: 1rem; font-weight: 700;
+    letter-spacing: .02em;
+    padding: .9rem 1.4rem;
+    border: 2px solid var(--charcoal);
+    background: var(--charcoal);
+    color: var(--paper);
+    cursor: pointer;
+    transition: transform .08s ease-out;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn:active { transform: translateY(0); }
+  .btn-primary[disabled] {
+    background: var(--paper-deep);
+    color: var(--neutral);
+    border-color: var(--grey);
+    cursor: not-allowed;
+    transform: none;
+  }
+  .btn-ghost { background: transparent; color: var(--charcoal); }
+  .btn:focus-visible { outline: 3px solid var(--charcoal); outline-offset: 3px; }
+
+  /* ============================== RESULT =============================== */
+
+  .result {
+    border: 2px solid var(--charcoal);
+    overflow: hidden;
+  }
+  .result[hidden] { display: none; }
+  .result-hero {
+    background: var(--country);
+    color: var(--paper);
+    padding: 2rem 1.75rem;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 1.25rem;
+    align-items: center;
+  }
+  .result-hero .eyebrow { color: var(--paper); opacity: .85; margin: 0 0 .5rem; }
+  .result-hero h3 {
+    margin: 0;
+    font-size: clamp(1.75rem, 1.4rem + 1.6vw, 2.5rem);
+    font-weight: 900;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+
+  .result-caveat {
+    background: var(--paper-shade);
+    border-top: 2px solid var(--charcoal);
+    padding: 1rem 1.75rem;
+    font-size: .875rem;
+    margin: 0;
+    color: var(--charcoal);
+  }
+  .result-caveat strong { font-weight: 800; }
+
+  .result-body-inner {
+    padding: 1.75rem;
+    display: grid;
+    gap: 2rem;
+  }
+  .result-section h4 {
+    margin: 0 0 .75rem;
+    font-size: .75rem;
+    letter-spacing: .14em; text-transform: uppercase;
+    color: var(--neutral);
+    font-weight: 800;
+  }
+  .result-section p { margin: 0 0 .5rem; max-width: var(--measure); }
+  .result-section ul { margin: 0; padding-left: 1.1rem; }
+  .result-section li { margin-bottom: .75rem; max-width: var(--measure); }
+  cite { font-style: normal; font-size: .8125rem; color: var(--neutral); }
+
+  .insight-grid {
+    display: grid; gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  }
+  .insight, .limit {
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--charcoal);
+    background: var(--paper);
+  }
+  .insight { border-left: 6px solid var(--country); }
+  .limit   { border-left: 6px solid var(--neutral); }
+  .insight h4, .limit h4 { margin-top: 0; }
+
+  .result-actions {
+    padding: 1.25rem 1.75rem;
+    border-top: 1px solid var(--charcoal);
+    background: var(--paper-shade);
+  }
+
+  .brief-history p { max-width: var(--measure); margin: 0 0 .375rem; }
+  .brief-history cite { display: block; margin-bottom: .75rem; }
+  .close-fits { font-size: .9375rem; color: var(--neutral); margin-top: .75rem; }
+
+  /* --------------------- Factor-by-factor breakdown -------------------- */
+
+  .factors-lede {
+    max-width: var(--measure);
+    color: var(--neutral);
+    margin: 0 0 1.25rem;
+  }
+  .factors {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; gap: 1rem;
+  }
+  .factor {
+    background: var(--paper);
+    border: 1px solid var(--charcoal);
+    border-left: 6px solid var(--grey);
+    padding: 1.1rem 1.25rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    grid-template-areas:
+      "head   points"
+      "body   body";
+    gap: 1rem 1.5rem;
+    align-items: start;
+  }
+  @media (max-width: 640px) {
+    .factor {
+      grid-template-columns: 1fr;
+      grid-template-areas: "head" "points" "body";
+      gap: .75rem;
+    }
+  }
+  .factor--top { border-left-color: var(--country); border-left-width: 8px; }
+  .factor--zero { opacity: .72; border-left-style: dashed; }
+  .factor-head { grid-area: head; }
+  .factor-rank {
+    margin: 0 0 .25rem;
+    font-size: .6875rem;
+    font-weight: 800;
+    letter-spacing: .14em; text-transform: uppercase;
+    color: var(--country, var(--neutral));
+  }
+  .factor--zero .factor-rank { color: var(--neutral); }
+  .factor-label {
+    margin: 0;
+    font-size: 1.125rem; font-weight: 800;
+    color: var(--charcoal);
+    line-height: 1.2;
+  }
+  .factor-points {
+    grid-area: points;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .5rem;
+    font-variant-numeric: tabular-nums;
+    font-size: .9375rem;
+    align-self: start;
+  }
+  .factor-points > span {
+    display: flex; flex-direction: column;
+    padding: .375rem .5rem;
+    background: var(--paper-shade);
+    border: 1px solid var(--grey);
+  }
+  .factor-points .dim {
+    font-size: .6875rem;
+    letter-spacing: .08em; text-transform: uppercase;
+    color: var(--neutral);
+    font-weight: 700;
+    margin-bottom: .125rem;
+  }
+  .factor-points strong {
+    font-size: 1.25rem; font-weight: 800;
+    color: var(--charcoal);
+  }
+  .factor--top .factor-you strong { color: var(--country); }
+
+  .factor-body { grid-area: body; }
+  .factor-intro {
+    margin: 0 0 .375rem;
+    font-size: .8125rem;
+    letter-spacing: .08em; text-transform: uppercase;
+    color: var(--neutral);
+  }
+  .factor-intro strong { color: var(--charcoal); font-weight: 800; }
+  .factor-evidence { margin: 0 0 .375rem; max-width: var(--measure); }
+  .factor-evidence.placeholder {
+    color: var(--neutral);
+    font-style: italic;
+    padding: .5rem .75rem;
+    background: var(--paper-shade);
+    border-left: 3px solid var(--grey);
+  }
+
+  .ranking-details {
+    border: 1px solid var(--charcoal);
+    padding: 1rem 1.25rem;
+    background: var(--paper);
+  }
+  .ranking-details summary { font-weight: 700; cursor: pointer; }
+  .ranking-details[open] summary { margin-bottom: 1rem; }
+  .ranking-details .muted { max-width: var(--measure); margin: 0 0 1rem; }
+  .muted { color: var(--neutral); }
+  .small { font-size: .8125rem; }
+
+  /* Tables */
+  .distance-table, .weights-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .9375rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .distance-table caption {
+    text-align: left; font-weight: 700; margin-bottom: .5rem;
+    font-size: .8125rem; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--neutral);
+  }
+  .distance-table th, .distance-table td,
+  .weights-table th, .weights-table td {
+    text-align: left;
+    padding: .5rem .75rem;
+    border-bottom: 1px solid var(--grey);
+  }
+  .distance-table th, .weights-table thead th {
+    font-weight: 700;
+    background: var(--paper-shade);
+  }
+  .distance-table td.num, .weights-table td.num { text-align: right; }
+  .weights-table thead th { border-bottom: 2px solid var(--charcoal); }
+  .distance-table tr.winner td { font-weight: 800; background: var(--paper-shade); }
+
+  /* ============================= HOW MATCH ============================= */
+
+  .how-match-lede { max-width: var(--measure); margin: 0 0 1rem; color: var(--neutral); }
+  .how-match details {
+    border: 1px solid var(--charcoal);
+    padding: 1rem 1.25rem;
+    background: var(--paper);
+  }
+  .how-match details summary { font-weight: 700; cursor: pointer; }
+  .how-match details[open] summary { margin-bottom: 1rem; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: .9em;
+    background: var(--paper-shade);
+    padding: 0 .25em;
+  }
+
+  /* ============================= MARKERS =============================== */
+
+  .marker {
+    display: inline-flex;
+    align-items: center; justify-content: center;
+    width: 20px; height: 20px; flex: 0 0 20px;
+    vertical-align: middle;
+  }
+  .marker svg { display: block; width: 100%; height: 100%; overflow: visible; }
+  .marker--lg { width: 48px; height: 48px; flex-basis: 48px; }
+
+  /* ============================== FOOT ================================= */
+
+  .page-foot {
+    border-top: 1px solid var(--charcoal);
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: .8125rem;
+    color: var(--neutral);
+  }
+  .page-foot p { margin: 0; max-width: 72ch; }
+
+  @media (max-width: 540px) {
+    .layout { padding: 2rem 1rem 3rem; gap: 2.5rem; }
+    .head-grid { padding: 2.25rem 1rem 1.75rem; }
+    .result-hero, .result-body-inner, .result-actions, .result-caveat {
+      padding-left: 1.25rem; padding-right: 1.25rem;
+    }
+  }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#allocator">Skip to the activity</a>
+
+  <header class="page-head" role="banner">
+    <div class="head-grid">
+      <div class="head-text">
+        <p class="eyebrow">Classroom activity · Page 9</p>
+        <h1>You have <span class="hundred">100</span> points.<br/>What would you prioritise?</h1>
+        <p class="deck">Divide the points. The points show what <em>you</em> would prioritise — not a real budget.</p>
+      </div>
+      <ul class="country-strip" aria-label="The six discussion profiles in this activity"></ul>
+    </div>
+  </header>
+
+  <main id="main" class="layout">
+    <section id="allocator" class="allocator" aria-labelledby="allocator-heading">
+      <div class="section-head">
+        <h2 id="allocator-heading" class="section-heading">Allocate</h2>
+        <details class="dates-note">
+          <summary>About the 1960 framing</summary>
+          <p>The six cases were not all independent states in 1960. Ghana independent 1957, Philippines 1946, Republic of Korea established 1948, Federation of Malaysia 1963, Botswana 1966, Mauritius 1968. Treat the exercise as advice about a country's development choices, not as a claim you were head of state.</p>
+        </details>
+      </div>
+
+      <form id="allocator-form" novalidate>
+        <div class="totals" role="group" aria-labelledby="total-heading">
+          <h3 id="total-heading" class="visually-hidden">Running total</h3>
+          <div class="total-readout" aria-live="polite" aria-atomic="true">
+            <span id="total-value" class="total-value">0</span>
+            <span class="total-of">/ 100</span>
+          </div>
+          <div class="progress" aria-hidden="true">
+            <div id="progress-fill" class="progress-fill" style="width:0%"></div>
+          </div>
+          <p id="total-status" class="total-status" aria-live="polite">Move the sliders until the total is 100.</p>
+        </div>
+
+        <ol class="sliders" role="list"></ol>
+
+        <div class="actions">
+          <button id="submit-btn" type="submit" class="btn btn-primary" disabled>See the closest profile →</button>
+          <button id="reset-btn" type="button" class="btn btn-ghost">Reset</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="result" class="result" aria-labelledby="result-heading" hidden>
+      <h2 id="result-heading" class="visually-hidden">Your closest discussion profile</h2>
+      <div id="result-body" aria-live="polite"></div>
+      <div class="result-actions">
+        <button id="retry-same" type="button" class="btn btn-ghost">Keep points and adjust</button>
+        <button id="retry-reset" type="button" class="btn btn-ghost">Reset and try again</button>
+      </div>
+    </section>
+
+    <section class="how-match" aria-labelledby="how-match-heading">
+      <h2 id="how-match-heading" class="section-heading">How the match works</h2>
+      <p class="how-match-lede">The six profiles are classroom archetypes written for this activity — not historical budgets or measurements. The closest fit is the profile whose six numbers differ least from yours. Edit the rubric by changing <code>PROFILES</code> in the inline script below.</p>
+      <details>
+        <summary>Inspect the six-profile rubric</summary>
+        <div id="rubric-table-wrap"></div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="page-foot" role="contentinfo">
+    <p>Africa &amp; Asia Development Magazine · classroom thought experiment. Sources drawn from the project's approved registry. Not publication-ready without evidence, accessibility and rights review.</p>
+  </footer>
+
+  <script>
+  /* Africa & Asia Development Magazine — classroom allocation activity.
+   *
+   * Three jobs:
+   *   1. Allocate exactly 100 points across six categories. Sliders clamp —
+   *      they cannot push the total above 100.
+   *   2. Compare the allocation against six teaching rubrics (PROFILES) via
+   *      a plain Manhattan distance.
+   *   3. Show approved country context, with the student's six-factor
+   *      allocation explained one factor at a time against the matched
+   *      country's record. APA citations are drawn from the project's
+   *      source registry.
+   *
+   * The rubric is an authored classroom archetype, not a historical budget.
+   * Where the approved registry does not yet carry country-specific evidence
+   * on a factor, the activity shows an honest placeholder rather than
+   * inventing a citation. Edit PROFILES and the per-country `factors`
+   * block only against approved registry rows. */
+
+  const CATEGORIES = [
+    { key: "schools",   label: "Schools and skills" },
+    { key: "factories", label: "Factories and productive firms" },
+    { key: "transport", label: "Roads and transport" },
+    { key: "health",    label: "Health" },
+    { key: "security",  label: "Security" },
+    { key: "state",     label: "State capacity" }
+  ];
+
+  const PLACEHOLDER_CITE = "[CITATION TO BE COMPLETED FROM APPROVED SOURCE REGISTRY]";
+  const PLACEHOLDER_TEXT =
+    "The approved source registry does not yet carry country-specific " +
+    "evidence on this factor. A reviewer must add a verified claim and " +
+    "locator before publication.";
+
+  /* Classroom archetypes — not historical budgets. Each profile sums to 100. */
+  const PROFILES = {
+    ghana:       { weights: { schools: 15, factories: 15, transport: 25, health: 15, security: 15, state: 15 },
+                   distinguishing_pattern: "Modest transport tilt reflecting an inherited export corridor; labour released from agriculture without manufacturing deepening." },
+    korea:       { weights: { schools: 25, factories: 30, transport: 15, health: 10, security: 10, state: 10 },
+                   distinguishing_pattern: "Schools and factories lead — the pattern behind early literacy and a doubled manufacturing share by 1990." },
+    botswana:    { weights: { schools: 15, factories: 10, transport: 10, health: 15, security: 15, state: 35 },
+                   distinguishing_pattern: "State capacity dominates — institutional choices and mineral-rent management mattered more than inherited infrastructure." },
+    mauritius:   { weights: { schools: 25, factories: 20, transport: 15, health: 20, security: 5, state: 15 },
+                   distinguishing_pattern: "Human capital and health lead, security small — negotiated adaptation from sugar to EPZ, tourism and services." },
+    malaysia:    { weights: { schools: 20, factories: 25, transport: 25, health: 10, security: 10, state: 10 },
+                   distinguishing_pattern: "Factories and transport top the profile — infrastructure, skills and firms linked to world markets, with foreign-led production." },
+    philippines: { weights: { schools: 20, factories: 10, transport: 15, health: 15, security: 20, state: 20 },
+                   distinguishing_pattern: "Weights spread fairly evenly, with less to factories — formal institutions and interrupted industrial deepening." }
+  };
+
+  /* Per-country facts for the result page.
+   *   history: one short paragraph, two sentences max.
+   *   factors: six keys matching CATEGORIES. Each is either a verified claim
+   *            with an APA short-form `cite`, or {placeholder:true}. */
+  const COUNTRIES = {
+    ghana: {
+      name: "Ghana",
+      colour: "#B95332",
+      shape: "circle",
+      dates: "Independence 1957",
+      history:
+        "Ghana became independent from Britain in 1957, inheriting a " +
+        "cocoa-dependent export economy with roads, a railway and Tema " +
+        "harbour already in place. GDP per capita rose from about US$1,101 in " +
+        "1960, fell to about US$856 by 1990 and recovered to about US$1,970 " +
+        "by 2020 (constant 2015 US$).",
+      history_cite: "World Bank (1985, p. 18/PDF p. 27, paras. 1.01–1.03); World Bank (2026). WDI, NY.GDP.PCAP.KD.",
+      factors: {
+        schools:   { text: "Ghana inherited a school system directed at the export sector. Between 1991 and 2020 agriculture's labour share fell from ~72% to ~37%, but the shift did not translate into manufacturing-level skills demand.",
+                     cite: "World Bank (1985, p. 18/PDF p. 27); World Bank (2026). WDI, SL.*.EMPL.ZS." },
+        factories: { text: "Manufacturing's share of GDP peaked near 14% in the mid-1970s, collapsed in the 1980s and recovered only partially to about 11% by 2020 — a pattern of partial, not sustained, deepening.",
+                     cite: "World Bank (2026). WDI, NV.IND.MANF.ZS." },
+        transport: { text: "At independence Ghana inherited roads, a railway in good condition and Tema harbour — but the network was oriented to exports, not to domestic industrial supply chains.",
+                     cite: "World Bank (1985, p. 18/PDF p. 27, paras. 1.01–1.03)" },
+        health:    { placeholder: true },
+        security:  { placeholder: true },
+        state:     { placeholder: true }
+      },
+      insight: "Labour left agriculture but did not deepen into manufacturing. Inherited infrastructure was oriented to exports, not to domestic industrial networks.",
+      limit: "Does not show that Ghana failed to transform at all, that one inherited feature caused divergence, or that culture prevented industry."
+    },
+
+    korea: {
+      name: "South Korea",
+      colour: "#315A78",
+      shape: "diamond",
+      dates: "Republic 1948 · Korean War 1950–53",
+      history:
+        "The Republic of Korea was established in 1948, after Japanese " +
+        "colonial rule ended in 1945 and before the Korean War disrupted " +
+        "institutional continuity. GDP per capita was about US$1,038 in 1960 " +
+        "(close to Ghana's) and reached about US$33,216 by 2020 (constant " +
+        "2015 US$).",
+      history_cite: "Haggard, Kang & Moon (1997, pp. 867–870, 875–877); World Bank (2026). WDI, NY.GDP.PCAP.KD.",
+      factors: {
+        schools:   { text: "Adult literacy was already about 71% around 1960 — far above Ghana's roughly 25% — and early literacy moved in step with later industrial capacity building.",
+                     cite: "World Bank (2023); Haggard, Kang & Moon (1997, pp. 867–881)" },
+        factories: { text: "Manufacturing's share of GDP more than doubled from ~11% in 1960 to ~25% by 1990, peaking near 29% in 2011; exports moved from primary goods to industrial outputs.",
+                     cite: "World Bank (2026). WDI, NV.IND.MANF.ZS." },
+        transport: { placeholder: true },
+        health:    { placeholder: true },
+        security:  { text: "National division, the Korean War and coercive politics shaped the setting in which post-1961 policy choices were made.",
+                     cite: "Haggard, Kang & Moon (1997, pp. 867–881)" },
+        state:     { text: "Historians disagree on how much of later growth is traceable to colonial institutions versus post-1961 coordinated investment under harsh political conditions.",
+                     cite: "Kohli (1994, pp. 1269–1291); Haggard, Kang & Moon (1997, pp. 867–881)" }
+      },
+      insight: "Early literacy, agricultural release and manufacturing capacity moved together; coordinated investment coexisted with education and infrastructure.",
+      limit: "Does not show that colonial rule was necessary, that culture drove the outcome, or that any single factor sufficed."
+    },
+
+    botswana: {
+      name: "Botswana",
+      colour: "#3F684E",
+      shape: "square",
+      dates: "Independence 30 September 1966",
+      history:
+        "Botswana (formerly the Bechuanaland Protectorate) became independent " +
+        "on 30 September 1966, with almost no industrial infrastructure. GDP " +
+        "per capita rose from about US$394 in 1960 to about US$6,254 by 2020 " +
+        "(constant 2015 US$) — roughly a tenfold increase.",
+      history_cite: "Maipose (2008, pp. 3–4); World Bank (2026). WDI, NY.GDP.PCAP.KD.",
+      factors: {
+        schools:   { text: "At independence Botswana had about 22 university graduates — a very small formal skills base from which to build.",
+                     cite: "Maipose (2008, pp. 3–4)" },
+        factories: { text: "Manufacturing's share of GDP has stayed low across the period — about 12% in 1965, 5% in 1990 and 6% in 2020 — despite tenfold income gains.",
+                     cite: "World Bank (2026). WDI, NV.IND.MANF.ZS." },
+        transport: { text: "At independence Botswana had about 8 km of tarred road — physical infrastructure was almost absent rather than inherited at scale.",
+                     cite: "Maipose (2008, pp. 3–4)" },
+        health:    { placeholder: true },
+        security:  { placeholder: true },
+        state:     { text: "Approved readings credit a combination of mineral resources, institutional choices, geography and demand conditions; no one channel is identified as sufficient on its own.",
+                     cite: "Maipose (2008); Hillbom (2014, pp. 155–176)" }
+      },
+      insight: "Large income gains without the inherited infrastructure or manufacturing depth of other cases. Challenges simple 'pre-existing capital enabled growth' claims.",
+      limit: "Does not show productive networks were unnecessary, or explain why diversification stayed limited."
+    },
+
+    mauritius: {
+      name: "Mauritius",
+      colour: "#D6A23A",
+      shape: "triangle",
+      dates: "Independence 12 March 1968",
+      history:
+        "Mauritius became independent on 12 March 1968, after French and then " +
+        "British rule, with an economy highly dependent on sugar. The export " +
+        "structure shifted in stages: sugar through the 1970s, EPZ " +
+        "manufacturing in the 1980s, then tourism and services.",
+      history_cite: "UNESCO World Heritage Centre (2006, pp. 22–25); World Bank (1997, Executive Summary, pp. 1–2); IMF (2014, pp. 5–8)",
+      factors: {
+        schools:   { text: "Human capital was carried through from the plantation period; adult literacy was already about 80% by 1990, with near-universal electricity access in the same window.",
+                     cite: "UNESCO World Heritage Centre (2006, pp. 22–25); World Bank (2026). WDI, SE.ADT.LITR.ZS; EG.ELC.ACCS.ZS." },
+        factories: { text: "Export processing zone manufacturing expanded in the 1980s; manufacturing's share of GDP was about 20% in 1990 and settled near 11% by 2020 as services grew.",
+                     cite: "World Bank (1997, Executive Summary, pp. 1–2); World Bank (2026). WDI, NV.IND.MANF.ZS." },
+        transport: { placeholder: true },
+        health:    { placeholder: true },
+        security:  { placeholder: true },
+        state:     { text: "Negotiated adaptation across sugar, EPZ, tourism and services depended on coalition management rather than a single-sector formula.",
+                     cite: "World Bank (1997, Executive Summary, pp. 1–2); IMF (2014, pp. 5–8)" }
+      },
+      insight: "Negotiated adaptation across export modes rather than a single formula; the same sugar system both financed and constrained the next phase.",
+      limit: "Does not show the small-island path can be copied, or that generalized trust caused firm scaling."
+    },
+
+    malaysia: {
+      name: "Malaysia",
+      colour: "#3E7568",
+      shape: "hexagon",
+      dates: "Malaya 1957 · Federation 1963",
+      history:
+        "Malaya became independent in 1957; the Federation of Malaysia formed " +
+        "in 1963 by combining Malaya with Sabah and Sarawak, which have " +
+        "distinct earlier histories. GDP per capita rose from about US$1,266 " +
+        "in 1960 to about US$10,171 by 2020 (constant 2015 US$).",
+      history_cite: "Asadullah et al. (2024, pp. 13–15); World Bank (2026). WDI, NY.GDP.PCAP.KD.",
+      factors: {
+        schools:   { placeholder: true },
+        factories: { text: "By 1992 about 90% of electronic products were produced by transnational affiliates; manufacturing's share of GDP rose from ~10% in 1960 to ~24% in 1990 and ~22% in 2020.",
+                     cite: "World Bank (2020, Box 2, pp. 44–47); World Bank (2026). WDI, NV.IND.MANF.ZS." },
+        transport: { placeholder: true },
+        health:    { placeholder: true },
+        security:  { placeholder: true },
+        state:     { text: "The Federation of Malaysia formed in 1963 with distinct earlier histories for Sabah and Sarawak; later policy worked explicitly on sectoral and ethnic distribution.",
+                     cite: "Asadullah et al. (2024, pp. 13–15)" }
+      },
+      insight: "Infrastructure, policy coordination and foreign investment built an export-oriented electronics cluster — connection to world markets, not only domestic depth.",
+      limit: "Does not show domestic ownership captured full value, that inherited networks were necessary, or that one channel explains growth."
+    },
+
+    philippines: {
+      name: "Philippines",
+      colour: "#A63A3A",
+      shape: "cross",
+      dates: "Independence 1946",
+      history:
+        "The Philippines became independent in 1946, after Spanish and then " +
+        "US rule, with the Japanese occupation of 1942–1945 interrupting " +
+        "institutions before independence. GDP per capita rose from about " +
+        "US$1,124 in 1960 to about US$3,199 by 2020 (constant 2015 US$) — the " +
+        "slowest growth in the magazine's six-country sample.",
+      history_cite: "Dolan (1993, pp. 5–6, 28–34, 76–77); World Bank (2026). WDI, NY.GDP.PCAP.KD.",
+      factors: {
+        schools:   { text: "At independence the Philippines inherited a civil service, representative institutions and a school system from Spanish and US rule.",
+                     cite: "Dolan (1993, pp. 28–34)" },
+        factories: { text: "A long import-substitution period shaped industrial structure; later electronics and business-services growth did not produce broad manufacturing deepening.",
+                     cite: "World Bank (1987, Vol. II, pp. 1–10)" },
+        transport: { placeholder: true },
+        health:    { placeholder: true },
+        security:  { text: "The Japanese occupation of 1942–1945 disrupted institutions before independence in 1946 and shaped the post-war setting.",
+                     cite: "Dolan (1993, pp. 5–6, 76–77)" },
+        state:     { text: "Formal inherited institutions coexisted with land and elite concentration — a structural pattern that shaped later outcomes.",
+                     cite: "Dolan (1993, pp. 28–34, 76–77); World Bank (1987, Vol. II, pp. 1–10)" }
+      },
+      insight: "Formal institutions and foreign links coexisted with limited domestic industrial deepening; labour moved mainly into services, not manufacturing.",
+      limit: "Does not show that one institutional feature caused the slower trajectory, or that one 'Asian model' describes the region."
+    }
+  };
+
+  const PROFILE_ORDER = ["ghana", "korea", "botswana", "mauritius", "malaysia", "philippines"];
+  const TIE_WINDOW = 10;
+
+  /* --------------------------------- Markers --------------------------- */
+
+  function markerSVG(key, size) {
+    const c = COUNTRIES[key];
+    const s = size || 20;
+    const svg = (inner) =>
+      `<svg viewBox="0 0 20 20" width="${s}" height="${s}" aria-hidden="true" focusable="false">${inner}</svg>`;
+    switch (c.shape) {
+      case "circle":   return svg(`<circle cx="10" cy="10" r="8" fill="${c.colour}" stroke="#252525" stroke-width="1.25"/>`);
+      case "square":   return svg(`<rect x="2" y="2" width="16" height="16" fill="${c.colour}" stroke="#252525" stroke-width="1.25"/>`);
+      case "triangle": return svg(
+        `<polygon points="10,2 18,17 2,17" fill="none" stroke="#252525" stroke-width="2.5"/>` +
+        `<polygon points="10,2 18,17 2,17" fill="${c.colour}" stroke="#252525" stroke-width="1"/>`);
+      case "diamond":  return svg(`<polygon points="10,2 18,10 10,18 2,10" fill="${c.colour}" stroke="#252525" stroke-width="1.25"/>`);
+      case "hexagon":  return svg(`<polygon points="10,2 17,6 17,14 10,18 3,14 3,6" fill="${c.colour}" stroke="#252525" stroke-width="1.25"/>`);
+      case "cross":    return svg(
+        `<path d="M4 10 H16 M10 4 V16" stroke="#252525" stroke-width="4.5" stroke-linecap="square"/>` +
+        `<path d="M4 10 H16 M10 4 V16" stroke="${c.colour}" stroke-width="2.5" stroke-linecap="square"/>`);
+      default:         return svg(`<circle cx="10" cy="10" r="8" fill="${c.colour}"/>`);
+    }
+  }
+  function markerBlock(key, size) {
+    const extra = size === 48 ? " marker--lg" : "";
+    return `<span class="marker${extra}">${markerSVG(key, size || 20)}</span>`;
+  }
+
+  /* -------------------------------- Rendering -------------------------- */
+
+  function renderCountryStrip() {
+    document.querySelector(".country-strip").innerHTML = PROFILE_ORDER
+      .map((key) => `<li class="country-chip">${markerBlock(key)}<span>${COUNTRIES[key].name}</span></li>`)
+      .join("");
+  }
+
+  function renderSliders() {
+    document.querySelector(".sliders").innerHTML = CATEGORIES.map((cat, i) => {
+      const id = `slider-${cat.key}`;
+      const valueId = `${id}-value`;
+      return `
+        <li class="slider-row" data-key="${cat.key}">
+          <span class="slider-num" aria-hidden="true">${i + 1}</span>
+          <label class="slider-label" for="${id}">${cat.label}</label>
+          <output class="slider-value" id="${valueId}" for="${id}" aria-live="off">0</output>
+          <input id="${id}" type="range" min="0" max="100" step="1" value="0"
+                 aria-describedby="${valueId}" />
+        </li>`;
+    }).join("");
+  }
+
+  function renderRubricTable() {
+    const header = `<tr><th scope="col">Profile</th>` +
+      CATEGORIES.map((c) => `<th scope="col" class="num">${c.label}</th>`).join("") +
+      `<th scope="col" class="num">Total</th></tr>`;
+    const rows = PROFILE_ORDER.map((key) => {
+      const w = PROFILES[key].weights;
+      const total = CATEGORIES.reduce((s, c) => s + w[c.key], 0);
+      const cells = CATEGORIES.map((c) => `<td class="num">${w[c.key]}</td>`).join("");
+      return `<tr><th scope="row">${markerBlock(key)}<span>${COUNTRIES[key].name}</span></th>${cells}<td class="num">${total}</td></tr>`;
+    }).join("");
+    document.getElementById("rubric-table-wrap").innerHTML = `
+      <table class="weights-table">
+        <caption class="visually-hidden">Six profiles, six categories, each summing to 100</caption>
+        <thead>${header}</thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  }
+
+  /* --------------------- Totals, clamping & validation ---------------- */
+
+  function readAllocation() {
+    const alloc = {};
+    CATEGORIES.forEach((c) => {
+      alloc[c.key] = parseInt(document.getElementById(`slider-${c.key}`).value, 10) || 0;
+    });
+    return alloc;
+  }
+  function totalOf(alloc) { return CATEGORIES.reduce((s, c) => s + alloc[c.key], 0); }
+
+  function enforceBudget() {
+    const alloc = readAllocation();
+    const total = totalOf(alloc);
+    const remaining = 100 - total;
+    CATEGORIES.forEach((c) => {
+      const slider = document.getElementById(`slider-${c.key}`);
+      const value = alloc[c.key];
+      const cap = Math.min(100, value + remaining);
+      slider.max = String(cap);
+      slider.dataset.locked = remaining === 0 && value < 100 ? "true" : "false";
+      const pct = Math.round((value / 100) * 100);
+      slider.style.setProperty("--pct", pct + "%");
+    });
+    return { alloc, total, remaining };
+  }
+
+  function updateTotals() {
+    const { alloc, total, remaining } = enforceBudget();
+    document.getElementById("total-value").textContent = total;
+    document.getElementById("progress-fill").style.width = total + "%";
+
+    CATEGORIES.forEach((c) => {
+      const v = alloc[c.key];
+      document.getElementById(`slider-${c.key}-value`).textContent = v;
+      const slider = document.getElementById(`slider-${c.key}`);
+      slider.setAttribute("aria-valuetext", `${v} points of a 100 point budget; ${remaining} remaining`);
+    });
+
+    const statusEl = document.getElementById("total-status");
+    const submit = document.getElementById("submit-btn");
+    if (total === 100) {
+      statusEl.textContent = "100 of 100 allocated. Ready.";
+      statusEl.dataset.state = "ok";
+      submit.disabled = false;
+    } else {
+      statusEl.textContent = `${remaining} point${remaining === 1 ? "" : "s"} left to allocate.`;
+      statusEl.dataset.state = "under";
+      submit.disabled = true;
+    }
+  }
+
+  /* ------------------------------- Matching ---------------------------- */
+
+  function distanceTo(alloc, weights) {
+    return CATEGORIES.reduce((s, c) => s + Math.abs(alloc[c.key] - weights[c.key]), 0);
+  }
+  function matchAllocation(alloc) {
+    const scored = PROFILE_ORDER
+      .map((key) => ({ key, distance: distanceTo(alloc, PROFILES[key].weights) }))
+      .sort((a, b) => a.distance - b.distance);
+    const best = scored[0].distance;
+    return { ranked: scored, winners: scored.filter((s) => s.distance <= best + TIE_WINDOW) };
+  }
+
+  /* ---------------------------- Result rendering ----------------------- */
+
+  function emphasisLabel(rank, yours) {
+    if (yours === 0) return "Not prioritised";
+    if (rank === 0)  return "Your top priority";
+    if (rank === 1)  return "Second priority";
+    if (rank === 2)  return "Third priority";
+    return "Smaller allocation";
+  }
+
+  function renderFactor(countryKey, catKey, rank, yours) {
+    const country = COUNTRIES[countryKey];
+    const profilePts = PROFILES[countryKey].weights[catKey];
+    const factor = country.factors[catKey];
+    const diff = yours - profilePts;
+    const diffStr = diff > 0 ? `+${diff}` : String(diff);
+    const emphasis = emphasisLabel(rank, yours);
+    const label = CATEGORIES.find((c) => c.key === catKey).label;
+
+    const topClass = rank < 3 && yours > 0 ? " factor--top" : "";
+    const zeroClass = yours === 0 ? " factor--zero" : "";
+
+    let evidence;
+    if (factor.placeholder) {
+      evidence = `
+        <p class="factor-evidence placeholder">${PLACEHOLDER_TEXT}</p>
+        <cite>${PLACEHOLDER_CITE}</cite>`;
+    } else {
+      evidence = `
+        <p class="factor-evidence">${factor.text}</p>
+        <cite>${factor.cite}</cite>`;
+    }
+
+    return `
+      <li class="factor${topClass}${zeroClass}" data-cat="${catKey}">
+        <div class="factor-head">
+          <p class="factor-rank">${emphasis}</p>
+          <h4 class="factor-label">${label}</h4>
+        </div>
+        <div class="factor-points">
+          <span class="factor-you"><span class="dim">You</span> <strong>${yours}</strong></span>
+          <span class="factor-prof"><span class="dim">${country.name}'s profile</span> <strong>${profilePts}</strong></span>
+          <span class="factor-diff"><span class="dim">Difference</span> <strong>${diffStr}</strong></span>
+        </div>
+        <div class="factor-body">
+          <p class="factor-intro"><strong>How ${country.name} did on this factor</strong></p>
+          ${evidence}
+        </div>
+      </li>`;
+  }
+
+  function renderDistanceTable(ranked) {
+    const best = ranked[0].distance;
+    const rows = ranked.map((r) => `
+      <tr class="${r.distance === best ? "winner" : ""}">
+        <th scope="row">${markerBlock(r.key)}<span>${COUNTRIES[r.key].name}</span></th>
+        <td class="num">${r.distance}</td>
+      </tr>`).join("");
+    return `
+      <table class="distance-table">
+        <caption>Rubric distance — smaller is closer</caption>
+        <thead><tr><th scope="col">Profile</th><th scope="col" class="num">Distance</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  }
+
+  function renderResult(alloc) {
+    const resultEl = document.getElementById("result");
+    const body = document.getElementById("result-body");
+    const match = matchAllocation(alloc);
+    const primary = match.winners[0];
+    const near = match.winners.slice(1);
+    const country = COUNTRIES[primary.key];
+
+    const orderedCats = [...CATEGORIES]
+      .map((c) => ({ key: c.key, yours: alloc[c.key] }))
+      .sort((a, b) => b.yours - a.yours);
+
+    const factorItems = orderedCats
+      .map((o, i) => renderFactor(primary.key, o.key, i, o.yours))
+      .join("");
+
+    const nearSentence = near.length
+      ? `<p class="close-fits"><strong>Close fits:</strong> ${near.map((n) =>
+          `${COUNTRIES[n.key].name} (within ${Math.abs(n.distance - primary.distance)} rubric points)`).join("; ")}.</p>`
+      : "";
+
+    body.innerHTML = `
+      <div class="result-hero" style="--country:${country.colour}">
+        ${markerBlock(primary.key, 48)}
+        <div>
+          <p class="eyebrow">Your closest discussion profile</p>
+          <h3>${country.name}</h3>
+        </div>
+      </div>
+
+      <p class="result-caveat">
+        <strong>Discussion prompt only.</strong> A classroom archetype under an authored rubric — not a historical budget, a measurement, a policy recommendation, or evidence you share a culture.
+      </p>
+
+      <div class="result-body-inner" style="--country:${country.colour}">
+
+        <section class="result-section brief-history">
+          <h4>${country.name} in brief</h4>
+          <p>${country.history}</p>
+          <cite>${country.history_cite}</cite>
+          ${nearSentence}
+        </section>
+
+        <section class="result-section factors-section">
+          <h4>Your six factors, in ${country.name}'s record</h4>
+          <p class="factors-lede">
+            Your points are ordered from highest to lowest. For each factor,
+            the approved registry's evidence on how ${country.name} actually
+            fared on that factor is below. Where country-specific evidence
+            has not yet been registered, the activity shows an honest
+            placeholder.
+          </p>
+          <ol class="factors" role="list">
+            ${factorItems}
+          </ol>
+        </section>
+
+        <section class="insight-grid">
+          <div class="insight">
+            <h4>What this case shows</h4>
+            <p>${country.insight}</p>
+          </div>
+          <div class="limit">
+            <h4>What it cannot prove</h4>
+            <p>${country.limit}</p>
+          </div>
+        </section>
+
+        <details class="ranking-details">
+          <summary>Full ranking and rubric</summary>
+          <p class="muted small">${PROFILES[primary.key].distinguishing_pattern}</p>
+          ${renderDistanceTable(match.ranked)}
+        </details>
+      </div>`;
+
+    resultEl.hidden = false;
+    resultEl.setAttribute("tabindex", "-1");
+    resultEl.focus({ preventScroll: false });
+    resultEl.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  /* -------------------------------- Wire up ---------------------------- */
+
+  function resetAll(focusFirst) {
+    CATEGORIES.forEach((c) => { document.getElementById(`slider-${c.key}`).value = 0; });
+    document.getElementById("result").hidden = true;
+    updateTotals();
+    if (focusFirst) document.getElementById(`slider-${CATEGORIES[0].key}`).focus();
+  }
+
+  function init() {
+    renderCountryStrip();
+    renderSliders();
+    renderRubricTable();
+
+    CATEGORIES.forEach((c) => {
+      const el = document.getElementById(`slider-${c.key}`);
+      el.addEventListener("input", updateTotals);
+      el.addEventListener("change", updateTotals);
+    });
+
+    document.getElementById("allocator-form").addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const alloc = readAllocation();
+      if (totalOf(alloc) !== 100) return;
+      renderResult(alloc);
+    });
+
+    document.getElementById("reset-btn").addEventListener("click", () => resetAll(true));
+    document.getElementById("retry-same").addEventListener("click", () => {
+      document.getElementById("result").hidden = true;
+      document.getElementById("allocator").scrollIntoView({ behavior: "smooth", block: "start" });
+      document.getElementById(`slider-${CATEGORIES[0].key}`).focus();
+    });
+    document.getElementById("retry-reset").addEventListener("click", () => {
+      resetAll(false);
+      document.getElementById("allocator").scrollIntoView({ behavior: "smooth", block: "start" });
+      document.getElementById(`slider-${CATEGORIES[0].key}`).focus();
+    });
+
+    updateTotals();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+  </script>
+</body>
+</html>
